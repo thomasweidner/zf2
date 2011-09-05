@@ -27,7 +27,8 @@ namespace Zend\Locale\Data;
 use Zend\Cache\Cache,
     Zend\Cache\Frontend as CacheFrontend,
     Zend\Locale\Locale,
-    Zend\Locale\Exception\InvalidArgumentException;
+    Zend\Locale\Exception\InvalidArgumentException,
+    Zend\Locale\Exception\UnsupportedMethodException;
 
 /**
  * Locale data reader, handles the CLDR
@@ -182,56 +183,448 @@ abstract class AbstractLocale
      * Returns detailed informations from the language table
      * If no detail is given a complete table is returned
      *
+     * @param string  $detail  Detail to return information for
      * @param string  $locale  Normalized locale
      * @param boolean $reverse Invert output of the data
-     * @param string|array $detail Detail to return information for
-     * @return array
+     * @return string|array
      */
-    public static function getDisplayLanguage($locale, $invert = false, $detail = null)
+    public static function getDisplayLanguage($detail = null, $locale = null, $invert = false)
     {
-        throw new UnsupportedMethod('This implementation does not support the selected locale information');
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
     }
 
     /**
      * Returns detailed informations from the script table
      * If no detail is given a complete table is returned
      *
+     * @param string  $detail Detail to return information for
      * @param string  $locale Normalized locale
      * @param boolean $invert Invert output of the data
-     * @param string|array $detail Detail to return information for
-     * @return array
+     * @return string|array
      */
-    public static function getDisplayScript($locale, $invert = false, $detail = null)
+    public static function getDisplayScript($detail = null, $locale = null, $invert = false)
     {
-        throw new UnsupportedMethod('This implementation does not support the selected locale information');
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
     }
 
     /**
      * Returns detailed informations from the territory table
      * If no detail is given a complete table is returned
      *
+     * @param string  $detail Detail to return information for
      * @param string  $locale Normalized locale
      * @param boolean $invert Invert output of the data
-     * @param string|array $detail Detail to return information for
-     * @return array
+     * @return string|array
      */
-    public static function getDisplayTerritory($locale, $invert = false, $detail = null)
+    public static function getDisplayTerritory($detail = null, $locale = null, $invert = false)
     {
-        throw new UnsupportedMethod('This implementation does not support the selected locale information');
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
     }
 
     /**
      * Returns detailed informations from the variant table
      * If no detail is given a complete table is returned
      *
+     * @param string  $detail Detail to return information for
      * @param string  $locale Normalized locale
      * @param boolean $invert Invert output of the data
-     * @param string|array $detail Detail to return information for
-     * @return array
+     * @return string|array
      */
-    public static function getDisplayVariant($locale, $invert = false, $detail = null)
+    public static function getDisplayVariant($detail = null, $locale = null, $invert = false)
     {
-        throw new UnsupportedMethod('This implementation does not support the selected locale information');
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the key table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getDisplayKey($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the type table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getDisplayType($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the measurementsystemname table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getDisplayMeasurement($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the codepattern table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getDisplayPattern($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the layout table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getLayout($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the characters table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getCharacter($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the delimiters table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getDelimiter($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the calendar defaults
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getCalendarDefault($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the date format patterns
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getCalendarDate($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the datetime format patterns
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getCalendarDateTime($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the datetime interval format patterns
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getCalendarInterval($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the time format patterns
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getCalendarTime($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the month table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getCalendarMonth($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the day table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getCalendarDay($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the quarter table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getCalendarQuarter($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the day period table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getCalendarDayPeriod($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the era table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getCalendarEra($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the fields table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getCalendarField($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the fields table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getCalendarRelativeField($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the fields table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getTimeZoneFormat($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the timezone table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getTimeZone($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the timezone names table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getTimeZoneName($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the timezone names table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getNumberSymbol($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the timezone names table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getNumberSymbols($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the timezone names table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getNumberFormat($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the currency names table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getCurrencyName($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the timezone names table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getUnitPattern($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
+    }
+
+    /**
+     * Returns detailed informations from the timezone names table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getPosixMessage($detail = null, $locale = null, $invert = false)
+    {
+        throw new UnsupportedMethodException('This implementation does not support the selected locale information');
     }
 
 /**

@@ -374,6 +374,13 @@ class Locale
     protected static $_fixed;
 
     /**
+     * Locale library which will be used
+     *
+     * @var string
+     */
+    protected static $_library = 'Cldr';
+    
+    /**
      * Generates a locale object
      * If no locale is given a automatic search is done
      * Then the most probable locale will be automatically set
@@ -745,44 +752,16 @@ class Locale
     }
 
     /**
-     * Returns localized informations as array, supported are several
-     * types of informations.
-     * For detailed information about the types look into the documentation
+     * Calls methods from the attached library
      *
-     * @param  string             $path   (Optional) Type of information to return
-     * @param  string|\Zend\Locale\Locale $locale (Optional) Locale|Language for which this informations should be returned
-     * @param  string             $value  (Optional) Value for detail list
-     * @return array Array with the wished information in the given language
+     * @param  string $name      Function name
+     * @param  array  $arguments Arguments for this function
+     * @return mixed
      */
-    public static function getTranslationList($path = null, $locale = null, $value = null)
+    public static function __callStatic($name, array $arguments)
     {
-        $locale = self::findLocale($locale);
-        $result = Data\Cldr::getList($locale, $path, $value);
-        if (empty($result) === true) {
-            return false;
-        }
-
-        return $result;
-    }
-
-    /**
-     * Returns a localized information string, supported are several types of informations.
-     * For detailed information about the types look into the documentation
-     *
-     * @param  string             $value  Name to get detailed information about
-     * @param  string             $path   (Optional) Type of information to return
-     * @param  string|\Zend\Locale\Locale $locale (Optional) Locale|Language for which this informations should be returned
-     * @return string|false The wished information in the given language
-     */
-    public static function getTranslation($value = null, $path = null, $locale = null)
-    {
-        $locale = self::findLocale($locale);
-        $result = Data\Cldr::getContent($locale, $path, $value);
-        if (empty($result) === true) {
-            return false;
-        }
-
-        return $result;
+    	$callback = array(__NAMESPACE__ . '\\Data\\' . self::$_library, $name);
+        return call_user_func_array($callback, $arguments);
     }
 
     /**
@@ -791,7 +770,7 @@ class Locale
      * @param  string|\Zend\Locale\Locale $locale (Optional) Locale for language translation
      * @return array
      */
-    public static function getQuestion($locale = null)
+    public static function _OLD_getQuestion($locale = null)
     {
         $locale            = self::findLocale($locale);
         $quest             = Data\Cldr::getList($locale, 'question');
@@ -813,7 +792,7 @@ class Locale
      * @param  string $input Regex to parse
      * @return string
      */
-    private static function _prepareQuestionString($input)
+    private static function _OLD__prepareQuestionString($input)
     {
         $regex = '';
         if (is_array($input) === true) {
@@ -957,69 +936,6 @@ class Locale
         $list = self::$_localeData;
         unset($list['root']);
         return $list;
-    }
-
-    /**
-     * Returns the set cache
-     *
-     * @return \Zend\Cache\Core The set cache
-     */
-    public static function getCache()
-    {
-        return Data\Cldr::getCache();
-    }
-
-    /**
-     * Sets a cache
-     *
-     * @param  \Zend\Cache\Frontend $cache Cache to set
-     * @return void
-     */
-    public static function setCache(\Zend\Cache\Frontend $cache)
-    {
-        Data\Cldr::setCache($cache);
-    }
-
-    /**
-     * Returns true when a cache is set
-     *
-     * @return boolean
-     */
-    public static function hasCache()
-    {
-        return Data\Cldr::hasCache();
-    }
-
-    /**
-     * Removes any set cache
-     *
-     * @return void
-     */
-    public static function removeCache()
-    {
-        Data\Cldr::removeCache();
-    }
-
-    /**
-     * Clears all set cache data
-     *
-     * @param string $tag Tag to clear when the default tag name is not used
-     * @return void
-     */
-    public static function clearCache($tag)
-    {
-        Data\Cldr::clearCache($tag);
-    }
-
-    /**
-     * Disables the set cache
-     *
-     * @param  boolean $flag True disables any set cache, default is false
-     * @return void
-     */
-    public static function disableCache($flag)
-    {
-        Data\Cldr::disableCache($flag);
     }
 
     /**
