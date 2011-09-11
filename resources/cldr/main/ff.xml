@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4685 $"/>
-		<generation date="$Date: 2010-02-18 01:54:20 -0600 (Thu, 18 Feb 2010) $"/>
+		<version number="$Revision: 5799 $"/>
+		<generation date="$Date: 2011-05-02 01:19:45 -0500 (Mon, 02 May 2011) $"/>
 		<language type="ff"/>
 	</identity>
 	<localeDisplayNames>
@@ -70,7 +70,7 @@
 			<territory type="AU">Ostaraalii</territory>
 			<territory type="AW">Aruuba</territory>
 			<territory type="AZ">Ajerbayjaan</territory>
-			<territory type="BA">Bosnii  Hersegowiin</territory>
+			<territory type="BA">Bosnii Hersegowiin</territory>
 			<territory type="BB">Barbadoos</territory>
 			<territory type="BD">Banglaadees</territory>
 			<territory type="BE">Beljik</territory>
@@ -460,7 +460,6 @@
 					<availableFormats>
 						<dateFormatItem id="M">M</dateFormatItem>
 						<dateFormatItem id="Md">d/M</dateFormatItem>
-						<dateFormatItem id="Med">EEE d/M</dateFormatItem>
 						<dateFormatItem id="MMd">d/MM</dateFormatItem>
 						<dateFormatItem id="MMdd">dd/MM</dateFormatItem>
 						<dateFormatItem id="MMM">MMM</dateFormatItem>
@@ -527,7 +526,7 @@
 		</calendars>
 	</dates>
 	<numbers>
-		<symbols>
+		<symbols numberSystem="latn">
 			<decimal>,</decimal>
 			<group> </group>
 		</symbols>

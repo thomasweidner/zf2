@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4763 $"/>
-		<generation date="$Date: 2010-02-27 01:03:37 -0600 (Sat, 27 Feb 2010) $"/>
+		<version number="$Revision: 5798 $"/>
+		<generation date="$Date: 2011-05-02 01:05:34 -0500 (Mon, 02 May 2011) $"/>
 		<language type="ku"/>
 		<script type="Latn"/>
 	</identity>
 	<localeDisplayNames>
 		<languages>
-			<language type="ar">erebî</language>
-			<language type="en">îngilîzî</language>
-			<language type="ja">japonî</language>
-			<language type="ku">kurdî</language>
+			<language type="ar" draft="unconfirmed">erebî</language>
+			<language type="en" draft="unconfirmed">îngilîzî</language>
+			<language type="ja" draft="unconfirmed">japonî</language>
+			<language type="ku" draft="unconfirmed">kurdî</language>
 		</languages>
 		<scripts>
-			<script type="Arab">erebî</script>
+			<script type="Arab" draft="unconfirmed">erebî</script>
 		</scripts>
 		<territories>
-			<territory type="001">Cîhan</territory>
-			<territory type="TR">Tirkiye</territory>
+			<territory type="001" draft="unconfirmed">Cîhan</territory>
+			<territory type="TR" draft="unconfirmed">Tirkiye</territory>
 		</territories>
 		<keys>
-			<key type="calendar">salname</key>
-			<key type="collation">rêzkirin</key>
+			<key type="calendar" draft="unconfirmed">salname</key>
+			<key type="collation" draft="unconfirmed">rêzkirin</key>
 		</keys>
 		<types>
-			<type type="gregorian" key="calendar">mîladî</type>
-			<type type="islamic" key="calendar">hîcrî</type>
+			<type type="gregorian" key="calendar" draft="unconfirmed">mîladî</type>
+			<type type="islamic" key="calendar" draft="unconfirmed">hîcrî</type>
 		</types>
 	</localeDisplayNames>
 	<layout>
@@ -35,7 +35,7 @@
 	</layout>
 	<characters>
 		<exemplarCharacters>[a b c ç d e ê f g h i î j k l m n o p q r s ş t u û v w x y z]</exemplarCharacters>
-		<exemplarCharacters type="index">[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]</exemplarCharacters>
+		<exemplarCharacters type="index" draft="unconfirmed">[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]</exemplarCharacters>
 	</characters>
 	<dates>
 		<calendars>
@@ -43,112 +43,112 @@
 				<months>
 					<monthContext type="format">
 						<monthWidth type="abbreviated">
-							<month type="1">çil</month>
-							<month type="2">sib</month>
-							<month type="3">adr</month>
-							<month type="4">nîs</month>
-							<month type="5">gul</month>
-							<month type="6">hez</month>
-							<month type="7">tîr</month>
+							<month type="1" draft="unconfirmed">çil</month>
+							<month type="2" draft="unconfirmed">sib</month>
+							<month type="3" draft="unconfirmed">adr</month>
+							<month type="4" draft="unconfirmed">nîs</month>
+							<month type="5" draft="unconfirmed">gul</month>
+							<month type="6" draft="unconfirmed">hez</month>
+							<month type="7" draft="unconfirmed">tîr</month>
 						</monthWidth>
 						<monthWidth type="wide">
-							<month type="1">çile</month>
-							<month type="2">sibat</month>
-							<month type="3">adar</month>
-							<month type="4">nîsan</month>
-							<month type="5">gulan</month>
-							<month type="6">hezîran</month>
+							<month type="1" draft="unconfirmed">çile</month>
+							<month type="2" draft="unconfirmed">sibat</month>
+							<month type="3" draft="unconfirmed">adar</month>
+							<month type="4" draft="unconfirmed">nîsan</month>
+							<month type="5" draft="unconfirmed">gulan</month>
+							<month type="6" draft="unconfirmed">hezîran</month>
 						</monthWidth>
 					</monthContext>
 					<monthContext type="stand-alone">
 						<monthWidth type="narrow">
-							<month type="1">ç</month>
-							<month type="2">s</month>
-							<month type="3">a</month>
-							<month type="4">n</month>
-							<month type="5">g</month>
-							<month type="6">h</month>
+							<month type="1" draft="unconfirmed">ç</month>
+							<month type="2" draft="unconfirmed">s</month>
+							<month type="3" draft="unconfirmed">a</month>
+							<month type="4" draft="unconfirmed">n</month>
+							<month type="5" draft="unconfirmed">g</month>
+							<month type="6" draft="unconfirmed">h</month>
 						</monthWidth>
 					</monthContext>
 				</months>
 				<days>
 					<dayContext type="format">
 						<dayWidth type="abbreviated">
-							<day type="sun">yş</day>
-							<day type="mon">dş</day>
-							<day type="tue">sş</day>
-							<day type="wed">çş</day>
-							<day type="thu">pş</day>
-							<day type="fri">în</day>
-							<day type="sat">ş</day>
+							<day type="sun" draft="unconfirmed">yş</day>
+							<day type="mon" draft="unconfirmed">dş</day>
+							<day type="tue" draft="unconfirmed">sş</day>
+							<day type="wed" draft="unconfirmed">çş</day>
+							<day type="thu" draft="unconfirmed">pş</day>
+							<day type="fri" draft="unconfirmed">în</day>
+							<day type="sat" draft="unconfirmed">ş</day>
 						</dayWidth>
 						<dayWidth type="wide">
-							<day type="sun">yekşem</day>
-							<day type="mon">duşem</day>
-							<day type="tue">şê</day>
-							<day type="wed">çarşem</day>
-							<day type="thu">pêncşem</day>
-							<day type="fri">în</day>
-							<day type="sat">şemî</day>
+							<day type="sun" draft="unconfirmed">yekşem</day>
+							<day type="mon" draft="unconfirmed">duşem</day>
+							<day type="tue" draft="unconfirmed">şê</day>
+							<day type="wed" draft="unconfirmed">çarşem</day>
+							<day type="thu" draft="unconfirmed">pêncşem</day>
+							<day type="fri" draft="unconfirmed">în</day>
+							<day type="sat" draft="unconfirmed">şemî</day>
 						</dayWidth>
 					</dayContext>
 					<dayContext type="stand-alone">
 						<dayWidth type="narrow">
-							<day type="sun">y</day>
-							<day type="mon">d</day>
-							<day type="tue">s</day>
-							<day type="wed">ç</day>
-							<day type="thu">p</day>
-							<day type="fri">î</day>
-							<day type="sat">ş</day>
+							<day type="sun" draft="unconfirmed">y</day>
+							<day type="mon" draft="unconfirmed">d</day>
+							<day type="tue" draft="unconfirmed">s</day>
+							<day type="wed" draft="unconfirmed">ç</day>
+							<day type="thu" draft="unconfirmed">p</day>
+							<day type="fri" draft="unconfirmed">î</day>
+							<day type="sat" draft="unconfirmed">ş</day>
 						</dayWidth>
 					</dayContext>
 				</days>
 				<quarters>
 					<quarterContext type="format">
 						<quarterWidth type="wide">
-							<quarter type="1">Ç1</quarter>
-							<quarter type="2">Ç2</quarter>
-							<quarter type="3">Ç3</quarter>
-							<quarter type="4">Ç4</quarter>
+							<quarter type="1" draft="unconfirmed">Ç1</quarter>
+							<quarter type="2" draft="unconfirmed">Ç2</quarter>
+							<quarter type="3" draft="unconfirmed">Ç3</quarter>
+							<quarter type="4" draft="unconfirmed">Ç4</quarter>
 						</quarterWidth>
 					</quarterContext>
 				</quarters>
 				<dayPeriods>
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="wide">
-							<dayPeriod type="am">BN</dayPeriod>
-							<dayPeriod type="pm">PN</dayPeriod>
+							<dayPeriod type="am" draft="unconfirmed">BN</dayPeriod>
+							<dayPeriod type="pm" draft="unconfirmed">PN</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 				</dayPeriods>
 				<eras>
 					<eraAbbr>
-						<era type="0">BZ</era>
-						<era type="1">PZ</era>
+						<era type="0" draft="unconfirmed">BZ</era>
+						<era type="1" draft="unconfirmed">PZ</era>
 					</eraAbbr>
 				</eras>
 				<fields>
 					<field type="year">
-						<displayName>sal</displayName>
+						<displayName draft="unconfirmed">sal</displayName>
 					</field>
 					<field type="month">
-						<displayName>meh</displayName>
+						<displayName draft="unconfirmed">meh</displayName>
 					</field>
 					<field type="week">
-						<displayName>hefte</displayName>
+						<displayName draft="unconfirmed">hefte</displayName>
 					</field>
 					<field type="day">
-						<displayName>roj</displayName>
+						<displayName draft="unconfirmed">roj</displayName>
 					</field>
 					<field type="hour">
-						<displayName>demjimêr</displayName>
+						<displayName draft="unconfirmed">demjimêr</displayName>
 					</field>
 					<field type="minute">
-						<displayName>xulek</displayName>
+						<displayName draft="unconfirmed">xulek</displayName>
 					</field>
 					<field type="second">
-						<displayName>çirke</displayName>
+						<displayName draft="unconfirmed">çirke</displayName>
 					</field>
 				</fields>
 			</calendar>
@@ -156,29 +156,35 @@
 				<months>
 					<monthContext type="format">
 						<monthWidth type="wide">
-							<month type="1">muẖerem</month>
-							<month type="2">sefer</month>
-							<month type="3">rebîʿulewel</month>
-							<month type="4">rebîʿulaxer</month>
-							<month type="5">cemazîyelewel</month>
-							<month type="6">cemazîyelaxer</month>
-							<month type="7">receb</month>
-							<month type="8">şeʿban</month>
-							<month type="9">remezan</month>
-							<month type="10">şewal</month>
-							<month type="11">zîlqeʿde</month>
-							<month type="12">zîlẖece</month>
+							<month type="1" draft="unconfirmed">muẖerem</month>
+							<month type="2" draft="unconfirmed">sefer</month>
+							<month type="3" draft="unconfirmed">rebîʿulewel</month>
+							<month type="4" draft="unconfirmed">rebîʿulaxer</month>
+							<month type="5" draft="unconfirmed">cemazîyelewel</month>
+							<month type="6" draft="unconfirmed">cemazîyelaxer</month>
+							<month type="7" draft="unconfirmed">receb</month>
+							<month type="8" draft="unconfirmed">şeʿban</month>
+							<month type="9" draft="unconfirmed">remezan</month>
+							<month type="10" draft="unconfirmed">şewal</month>
+							<month type="11" draft="unconfirmed">zîlqeʿde</month>
+							<month type="12" draft="unconfirmed">zîlẖece</month>
 						</monthWidth>
 					</monthContext>
 				</months>
 			</calendar>
 		</calendars>
 	</dates>
+	<numbers>
+		<currencies>
+			<currency type="TRY">
+				<symbol>TL</symbol>
+			</currency>
+		</currencies>
+	</numbers>
 	<posix>
 		<messages>
-			<yesstr>erê:e</yesstr>
-			<nostr>na:n</nostr>
+			<yesstr draft="unconfirmed">erê:e</yesstr>
+			<nostr draft="unconfirmed">na:n</nostr>
 		</messages>
 	</posix>
 </ldml>
-

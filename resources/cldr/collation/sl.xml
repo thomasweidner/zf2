@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
 		<version number="$Revision: 5022 $" />
@@ -17,6 +17,19 @@
 				<reset>D</reset>
 				<p>đ</p>
 				<t>Đ</t>
+				<reset>S</reset>
+				<p>š</p>
+				<t>Š</t>
+				<reset>Z</reset>
+				<p>ž</p>
+				<t>Ž</t>
+			</rules>
+		</collation>
+		<collation type="standard" draft="unconfirmed" alt="proposed">
+			<rules>
+				<reset>C</reset>
+				<p>č</p>
+				<t>Č</t>
 				<reset>S</reset>
 				<p>š</p>
 				<t>Š</t>

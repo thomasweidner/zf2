@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 5094 $"/>
-		<generation date="$Date: 2010-10-13 11:33:36 -0500 (Wed, 13 Oct 2010) $"/>
+		<version number="$Revision: 5968 $"/>
+		<generation date="$Date: 2011-07-05 15:52:21 -0500 (Tue, 05 Jul 2011) $"/>
 		<language type="sl"/>
 	</identity>
 	<localeDisplayNames>
@@ -47,6 +47,7 @@
 			<language type="awa">avadščina</language>
 			<language type="ay">ajmarščina</language>
 			<language type="az">azerbajdžanščina</language>
+			<language type="az" alt="short" draft="contributed">azerščina</language>
 			<language type="ba">baškirščina</language>
 			<language type="bad">bandaški jezik</language>
 			<language type="bai">bamilekejski jezik</language>
@@ -114,6 +115,7 @@
 			<language type="dar">darginščina</language>
 			<language type="day">dajaščina</language>
 			<language type="de">nemščina</language>
+			<language type="de_AT" draft="contributed">avstrijska nemščina</language>
 			<language type="de_CH">visoka nemščina (Švica)</language>
 			<language type="del">delavarščina</language>
 			<language type="den">slavejščina</language>
@@ -134,6 +136,8 @@
 			<language type="el">grščina</language>
 			<language type="elx">elamščina</language>
 			<language type="en">angleščina</language>
+			<language type="en_AU" draft="contributed">avstralska angleščina</language>
+			<language type="en_CA" draft="contributed">kanadska angleščina</language>
 			<language type="en_GB">angleščina (VB)</language>
 			<language type="en_US">angleščina (ZDA)</language>
 			<language type="enm">srednja angleščina</language>
@@ -155,6 +159,8 @@
 			<language type="fo">ferščina</language>
 			<language type="fon">fonščina</language>
 			<language type="fr">francoščina</language>
+			<language type="fr_CA" draft="contributed">kanadska francoščina</language>
+			<language type="fr_CH" draft="contributed">švicarska francoščina</language>
 			<language type="frm">srednja francoščina</language>
 			<language type="fro">stara francoščina</language>
 			<language type="frr">severna frizijščina</language>
@@ -181,7 +187,6 @@
 			<language type="gsw">nemščina (Švica)</language>
 			<language type="gu">gudžaratščina</language>
 			<language type="gv">manščina</language>
-			<language type="gwi">gwi</language>
 			<language type="ha">havščina</language>
 			<language type="hai">haidščina</language>
 			<language type="haw">havajščina</language>
@@ -204,7 +209,6 @@
 			<language type="id">indonezijščina</language>
 			<language type="ie">interlingve</language>
 			<language type="ig">igboščina</language>
-			<language type="ii">ii</language>
 			<language type="ijo">ijo</language>
 			<language type="ik">inupiaščina</language>
 			<language type="ilo">ilokanščina</language>
@@ -226,13 +230,11 @@
 			<language type="kaa">karakalpaščina</language>
 			<language type="kab">kabilščina</language>
 			<language type="kac">kačinščina</language>
-			<language type="kaj">kaj</language>
 			<language type="kam">kamba</language>
 			<language type="kar">karenščina</language>
 			<language type="kaw">kavi</language>
 			<language type="kbd">kabardinščina</language>
 			<language type="kcg">tjapska nigerijščina</language>
-			<language type="kfo">kfo</language>
 			<language type="kg">kongovščina</language>
 			<language type="kha">kasi</language>
 			<language type="khi">koisanski jezik</language>
@@ -312,7 +314,6 @@
 			<language type="mt">malteščina</language>
 			<language type="mul">več jezikov</language>
 			<language type="mun">mundski jezik</language>
-			<language type="mus">mus</language>
 			<language type="mwl">mirandeščina</language>
 			<language type="mwr">marvarščina</language>
 			<language type="my">burmanščina</language>
@@ -327,7 +328,6 @@
 			<language type="nds">nizka nemščina</language>
 			<language type="ne">nepalščina</language>
 			<language type="new">nevarščina</language>
-			<language type="ng">ng</language>
 			<language type="nia">niaščina</language>
 			<language type="nic">nigrsko-kordofanski jezik</language>
 			<language type="niu">niuejščina</language>
@@ -337,7 +337,6 @@
 			<language type="no">norveščina</language>
 			<language type="nog">nogajščina</language>
 			<language type="non">stara nordijščina</language>
-			<language type="nqo">nqo</language>
 			<language type="nr">južna ndebelščina</language>
 			<language type="nso">severna sotščina</language>
 			<language type="nub">nubijski jezik</language>
@@ -359,7 +358,6 @@
 			<language type="pa">pandžabščina</language>
 			<language type="paa">papuanski jezik</language>
 			<language type="pag">pangasinanščina</language>
-			<language type="pal">pal</language>
 			<language type="pam">pampanščina</language>
 			<language type="pap">papiamentu</language>
 			<language type="pau">palavanščina</language>
@@ -372,6 +370,7 @@
 			<language type="pra">prakritski jezik</language>
 			<language type="pro">stara provansalščina</language>
 			<language type="ps">paštu</language>
+			<language type="ps" alt="variant" draft="contributed">paštunščina</language>
 			<language type="pt">portugalščina</language>
 			<language type="pt_BR">brazilska portugalščina</language>
 			<language type="pt_PT">iberska portugalščina</language>
@@ -384,15 +383,11 @@
 			<language type="ro">romunščina</language>
 			<language type="roa">romanski jezik</language>
 			<language type="rom">romščina</language>
-			<language type="root">root</language>
 			<language type="ru">ruščina</language>
 			<language type="rup">aromunščina</language>
 			<language type="rw">ruandščina</language>
 			<language type="sa">sanskrt</language>
-			<language type="sad">sad</language>
 			<language type="sah">jakutščina</language>
-			<language type="sai">sai</language>
-			<language type="sal">sal</language>
 			<language type="sam">samaritanska aramejščina</language>
 			<language type="sas">sasaščina</language>
 			<language type="sat">santalščina</language>
@@ -422,9 +417,7 @@
 			<language type="smn">inarska samijščina</language>
 			<language type="sms">samijščina Skolt</language>
 			<language type="sn">šonščina</language>
-			<language type="snk">snk</language>
 			<language type="so">somalščina</language>
-			<language type="sog">sog</language>
 			<language type="son">songajščina</language>
 			<language type="sq">albanščina</language>
 			<language type="sr">srbščina</language>
@@ -446,7 +439,6 @@
 			<language type="tai">tajski jezik</language>
 			<language type="te">telugijščina</language>
 			<language type="tem">temnejščina</language>
-			<language type="ter">ter</language>
 			<language type="tet">tetumščina</language>
 			<language type="tg">tadžiščina</language>
 			<language type="th">tajščina</language>
@@ -476,6 +468,7 @@
 			<language type="tyv">tuvinščina</language>
 			<language type="udm">udmurtščina</language>
 			<language type="ug">ujgurščina</language>
+			<language type="ug" alt="variant" draft="contributed">ujgurščina</language>
 			<language type="uga">ugaritski jezik</language>
 			<language type="uk">ukrajinščina</language>
 			<language type="umb">umbundščina</language>
@@ -502,7 +495,6 @@
 			<language type="yo">jorubščina</language>
 			<language type="ypk">jupiški jezik</language>
 			<language type="yue">kantonščina</language>
-			<language type="za">za</language>
 			<language type="zap">zapoteščina</language>
 			<language type="zbl">znakovni jezik Bliss</language>
 			<language type="zen">zenaščina</language>
@@ -517,6 +509,7 @@
 		</languages>
 		<scripts>
 			<script type="Arab">arabski</script>
+			<script type="Arab" alt="variant" draft="contributed">Perzijskoarabski</script>
 			<script type="Armi">imperialno-aramejski</script>
 			<script type="Armn">armenski</script>
 			<script type="Avst">avestanski</script>
@@ -529,9 +522,7 @@
 			<script type="Brai">braillova pisava</script>
 			<script type="Bugi">buginski</script>
 			<script type="Buhd">buhidski</script>
-			<script type="Cakm">Cakm</script>
 			<script type="Cans">poenotena zlogovna pisava kanadskih staroselcev</script>
-			<script type="Cari">Cari</script>
 			<script type="Cham">Cham</script>
 			<script type="Cher">čerokeški</script>
 			<script type="Cirt">kirt</script>
@@ -556,7 +547,9 @@
 			<script type="Hani">kanji</script>
 			<script type="Hano">hanunski</script>
 			<script type="Hans">poenostavljena pisava han</script>
+			<script type="Hans" alt="stand-alone" draft="contributed">Poenostavljeni han</script>
 			<script type="Hant">tradicionalna pisava han</script>
+			<script type="Hant" alt="stand-alone" draft="contributed">Tradicionalni han</script>
 			<script type="Hebr">hebrejski</script>
 			<script type="Hira">hiragana</script>
 			<script type="Hmng">pahavhmonska zlogovna pisava</script>
@@ -573,7 +566,6 @@
 			<script type="Knda">kanadski</script>
 			<script type="Kore">korejski</script>
 			<script type="Kthi">kajatski</script>
-			<script type="Lana">Lana</script>
 			<script type="Laoo">laoški</script>
 			<script type="Latf">fraktura</script>
 			<script type="Latg">gelski latinični</script>
@@ -593,7 +585,6 @@
 			<script type="Moon">Moonova pisava za slepe</script>
 			<script type="Mtei">manipurski</script>
 			<script type="Mymr">mjanmarski</script>
-			<script type="Nkoo">Nkoo</script>
 			<script type="Ogam">ogamski</script>
 			<script type="Olck">santalski</script>
 			<script type="Orkh">orkonski</script>
@@ -606,13 +597,10 @@
 			<script type="Phlv">knjižno palavanski</script>
 			<script type="Phnx">feničanski</script>
 			<script type="Plrd">Pollardova fonetska pisava</script>
-			<script type="Prti">Prti</script>
-			<script type="Rjng">Rjng</script>
 			<script type="Roro">rongorongo</script>
 			<script type="Runr">runski</script>
 			<script type="Samr">samaritanski</script>
 			<script type="Sara">saratski</script>
-			<script type="Saur">Saur</script>
 			<script type="Sgnw">znakovna pisava</script>
 			<script type="Shaw">šojevski</script>
 			<script type="Sinh">sinhalski</script>
@@ -623,8 +611,6 @@
 			<script type="Syrj">zahodnosirijski</script>
 			<script type="Syrn">vzhodnosirijski</script>
 			<script type="Tagb">tagbanski</script>
-			<script type="Tale">Tale</script>
-			<script type="Talu">Talu</script>
 			<script type="Taml">tamilski</script>
 			<script type="Tavt">tajsko-vietnamski</script>
 			<script type="Telu">teluški</script>
@@ -639,7 +625,6 @@
 			<script type="Visp">vidni govor</script>
 			<script type="Xpeo">staroperzijski</script>
 			<script type="Xsux">sumersko-akadski klinopis</script>
-			<script type="Yiii">Yiii</script>
 			<script type="Zinh">podedovan</script>
 			<script type="Zmth">matematična znamenja</script>
 			<script type="Zsym">simboli</script>
@@ -679,7 +664,7 @@
 			<territory type="154">Severna Evropa</territory>
 			<territory type="155">Zahodna Evropa</territory>
 			<territory type="172">Skupnost neodvisnih držav</territory>
-			<territory type="419">Latinska Amerika in Karibi</territory>
+			<territory type="419">Latinska Amerika</territory>
 			<territory type="830">Kanalski otoki</territory>
 			<territory type="AC">Otok Ascension</territory>
 			<territory type="AD">Andora</territory>
@@ -765,7 +750,7 @@
 			<territory type="FM">Mikronezija</territory>
 			<territory type="FO">Ferski otoki</territory>
 			<territory type="FR">Francija</territory>
-			<territory type="FX">Francija (metropolitanska)</territory>
+			<territory type="FX">Metropolitanska Francija</territory>
 			<territory type="GA">Gabon</territory>
 			<territory type="GB">Velika Britanija</territory>
 			<territory type="GD">Grenada</territory>
@@ -953,7 +938,7 @@
 			<variant type="1996">novi nemški pravopis (1996)</variant>
 			<variant type="1606NICT">pozna srednja francoščina (do 1606)</variant>
 			<variant type="1694ACAD">zgodnja sodobna francoščina</variant>
-			<variant type="1959ACAD">akademska beloruska slovnica</variant>
+			<variant type="1959ACAD" draft="provisional">akademska beloruska slovnica</variant>
 			<variant type="AREVELA">vzhodna armenščina</variant>
 			<variant type="AREVMDA">zahodna armenščina</variant>
 			<variant type="BAKU1926">modernizirana turška latinica</variant>
@@ -961,7 +946,7 @@
 			<variant type="BOONT">boonvilski jezik</variant>
 			<variant type="FONIPA">mednarodna fonetična pisava IPA</variant>
 			<variant type="FONUPA">uralska fonetska pisava UPA</variant>
-			<variant type="KKCOR">standardni pravopis</variant>
+			<variant type="KKCOR" draft="provisional">standardni pravopis</variant>
 			<variant type="LIPAW">rezijansko narečje iz Lipovca (Lipovaz)</variant>
 			<variant type="MONOTON">monotonalni pravopis</variant>
 			<variant type="NEDIS">nadiško narečje</variant>
@@ -972,13 +957,13 @@
 			<variant type="POSIX">standard prenosljivosti programske opreme</variant>
 			<variant type="REVISED">revidiran pravopis</variant>
 			<variant type="ROZAJ">rezijanščina</variant>
-			<variant type="SAAHO">eritrejsko narečje soho</variant>
+			<variant type="SAAHO" draft="provisional">eritrejsko narečje soho</variant>
 			<variant type="SCOTLAND">standardna škotska angleščina</variant>
 			<variant type="SCOUSE">liverpoolsko angleško narečje scouse</variant>
 			<variant type="SOLBA">rezijansko narečje iz Solbice (Stolvizza)</variant>
 			<variant type="TARASK">Taraškievičeva beloruska slovnica</variant>
-			<variant type="UCCOR">poenoten pravopis</variant>
-			<variant type="UCRCOR">revidiran poenoten pravopis</variant>
+			<variant type="UCCOR" draft="provisional">poenoten pravopis</variant>
+			<variant type="UCRCOR" draft="provisional">revidiran poenoten pravopis</variant>
 			<variant type="VALENCIA">valencijski pravopis</variant>
 			<variant type="WADEGILE">romanizacija Wade-Giles</variant>
 		</variants>
@@ -986,32 +971,87 @@
 			<key type="calendar">koledar</key>
 			<key type="collation">razvrščanje</key>
 			<key type="currency">valuta</key>
+			<key type="numbers" draft="contributed">Številke</key>
+			<key type="x" draft="contributed">Private-Use</key>
 		</keys>
 		<types>
+			<type type="arab" key="numbers" draft="contributed">Arabskoindijske števke</type>
+			<type type="arabext" key="numbers" draft="contributed">Razširjene arabskoindijske števke</type>
+			<type type="armn" key="numbers" draft="contributed">Armenske številke</type>
+			<type type="armnlow" key="numbers" draft="contributed">Armenske majhne številke</type>
+			<type type="beng" key="numbers" draft="contributed">Bengalske števke</type>
 			<type type="big5han" key="collation">razvrščanje po sistemu tradicionalne kitajščine - Big5</type>
 			<type type="buddhist" key="calendar">budistični koledar</type>
 			<type type="chinese" key="calendar">kitajski koledar</type>
+			<type type="coptic" key="calendar" draft="contributed">Koptski koledar</type>
+			<type type="deva" key="numbers" draft="contributed">Devangarske števke</type>
+			<type type="dictionary" key="collation" draft="contributed">Vrstni red razvrščanja v slovarju</type>
 			<type type="direct" key="collation">neposredno razvrščanje</type>
+			<type type="ducet" key="collation" draft="contributed">Privzeto razvrščanje Unicode</type>
+			<type type="ethi" key="numbers" draft="contributed">Etiopijske številke</type>
+			<type type="ethiopic" key="calendar" draft="contributed">Etiopski koledar</type>
+			<type type="ethiopic-amete-alem" key="calendar" draft="contributed">Etiopsko ametsko alemski koledar</type>
+			<type type="fullwide" key="numbers" draft="contributed">Števke polne širine</type>
 			<type type="gb2312han" key="collation">razvrščanje po sistemu poenostavljene kitajščine - GB2312</type>
+			<type type="geor" key="numbers" draft="contributed">Gruzijske številke</type>
 			<type type="gregorian" key="calendar">gregorijanski koledar</type>
+			<type type="grek" key="numbers" draft="contributed">Grške številke</type>
+			<type type="greklow" key="numbers" draft="contributed">Grške male številke</type>
+			<type type="gujr" key="numbers" draft="contributed">Gudžaratske števke</type>
+			<type type="guru" key="numbers" draft="contributed">Gurmuške števke</type>
+			<type type="hanidec" key="numbers" draft="contributed">Kitajske decimalne številke</type>
+			<type type="hans" key="numbers" draft="contributed">Poenostavljene kitajske številke</type>
+			<type type="hansfin" key="numbers" draft="contributed">Poenostavljene kitajske finančne številke</type>
+			<type type="hant" key="numbers" draft="contributed">Tradicionalne kitajske številke</type>
+			<type type="hantfin" key="numbers" draft="contributed">Tradicionalne kitajske finančne številke</type>
+			<type type="hebr" key="numbers" draft="contributed">Hebrejske številke</type>
 			<type type="hebrew" key="calendar">hebrejski koledar</type>
 			<type type="indian" key="calendar">indijanski koledar</type>
 			<type type="islamic" key="calendar">islamski koledar</type>
 			<type type="islamic-civil" key="calendar">islamski civilni koledar</type>
 			<type type="japanese" key="calendar">japonski koledar</type>
+			<type type="jpan" key="numbers" draft="contributed">Japonske številke</type>
+			<type type="jpanfin" key="numbers" draft="contributed">Japonske finančne številke</type>
+			<type type="khmr" key="numbers" draft="contributed">Kmerske števke</type>
+			<type type="knda" key="numbers" draft="contributed">Kanaredske števke</type>
+			<type type="laoo" key="numbers" draft="contributed">Laoške števke</type>
+			<type type="latn" key="numbers" draft="contributed">Zahodne števke</type>
+			<type type="mlym" key="numbers" draft="contributed">Malajalamske števke</type>
+			<type type="mong" key="numbers" draft="contributed">Mongolske števke</type>
+			<type type="mymr" key="numbers" draft="contributed">Mjanmarske števke</type>
+			<type type="orya" key="numbers" draft="contributed">Orijske števke</type>
+			<type type="persian" key="calendar" draft="contributed">Perzijski koledar</type>
 			<type type="phonebook" key="collation">razvrščanje po abecedi</type>
 			<type type="pinyin" key="collation">razvrščanje po sistemu pinjin</type>
+			<type type="reformed" key="collation" draft="contributed">Reformirano razvrščanje</type>
 			<type type="roc" key="calendar">kitajski državni koledar</type>
+			<type type="roman" key="numbers" draft="contributed">Rimske številke</type>
+			<type type="romanlow" key="numbers" draft="contributed">Rimske male številke</type>
+			<type type="search" key="collation" draft="contributed">Splošno iskanje</type>
 			<type type="stroke" key="collation">razvrščanje po zaporedju pisanja pismenk</type>
+			<type type="taml" key="numbers" draft="contributed">Tamilske številke</type>
+			<type type="telu" key="numbers" draft="contributed">Teluške števke</type>
+			<type type="thai" key="numbers" draft="contributed">Tajske števke</type>
+			<type type="tibt" key="numbers" draft="contributed">Tibetanske števke</type>
 			<type type="traditional" key="collation">razvrščanje po tradicionalnem sistemu</type>
+			<type type="unihan" key="collation" draft="contributed">Razvrščanje koren-poteza</type>
 		</types>
+		<transformNames>
+			<transformName type="x-Accents" draft="contributed">Accents</transformName>
+			<transformName type="x-Fullwidth" draft="contributed">Polna širina</transformName>
+			<transformName type="x-Halfwidth" draft="contributed">Polovična širina</transformName>
+			<transformName type="x-Jamo" draft="contributed">Jamo</transformName>
+			<transformName type="x-Pinyin" draft="contributed">Pinjin</transformName>
+			<transformName type="x-Publishing" draft="contributed">Publishing</transformName>
+		</transformNames>
 		<measurementSystemNames>
 			<measurementSystemName type="metric">metrični</measurementSystemName>
+			<measurementSystemName type="UK" draft="contributed">Angleški</measurementSystemName>
 			<measurementSystemName type="US">imperialni</measurementSystemName>
 		</measurementSystemNames>
 		<codePatterns>
 			<codePattern type="language">Jezik: {0}</codePattern>
-			<codePattern type="script">{0}</codePattern>
+			<codePattern type="script" draft="provisional">{0}</codePattern>
 			<codePattern type="territory">Regija: {0}</codePattern>
 		</codePatterns>
 	</localeDisplayNames>
@@ -1100,13 +1140,13 @@
 				<days>
 					<dayContext type="format">
 						<dayWidth type="abbreviated">
-							<day type="sun">ned</day>
-							<day type="mon">pon</day>
-							<day type="tue">tor</day>
-							<day type="wed">sre</day>
-							<day type="thu">čet</day>
-							<day type="fri">pet</day>
-							<day type="sat">sob</day>
+							<day type="sun">ned.</day>
+							<day type="mon">pon.</day>
+							<day type="tue">tor.</day>
+							<day type="wed">sre.</day>
+							<day type="thu">čet.</day>
+							<day type="fri">pet.</day>
+							<day type="sat">sob.</day>
 						</dayWidth>
 						<dayWidth type="wide">
 							<day type="sun">nedelja</day>
@@ -1119,6 +1159,15 @@
 						</dayWidth>
 					</dayContext>
 					<dayContext type="stand-alone">
+						<dayWidth type="abbreviated">
+							<day type="sun">ned</day>
+							<day type="mon">pon</day>
+							<day type="tue">tor</day>
+							<day type="wed">sre</day>
+							<day type="thu">čet</day>
+							<day type="fri">pet</day>
+							<day type="sat">sob</day>
+						</dayWidth>
 						<dayWidth type="narrow">
 							<day type="sun">n</day>
 							<day type="mon">p</day>
@@ -1137,6 +1186,12 @@
 							<quarter type="2">Q2</quarter>
 							<quarter type="3">Q3</quarter>
 							<quarter type="4">Q4</quarter>
+						</quarterWidth>
+						<quarterWidth type="narrow">
+							<quarter type="1" draft="contributed">1</quarter>
+							<quarter type="2" draft="contributed">2</quarter>
+							<quarter type="3" draft="contributed">3</quarter>
+							<quarter type="4" draft="contributed">4</quarter>
 						</quarterWidth>
 						<quarterWidth type="wide">
 							<quarter type="1">1. četrtletje</quarter>
@@ -1210,27 +1265,29 @@
 				</timeFormats>
 				<dateTimeFormats>
 					<availableFormats>
-						<dateFormatItem id="d">d</dateFormatItem>
-						<dateFormatItem id="Ed">E., d.</dateFormatItem>
-						<dateFormatItem id="hm">h:mm a</dateFormatItem>
+						<dateFormatItem id="d" draft="contributed">d</dateFormatItem>
+						<dateFormatItem id="Ed">E, d.</dateFormatItem>
+						<dateFormatItem id="hm" draft="contributed">h:mm a</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
-						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
+						<dateFormatItem id="hms" draft="contributed">h:mm:ss a</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
-						<dateFormatItem id="M">L</dateFormatItem>
+						<dateFormatItem id="M" draft="contributed">L</dateFormatItem>
 						<dateFormatItem id="Md">d. M.</dateFormatItem>
-						<dateFormatItem id="MEd">E., d. MM.</dateFormatItem>
-						<dateFormatItem id="MMM">LLL.</dateFormatItem>
+						<dateFormatItem id="MEd">E, d. MM.</dateFormatItem>
+						<dateFormatItem id="MMM" draft="contributed">LLL</dateFormatItem>
 						<dateFormatItem id="MMMd">d. MMM</dateFormatItem>
-						<dateFormatItem id="MMMEd">E., d. MMM</dateFormatItem>
+						<dateFormatItem id="MMMEd">E, d. MMM</dateFormatItem>
 						<dateFormatItem id="mmss">mm:ss</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">y</dateFormatItem>
-						<dateFormatItem id="yM">M/yyyy</dateFormatItem>
-						<dateFormatItem id="yMEd">E., d. M. y</dateFormatItem>
+						<dateFormatItem id="yM" draft="contributed">M/y</dateFormatItem>
+						<dateFormatItem id="yMd">d. M. y</dateFormatItem>
+						<dateFormatItem id="yMEd">E, d. M. y</dateFormatItem>
 						<dateFormatItem id="yMMM">MMM y</dateFormatItem>
-						<dateFormatItem id="yMMMEd">E., d. MMM y</dateFormatItem>
-						<dateFormatItem id="yQ">Q yyyy</dateFormatItem>
-						<dateFormatItem id="yQQQ">y QQQ</dateFormatItem>
+						<dateFormatItem id="yMMMd" draft="contributed">MMM d, y</dateFormatItem>
+						<dateFormatItem id="yMMMEd">E, d. MMM y</dateFormatItem>
+						<dateFormatItem id="yQ" draft="contributed">Q y</dateFormatItem>
+						<dateFormatItem id="yQQQ" draft="contributed">QQQ y</dateFormatItem>
 						<dateFormatItem id="yyQ">Q/yy</dateFormatItem>
 						<dateFormatItem id="yyyyM">M/yyyy</dateFormatItem>
 						<dateFormatItem id="yyyyMMMM">MMMM y</dateFormatItem>
@@ -1266,29 +1323,26 @@
 							<greatestDifference id="M">d. M. – d. M.</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MEd">
-							<greatestDifference id="d">E., d. – E., d. M.</greatestDifference>
-							<greatestDifference id="M">E., d. M. – E., d. M.</greatestDifference>
+							<greatestDifference id="d">E, d. – E, d. M.</greatestDifference>
+							<greatestDifference id="M">E, d. M. – E, d. M.</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMM">
 							<greatestDifference id="M">MMM–MMM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMMd">
-							<greatestDifference id="d">d.–d. MMM.</greatestDifference>
-							<greatestDifference id="M">d. MMM. – d. MMM.</greatestDifference>
+							<greatestDifference id="d">d.–d. MMM</greatestDifference>
+							<greatestDifference id="M">d. MMM – d. MMM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMMEd">
-							<greatestDifference id="d">E., d. – E., d. MMM.</greatestDifference>
-							<greatestDifference id="M">E., d. MMM. – E., d. MMM.</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="MMMM">
-							<greatestDifference id="M">LLLL–LLLL</greatestDifference>
+							<greatestDifference id="d">E, d. – E, d. MMM</greatestDifference>
+							<greatestDifference id="M">E, d. MMM – E, d. MMM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="y">
 							<greatestDifference id="y">y–y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yM">
-							<greatestDifference id="M">M – M/yy</greatestDifference>
-							<greatestDifference id="y">M/yy – M/yy</greatestDifference>
+							<greatestDifference id="M">M.–M. yy</greatestDifference>
+							<greatestDifference id="y">M. yy – M. yy</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMd">
 							<greatestDifference id="d">d. M. yy – d. M. yy</greatestDifference>
@@ -1296,27 +1350,27 @@
 							<greatestDifference id="y">d. M. yy – d. M. yy</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMEd">
-							<greatestDifference id="d">E., d. – E., d. M. yy</greatestDifference>
-							<greatestDifference id="M">E., d. M. – E., d. M. yy</greatestDifference>
-							<greatestDifference id="y">E., d. M. yy – E., d. M. yy</greatestDifference>
+							<greatestDifference id="d">E, d. – E, d. M. yy</greatestDifference>
+							<greatestDifference id="M">E, d. M. – E, d. M. yy</greatestDifference>
+							<greatestDifference id="y">E, d. M. yy – E, d. M. yy</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMM">
-							<greatestDifference id="M">MMM. – MMM. y</greatestDifference>
-							<greatestDifference id="y">MMM. y – MMM. y</greatestDifference>
+							<greatestDifference id="M">MMM – MMM y</greatestDifference>
+							<greatestDifference id="y">MMM y – MMM y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMd">
-							<greatestDifference id="d">d.–d. MMM. y</greatestDifference>
-							<greatestDifference id="M">d. MMM. – d. MMM. y</greatestDifference>
-							<greatestDifference id="y">d. MMM. y – d. MMM. y</greatestDifference>
+							<greatestDifference id="d">d.–d. MMM y</greatestDifference>
+							<greatestDifference id="M">d. MMM – d. MMM y</greatestDifference>
+							<greatestDifference id="y">d. MMM y – d. MMM y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMEd">
-							<greatestDifference id="d">E., d. MMM. – E., d. MMM. y</greatestDifference>
-							<greatestDifference id="M">E., d. MMM. – E., d. MMM. y</greatestDifference>
-							<greatestDifference id="y">E., d. MMM. y – E., d. MMM. y</greatestDifference>
+							<greatestDifference id="d">E, d. MMM – E, d. MMM y</greatestDifference>
+							<greatestDifference id="M">E, d. MMM – E, d. MMM y</greatestDifference>
+							<greatestDifference id="y">E, d. MMM y – E, d. MMM y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMM">
-							<greatestDifference id="M">MM–MM yyyy</greatestDifference>
-							<greatestDifference id="y">MM/yyyy – MM/yyyy</greatestDifference>
+							<greatestDifference id="M" draft="contributed">MMMM–MMMM y</greatestDifference>
+							<greatestDifference id="y" draft="contributed">MMMM y – MMMM y</greatestDifference>
 						</intervalFormatItem>
 					</intervalFormats>
 				</dateTimeFormats>
@@ -1326,22 +1380,29 @@
 					</field>
 					<field type="year">
 						<displayName>Leto</displayName>
+						<relative type="-1" draft="contributed">Lani</relative>
+						<relative type="0" draft="contributed">Letos</relative>
+						<relative type="1" draft="contributed">Naslednje leto</relative>
 					</field>
 					<field type="month">
 						<displayName>Mesec</displayName>
+						<relative type="-1" draft="contributed">Prejšnji mesec</relative>
+						<relative type="0" draft="contributed">Ta mesec</relative>
+						<relative type="1" draft="contributed">Naslednji mesec</relative>
 					</field>
 					<field type="week">
 						<displayName>Teden</displayName>
+						<relative type="-1" draft="contributed">Prejšnji teden</relative>
+						<relative type="0" draft="contributed">Ta teden</relative>
+						<relative type="1" draft="contributed">Naslednji teden</relative>
 					</field>
 					<field type="day">
 						<displayName>Dan</displayName>
-						<relative type="-3">Pred tremi dnevi</relative>
 						<relative type="-2">Predvčerajšnjim</relative>
 						<relative type="-1">Včeraj</relative>
 						<relative type="0">Danes</relative>
 						<relative type="1">Jutri</relative>
 						<relative type="2">Pojutrišnjem</relative>
-						<relative type="3">Čez tri dni</relative>
 					</field>
 					<field type="weekday">
 						<displayName>Dan v tednu</displayName>
@@ -1367,21 +1428,23 @@
 		<timeZoneNames>
 			<hourFormat>+HH:mm;-HH:mm</hourFormat>
 			<gmtFormat>GMT{0}</gmtFormat>
+			<regionFormat draft="contributed">{0} čas</regionFormat>
 			<fallbackFormat>{1} ({0})</fallbackFormat>
+			<fallbackRegionFormat draft="contributed">{1} čas ({0})</fallbackRegionFormat>
 			<zone type="Etc/Unknown">
 				<exemplarCity>neznano</exemplarCity>
 			</zone>
 			<zone type="Europe/Andorra">
-				<exemplarCity>Andora</exemplarCity>
+				<exemplarCity draft="contributed">Andora</exemplarCity>
 			</zone>
 			<zone type="Asia/Dubai">
-				<exemplarCity>Dubaj</exemplarCity>
+				<exemplarCity draft="contributed">Dubaj</exemplarCity>
 			</zone>
 			<zone type="Europe/Tirane">
-				<exemplarCity>Tirana</exemplarCity>
+				<exemplarCity draft="contributed">Tirana</exemplarCity>
 			</zone>
 			<zone type="Asia/Yerevan">
-				<exemplarCity>Erevan</exemplarCity>
+				<exemplarCity draft="contributed">Erevan</exemplarCity>
 			</zone>
 			<zone type="Antarctica/South_Pole">
 				<exemplarCity>Južni tečaj</exemplarCity>
@@ -1390,28 +1453,28 @@
 				<exemplarCity>Kordova</exemplarCity>
 			</zone>
 			<zone type="Europe/Vienna">
-				<exemplarCity>Dunaj</exemplarCity>
+				<exemplarCity draft="contributed">Dunaj</exemplarCity>
 			</zone>
 			<zone type="Asia/Dhaka">
-				<exemplarCity>Daka</exemplarCity>
+				<exemplarCity draft="contributed">Daka</exemplarCity>
 			</zone>
 			<zone type="Europe/Brussels">
-				<exemplarCity>Bruselj</exemplarCity>
+				<exemplarCity draft="contributed">Bruselj</exemplarCity>
 			</zone>
 			<zone type="Europe/Sofia">
-				<exemplarCity>Sofija</exemplarCity>
+				<exemplarCity draft="contributed">Sofija</exemplarCity>
 			</zone>
 			<zone type="Asia/Bahrain">
-				<exemplarCity>Bahrajn</exemplarCity>
+				<exemplarCity draft="contributed">Bahrajn</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Bermuda">
-				<exemplarCity>Bermudi</exemplarCity>
+				<exemplarCity draft="contributed">Bermudi</exemplarCity>
 			</zone>
 			<zone type="Asia/Brunei">
-				<exemplarCity>Brunej</exemplarCity>
+				<exemplarCity draft="contributed">Brunej</exemplarCity>
 			</zone>
 			<zone type="Indian/Cocos">
-				<exemplarCity>Kokosovi</exemplarCity>
+				<exemplarCity draft="contributed">Cocos</exemplarCity>
 			</zone>
 			<zone type="Africa/Kinshasa">
 				<exemplarCity>Kinšasa</exemplarCity>
@@ -1420,7 +1483,7 @@
 				<exemplarCity>Lubumbaši</exemplarCity>
 			</zone>
 			<zone type="Africa/Abidjan">
-				<exemplarCity>Abidžan</exemplarCity>
+				<exemplarCity draft="contributed">Abidžan</exemplarCity>
 			</zone>
 			<zone type="Pacific/Easter">
 				<exemplarCity>Velikonočni otok</exemplarCity>
@@ -1432,73 +1495,73 @@
 				<exemplarCity>Šangaj</exemplarCity>
 			</zone>
 			<zone type="America/Costa_Rica">
-				<exemplarCity>Kostarika</exemplarCity>
+				<exemplarCity draft="contributed">Kostarika</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Cape_Verde">
-				<exemplarCity>Zelenortski otoki</exemplarCity>
+				<exemplarCity draft="contributed">Zelenortski otoki</exemplarCity>
 			</zone>
 			<zone type="Indian/Christmas">
-				<exemplarCity>Božični</exemplarCity>
+				<exemplarCity draft="contributed">Christmas</exemplarCity>
 			</zone>
 			<zone type="Asia/Nicosia">
-				<exemplarCity>Nikozija</exemplarCity>
+				<exemplarCity draft="contributed">Nikozija</exemplarCity>
 			</zone>
 			<zone type="Africa/Djibouti">
-				<exemplarCity>Džibuti</exemplarCity>
+				<exemplarCity draft="contributed">Džibuti</exemplarCity>
 			</zone>
 			<zone type="Europe/Copenhagen">
-				<exemplarCity>Kopenhagen</exemplarCity>
+				<exemplarCity draft="contributed">Köbenhavn</exemplarCity>
 			</zone>
 			<zone type="America/Dominica">
-				<exemplarCity>Dominika</exemplarCity>
+				<exemplarCity draft="contributed">Dominika</exemplarCity>
 			</zone>
 			<zone type="Africa/Algiers">
-				<exemplarCity>Alžir</exemplarCity>
+				<exemplarCity draft="contributed">Alžir</exemplarCity>
 			</zone>
 			<zone type="Europe/Tallinn">
-				<exemplarCity>Talin</exemplarCity>
+				<exemplarCity draft="contributed">Talin</exemplarCity>
 			</zone>
 			<zone type="Africa/Cairo">
-				<exemplarCity>Kairo</exemplarCity>
+				<exemplarCity draft="contributed">Kairo</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Canary">
 				<exemplarCity>Kanarski otoki</exemplarCity>
 			</zone>
 			<zone type="Africa/Addis_Ababa">
-				<exemplarCity>Adis Abeba</exemplarCity>
+				<exemplarCity draft="contributed">Adis Abeba</exemplarCity>
 			</zone>
 			<zone type="Pacific/Fiji">
-				<exemplarCity>Fidži</exemplarCity>
+				<exemplarCity draft="contributed">Fidži</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Faeroe">
-				<exemplarCity>Ferski otoki</exemplarCity>
+				<exemplarCity draft="contributed">Faroe</exemplarCity>
 			</zone>
 			<zone type="Europe/Paris">
-				<exemplarCity>Pariz</exemplarCity>
+				<exemplarCity draft="contributed">Pariz</exemplarCity>
 			</zone>
 			<zone type="Africa/Accra">
-				<exemplarCity>Akra</exemplarCity>
+				<exemplarCity draft="contributed">Akra</exemplarCity>
 			</zone>
 			<zone type="America/Guadeloupe">
-				<exemplarCity>Gvadelupe</exemplarCity>
+				<exemplarCity draft="contributed">Guadeloupe</exemplarCity>
 			</zone>
 			<zone type="Europe/Athens">
-				<exemplarCity>Atene</exemplarCity>
+				<exemplarCity draft="contributed">Atene</exemplarCity>
 			</zone>
 			<zone type="America/Guatemala">
-				<exemplarCity>Gvatemala</exemplarCity>
+				<exemplarCity draft="contributed">Gvatemala</exemplarCity>
 			</zone>
 			<zone type="Africa/Bissau">
-				<exemplarCity>Bisau</exemplarCity>
+				<exemplarCity draft="contributed">Bissau</exemplarCity>
 			</zone>
 			<zone type="America/Guyana">
-				<exemplarCity>Gvajana</exemplarCity>
+				<exemplarCity draft="contributed">Gvajana</exemplarCity>
 			</zone>
 			<zone type="Asia/Hong_Kong">
-				<exemplarCity>Hongkong</exemplarCity>
+				<exemplarCity draft="contributed">Hongkong</exemplarCity>
 			</zone>
 			<zone type="Europe/Budapest">
-				<exemplarCity>Budimpešta</exemplarCity>
+				<exemplarCity draft="contributed">Budimpešta</exemplarCity>
 			</zone>
 			<zone type="Asia/Jakarta">
 				<exemplarCity>Džakarta</exemplarCity>
@@ -1507,40 +1570,40 @@
 				<exemplarCity>Makasar</exemplarCity>
 			</zone>
 			<zone type="Asia/Baghdad">
-				<exemplarCity>Bagdad</exemplarCity>
+				<exemplarCity draft="contributed">Bagdad</exemplarCity>
 			</zone>
 			<zone type="Asia/Tehran">
-				<exemplarCity>Teheran</exemplarCity>
+				<exemplarCity draft="contributed">Teheran</exemplarCity>
 			</zone>
 			<zone type="Europe/Rome">
-				<exemplarCity>Rim</exemplarCity>
+				<exemplarCity draft="contributed">Rim</exemplarCity>
 			</zone>
 			<zone type="America/Jamaica">
-				<exemplarCity>Jamajka</exemplarCity>
+				<exemplarCity draft="contributed">Jamajka</exemplarCity>
 			</zone>
 			<zone type="Asia/Amman">
-				<exemplarCity>Aman</exemplarCity>
+				<exemplarCity draft="contributed">Aman</exemplarCity>
 			</zone>
 			<zone type="Asia/Tokyo">
-				<exemplarCity>Tokio</exemplarCity>
+				<exemplarCity draft="contributed">Tokio</exemplarCity>
 			</zone>
 			<zone type="Asia/Bishkek">
-				<exemplarCity>Biškek</exemplarCity>
+				<exemplarCity draft="contributed">Biškek</exemplarCity>
 			</zone>
 			<zone type="America/St_Kitts">
-				<exemplarCity>St. Kitts</exemplarCity>
+				<exemplarCity draft="contributed">St. Kitts</exemplarCity>
 			</zone>
 			<zone type="Asia/Pyongyang">
-				<exemplarCity>Pjongjang</exemplarCity>
+				<exemplarCity draft="contributed">Pjongjang</exemplarCity>
 			</zone>
 			<zone type="Asia/Seoul">
-				<exemplarCity>Seul</exemplarCity>
+				<exemplarCity draft="contributed">Seul</exemplarCity>
 			</zone>
 			<zone type="Asia/Kuwait">
-				<exemplarCity>Kuvajt</exemplarCity>
+				<exemplarCity draft="contributed">Kuvajt</exemplarCity>
 			</zone>
 			<zone type="America/Cayman">
-				<exemplarCity>Kajman</exemplarCity>
+				<exemplarCity draft="contributed">Cayman</exemplarCity>
 			</zone>
 			<zone type="Asia/Aqtau">
 				<exemplarCity>Aktau</exemplarCity>
@@ -1555,52 +1618,52 @@
 				<exemplarCity>Almati</exemplarCity>
 			</zone>
 			<zone type="Asia/Beirut">
-				<exemplarCity>Bejrut</exemplarCity>
+				<exemplarCity draft="contributed">Bejrut</exemplarCity>
 			</zone>
 			<zone type="America/St_Lucia">
-				<exemplarCity>St. Lucia</exemplarCity>
+				<exemplarCity draft="contributed">St. Lucia</exemplarCity>
 			</zone>
 			<zone type="Europe/Vilnius">
-				<exemplarCity>Vilna</exemplarCity>
+				<exemplarCity draft="contributed">Vilna</exemplarCity>
 			</zone>
 			<zone type="Europe/Luxembourg">
-				<exemplarCity>Luksemburg</exemplarCity>
+				<exemplarCity draft="contributed">Luksemburg</exemplarCity>
 			</zone>
 			<zone type="Europe/Monaco">
-				<exemplarCity>Monako</exemplarCity>
+				<exemplarCity draft="contributed">Monako</exemplarCity>
 			</zone>
 			<zone type="Asia/Ulaanbaatar">
 				<exemplarCity>Ulan Bator</exemplarCity>
 			</zone>
 			<zone type="Asia/Macau">
-				<exemplarCity>Macao</exemplarCity>
+				<exemplarCity draft="contributed">Macao</exemplarCity>
 			</zone>
 			<zone type="America/Martinique">
-				<exemplarCity>Martinik</exemplarCity>
+				<exemplarCity draft="contributed">Martinik</exemplarCity>
 			</zone>
 			<zone type="Indian/Maldives">
-				<exemplarCity>Maldivi</exemplarCity>
+				<exemplarCity draft="contributed">Maldivi</exemplarCity>
 			</zone>
 			<zone type="Asia/Karachi">
-				<exemplarCity>Karači</exemplarCity>
+				<exemplarCity draft="contributed">Karači</exemplarCity>
 			</zone>
 			<zone type="Europe/Warsaw">
-				<exemplarCity>Varšava</exemplarCity>
+				<exemplarCity draft="contributed">Varšava</exemplarCity>
 			</zone>
 			<zone type="America/Puerto_Rico">
-				<exemplarCity>Portoriko</exemplarCity>
+				<exemplarCity draft="contributed">Portoriko</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Azores">
 				<exemplarCity>Azori</exemplarCity>
 			</zone>
 			<zone type="Europe/Lisbon">
-				<exemplarCity>Lizbona</exemplarCity>
+				<exemplarCity draft="contributed">Lizbona</exemplarCity>
 			</zone>
 			<zone type="Asia/Qatar">
-				<exemplarCity>Katar</exemplarCity>
+				<exemplarCity draft="contributed">Katar</exemplarCity>
 			</zone>
 			<zone type="Europe/Bucharest">
-				<exemplarCity>Bukarešta</exemplarCity>
+				<exemplarCity draft="contributed">Bukarešta</exemplarCity>
 			</zone>
 			<zone type="Europe/Moscow">
 				<exemplarCity>Moskva</exemplarCity>
@@ -1624,31 +1687,31 @@
 				<exemplarCity>Anadir</exemplarCity>
 			</zone>
 			<zone type="Asia/Riyadh">
-				<exemplarCity>Rijad</exemplarCity>
+				<exemplarCity draft="contributed">Rijad</exemplarCity>
 			</zone>
 			<zone type="Africa/Khartoum">
-				<exemplarCity>Kartum</exemplarCity>
+				<exemplarCity draft="contributed">Kartum</exemplarCity>
 			</zone>
 			<zone type="Asia/Singapore">
-				<exemplarCity>Singapur</exemplarCity>
+				<exemplarCity draft="contributed">Singapur</exemplarCity>
 			</zone>
 			<zone type="Atlantic/St_Helena">
-				<exemplarCity>St. Helena</exemplarCity>
+				<exemplarCity draft="contributed">St. Helena</exemplarCity>
 			</zone>
 			<zone type="Africa/Mogadishu">
-				<exemplarCity>Mogadiš</exemplarCity>
+				<exemplarCity draft="contributed">Mogadišu</exemplarCity>
 			</zone>
 			<zone type="America/El_Salvador">
-				<exemplarCity>Salvador</exemplarCity>
+				<exemplarCity draft="contributed">Salvador</exemplarCity>
 			</zone>
 			<zone type="Asia/Damascus">
-				<exemplarCity>Damask</exemplarCity>
+				<exemplarCity draft="contributed">Damask</exemplarCity>
 			</zone>
 			<zone type="Asia/Ashgabat">
-				<exemplarCity>Ašgabat</exemplarCity>
+				<exemplarCity draft="contributed">Ašgabat</exemplarCity>
 			</zone>
 			<zone type="Africa/Dar_es_Salaam">
-				<exemplarCity>Darussalam</exemplarCity>
+				<exemplarCity draft="contributed">Dar es Salaam</exemplarCity>
 			</zone>
 			<zone type="Europe/Uzhgorod">
 				<exemplarCity>Užgorod</exemplarCity>
@@ -1669,13 +1732,13 @@
 				<exemplarCity>Taškent</exemplarCity>
 			</zone>
 			<zone type="America/St_Vincent">
-				<exemplarCity>St. Vincent</exemplarCity>
+				<exemplarCity draft="contributed">St. Vincent</exemplarCity>
 			</zone>
 			<zone type="America/St_Thomas">
-				<exemplarCity>St. Thomas</exemplarCity>
+				<exemplarCity draft="contributed">St. Thomas</exemplarCity>
 			</zone>
 			<zone type="Asia/Saigon">
-				<exemplarCity>Sajgon</exemplarCity>
+				<exemplarCity draft="contributed">Hošiminh</exemplarCity>
 			</zone>
 			<metazone type="Africa_Central">
 				<long>
@@ -1697,6 +1760,18 @@
 				<long>
 					<standard>Zahodnoafriški čas</standard>
 					<daylight>Zahodnoafriški poletni čas</daylight>
+				</long>
+			</metazone>
+			<metazone type="Alaska">
+				<long>
+					<generic draft="contributed">Aljaški čas</generic>
+					<standard draft="contributed">Aljaški standardni čas</standard>
+					<daylight draft="contributed">Aljaska – dnevni čas</daylight>
+				</long>
+			</metazone>
+			<metazone type="Amazon">
+				<long>
+					<generic draft="contributed">Amazonski čas</generic>
 				</long>
 			</metazone>
 			<metazone type="America_Central">
@@ -1727,11 +1802,32 @@
 					<daylight>Pacifiški poletni čas</daylight>
 				</long>
 			</metazone>
+			<metazone type="Anadyr">
+				<long>
+					<generic draft="contributed">Anadirski čas</generic>
+					<standard draft="contributed">Anadirski čas</standard>
+					<daylight draft="contributed">Anadir – poletni čas</daylight>
+				</long>
+			</metazone>
 			<metazone type="Arabian">
 				<long>
 					<generic>Arabski čas</generic>
 					<standard>Arabski standardni čas</standard>
 					<daylight>Arabski poletni čas</daylight>
+				</long>
+			</metazone>
+			<metazone type="Argentina">
+				<long>
+					<generic draft="contributed">Argentinski čas</generic>
+					<standard draft="contributed">Argentinski čas</standard>
+					<daylight draft="contributed">Argentinski poletni čas</daylight>
+				</long>
+			</metazone>
+			<metazone type="Argentina_Western">
+				<long>
+					<generic draft="contributed">Argentinski zahodni čas</generic>
+					<standard draft="contributed">Zahodnoargentinski čas</standard>
+					<daylight draft="contributed">Argentinski zahodni poletni čas</daylight>
 				</long>
 			</metazone>
 			<metazone type="Atlantic">
@@ -1775,6 +1871,13 @@
 					<daylight>Azorski poletni čas</daylight>
 				</long>
 			</metazone>
+			<metazone type="Brasilia">
+				<long>
+					<generic draft="contributed">Brasilski čas</generic>
+					<standard draft="contributed">Brasilski čas</standard>
+					<daylight draft="contributed">Brasilia – poletni čas</daylight>
+				</long>
+			</metazone>
 			<metazone type="Cape_Verde">
 				<long>
 					<standard>Kapverdski čas</standard>
@@ -1790,6 +1893,13 @@
 			<metazone type="China">
 				<long>
 					<standard>Kitajski standardni čas</standard>
+				</long>
+			</metazone>
+			<metazone type="Choibalsan">
+				<long>
+					<generic draft="contributed">Čojbalsanski čas</generic>
+					<standard draft="contributed">Čojbalsanski čas</standard>
+					<daylight draft="contributed">Čojbalsan – poletni čas</daylight>
 				</long>
 			</metazone>
 			<metazone type="Colombia">
@@ -1828,9 +1938,43 @@
 					<standard>Greenwiški srednji čas</standard>
 				</long>
 			</metazone>
+			<metazone type="Hawaii_Aleutian">
+				<long>
+					<generic draft="contributed">Havajski aleutski čas</generic>
+				</long>
+			</metazone>
+			<metazone type="Hovd">
+				<long>
+					<generic draft="contributed">Hovdski čas</generic>
+					<standard draft="contributed">Hovdski čas</standard>
+					<daylight draft="contributed">Hovd – poletni čas</daylight>
+				</long>
+			</metazone>
 			<metazone type="India">
 				<long>
 					<standard>Indijski standardni čas</standard>
+				</long>
+			</metazone>
+			<metazone type="Indonesia_Central">
+				<long>
+					<generic draft="contributed">Indonezijski osrednji čas</generic>
+				</long>
+			</metazone>
+			<metazone type="Indonesia_Eastern">
+				<long>
+					<generic draft="contributed">Indonezijski vzhodni čas</generic>
+				</long>
+			</metazone>
+			<metazone type="Indonesia_Western">
+				<long>
+					<generic draft="contributed">Indonezijski zahodni čas</generic>
+				</long>
+			</metazone>
+			<metazone type="Irkutsk">
+				<long>
+					<generic draft="contributed">Irkutški čas</generic>
+					<standard draft="contributed">Irkutški čas</standard>
+					<daylight draft="contributed">Irkutsk – poletni čas</daylight>
 				</long>
 			</metazone>
 			<metazone type="Israel">
@@ -1844,9 +1988,37 @@
 					<standard>Japonski standardni čas</standard>
 				</long>
 			</metazone>
+			<metazone type="Kamchatka">
+				<long>
+					<generic draft="contributed">Kamčatski čas</generic>
+					<standard draft="contributed">Petropavlovsk-Kamčatski čas</standard>
+					<daylight draft="contributed">Petropavlovsk-Kamčatski – poletni čas</daylight>
+				</long>
+			</metazone>
+			<metazone type="Kazakhstan_Eastern">
+				<long>
+					<generic draft="contributed">Vzhodni kazahstanski čas</generic>
+					<standard draft="contributed">Vzhodni kazahstanski standardni čas</standard>
+					<daylight draft="contributed">Kazahstanski vzhodni poletni čas</daylight>
+				</long>
+			</metazone>
+			<metazone type="Kazakhstan_Western">
+				<long>
+					<generic draft="contributed">Zahodni kazahstanski čas</generic>
+					<standard draft="contributed">Zahodni kazahstanski standardni čas</standard>
+					<daylight draft="contributed">Kazahstanski zahodni poletni čas</daylight>
+				</long>
+			</metazone>
 			<metazone type="Korea">
 				<long>
 					<standard>Korejski standardni čas</standard>
+				</long>
+			</metazone>
+			<metazone type="Krasnoyarsk">
+				<long>
+					<generic draft="contributed">Krasnojarški čas</generic>
+					<standard draft="contributed">Krasnojarški čas</standard>
+					<daylight draft="contributed">Krasnojarsk – poletni čas</daylight>
 				</long>
 			</metazone>
 			<metazone type="Lord_Howe">
@@ -1856,6 +2028,25 @@
 					<daylight>Poletni čas otoka Lord Howe</daylight>
 				</long>
 			</metazone>
+			<metazone type="Macquarie">
+				<long>
+					<generic draft="contributed">Macquarieski čas</generic>
+				</long>
+			</metazone>
+			<metazone type="Magadan">
+				<long>
+					<generic draft="contributed">Magadanski čas</generic>
+					<standard draft="contributed">Magadanski čas</standard>
+					<daylight draft="contributed">Magadan – poletni čas</daylight>
+				</long>
+			</metazone>
+			<metazone type="Mongolia">
+				<long>
+					<generic draft="contributed">Mongolski čas</generic>
+					<standard draft="contributed">Ulanbatorski čas</standard>
+					<daylight draft="contributed">Ulan Bator – poletni čas</daylight>
+				</long>
+			</metazone>
 			<metazone type="Moscow">
 				<long>
 					<generic>Moskovski čas</generic>
@@ -1863,34 +2054,90 @@
 					<daylight>Moskovski poletni čas</daylight>
 				</long>
 			</metazone>
+			<metazone type="Newfoundland">
+				<long>
+					<generic draft="contributed">Novofundlandski čas</generic>
+					<standard draft="contributed">Novofundlandski standardni čas</standard>
+					<daylight draft="contributed">Novofundlandski dnevni čas</daylight>
+				</long>
+			</metazone>
+			<metazone type="Noronha">
+				<long>
+					<generic draft="contributed">Noronški čas</generic>
+					<standard draft="contributed">Fernando de Noronški čas</standard>
+					<daylight draft="contributed">Fernando de Noronha – poletni čas</daylight>
+				</long>
+			</metazone>
+			<metazone type="Novosibirsk">
+				<long>
+					<generic draft="contributed">Novosibirški čas</generic>
+					<standard draft="contributed">Novosibirški čas</standard>
+					<daylight draft="contributed">Novosibirsk – poletni čas</daylight>
+				</long>
+			</metazone>
+			<metazone type="Omsk">
+				<long>
+					<generic draft="contributed">Omški čas</generic>
+					<standard draft="contributed">Omški čas</standard>
+					<daylight draft="contributed">Omsk – poletni čas</daylight>
+				</long>
+			</metazone>
+			<metazone type="Sakhalin">
+				<long>
+					<generic draft="contributed">Sahalinski čas</generic>
+					<standard draft="contributed">Sahalinski čas</standard>
+					<daylight draft="contributed">Sahalin – poletni čas</daylight>
+				</long>
+			</metazone>
 			<metazone type="Samara">
 				<long>
+					<generic draft="contributed">Samarski čas</generic>
 					<standard>Samarski čas</standard>
 					<daylight>Samarski poletni čas</daylight>
 				</long>
 			</metazone>
 			<metazone type="Turkey">
 				<long>
-					<standard>turški čas</standard>
-					<daylight>turški poletni čas</daylight>
+					<standard>Turški čas</standard>
+					<daylight>Turški poletni čas</daylight>
+				</long>
+			</metazone>
+			<metazone type="Vladivostok">
+				<long>
+					<generic draft="contributed">Vladivostoški čas</generic>
+					<standard draft="contributed">Vladivostoški čas</standard>
+					<daylight draft="contributed">Vladivostok – poletni čas</daylight>
 				</long>
 			</metazone>
 			<metazone type="Volgograd">
 				<long>
+					<generic draft="contributed">Volgograški čas</generic>
 					<standard>Volgograjski čas</standard>
 					<daylight>Volgograjski poletni čas</daylight>
+				</long>
+			</metazone>
+			<metazone type="Yakutsk">
+				<long>
+					<generic draft="contributed">Jakutski čas</generic>
+					<standard draft="contributed">Jakutski čas</standard>
+					<daylight draft="contributed">Jakutsk – poletni čas</daylight>
+				</long>
+			</metazone>
+			<metazone type="Yekaterinburg">
+				<long>
+					<generic draft="contributed">Jekaterinburški čas</generic>
+					<standard draft="contributed">Jekaterinburški čas</standard>
+					<daylight draft="contributed">Jekaterinburg – poletni čas</daylight>
 				</long>
 			</metazone>
 		</timeZoneNames>
 	</dates>
 	<numbers>
-		<symbols>
+		<symbols numberSystem="latn">
 			<decimal>,</decimal>
 			<group>.</group>
 			<list>;</list>
 			<percentSign>%</percentSign>
-			<nativeZeroDigit>0</nativeZeroDigit>
-			<patternDigit>#</patternDigit>
 			<plusSign>+</plusSign>
 			<minusSign>-</minusSign>
 			<exponential>e</exponential>
@@ -1902,6 +2149,20 @@
 			<decimalFormatLength>
 				<decimalFormat>
 					<pattern>#,##0.###</pattern>
+				</decimalFormat>
+			</decimalFormatLength>
+			<decimalFormatLength type="short">
+				<decimalFormat>
+					<pattern type="1000" draft="contributed">0.0 K</pattern>
+					<pattern type="1000000" draft="contributed">0.0 M</pattern>
+					<pattern type="10000000" draft="contributed">00 M</pattern>
+					<pattern type="100000000" draft="contributed">000 M</pattern>
+					<pattern type="1000000000" draft="contributed">0.0 B</pattern>
+					<pattern type="10000000000" draft="contributed">00 B</pattern>
+					<pattern type="100000000000" draft="contributed">000B</pattern>
+					<pattern type="1000000000000" draft="contributed">0.0 T</pattern>
+					<pattern type="10000000000000" draft="contributed">00 T</pattern>
+					<pattern type="100000000000000" draft="contributed">000 T</pattern>
 				</decimalFormat>
 			</decimalFormatLength>
 		</decimalFormats>
@@ -1925,10 +2186,10 @@
 					<pattern>#,##0.00 ¤</pattern>
 				</currencyFormat>
 			</currencyFormatLength>
-			<unitPattern count="few">{0} {1}</unitPattern>
-			<unitPattern count="one">{0} {1}</unitPattern>
-			<unitPattern count="other">{0} {1}</unitPattern>
-			<unitPattern count="two">{0} {1}</unitPattern>
+			<unitPattern count="few" draft="provisional">{0} {1}</unitPattern>
+			<unitPattern count="one" draft="provisional">{0} {1}</unitPattern>
+			<unitPattern count="other" draft="provisional">{0} {1}</unitPattern>
+			<unitPattern count="two" draft="provisional">{0} {1}</unitPattern>
 		</currencyFormats>
 		<currencies>
 			<currency type="ADP">
@@ -1978,10 +2239,10 @@
 			</currency>
 			<currency type="AUD">
 				<displayName>avstralski dolar</displayName>
-				<displayName count="few">avstralski dolarji</displayName>
-				<displayName count="one">avstralski dolar</displayName>
-				<displayName count="other">avstralskih dolarjev</displayName>
-				<displayName count="two">avstralska dolarja</displayName>
+				<displayName count="few" draft="provisional">avstralski dolarji</displayName>
+				<displayName count="one" draft="provisional">avstralski dolar</displayName>
+				<displayName count="other" draft="provisional">avstralskih dolarjev</displayName>
+				<displayName count="two" draft="provisional">avstralska dolarja</displayName>
 			</currency>
 			<currency type="AWG">
 				<displayName>arubski florin</displayName>
@@ -1997,10 +2258,10 @@
 			</currency>
 			<currency type="BAM">
 				<displayName>bosansko-hercegovska konvertibilna marka</displayName>
-				<displayName count="few">bosansko-hercegovske konvertibilne marke</displayName>
-				<displayName count="one">bosansko-hercegovska konvertibilna marka</displayName>
-				<displayName count="other">bosansko-hercegovskih konvertibilnih mark</displayName>
-				<displayName count="two">bosansko-hercegovski konvertibilni marki</displayName>
+				<displayName count="few" draft="provisional">bosansko-hercegovske konvertibilne marke</displayName>
+				<displayName count="one" draft="provisional">bosansko-hercegovska konvertibilna marka</displayName>
+				<displayName count="other" draft="provisional">bosansko-hercegovskih konvertibilnih mark</displayName>
+				<displayName count="two" draft="provisional">bosansko-hercegovski konvertibilni marki</displayName>
 			</currency>
 			<currency type="BBD">
 				<displayName>barbadoški dolar</displayName>
@@ -2013,10 +2274,10 @@
 			</currency>
 			<currency type="BEF">
 				<displayName>belgijski frank</displayName>
-				<displayName count="few">belgijski franki</displayName>
-				<displayName count="one">belgijski frank</displayName>
-				<displayName count="other">belgijskih frankov</displayName>
-				<displayName count="two">belgijska franka</displayName>
+				<displayName count="few" draft="provisional">belgijski franki</displayName>
+				<displayName count="one" draft="provisional">belgijski frank</displayName>
+				<displayName count="other" draft="provisional">belgijskih frankov</displayName>
+				<displayName count="two" draft="provisional">belgijska franka</displayName>
 			</currency>
 			<currency type="BEL">
 				<displayName>belgijski finančni frank</displayName>
@@ -2128,10 +2389,6 @@
 			</currency>
 			<currency type="CUC">
 				<displayName>kubanski konvertibilni peso</displayName>
-				<displayName count="few">CUC</displayName>
-				<displayName count="one">CUC</displayName>
-				<displayName count="other">CUC</displayName>
-				<displayName count="two">CUC</displayName>
 			</currency>
 			<currency type="CUP">
 				<displayName>kubanski peso</displayName>
@@ -2150,20 +2407,20 @@
 			</currency>
 			<currency type="DEM">
 				<displayName>nemška marka</displayName>
-				<displayName count="few">nemške marke</displayName>
-				<displayName count="one">nemška marka</displayName>
-				<displayName count="other">nemških mark</displayName>
-				<displayName count="two">nemški marki</displayName>
+				<displayName count="few" draft="provisional">nemške marke</displayName>
+				<displayName count="one" draft="provisional">nemška marka</displayName>
+				<displayName count="other" draft="provisional">nemških mark</displayName>
+				<displayName count="two" draft="provisional">nemški marki</displayName>
 			</currency>
 			<currency type="DJF">
 				<displayName>džibutski frank</displayName>
 			</currency>
 			<currency type="DKK">
 				<displayName>danska krona</displayName>
-				<displayName count="few">danske krone</displayName>
-				<displayName count="one">danska krona</displayName>
-				<displayName count="other">danskih kron</displayName>
-				<displayName count="two">danski kroni</displayName>
+				<displayName count="few" draft="provisional">danske krone</displayName>
+				<displayName count="one" draft="provisional">danska krona</displayName>
+				<displayName count="other" draft="provisional">danskih kron</displayName>
+				<displayName count="two" draft="provisional">danski kroni</displayName>
 			</currency>
 			<currency type="DOP">
 				<displayName>dominikanski peso</displayName>
@@ -2200,10 +2457,10 @@
 			</currency>
 			<currency type="EUR">
 				<displayName>evro</displayName>
-				<displayName count="few">evri</displayName>
-				<displayName count="one">evro</displayName>
-				<displayName count="other">evrov</displayName>
-				<displayName count="two">evra</displayName>
+				<displayName count="few" draft="provisional">evri</displayName>
+				<displayName count="one" draft="provisional">evro</displayName>
+				<displayName count="other" draft="provisional">evrov</displayName>
+				<displayName count="two" draft="provisional">evra</displayName>
 			</currency>
 			<currency type="FIM">
 				<displayName>finska marka</displayName>
@@ -2219,9 +2476,9 @@
 			</currency>
 			<currency type="GBP">
 				<displayName>britanski funt</displayName>
-				<displayName count="few">britanski funti</displayName>
-				<displayName count="one">britanski funt</displayName>
-				<displayName count="other">britanskih funtov</displayName>
+				<displayName count="few" draft="provisional">britanski funti</displayName>
+				<displayName count="one" draft="provisional">britanski funt</displayName>
+				<displayName count="other" draft="provisional">britanskih funtov</displayName>
 			</currency>
 			<currency type="GEK">
 				<displayName>gruzijski bon lari</displayName>
@@ -2243,10 +2500,6 @@
 			</currency>
 			<currency type="GNF">
 				<displayName>gvinejski frank</displayName>
-				<displayName count="few">GNF</displayName>
-				<displayName count="one">GNF</displayName>
-				<displayName count="other">GNF</displayName>
-				<displayName count="two">GNF</displayName>
 			</currency>
 			<currency type="GNS">
 				<displayName>gvinejski sili</displayName>
@@ -2572,17 +2825,17 @@
 			</currency>
 			<currency type="SIT">
 				<displayName>slovenski tolar</displayName>
-				<displayName count="few">slovenski tolarji</displayName>
-				<displayName count="one">slovenski tolar</displayName>
-				<displayName count="other">slovenskih tolarjev</displayName>
-				<displayName count="two">slovenska tolarja</displayName>
+				<displayName count="few" draft="provisional">slovenski tolarji</displayName>
+				<displayName count="one" draft="provisional">slovenski tolar</displayName>
+				<displayName count="other" draft="provisional">slovenskih tolarjev</displayName>
+				<displayName count="two" draft="provisional">slovenska tolarja</displayName>
 			</currency>
 			<currency type="SKK">
 				<displayName>slovaška krona</displayName>
-				<displayName count="few">slovaške krone</displayName>
-				<displayName count="one">slovaška krona</displayName>
-				<displayName count="other">slovaških kron</displayName>
-				<displayName count="two">slovaški kroni</displayName>
+				<displayName count="few" draft="provisional">slovaške krone</displayName>
+				<displayName count="one" draft="provisional">slovaška krona</displayName>
+				<displayName count="other" draft="provisional">slovaških kron</displayName>
+				<displayName count="two" draft="provisional">slovaški kroni</displayName>
 			</currency>
 			<currency type="SLL">
 				<displayName>sieraleonski leone</displayName>
@@ -2625,10 +2878,6 @@
 			</currency>
 			<currency type="TMT">
 				<displayName>turkmenistanski novi manat</displayName>
-				<displayName count="few">TMT</displayName>
-				<displayName count="one">TMT</displayName>
-				<displayName count="other">TMT</displayName>
-				<displayName count="two">TMT</displayName>
 			</currency>
 			<currency type="TND">
 				<displayName>tunizijski dinar</displayName>
@@ -2668,10 +2917,10 @@
 			</currency>
 			<currency type="USD">
 				<displayName>ameriški dolar</displayName>
-				<displayName count="few">ameriški dolarji</displayName>
-				<displayName count="one">ameriški dolar</displayName>
-				<displayName count="other">ameriških dolarjev</displayName>
-				<displayName count="two">ameriška dolarja</displayName>
+				<displayName count="few" draft="provisional">ameriški dolarji</displayName>
+				<displayName count="one" draft="provisional">ameriški dolar</displayName>
+				<displayName count="other" draft="provisional">ameriških dolarjev</displayName>
+				<displayName count="two" draft="provisional">ameriška dolarja</displayName>
 				<symbol>$</symbol>
 			</currency>
 			<currency type="USN">
@@ -2752,9 +3001,6 @@
 			<currency type="XPT">
 				<displayName>platina</displayName>
 			</currency>
-			<currency type="XRE">
-				<displayName>XRE</displayName>
-			</currency>
 			<currency type="XTS">
 				<displayName>koda za potrebe testiranja</displayName>
 			</currency>
@@ -2796,10 +3042,10 @@
 			</currency>
 			<currency type="ZWL">
 				<displayName>zimbabvejski dolar (2009)</displayName>
-				<displayName count="few">ZWL</displayName>
-				<displayName count="one">ZWL</displayName>
-				<displayName count="other">ZWL</displayName>
-				<displayName count="two">ZWL</displayName>
+				<displayName count="few" draft="provisional">ZWL</displayName>
+				<displayName count="one" draft="provisional">ZWL</displayName>
+				<displayName count="other" draft="provisional">ZWL</displayName>
+				<displayName count="two" draft="provisional">ZWL</displayName>
 			</currency>
 		</currencies>
 	</numbers>
@@ -2814,6 +3060,22 @@
 			<unitPattern count="two">{0} dni</unitPattern>
 			<unitPattern count="two" alt="short">{0} d</unitPattern>
 		</unit>
+		<unit type="day-future">
+			<unitPattern count="0" draft="contributed">Čez 0 dni</unitPattern>
+			<unitPattern count="1" draft="contributed">Čez 1 dan</unitPattern>
+			<unitPattern count="few" draft="contributed">Čez {0} dni</unitPattern>
+			<unitPattern count="one" draft="contributed">Čez {0} dan</unitPattern>
+			<unitPattern count="other" draft="contributed">Čez {0} dni</unitPattern>
+			<unitPattern count="two" draft="contributed">Čez {0} dni</unitPattern>
+		</unit>
+		<unit type="day-past">
+			<unitPattern count="0" draft="contributed">Pred 0 dnevi</unitPattern>
+			<unitPattern count="1" draft="contributed">Pred 1 dnevom</unitPattern>
+			<unitPattern count="few" draft="contributed">Pred {0} dnevi</unitPattern>
+			<unitPattern count="one" draft="contributed">Pred {0} dnevom</unitPattern>
+			<unitPattern count="other" draft="contributed">Pred {0} dnevi</unitPattern>
+			<unitPattern count="two" draft="contributed">Pred {0} dnevoma</unitPattern>
+		</unit>
 		<unit type="hour">
 			<unitPattern count="few">{0} ure</unitPattern>
 			<unitPattern count="few" alt="short">{0} h</unitPattern>
@@ -2823,6 +3085,22 @@
 			<unitPattern count="other" alt="short">{0} h</unitPattern>
 			<unitPattern count="two">{0} uri</unitPattern>
 			<unitPattern count="two" alt="short">{0} h</unitPattern>
+		</unit>
+		<unit type="hour-future">
+			<unitPattern count="0" draft="contributed">Čez 0 h</unitPattern>
+			<unitPattern count="1" draft="contributed">Čez 1 h</unitPattern>
+			<unitPattern count="few" draft="contributed">Čez {0} h</unitPattern>
+			<unitPattern count="one" draft="contributed">Čez {0} h</unitPattern>
+			<unitPattern count="other" draft="contributed">Čez {0} h</unitPattern>
+			<unitPattern count="two" draft="contributed">Čez {0} h</unitPattern>
+		</unit>
+		<unit type="hour-past">
+			<unitPattern count="0" draft="contributed">Pred 0 h</unitPattern>
+			<unitPattern count="1" draft="contributed">Pred 1 h</unitPattern>
+			<unitPattern count="few" draft="contributed">Pred {0} h</unitPattern>
+			<unitPattern count="one" draft="contributed">Pred {0} h</unitPattern>
+			<unitPattern count="other" draft="contributed">Pred {0} h</unitPattern>
+			<unitPattern count="two" draft="contributed">Pred {0} h</unitPattern>
 		</unit>
 		<unit type="minute">
 			<unitPattern count="few">{0} minute</unitPattern>
@@ -2834,6 +3112,22 @@
 			<unitPattern count="two">{0} minuti</unitPattern>
 			<unitPattern count="two" alt="short">{0} min</unitPattern>
 		</unit>
+		<unit type="minute-future">
+			<unitPattern count="0" draft="contributed">Čez 0 min.</unitPattern>
+			<unitPattern count="1" draft="contributed">Čez 1 min.</unitPattern>
+			<unitPattern count="few" draft="contributed">Čez {0} min.</unitPattern>
+			<unitPattern count="one" draft="contributed">Čez {0} min.</unitPattern>
+			<unitPattern count="other" draft="contributed">Čez {0} min.</unitPattern>
+			<unitPattern count="two" draft="contributed">Čez {0} min.</unitPattern>
+		</unit>
+		<unit type="minute-past">
+			<unitPattern count="0" draft="contributed">Pred 0 min.</unitPattern>
+			<unitPattern count="1" draft="contributed">Pred 1 min.</unitPattern>
+			<unitPattern count="few" draft="contributed">Pred {0} min.</unitPattern>
+			<unitPattern count="one" draft="contributed">Pred {0} min.</unitPattern>
+			<unitPattern count="other" draft="contributed">Pred {0} min.</unitPattern>
+			<unitPattern count="two" draft="contributed">Pred {0} min.</unitPattern>
+		</unit>
 		<unit type="month">
 			<unitPattern count="few">{0} meseci</unitPattern>
 			<unitPattern count="few" alt="short">{0} m</unitPattern>
@@ -2843,6 +3137,22 @@
 			<unitPattern count="other" alt="short">{0} m</unitPattern>
 			<unitPattern count="two">{0} meseca</unitPattern>
 			<unitPattern count="two" alt="short">{0} m</unitPattern>
+		</unit>
+		<unit type="month-future">
+			<unitPattern count="0" draft="contributed">Čez 0 mesecev</unitPattern>
+			<unitPattern count="1" draft="contributed">Čez 1 mesec</unitPattern>
+			<unitPattern count="few" draft="contributed">Čez {0} mesece</unitPattern>
+			<unitPattern count="one" draft="contributed">Čez {0} mesec</unitPattern>
+			<unitPattern count="other" draft="contributed">Čez {0} mesecev</unitPattern>
+			<unitPattern count="two" draft="contributed">Čez {0} meseca</unitPattern>
+		</unit>
+		<unit type="month-past">
+			<unitPattern count="0" draft="contributed">Pred 0 meseci</unitPattern>
+			<unitPattern count="1" draft="contributed">Pred 1 mesecem</unitPattern>
+			<unitPattern count="few" draft="contributed">Pred {0} meseci</unitPattern>
+			<unitPattern count="one" draft="contributed">Pred {0} mesecem</unitPattern>
+			<unitPattern count="other" draft="contributed">Pred {0} meseci</unitPattern>
+			<unitPattern count="two" draft="contributed">Pred {0} meseci</unitPattern>
 		</unit>
 		<unit type="second">
 			<unitPattern count="few">{0} sekunde</unitPattern>
@@ -2854,6 +3164,22 @@
 			<unitPattern count="two">{0} sekundi</unitPattern>
 			<unitPattern count="two" alt="short">{0} s</unitPattern>
 		</unit>
+		<unit type="second-future">
+			<unitPattern count="0" draft="contributed">Čez 0 sekund</unitPattern>
+			<unitPattern count="1" draft="contributed">Čez 1 sekundo</unitPattern>
+			<unitPattern count="few" draft="contributed">Čez {0} sekunde</unitPattern>
+			<unitPattern count="one" draft="contributed">Čez {0} sekundo</unitPattern>
+			<unitPattern count="other" draft="contributed">Čez {0} sekundi</unitPattern>
+			<unitPattern count="two" draft="contributed">Čez {0} sekundi</unitPattern>
+		</unit>
+		<unit type="second-past">
+			<unitPattern count="0" draft="contributed">Pred 0 sekundami</unitPattern>
+			<unitPattern count="1" draft="contributed">Pred 1 sekundo</unitPattern>
+			<unitPattern count="few" draft="contributed">Pred {0} sekundami</unitPattern>
+			<unitPattern count="one" draft="contributed">Pred {0} sekundo</unitPattern>
+			<unitPattern count="other" draft="contributed">Pred {0} sekundami</unitPattern>
+			<unitPattern count="two" draft="contributed">Pred {0} sekundama</unitPattern>
+		</unit>
 		<unit type="week">
 			<unitPattern count="few">{0} tedni</unitPattern>
 			<unitPattern count="few" alt="short">{0} t</unitPattern>
@@ -2864,6 +3190,22 @@
 			<unitPattern count="two">{0} tedna</unitPattern>
 			<unitPattern count="two" alt="short">{0} t</unitPattern>
 		</unit>
+		<unit type="week-future">
+			<unitPattern count="0" draft="contributed">Čez 0 tednov</unitPattern>
+			<unitPattern count="1" draft="contributed">Čez 1 teden</unitPattern>
+			<unitPattern count="few" draft="contributed">Čez {0} tedne</unitPattern>
+			<unitPattern count="one" draft="contributed">Čez {0} teden</unitPattern>
+			<unitPattern count="other" draft="contributed">Čez {0} tednov</unitPattern>
+			<unitPattern count="two" draft="contributed">Čez {0} tedna</unitPattern>
+		</unit>
+		<unit type="week-past">
+			<unitPattern count="0" draft="contributed">Pred 0 tedni</unitPattern>
+			<unitPattern count="1" draft="contributed">Pred 1 tednom</unitPattern>
+			<unitPattern count="few" draft="contributed">Pred {0} tedni</unitPattern>
+			<unitPattern count="one" draft="contributed">Pred {0} tednom</unitPattern>
+			<unitPattern count="other" draft="contributed">Pred {0} tedni</unitPattern>
+			<unitPattern count="two" draft="contributed">Pred {0} tednoma</unitPattern>
+		</unit>
 		<unit type="year">
 			<unitPattern count="few">{0} leta</unitPattern>
 			<unitPattern count="few" alt="short">{0} l</unitPattern>
@@ -2873,6 +3215,22 @@
 			<unitPattern count="other" alt="short">{0} l</unitPattern>
 			<unitPattern count="two">{0} leti</unitPattern>
 			<unitPattern count="two" alt="short">{0} l</unitPattern>
+		</unit>
+		<unit type="year-future">
+			<unitPattern count="0" draft="contributed">Čez 0 let</unitPattern>
+			<unitPattern count="1" draft="contributed">Čez 1 leto</unitPattern>
+			<unitPattern count="few" draft="contributed">Čez {0} leta</unitPattern>
+			<unitPattern count="one" draft="contributed">Čez {0} leto</unitPattern>
+			<unitPattern count="other" draft="contributed">Čez {0} let</unitPattern>
+			<unitPattern count="two" draft="contributed">Čez {0} leti</unitPattern>
+		</unit>
+		<unit type="year-past">
+			<unitPattern count="0" draft="contributed">Pred 0 leti</unitPattern>
+			<unitPattern count="1" draft="contributed">Pred 1 letom</unitPattern>
+			<unitPattern count="few" draft="contributed">Pred {0} leti</unitPattern>
+			<unitPattern count="one" draft="contributed">Pred {0} letom</unitPattern>
+			<unitPattern count="other" draft="contributed">Pred {0} leti</unitPattern>
+			<unitPattern count="two" draft="contributed">Pred {0} leti</unitPattern>
 		</unit>
 	</units>
 	<listPatterns>

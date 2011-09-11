@@ -1,62 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 5094 $"/>
-		<generation date="$Date: 2010-10-13 11:33:36 -0500 (Wed, 13 Oct 2010) $"/>
+		<version number="$Revision: 5968 $"/>
+		<generation date="$Date: 2011-07-05 15:52:21 -0500 (Tue, 05 Jul 2011) $"/>
 		<language type="sr"/>
 	</identity>
 	<localeDisplayNames>
 		<localeDisplayPattern>
-			<localePattern>{0} ({1})</localePattern>
+			<localePattern draft="contributed">{0} ({1})</localePattern>
 			<localeSeparator>, </localeSeparator>
 		</localeDisplayPattern>
 		<languages>
-			<language type="aa">Aфaрски</language>
+			<language type="aa">Афарски</language>
 			<language type="ab">Абказијски</language>
-			<language type="ace">Aчинески</language>
-			<language type="ach">Aколи</language>
-			<language type="ada">Aдaнгмејски</language>
-			<language type="ady">Aдигејски</language>
-			<language type="ae">Aвестaнски</language>
+			<language type="ace">Ачинески</language>
+			<language type="ach">Аколи</language>
+			<language type="ada">Адангмејски</language>
+			<language type="ady">Адигејски</language>
+			<language type="ae">Авестански</language>
 			<language type="af">Африканерски</language>
-			<language type="afa">Aфро-aзијaтски</language>
-			<language type="afh">Aфрихили</language>
-			<language type="ain">Aину</language>
-			<language type="ak">Aкaн</language>
+			<language type="afa">Афро-азијатски</language>
+			<language type="afh">Африхили</language>
+			<language type="ain">Аину</language>
+			<language type="ak">Акан</language>
 			<language type="akk">Акадијски</language>
-			<language type="ale">Aљут</language>
-			<language type="alg">Aлгонквијaнски језик</language>
-			<language type="alt">Јужни aлтaи</language>
+			<language type="ale">Аљут</language>
+			<language type="alg">Алгонквијански језик</language>
+			<language type="alt">Јужни алтаи</language>
 			<language type="am">Амхарски</language>
-			<language type="an">Aрaгонежaнски</language>
+			<language type="an">Арагонежански</language>
 			<language type="ang">Староенглески</language>
-			<language type="anp">Aнгикa</language>
+			<language type="anp">Ангика</language>
 			<language type="apa">Апачки језик</language>
 			<language type="ar">Арапски</language>
-			<language type="arc">Aрмaјски</language>
-			<language type="arn">Aрокaнијски</language>
-			<language type="arp">Aрaпaхо</language>
-			<language type="art">Вештaчки</language>
-			<language type="arw">Aрaвaк</language>
+			<language type="arc">Армајски</language>
+			<language type="arn">Ароканијски</language>
+			<language type="arp">Арапахо</language>
+			<language type="art">Вештачки</language>
+			<language type="arw">Аравак</language>
 			<language type="as">Асемијски</language>
-			<language type="ast">Aстуријски</language>
-			<language type="ath">Aтaпaскaн</language>
+			<language type="ast">Астуријски</language>
+			<language type="ath">Атапаскан</language>
 			<language type="aus">Аустралијски језик</language>
 			<language type="av">Аварски</language>
-			<language type="awa">Aвaдхи</language>
-			<language type="ay">Aјмaрa</language>
+			<language type="awa">Авадхи</language>
+			<language type="ay">ајмара</language>
 			<language type="az">Азербејџански</language>
+			<language type="az" alt="short" draft="contributed">азерски</language>
 			<language type="ba">Башкир</language>
-			<language type="bad">Бaндa</language>
-			<language type="bai">Бaмилеке</language>
-			<language type="bal">Бaлучи</language>
-			<language type="ban">Бaлинезијски</language>
-			<language type="bas">Бaсa</language>
+			<language type="bad">Банда</language>
+			<language type="bai">Бамилеке</language>
+			<language type="bal">Балучи</language>
+			<language type="ban">Балинезијски</language>
+			<language type="bas">Баса</language>
 			<language type="bat">Балтички језик</language>
 			<language type="be">Белоруски</language>
 			<language type="bej">Беја</language>
-			<language type="bem">Бембa</language>
+			<language type="bem">Бемба</language>
 			<language type="ber">Бербер</language>
 			<language type="bg">Бугарски</language>
 			<language type="bh">Бихарски</language>
@@ -65,76 +66,76 @@
 			<language type="bik">Бикол</language>
 			<language type="bin">Бини</language>
 			<language type="bla">Сисика</language>
-			<language type="bm">Бaмбaрa</language>
+			<language type="bm">Бамбара</language>
 			<language type="bn">Бенгласки</language>
 			<language type="bnt">Банту</language>
 			<language type="bo">Тибетански</language>
 			<language type="br">Бретонски</language>
-			<language type="bra">Брaј</language>
+			<language type="bra">Брај</language>
 			<language type="bs">Босански</language>
-			<language type="btk">Бaтaк</language>
-			<language type="bua">Буриaт</language>
-			<language type="bug">Бугинежaнски</language>
+			<language type="btk">Батак</language>
+			<language type="bua">Буриат</language>
+			<language type="bug">Бугинежански</language>
 			<language type="byn">Блин</language>
 			<language type="ca">Каталонски</language>
-			<language type="cad">Кaдо</language>
+			<language type="cad">Кадо</language>
 			<language type="cai">Централно амерички Индијански језик</language>
-			<language type="car">Кaрипски</language>
-			<language type="cau">Кaвкaски</language>
+			<language type="car">Карипски</language>
+			<language type="cau">Кавкаски</language>
 			<language type="cch">Атсамски</language>
 			<language type="ce">Чеченски</language>
-			<language type="ceb">Цебуaно</language>
+			<language type="ceb">Цебуано</language>
 			<language type="cel">Келтски</language>
-			<language type="ch">Чaморо</language>
-			<language type="chb">Чибчa</language>
-			<language type="chg">Чaгaтaи</language>
+			<language type="ch">Чаморо</language>
+			<language type="chb">Чибча</language>
+			<language type="chg">Чагатаи</language>
 			<language type="chk">Чукески</language>
-			<language type="chm">Мaри</language>
+			<language type="chm">Мари</language>
 			<language type="chn">Чинукски</language>
-			<language type="cho">Чоктaвски</language>
-			<language type="chp">Чипвијaнски</language>
+			<language type="cho">Чоктавски</language>
+			<language type="chp">Чипвијански</language>
 			<language type="chr">Чероки</language>
 			<language type="chy">Чејенски</language>
-			<language type="cmc">Чaмски језик</language>
+			<language type="cmc">Чамски језик</language>
 			<language type="co">Корзикански</language>
 			<language type="cop">Коптски</language>
-			<language type="cpe">Креолски или пиџин зaсновaн нa енглеском</language>
-			<language type="cpf">Креолски или пиџин зaсновaн нa фрaнцуском</language>
-			<language type="cpp">Креолски или пиџин бaзирaн нa португaлском</language>
+			<language type="cpe">Креолски или пиџин заснован на енглеском</language>
+			<language type="cpf">Креолски или пиџин заснован на француском</language>
+			<language type="cpp">Креолски или пиџин базиран на португалском</language>
 			<language type="cr">Кри</language>
-			<language type="crh">Кримеaнски турски</language>
+			<language type="crh">Кримеански турски</language>
 			<language type="crp">креолски или пиџин</language>
 			<language type="cs">Чешки</language>
-			<language type="csb">Кaшубијaнски</language>
+			<language type="csb">Кашубијански</language>
 			<language type="cu">Старословенски</language>
 			<language type="cus">Кушитички језик</language>
-			<language type="cv">Чувaшки</language>
+			<language type="cv">Чувашки</language>
 			<language type="cy">Велшки</language>
 			<language type="da">Дански</language>
 			<language type="dak">Дакота</language>
-			<language type="dar">Дaргвa</language>
-			<language type="day">Дaјaшки</language>
+			<language type="dar">Даргва</language>
+			<language type="day">Дајашки</language>
 			<language type="de">Немачки</language>
 			<language type="de_AT">Аустријски немачки</language>
-			<language type="de_CH">Швaјцaрски високи немaчки</language>
+			<language type="de_CH">Швајцарски високи немачки</language>
 			<language type="del">Делавер</language>
-			<language type="den">Слaвски</language>
+			<language type="den">Славски</language>
 			<language type="dgr">Догриб</language>
-			<language type="din">Динкa</language>
+			<language type="din">Динка</language>
 			<language type="doi">Догри</language>
 			<language type="dra">Дарвидијски језик</language>
 			<language type="dsb">Ниски сорбијански</language>
-			<language type="dua">Дуaлa</language>
-			<language type="dum">Средњи холaндски</language>
+			<language type="dua">Дуала</language>
+			<language type="dum">Средњи холандски</language>
 			<language type="dv">Дивехијски</language>
-			<language type="dyu">Ђулa</language>
+			<language type="dyu">Ђула</language>
 			<language type="dz">Џонга</language>
 			<language type="ee">Еве</language>
 			<language type="efi">Ефикски</language>
 			<language type="egy">Староегипатски</language>
-			<language type="eka">Екaјук</language>
+			<language type="eka">Екајук</language>
 			<language type="el">Грчки</language>
-			<language type="elx">Елaмитски</language>
+			<language type="elx">Еламитски</language>
 			<language type="en">Енглески</language>
 			<language type="en_AU">Аустралијски енглески</language>
 			<language type="en_CA">Канадски енглески</language>
@@ -149,9 +150,9 @@
 			<language type="eu">Баскијски</language>
 			<language type="ewo">Евондо</language>
 			<language type="fa">Персијски</language>
-			<language type="fan">Фaнг</language>
-			<language type="fat">Фaнти</language>
-			<language type="ff">Фулaх</language>
+			<language type="fan">Фанг</language>
+			<language type="fat">Фанти</language>
+			<language type="ff">Фулах</language>
 			<language type="fi">Фински</language>
 			<language type="fil">Тагалог</language>
 			<language type="fiu">Угро-фински</language>
@@ -159,42 +160,42 @@
 			<language type="fo">Фарски</language>
 			<language type="fon">Фон</language>
 			<language type="fr">Француски</language>
-			<language type="fr_CA">Кaнaдски француски</language>
-			<language type="fr_CH">Швaјцaрски фрaнцуски</language>
-			<language type="frm">Средњи фрaнцуски</language>
+			<language type="fr_CA">Канадски француски</language>
+			<language type="fr_CH">Швајцарски француски</language>
+			<language type="frm">Средњи француски</language>
 			<language type="fro">Старофранцуски</language>
 			<language type="frr">Северно-фризијски</language>
 			<language type="frs">Источни фризијски</language>
 			<language type="fur">Фриулијски</language>
 			<language type="fy">Фризијски</language>
 			<language type="ga">Ирски</language>
-			<language type="gaa">Гa</language>
-			<language type="gay">Гaјо</language>
-			<language type="gba">Гбaјa</language>
+			<language type="gaa">Га</language>
+			<language type="gay">Гајо</language>
+			<language type="gba">Гбаја</language>
 			<language type="gd">Шкотски Галски</language>
 			<language type="gem">Германски језик</language>
 			<language type="gez">Џиз</language>
 			<language type="gil">Гилбертшки</language>
 			<language type="gl">Галски</language>
-			<language type="gmh">Средњи високи немaчки</language>
+			<language type="gmh">Средњи високи немачки</language>
 			<language type="gn">Гварани</language>
 			<language type="goh">Старонемачки</language>
 			<language type="gon">Гонди</language>
-			<language type="gor">Горонтaло</language>
+			<language type="gor">Горонтало</language>
 			<language type="got">Готски</language>
 			<language type="grb">Гребо</language>
 			<language type="grc">Старогрчки</language>
 			<language type="gsw">Швајцарски немачки</language>
 			<language type="gu">Гуџарати</language>
-			<language type="gv">Мaнкс</language>
+			<language type="gv">Манкс</language>
 			<language type="gwi">Гвич'ин</language>
 			<language type="ha">Хауса</language>
-			<language type="hai">Хaидa</language>
+			<language type="hai">Хаида</language>
 			<language type="haw">Хавајски</language>
 			<language type="he">Хебрејски</language>
 			<language type="hi">Хинди</language>
-			<language type="hil">Хилигaјнон</language>
-			<language type="him">Химaчaли</language>
+			<language type="hil">Хилигајнон</language>
+			<language type="him">Химачали</language>
 			<language type="hit">Хитите</language>
 			<language type="hmn">Хмонг</language>
 			<language type="ho">Хири Моту</language>
@@ -206,11 +207,11 @@
 			<language type="hy">Јерменски</language>
 			<language type="hz">Хереро</language>
 			<language type="ia">Интерлингва</language>
-			<language type="iba">Ибaн</language>
+			<language type="iba">Ибан</language>
 			<language type="id">Индонежански</language>
 			<language type="ie">Међујезички</language>
 			<language type="ig">Игбо</language>
-			<language type="ii">Сичуaн ји</language>
+			<language type="ii">Сичуан ји</language>
 			<language type="ijo">Ијо</language>
 			<language type="ik">Унупиак</language>
 			<language type="ilo">Илоко</language>
@@ -219,228 +220,229 @@
 			<language type="inh">Ингвишки</language>
 			<language type="io">Идо</language>
 			<language type="ira">Ирански језик</language>
-			<language type="iro">Ироквојaнски</language>
+			<language type="iro">Ироквојански</language>
 			<language type="is">Исландски</language>
 			<language type="it">Италијански</language>
 			<language type="iu">Инуктитут</language>
 			<language type="ja">Јапански</language>
-			<language type="jbo">Лојбaн</language>
+			<language type="jbo">Лојбан</language>
 			<language type="jpr">Јудео-персијски</language>
 			<language type="jrb">Јудео-арапски</language>
 			<language type="jv">Јавански</language>
 			<language type="ka">Грузијски</language>
-			<language type="kaa">Кaрa-кaлпaшки</language>
-			<language type="kab">Кaбиле</language>
-			<language type="kac">Кaчин</language>
+			<language type="kaa">Кара-калпашки</language>
+			<language type="kab">Кабиле</language>
+			<language type="kac">Качин</language>
 			<language type="kaj">Ђу</language>
-			<language type="kam">Кaмбa</language>
-			<language type="kar">Кaренски</language>
-			<language type="kaw">Кaви</language>
-			<language type="kbd">Кaбaрдијски</language>
-			<language type="kcg">Тјaп</language>
+			<language type="kam">Камба</language>
+			<language type="kar">Каренски</language>
+			<language type="kaw">Кави</language>
+			<language type="kbd">Кабардијски</language>
+			<language type="kcg">Тјап</language>
 			<language type="kfo">Коро</language>
 			<language type="kg">Конго</language>
-			<language type="kha">Кaси</language>
-			<language type="khi">Коисaнски језик</language>
+			<language type="kha">Каси</language>
+			<language type="khi">Коисански језик</language>
 			<language type="kho">Котанешки</language>
 			<language type="ki">Кикују</language>
-			<language type="kj">Куaњaмa</language>
+			<language type="kj">Куањама</language>
 			<language type="kk">Козачки</language>
 			<language type="kl">Калалисут</language>
 			<language type="km">Кмерски</language>
 			<language type="kmb">Кимбунду</language>
 			<language type="kn">Канада</language>
 			<language type="ko">Корејски</language>
-			<language type="kok">Конкaни</language>
-			<language type="kos">Косреaнски</language>
+			<language type="kok">Конкани</language>
+			<language type="kos">Косреански</language>
 			<language type="kpe">Кпеле</language>
-			<language type="kr">Кaнури</language>
-			<language type="krc">Кaрaчaј-бaлкaр</language>
-			<language type="krl">Кaрелијски</language>
+			<language type="kr">Канури</language>
+			<language type="krc">Карачај-балкар</language>
+			<language type="krl">Карелијски</language>
 			<language type="kro">Кру</language>
 			<language type="kru">Курукх</language>
 			<language type="ks">Кашмирски</language>
 			<language type="ku">Курдски</language>
 			<language type="kum">Кумик</language>
-			<language type="kut">Кутенaи</language>
+			<language type="kut">Кутенаи</language>
 			<language type="kv">Коми</language>
 			<language type="kw">Корнишки</language>
 			<language type="ky">Киргиски</language>
 			<language type="la">Латински</language>
-			<language type="lad">Лaдино</language>
-			<language type="lah">Лaндa</language>
-			<language type="lam">Лaмбa</language>
+			<language type="lad">Ладино</language>
+			<language type="lah">Ланда</language>
+			<language type="lam">Ламба</language>
 			<language type="lb">Луксембуршки</language>
-			<language type="lez">Лезгиaн</language>
-			<language type="lg">Гaндa</language>
+			<language type="lez">Лезгиан</language>
+			<language type="lg">Ганда</language>
 			<language type="li">Лимбургиш</language>
 			<language type="ln">Лингала</language>
 			<language type="lo">Лаоски</language>
 			<language type="lol">Монго</language>
 			<language type="loz">Лози</language>
 			<language type="lt">Литвански</language>
-			<language type="lu">Лубa-кaтaнгa</language>
-			<language type="lua">Лубa-лулуa</language>
+			<language type="lu">Луба-катанга</language>
+			<language type="lua">Луба-лулуа</language>
 			<language type="lui">Луисено</language>
-			<language type="lun">Лундa</language>
+			<language type="lun">Лунда</language>
 			<language type="luo">Луо</language>
-			<language type="lus">Лушaи</language>
+			<language type="lus">Лушаи</language>
 			<language type="lv">Летонски</language>
-			<language type="mad">Мaдурешки</language>
-			<language type="mag">Мaгaхи</language>
-			<language type="mai">Мaитили</language>
-			<language type="mak">Мaкaсaр</language>
-			<language type="man">Мaндинго</language>
-			<language type="map">Aустронежaнски</language>
+			<language type="mad">Мадурешки</language>
+			<language type="mag">Магахи</language>
+			<language type="mai">Маитили</language>
+			<language type="mak">Макасар</language>
+			<language type="man">Мандинго</language>
+			<language type="map">Аустронежански</language>
 			<language type="mas">Масаи</language>
-			<language type="mdf">Мокшa</language>
-			<language type="mdr">Мaндaр</language>
+			<language type="mdf">Мокша</language>
+			<language type="mdr">Мандар</language>
 			<language type="men">Менде</language>
 			<language type="mg">Малагасијски</language>
 			<language type="mga">Средњи ирски</language>
-			<language type="mh">Мaршaлски</language>
+			<language type="mh">Маршалски</language>
 			<language type="mi">Маорски</language>
-			<language type="mic">Микмaк</language>
-			<language type="min">Минaнгкaбaу</language>
-			<language type="mis">Рaзни језици</language>
+			<language type="mic">Микмак</language>
+			<language type="min">Минангкабау</language>
+			<language type="mis">Разни језици</language>
 			<language type="mk">Македонски</language>
 			<language type="mkh">Мон-кмерски језик</language>
 			<language type="ml">Малајалам</language>
 			<language type="mn">Монголски</language>
-			<language type="mnc">Мaнчу</language>
-			<language type="mni">Мaнипури</language>
-			<language type="mno">Мaнобо језик</language>
+			<language type="mnc">Манчу</language>
+			<language type="mni">Манипури</language>
+			<language type="mno">Манобо језик</language>
 			<language type="mo">Молдавски</language>
-			<language type="moh">Мaхaвски</language>
+			<language type="moh">Махавски</language>
 			<language type="mos">Моси</language>
 			<language type="mr">Марати</language>
 			<language type="ms">Малајски</language>
 			<language type="mt">Мелтешки</language>
-			<language type="mul">Више језикa</language>
-			<language type="mun">Мундa језик</language>
+			<language type="mul">Више језика</language>
+			<language type="mun">Мунда језик</language>
 			<language type="mus">Кришки</language>
-			<language type="mwl">Мирaндешки</language>
-			<language type="mwr">Мaрвaри</language>
+			<language type="mwl">Мирандешки</language>
+			<language type="mwr">Марвари</language>
 			<language type="my">Бурмански</language>
-			<language type="myn">Мaјaнски језик</language>
-			<language type="myv">Ерзијa</language>
+			<language type="myn">Мајански језик</language>
+			<language type="myv">Ерзија</language>
 			<language type="na">Науру</language>
-			<language type="nah">Нaхуaтл</language>
+			<language type="nah">Нахуатл</language>
 			<language type="nai">Језик северноамеричких Индијанаца</language>
-			<language type="nap">Неaполитaнски</language>
+			<language type="nap">Неаполитански</language>
 			<language type="nb">Норвешки бокмал</language>
 			<language type="nd">Северни ндебеле</language>
 			<language type="nds">Ниски немачки</language>
 			<language type="ne">Непалски</language>
-			<language type="new">Невaри</language>
-			<language type="ng">Ндонгa</language>
-			<language type="nia">Ниaс</language>
-			<language type="nic">Нигер-кордофaнијски језик</language>
-			<language type="niu">Ниуеaн</language>
+			<language type="new">Невари</language>
+			<language type="ng">Ндонга</language>
+			<language type="nia">Ниас</language>
+			<language type="nic">Нигер-кордофанијски језик</language>
+			<language type="niu">Ниуеан</language>
 			<language type="nl">Холандски</language>
 			<language type="nl_BE">Фламански</language>
 			<language type="nn">Норвешки њорск</language>
 			<language type="no">Норвешки</language>
-			<language type="nog">Ногaи</language>
-			<language type="non">Стaри норски</language>
+			<language type="nog">Ногаи</language>
+			<language type="non">Стари норски</language>
 			<language type="nqo">Н’ко</language>
 			<language type="nr">Јужни ндебеле</language>
 			<language type="nso">Северни сото</language>
 			<language type="nub">Нубијски језик</language>
 			<language type="nv">Навахо</language>
-			<language type="nwc">Клaсични невaри</language>
+			<language type="nwc">Класични невари</language>
 			<language type="ny">Њања</language>
-			<language type="nym">Њaмвези</language>
-			<language type="nyn">Њaнколе</language>
+			<language type="nym">Њамвези</language>
+			<language type="nyn">Њанколе</language>
 			<language type="nyo">Њоро</language>
-			<language type="nzi">Нзимa</language>
+			<language type="nzi">Нзима</language>
 			<language type="oc">Провансалски</language>
-			<language type="oj">Ојибвa</language>
+			<language type="oj">Ојибва</language>
 			<language type="om">Оромо</language>
 			<language type="or">Оријски</language>
 			<language type="os">Осетски</language>
-			<language type="osa">Осaге</language>
-			<language type="ota">Отомaнски турски</language>
-			<language type="oto">Отомaнски језик</language>
+			<language type="osa">Осаге</language>
+			<language type="ota">Отомански турски</language>
+			<language type="oto">Отомански језик</language>
 			<language type="pa">Панџабски</language>
 			<language type="paa">Папуански језик</language>
-			<language type="pag">Пaнгaсински</language>
-			<language type="pal">Пaхлaви</language>
-			<language type="pam">Пaмпaнгa</language>
-			<language type="pap">Пaпиaменто</language>
-			<language type="pau">Пaлaуaнски</language>
+			<language type="pag">Пангасински</language>
+			<language type="pal">Пахлави</language>
+			<language type="pam">Пампанга</language>
+			<language type="pap">Папиаменто</language>
+			<language type="pau">Палауански</language>
 			<language type="peo">Староперсијски</language>
 			<language type="phi">Филипински језик</language>
-			<language type="phn">Феничaнски</language>
-			<language type="pi">Пaли</language>
+			<language type="phn">Феничански</language>
+			<language type="pi">Пали</language>
 			<language type="pl">Пољски</language>
 			<language type="pon">Понпејски</language>
 			<language type="pra">Пракритски</language>
 			<language type="pro">Старопровансалски</language>
 			<language type="ps">Паштунски</language>
+			<language type="ps" alt="variant" draft="contributed">пашто</language>
 			<language type="pt">Португалски</language>
 			<language type="pt_BR">Бразилски португалски</language>
 			<language type="pt_PT">Иберијски португалски</language>
-			<language type="qu">Квенчa</language>
-			<language type="raj">Рaђaстaни</language>
-			<language type="rap">Рaпaнуи</language>
-			<language type="rar">Рaротонгaн</language>
+			<language type="qu">Квенча</language>
+			<language type="raj">Рађастани</language>
+			<language type="rap">Рапануи</language>
+			<language type="rar">Раротонган</language>
 			<language type="rm">Рето-Романски</language>
 			<language type="rn">Рунди</language>
 			<language type="ro">Румунски</language>
-			<language type="roa">Ромaнски језик</language>
-			<language type="rom">Ромaни</language>
+			<language type="roa">Романски језик</language>
+			<language type="rom">Романи</language>
 			<language type="root">Рут</language>
 			<language type="ru">Руски</language>
-			<language type="rup">Aромaнијски</language>
+			<language type="rup">Ароманијски</language>
 			<language type="rw">Кинјаруанда</language>
 			<language type="sa">Санскрит</language>
-			<language type="sad">Сaндaве</language>
-			<language type="sah">Јaкут</language>
+			<language type="sad">Сандаве</language>
+			<language type="sah">Јакут</language>
 			<language type="sai">Језик јужноамеричких Индијанаца</language>
-			<language type="sal">Сaлишaнски језик</language>
-			<language type="sam">Сaмaритaнски aрaмејски</language>
-			<language type="sas">Сaсaк</language>
-			<language type="sat">Сaнтaли</language>
+			<language type="sal">Салишански језик</language>
+			<language type="sam">Самаритански арамејски</language>
+			<language type="sas">Сасак</language>
+			<language type="sat">Сантали</language>
 			<language type="sc">Сардињаски</language>
 			<language type="scn">Сицилијански</language>
 			<language type="sco">Шкотски</language>
 			<language type="sd">Синди</language>
-			<language type="se">Северни сaми</language>
-			<language type="sel">Селкaп</language>
+			<language type="se">Северни сами</language>
+			<language type="sel">Селкап</language>
 			<language type="sem">Семитски језик</language>
 			<language type="sg">Санго</language>
 			<language type="sga">Староирски</language>
 			<language type="sgn">Знаковни језик</language>
 			<language type="sh">Српскохрватски</language>
-			<language type="shn">Шaн</language>
+			<language type="shn">Шан</language>
 			<language type="si">Сингалески</language>
 			<language type="sid">Сидамо</language>
-			<language type="sio">Сиуaнски језик</language>
+			<language type="sio">Сиуански језик</language>
 			<language type="sit">Сино-тибетански језик</language>
 			<language type="sk">Словачки</language>
 			<language type="sl">Словеначки</language>
 			<language type="sla">Словенски језик</language>
 			<language type="sm">Самоански</language>
-			<language type="sma">Јужни сaми</language>
-			<language type="smi">Сaми језик</language>
-			<language type="smj">Луле сaми</language>
-			<language type="smn">Инaри сaми</language>
+			<language type="sma">Јужни сами</language>
+			<language type="smi">Сами језик</language>
+			<language type="smj">Луле сами</language>
+			<language type="smn">Инари сами</language>
 			<language type="sms">Сколтски језик</language>
-			<language type="sn">Шонa</language>
+			<language type="sn">Шона</language>
 			<language type="snk">Сонинке</language>
 			<language type="so">Сомалски</language>
 			<language type="sog">Соџијенски</language>
-			<language type="son">Сонгaи</language>
+			<language type="son">Сонгаи</language>
 			<language type="sq">Албански</language>
 			<language type="sr">Српски</language>
-			<language type="srn">Срaнaнски тонго</language>
+			<language type="srn">Сранански тонго</language>
 			<language type="srr">Серер</language>
-			<language type="ss">Свaти</language>
-			<language type="ssa">Нило-сaхaрски језик</language>
+			<language type="ss">Свати</language>
+			<language type="ssa">Нило-сахарски језик</language>
 			<language type="st">Сесото</language>
 			<language type="su">Судански</language>
-			<language type="suk">Сукумa</language>
+			<language type="suk">Сукума</language>
 			<language type="sus">Сусу</language>
 			<language type="sux">Сумерски</language>
 			<language type="sv">Шведски</language>
@@ -449,7 +451,7 @@
 			<language type="syc">Класични сиријски</language>
 			<language type="syr">Сиријски</language>
 			<language type="ta">Тамилски</language>
-			<language type="tai">Тaи језик</language>
+			<language type="tai">Таи језик</language>
 			<language type="te">Телугу</language>
 			<language type="tem">Тимне</language>
 			<language type="ter">Терено</language>
@@ -460,69 +462,71 @@
 			<language type="tig">Тигре</language>
 			<language type="tiv">Тив</language>
 			<language type="tk">Туркменски</language>
-			<language type="tkl">Токелaу</language>
+			<language type="tkl">Токелау</language>
 			<language type="tl">Тагалски</language>
 			<language type="tlh">Клингонски</language>
 			<language type="tli">Тлингит</language>
-			<language type="tmh">Тaмaшек</language>
-			<language type="tn">Тсвaнa</language>
-			<language type="to">Тонгa</language>
-			<language type="tog">Њaсa тонгa</language>
+			<language type="tmh">Тамашек</language>
+			<language type="tn">Тсвана</language>
+			<language type="to">Тонга</language>
+			<language type="tog">Њаса тонга</language>
 			<language type="tpi">Ток Писин</language>
 			<language type="tr">Турски</language>
-			<language type="ts">Тсонгa</language>
-			<language type="tsi">Тсимшиaн</language>
+			<language type="ts">Тсонга</language>
+			<language type="tsi">Тсимшиан</language>
 			<language type="tt">Татарски</language>
-			<language type="tum">Тумбукa</language>
+			<language type="tum">Тумбука</language>
 			<language type="tup">Тупи језик</language>
-			<language type="tut">Aлтaички језик</language>
-			<language type="tvl">Тувaлу</language>
+			<language type="tut">Алтаички језик</language>
+			<language type="tvl">Тувалу</language>
 			<language type="tw">Тви</language>
 			<language type="ty">Тахићански</language>
 			<language type="tyv">Тувинијски</language>
 			<language type="udm">Удмурт</language>
 			<language type="ug">Ујгурски</language>
-			<language type="uga">Угaритски</language>
+			<language type="ug" alt="variant" draft="contributed">ујгурски</language>
+			<language type="uga">Угаритски</language>
 			<language type="uk">Украјински</language>
 			<language type="umb">Умбунду</language>
 			<language type="und">Непознат или неважећи језик</language>
 			<language type="ur">Урду</language>
 			<language type="uz">Узбечки</language>
-			<language type="vai">Вaи</language>
-			<language type="ve">Вендa</language>
+			<language type="vai">Ваи</language>
+			<language type="ve">Венда</language>
 			<language type="vi">Вијетнамски</language>
 			<language type="vo">Волапук</language>
 			<language type="vot">Вотски</language>
-			<language type="wa">Вaлун</language>
-			<language type="wak">Вaкaшaнски језик</language>
-			<language type="wal">Вaлaмо</language>
+			<language type="wa">Валун</language>
+			<language type="wak">Вакашански језик</language>
+			<language type="wal">Валамо</language>
 			<language type="war">Варај</language>
 			<language type="was">Вашо</language>
-			<language type="wen">Сорбијaнски језик</language>
+			<language type="wen">Сорбијански језик</language>
 			<language type="wo">Волоф</language>
-			<language type="xal">Кaлмик</language>
+			<language type="xal">Калмик</language>
 			<language type="xh">Ксхоса</language>
-			<language type="yao">Јaо</language>
-			<language type="yap">Јaпешки</language>
+			<language type="yao">Јао</language>
+			<language type="yap">Јапешки</language>
 			<language type="yi">Јидиш</language>
 			<language type="yo">Јоруба</language>
 			<language type="ypk">Јупик</language>
 			<language type="yue">Кантонски</language>
 			<language type="za">Жуанг</language>
-			<language type="zap">Зaпотечки</language>
+			<language type="zap">Запотечки</language>
 			<language type="zbl">Блисимболи</language>
-			<language type="zen">Зенaгa</language>
+			<language type="zen">Зенага</language>
 			<language type="zh">Кинески</language>
 			<language type="zh_Hans">Кинески (поједностављен)</language>
 			<language type="zh_Hant">Кинески (традиционални)</language>
-			<language type="znd">Зaнде</language>
+			<language type="znd">Занде</language>
 			<language type="zu">Зулу</language>
 			<language type="zun">Зуни</language>
 			<language type="zxx">Без лингвистичког садржаја</language>
-			<language type="zza">Зaзa</language>
+			<language type="zza">Заза</language>
 		</languages>
 		<scripts>
 			<script type="Arab">арапско писмо</script>
+			<script type="Arab" alt="variant" draft="contributed">персијско-арапско</script>
 			<script type="Armi">империјско арамејско писмо</script>
 			<script type="Armn">јерменско писмо</script>
 			<script type="Avst">авестанско писмо</script>
@@ -562,7 +566,9 @@
 			<script type="Hani">хан</script>
 			<script type="Hano">хануно</script>
 			<script type="Hans">поједностављено кинеско писмо</script>
+			<script type="Hans" alt="stand-alone" draft="contributed">поједностављени хан</script>
 			<script type="Hant">традиционално кинеско писмо</script>
+			<script type="Hant" alt="stand-alone" draft="contributed">традиционални хан</script>
 			<script type="Hebr">хебрејско писмо</script>
 			<script type="Hira">Хирагана</script>
 			<script type="Hmng">пахав хмонг писмо</script>
@@ -685,7 +691,7 @@
 			<territory type="154">Северна Европа</territory>
 			<territory type="155">Западна Европа</territory>
 			<territory type="172">Комонвелт независних држава</territory>
-			<territory type="419">Латинска Америка и Кариби</territory>
+			<territory type="419">Латинска Америка</territory>
 			<territory type="830">Каналска острва</territory>
 			<territory type="AC">Острво Асенсион</territory>
 			<territory type="AD">Андора</territory>
@@ -728,13 +734,13 @@
 			<territory type="CA">Канада</territory>
 			<territory type="CC">Кокос (Келинг) Острва</territory>
 			<territory type="CD">Конго - Киншаса</territory>
-			<territory type="CD" alt="variant">Конго [Д.Р.К.]</territory>
+			<territory type="CD" alt="variant" draft="contributed">Конго [ДРК]</territory>
 			<territory type="CF">Централно Афричка Република</territory>
 			<territory type="CG">Конго - Бразавил</territory>
-			<territory type="CG" alt="variant">Конго [Република]</territory>
+			<territory type="CG" alt="variant" draft="contributed">Конго [Република]</territory>
 			<territory type="CH">Швајцарска</territory>
 			<territory type="CI">Обала Слоноваче</territory>
-			<territory type="CI" alt="variant">Обала Слоноваче</territory>
+			<territory type="CI" alt="variant" draft="contributed">Обала Слоноваче</territory>
 			<territory type="CK">Кукова Острва</territory>
 			<territory type="CL">Чиле</territory>
 			<territory type="CM">Камерун</territory>
@@ -766,8 +772,8 @@
 			<territory type="EU">Европска Унија</territory>
 			<territory type="FI">Финска</territory>
 			<territory type="FJ">Фиџи</territory>
-			<territory type="FK">Фолкландска Острва</territory>
-			<territory type="FK" alt="variant">Фокландска oстрва [Малвинска oстрва]</territory>
+			<territory type="FK">Фокландска острва</territory>
+			<territory type="FK" alt="variant">Фокландска (Малвинска) острва</territory>
 			<territory type="FM">Микронезија</territory>
 			<territory type="FO">Фарска Острва</territory>
 			<territory type="FR">Француска</territory>
@@ -842,7 +848,7 @@
 			<territory type="MG">Мадагаскар</territory>
 			<territory type="MH">Маршалска Острва</territory>
 			<territory type="MK">Македонија</territory>
-			<territory type="MK" alt="variant">BJR Makedonija</territory>
+			<territory type="MK" alt="variant" draft="contributed">Македонија</territory>
 			<territory type="ML">Мали</territory>
 			<territory type="MM">Мијанмар [Бурма]</territory>
 			<territory type="MN">Монголија</territory>
@@ -921,7 +927,7 @@
 			<territory type="TJ">Таџикистан</territory>
 			<territory type="TK">Токелау</territory>
 			<territory type="TL">Источни Тимор</territory>
-			<territory type="TL" alt="variant">Источни Тимор</territory>
+			<territory type="TL" alt="variant" draft="contributed">Источни Тимор</territory>
 			<territory type="TM">Туркменистан</territory>
 			<territory type="TN">Тунис</territory>
 			<territory type="TO">Тонга</territory>
@@ -958,7 +964,7 @@
 			<variant type="1996">Немачка ортографија из 1996</variant>
 			<variant type="1606NICT">Француски из касног средњег века до 1606.</variant>
 			<variant type="1694ACAD">Рани модерни француски</variant>
-			<variant type="1959ACAD">Академски</variant>
+			<variant type="1959ACAD" draft="provisional">Академски</variant>
 			<variant type="AREVELA">Источни арменијски</variant>
 			<variant type="AREVMDA">Западно јерменска</variant>
 			<variant type="BAKU1926">Уједињен турски латинични алфабет</variant>
@@ -966,7 +972,7 @@
 			<variant type="BOONT">Бунтлинг</variant>
 			<variant type="FONIPA">ИПА фонетика</variant>
 			<variant type="FONUPA">УПА фонетика</variant>
-			<variant type="KKCOR">Уобичајена ортографија</variant>
+			<variant type="KKCOR" draft="provisional">Уобичајена ортографија</variant>
 			<variant type="LIPAW">Липовички дијалект ресијански</variant>
 			<variant type="MONOTON">Монотоник</variant>
 			<variant type="NEDIS">Натисоне дијалект</variant>
@@ -981,35 +987,94 @@
 			<variant type="SCOUSE">Скауз</variant>
 			<variant type="SOLBA">Столвица/Солбица дијалект</variant>
 			<variant type="TARASK">Тараскијевичка ортографија</variant>
-			<variant type="UCCOR">Уједињена ортографија</variant>
-			<variant type="UCRCOR">Уједињена ревидирана ортографија</variant>
+			<variant type="UCCOR" draft="provisional">Уједињена ортографија</variant>
+			<variant type="UCRCOR" draft="provisional">Уједињена ревидирана ортографија</variant>
 			<variant type="VALENCIA">Валенцијска</variant>
 		</variants>
 		<keys>
 			<key type="calendar">Календар</key>
 			<key type="collation">Сортирање</key>
 			<key type="currency">Валута</key>
+			<key type="numbers" draft="contributed">Бројеви</key>
+			<key type="x" draft="contributed">Приватна употреба</key>
 		</keys>
 		<types>
+			<type type="arab" key="numbers" draft="contributed">арапско-индијске цифре</type>
+			<type type="arabext" key="numbers" draft="contributed">продужене арапско-индијске цифре</type>
+			<type type="armn" key="numbers" draft="contributed">јерменски бројеви</type>
+			<type type="armnlow" key="numbers" draft="contributed">мали јерменски бројеви</type>
+			<type type="beng" key="numbers" draft="contributed">бенгалске цифре</type>
 			<type type="big5han" key="collation">Традиционално кинеско сортирање</type>
 			<type type="buddhist" key="calendar">Будистички календар</type>
 			<type type="chinese" key="calendar">Кинески календар</type>
+			<type type="coptic" key="calendar" draft="contributed">коптски календар</type>
+			<type type="deva" key="numbers" draft="contributed">девангари цифре</type>
+			<type type="dictionary" key="collation" draft="contributed">Редослед сортирања у речнику</type>
 			<type type="direct" key="collation">Директно сортирање</type>
+			<type type="ducet" key="collation" draft="contributed">Подразумевани Unicode редослед сортирања</type>
+			<type type="ethi" key="numbers" draft="contributed">етиопски бројеви</type>
+			<type type="ethiopic" key="calendar" draft="contributed">етиопски календар</type>
+			<type type="ethiopic-amete-alem" key="calendar" draft="contributed">етиопски амет алем календар</type>
+			<type type="fullwide" key="numbers" draft="contributed">цифре пуне ширине</type>
 			<type type="gb2312han" key="collation">Поједностављено кинеско сортирање</type>
+			<type type="geor" key="numbers" draft="contributed">грузијски бројеви</type>
 			<type type="gregorian" key="calendar">Грегоријански календар</type>
+			<type type="grek" key="numbers" draft="contributed">грчки бројеви</type>
+			<type type="greklow" key="numbers" draft="contributed">мали грчки бројеви</type>
+			<type type="gujr" key="numbers" draft="contributed">гуџаратске цифре</type>
+			<type type="guru" key="numbers" draft="contributed">гурмуки цифре</type>
+			<type type="hanidec" key="numbers" draft="contributed">кинески децимални бројеви</type>
+			<type type="hans" key="numbers" draft="contributed">поједностављени кинески бројеви</type>
+			<type type="hansfin" key="numbers" draft="contributed">поједностављени кинески финансијски бројеви</type>
+			<type type="hant" key="numbers" draft="contributed">традиционални кинески бројеви</type>
+			<type type="hantfin" key="numbers" draft="contributed">традиционални кинески финансијски бројеви</type>
+			<type type="hebr" key="numbers" draft="contributed">хебрејски бројеви</type>
 			<type type="hebrew" key="calendar">Хебрејски календар</type>
 			<type type="indian" key="calendar">Индијски национални календар</type>
 			<type type="islamic" key="calendar">Исламски календар</type>
 			<type type="islamic-civil" key="calendar">Исламски цивилни календар</type>
 			<type type="japanese" key="calendar">Јапански календар</type>
+			<type type="jpan" key="numbers" draft="contributed">јапански бројеви</type>
+			<type type="jpanfin" key="numbers" draft="contributed">јапански финансијски бројеви</type>
+			<type type="khmr" key="numbers" draft="contributed">кмерске цифре</type>
+			<type type="knda" key="numbers" draft="contributed">канада цифре</type>
+			<type type="laoo" key="numbers" draft="contributed">лаошке цифре</type>
+			<type type="latn" key="numbers" draft="contributed">западне цифре</type>
+			<type type="mlym" key="numbers" draft="contributed">малајалам цифре</type>
+			<type type="mong" key="numbers" draft="contributed">монголске цифре</type>
+			<type type="mymr" key="numbers" draft="contributed">мијанмарске цифре</type>
+			<type type="orya" key="numbers" draft="contributed">орија цифре</type>
+			<type type="persian" key="calendar" draft="contributed">персијски календар</type>
 			<type type="phonebook" key="collation">Сортирање као телефонски именик</type>
 			<type type="pinyin" key="collation">Пињин сортирање</type>
+			<type type="reformed" key="collation" draft="contributed">Реформисани редослед сортирања</type>
 			<type type="roc" key="calendar">Календар Републике Кине</type>
+			<type type="roman" key="numbers" draft="contributed">римски бројеви</type>
+			<type type="romanlow" key="numbers" draft="contributed">мали римски бројеви</type>
+			<type type="search" key="collation" draft="contributed">Опште намењена претрага</type>
 			<type type="stroke" key="collation">Сортирање по броју црта</type>
+			<type type="taml" key="numbers" draft="contributed">тамилски бројеви</type>
+			<type type="telu" key="numbers" draft="contributed">телугу цифре</type>
+			<type type="thai" key="numbers" draft="contributed">тајске цифре</type>
+			<type type="tibt" key="numbers" draft="contributed">тибетанске цифре</type>
 			<type type="traditional" key="collation">Традиционално сортирање</type>
+			<type type="unihan" key="collation" draft="contributed">Редослед сортирања радикалним цртицама</type>
 		</types>
+		<transformNames>
+			<transformName type="BGN" draft="contributed">БГН (BGN)</transformName>
+			<transformName type="Numeric" draft="contributed">Нумеричка</transformName>
+			<transformName type="Tone" draft="contributed">Тон</transformName>
+			<transformName type="UNGEGN" draft="contributed">УНГЕГН (BGN)</transformName>
+			<transformName type="x-Accents" draft="contributed">Акценти</transformName>
+			<transformName type="x-Fullwidth" draft="contributed">пуна ширина</transformName>
+			<transformName type="x-Halfwidth" draft="contributed">пола ширине</transformName>
+			<transformName type="x-Jamo" draft="contributed">Џамо</transformName>
+			<transformName type="x-Pinyin" draft="contributed">Пинјин</transformName>
+			<transformName type="x-Publishing" draft="contributed">Издавачки</transformName>
+		</transformNames>
 		<measurementSystemNames>
 			<measurementSystemName type="metric">Метрички</measurementSystemName>
+			<measurementSystemName type="UK" draft="contributed">империјални</measurementSystemName>
 			<measurementSystemName type="US">САД</measurementSystemName>
 		</measurementSystemNames>
 		<codePatterns>
@@ -1020,9 +1085,11 @@
 	</localeDisplayNames>
 	<characters>
 		<exemplarCharacters>[а б в г д ђ е ж з и ј к л љ м н њ о п р с т ћ у ф х ц ч џ ш]</exemplarCharacters>
-		<exemplarCharacters type="auxiliary">[a á à ă â å ä ā æ b c ç d e é è ĕ ê ë ē f g h i í ì ĭ î ï ī j k l m n ñ o ó ò ŏ ô ö ø ō œ p q r s t u ú ù ŭ û ü ū v w x y ÿ z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[]</exemplarCharacters>
 		<exemplarCharacters type="currencySymbol">[a b c č d e f g h i j k l ł m n o º p q r s t u v w x y z]</exemplarCharacters>
-		<exemplarCharacters type="index">[А Б В Г Д Ђ Е Ж З И Ј К Л Љ М Н Њ О П Р С Т Ћ У Ф Х Ц Ч Џ Ш]</exemplarCharacters>
+		<exemplarCharacters type="index" draft="contributed">[А Б В Г Д Ђ Е Ж З И Ј К Л Љ М Н Њ О П Р С Т Ћ У Ф Х Ц Ч Џ Ш]</exemplarCharacters>
+		<ellipsis type="final" draft="contributed">{0}...</ellipsis>
+		<ellipsis type="initial" draft="contributed">...{0}</ellipsis>
 	</characters>
 	<delimiters>
 		<quotationStart>“</quotationStart>
@@ -1171,11 +1238,25 @@
 							<quarter type="3">К3</quarter>
 							<quarter type="4">К4</quarter>
 						</quarterWidth>
+						<quarterWidth type="narrow">
+							<quarter type="1" draft="contributed">1.</quarter>
+							<quarter type="2" draft="contributed">2.</quarter>
+							<quarter type="3" draft="contributed">3.</quarter>
+							<quarter type="4" draft="contributed">4.</quarter>
+						</quarterWidth>
 						<quarterWidth type="wide">
 							<quarter type="1">Прво тромесечје</quarter>
 							<quarter type="2">Друго тромесечје</quarter>
 							<quarter type="3">Треће тромесечје</quarter>
 							<quarter type="4">Четврто тромесечје</quarter>
+						</quarterWidth>
+					</quarterContext>
+					<quarterContext type="stand-alone">
+						<quarterWidth type="narrow">
+							<quarter type="1" draft="contributed">1.</quarter>
+							<quarter type="2" draft="contributed">2.</quarter>
+							<quarter type="3" draft="contributed">3.</quarter>
+							<quarter type="4" draft="contributed">4.</quarter>
 						</quarterWidth>
 					</quarterContext>
 				</quarters>
@@ -1269,8 +1350,10 @@
 						<dateFormatItem id="ms">mm.ss</dateFormatItem>
 						<dateFormatItem id="y">y.</dateFormatItem>
 						<dateFormatItem id="yM">y-M</dateFormatItem>
+						<dateFormatItem id="yMd" draft="contributed">d. M. y.</dateFormatItem>
 						<dateFormatItem id="yMEd">EEE, d. M. yyyy.</dateFormatItem>
 						<dateFormatItem id="yMMM">MMM. y</dateFormatItem>
+						<dateFormatItem id="yMMMd" draft="contributed">d. MMM y.</dateFormatItem>
 						<dateFormatItem id="yMMMEd">EEE, d. MMM y.</dateFormatItem>
 						<dateFormatItem id="yMMMM">y MMMM</dateFormatItem>
 						<dateFormatItem id="yQ">y Q</dateFormatItem>
@@ -1347,9 +1430,6 @@
 							<greatestDifference id="d">E, dd. - E, dd. MMM</greatestDifference>
 							<greatestDifference id="M">E, dd. MMM - E, dd. MMM</greatestDifference>
 						</intervalFormatItem>
-						<intervalFormatItem id="MMMM">
-							<greatestDifference id="M">LLLL-LLLL</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="y">
 							<greatestDifference id="y">y-y</greatestDifference>
 						</intervalFormatItem>
@@ -1368,7 +1448,7 @@
 							<greatestDifference id="y">E, d.M.yy. - E, d.M.yy.</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMM">
-							<greatestDifference id="M">MMM-MMM y.</greatestDifference>
+							<greatestDifference id="M" draft="contributed">MMM-MMM y.</greatestDifference>
 							<greatestDifference id="y">MMM y. - MMM y.</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMd">
@@ -1393,22 +1473,29 @@
 					</field>
 					<field type="year">
 						<displayName>година</displayName>
+						<relative type="-1" draft="contributed">Прошле године</relative>
+						<relative type="0" draft="contributed">Ове године</relative>
+						<relative type="1" draft="contributed">Следеће године</relative>
 					</field>
 					<field type="month">
 						<displayName>месец</displayName>
+						<relative type="-1" draft="contributed">Прошлог месеца</relative>
+						<relative type="0" draft="contributed">Овог месеца</relative>
+						<relative type="1" draft="contributed">Следећег месеца</relative>
 					</field>
 					<field type="week">
 						<displayName>недеља</displayName>
+						<relative type="-1" draft="contributed">Прошле недеље</relative>
+						<relative type="0" draft="contributed">Ове недеље</relative>
+						<relative type="1" draft="contributed">Следеће недеље</relative>
 					</field>
 					<field type="day">
 						<displayName>дан</displayName>
-						<relative type="-3">пре три дана</relative>
 						<relative type="-2">прекјуче</relative>
 						<relative type="-1">јуче</relative>
 						<relative type="0">данас</relative>
 						<relative type="1">сутра</relative>
 						<relative type="2">прекосутра</relative>
-						<relative type="3">за три дана</relative>
 					</field>
 					<field type="weekday">
 						<displayName>дан у недељи</displayName>
@@ -1481,18 +1568,18 @@
 				<months>
 					<monthContext type="format">
 						<monthWidth type="abbreviated">
-							<month type="1">Мух.</month>
-							<month type="2">Саф.</month>
-							<month type="3">Реб. 1</month>
-							<month type="4">Реб 2</month>
-							<month type="5">Џум. 1</month>
-							<month type="6">Џум. 2</month>
-							<month type="7">Реџ.</month>
-							<month type="8">Ша.</month>
-							<month type="9">Рам.</month>
-							<month type="10">Ше.</month>
-							<month type="11">Зул-к.</month>
-							<month type="12">Зул-х.</month>
+							<month type="1" draft="provisional">Мух.</month>
+							<month type="2" draft="provisional">Саф.</month>
+							<month type="3" draft="provisional">Реб. 1</month>
+							<month type="4" draft="provisional">Реб 2</month>
+							<month type="5" draft="provisional">Џум. 1</month>
+							<month type="6" draft="provisional">Џум. 2</month>
+							<month type="7" draft="provisional">Реџ.</month>
+							<month type="8" draft="provisional">Ша.</month>
+							<month type="9" draft="provisional">Рам.</month>
+							<month type="10" draft="provisional">Ше.</month>
+							<month type="11" draft="provisional">Зул-к.</month>
+							<month type="12" draft="provisional">Зул-х.</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<month type="1">Мурахам</month>
@@ -1511,18 +1598,18 @@
 					</monthContext>
 					<monthContext type="stand-alone">
 						<monthWidth type="wide">
-							<month type="1">Мухарем</month>
-							<month type="2">Сафер</month>
-							<month type="3">Реби 1</month>
-							<month type="4">Реби 2</month>
-							<month type="5">Џумаде 1</month>
-							<month type="6">Џумаде 2</month>
-							<month type="7">Реџеб</month>
-							<month type="8">Шаʻбан</month>
-							<month type="9">Рамазан</month>
-							<month type="10">Шевал</month>
-							<month type="11">Зул-каде</month>
-							<month type="12">Зул-хиџе</month>
+							<month type="1" draft="provisional">Мухарем</month>
+							<month type="2" draft="provisional">Сафер</month>
+							<month type="3" draft="provisional">Реби 1</month>
+							<month type="4" draft="provisional">Реби 2</month>
+							<month type="5" draft="provisional">Џумаде 1</month>
+							<month type="6" draft="provisional">Џумаде 2</month>
+							<month type="7" draft="provisional">Реџеб</month>
+							<month type="8" draft="provisional">Шаʻбан</month>
+							<month type="9" draft="provisional">Рамазан</month>
+							<month type="10" draft="provisional">Шевал</month>
+							<month type="11" draft="provisional">Зул-каде</month>
+							<month type="12" draft="provisional">Зул-хиџе</month>
 						</monthWidth>
 					</monthContext>
 				</months>
@@ -1817,7 +1904,7 @@
 				</months>
 				<eras>
 					<eraAbbr>
-						<era type="0">АП</era>
+						<era type="0" draft="provisional">АП</era>
 					</eraAbbr>
 				</eras>
 			</calendar>
@@ -1833,12 +1920,17 @@
 		<timeZoneNames>
 			<hourFormat>+HHmm;-HHmm</hourFormat>
 			<gmtFormat>GMT{0}</gmtFormat>
+			<regionFormat draft="contributed">Време у земљи: {0}</regionFormat>
 			<fallbackFormat>{1} ({0})</fallbackFormat>
+			<fallbackRegionFormat draft="contributed">Време у земљи: {1} ({0})</fallbackRegionFormat>
+			<zone type="America/North_Dakota/Beulah">
+				<exemplarCity draft="contributed">Бијула, Северна Дакота</exemplarCity>
+			</zone>
 			<zone type="Etc/Unknown">
 				<exemplarCity>Непознат или неважећи град</exemplarCity>
 			</zone>
 			<zone type="Europe/Andorra">
-				<exemplarCity>Андора</exemplarCity>
+				<exemplarCity draft="contributed">Андора</exemplarCity>
 			</zone>
 			<zone type="Asia/Dubai">
 				<exemplarCity>Дубаи</exemplarCity>
@@ -1853,10 +1945,10 @@
 				<exemplarCity>Ангвила</exemplarCity>
 			</zone>
 			<zone type="Europe/Tirane">
-				<exemplarCity>Тирана</exemplarCity>
+				<exemplarCity draft="contributed">Тирана</exemplarCity>
 			</zone>
 			<zone type="Asia/Yerevan">
-				<exemplarCity>Јереван</exemplarCity>
+				<exemplarCity draft="contributed">Јереван</exemplarCity>
 			</zone>
 			<zone type="America/Curacao">
 				<exemplarCity>Кирасо</exemplarCity>
@@ -1934,7 +2026,7 @@
 				<exemplarCity>Паго Паго</exemplarCity>
 			</zone>
 			<zone type="Europe/Vienna">
-				<exemplarCity>Беч</exemplarCity>
+				<exemplarCity draft="contributed">Беч</exemplarCity>
 			</zone>
 			<zone type="Australia/Perth">
 				<exemplarCity>Перт</exemplarCity>
@@ -1975,8 +2067,14 @@
 			<zone type="America/Aruba">
 				<exemplarCity>Аруба</exemplarCity>
 			</zone>
+			<zone type="Europe/Mariehamn">
+				<exemplarCity draft="contributed">Марихамн</exemplarCity>
+			</zone>
 			<zone type="Asia/Baku">
 				<exemplarCity>Баку</exemplarCity>
+			</zone>
+			<zone type="Europe/Sarajevo">
+				<exemplarCity draft="contributed">Сарајево</exemplarCity>
 			</zone>
 			<zone type="America/Barbados">
 				<exemplarCity>Барбадос</exemplarCity>
@@ -1985,13 +2083,13 @@
 				<exemplarCity>Дака</exemplarCity>
 			</zone>
 			<zone type="Europe/Brussels">
-				<exemplarCity>Брисел</exemplarCity>
+				<exemplarCity draft="contributed">Брисел</exemplarCity>
 			</zone>
 			<zone type="Africa/Ouagadougou">
 				<exemplarCity>Уагадугу</exemplarCity>
 			</zone>
 			<zone type="Europe/Sofia">
-				<exemplarCity>Софија</exemplarCity>
+				<exemplarCity draft="contributed">Софија</exemplarCity>
 			</zone>
 			<zone type="Asia/Bahrain">
 				<exemplarCity>Бахреин</exemplarCity>
@@ -2002,8 +2100,11 @@
 			<zone type="Africa/Porto-Novo">
 				<exemplarCity>Порто Ново</exemplarCity>
 			</zone>
+			<zone type="America/St_Barthelemy">
+				<exemplarCity draft="contributed">Св. Бартоломeј</exemplarCity>
+			</zone>
 			<zone type="Atlantic/Bermuda">
-				<exemplarCity>Бермуди</exemplarCity>
+				<exemplarCity draft="contributed">Бермуда</exemplarCity>
 			</zone>
 			<zone type="Asia/Brunei">
 				<exemplarCity>Брунеји</exemplarCity>
@@ -2063,13 +2164,13 @@
 				<exemplarCity>Насау</exemplarCity>
 			</zone>
 			<zone type="Asia/Thimphu">
-				<exemplarCity>Тхимпху</exemplarCity>
+				<exemplarCity draft="contributed">Тимпу</exemplarCity>
 			</zone>
 			<zone type="Africa/Gaborone">
 				<exemplarCity>Габорон</exemplarCity>
 			</zone>
 			<zone type="Europe/Minsk">
-				<exemplarCity>Минск</exemplarCity>
+				<exemplarCity draft="contributed">Минск</exemplarCity>
 			</zone>
 			<zone type="America/Belize">
 				<exemplarCity>Белизе</exemplarCity>
@@ -2090,7 +2191,7 @@
 				<exemplarCity>Досон Крик</exemplarCity>
 			</zone>
 			<zone type="America/Yellowknife">
-				<exemplarCity>Јелонајф</exemplarCity>
+				<exemplarCity draft="contributed">Јелоунајф</exemplarCity>
 			</zone>
 			<zone type="America/Edmonton">
 				<exemplarCity>Едмонтон</exemplarCity>
@@ -2156,7 +2257,7 @@
 				<exemplarCity>Св. Џон</exemplarCity>
 			</zone>
 			<zone type="Indian/Cocos">
-				<exemplarCity>Кокосова острва</exemplarCity>
+				<exemplarCity draft="contributed">Кокос</exemplarCity>
 			</zone>
 			<zone type="Africa/Kinshasa">
 				<exemplarCity>Киншаса</exemplarCity>
@@ -2171,7 +2272,7 @@
 				<exemplarCity>Бразавил</exemplarCity>
 			</zone>
 			<zone type="Europe/Zurich">
-				<exemplarCity>Цирих</exemplarCity>
+				<exemplarCity draft="contributed">Цирих</exemplarCity>
 			</zone>
 			<zone type="Africa/Abidjan">
 				<exemplarCity>Абиџан</exemplarCity>
@@ -2213,22 +2314,25 @@
 				<exemplarCity>Хавана</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Cape_Verde">
-				<exemplarCity>Капе Верде</exemplarCity>
+				<exemplarCity draft="contributed">Зеленортска Острва</exemplarCity>
 			</zone>
 			<zone type="Indian/Christmas">
-				<exemplarCity>Божићно острво</exemplarCity>
+				<exemplarCity draft="contributed">Божић</exemplarCity>
 			</zone>
 			<zone type="Asia/Nicosia">
 				<exemplarCity>Никозија</exemplarCity>
 			</zone>
+			<zone type="Europe/Prague">
+				<exemplarCity draft="contributed">Праг</exemplarCity>
+			</zone>
 			<zone type="Europe/Berlin">
-				<exemplarCity>Берлин</exemplarCity>
+				<exemplarCity draft="contributed">Берлин</exemplarCity>
 			</zone>
 			<zone type="Africa/Djibouti">
 				<exemplarCity>Џибути</exemplarCity>
 			</zone>
 			<zone type="Europe/Copenhagen">
-				<exemplarCity>Копенхаген</exemplarCity>
+				<exemplarCity draft="contributed">Копенхаген</exemplarCity>
 			</zone>
 			<zone type="America/Dominica">
 				<exemplarCity>Доминика</exemplarCity>
@@ -2246,7 +2350,7 @@
 				<exemplarCity>Гвајакил</exemplarCity>
 			</zone>
 			<zone type="Europe/Tallinn">
-				<exemplarCity>Талин</exemplarCity>
+				<exemplarCity draft="contributed">Талин</exemplarCity>
 			</zone>
 			<zone type="Africa/Cairo">
 				<exemplarCity>Каиро</exemplarCity>
@@ -2264,19 +2368,19 @@
 				<exemplarCity>Сеута</exemplarCity>
 			</zone>
 			<zone type="Europe/Madrid">
-				<exemplarCity>Мадрид</exemplarCity>
+				<exemplarCity draft="contributed">Мадрид</exemplarCity>
 			</zone>
 			<zone type="Africa/Addis_Ababa">
 				<exemplarCity>Адис Абеба</exemplarCity>
 			</zone>
 			<zone type="Europe/Helsinki">
-				<exemplarCity>Хелсинки</exemplarCity>
+				<exemplarCity draft="contributed">Хелсинки</exemplarCity>
 			</zone>
 			<zone type="Pacific/Fiji">
-				<exemplarCity>Фиџи</exemplarCity>
+				<exemplarCity draft="contributed">Фиџи</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Stanley">
-				<exemplarCity>Стенли</exemplarCity>
+				<exemplarCity draft="contributed">Стенли</exemplarCity>
 			</zone>
 			<zone type="Pacific/Truk">
 				<exemplarCity>Трук</exemplarCity>
@@ -2288,37 +2392,40 @@
 				<exemplarCity>Кошре</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Faeroe">
-				<exemplarCity>Фарска Острва</exemplarCity>
+				<exemplarCity draft="contributed">Фарска острва</exemplarCity>
 			</zone>
 			<zone type="Europe/Paris">
-				<exemplarCity>Париз</exemplarCity>
+				<exemplarCity draft="contributed">Париз</exemplarCity>
 			</zone>
 			<zone type="Africa/Libreville">
 				<exemplarCity>Либревил</exemplarCity>
 			</zone>
 			<zone type="Europe/London">
-				<exemplarCity>Лондон</exemplarCity>
+				<exemplarCity draft="contributed">Лондон</exemplarCity>
 			</zone>
 			<zone type="America/Grenada">
 				<exemplarCity>Гренада</exemplarCity>
 			</zone>
 			<zone type="Asia/Tbilisi">
-				<exemplarCity>Тбилиси</exemplarCity>
+				<exemplarCity draft="contributed">Тбилиси</exemplarCity>
 			</zone>
 			<zone type="America/Cayenne">
 				<exemplarCity>Кајен</exemplarCity>
+			</zone>
+			<zone type="Europe/Guernsey">
+				<exemplarCity draft="contributed">Гернзи</exemplarCity>
 			</zone>
 			<zone type="Africa/Accra">
 				<exemplarCity>Акра</exemplarCity>
 			</zone>
 			<zone type="Europe/Gibraltar">
-				<exemplarCity>Гибралтар</exemplarCity>
+				<exemplarCity draft="contributed">Гибралтар</exemplarCity>
 			</zone>
 			<zone type="America/Thule">
 				<exemplarCity>Туле</exemplarCity>
 			</zone>
 			<zone type="America/Godthab">
-				<exemplarCity>Нук</exemplarCity>
+				<exemplarCity draft="contributed">Готхаб</exemplarCity>
 			</zone>
 			<zone type="America/Scoresbysund">
 				<exemplarCity>Скорезбисунд</exemplarCity>
@@ -2339,10 +2446,10 @@
 				<exemplarCity>Малабо</exemplarCity>
 			</zone>
 			<zone type="Europe/Athens">
-				<exemplarCity>Атина</exemplarCity>
+				<exemplarCity draft="contributed">Атина</exemplarCity>
 			</zone>
 			<zone type="Atlantic/South_Georgia">
-				<exemplarCity>Јужна Џорџија</exemplarCity>
+				<exemplarCity draft="contributed">Јужна Џорџија</exemplarCity>
 			</zone>
 			<zone type="America/Guatemala">
 				<exemplarCity>Гватемала</exemplarCity>
@@ -2359,11 +2466,17 @@
 			<zone type="Asia/Hong_Kong">
 				<exemplarCity>Хонг Конг</exemplarCity>
 			</zone>
+			<zone type="America/Tegucigalpa">
+				<exemplarCity draft="contributed">Тегусигалпа</exemplarCity>
+			</zone>
+			<zone type="Europe/Zagreb">
+				<exemplarCity draft="contributed">Загреб</exemplarCity>
+			</zone>
 			<zone type="America/Port-au-Prince">
 				<exemplarCity>Порт-о-Пренс</exemplarCity>
 			</zone>
 			<zone type="Europe/Budapest">
-				<exemplarCity>Будимпешта</exemplarCity>
+				<exemplarCity draft="contributed">Будимпешта</exemplarCity>
 			</zone>
 			<zone type="Asia/Jakarta">
 				<exemplarCity>Џакарта</exemplarCity>
@@ -2378,22 +2491,34 @@
 				<exemplarCity>Џајапура</exemplarCity>
 			</zone>
 			<zone type="Europe/Dublin">
-				<exemplarCity>Даблин</exemplarCity>
+				<exemplarCity draft="contributed">Даблин</exemplarCity>
+			</zone>
+			<zone type="Asia/Jerusalem">
+				<exemplarCity draft="contributed">Јерусалим</exemplarCity>
+			</zone>
+			<zone type="Europe/Isle_of_Man">
+				<exemplarCity draft="contributed">Острво Ман</exemplarCity>
+			</zone>
+			<zone type="Asia/Calcutta">
+				<exemplarCity draft="contributed">Калкута</exemplarCity>
 			</zone>
 			<zone type="Indian/Chagos">
-				<exemplarCity>Чагос</exemplarCity>
+				<exemplarCity draft="contributed">Чагос</exemplarCity>
 			</zone>
 			<zone type="Asia/Baghdad">
 				<exemplarCity>Багдад</exemplarCity>
 			</zone>
 			<zone type="Asia/Tehran">
-				<exemplarCity>Техеран</exemplarCity>
+				<exemplarCity draft="contributed">Техеран</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Reykjavik">
-				<exemplarCity>Рејкјавик</exemplarCity>
+				<exemplarCity draft="contributed">Рејкјавик</exemplarCity>
 			</zone>
 			<zone type="Europe/Rome">
-				<exemplarCity>Рим</exemplarCity>
+				<exemplarCity draft="contributed">Рим</exemplarCity>
+			</zone>
+			<zone type="Europe/Jersey">
+				<exemplarCity draft="contributed">Џерси</exemplarCity>
 			</zone>
 			<zone type="America/Jamaica">
 				<exemplarCity>Јамајка</exemplarCity>
@@ -2402,7 +2527,7 @@
 				<exemplarCity>Аман</exemplarCity>
 			</zone>
 			<zone type="Asia/Tokyo">
-				<exemplarCity>Токио</exemplarCity>
+				<exemplarCity draft="contributed">Токио</exemplarCity>
 			</zone>
 			<zone type="Africa/Nairobi">
 				<exemplarCity>Најроби</exemplarCity>
@@ -2423,7 +2548,7 @@
 				<exemplarCity>Тарава</exemplarCity>
 			</zone>
 			<zone type="Indian/Comoro">
-				<exemplarCity>Коморо</exemplarCity>
+				<exemplarCity draft="contributed">Коморо</exemplarCity>
 			</zone>
 			<zone type="America/St_Kitts">
 				<exemplarCity>Сент Китс</exemplarCity>
@@ -2432,7 +2557,7 @@
 				<exemplarCity>Пјонгјанг</exemplarCity>
 			</zone>
 			<zone type="Asia/Seoul">
-				<exemplarCity>Сеул</exemplarCity>
+				<exemplarCity draft="contributed">Сеул</exemplarCity>
 			</zone>
 			<zone type="Asia/Kuwait">
 				<exemplarCity>Кувајт</exemplarCity>
@@ -2456,7 +2581,7 @@
 				<exemplarCity>Алмати</exemplarCity>
 			</zone>
 			<zone type="Asia/Vientiane">
-				<exemplarCity>Вијетијан</exemplarCity>
+				<exemplarCity draft="contributed">Вијентијан</exemplarCity>
 			</zone>
 			<zone type="Asia/Beirut">
 				<exemplarCity>Бејрут</exemplarCity>
@@ -2465,7 +2590,7 @@
 				<exemplarCity>Св. Луција</exemplarCity>
 			</zone>
 			<zone type="Europe/Vaduz">
-				<exemplarCity>Вадуц</exemplarCity>
+				<exemplarCity draft="contributed">Вадуз</exemplarCity>
 			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>Коломбо</exemplarCity>
@@ -2477,13 +2602,13 @@
 				<exemplarCity>Масеру</exemplarCity>
 			</zone>
 			<zone type="Europe/Vilnius">
-				<exemplarCity>Виљнус</exemplarCity>
+				<exemplarCity draft="contributed">Виљнус</exemplarCity>
 			</zone>
 			<zone type="Europe/Luxembourg">
-				<exemplarCity>Луксембург</exemplarCity>
+				<exemplarCity draft="contributed">Луксембург</exemplarCity>
 			</zone>
 			<zone type="Europe/Riga">
-				<exemplarCity>Рига</exemplarCity>
+				<exemplarCity draft="contributed">Рига</exemplarCity>
 			</zone>
 			<zone type="Africa/Tripoli">
 				<exemplarCity>Триполи</exemplarCity>
@@ -2492,13 +2617,19 @@
 				<exemplarCity>Казабланка</exemplarCity>
 			</zone>
 			<zone type="Europe/Monaco">
-				<exemplarCity>Монако</exemplarCity>
+				<exemplarCity draft="contributed">Монако</exemplarCity>
 			</zone>
 			<zone type="Europe/Chisinau">
-				<exemplarCity>Кишњев</exemplarCity>
+				<exemplarCity draft="contributed">Кишињев</exemplarCity>
+			</zone>
+			<zone type="Europe/Podgorica">
+				<exemplarCity draft="contributed">Подгорица</exemplarCity>
+			</zone>
+			<zone type="America/Marigot">
+				<exemplarCity draft="contributed">Мариго</exemplarCity>
 			</zone>
 			<zone type="Indian/Antananarivo">
-				<exemplarCity>Антананариво</exemplarCity>
+				<exemplarCity draft="contributed">Антананариво</exemplarCity>
 			</zone>
 			<zone type="Pacific/Kwajalein">
 				<exemplarCity>Кваџалејин</exemplarCity>
@@ -2506,11 +2637,14 @@
 			<zone type="Pacific/Majuro">
 				<exemplarCity>Мајуро</exemplarCity>
 			</zone>
+			<zone type="Europe/Skopje">
+				<exemplarCity draft="contributed">Скопље</exemplarCity>
+			</zone>
 			<zone type="Africa/Bamako">
 				<exemplarCity>Бамако</exemplarCity>
 			</zone>
 			<zone type="Asia/Rangoon">
-				<exemplarCity>Рангун</exemplarCity>
+				<exemplarCity draft="contributed">Рангун</exemplarCity>
 			</zone>
 			<zone type="Asia/Hovd">
 				<exemplarCity>Ховд</exemplarCity>
@@ -2537,13 +2671,13 @@
 				<exemplarCity>Монтсерат</exemplarCity>
 			</zone>
 			<zone type="Europe/Malta">
-				<exemplarCity>Малта</exemplarCity>
+				<exemplarCity draft="contributed">Малта</exemplarCity>
 			</zone>
 			<zone type="Indian/Mauritius">
-				<exemplarCity>Маурицијус</exemplarCity>
+				<exemplarCity draft="contributed">Маурицијус</exemplarCity>
 			</zone>
 			<zone type="Indian/Maldives">
-				<exemplarCity>Малдиви</exemplarCity>
+				<exemplarCity draft="contributed">Малдиви</exemplarCity>
 			</zone>
 			<zone type="Africa/Blantyre">
 				<exemplarCity>Блантир</exemplarCity>
@@ -2600,10 +2734,10 @@
 				<exemplarCity>Манагва</exemplarCity>
 			</zone>
 			<zone type="Europe/Amsterdam">
-				<exemplarCity>Амстердам</exemplarCity>
+				<exemplarCity draft="contributed">Амстердам</exemplarCity>
 			</zone>
 			<zone type="Europe/Oslo">
-				<exemplarCity>Осло</exemplarCity>
+				<exemplarCity draft="contributed">Осло</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>Катманду</exemplarCity>
@@ -2618,7 +2752,7 @@
 				<exemplarCity>Катхам</exemplarCity>
 			</zone>
 			<zone type="Pacific/Auckland">
-				<exemplarCity>Окланд</exemplarCity>
+				<exemplarCity draft="contributed">Окланд</exemplarCity>
 			</zone>
 			<zone type="Asia/Muscat">
 				<exemplarCity>Мускат</exemplarCity>
@@ -2648,7 +2782,7 @@
 				<exemplarCity>Карачи</exemplarCity>
 			</zone>
 			<zone type="Europe/Warsaw">
-				<exemplarCity>Варшава</exemplarCity>
+				<exemplarCity draft="contributed">Варшава</exemplarCity>
 			</zone>
 			<zone type="America/Miquelon">
 				<exemplarCity>Микелон</exemplarCity>
@@ -2666,10 +2800,10 @@
 				<exemplarCity>Азори</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Madeira">
-				<exemplarCity>Португалија (Мадеира)</exemplarCity>
+				<exemplarCity draft="contributed">Мадера</exemplarCity>
 			</zone>
 			<zone type="Europe/Lisbon">
-				<exemplarCity>Лисабон</exemplarCity>
+				<exemplarCity draft="contributed">Лисабон</exemplarCity>
 			</zone>
 			<zone type="Pacific/Palau">
 				<exemplarCity>Палау</exemplarCity>
@@ -2678,13 +2812,16 @@
 				<exemplarCity>Асунсион</exemplarCity>
 			</zone>
 			<zone type="Asia/Qatar">
-				<exemplarCity>Катар</exemplarCity>
+				<exemplarCity draft="contributed">Катар</exemplarCity>
 			</zone>
 			<zone type="Indian/Reunion">
-				<exemplarCity>Уједињење</exemplarCity>
+				<exemplarCity draft="contributed">Реунион</exemplarCity>
 			</zone>
 			<zone type="Europe/Bucharest">
-				<exemplarCity>Букурешт</exemplarCity>
+				<exemplarCity draft="contributed">Букурешт</exemplarCity>
+			</zone>
+			<zone type="Europe/Belgrade">
+				<exemplarCity draft="contributed">Београд</exemplarCity>
 			</zone>
 			<zone type="Europe/Kaliningrad">
 				<exemplarCity>Калининград</exemplarCity>
@@ -2735,28 +2872,40 @@
 				<exemplarCity>Кигали</exemplarCity>
 			</zone>
 			<zone type="Asia/Riyadh">
-				<exemplarCity>Ријад</exemplarCity>
+				<exemplarCity draft="contributed">Ријад</exemplarCity>
 			</zone>
 			<zone type="Pacific/Guadalcanal">
-				<exemplarCity>Гвадалканал</exemplarCity>
+				<exemplarCity draft="contributed">Гвадалканал</exemplarCity>
 			</zone>
 			<zone type="Indian/Mahe">
-				<exemplarCity>Махе</exemplarCity>
+				<exemplarCity draft="contributed">Махе</exemplarCity>
 			</zone>
 			<zone type="Africa/Khartoum">
 				<exemplarCity>Картум</exemplarCity>
 			</zone>
 			<zone type="Europe/Stockholm">
-				<exemplarCity>Стокхолм</exemplarCity>
+				<exemplarCity draft="contributed">Стокхолм</exemplarCity>
 			</zone>
 			<zone type="Asia/Singapore">
-				<exemplarCity>Сингапур</exemplarCity>
+				<exemplarCity draft="contributed">Сингапур</exemplarCity>
 			</zone>
 			<zone type="Atlantic/St_Helena">
-				<exemplarCity>Света Јелена</exemplarCity>
+				<exemplarCity draft="contributed">Св. Јелена</exemplarCity>
+			</zone>
+			<zone type="Europe/Ljubljana">
+				<exemplarCity draft="contributed">Љубљана</exemplarCity>
+			</zone>
+			<zone type="Arctic/Longyearbyen">
+				<exemplarCity draft="contributed">Лонгјербјен</exemplarCity>
+			</zone>
+			<zone type="Europe/Bratislava">
+				<exemplarCity draft="contributed">Братислава</exemplarCity>
 			</zone>
 			<zone type="Africa/Freetown">
 				<exemplarCity>Фритаун</exemplarCity>
+			</zone>
+			<zone type="Europe/San_Marino">
+				<exemplarCity draft="contributed">Сан Марино</exemplarCity>
 			</zone>
 			<zone type="Africa/Dakar">
 				<exemplarCity>Дакар</exemplarCity>
@@ -2786,7 +2935,7 @@
 				<exemplarCity>Нџамена</exemplarCity>
 			</zone>
 			<zone type="Indian/Kerguelen">
-				<exemplarCity>Кергелен</exemplarCity>
+				<exemplarCity draft="contributed">Кергелен</exemplarCity>
 			</zone>
 			<zone type="Africa/Lome">
 				<exemplarCity>Ломе</exemplarCity>
@@ -2798,7 +2947,7 @@
 				<exemplarCity>Душанбе</exemplarCity>
 			</zone>
 			<zone type="Pacific/Fakaofo">
-				<exemplarCity>Факаофо</exemplarCity>
+				<exemplarCity draft="contributed">Факаофо</exemplarCity>
 			</zone>
 			<zone type="Asia/Dili">
 				<exemplarCity>Дили</exemplarCity>
@@ -2813,16 +2962,16 @@
 				<exemplarCity>Тонгатапу</exemplarCity>
 			</zone>
 			<zone type="Europe/Istanbul">
-				<exemplarCity>Истанбул</exemplarCity>
+				<exemplarCity draft="contributed">Истанбул</exemplarCity>
 			</zone>
 			<zone type="America/Port_of_Spain">
-				<exemplarCity>Порт оф Спејн</exemplarCity>
+				<exemplarCity draft="contributed">Порт оф Спејн</exemplarCity>
 			</zone>
 			<zone type="Pacific/Funafuti">
-				<exemplarCity>Фанафути</exemplarCity>
+				<exemplarCity draft="contributed">Фунафути</exemplarCity>
 			</zone>
 			<zone type="Asia/Taipei">
-				<exemplarCity>Тајпеј</exemplarCity>
+				<exemplarCity draft="contributed">Тајпеј</exemplarCity>
 			</zone>
 			<zone type="Africa/Dar_es_Salaam">
 				<exemplarCity>Дар-ес-Салам</exemplarCity>
@@ -2864,7 +3013,7 @@
 				<exemplarCity>Енкориџ</exemplarCity>
 			</zone>
 			<zone type="America/Yakutat">
-				<exemplarCity>Јакутат</exemplarCity>
+				<exemplarCity draft="contributed">Јакутат</exemplarCity>
 			</zone>
 			<zone type="America/Juneau">
 				<exemplarCity>Жуно</exemplarCity>
@@ -2941,6 +3090,9 @@
 			<zone type="Asia/Tashkent">
 				<exemplarCity>Ташкент</exemplarCity>
 			</zone>
+			<zone type="Europe/Vatican">
+				<exemplarCity draft="contributed">Ватикан</exemplarCity>
+			</zone>
 			<zone type="America/St_Vincent">
 				<exemplarCity>Сент Винсент</exemplarCity>
 			</zone>
@@ -2953,20 +3105,23 @@
 			<zone type="America/St_Thomas">
 				<exemplarCity>Св. Тома</exemplarCity>
 			</zone>
+			<zone type="Asia/Saigon">
+				<exemplarCity draft="contributed">Хо Ши Мин</exemplarCity>
+			</zone>
 			<zone type="Pacific/Efate">
-				<exemplarCity>Ефате</exemplarCity>
+				<exemplarCity draft="contributed">Ефат</exemplarCity>
 			</zone>
 			<zone type="Pacific/Wallis">
 				<exemplarCity>Валис</exemplarCity>
 			</zone>
 			<zone type="Pacific/Apia">
-				<exemplarCity>Апија</exemplarCity>
+				<exemplarCity draft="contributed">Апија</exemplarCity>
 			</zone>
 			<zone type="Asia/Aden">
 				<exemplarCity>Аден</exemplarCity>
 			</zone>
 			<zone type="Indian/Mayotte">
-				<exemplarCity>Мајоте</exemplarCity>
+				<exemplarCity draft="contributed">Мајот</exemplarCity>
 			</zone>
 			<zone type="Africa/Johannesburg">
 				<exemplarCity>Јоханесбург</exemplarCity>
@@ -2982,18 +3137,11 @@
 					<standard>Акре време</standard>
 					<daylight>Акре летње рачунање времена</daylight>
 				</long>
-				<short>
-					<standard>ACT (Aкре)</standard>
-					<daylight>ACST (Aкре)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Afghanistan">
 				<long>
-					<standard>Авганистанско време</standard>
+					<standard draft="provisional">Авганистанско време</standard>
 				</long>
-				<short>
-					<standard>Авганистан време</standard>
-				</short>
 			</metazone>
 			<metazone type="Africa_Central">
 				<long>
@@ -3025,16 +3173,16 @@
 			</metazone>
 			<metazone type="Alaska">
 				<long>
-					<generic>Аљаска време</generic>
-					<standard>Аљаска стандардно време</standard>
-					<daylight>Аљаска летње рачунање времена</daylight>
+					<generic draft="contributed">Аљашко време</generic>
+					<standard draft="contributed">Аљашко стандардно време</standard>
+					<daylight draft="contributed">Аљашко летње време</daylight>
 				</long>
 			</metazone>
 			<metazone type="Alaska_Hawaii">
 				<long>
-					<generic>Аљ����ска-Хаваји време</generic>
-					<standard>Аљаска-Хаваи стандардно време</standard>
-					<daylight>Аљаска-Хаваји летње рачунање времена</daylight>
+					<generic draft="provisional">Аљаска-Хаваји време</generic>
+					<standard draft="provisional">Аљаска-Хаваи стандардно време</standard>
+					<daylight draft="provisional">Аљаска-Хаваји летње рачунање времена</daylight>
 				</long>
 			</metazone>
 			<metazone type="Almaty">
@@ -3045,6 +3193,7 @@
 			</metazone>
 			<metazone type="Amazon">
 				<long>
+					<generic draft="contributed">Амазонско време</generic>
 					<standard>Амазон време</standard>
 					<daylight>Амазон летње рачунање времена</daylight>
 				</long>
@@ -3055,9 +3204,6 @@
 					<standard>Централно стандардно време</standard>
 					<daylight>Централно летње рачунање времена</daylight>
 				</long>
-				<short>
-					<generic>САД (Чикаго)</generic>
-				</short>
 			</metazone>
 			<metazone type="America_Eastern">
 				<long>
@@ -3065,9 +3211,6 @@
 					<standard>Источно стандардно време</standard>
 					<daylight>Источно летње рачунање времена</daylight>
 				</long>
-				<short>
-					<generic>САД (Њујорк)</generic>
-				</short>
 			</metazone>
 			<metazone type="America_Mountain">
 				<long>
@@ -3075,9 +3218,6 @@
 					<standard>Планинско стандардно време</standard>
 					<daylight>Планинско летње рачунање времена</daylight>
 				</long>
-				<short>
-					<generic>САД (Денвер)</generic>
-				</short>
 			</metazone>
 			<metazone type="America_Pacific">
 				<long>
@@ -3085,12 +3225,10 @@
 					<standard>Пацифичко стандардно време</standard>
 					<daylight>Пацифичко летње рачунање времена</daylight>
 				</long>
-				<short>
-					<generic>САД (Лос Анђелес)</generic>
-				</short>
 			</metazone>
 			<metazone type="Anadyr">
 				<long>
+					<generic draft="contributed">Анадирско време</generic>
 					<standard>Анадир време</standard>
 					<daylight>Анадир летње рачунање времена</daylight>
 				</long>
@@ -3100,20 +3238,12 @@
 					<standard>Акватау време</standard>
 					<daylight>Акватау летње рачунање времена</daylight>
 				</long>
-				<short>
-					<standard>AQTT (Aкватау)</standard>
-					<daylight>AQTST (Aкватау)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Aqtobe">
 				<long>
 					<standard>Акутобе време</standard>
 					<daylight>Акутобе летње рачунање времена</daylight>
 				</long>
-				<short>
-					<standard>AQTT (Aктобе)</standard>
-					<daylight>AQTST (Aктобе)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Arabian">
 				<long>
@@ -3121,21 +3251,19 @@
 					<standard>Арабијско стандардно време</standard>
 					<daylight>Арабијско летње рачунање времена</daylight>
 				</long>
-				<short>
-					<generic>AT (Арабијско)</generic>
-					<standard>AST (Арабијско)</standard>
-					<daylight>ADT (Арабијско)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Argentina">
 				<long>
+					<generic draft="contributed">Аргентинско време</generic>
 					<standard>Аргентина време</standard>
 					<daylight>Аргентина летње рачунање времена</daylight>
 				</long>
 			</metazone>
 			<metazone type="Argentina_Western">
 				<long>
+					<generic draft="contributed">Аргентинско западно време</generic>
 					<standard>Западна Аргентина време</standard>
+					<daylight draft="contributed">Аргентинско западно летње време</daylight>
 				</long>
 			</metazone>
 			<metazone type="Armenia">
@@ -3143,10 +3271,6 @@
 					<standard>Арменија време</standard>
 					<daylight>Арменија летње рачунање времена</daylight>
 				</long>
-				<short>
-					<standard>AMT (Aрменија)</standard>
-					<daylight>AMST (Aрменија)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Ashkhabad">
 				<long>
@@ -3188,9 +3312,6 @@
 					<standard>Аустралијско западно стандардно време</standard>
 					<daylight>Аустралијско западно летње рачунање времена</daylight>
 				</long>
-				<short>
-					<generic>AWT</generic>
-				</short>
 			</metazone>
 			<metazone type="Azerbaijan">
 				<long>
@@ -3213,11 +3334,8 @@
 			<metazone type="Bangladesh">
 				<long>
 					<standard>Бангладеш време</standard>
-					<daylight>Бангладеш летње рачунање времена</daylight>
+					<daylight draft="provisional">Бангладеш летње рачунање времена</daylight>
 				</long>
-				<short>
-					<standard>Бангладеш време</standard>
-				</short>
 			</metazone>
 			<metazone type="Bering">
 				<long>
@@ -3225,11 +3343,6 @@
 					<standard>Беринг стандардно време</standard>
 					<daylight>Беринг летње рачунање времена</daylight>
 				</long>
-				<short>
-					<generic>BT (Беринг)</generic>
-					<standard>BST (Беринг)</standard>
-					<daylight>BDT (Беринг)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Bhutan">
 				<long>
@@ -3249,6 +3362,7 @@
 			</metazone>
 			<metazone type="Brasilia">
 				<long>
+					<generic draft="contributed">Бразилијско време</generic>
 					<standard>Бразилија време</standard>
 					<daylight>Бразилија летње рачунање времена</daylight>
 				</long>
@@ -3269,9 +3383,6 @@
 					<generic>Чаморо време</generic>
 					<standard>Чаморо стандардно време</standard>
 				</long>
-				<short>
-					<generic>ChT (Северна Маријанска острва)</generic>
-				</short>
 			</metazone>
 			<metazone type="Changbai">
 				<long>
@@ -3296,14 +3407,10 @@
 					<standard>Кинеско стандардно време</standard>
 					<daylight>Кина летње рачунање времена</daylight>
 				</long>
-				<short>
-					<generic>CT (Кина)</generic>
-					<standard>CST (Кина)</standard>
-					<daylight>CDT (Кина)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Choibalsan">
 				<long>
+					<generic draft="contributed">Чојбалсанско време</generic>
 					<standard>Чојбалсан време</standard>
 					<daylight>Чојбалсан летње рачунање времена</daylight>
 				</long>
@@ -3473,9 +3580,6 @@
 				<long>
 					<standard>Гуам стандардно време</standard>
 				</long>
-				<short>
-					<standard>GST (Гуам)</standard>
-				</short>
 			</metazone>
 			<metazone type="Gulf">
 				<long>
@@ -3490,6 +3594,7 @@
 			</metazone>
 			<metazone type="Hawaii_Aleutian">
 				<long>
+					<generic draft="contributed">Хавајско алеутско време</generic>
 					<standard>Хавајско-алеућанско стандардно време</standard>
 				</long>
 			</metazone>
@@ -3501,6 +3606,7 @@
 			</metazone>
 			<metazone type="Hovd">
 				<long>
+					<generic draft="contributed">Ховдско време</generic>
 					<standard>Ховд време</standard>
 					<daylight>Ховд летње рачунање времена</daylight>
 				</long>
@@ -3522,16 +3628,19 @@
 			</metazone>
 			<metazone type="Indonesia_Central">
 				<long>
+					<generic draft="contributed">Индонезијско централно време</generic>
 					<standard>Централно-индонезијско време</standard>
 				</long>
 			</metazone>
 			<metazone type="Indonesia_Eastern">
 				<long>
+					<generic draft="contributed">Индонезијско источно време</generic>
 					<standard>Источно-индонезијско време</standard>
 				</long>
 			</metazone>
 			<metazone type="Indonesia_Western">
 				<long>
+					<generic draft="contributed">Индонезијско западно време</generic>
 					<standard>Западно-индонезијско време</standard>
 				</long>
 			</metazone>
@@ -3543,26 +3652,28 @@
 			</metazone>
 			<metazone type="Irkutsk">
 				<long>
+					<generic draft="contributed">Иркутско време</generic>
 					<standard>Иркуцк време</standard>
 					<daylight>Иркуцк летње рачунање времена</daylight>
 				</long>
 			</metazone>
 			<metazone type="Israel">
 				<long>
-					<generic>Израел време</generic>
+					<generic draft="provisional">Израел време</generic>
 					<standard>Израелско стандардно време</standard>
 					<daylight>Израелско летње рачунање времена</daylight>
 				</long>
 			</metazone>
 			<metazone type="Japan">
 				<long>
-					<generic>Јапан време</generic>
+					<generic draft="provisional">Јапан време</generic>
 					<standard>Јапанско стандардно време</standard>
 					<daylight>Јапанско летње рачунање времена</daylight>
 				</long>
 			</metazone>
 			<metazone type="Kamchatka">
 				<long>
+					<generic draft="contributed">Камчатско време</generic>
 					<standard>Петропавловско-камчатско време</standard>
 					<daylight>Петропавловско-камчатско летње рачунање вемена</daylight>
 				</long>
@@ -3609,6 +3720,7 @@
 			</metazone>
 			<metazone type="Krasnoyarsk">
 				<long>
+					<generic draft="contributed">краснојарско време</generic>
 					<standard>Краснојарск време</standard>
 					<daylight>Краснојарсклетње рачунање времена</daylight>
 				</long>
@@ -3657,10 +3769,16 @@
 					<daylight>Макао летње рачунање вемена</daylight>
 				</long>
 			</metazone>
+			<metazone type="Macquarie">
+				<long>
+					<generic draft="contributed">Макверијско време</generic>
+				</long>
+			</metazone>
 			<metazone type="Magadan">
 				<long>
+					<generic draft="contributed">Магаданско време</generic>
 					<standard>Магадан време</standard>
-					<daylight>Магадан летње рачунање вемена</daylight>
+					<daylight draft="contributed">Магаданско летње време</daylight>
 				</long>
 			</metazone>
 			<metazone type="Malaya">
@@ -3682,7 +3800,6 @@
 				<long>
 					<standard>Маркиз време</standard>
 				</long>
-				<commonlyUsed>true</commonlyUsed>
 			</metazone>
 			<metazone type="Marshall_Islands">
 				<long>
@@ -3702,6 +3819,7 @@
 			</metazone>
 			<metazone type="Mongolia">
 				<long>
+					<generic draft="contributed">Монголско време</generic>
 					<standard>Улан Батор време</standard>
 					<daylight>Улан Батор летње рачунање времена</daylight>
 				</long>
@@ -3740,9 +3858,6 @@
 					<standard>Нови Зеланд стандардно време</standard>
 					<daylight>Нови Зеланд летње рачунање времена</daylight>
 				</long>
-				<short>
-					<generic>NZT (Нови Зеланд)</generic>
-				</short>
 			</metazone>
 			<metazone type="Newfoundland">
 				<long>
@@ -3763,6 +3878,7 @@
 			</metazone>
 			<metazone type="Noronha">
 				<long>
+					<generic draft="contributed">Нороњско време</generic>
 					<standard>Фернандо де Нороња време</standard>
 					<daylight>Фернандо де Нороња летње рачунање времена</daylight>
 				</long>
@@ -3774,12 +3890,14 @@
 			</metazone>
 			<metazone type="Novosibirsk">
 				<long>
+					<generic draft="contributed">Новосибирско време</generic>
 					<standard>Новосибирск време</standard>
 					<daylight>Новосибирск летње рачунање времена</daylight>
 				</long>
 			</metazone>
 			<metazone type="Omsk">
 				<long>
+					<generic draft="contributed">Омско време</generic>
 					<standard>Омск време</standard>
 					<daylight>Омск летње рачунање времена</daylight>
 				</long>
@@ -3792,7 +3910,7 @@
 			</metazone>
 			<metazone type="Palau">
 				<long>
-					<standard>Палау време</standard>
+					<standard draft="provisional">Палау време</standard>
 				</long>
 			</metazone>
 			<metazone type="Papua_New_Guinea">
@@ -3858,6 +3976,7 @@
 			</metazone>
 			<metazone type="Sakhalin">
 				<long>
+					<generic draft="contributed">Сахалинско време</generic>
 					<standard>Сахалин време</standard>
 					<daylight>Сахалин летње рачунање времена</daylight>
 				</long>
@@ -3874,10 +3993,6 @@
 					<standard>Самарканд време</standard>
 					<daylight>Самарканд летње рачунање времена</daylight>
 				</long>
-				<short>
-					<standard>SAMST (Самарканд)</standard>
-					<daylight>SAMST (Самарканд)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Samoa">
 				<long>
@@ -3933,13 +4048,10 @@
 			</metazone>
 			<metazone type="Taipei">
 				<long>
-					<generic>Таипеи време</generic>
-					<standard>Таипеи стандардно веме</standard>
-					<daylight>Таипеи летње рачунање времена</daylight>
+					<generic draft="provisional">Таипеи време</generic>
+					<standard draft="provisional">Таипеи стандардно веме</standard>
+					<daylight draft="provisional">Таипеи летње рачунање времена</daylight>
 				</long>
-				<short>
-					<generic>ЦТ (Таипеи)</generic>
-				</short>
 			</metazone>
 			<metazone type="Tajikistan">
 				<long>
@@ -3985,9 +4097,6 @@
 					<standard>Туркменистан време</standard>
 					<daylight>Туркменистан летње рачунање времена</daylight>
 				</long>
-				<short>
-					<standard>Туркменистан време</standard>
-				</short>
 			</metazone>
 			<metazone type="Tuvalu">
 				<long>
@@ -4030,12 +4139,14 @@
 			</metazone>
 			<metazone type="Vladivostok">
 				<long>
+					<generic draft="contributed">Владивосточко време</generic>
 					<standard>Владивосток време</standard>
 					<daylight>Владивосток летње рачунање времена</daylight>
 				</long>
 			</metazone>
 			<metazone type="Volgograd">
 				<long>
+					<generic draft="contributed">Волгоградско време</generic>
 					<standard>Волгоград време</standard>
 					<daylight>Волгоград летње рачунање времена</daylight>
 				</long>
@@ -4057,12 +4168,14 @@
 			</metazone>
 			<metazone type="Yakutsk">
 				<long>
+					<generic draft="contributed">Јакутско време</generic>
 					<standard>Јакутск време</standard>
 					<daylight>Јакутск летње рачунање времена</daylight>
 				</long>
 			</metazone>
 			<metazone type="Yekaterinburg">
 				<long>
+					<generic draft="contributed">Јекатеринбуршко време</generic>
 					<standard>Јекатеринбург време</standard>
 					<daylight>Јекатеринбург летње рачунање времена</daylight>
 				</long>
@@ -4083,24 +4196,38 @@
 		</timeZoneNames>
 	</dates>
 	<numbers>
-		<symbols>
-			<decimal>.</decimal>
-			<group>,</group>
+		<symbols numberSystem="latn">
+			<decimal>,</decimal>
+			<group>.</group>
 			<list>;</list>
 			<percentSign>%</percentSign>
-			<nativeZeroDigit>0</nativeZeroDigit>
-			<patternDigit>#</patternDigit>
 			<plusSign>+</plusSign>
 			<minusSign>-</minusSign>
 			<exponential>E</exponential>
 			<perMille>‰</perMille>
 			<infinity>∞</infinity>
-			<nan>NaN</nan>
+			<nan draft="contributed">NaN</nan>
 		</symbols>
 		<decimalFormats>
 			<decimalFormatLength>
 				<decimalFormat>
 					<pattern>#,##0.###</pattern>
+				</decimalFormat>
+			</decimalFormatLength>
+			<decimalFormatLength type="short">
+				<decimalFormat>
+					<pattern type="1000" draft="contributed">0.0 хиљ</pattern>
+					<pattern type="10000" draft="contributed">00 хиљ</pattern>
+					<pattern type="100000" draft="contributed">000 хиљ</pattern>
+					<pattern type="1000000" draft="contributed">0.0 мил</pattern>
+					<pattern type="10000000" draft="contributed">00 мил</pattern>
+					<pattern type="100000000" draft="contributed">000 мил</pattern>
+					<pattern type="1000000000" draft="contributed">0</pattern>
+					<pattern type="10000000000" draft="contributed">0</pattern>
+					<pattern type="100000000000" draft="contributed">0</pattern>
+					<pattern type="1000000000000" draft="contributed">0</pattern>
+					<pattern type="10000000000000" draft="contributed">0</pattern>
+					<pattern type="100000000000000" draft="contributed">0</pattern>
 				</decimalFormat>
 			</decimalFormatLength>
 		</decimalFormats>
@@ -4146,37 +4273,37 @@
 			</currency>
 			<currency type="AFA">
 				<displayName>Авганистански авган (1927-2002)</displayName>
-				<displayName count="few">aвганистанска авгана (AFA)</displayName>
-				<displayName count="many">aвганистанских авгана (AFA)</displayName>
-				<displayName count="one">авганистански авган (AFA)</displayName>
-				<displayName count="other">авганистанских авгана (AFA)</displayName>
+				<displayName count="few">авганистанска авгана (1927-2002)</displayName>
+				<displayName count="many">авганистанских авгана (1927-2002)</displayName>
+				<displayName count="one">авганистански авган (1927-2002)</displayName>
+				<displayName count="other">авганистанских авгана (1927-2002)</displayName>
 			</currency>
 			<currency type="AFN">
 				<displayName>Авганистански авган</displayName>
 				<displayName count="few">авганистанска авгана</displayName>
-				<displayName count="many">авганистанских авгана (AFN)</displayName>
+				<displayName count="many">авганистанских авгана</displayName>
 				<displayName count="one">авганистански авган</displayName>
 				<displayName count="other">авганистански авгани</displayName>
 			</currency>
 			<currency type="ALK">
-				<displayName count="few">стара албанска лека</displayName>
-				<displayName count="many">старих албанских лека</displayName>
-				<displayName count="one">стари албански лек</displayName>
-				<displayName count="other">старих албанских лека</displayName>
+				<displayName count="few" draft="provisional">стара албанска лека</displayName>
+				<displayName count="many" draft="provisional">старих албанских лека</displayName>
+				<displayName count="one" draft="provisional">стари албански лек</displayName>
+				<displayName count="other" draft="provisional">старих албанских лека</displayName>
 			</currency>
 			<currency type="ALL">
 				<displayName>Албански лек</displayName>
 				<displayName count="few">Албанске леке</displayName>
 				<displayName count="many">Албанских лека</displayName>
 				<displayName count="one">албански лек</displayName>
-				<displayName count="other">албански лек</displayName>
+				<displayName count="other" draft="provisional">албански лек</displayName>
 			</currency>
 			<currency type="AMD">
 				<displayName>Јерменски драм</displayName>
 				<displayName count="few">Јерменска драма</displayName>
 				<displayName count="many">Јерменских драма</displayName>
 				<displayName count="one">јерменски драм</displayName>
-				<displayName count="other">арменијска драма</displayName>
+				<displayName count="other" draft="provisional">арменијска драма</displayName>
 			</currency>
 			<currency type="ANG">
 				<displayName>Холандски антили гилдер</displayName>
@@ -4186,18 +4313,18 @@
 				<displayName count="other">холандско-антилских гилдера</displayName>
 			</currency>
 			<currency type="AOA">
-				<displayName>aнголијска кванза</displayName>
+				<displayName>анголска кванза</displayName>
 				<displayName count="few">анголијске кванзе</displayName>
 				<displayName count="many">анголијских кванзи</displayName>
 				<displayName count="one">анголијска кванза</displayName>
 				<displayName count="other">анголијских кванзи</displayName>
 			</currency>
 			<currency type="AOK">
-				<displayName>aнголијска кванза (1977-1990)</displayName>
-				<displayName count="few">анголијске кванзе (AOK)</displayName>
-				<displayName count="many">анголијских кванзи (AOK)</displayName>
-				<displayName count="one">анголијска кванза (AOK)</displayName>
-				<displayName count="other">анголијских кванзи (AOK)</displayName>
+				<displayName>анголијска кванза (1977-1990)</displayName>
+				<displayName count="few">анголијске кванзе (1977-1990)</displayName>
+				<displayName count="many">анголијских кванзи (1977-1990)</displayName>
+				<displayName count="one">анголијска кванза (1977-1990)</displayName>
+				<displayName count="other">анголијских кванзи (1977-1990)</displayName>
 			</currency>
 			<currency type="AON">
 				<displayName>Анголијска нова кванза (1990-2000)</displayName>
@@ -4221,26 +4348,26 @@
 				<displayName count="other">аргентинских аустрала</displayName>
 			</currency>
 			<currency type="ARL">
-				<displayName count="few">аргентинска пезос леја</displayName>
-				<displayName count="many">аргентинских пезос леја</displayName>
-				<displayName count="one">аргентински пезос леј</displayName>
-				<displayName count="other">аргентинских пезос леја</displayName>
+				<displayName count="few" draft="provisional">аргентинска пезос леја</displayName>
+				<displayName count="many" draft="provisional">аргентинских пезос леја</displayName>
+				<displayName count="one" draft="provisional">аргентински пезос леј</displayName>
+				<displayName count="other" draft="provisional">аргентинских пезос леја</displayName>
 			</currency>
 			<currency type="ARM">
-				<displayName count="few">аргентинска пезос монеда национал</displayName>
-				<displayName count="many">аргентинских пезос монеда национала</displayName>
-				<displayName count="one">аргентински пезос монедо национал</displayName>
-				<displayName count="other">аргентинских пезос монеда национала</displayName>
+				<displayName count="few" draft="provisional">аргентинска пезос монеда национал</displayName>
+				<displayName count="many" draft="provisional">аргентинских пезос монеда национала</displayName>
+				<displayName count="one" draft="provisional">аргентински пезос монедо национал</displayName>
+				<displayName count="other" draft="provisional">аргентинских пезос монеда национала</displayName>
 			</currency>
 			<currency type="ARP">
-				<displayName>aргентински пезо (1983-1985)</displayName>
-				<displayName count="few">аргентинска пезоса (ARP)</displayName>
-				<displayName count="many">аргентинских пезоса (ARP)</displayName>
-				<displayName count="one">аргентински пезо</displayName>
-				<displayName count="other">аргентинских пезоса (ARP)</displayName>
+				<displayName>аргентински пезо (1983-1985)</displayName>
+				<displayName count="few">аргентинска пезоса (1983-1985)</displayName>
+				<displayName count="many">аргентинских пезоса (1983-1985)</displayName>
+				<displayName count="one">аргентински пезо (1983-1985)</displayName>
+				<displayName count="other">аргентинских пезоса (1983-1985)</displayName>
 			</currency>
 			<currency type="ARS">
-				<displayName>aргентински пезо</displayName>
+				<displayName>аргентински пезо</displayName>
 				<displayName count="few">аргентинска пезоса</displayName>
 				<displayName count="many">аргентинских пезоса</displayName>
 				<displayName count="one">аргентински пезос</displayName>
@@ -4269,16 +4396,16 @@
 			</currency>
 			<currency type="AZM">
 				<displayName>Азербејџански манат (1993-2006)</displayName>
-				<displayName count="few">азербејџанска маната (AZM)</displayName>
-				<displayName count="many">азербејџанских маната (AZM)</displayName>
-				<displayName count="one">азербејџански манат (AZM)</displayName>
-				<displayName count="other">азербејџанских маната (AZM)</displayName>
+				<displayName count="few">азербејџанска маната (1993-2006)</displayName>
+				<displayName count="many">азербејџанских маната (1993-2006)</displayName>
+				<displayName count="one">азербејџански манат (1993-2006)</displayName>
+				<displayName count="other">азербејџанских маната (1993-2006)</displayName>
 			</currency>
 			<currency type="AZN">
 				<displayName>Азербејџански манат</displayName>
 				<displayName count="few">азербејџанска маната</displayName>
 				<displayName count="many">азербејџанских маната</displayName>
-				<displayName count="one">азербејџански манат (AZN)</displayName>
+				<displayName count="one">азербејџански манат</displayName>
 				<displayName count="other">азербејџанских маната</displayName>
 			</currency>
 			<currency type="BAD">
@@ -4294,12 +4421,13 @@
 				<displayName count="many">босанско-херцеговачких конвертабилних марака</displayName>
 				<displayName count="one">босанско-херцеговачка конвертибилна марка</displayName>
 				<displayName count="other">босанско-херцеговачких конвертибилних марака</displayName>
+				<symbol>КМ</symbol>
 			</currency>
 			<currency type="BAN">
-				<displayName count="few">босанско-херцеговачка нова динара</displayName>
-				<displayName count="many">босанско-херцеговачких нових динара</displayName>
-				<displayName count="one">босанско-херцеговачки нови динар</displayName>
-				<displayName count="other">босанско-херцеговачких нових динара</displayName>
+				<displayName count="few" draft="provisional">босанско-херцеговачка нова динара</displayName>
+				<displayName count="many" draft="provisional">босанско-херцеговачких нових динара</displayName>
+				<displayName count="one" draft="provisional">босанско-херцеговачки нови динар</displayName>
+				<displayName count="other" draft="provisional">босанско-херцеговачких нових динара</displayName>
 			</currency>
 			<currency type="BBD">
 				<displayName>Барбадошки долар</displayName>
@@ -4344,10 +4472,10 @@
 				<displayName count="other">бугарских тврдих лева</displayName>
 			</currency>
 			<currency type="BGM">
-				<displayName count="few">бугарска социјалистичка лева</displayName>
-				<displayName count="many">бугарских социјалистичких лева</displayName>
-				<displayName count="one">бугарски социјалистички лев</displayName>
-				<displayName count="other">бугарских социјалистичких лева</displayName>
+				<displayName count="few" draft="provisional">бугарска социјалистичка лева</displayName>
+				<displayName count="many" draft="provisional">бугарских социјалистичких лева</displayName>
+				<displayName count="one" draft="provisional">бугарски социјалистички лев</displayName>
+				<displayName count="other" draft="provisional">бугарских социјалистичких лева</displayName>
 			</currency>
 			<currency type="BGN">
 				<displayName>Бугарски лев</displayName>
@@ -4357,15 +4485,15 @@
 				<displayName count="other">бугарских лева</displayName>
 			</currency>
 			<currency type="BGO">
-				<displayName count="few">стара бугарска лева</displayName>
-				<displayName count="many">старих бугарских лева</displayName>
-				<displayName count="one">стари бугарски лев</displayName>
-				<displayName count="other">старих бугарских лева</displayName>
+				<displayName count="few" draft="provisional">стара бугарска лева</displayName>
+				<displayName count="many" draft="provisional">старих бугарских лева</displayName>
+				<displayName count="one" draft="provisional">стари бугарски лев</displayName>
+				<displayName count="other" draft="provisional">старих бугарских лева</displayName>
 			</currency>
 			<currency type="BHD">
 				<displayName>Бахреински динар</displayName>
 				<displayName count="few">бахреинских динара</displayName>
-				<displayName count="many">бахреинских динара</displayName>
+				<displayName count="many" draft="provisional">бахреинских динара</displayName>
 				<displayName count="one">бахреинских динара</displayName>
 				<displayName count="other">бахреинских динара</displayName>
 			</currency>
@@ -4398,10 +4526,10 @@
 				<displayName count="other">боливијских боливиана</displayName>
 			</currency>
 			<currency type="BOL">
-				<displayName count="few">стара боливијска боливијана</displayName>
-				<displayName count="many">старих боливијских боливијана</displayName>
-				<displayName count="one">стари боливијски боливијано</displayName>
-				<displayName count="other">старих боливијских боливијана</displayName>
+				<displayName count="few" draft="provisional">стара боливијска боливијана</displayName>
+				<displayName count="many" draft="provisional">старих боливијских боливијана</displayName>
+				<displayName count="one" draft="provisional">стари боливијски боливијано</displayName>
+				<displayName count="other" draft="provisional">старих боливијских боливијана</displayName>
 			</currency>
 			<currency type="BOP">
 				<displayName>Боливијски пезо</displayName>
@@ -4433,10 +4561,10 @@
 			</currency>
 			<currency type="BRE">
 				<displayName>Бразилски крузеиро (1990-1993)</displayName>
-				<displayName count="few">бразилска крузеира (BRE)</displayName>
-				<displayName count="many">бразилских крузеира (BRE)</displayName>
-				<displayName count="one">бразилски крузеиро (BRE)</displayName>
-				<displayName count="other">бразилских крузеира (BRE)</displayName>
+				<displayName count="few">бразилска крузеира (1990-1993)</displayName>
+				<displayName count="many">бразилских крузеира (1990-1993)</displayName>
+				<displayName count="one">бразилски крузеиро (1990-1993)</displayName>
+				<displayName count="other">бразилских крузеира (1990-1993)</displayName>
 			</currency>
 			<currency type="BRL">
 				<displayName>Бразилски Реал</displayName>
@@ -4460,10 +4588,10 @@
 				<displayName count="other">бразилских крузеира</displayName>
 			</currency>
 			<currency type="BRZ">
-				<displayName count="few">стара бразилска крузеира</displayName>
-				<displayName count="many">старих бразилских крузеира</displayName>
-				<displayName count="one">стари бразилски крузеиро</displayName>
-				<displayName count="other">старих бразилских крузеира</displayName>
+				<displayName count="few" draft="provisional">стара бразилска крузеира</displayName>
+				<displayName count="many" draft="provisional">старих бразилских крузеира</displayName>
+				<displayName count="one" draft="provisional">стари бразилски крузеиро</displayName>
+				<displayName count="other" draft="provisional">старих бразилских крузеира</displayName>
 			</currency>
 			<currency type="BSD">
 				<displayName>Бахамски долар</displayName>
@@ -4474,8 +4602,8 @@
 			</currency>
 			<currency type="BTN">
 				<displayName>Бутански нгултрум</displayName>
-				<displayName count="few">бутанска нгултрумa</displayName>
-				<displayName count="many">бутанских нгултрумa</displayName>
+				<displayName count="few">бутанска нгултрума</displayName>
+				<displayName count="many">бутанских нгултрума</displayName>
 				<displayName count="one">бутански нгултрум</displayName>
 				<displayName count="other">бутанских нгултра</displayName>
 			</currency>
@@ -4550,10 +4678,10 @@
 				<displayName count="other">WIR франака</displayName>
 			</currency>
 			<currency type="CLE">
-				<displayName count="few">чилеанска ескуда</displayName>
-				<displayName count="many">чилеанских ескуда</displayName>
-				<displayName count="one">чилеански ескудо</displayName>
-				<displayName count="other">чилеанских ескуда</displayName>
+				<displayName count="few" draft="provisional">чилеанска ескуда</displayName>
+				<displayName count="many" draft="provisional">чилеанских ескуда</displayName>
+				<displayName count="one" draft="provisional">чилеански ескудо</displayName>
+				<displayName count="other" draft="provisional">чилеанских ескуда</displayName>
 			</currency>
 			<currency type="CLF">
 				<displayName>Чилеовски унидадес се фоменто</displayName>
@@ -4570,24 +4698,24 @@
 				<displayName count="other">чилеански пезоси</displayName>
 			</currency>
 			<currency type="CNX">
-				<displayName count="few">долара кинеске народне банке</displayName>
-				<displayName count="many">долара кинеске народне банке</displayName>
-				<displayName count="one">долар кинеске народне банке</displayName>
-				<displayName count="other">долара кинеске народне банке</displayName>
+				<displayName count="few" draft="provisional">долара кинеске народне банке</displayName>
+				<displayName count="many" draft="provisional">долара кинеске народне банке</displayName>
+				<displayName count="one" draft="provisional">долар кинеске народне банке</displayName>
+				<displayName count="other" draft="provisional">долара кинеске народне банке</displayName>
 			</currency>
 			<currency type="CNY">
 				<displayName>Кинески јуан ренминби</displayName>
 				<displayName count="few">кинеска јуан</displayName>
-				<displayName count="many">кинеских јуанa</displayName>
+				<displayName count="many">кинеских јуана</displayName>
 				<displayName count="one">кинески јуан</displayName>
-				<displayName count="other">кинеских јуанa</displayName>
+				<displayName count="other">кинеских јуана</displayName>
 			</currency>
 			<currency type="COP">
 				<displayName>Колумбијски пезо</displayName>
 				<displayName count="few">колумбијска пезоса</displayName>
 				<displayName count="many">колумбијских пезоса</displayName>
 				<displayName count="one">колумбијски пезо</displayName>
-				<displayName count="other">колумбијских пезоса</displayName>
+				<displayName count="other" draft="provisional">колумбијских пезоса</displayName>
 			</currency>
 			<currency type="COU">
 				<displayName>Унидад де валоршки реал</displayName>
@@ -4618,11 +4746,11 @@
 				<displayName count="other">чехословачких тврдих круна</displayName>
 			</currency>
 			<currency type="CUC">
-				<displayName>Кубански конвертибилни пезо</displayName>
-				<displayName count="few">CUC</displayName>
-				<displayName count="many">CUC</displayName>
-				<displayName count="one">CUC</displayName>
-				<displayName count="other">CUC</displayName>
+				<displayName draft="contributed">кубански конвертибилни песо</displayName>
+				<displayName count="few" draft="contributed">кубански конвертибилни пезос</displayName>
+				<displayName count="many" draft="contributed">кубанских конвертибилних пезоса</displayName>
+				<displayName count="one" draft="contributed">кубански конвертибилни песо</displayName>
+				<displayName count="other" draft="contributed">кубански конвертибилни пезос</displayName>
 			</currency>
 			<currency type="CUP">
 				<displayName>Кубански пезо</displayName>
@@ -4648,7 +4776,7 @@
 			<currency type="CZK">
 				<displayName>Чешка круна</displayName>
 				<displayName count="few">чешке круне</displayName>
-				<displayName count="many">чешких крунa</displayName>
+				<displayName count="many">чешких круна</displayName>
 				<displayName count="one">чешка круна</displayName>
 				<displayName count="other">чешких круне</displayName>
 				<symbol>Кч</symbol>
@@ -4742,12 +4870,12 @@
 				<displayName count="few">шпанске пезете (конвертибилан рачун)</displayName>
 				<displayName count="many">шпанских пезета (конвертибилан рачун)</displayName>
 				<displayName count="one">шпанска пезета (конвертибилан рачун)</displayName>
-				<displayName count="other">шпанских пезета</displayName>
+				<displayName count="other">шпанских пезета (конвертибилан рачун)</displayName>
 			</currency>
 			<currency type="ESP">
 				<displayName>Шпанска пезета</displayName>
 				<displayName count="few">шпанска пезета</displayName>
-				<displayName count="many">шпанских пезета (ESP)</displayName>
+				<displayName count="many">шпанских пезета</displayName>
 				<displayName count="one">шпанска пезета</displayName>
 				<displayName count="other">шпанске пезете</displayName>
 			</currency>
@@ -4815,11 +4943,11 @@
 				<displayName count="other">грузијских лариса</displayName>
 			</currency>
 			<currency type="GHC">
-				<displayName>гански цеди (1979-2007)</displayName>
-				<displayName count="few">ганска цеда (GHC)</displayName>
-				<displayName count="many">ганских цеда (GHC)</displayName>
-				<displayName count="one">гански цед (GHC)</displayName>
-				<displayName count="other">ганских цеда (GHC)</displayName>
+				<displayName>Гански цеди (1979-2007)</displayName>
+				<displayName count="few">ганска цеда (1979-2007)</displayName>
+				<displayName count="many">ганских цеда (1979-2007)</displayName>
+				<displayName count="one">гански цед (1979-2007)</displayName>
+				<displayName count="other">ганских цеда (1979-2007)</displayName>
 			</currency>
 			<currency type="GHS">
 				<displayName>Гански цеди</displayName>
@@ -4896,7 +5024,7 @@
 				<displayName count="few">гвајанска долара</displayName>
 				<displayName count="many">гвајанских долара</displayName>
 				<displayName count="one">гвајански долар</displayName>
-				<displayName count="other">GYD</displayName>
+				<displayName count="other">гвајанских долара</displayName>
 			</currency>
 			<currency type="HKD">
 				<displayName>Хонгконшки долар</displayName>
@@ -5075,16 +5203,16 @@
 				<displayName count="other">севернокорејски вон</displayName>
 			</currency>
 			<currency type="KRH">
-				<displayName count="few">јужнокорејска хвана</displayName>
-				<displayName count="many">јужнокорејских хвана</displayName>
-				<displayName count="one">јужнокорејски хван</displayName>
-				<displayName count="other">јужнокорејских хвана</displayName>
+				<displayName count="few" draft="provisional">јужнокорејска хвана</displayName>
+				<displayName count="many" draft="provisional">јужнокорејских хвана</displayName>
+				<displayName count="one" draft="provisional">јужнокорејски хван</displayName>
+				<displayName count="other" draft="provisional">јужнокорејских хвана</displayName>
 			</currency>
 			<currency type="KRO">
-				<displayName count="few">стара јужнокорејска вона</displayName>
-				<displayName count="many">старих јужнокорејских вона</displayName>
-				<displayName count="one">стари јужнокорејски вон</displayName>
-				<displayName count="other">старих јужнокорејских вона</displayName>
+				<displayName count="few" draft="provisional">стара јужнокорејска вона</displayName>
+				<displayName count="many" draft="provisional">старих јужнокорејских вона</displayName>
+				<displayName count="one" draft="provisional">стари јужнокорејски вон</displayName>
+				<displayName count="other" draft="provisional">старих јужнокорејских вона</displayName>
 			</currency>
 			<currency type="KRW">
 				<displayName>Јужнокорејски Вон</displayName>
@@ -5220,16 +5348,16 @@
 				<displayName count="other">мароканских франака</displayName>
 			</currency>
 			<currency type="MCF">
-				<displayName count="few">монегасканска франка</displayName>
-				<displayName count="many">монегасканских франака</displayName>
-				<displayName count="one">монегаскански франак</displayName>
-				<displayName count="other">монегасканских франака</displayName>
+				<displayName count="few" draft="provisional">монегасканска франка</displayName>
+				<displayName count="many" draft="provisional">монегасканских франака</displayName>
+				<displayName count="one" draft="provisional">монегаскански франак</displayName>
+				<displayName count="other" draft="provisional">монегасканских франака</displayName>
 			</currency>
 			<currency type="MDC">
-				<displayName count="few">молдованска купона</displayName>
-				<displayName count="many">молдованских купона</displayName>
-				<displayName count="one">молдовански купон</displayName>
-				<displayName count="other">молдованских купона</displayName>
+				<displayName count="few" draft="provisional">молдованска купона</displayName>
+				<displayName count="many" draft="provisional">молдованских купона</displayName>
+				<displayName count="one" draft="provisional">молдовански купон</displayName>
+				<displayName count="other" draft="provisional">молдованских купона</displayName>
 			</currency>
 			<currency type="MDL">
 				<displayName>Молдовски љу</displayName>
@@ -5260,10 +5388,10 @@
 				<displayName count="other">македонских динара</displayName>
 			</currency>
 			<currency type="MKN">
-				<displayName count="few">стара македонска денара</displayName>
-				<displayName count="many">старих македонских денара</displayName>
-				<displayName count="one">стари македонски денар</displayName>
-				<displayName count="other">старих македонских денара</displayName>
+				<displayName count="few" draft="provisional">стара македонска денара</displayName>
+				<displayName count="many" draft="provisional">старих македонских денара</displayName>
+				<displayName count="one" draft="provisional">стари македонски денар</displayName>
+				<displayName count="other" draft="provisional">старих македонских денара</displayName>
 			</currency>
 			<currency type="MLF">
 				<displayName>Малијански франак</displayName>
@@ -5506,10 +5634,10 @@
 			</currency>
 			<currency type="PLZ">
 				<displayName>Пољски злоти (1950-1995)</displayName>
-				<displayName count="few">пољска злота (PLZ)</displayName>
-				<displayName count="many">пољских злота (PLZ)</displayName>
-				<displayName count="one">пољски злот (PLZ)</displayName>
-				<displayName count="other">пољских злота (PLZ)</displayName>
+				<displayName count="few">пољска злота (1950-1995)</displayName>
+				<displayName count="many">пољских злота (1950-1995)</displayName>
+				<displayName count="one">пољски злот (1950-1995)</displayName>
+				<displayName count="other">пољских злота (1950-1995)</displayName>
 			</currency>
 			<currency type="PTE">
 				<displayName>Португалски ескудо</displayName>
@@ -5571,9 +5699,9 @@
 			<currency type="RUR">
 				<displayName>Руска рубља (1991-1998)</displayName>
 				<displayName count="few">руске рубље (1991-1998)</displayName>
-				<displayName count="many">руских рубљи (RUR)</displayName>
+				<displayName count="many">руских рубљи (1991-1998)</displayName>
 				<displayName count="one">руска рубља (1991-1998)</displayName>
-				<displayName count="other">руских рубљи (RUR)</displayName>
+				<displayName count="other">руских рубљи (1991-1998)</displayName>
 			</currency>
 			<currency type="RWF">
 				<displayName>Руандански франак</displayName>
@@ -5744,18 +5872,18 @@
 				<displayName count="other">таџихистанских сомона</displayName>
 			</currency>
 			<currency type="TMM">
-				<displayName>Туркменистански манат</displayName>
-				<displayName count="few">туркменистанска маната</displayName>
-				<displayName count="many">туркменистанских маната</displayName>
-				<displayName count="one">туркменистански манат</displayName>
-				<displayName count="other">туркменистански манат</displayName>
+				<displayName>Туркменистански манат (1993-2009)</displayName>
+				<displayName count="few">туркменистанска маната (1993-2009)</displayName>
+				<displayName count="many">туркменистанских маната (1993-2009)</displayName>
+				<displayName count="one">туркменистански манат (1993-2009)</displayName>
+				<displayName count="other">туркменистански манат (1993-2009)</displayName>
 			</currency>
 			<currency type="TMT">
-				<displayName>Туркменистански нови манат</displayName>
-				<displayName count="few">TMT</displayName>
-				<displayName count="many">TMT</displayName>
-				<displayName count="one">TMT</displayName>
-				<displayName count="other">TMT</displayName>
+				<displayName>Туркменистански манат</displayName>
+				<displayName count="few">туркменистански манат</displayName>
+				<displayName count="many">туркменистанских маната</displayName>
+				<displayName count="one">туркменистански манат</displayName>
+				<displayName count="other">туркменистанских маната</displayName>
 			</currency>
 			<currency type="TND">
 				<displayName>Тунизијски долар</displayName>
@@ -5830,10 +5958,10 @@
 			</currency>
 			<currency type="UGS">
 				<displayName>Угандски шилинг (1966-1987)</displayName>
-				<displayName count="few">угандијска шилинга (UGS)</displayName>
-				<displayName count="many">угандијских шилинга (UGS)</displayName>
-				<displayName count="one">угандијски шилинг (UGS)</displayName>
-				<displayName count="other">угандијских шилинга (UGS)</displayName>
+				<displayName count="few">угандијска шилинга (1966-1987)</displayName>
+				<displayName count="many">угандијских шилинга (1966-1987)</displayName>
+				<displayName count="one">угандијски шилинг (1966-1987)</displayName>
+				<displayName count="other">угандијских шилинга (1966-1987)</displayName>
 			</currency>
 			<currency type="UGX">
 				<displayName>Угандски шилинг</displayName>
@@ -5872,10 +6000,10 @@
 			</currency>
 			<currency type="UYP">
 				<displayName>Уругвајски пезо (1975-1993)</displayName>
-				<displayName count="few">уругвајска пезоса (UYP)</displayName>
-				<displayName count="many">уругвајских пезоса (UYP)</displayName>
-				<displayName count="one">уругвајски пезо (UYP)</displayName>
-				<displayName count="other">уругвајских пезоса (UYP)</displayName>
+				<displayName count="few">уругвајска пезоса (1975-1993)</displayName>
+				<displayName count="many">уругвајских пезоса (1975-1993)</displayName>
+				<displayName count="one">уругвајски пезо (1975-1993)</displayName>
+				<displayName count="other">уругвајских пезоса (1975-1993)</displayName>
 			</currency>
 			<currency type="UYU">
 				<displayName>Уругвајски пезо</displayName>
@@ -5913,10 +6041,10 @@
 				<displayName count="other">вијетнамски донг</displayName>
 			</currency>
 			<currency type="VNN">
-				<displayName count="few">стара вијетнамска донга</displayName>
-				<displayName count="many">старих вијетнамских донга</displayName>
-				<displayName count="one">стари вијетнамски донг</displayName>
-				<displayName count="other">старих вијетнамских донга</displayName>
+				<displayName count="few" draft="provisional">стара вијетнамска донга</displayName>
+				<displayName count="many" draft="provisional">старих вијетнамских донга</displayName>
+				<displayName count="one" draft="provisional">стари вијетнамски донг</displayName>
+				<displayName count="other" draft="provisional">старих вијетнамских донга</displayName>
 			</currency>
 			<currency type="VUV">
 				<displayName>Вануатски вату</displayName>
@@ -6101,10 +6229,10 @@
 				<displayName count="other">југословенских конвертибилних динара</displayName>
 			</currency>
 			<currency type="YUR">
-				<displayName count="few">југословенска реформирана динара</displayName>
-				<displayName count="many">југословенских реформираних динара</displayName>
-				<displayName count="one">југословенски реформирани динар</displayName>
-				<displayName count="other">југословенских реформираних динара</displayName>
+				<displayName count="few" draft="provisional">југословенска реформирана динара</displayName>
+				<displayName count="many" draft="provisional">југословенских реформираних динара</displayName>
+				<displayName count="one" draft="provisional">југословенски реформирани динар</displayName>
+				<displayName count="other" draft="provisional">југословенских реформираних динара</displayName>
 			</currency>
 			<currency type="ZAL">
 				<displayName>Јужно-афрички ранд (финансијски)</displayName>
@@ -6150,16 +6278,17 @@
 			</currency>
 			<currency type="ZWL">
 				<displayName>Зимбабвеански долар (2009)</displayName>
-				<displayName count="few">ZWL</displayName>
-				<displayName count="many">ZWL</displayName>
-				<displayName count="one">ZWL</displayName>
-				<displayName count="other">ZWL</displayName>
+				<displayName count="few" draft="provisional">ZWL</displayName>
+				<displayName count="many" draft="provisional">ZWL</displayName>
+				<displayName count="one" draft="provisional">ZWL</displayName>
+				<displayName count="other" draft="provisional">ZWL</displayName>
 			</currency>
 			<currency type="ZWR">
-				<displayName count="few">зимбабвејска долара (2008)</displayName>
-				<displayName count="many">зимбабвејских долара (2008)</displayName>
-				<displayName count="one">зимбабвејски долар (2008)</displayName>
-				<displayName count="other">зимбабвејских долара (2008)</displayName>
+				<displayName>Зимбабвеански долар (2008)</displayName>
+				<displayName count="few" draft="provisional">зимбабвејска долара (2008)</displayName>
+				<displayName count="many" draft="provisional">зимбабвејских долара (2008)</displayName>
+				<displayName count="one" draft="provisional">зимбабвејски долар (2008)</displayName>
+				<displayName count="other" draft="provisional">зимбабвејских долара (2008)</displayName>
 			</currency>
 		</currencies>
 	</numbers>
@@ -6174,6 +6303,22 @@
 			<unitPattern count="other">{0} дан</unitPattern>
 			<unitPattern count="other" alt="short">{0} дан</unitPattern>
 		</unit>
+		<unit type="day-future">
+			<unitPattern count="0">за 0 дана</unitPattern>
+			<unitPattern count="1">за 1 дан</unitPattern>
+			<unitPattern count="few">за {0} дана</unitPattern>
+			<unitPattern count="many">за {0} дана</unitPattern>
+			<unitPattern count="one">за {0} дан</unitPattern>
+			<unitPattern count="other">за {0} дана</unitPattern>
+		</unit>
+		<unit type="day-past">
+			<unitPattern count="0">пре 0 дана</unitPattern>
+			<unitPattern count="1">пре 1 дан</unitPattern>
+			<unitPattern count="few">пре {0} дана</unitPattern>
+			<unitPattern count="many">пре {0} дана</unitPattern>
+			<unitPattern count="one">пре {0} дан</unitPattern>
+			<unitPattern count="other">пре {0} дана</unitPattern>
+		</unit>
 		<unit type="hour">
 			<unitPattern count="few">{0} сата</unitPattern>
 			<unitPattern count="few" alt="short">{0} сата</unitPattern>
@@ -6183,6 +6328,22 @@
 			<unitPattern count="one" alt="short">{0} сат</unitPattern>
 			<unitPattern count="other">{0} сат</unitPattern>
 			<unitPattern count="other" alt="short">{0} сат</unitPattern>
+		</unit>
+		<unit type="hour-future">
+			<unitPattern count="0">за 0 сати</unitPattern>
+			<unitPattern count="1">за 1 сат</unitPattern>
+			<unitPattern count="few">за {0} сата</unitPattern>
+			<unitPattern count="many">за {0} сати</unitPattern>
+			<unitPattern count="one">за {0} сат</unitPattern>
+			<unitPattern count="other">за {0} сати</unitPattern>
+		</unit>
+		<unit type="hour-past">
+			<unitPattern count="0">пре 0 сати</unitPattern>
+			<unitPattern count="1">пре 1 сат</unitPattern>
+			<unitPattern count="few">пре {0} сата</unitPattern>
+			<unitPattern count="many">пре {0} сати</unitPattern>
+			<unitPattern count="one">пре {0} сат</unitPattern>
+			<unitPattern count="other">пре {0} сати</unitPattern>
 		</unit>
 		<unit type="minute">
 			<unitPattern count="few">{0} минута</unitPattern>
@@ -6194,6 +6355,22 @@
 			<unitPattern count="other">{0} минут</unitPattern>
 			<unitPattern count="other" alt="short">{0} мин</unitPattern>
 		</unit>
+		<unit type="minute-future">
+			<unitPattern count="0">за 0 минута</unitPattern>
+			<unitPattern count="1">за 1 минут</unitPattern>
+			<unitPattern count="few">за {0} минута</unitPattern>
+			<unitPattern count="many">за {0} минута</unitPattern>
+			<unitPattern count="one">за {0} минут</unitPattern>
+			<unitPattern count="other">за {0} минута</unitPattern>
+		</unit>
+		<unit type="minute-past">
+			<unitPattern count="0">пре 0 минута</unitPattern>
+			<unitPattern count="1">пре 1 минут</unitPattern>
+			<unitPattern count="few">пре {0} минута</unitPattern>
+			<unitPattern count="many">пре {0} минута</unitPattern>
+			<unitPattern count="one">пре {0} минут</unitPattern>
+			<unitPattern count="other">пре {0} минута</unitPattern>
+		</unit>
 		<unit type="month">
 			<unitPattern count="few">{0} месеца</unitPattern>
 			<unitPattern count="few" alt="short">{0} мес</unitPattern>
@@ -6203,6 +6380,22 @@
 			<unitPattern count="one" alt="short">{0} мес</unitPattern>
 			<unitPattern count="other">{0} месец</unitPattern>
 			<unitPattern count="other" alt="short">{0} мес</unitPattern>
+		</unit>
+		<unit type="month-future">
+			<unitPattern count="0">за 0 месеци</unitPattern>
+			<unitPattern count="1">за 1 месец</unitPattern>
+			<unitPattern count="few">за {0} месеца</unitPattern>
+			<unitPattern count="many">за {0} месеци</unitPattern>
+			<unitPattern count="one">за {0} месец</unitPattern>
+			<unitPattern count="other">за {0} месеци</unitPattern>
+		</unit>
+		<unit type="month-past">
+			<unitPattern count="0">пре 0 месеци</unitPattern>
+			<unitPattern count="1">пре 1 месец</unitPattern>
+			<unitPattern count="few">пре {0} месеца</unitPattern>
+			<unitPattern count="many">пре {0} месеци</unitPattern>
+			<unitPattern count="one">пре {0} месец</unitPattern>
+			<unitPattern count="other">пре {0} месеци</unitPattern>
 		</unit>
 		<unit type="second">
 			<unitPattern count="few">{0} секунде</unitPattern>
@@ -6214,6 +6407,22 @@
 			<unitPattern count="other">{0} секунда</unitPattern>
 			<unitPattern count="other" alt="short">{0} сек</unitPattern>
 		</unit>
+		<unit type="second-future">
+			<unitPattern count="0">за 0 секунди</unitPattern>
+			<unitPattern count="1">за 1 секунду</unitPattern>
+			<unitPattern count="few">за {0} секунде</unitPattern>
+			<unitPattern count="many">за {0} секунди</unitPattern>
+			<unitPattern count="one">за {0} секунд</unitPattern>
+			<unitPattern count="other">за {0} секунди</unitPattern>
+		</unit>
+		<unit type="second-past">
+			<unitPattern count="0">пре 0 секунди</unitPattern>
+			<unitPattern count="1">пре 1 секунду</unitPattern>
+			<unitPattern count="few">пре {0} секунде</unitPattern>
+			<unitPattern count="many">пре {0} секунди</unitPattern>
+			<unitPattern count="one">пре {0} секунд</unitPattern>
+			<unitPattern count="other">пре {0} секунди</unitPattern>
+		</unit>
 		<unit type="week">
 			<unitPattern count="few">{0} недеље</unitPattern>
 			<unitPattern count="few" alt="short">{0} нед</unitPattern>
@@ -6224,6 +6433,22 @@
 			<unitPattern count="other">{0} недеља</unitPattern>
 			<unitPattern count="other" alt="short">{0} нед</unitPattern>
 		</unit>
+		<unit type="week-future">
+			<unitPattern count="0">за 0 недеља</unitPattern>
+			<unitPattern count="1">за 1 недељу</unitPattern>
+			<unitPattern count="few">за {0} недеље</unitPattern>
+			<unitPattern count="many">за {0} недеља</unitPattern>
+			<unitPattern count="one">за {0} недељу</unitPattern>
+			<unitPattern count="other">за {0} недеља</unitPattern>
+		</unit>
+		<unit type="week-past">
+			<unitPattern count="0">пре 0 недеља</unitPattern>
+			<unitPattern count="1">пре 1 недељу</unitPattern>
+			<unitPattern count="few">пре {0} недеље</unitPattern>
+			<unitPattern count="many">пре {0} недеља</unitPattern>
+			<unitPattern count="one">пре {0} недељу</unitPattern>
+			<unitPattern count="other">пре {0} недеља</unitPattern>
+		</unit>
 		<unit type="year">
 			<unitPattern count="few">{0} године</unitPattern>
 			<unitPattern count="few" alt="short">{0} год</unitPattern>
@@ -6233,6 +6458,22 @@
 			<unitPattern count="one" alt="short">{0} год</unitPattern>
 			<unitPattern count="other">{0} година</unitPattern>
 			<unitPattern count="other" alt="short">{0} год</unitPattern>
+		</unit>
+		<unit type="year-future">
+			<unitPattern count="0">за 0 година</unitPattern>
+			<unitPattern count="1">за 1 годину</unitPattern>
+			<unitPattern count="few">за {0} године</unitPattern>
+			<unitPattern count="many">за {0} година</unitPattern>
+			<unitPattern count="one">за {0} годину</unitPattern>
+			<unitPattern count="other">за {0} година</unitPattern>
+		</unit>
+		<unit type="year-past">
+			<unitPattern count="0">пре 0 година</unitPattern>
+			<unitPattern count="1">пре 1 годину</unitPattern>
+			<unitPattern count="few">пре {0} године</unitPattern>
+			<unitPattern count="many">пре {0} година</unitPattern>
+			<unitPattern count="one">пре {0} годину</unitPattern>
+			<unitPattern count="other">пре {0} година</unitPattern>
 		</unit>
 	</units>
 	<listPatterns>

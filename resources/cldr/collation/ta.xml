@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
 		<version number="$Revision: 5060 $"/>
@@ -7,7 +7,8 @@
 		<language type="ta" /> 
 	</identity>
 		<collations  validSubLocales="ta_IN ta_LK">
-<collation type="standard">
+<collation type="standard" references=
+"University of Mardas, Tamil Lexicon">
   <settings normalization="on"/>
   <rules>
     <reset>ஔ</reset>

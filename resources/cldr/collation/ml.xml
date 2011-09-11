@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
 		<version number="$Revision: 5037 $"/>
@@ -11,10 +11,12 @@
 			<rules>
 				<reset>ഃ</reset>
 				<s>ഽ</s>
+
 				<reset>ോ</reset>
 				<p>ൗ</p>
 				<reset>ൗ</reset>
 				<t>ൌ</t>
+				
 				<reset>ക്</reset>
 				<s>ക്‍</s>
 				<reset>ക്‍</reset>
@@ -44,8 +46,10 @@
 				<s>ള്‍</s>
 				<reset>ള്‍</reset>
 				<t>ൾ</t>
+
 				<reset>മ്</reset>
 				<s>ം</s>
+
 				<reset>ന്</reset>
 				<t>ൻ്</t>
 			</rules>

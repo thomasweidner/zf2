@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 5094 $"/>
-		<generation date="$Date: 2010-10-13 11:33:36 -0500 (Wed, 13 Oct 2010) $"/>
+		<version number="$Revision: 5968 $"/>
+		<generation date="$Date: 2011-07-05 15:52:21 -0500 (Tue, 05 Jul 2011) $"/>
 		<language type="is"/>
 	</identity>
-	<fallback>nn sv nb da en</fallback>
+	<fallback draft="unconfirmed">nn sv nb da en</fallback>
 	<localeDisplayNames>
 		<localeDisplayPattern>
-			<localePattern>{0} ({1})</localePattern>
-			<localeSeparator>, </localeSeparator>
+			<localePattern draft="contributed">{0} ({1})</localePattern>
+			<localeSeparator draft="contributed">, </localeSeparator>
 		</localeDisplayPattern>
 		<languages>
-			<language type="aa">afár</language>
+			<language type="aa" draft="unconfirmed">afár</language>
 			<language type="ab">abkasíska</language>
 			<language type="ace">akkíska</language>
 			<language type="ach">akólí</language>
@@ -23,16 +23,16 @@
 			<language type="af">afríkanska</language>
 			<language type="afa">afróasísk mál (önnur)</language>
 			<language type="afh">afríhílí</language>
-			<language type="ain">aínu (Japan)</language>
+			<language type="ain" draft="unconfirmed">aínu (Japan)</language>
 			<language type="ak">akan</language>
 			<language type="akk">akkadíska</language>
 			<language type="ale">aleúska</language>
 			<language type="alg">algonkvínsk mál</language>
-			<language type="alt">suðuraltaíska</language>
+			<language type="alt" draft="unconfirmed">suðuraltaíska</language>
 			<language type="am">amharíska</language>
 			<language type="an">aragonska</language>
 			<language type="ang">fornenska (um 450-1100)</language>
-			<language type="anp">angíka</language>
+			<language type="anp" draft="unconfirmed">angíka</language>
 			<language type="apa">apatsjamál</language>
 			<language type="ar">arabíska</language>
 			<language type="arc">arameíska</language>
@@ -41,7 +41,7 @@
 			<language type="art">alþjóðamál (önnur)</language>
 			<language type="arw">aravakska</language>
 			<language type="as">assamska</language>
-			<language type="asa">asu (Tanzania)</language>
+			<language type="asa" draft="unconfirmed">asu (Tanzania)</language>
 			<language type="ast">astúríska</language>
 			<language type="ath">atapaskísk mál</language>
 			<language type="aus">áströlsk mál</language>
@@ -49,6 +49,7 @@
 			<language type="awa">avadí</language>
 			<language type="ay">aímara</language>
 			<language type="az">aserska</language>
+			<language type="az" alt="short">azeri</language>
 			<language type="ba">baskír</language>
 			<language type="bad">banda</language>
 			<language type="bai">bamílekemál</language>
@@ -60,7 +61,7 @@
 			<language type="bej">beja</language>
 			<language type="bem">bemba</language>
 			<language type="ber">berbamál</language>
-			<language type="bez">bena (Tanzania)</language>
+			<language type="bez" draft="unconfirmed">bena (Tanzania)</language>
 			<language type="bg">búlgarska</language>
 			<language type="bh">bíharí</language>
 			<language type="bho">bojpúrí</language>
@@ -81,10 +82,10 @@
 			<language type="byn">blín</language>
 			<language type="ca">katalónska</language>
 			<language type="cad">kaddó</language>
-			<language type="cai">Indíánamál Mið-Ameríku (önnur)</language>
+			<language type="cai">indíánamál mið-ameríku (önnur)</language>
 			<language type="car">karíbamál</language>
 			<language type="cau">kákasusmál (önnur)</language>
-			<language type="cch">atsam</language>
+			<language type="cch" draft="unconfirmed">atsam</language>
 			<language type="ce">tsjetsjenska</language>
 			<language type="ceb">kebúanó</language>
 			<language type="cel">keltnesk (önnur)</language>
@@ -146,7 +147,7 @@
 			<language type="enm">miðenska (1100-1500)</language>
 			<language type="eo">esperantó</language>
 			<language type="es">spænska</language>
-			<language type="es_419">latnesk-amerísk spænska</language>
+			<language type="es_419" draft="contributed">latnesk-amerísk spænska</language>
 			<language type="es_ES">íberísk spænska</language>
 			<language type="et">eistneska</language>
 			<language type="eu">baskneska</language>
@@ -156,7 +157,7 @@
 			<language type="fat">fantí</language>
 			<language type="ff">fúla</language>
 			<language type="fi">finnska</language>
-			<language type="fil">filipínska</language>
+			<language type="fil" draft="contributed">filipínska</language>
 			<language type="fiu">finnskúgrísk mál (önnur)</language>
 			<language type="fj">fídjeyska</language>
 			<language type="fo">færeyska</language>
@@ -235,13 +236,13 @@
 			<language type="kaa">karakalpak</language>
 			<language type="kab">kabíle</language>
 			<language type="kac">kasín</language>
-			<language type="kaj">jju</language>
+			<language type="kaj" draft="unconfirmed">jju</language>
 			<language type="kam">kamba</language>
 			<language type="kar">karen</language>
 			<language type="kaw">kaví</language>
 			<language type="kbd">kabardíska</language>
-			<language type="kcg">tyap</language>
-			<language type="kfo">koro</language>
+			<language type="kcg" draft="unconfirmed">tyap</language>
+			<language type="kfo" draft="unconfirmed">koro</language>
 			<language type="kg">kongó</language>
 			<language type="kha">kasí</language>
 			<language type="khi">koímál (önnur)</language>
@@ -259,7 +260,7 @@
 			<language type="kpe">kpelle</language>
 			<language type="kr">kanúrí</language>
 			<language type="krc">karasaíbalkar</language>
-			<language type="krl">karélska</language>
+			<language type="krl" draft="unconfirmed">karélska</language>
 			<language type="kro">krú</language>
 			<language type="kru">kúrúk</language>
 			<language type="ks">kasmírska</language>
@@ -288,7 +289,7 @@
 			<language type="lun">lúnda</language>
 			<language type="luo">lúó</language>
 			<language type="lus">lúsaí</language>
-			<language type="luy">olulujía</language>
+			<language type="luy" draft="unconfirmed">olulujía</language>
 			<language type="lv">lettneska</language>
 			<language type="mad">madúrska</language>
 			<language type="mag">magahí</language>
@@ -323,18 +324,18 @@
 			<language type="mul">margvísleg mál</language>
 			<language type="mun">múndamál</language>
 			<language type="mus">krík</language>
-			<language type="mwl">mirandesíska</language>
+			<language type="mwl" draft="unconfirmed">mirandesíska</language>
 			<language type="mwr">marvarí</language>
 			<language type="my">burmneska</language>
 			<language type="myn">majamál</language>
 			<language type="myv">ersja</language>
 			<language type="na">nárúska</language>
 			<language type="nah">nahúatl</language>
-			<language type="nai">Indíánamál Norður-Ameríku (önnur)</language>
+			<language type="nai">indíánamál norður-ameríku (önnur)</language>
 			<language type="nap">napólíska</language>
 			<language type="nb">norskt bókmál</language>
 			<language type="nd">norðurndebele</language>
-			<language type="nds">Lágþýska; Lágsaxneska</language>
+			<language type="nds">lágþýska; lágsaxneska</language>
 			<language type="ne">nepalska</language>
 			<language type="new">nevarí</language>
 			<language type="ng">ndonga</language>
@@ -347,18 +348,18 @@
 			<language type="no">norska</language>
 			<language type="nog">nógaí</language>
 			<language type="non">norræna</language>
-			<language type="nqo">N’Ko</language>
+			<language type="nqo">n’ko</language>
 			<language type="nr">suðurndebele</language>
 			<language type="nso">norðursótó</language>
 			<language type="nub">núbísk mál</language>
 			<language type="nv">navahó</language>
-			<language type="nwc">klassísk nevaríska</language>
-			<language type="ny">Njanja; Sísjeva; Sjeva</language>
+			<language type="nwc" draft="unconfirmed">klassísk nevaríska</language>
+			<language type="ny">njanja; sísjeva; sjeva</language>
 			<language type="nym">njamvesí</language>
 			<language type="nyn">njankóle</language>
 			<language type="nyo">njóró</language>
 			<language type="nzi">nsíma</language>
-			<language type="oc">Okkitíska (eftir 1500); Próvensalska</language>
+			<language type="oc">okkitíska (eftir 1500); próvensalska</language>
 			<language type="oj">ojibva</language>
 			<language type="om">órómó</language>
 			<language type="or">óría</language>
@@ -382,6 +383,7 @@
 			<language type="pra">prakrítmál</language>
 			<language type="pro">fornpróvensalska (til 1500)</language>
 			<language type="ps">pastú</language>
+			<language type="ps" alt="variant">pushto</language>
 			<language type="pt">portúgalska</language>
 			<language type="pt_BR">brasílísk portúgalska</language>
 			<language type="pt_PT">íberísk portúgalska</language>
@@ -396,12 +398,12 @@
 			<language type="rom">romaní</language>
 			<language type="root">rót</language>
 			<language type="ru">rússneska</language>
-			<language type="rup">arúmenska</language>
+			<language type="rup" draft="unconfirmed">arúmenska</language>
 			<language type="rw">kínjarvanda</language>
 			<language type="sa">sanskrít</language>
 			<language type="sad">sandave</language>
 			<language type="sah">jakút</language>
-			<language type="sai">Indíánamál Suður-Ameríku (önnur)</language>
+			<language type="sai">indíánamál suður-ameríku (önnur)</language>
 			<language type="sal">salísmál</language>
 			<language type="sam">samversk arameíska</language>
 			<language type="sas">sasak</language>
@@ -421,7 +423,7 @@
 			<language type="si">singalesíska</language>
 			<language type="sid">sídamó</language>
 			<language type="sio">síúmál</language>
-			<language type="sit">sínótíbesk mál</language>
+			<language type="sit" draft="unconfirmed">sínótíbesk mál</language>
 			<language type="sk">slóvakíska</language>
 			<language type="sl">slóvenska</language>
 			<language type="sla">slavnesk mál (önnur)</language>
@@ -431,14 +433,14 @@
 			<language type="smj">lúlesamíska</language>
 			<language type="smn">enaresamíska</language>
 			<language type="sms">skoltesamíska</language>
-			<language type="sn">shóna</language>
+			<language type="sn" draft="contributed">shóna</language>
 			<language type="snk">sóninke</language>
 			<language type="so">sómalska</language>
 			<language type="sog">sogdíen</language>
 			<language type="son">songhaí</language>
 			<language type="sq">albanska</language>
 			<language type="sr">serbneska</language>
-			<language type="srn">sranan tongo</language>
+			<language type="srn" draft="unconfirmed">sranan tongo</language>
 			<language type="srr">serer</language>
 			<language type="ss">svatí</language>
 			<language type="ssa">nílósaharamál (önnur)</language>
@@ -449,7 +451,7 @@
 			<language type="sux">súmerska</language>
 			<language type="sv">sænska</language>
 			<language type="sw">svahílí</language>
-			<language type="swb">shimaoríska</language>
+			<language type="swb" draft="unconfirmed">shimaoríska</language>
 			<language type="syc">klassísk sýrlenska</language>
 			<language type="syr">sýrlenska</language>
 			<language type="ta">tamílska</language>
@@ -470,8 +472,8 @@
 			<language type="tli">tlingit</language>
 			<language type="tmh">tamasjek</language>
 			<language type="tn">tsúana</language>
-			<language type="to">Tongverska (Tongaeyjar)</language>
-			<language type="tog">Tongverska (Nyasa)</language>
+			<language type="to">tongverska (tongaeyjar)</language>
+			<language type="tog">tongverska (nyasa)</language>
 			<language type="tpi">tokpisin</language>
 			<language type="tr">tyrkneska</language>
 			<language type="ts">tsonga</language>
@@ -486,6 +488,7 @@
 			<language type="tyv">túvínska</language>
 			<language type="udm">údmúrt</language>
 			<language type="ug">úígúr</language>
+			<language type="ug" alt="variant">uyghur</language>
 			<language type="uga">úgarítíska</language>
 			<language type="uk">úkraínska</language>
 			<language type="umb">úmbúndú</language>
@@ -495,7 +498,7 @@
 			<language type="vai">vaí</language>
 			<language type="ve">venda</language>
 			<language type="vi">víetnamska</language>
-			<language type="vo">volapyk</language>
+			<language type="vo" draft="unconfirmed">volapyk</language>
 			<language type="vot">votíska</language>
 			<language type="wa">vallónska</language>
 			<language type="wak">vakasmál</language>
@@ -511,10 +514,10 @@
 			<language type="yi">jiddíska</language>
 			<language type="yo">jórúba</language>
 			<language type="ypk">júpísk mál</language>
-			<language type="yue">kantoneska</language>
+			<language type="yue" draft="unconfirmed">kantoneska</language>
 			<language type="za">súang</language>
 			<language type="zap">sapótek</language>
-			<language type="zbl">blisstákn</language>
+			<language type="zbl" draft="contributed">blisstákn</language>
 			<language type="zen">senaga</language>
 			<language type="zh">kínverska</language>
 			<language type="zh_Hans">kínverska (einfölduð)</language>
@@ -522,139 +525,141 @@
 			<language type="znd">sande</language>
 			<language type="zu">súlú</language>
 			<language type="zun">súní</language>
-			<language type="zxx">ekkert tungutengt efni</language>
-			<language type="zza">zázáíska</language>
+			<language type="zxx" draft="contributed">ekkert tungutengt efni</language>
+			<language type="zza" draft="unconfirmed">zázáíska</language>
 		</languages>
 		<scripts>
-			<script type="Arab">arabísk</script>
-			<script type="Armi">impéríska araméíska</script>
-			<script type="Armn">arméníska</script>
-			<script type="Avst">avestíska</script>
-			<script type="Bali">balinesíska</script>
-			<script type="Batk">batakíska</script>
-			<script type="Beng">bengalíska</script>
-			<script type="Blis">blisstégn</script>
-			<script type="Bopo">bopomofo</script>
-			<script type="Brah">brahmíska</script>
-			<script type="Brai">blindtégn</script>
-			<script type="Bugi">buginesíska</script>
-			<script type="Buhd">buhid</script>
-			<script type="Cakm">chakma</script>
-			<script type="Cans">Cans</script>
-			<script type="Cari">karíska</script>
-			<script type="Cham">chamíska</script>
-			<script type="Cher">cherokí</script>
-			<script type="Cirt">círth</script>
-			<script type="Copt">koptíska</script>
-			<script type="Cprt">kypriotíska</script>
-			<script type="Cyrl">kyrillísk</script>
-			<script type="Deva">dévanágríska</script>
-			<script type="Dsrt">deseret</script>
-			<script type="Ethi">eþíópísk</script>
-			<script type="Geok">georgíska (khutsuri)</script>
-			<script type="Geor">georgrísk</script>
-			<script type="Grek">grísk</script>
-			<script type="Gujr">gujarati</script>
-			<script type="Guru">gurmukhi</script>
+			<script type="Arab" draft="contributed">arabísk</script>
+			<script type="Arab" alt="variant">Persneskt-arabískt</script>
+			<script type="Armi" draft="unconfirmed">impéríska araméíska</script>
+			<script type="Armn">armenska</script>
+			<script type="Avst" draft="unconfirmed">avestíska</script>
+			<script type="Bali" draft="unconfirmed">balinesíska</script>
+			<script type="Batk" draft="unconfirmed">batakíska</script>
+			<script type="Beng">bengalska</script>
+			<script type="Blis" draft="unconfirmed">blisstégn</script>
+			<script type="Bopo">Bopomofo</script>
+			<script type="Brah" draft="unconfirmed">brahmíska</script>
+			<script type="Brai">Blindraletur</script>
+			<script type="Bugi" draft="unconfirmed">buginesíska</script>
+			<script type="Buhd" draft="unconfirmed">buhid</script>
+			<script type="Cakm" draft="unconfirmed">chakma</script>
+			<script type="Cari" draft="unconfirmed">karíska</script>
+			<script type="Cham" draft="unconfirmed">chamíska</script>
+			<script type="Cher" draft="unconfirmed">cherokí</script>
+			<script type="Cirt" draft="unconfirmed">círth</script>
+			<script type="Copt" draft="unconfirmed">koptíska</script>
+			<script type="Cprt" draft="unconfirmed">kypriotíska</script>
+			<script type="Cyrl" draft="contributed">kyrillísk</script>
+			<script type="Deva">Devanagari</script>
+			<script type="Dsrt" draft="unconfirmed">deseret</script>
+			<script type="Ethi" draft="contributed">eþíópísk</script>
+			<script type="Geok" draft="unconfirmed">georgíska (khutsuri)</script>
+			<script type="Geor" draft="contributed">georgrísk</script>
+			<script type="Grek" draft="contributed">grísk</script>
+			<script type="Gujr">Gujarati</script>
+			<script type="Guru">Gurmukhi</script>
 			<script type="Hang">hangul</script>
-			<script type="Hani">kínversk</script>
-			<script type="Hans">einfaldað han</script>
-			<script type="Hant">hefðbundið han</script>
-			<script type="Hebr">hebresk</script>
-			<script type="Hira">hiragana</script>
-			<script type="Hrkt">katakana eða hiragana</script>
-			<script type="Java">javanesíska</script>
-			<script type="Jpan">japönsk</script>
-			<script type="Kali">kayah li</script>
-			<script type="Kana">katakana</script>
-			<script type="Khmr">khmeríska</script>
-			<script type="Knda">kannada</script>
-			<script type="Kore">kórönska</script>
-			<script type="Kthi">kaithíska</script>
-			<script type="Lana">lanna</script>
-			<script type="Laoo">laotíska</script>
-			<script type="Latf">frakturlatnéska</script>
-			<script type="Latg">gaeliklatnéska</script>
-			<script type="Latn">latnesk</script>
-			<script type="Lepc">lepcha</script>
-			<script type="Limb">limbu</script>
-			<script type="Lyci">lykíska</script>
-			<script type="Lydi">lydíska</script>
-			<script type="Mand">mandaíska</script>
-			<script type="Mani">manikeíska</script>
-			<script type="Mero">meroitíska</script>
-			<script type="Mlym">malayalamska</script>
-			<script type="Mong">mongólíska</script>
-			<script type="Moon">moon</script>
-			<script type="Mymr">burmesíska</script>
-			<script type="Nkoo">n-kó</script>
-			<script type="Ogam">ogham</script>
-			<script type="Orkh">orkhon</script>
-			<script type="Orya">oríja</script>
-			<script type="Rjng">rejang</script>
-			<script type="Roro">rongorongo</script>
-			<script type="Runr">rúntégn</script>
-			<script type="Samr">samaríska</script>
-			<script type="Sara">saratí</script>
-			<script type="Shaw">shavíska</script>
-			<script type="Sinh">sinhala</script>
-			<script type="Sund">sundanesíska</script>
-			<script type="Sylo">syloti nagri</script>
-			<script type="Syrc">syriakíska</script>
-			<script type="Tale">tai le</script>
-			<script type="Taml">tamílska</script>
-			<script type="Tavt">tai viet</script>
-			<script type="Telu">telugu</script>
-			<script type="Teng">tengvar</script>
-			<script type="Tfng">tifinagh</script>
-			<script type="Tglg">tagalog</script>
-			<script type="Thaa">thaana</script>
-			<script type="Thai">thai</script>
-			<script type="Tibt">tibetánska</script>
-			<script type="Ugar">ugaritíska</script>
-			<script type="Vaii">vai</script>
-			<script type="Yiii">yí</script>
-			<script type="Zinh">(erfðir)</script>
-			<script type="Zsym">tákn</script>
-			<script type="Zxxx">Óskrifað</script>
-			<script type="Zyyy">(sameiginlegur)</script>
-			<script type="Zzzz">Óþekkt eða ógilt letur</script>
+			<script type="Hani" draft="contributed">kínversk</script>
+			<script type="Hans" draft="contributed">einfaldað han</script>
+			<script type="Hans" alt="stand-alone">Einfaldað han</script>
+			<script type="Hant" draft="contributed">hefðbundið han</script>
+			<script type="Hant" alt="stand-alone">Hefðbundið han</script>
+			<script type="Hebr">hebreska</script>
+			<script type="Hira" draft="contributed">hiragana</script>
+			<script type="Hrkt" draft="contributed">katakana eða hiragana</script>
+			<script type="Java" draft="unconfirmed">javanesíska</script>
+			<script type="Jpan" draft="contributed">japönsk</script>
+			<script type="Kali" draft="unconfirmed">kayah li</script>
+			<script type="Kana" draft="contributed">katakana</script>
+			<script type="Khmr">Khmer</script>
+			<script type="Knda">Kannada</script>
+			<script type="Kore">Kóreska</script>
+			<script type="Kthi" draft="unconfirmed">kaithíska</script>
+			<script type="Lana" draft="unconfirmed">lanna</script>
+			<script type="Laoo">Lao</script>
+			<script type="Latf" draft="unconfirmed">frakturlatnéska</script>
+			<script type="Latg" draft="unconfirmed">gaeliklatnéska</script>
+			<script type="Latn" draft="contributed">latnesk</script>
+			<script type="Lepc" draft="unconfirmed">lepcha</script>
+			<script type="Limb" draft="unconfirmed">limbu</script>
+			<script type="Lyci" draft="unconfirmed">lykíska</script>
+			<script type="Lydi" draft="unconfirmed">lydíska</script>
+			<script type="Mand" draft="unconfirmed">mandaíska</script>
+			<script type="Mani" draft="unconfirmed">manikeíska</script>
+			<script type="Mero" draft="unconfirmed">meroitíska</script>
+			<script type="Mlym">Malayalam</script>
+			<script type="Mong">Mongólska</script>
+			<script type="Moon" draft="unconfirmed">moon</script>
+			<script type="Mymr">Myanmar</script>
+			<script type="Nkoo" draft="unconfirmed">n-kó</script>
+			<script type="Ogam" draft="unconfirmed">ogham</script>
+			<script type="Orkh" draft="unconfirmed">orkhon</script>
+			<script type="Orya">Oriya</script>
+			<script type="Rjng" draft="unconfirmed">rejang</script>
+			<script type="Roro" draft="unconfirmed">rongorongo</script>
+			<script type="Runr" draft="unconfirmed">rúntégn</script>
+			<script type="Samr" draft="unconfirmed">samaríska</script>
+			<script type="Sara" draft="unconfirmed">saratí</script>
+			<script type="Shaw" draft="unconfirmed">shavíska</script>
+			<script type="Sinh">Sinhala</script>
+			<script type="Sund" draft="unconfirmed">sundanesíska</script>
+			<script type="Sylo" draft="unconfirmed">syloti nagri</script>
+			<script type="Syrc" draft="unconfirmed">syriakíska</script>
+			<script type="Tale" draft="unconfirmed">tai le</script>
+			<script type="Taml">Tamíl</script>
+			<script type="Tavt" draft="unconfirmed">tai viet</script>
+			<script type="Telu">Telúgú</script>
+			<script type="Teng" draft="unconfirmed">tengvar</script>
+			<script type="Tfng" draft="unconfirmed">tifinagh</script>
+			<script type="Tglg" draft="unconfirmed">tagalog</script>
+			<script type="Thaa">Thaana</script>
+			<script type="Thai">Tælenska</script>
+			<script type="Tibt">Tíbeska</script>
+			<script type="Ugar" draft="unconfirmed">ugaritíska</script>
+			<script type="Vaii" draft="unconfirmed">vai</script>
+			<script type="Yiii" draft="unconfirmed">yí</script>
+			<script type="Zinh" draft="unconfirmed">(erfðir)</script>
+			<script type="Zsym">Tákn</script>
+			<script type="Zxxx" draft="contributed">Óskrifað</script>
+			<script type="Zyyy">Almennt</script>
+			<script type="Zzzz" draft="contributed">Óþekkt eða ógilt letur</script>
 		</scripts>
 		<territories>
-			<territory type="001">heimur</territory>
-			<territory type="002">Afríka</territory>
-			<territory type="003">Norður-Ameríka</territory>
-			<territory type="005">Suður-Ameríka</territory>
-			<territory type="009">Eyjaálfa</territory>
-			<territory type="011">Vestur-Afríka</territory>
-			<territory type="013">Mið-Ameríka</territory>
-			<territory type="014">Austur-Afríka</territory>
-			<territory type="015">Norður-Afríka</territory>
-			<territory type="017">Mið-Afríka</territory>
-			<territory type="018">Suðurhluti Afríku</territory>
-			<territory type="019">Ameríka</territory>
-			<territory type="021">Ameríka norðan Mexikó</territory>
-			<territory type="029">Karíbahaf</territory>
-			<territory type="030">Austur-Asía</territory>
-			<territory type="034">suðurhluti Asíu</territory>
-			<territory type="035">Suðaustur-Asía</territory>
-			<territory type="039">Suður-Evrópa</territory>
-			<territory type="053">Ástralía og Nýja-Sjáland</territory>
-			<territory type="054">Melanesía</territory>
-			<territory type="057">Míkrónesía</territory>
-			<territory type="061">Pólýnesía</territory>
-			<territory type="062">Syðri-Mið-Asía</territory>
-			<territory type="142">Asía</territory>
-			<territory type="143">Mið-Asía</territory>
-			<territory type="145">vestur-Asía</territory>
-			<territory type="150">Evrópa</territory>
-			<territory type="151">Austur-Evrópa</territory>
-			<territory type="154">Norður-Evrópa</territory>
-			<territory type="155">vestur-Evrópa</territory>
-			<territory type="172">Samveldi sjálfstæðra ríkja</territory>
-			<territory type="419">Latín-Ameríka og Karíbahaf</territory>
-			<territory type="830">Ermasundseyjar</territory>
-			<territory type="AC">Ascension</territory>
+			<territory type="001" draft="contributed">heimur</territory>
+			<territory type="002" draft="contributed">Afríka</territory>
+			<territory type="003" draft="contributed">Norður-Ameríka</territory>
+			<territory type="005" draft="contributed">Suður-Ameríka</territory>
+			<territory type="009" draft="contributed">Eyjaálfa</territory>
+			<territory type="011" draft="contributed">Vestur-Afríka</territory>
+			<territory type="013" draft="contributed">Mið-Ameríka</territory>
+			<territory type="014" draft="contributed">Austur-Afríka</territory>
+			<territory type="015" draft="contributed">Norður-Afríka</territory>
+			<territory type="017" draft="contributed">Mið-Afríka</territory>
+			<territory type="018" draft="contributed">Suðurhluti Afríku</territory>
+			<territory type="019" draft="contributed">Ameríka</territory>
+			<territory type="021" draft="contributed">Ameríka norðan Mexikó</territory>
+			<territory type="029">Karabíska hafið</territory>
+			<territory type="030" draft="contributed">Austur-Asía</territory>
+			<territory type="034" draft="contributed">suðurhluti Asíu</territory>
+			<territory type="035" draft="contributed">Suðaustur-Asía</territory>
+			<territory type="039" draft="contributed">Suður-Evrópa</territory>
+			<territory type="053" draft="contributed">Ástralía og Nýja-Sjáland</territory>
+			<territory type="054" draft="contributed">Melanesía</territory>
+			<territory type="057" draft="contributed">Míkrónesía</territory>
+			<territory type="061" draft="contributed">Pólýnesía</territory>
+			<territory type="062" draft="contributed">Syðri-Mið-Asía</territory>
+			<territory type="142" draft="contributed">Asía</territory>
+			<territory type="143" draft="contributed">Mið-Asía</territory>
+			<territory type="145">Vestur-Asía</territory>
+			<territory type="150" draft="contributed">Evrópa</territory>
+			<territory type="151" draft="contributed">Austur-Evrópa</territory>
+			<territory type="154" draft="contributed">Norður-Evrópa</territory>
+			<territory type="155">Vestur-Evrópa</territory>
+			<territory type="172" draft="contributed">Samveldi sjálfstæðra ríkja</territory>
+			<territory type="419" draft="contributed">Latín-Ameríka</territory>
+			<territory type="830" draft="contributed">Ermasundseyjar</territory>
+			<territory type="AC">Ascension-eyja</territory>
 			<territory type="AD">Andorra</territory>
 			<territory type="AE">Sameinuðu arabísku furstadæmin</territory>
 			<territory type="AF">Afganistan</territory>
@@ -670,7 +675,7 @@
 			<territory type="AT">Austurríki</territory>
 			<territory type="AU">Ástralía</territory>
 			<territory type="AW">Arúba</territory>
-			<territory type="AX">Álandseyjar</territory>
+			<territory type="AX" draft="contributed">Álandseyjar</territory>
 			<territory type="AZ">Aserbaídsjan</territory>
 			<territory type="BA">Bosnía og Hersegóvína</territory>
 			<territory type="BB">Barbados</territory>
@@ -681,7 +686,7 @@
 			<territory type="BH">Barein</territory>
 			<territory type="BI">Búrúndí</territory>
 			<territory type="BJ">Benín</territory>
-			<territory type="BL">Sankti Barthélemy</territory>
+			<territory type="BL">Saint Barthélemy</territory>
 			<territory type="BM">Bermúdaeyjar</territory>
 			<territory type="BN">Brúnei</territory>
 			<territory type="BO">Bólivía</territory>
@@ -695,21 +700,21 @@
 			<territory type="CA">Kanada</territory>
 			<territory type="CC">Kókoseyjar</territory>
 			<territory type="CD">Austur-Kongó</territory>
-			<territory type="CD" alt="variant">Kongó-Kinshasa</territory>
+			<territory type="CD" alt="variant">Kongó [lýðræðislega lýðveldið]</territory>
 			<territory type="CF">Mið-Afríkulýðveldið</territory>
 			<territory type="CG">Vestur-Kongó</territory>
-			<territory type="CG" alt="variant">Kongó-Brazzaville</territory>
+			<territory type="CG" alt="variant">Kóngó [lýðveldið]</territory>
 			<territory type="CH">Sviss</territory>
 			<territory type="CI">Fílabeinsströndin</territory>
 			<territory type="CI" alt="variant">Fílabeinsströndin</territory>
 			<territory type="CK">Cookseyjar</territory>
-			<territory type="CL">Chíle</territory>
+			<territory type="CL" draft="contributed">Chíle</territory>
 			<territory type="CM">Kamerún</territory>
 			<territory type="CN">Kína</territory>
 			<territory type="CO">Kólumbía</territory>
-			<territory type="CP">Clipperton</territory>
+			<territory type="CP">Clipperton-eyja</territory>
 			<territory type="CR">Kostaríka</territory>
-			<territory type="CS">Serbía og Svartfjallaland</territory>
+			<territory type="CS" draft="contributed">Serbía og Svartfjallaland</territory>
 			<territory type="CU">Kúba</territory>
 			<territory type="CV">Grænhöfðaeyjar</territory>
 			<territory type="CX">Jólaey</territory>
@@ -730,11 +735,11 @@
 			<territory type="ER">Erítrea</territory>
 			<territory type="ES">Spánn</territory>
 			<territory type="ET">Eþíópía</territory>
-			<territory type="EU">Evrópusambandið</territory>
+			<territory type="EU" draft="contributed">Evrópusambandið</territory>
 			<territory type="FI">Finnland</territory>
 			<territory type="FJ">Fídjieyjar</territory>
 			<territory type="FK">Falklandseyjar</territory>
-			<territory type="FK" alt="variant">Falklandseyjar</territory>
+			<territory type="FK" alt="variant">Falklandseyjar [Islas Malvinas]</territory>
 			<territory type="FM">Mikrónesía</territory>
 			<territory type="FO">Færeyjar</territory>
 			<territory type="FR">Frakkland</territory>
@@ -743,7 +748,7 @@
 			<territory type="GD">Grenada</territory>
 			<territory type="GE">Georgía</territory>
 			<territory type="GF">Franska Gvæjana</territory>
-			<territory type="GG">Guernsey</territory>
+			<territory type="GG" draft="contributed">Guernsey</territory>
 			<territory type="GH">Gana</territory>
 			<territory type="GI">Gíbraltar</territory>
 			<territory type="GL">Grænland</territory>
@@ -758,7 +763,7 @@
 			<territory type="GW">Gínea-Bissá</territory>
 			<territory type="GY">Gvæjana</territory>
 			<territory type="HK">Hong Kong</territory>
-			<territory type="HK" alt="short">Hong Kong</territory>
+			<territory type="HK" alt="short" draft="contributed">Hong Kong</territory>
 			<territory type="HM">Heard og McDonaldseyjar</territory>
 			<territory type="HN">Hondúras</territory>
 			<territory type="HR">Króatía</territory>
@@ -768,14 +773,14 @@
 			<territory type="ID">Indónesía</territory>
 			<territory type="IE">Írland</territory>
 			<territory type="IL">Ísrael</territory>
-			<territory type="IM">Mön</territory>
+			<territory type="IM" draft="contributed">Mön</territory>
 			<territory type="IN">Indland</territory>
 			<territory type="IO">Bresku Indlandshafseyjar</territory>
 			<territory type="IQ">Írak</territory>
 			<territory type="IR">Íran</territory>
 			<territory type="IS">Ísland</territory>
 			<territory type="IT">Ítalía</territory>
-			<territory type="JE">Jersey</territory>
+			<territory type="JE" draft="contributed">Jersey</territory>
 			<territory type="JM">Jamaíka</territory>
 			<territory type="JO">Jórdanía</territory>
 			<territory type="JP">Japan</territory>
@@ -804,17 +809,17 @@
 			<territory type="MA">Marokkó</territory>
 			<territory type="MC">Mónakó</territory>
 			<territory type="MD">Moldóva</territory>
-			<territory type="ME">Svartfjallaland</territory>
-			<territory type="MF">Sankti Martin</territory>
+			<territory type="ME" draft="contributed">Svartfjallaland</territory>
+			<territory type="MF">Saint Martin</territory>
 			<territory type="MG">Madagaskar</territory>
 			<territory type="MH">Marshalleyjar</territory>
 			<territory type="MK">Makedónía</territory>
-			<territory type="MK" alt="variant">Makedónía</territory>
+			<territory type="MK" alt="variant">Makedónía [Fyrrum júgóslavneska lýðveldið Makedónía]</territory>
 			<territory type="ML">Malí</territory>
 			<territory type="MM">Mjanmar</territory>
 			<territory type="MN">Mongólía</territory>
 			<territory type="MO">Makaó</territory>
-			<territory type="MO" alt="short">Makáo</territory>
+			<territory type="MO" alt="short">Macau</territory>
 			<territory type="MP">Norður-Maríanaeyjar</territory>
 			<territory type="MQ">Martiník</territory>
 			<territory type="MR">Máritanía</territory>
@@ -839,7 +844,7 @@
 			<territory type="NU">Niue</territory>
 			<territory type="NZ">Nýja-Sjáland</territory>
 			<territory type="OM">Óman</territory>
-			<territory type="PA">Panama</territory>
+			<territory type="PA" draft="contributed">Panama</territory>
 			<territory type="PE">Perú</territory>
 			<territory type="PF">Franska Pólýnesía</territory>
 			<territory type="PG">Papúa Nýja-Gínea</territory>
@@ -854,10 +859,10 @@
 			<territory type="PW">Palá</territory>
 			<territory type="PY">Paragvæ</territory>
 			<territory type="QA">Katar</territory>
-			<territory type="QO">Ytri Eyjaálfa</territory>
+			<territory type="QO" draft="contributed">Ytri Eyjaálfa</territory>
 			<territory type="RE">Réunion</territory>
 			<territory type="RO">Rúmenía</territory>
-			<territory type="RS">Serbía</territory>
+			<territory type="RS" draft="contributed">Serbía</territory>
 			<territory type="RU">Rússland</territory>
 			<territory type="RW">Rúanda</territory>
 			<territory type="SA">Sádi-Arabía</territory>
@@ -906,8 +911,8 @@
 			<territory type="VA">Páfagarður</territory>
 			<territory type="VC">Sankti Vinsent og Grenadíneyjar</territory>
 			<territory type="VE">Venesúela</territory>
-			<territory type="VG">Jómfrúaeyjar (bresku)</territory>
-			<territory type="VI">Jómfrúaeyjar (bandarísku)</territory>
+			<territory type="VG">Bresku Jómfrúaeyjar</territory>
+			<territory type="VI">Bandarísku Jómfrúaeyjar</territory>
 			<territory type="VN">Víetnam</territory>
 			<territory type="VU">Vanúatú</territory>
 			<territory type="WF">Wallis- og Fútúnaeyjar</territory>
@@ -917,48 +922,102 @@
 			<territory type="ZA">Suður-Afríka</territory>
 			<territory type="ZM">Sambía</territory>
 			<territory type="ZW">Simbabve</territory>
-			<territory type="ZZ">Óþekkt eða ógilt svæði</territory>
+			<territory type="ZZ" draft="contributed">Óþekkt eða ógilt svæði</territory>
 		</territories>
 		<variants>
-			<variant type="MONOTON">monotonísk</variant>
-			<variant type="PINYIN">pinyin</variant>
-			<variant type="POLYTON">polytonísk</variant>
-			<variant type="WADEGILE">Wade-Giles</variant>
+			<variant type="MONOTON" draft="unconfirmed">monotonísk</variant>
+			<variant type="PINYIN" draft="unconfirmed">pinyin</variant>
+			<variant type="POLYTON" draft="unconfirmed">polytonísk</variant>
+			<variant type="WADEGILE" draft="unconfirmed">Wade-Giles</variant>
 		</variants>
 		<keys>
 			<key type="calendar">Dagatal</key>
 			<key type="collation">Röðun</key>
 			<key type="currency">Gjaldmiðill</key>
+			<key type="numbers">Tölur</key>
+			<key type="x">Einkanotkun</key>
 		</keys>
 		<types>
-			<type type="big5han" key="collation">hefðbundin kínversk röðun - Big5</type>
+			<type type="arab" key="numbers">Arabískar-indverskar tölur</type>
+			<type type="arabext" key="numbers">Auknar arabískar-indverskar tölur</type>
+			<type type="armn" key="numbers">Armenskir tölustafir</type>
+			<type type="armnlow" key="numbers">Armenskar lágstafatölur</type>
+			<type type="beng" key="numbers">Bengalskar tölur</type>
+			<type type="big5han" key="collation" draft="contributed">hefðbundin kínversk röðun - Big5</type>
 			<type type="buddhist" key="calendar">Búddískt dagatal</type>
 			<type type="chinese" key="calendar">Kínverskt dagatal</type>
+			<type type="coptic" key="calendar">Koptískt tímatal</type>
+			<type type="deva" key="numbers">Tölur í devanagari</type>
+			<type type="dictionary" key="collation">Orðabókarröð</type>
 			<type type="direct" key="collation">Bein röðun</type>
-			<type type="ethiopic" key="calendar">etiopiskt dagatal</type>
-			<type type="ethiopic-amete-alem" key="calendar">etiopiskt amete-alem-dagatal</type>
-			<type type="gb2312han" key="collation">einfölduð kínversk röðun - GB2312</type>
+			<type type="ducet" key="collation">Sjálfgefin Unicode-röð</type>
+			<type type="ethi" key="numbers">Eþíópískir tölustafir</type>
+			<type type="ethiopic" key="calendar">Eþíópískt tímatal</type>
+			<type type="ethiopic-amete-alem" key="calendar">Eþíópískt 'amete alem' tímatal</type>
+			<type type="fullwide" key="numbers">Tölur með fullri breidd</type>
+			<type type="gb2312han" key="collation" draft="contributed">einfölduð kínversk röðun - GB2312</type>
+			<type type="geor" key="numbers">Tölustafir í georgísku</type>
 			<type type="gregorian" key="calendar">Gregorískt dagatal</type>
+			<type type="grek" key="numbers">Grískir tölustafir</type>
+			<type type="greklow" key="numbers">Grískar lágstafatölur</type>
+			<type type="gujr" key="numbers">Tölur í gujarati</type>
+			<type type="guru" key="numbers">Tölur í gurmukhi</type>
+			<type type="hanidec" key="numbers">Kínverskir tugatölustafir</type>
+			<type type="hans" key="numbers">Einfaldaðir kínverskir tölustafir</type>
+			<type type="hansfin" key="numbers">Einfaldaðar kínverskar fjármálatölur</type>
+			<type type="hant" key="numbers">Hefðbundnir kínverskir tölustafir</type>
+			<type type="hantfin" key="numbers">Hefðbundnar kínverskar fjármálatölur</type>
+			<type type="hebr" key="numbers">Hebreskir tölustafir</type>
 			<type type="hebrew" key="calendar">Hebreskt dagatal</type>
-			<type type="indian" key="calendar">indverskt dagatal</type>
+			<type type="indian" key="calendar" draft="contributed">indverskt dagatal</type>
 			<type type="islamic" key="calendar">Íslamskt dagatal</type>
 			<type type="islamic-civil" key="calendar">Íslamskt borgaradagatal</type>
 			<type type="japanese" key="calendar">Japanskt dagatal</type>
-			<type type="persian" key="calendar">persiskt dagatal</type>
+			<type type="jpan" key="numbers">Japanskir tölustafir</type>
+			<type type="jpanfin" key="numbers">Japanskar fjármálatölur</type>
+			<type type="khmr" key="numbers">Tölur í khmer</type>
+			<type type="knda" key="numbers">Tölur í kannada</type>
+			<type type="laoo" key="numbers">Tölur í lao</type>
+			<type type="latn" key="numbers">Vestrænar tölur</type>
+			<type type="mlym" key="numbers">Tölur í malayalam</type>
+			<type type="mong" key="numbers">Mongólskar tölur</type>
+			<type type="mymr" key="numbers">Tölur í myanmar</type>
+			<type type="orya" key="numbers">Tölur í oriya</type>
+			<type type="persian" key="calendar">Persneskt tímatal</type>
 			<type type="phonebook" key="collation">Símaskráarröðun</type>
 			<type type="pinyin" key="collation">Pinyin-röðun</type>
-			<type type="roc" key="calendar">kínverskt dagatal</type>
+			<type type="reformed" key="collation">Endurbætt röð</type>
+			<type type="roc" key="calendar" draft="contributed">kínverskt dagatal</type>
+			<type type="roman" key="numbers">Rómverskir tölustafir</type>
+			<type type="romanlow" key="numbers">Rómverkar lágstafatölur</type>
+			<type type="search" key="collation">Almenn leit</type>
 			<type type="stroke" key="collation">Strikaröðun</type>
+			<type type="taml" key="numbers">Tamílskir tölustafir</type>
+			<type type="telu" key="numbers">Tölur í telúgú</type>
+			<type type="thai" key="numbers">Tælenskar tölur</type>
+			<type type="tibt" key="numbers">Tíbeskir tölustafir</type>
 			<type type="traditional" key="collation">Hefðbundin</type>
+			<type type="unihan" key="collation">Röðun eftir grunnstrikum</type>
 		</types>
+		<transformNames>
+			<transformName type="Numeric">Tölulegur</transformName>
+			<transformName type="Tone">Tónn</transformName>
+			<transformName type="x-Accents">Áherslur</transformName>
+			<transformName type="x-Fullwidth">Full breidd</transformName>
+			<transformName type="x-Halfwidth">Hálf breidd</transformName>
+			<transformName type="x-Jamo">Jamo</transformName>
+			<transformName type="x-Pinyin">Pinyin</transformName>
+			<transformName type="x-Publishing">Birting</transformName>
+		</transformNames>
 		<measurementSystemNames>
-			<measurementSystemName type="metric">metrakerfi</measurementSystemName>
-			<measurementSystemName type="US">bandarískt</measurementSystemName>
+			<measurementSystemName type="metric" draft="contributed">metrakerfi</measurementSystemName>
+			<measurementSystemName type="UK">Bretland</measurementSystemName>
+			<measurementSystemName type="US" draft="contributed">bandarískt</measurementSystemName>
 		</measurementSystemNames>
 		<codePatterns>
-			<codePattern type="language">tungumál: {0}</codePattern>
-			<codePattern type="script">leturgerð: {0}</codePattern>
-			<codePattern type="territory">svæði: {0}</codePattern>
+			<codePattern type="language" draft="contributed">tungumál: {0}</codePattern>
+			<codePattern type="script" draft="contributed">leturgerð: {0}</codePattern>
+			<codePattern type="territory" draft="contributed">svæði: {0}</codePattern>
 		</codePatterns>
 	</localeDisplayNames>
 	<layout>
@@ -967,17 +1026,20 @@
 	<characters>
 		<exemplarCharacters>[a á b d ð e é f g h i í j k l m n o ó p r s t u ú v y ý þ æ ö]</exemplarCharacters>
 		<exemplarCharacters type="auxiliary">[c q w x z]</exemplarCharacters>
-		<exemplarCharacters type="currencySymbol">[a b c d e f g h i j k l m n o p q r s t u v w x y z]</exemplarCharacters>
-		<exemplarCharacters type="index">[A Á B C D Ð E É F G H I Í J K L M N O Ó P Q R S T U Ú V W X Y Ý Z Þ Æ Ö]</exemplarCharacters>
+		<exemplarCharacters type="currencySymbol" draft="contributed">[a b c d e f g h i j k l m n o p q r s t u v w x y z]</exemplarCharacters>
+		<exemplarCharacters type="index" draft="contributed">[A Á B C D Ð E É F G H I Í J K L M N O Ó P Q R S T U Ú V W X Y Ý Z Þ Æ Ö]</exemplarCharacters>
+		<stopwords>
+			<stopwordList type="collation" draft="provisional">hinn, hin, hið</stopwordList>
+		</stopwords>
 	</characters>
 	<delimiters>
-		<quotationStart>„</quotationStart>
-		<quotationEnd>“</quotationEnd>
-		<alternateQuotationStart>‚</alternateQuotationStart>
-		<alternateQuotationEnd>‘</alternateQuotationEnd>
+		<quotationStart draft="contributed">„</quotationStart>
+		<quotationEnd draft="contributed">“</quotationEnd>
+		<alternateQuotationStart draft="contributed">‚</alternateQuotationStart>
+		<alternateQuotationEnd draft="contributed">‘</alternateQuotationEnd>
 	</delimiters>
 	<dates>
-		<dateRangePattern>{0}–{1}</dateRangePattern>
+		<dateRangePattern draft="unconfirmed">{0}–{1}</dateRangePattern>
 		<calendars>
 			<calendar type="gregorian">
 				<months>
@@ -1005,7 +1067,7 @@
 							<month type="6">J</month>
 							<month type="7">J</month>
 							<month type="8">Á</month>
-							<month type="9">S</month>
+							<month type="9">L</month>
 							<month type="10">O</month>
 							<month type="11">N</month>
 							<month type="12">D</month>
@@ -1092,6 +1154,12 @@
 							<quarter type="3">F3</quarter>
 							<quarter type="4">F4</quarter>
 						</quarterWidth>
+						<quarterWidth type="narrow">
+							<quarter type="1">1</quarter>
+							<quarter type="2">2</quarter>
+							<quarter type="3">3</quarter>
+							<quarter type="4">4</quarter>
+						</quarterWidth>
 						<quarterWidth type="wide">
 							<quarter type="1">1st fjórðungur</quarter>
 							<quarter type="2">2nd fjórðungur</quarter>
@@ -1101,45 +1169,45 @@
 					</quarterContext>
 					<quarterContext type="stand-alone">
 						<quarterWidth type="abbreviated">
-							<quarter type="1">1F</quarter>
-							<quarter type="2">2F</quarter>
-							<quarter type="3">3F</quarter>
-							<quarter type="4">4F</quarter>
+							<quarter type="1" draft="contributed">1F</quarter>
+							<quarter type="2" draft="contributed">2F</quarter>
+							<quarter type="3" draft="contributed">3F</quarter>
+							<quarter type="4" draft="contributed">4F</quarter>
 						</quarterWidth>
 						<quarterWidth type="wide">
-							<quarter type="1">1. fjórðungur</quarter>
-							<quarter type="2">2. fjórðungur</quarter>
-							<quarter type="3">3. fjórðungur</quarter>
-							<quarter type="4">4. fjórðungur</quarter>
+							<quarter type="1" draft="contributed">1. fjórðungur</quarter>
+							<quarter type="2" draft="contributed">2. fjórðungur</quarter>
+							<quarter type="3" draft="contributed">3. fjórðungur</quarter>
+							<quarter type="4" draft="contributed">4. fjórðungur</quarter>
 						</quarterWidth>
 					</quarterContext>
 				</quarters>
 				<dayPeriods>
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="wide">
-							<dayPeriod type="am">f.h.</dayPeriod>
-							<dayPeriod type="pm">e.h.</dayPeriod>
+							<dayPeriod type="am" draft="contributed">f.h.</dayPeriod>
+							<dayPeriod type="pm" draft="contributed">e.h.</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="wide">
-							<dayPeriod type="am">árdegi</dayPeriod>
-							<dayPeriod type="pm">síðdegi</dayPeriod>
+							<dayPeriod type="am" draft="unconfirmed">árdegi</dayPeriod>
+							<dayPeriod type="pm" draft="unconfirmed">síðdegi</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 				</dayPeriods>
 				<eras>
 					<eraNames>
-						<era type="0">fyrir Krist</era>
-						<era type="1">eftir Krist</era>
+						<era type="0" draft="unconfirmed">fyrir Krist</era>
+						<era type="1" draft="unconfirmed">eftir Krist</era>
 					</eraNames>
 					<eraAbbr>
-						<era type="0">fyrir Krist</era>
-						<era type="1">eftir Krist</era>
+						<era type="0" draft="contributed">fyrir Krist</era>
+						<era type="1" draft="contributed">eftir Krist</era>
 					</eraAbbr>
 					<eraNarrow>
-						<era type="0">f.k.</era>
-						<era type="1">e.k.</era>
+						<era type="0" draft="contributed">f.k.</era>
+						<era type="1" draft="contributed">e.k.</era>
 					</eraNarrow>
 				</eras>
 				<dateFormats>
@@ -1167,246 +1235,262 @@
 				<timeFormats>
 					<timeFormatLength type="full">
 						<timeFormat>
-							<pattern>HH:mm:ss zzzz</pattern>
+							<pattern draft="contributed">HH:mm:ss zzzz</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="long">
 						<timeFormat>
-							<pattern>HH:mm:ss z</pattern>
+							<pattern draft="contributed">HH:mm:ss z</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="medium">
 						<timeFormat>
-							<pattern>HH:mm:ss</pattern>
+							<pattern draft="contributed">HH:mm:ss</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="short">
 						<timeFormat>
-							<pattern>HH:mm</pattern>
+							<pattern draft="contributed">HH:mm</pattern>
 						</timeFormat>
 					</timeFormatLength>
 				</timeFormats>
 				<dateTimeFormats>
 					<availableFormats>
-						<dateFormatItem id="d">d</dateFormatItem>
-						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
-						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
-						<dateFormatItem id="M">L.</dateFormatItem>
-						<dateFormatItem id="Md">d.M</dateFormatItem>
-						<dateFormatItem id="MEd">E d.M.</dateFormatItem>
-						<dateFormatItem id="MMM">LLL</dateFormatItem>
-						<dateFormatItem id="MMMd">d. MMM</dateFormatItem>
-						<dateFormatItem id="MMMEd">E d. MMM</dateFormatItem>
-						<dateFormatItem id="MMMMd">d. MMMM</dateFormatItem>
-						<dateFormatItem id="MMMMEd">E d. MMMM</dateFormatItem>
-						<dateFormatItem id="ms">mm:ss</dateFormatItem>
-						<dateFormatItem id="y">y</dateFormatItem>
-						<dateFormatItem id="yM">M. yyyy</dateFormatItem>
-						<dateFormatItem id="yMEd">EEE d.M.yyyy</dateFormatItem>
-						<dateFormatItem id="yMMM">MMM y</dateFormatItem>
-						<dateFormatItem id="yMMMEd">EEE d. MMM y</dateFormatItem>
-						<dateFormatItem id="yMMMM">MMMM y</dateFormatItem>
-						<dateFormatItem id="yQ">Q. yyyy</dateFormatItem>
-						<dateFormatItem id="yQQQ">QQQ y</dateFormatItem>
-						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
-						<dateFormatItem id="yyyyM">M.yyyy</dateFormatItem>
-						<dateFormatItem id="yyyyMMMM">MMMM y</dateFormatItem>
+						<dateFormatItem id="d" draft="contributed">d</dateFormatItem>
+						<dateFormatItem id="EEEd">EEE d</dateFormatItem>
+						<dateFormatItem id="h">h a</dateFormatItem>
+						<dateFormatItem id="hm">h:mm a</dateFormatItem>
+						<dateFormatItem id="Hm" draft="contributed">HH:mm</dateFormatItem>
+						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
+						<dateFormatItem id="Hms" draft="contributed">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="M" draft="contributed">L.</dateFormatItem>
+						<dateFormatItem id="Md" draft="contributed">d.M</dateFormatItem>
+						<dateFormatItem id="MEd" draft="contributed">E d.M.</dateFormatItem>
+						<dateFormatItem id="MMM" draft="contributed">LLL</dateFormatItem>
+						<dateFormatItem id="MMMd" draft="contributed">d. MMM</dateFormatItem>
+						<dateFormatItem id="MMMEd" draft="contributed">E d. MMM</dateFormatItem>
+						<dateFormatItem id="MMMMd" draft="contributed">d. MMMM</dateFormatItem>
+						<dateFormatItem id="MMMMEd" draft="contributed">E d. MMMM</dateFormatItem>
+						<dateFormatItem id="ms" draft="contributed">mm:ss</dateFormatItem>
+						<dateFormatItem id="y" draft="contributed">y</dateFormatItem>
+						<dateFormatItem id="yM" draft="contributed">M. yyyy</dateFormatItem>
+						<dateFormatItem id="yMd">d/M/y</dateFormatItem>
+						<dateFormatItem id="yMEd" draft="contributed">EEE d.M.yyyy</dateFormatItem>
+						<dateFormatItem id="yMMM" draft="contributed">MMM y</dateFormatItem>
+						<dateFormatItem id="yMMMd">d MMM, y</dateFormatItem>
+						<dateFormatItem id="yMMMEd" draft="contributed">EEE d. MMM y</dateFormatItem>
+						<dateFormatItem id="yMMMM" draft="contributed">MMMM y</dateFormatItem>
+						<dateFormatItem id="yQ" draft="contributed">Q. yyyy</dateFormatItem>
+						<dateFormatItem id="yQQQ" draft="contributed">QQQ y</dateFormatItem>
+						<dateFormatItem id="yyQ" draft="contributed">Q yy</dateFormatItem>
+						<dateFormatItem id="yyyyM" draft="contributed">M.yyyy</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM" draft="contributed">MMMM y</dateFormatItem>
 					</availableFormats>
 					<intervalFormats>
-						<intervalFormatFallback>{0} - {1}</intervalFormatFallback>
+						<intervalFormatFallback draft="contributed">{0} - {1}</intervalFormatFallback>
 						<intervalFormatItem id="d">
-							<greatestDifference id="d">d-d</greatestDifference>
+							<greatestDifference id="d">d–d</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="h">
-							<greatestDifference id="h">h-h a</greatestDifference>
+							<greatestDifference id="a">h a – h a</greatestDifference>
+							<greatestDifference id="h">h–h a</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hm">
 							<greatestDifference id="a">h:mm a – h:mm a</greatestDifference>
-							<greatestDifference id="h">h:mm-h:mm a</greatestDifference>
-							<greatestDifference id="m">h:mm-h:mm a</greatestDifference>
+							<greatestDifference id="h" draft="contributed">h:mm-h:mm a</greatestDifference>
+							<greatestDifference id="m" draft="contributed">h:mm-h:mm a</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hm">
-							<greatestDifference id="H">HH:mm-HH:mm</greatestDifference>
-							<greatestDifference id="m">HH:mm-HH:mm</greatestDifference>
+							<greatestDifference id="H" draft="contributed">HH:mm-HH:mm</greatestDifference>
+							<greatestDifference id="m" draft="contributed">HH:mm-HH:mm</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hmv">
 							<greatestDifference id="a">h:mm a – h:mm a v</greatestDifference>
-							<greatestDifference id="h">h:mm-h:mm a v</greatestDifference>
-							<greatestDifference id="m">h:mm-h:mm a v</greatestDifference>
+							<greatestDifference id="h" draft="contributed">h:mm-h:mm a v</greatestDifference>
+							<greatestDifference id="m" draft="contributed">h:mm-h:mm a v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hmv">
-							<greatestDifference id="H">HH:mm-HH:mm v</greatestDifference>
-							<greatestDifference id="m">HH:mm-HH:mm v</greatestDifference>
+							<greatestDifference id="H" draft="contributed">HH:mm-HH:mm v</greatestDifference>
+							<greatestDifference id="m" draft="contributed">HH:mm-HH:mm v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hv">
 							<greatestDifference id="a">h a – h a v</greatestDifference>
-							<greatestDifference id="h">h-h a v</greatestDifference>
+							<greatestDifference id="h" draft="contributed">h-h a v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hv">
-							<greatestDifference id="H">HH-HH v</greatestDifference>
+							<greatestDifference id="H" draft="contributed">HH-HH v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="M">
-							<greatestDifference id="M">M-M</greatestDifference>
+							<greatestDifference id="M" draft="contributed">M-M</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Md">
-							<greatestDifference id="d">d.M - d.M</greatestDifference>
-							<greatestDifference id="M">d.M - d.M</greatestDifference>
+							<greatestDifference id="d" draft="contributed">d.M - d.M</greatestDifference>
+							<greatestDifference id="M" draft="contributed">d.M - d.M</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MEd">
-							<greatestDifference id="d">E, d.M - E, d.M</greatestDifference>
-							<greatestDifference id="M">E, d.M - E, d.M</greatestDifference>
+							<greatestDifference id="d" draft="contributed">E, d.M - E, d.M</greatestDifference>
+							<greatestDifference id="M" draft="contributed">E, d.M - E, d.M</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMM">
-							<greatestDifference id="M">MMM-MMM</greatestDifference>
+							<greatestDifference id="M" draft="contributed">MMM-MMM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMMd">
-							<greatestDifference id="d">d.-d. MMM</greatestDifference>
-							<greatestDifference id="M">d. MMM - d. MMM</greatestDifference>
+							<greatestDifference id="d" draft="contributed">d.-d. MMM</greatestDifference>
+							<greatestDifference id="M" draft="contributed">d. MMM - d. MMM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMMEd">
-							<greatestDifference id="d">E, d. - E, d. MMM</greatestDifference>
-							<greatestDifference id="M">E, d. MMM - E, d. MMM</greatestDifference>
+							<greatestDifference id="d" draft="contributed">E, d. - E, d. MMM</greatestDifference>
+							<greatestDifference id="M" draft="contributed">E, d. MMM - E, d. MMM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMMM">
-							<greatestDifference id="M">LLLL–LLLL</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">LLLL–LLLL</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="y">
-							<greatestDifference id="y">y-y</greatestDifference>
+							<greatestDifference id="y" draft="contributed">y-y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yM">
-							<greatestDifference id="M">M.yyyy - M.yyyy</greatestDifference>
-							<greatestDifference id="y">M.yyyy - M.yyyy</greatestDifference>
+							<greatestDifference id="M" draft="contributed">M.yyyy - M.yyyy</greatestDifference>
+							<greatestDifference id="y" draft="contributed">M.yyyy - M.yyyy</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMd">
-							<greatestDifference id="d">d.M.yyyy - d.M.yyyy</greatestDifference>
-							<greatestDifference id="M">d.M.yyyy - d.M.yyyy</greatestDifference>
-							<greatestDifference id="y">d.M.yyyy - d.M.yyyy</greatestDifference>
+							<greatestDifference id="d" draft="contributed">d.M.yyyy - d.M.yyyy</greatestDifference>
+							<greatestDifference id="M" draft="contributed">d.M.yyyy - d.M.yyyy</greatestDifference>
+							<greatestDifference id="y" draft="contributed">d.M.yyyy - d.M.yyyy</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMEd">
-							<greatestDifference id="d">E, d.M.yyyy - E, d.M.yyyy</greatestDifference>
-							<greatestDifference id="M">E, d.M.yyyy - E, d.M.yyyy</greatestDifference>
-							<greatestDifference id="y">E, d.M.yyyy - E, d.M.yyyy</greatestDifference>
+							<greatestDifference id="d" draft="contributed">E, d.M.yyyy - E, d.M.yyyy</greatestDifference>
+							<greatestDifference id="M" draft="contributed">E, d.M.yyyy - E, d.M.yyyy</greatestDifference>
+							<greatestDifference id="y" draft="contributed">E, d.M.yyyy - E, d.M.yyyy</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMM">
-							<greatestDifference id="M">MMM-MMM y</greatestDifference>
-							<greatestDifference id="y">MMM y - MMM y</greatestDifference>
+							<greatestDifference id="M" draft="contributed">MMM-MMM y</greatestDifference>
+							<greatestDifference id="y" draft="contributed">MMM y - MMM y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMd">
-							<greatestDifference id="d">d.-d. MMM y</greatestDifference>
-							<greatestDifference id="M">d. MMM - d. MMM y</greatestDifference>
-							<greatestDifference id="y">d. MMM y - d. MMM y</greatestDifference>
+							<greatestDifference id="d" draft="contributed">d.-d. MMM y</greatestDifference>
+							<greatestDifference id="M" draft="contributed">d. MMM - d. MMM y</greatestDifference>
+							<greatestDifference id="y" draft="contributed">d. MMM y - d. MMM y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMEd">
-							<greatestDifference id="d">E, d. - E, d. MMM y</greatestDifference>
-							<greatestDifference id="M">E, d. MMM - E, d. MMM y</greatestDifference>
-							<greatestDifference id="y">E, d. MMM y - E, d. MMM y</greatestDifference>
+							<greatestDifference id="d" draft="contributed">E, d. - E, d. MMM y</greatestDifference>
+							<greatestDifference id="M" draft="contributed">E, d. MMM - E, d. MMM y</greatestDifference>
+							<greatestDifference id="y" draft="contributed">E, d. MMM y - E, d. MMM y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMM">
-							<greatestDifference id="M">yyyy-MM – MM</greatestDifference>
-							<greatestDifference id="y">yyyy-MM – yyyy-MM</greatestDifference>
+							<greatestDifference id="M">MMMM–MMMM y</greatestDifference>
+							<greatestDifference id="y">MMMM y – MMMM y</greatestDifference>
 						</intervalFormatItem>
 					</intervalFormats>
 				</dateTimeFormats>
 				<fields>
 					<field type="era">
-						<displayName>tímabil</displayName>
+						<displayName draft="contributed">tímabil</displayName>
 					</field>
 					<field type="year">
-						<displayName>ár</displayName>
+						<displayName draft="contributed">ár</displayName>
+						<relative type="-1">Á síðasta ári</relative>
+						<relative type="0">Á þessu ári</relative>
+						<relative type="1">Á næsta ári</relative>
 					</field>
 					<field type="month">
-						<displayName>mánuður</displayName>
+						<displayName draft="contributed">mánuður</displayName>
+						<relative type="-1">Í síðasta mánuði</relative>
+						<relative type="0">Í þessum mánuði</relative>
+						<relative type="1">Í næsta mánuði</relative>
 					</field>
 					<field type="week">
-						<displayName>vika</displayName>
+						<displayName draft="contributed">vika</displayName>
+						<relative type="-1">Í síðustu viku</relative>
+						<relative type="0">Í þessari viku</relative>
+						<relative type="1">Í næstu viku</relative>
 					</field>
 					<field type="day">
-						<displayName>dagur</displayName>
-						<relative type="-3">fyrir þremur dögum</relative>
-						<relative type="-2">fyrir tveimur dögum</relative>
-						<relative type="-1">í gær</relative>
-						<relative type="0">í dag</relative>
-						<relative type="1">á morgun</relative>
-						<relative type="2">eftir tvo daga</relative>
-						<relative type="3">eftir þrjá daga</relative>
+						<displayName draft="contributed">dagur</displayName>
+						<relative type="-2" draft="contributed">fyrir tveimur dögum</relative>
+						<relative type="-1" draft="contributed">í gær</relative>
+						<relative type="0" draft="contributed">í dag</relative>
+						<relative type="1" draft="contributed">á morgun</relative>
+						<relative type="2" draft="contributed">eftir tvo daga</relative>
 					</field>
 					<field type="weekday">
-						<displayName>vikudagur</displayName>
+						<displayName draft="contributed">vikudagur</displayName>
 					</field>
 					<field type="dayperiod">
-						<displayName>f.h./e.h.</displayName>
+						<displayName draft="contributed">f.h./e.h.</displayName>
 					</field>
 					<field type="hour">
-						<displayName>klukkustund</displayName>
+						<displayName draft="contributed">klukkustund</displayName>
 					</field>
 					<field type="minute">
-						<displayName>mínúta</displayName>
+						<displayName draft="contributed">mínúta</displayName>
 					</field>
 					<field type="second">
-						<displayName>sekúnda</displayName>
+						<displayName draft="contributed">sekúnda</displayName>
 					</field>
 					<field type="zone">
-						<displayName>svæði</displayName>
+						<displayName draft="contributed">svæði</displayName>
 					</field>
 				</fields>
 			</calendar>
 		</calendars>
 		<timeZoneNames>
-			<hourFormat>+HH:mm;−HH:mm</hourFormat>
-			<gmtFormat>GMT{0}</gmtFormat>
+			<hourFormat draft="contributed">+HH:mm;−HH:mm</hourFormat>
+			<gmtFormat draft="contributed">GMT{0}</gmtFormat>
+			<regionFormat>{0} Tími</regionFormat>
+			<fallbackRegionFormat>{1}Tími ({0})</fallbackRegionFormat>
 			<zone type="Etc/Unknown">
-				<exemplarCity>óþekkt</exemplarCity>
+				<exemplarCity draft="contributed">óþekkt</exemplarCity>
 			</zone>
 			<zone type="Asia/Kabul">
 				<exemplarCity>Kabúl</exemplarCity>
 			</zone>
 			<zone type="America/Anguilla">
-				<exemplarCity>Angúilla</exemplarCity>
+				<exemplarCity>Anguilla</exemplarCity>
 			</zone>
 			<zone type="Antarctica/South_Pole">
-				<exemplarCity>Suðurpóllinn</exemplarCity>
+				<exemplarCity draft="contributed">Suðurpóllinn</exemplarCity>
 			</zone>
 			<zone type="Antarctica/DumontDUrville">
-				<exemplarCity>Dumont D'Urville</exemplarCity>
+				<exemplarCity draft="contributed">Dumont D'Urville</exemplarCity>
 			</zone>
 			<zone type="Europe/Vienna">
-				<exemplarCity>Vínarborg</exemplarCity>
+				<exemplarCity>Vín</exemplarCity>
 			</zone>
 			<zone type="America/Aruba">
 				<exemplarCity>Arúba</exemplarCity>
 			</zone>
 			<zone type="America/Barbados">
-				<exemplarCity>Barbadoseyjar</exemplarCity>
+				<exemplarCity>Barbados</exemplarCity>
 			</zone>
 			<zone type="Europe/Brussels">
 				<exemplarCity>Brussel</exemplarCity>
 			</zone>
 			<zone type="Europe/Sofia">
-				<exemplarCity>Sofía</exemplarCity>
+				<exemplarCity>Sófía</exemplarCity>
 			</zone>
 			<zone type="Asia/Bahrain">
-				<exemplarCity>Barein</exemplarCity>
+				<exemplarCity>Bahrain</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Bermuda">
-				<exemplarCity>Bermúdaeyjar</exemplarCity>
+				<exemplarCity>Bermúda</exemplarCity>
 			</zone>
 			<zone type="Asia/Brunei">
 				<exemplarCity>Brúnei</exemplarCity>
 			</zone>
 			<zone type="America/Belize">
-				<exemplarCity>Belís</exemplarCity>
+				<exemplarCity>Belize</exemplarCity>
 			</zone>
 			<zone type="America/Regina">
-				<exemplarCity>Regína</exemplarCity>
+				<exemplarCity draft="contributed">Regína</exemplarCity>
 			</zone>
 			<zone type="Europe/Zurich">
 				<exemplarCity>Zürich</exemplarCity>
 			</zone>
 			<zone type="Pacific/Easter">
-				<exemplarCity>Páskaeyja</exemplarCity>
+				<exemplarCity draft="contributed">Páskaeyja</exemplarCity>
 			</zone>
 			<zone type="America/Costa_Rica">
-				<exemplarCity>Kostaríka</exemplarCity>
+				<exemplarCity>Kosta ríka</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Cape_Verde">
 				<exemplarCity>Grænhöfðaeyjar</exemplarCity>
@@ -1415,7 +1499,7 @@
 				<exemplarCity>Berlín</exemplarCity>
 			</zone>
 			<zone type="Africa/Djibouti">
-				<exemplarCity>Djíbútí</exemplarCity>
+				<exemplarCity>Djibútí</exemplarCity>
 			</zone>
 			<zone type="Europe/Copenhagen">
 				<exemplarCity>Kaupmannahöfn</exemplarCity>
@@ -1424,19 +1508,19 @@
 				<exemplarCity>Dóminíka</exemplarCity>
 			</zone>
 			<zone type="Africa/Algiers">
-				<exemplarCity>Alsír</exemplarCity>
+				<exemplarCity>Algeirsborg</exemplarCity>
 			</zone>
 			<zone type="Africa/Cairo">
 				<exemplarCity>Kaíró</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Canary">
-				<exemplarCity>Kanaríeyjar</exemplarCity>
+				<exemplarCity draft="contributed">Kanaríeyjar</exemplarCity>
 			</zone>
 			<zone type="Europe/Madrid">
 				<exemplarCity>Madríd</exemplarCity>
 			</zone>
 			<zone type="Pacific/Fiji">
-				<exemplarCity>Fidjieyjar</exemplarCity>
+				<exemplarCity>Fídjieyjar</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Faeroe">
 				<exemplarCity>Færeyjar</exemplarCity>
@@ -1448,7 +1532,7 @@
 				<exemplarCity>Gíbraltar</exemplarCity>
 			</zone>
 			<zone type="America/Godthab">
-				<exemplarCity>Nuuk</exemplarCity>
+				<exemplarCity>Godthåb</exemplarCity>
 			</zone>
 			<zone type="America/Guadeloupe">
 				<exemplarCity>Gvadelúp</exemplarCity>
@@ -1463,25 +1547,25 @@
 				<exemplarCity>Gvatemala</exemplarCity>
 			</zone>
 			<zone type="Pacific/Guam">
-				<exemplarCity>Gúam</exemplarCity>
+				<exemplarCity>Gvam</exemplarCity>
 			</zone>
 			<zone type="Africa/Bissau">
 				<exemplarCity>Bissá</exemplarCity>
 			</zone>
 			<zone type="America/Guyana">
-				<exemplarCity>Gvæjana</exemplarCity>
+				<exemplarCity>Guyana</exemplarCity>
 			</zone>
 			<zone type="Europe/Budapest">
 				<exemplarCity>Búdapest</exemplarCity>
 			</zone>
 			<zone type="Asia/Jakarta">
-				<exemplarCity>Djakarta</exemplarCity>
+				<exemplarCity draft="contributed">Djakarta</exemplarCity>
 			</zone>
 			<zone type="Asia/Baghdad">
 				<exemplarCity>Bagdad</exemplarCity>
 			</zone>
 			<zone type="Asia/Tehran">
-				<exemplarCity>Teheran</exemplarCity>
+				<exemplarCity>Tehran</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Reykjavik">
 				<exemplarCity>Reykjavík</exemplarCity>
@@ -1499,10 +1583,10 @@
 				<exemplarCity>St. Kitts</exemplarCity>
 			</zone>
 			<zone type="Asia/Pyongyang">
-				<exemplarCity>Pjongjang</exemplarCity>
+				<exemplarCity>Pyongyang</exemplarCity>
 			</zone>
 			<zone type="Asia/Seoul">
-				<exemplarCity>Seúl</exemplarCity>
+				<exemplarCity>Seoul</exemplarCity>
 			</zone>
 			<zone type="Asia/Kuwait">
 				<exemplarCity>Kúveit</exemplarCity>
@@ -1514,7 +1598,7 @@
 				<exemplarCity>St. Lucia</exemplarCity>
 			</zone>
 			<zone type="Africa/Monrovia">
-				<exemplarCity>Monróvía</exemplarCity>
+				<exemplarCity>Monrovia</exemplarCity>
 			</zone>
 			<zone type="Europe/Vilnius">
 				<exemplarCity>Vilníus</exemplarCity>
@@ -1526,13 +1610,13 @@
 				<exemplarCity>Mónakó</exemplarCity>
 			</zone>
 			<zone type="Asia/Ulaanbaatar">
-				<exemplarCity>Úlan Bator</exemplarCity>
+				<exemplarCity draft="contributed">Úlan Bator</exemplarCity>
 			</zone>
 			<zone type="Asia/Macau">
-				<exemplarCity>Makaó</exemplarCity>
+				<exemplarCity>Macau</exemplarCity>
 			</zone>
 			<zone type="America/Martinique">
-				<exemplarCity>Martínik</exemplarCity>
+				<exemplarCity>Martinique</exemplarCity>
 			</zone>
 			<zone type="Indian/Mauritius">
 				<exemplarCity>Máritíus</exemplarCity>
@@ -1541,10 +1625,10 @@
 				<exemplarCity>Maldíveyjar</exemplarCity>
 			</zone>
 			<zone type="America/Mexico_City">
-				<exemplarCity>Mexíkóborg</exemplarCity>
+				<exemplarCity draft="contributed">Mexíkóborg</exemplarCity>
 			</zone>
 			<zone type="America/Cancun">
-				<exemplarCity>Kankún</exemplarCity>
+				<exemplarCity draft="contributed">Kankún</exemplarCity>
 			</zone>
 			<zone type="Europe/Oslo">
 				<exemplarCity>Osló</exemplarCity>
@@ -1553,10 +1637,10 @@
 				<exemplarCity>Nárú</exemplarCity>
 			</zone>
 			<zone type="Pacific/Niue">
-				<exemplarCity>Níúe</exemplarCity>
+				<exemplarCity>Niue</exemplarCity>
 			</zone>
 			<zone type="Pacific/Marquesas">
-				<exemplarCity>Marquesas-eyjar</exemplarCity>
+				<exemplarCity draft="contributed">Marquesas-eyjar</exemplarCity>
 			</zone>
 			<zone type="Europe/Warsaw">
 				<exemplarCity>Varsjá</exemplarCity>
@@ -1565,34 +1649,34 @@
 				<exemplarCity>Púertó Ríkó</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Azores">
-				<exemplarCity>Azoreyjar</exemplarCity>
+				<exemplarCity draft="contributed">Azoreyjar</exemplarCity>
 			</zone>
 			<zone type="Europe/Lisbon">
 				<exemplarCity>Lissabon</exemplarCity>
 			</zone>
 			<zone type="Pacific/Palau">
-				<exemplarCity>Palaú</exemplarCity>
+				<exemplarCity>Palá</exemplarCity>
 			</zone>
 			<zone type="Asia/Qatar">
-				<exemplarCity>Kvatar</exemplarCity>
+				<exemplarCity>Katar</exemplarCity>
 			</zone>
 			<zone type="Europe/Bucharest">
 				<exemplarCity>Búkarest</exemplarCity>
 			</zone>
 			<zone type="Europe/Moscow">
-				<exemplarCity>Moskva</exemplarCity>
+				<exemplarCity draft="contributed">Moskva</exemplarCity>
 			</zone>
 			<zone type="Europe/Stockholm">
 				<exemplarCity>Stokkhólmur</exemplarCity>
 			</zone>
 			<zone type="Asia/Singapore">
-				<exemplarCity>Singapúr</exemplarCity>
+				<exemplarCity>Singapore</exemplarCity>
 			</zone>
 			<zone type="Atlantic/St_Helena">
 				<exemplarCity>St. Helena</exemplarCity>
 			</zone>
 			<zone type="America/El_Salvador">
-				<exemplarCity>Salvador</exemplarCity>
+				<exemplarCity>El Salvador</exemplarCity>
 			</zone>
 			<zone type="Asia/Damascus">
 				<exemplarCity>Damaskus</exemplarCity>
@@ -1612,71 +1696,339 @@
 			<zone type="Africa/Johannesburg">
 				<exemplarCity>Jóhannesarborg</exemplarCity>
 			</zone>
+			<metazone type="Alaska">
+				<long>
+					<generic>Tími í Alaska</generic>
+					<standard>Staðaltími í Alaska</standard>
+					<daylight>Sumartími í Alaska</daylight>
+				</long>
+			</metazone>
+			<metazone type="Amazon">
+				<long>
+					<generic>Tími á Amasónsvæðinu</generic>
+				</long>
+			</metazone>
+			<metazone type="America_Central">
+				<long>
+					<generic>Tími í Mið-Ameríku</generic>
+					<standard>Staðaltími í Mið-Ameríku</standard>
+					<daylight>Sumartími í Mið-Ameríku</daylight>
+				</long>
+			</metazone>
+			<metazone type="America_Eastern">
+				<long>
+					<generic>Tími í austurhluta Bandaríkjanna og Kanada</generic>
+					<standard>Staðaltími í austurhluta Bandaríkjanna og Kanada</standard>
+					<daylight>Sumartími í austurhluta Bandaríkjanna og Kanada</daylight>
+				</long>
+			</metazone>
+			<metazone type="America_Mountain">
+				<long>
+					<generic>Tími í Klettafjöllum</generic>
+					<standard>Staðaltími í Klettafjöllum</standard>
+					<daylight>Sumartími í Klettafjöllum</daylight>
+				</long>
+			</metazone>
+			<metazone type="America_Pacific">
+				<long>
+					<generic>Tími á Kyrrahafssvæðinu</generic>
+					<standard>Staðaltími á Kyrrahafssvæðinu</standard>
+					<daylight>Sumartími á Kyrrahafssvæðinu</daylight>
+				</long>
+			</metazone>
+			<metazone type="Anadyr">
+				<long>
+					<generic>Tími í Anadyr</generic>
+					<standard>Tími í Anadyr</standard>
+					<daylight>Sumartími í Anadyr</daylight>
+				</long>
+			</metazone>
+			<metazone type="Argentina">
+				<long>
+					<generic>Tími í Argentínu</generic>
+					<standard>Tími í Argentínu</standard>
+					<daylight>Sumartími í Argentínu</daylight>
+				</long>
+			</metazone>
+			<metazone type="Argentina_Western">
+				<long>
+					<generic>Tími í Vestur-Argentínu</generic>
+					<standard>Tími í Vestur-Argentínu</standard>
+					<daylight>Sumartími í Vestur-Argentínu</daylight>
+				</long>
+			</metazone>
+			<metazone type="Atlantic">
+				<long>
+					<generic>Tími á Atlantshafssvæðinu</generic>
+					<standard>Staðaltími á Atlantshafssvæðinu</standard>
+					<daylight>Sumartími á Atlantshafssvæðinu</daylight>
+				</long>
+			</metazone>
+			<metazone type="Australia_Central">
+				<long>
+					<generic>Tími í Mið-Ástralíu</generic>
+					<standard>Staðaltími í Mið-Ástralíu</standard>
+					<daylight>Sumartími í Mið-Ástralíu</daylight>
+				</long>
+			</metazone>
+			<metazone type="Australia_CentralWestern">
+				<long>
+					<generic>Tími í miðvesturhluta Ástralíu</generic>
+					<standard>Staðaltími í miðvesturhluta Ástralíu</standard>
+					<daylight>Sumartími í miðvesturhluta Ástralíu</daylight>
+				</long>
+			</metazone>
+			<metazone type="Australia_Eastern">
+				<long>
+					<generic>Tími í Austur-Ástralíu</generic>
+					<standard>Staðaltími í Austur-Ástralíu</standard>
+					<daylight>Sumartími í Austur-Ástralíu</daylight>
+				</long>
+			</metazone>
+			<metazone type="Australia_Western">
+				<long>
+					<generic>Tími í Vestur-Ástralíu</generic>
+					<standard>Staðaltími í Vestur-Ástralíu</standard>
+					<daylight>Sumartími í Vestur-Ástralíu</daylight>
+				</long>
+			</metazone>
+			<metazone type="Brasilia">
+				<long>
+					<generic>Tími í Brasilíu</generic>
+					<standard>Tími í Brasilíu</standard>
+					<daylight>Sumartími í Brasilíu</daylight>
+				</long>
+			</metazone>
+			<metazone type="Choibalsan">
+				<long>
+					<generic>Tími í Choibalsan</generic>
+					<standard>Tími í Choibalsan</standard>
+					<daylight>Sumartími í Choibalsan</daylight>
+				</long>
+			</metazone>
 			<metazone type="Europe_Central">
 				<long>
-					<standard>Mið-Evróputími</standard>
-					<daylight>sumartími Mið-Evrópu</daylight>
+					<standard draft="contributed">Mið-Evróputími</standard>
+					<daylight draft="contributed">Sumartími Mið-Evrópu</daylight>
 				</long>
-				<short>
-					<standard>MET</standard>
-					<daylight>STME</daylight>
-				</short>
 			</metazone>
 			<metazone type="Europe_Eastern">
 				<long>
-					<standard>Austur-Evróputími</standard>
-					<daylight>sumartími Austur-Evrópu</daylight>
+					<standard draft="contributed">Austur-Evróputími</standard>
+					<daylight draft="contributed">Sumartími Austur-Evrópu</daylight>
 				</long>
-				<short>
-					<standard>AET</standard>
-					<daylight>STAE</daylight>
-				</short>
 			</metazone>
 			<metazone type="Europe_Western">
 				<long>
-					<standard>Vestur-Evróputími</standard>
-					<daylight>sumartími Vestur-Evrópu</daylight>
+					<standard draft="unconfirmed">Vestur-Evróputími</standard>
+					<daylight draft="unconfirmed">Sumartími Vestur-Evrópu</daylight>
 				</long>
-				<short>
-					<standard>VET</standard>
-					<daylight>STVE</daylight>
-				</short>
+			</metazone>
+			<metazone type="Hawaii_Aleutian">
+				<long>
+					<generic>Tími á Hawaí og Aleútaeyjum</generic>
+				</long>
+			</metazone>
+			<metazone type="Hovd">
+				<long>
+					<generic>Tími í Hovd</generic>
+					<standard>Tími í Hovd</standard>
+					<daylight>Sumartími í Hovd</daylight>
+				</long>
+			</metazone>
+			<metazone type="Indonesia_Central">
+				<long>
+					<generic>Tími í Mið-Indónesíu</generic>
+				</long>
+			</metazone>
+			<metazone type="Indonesia_Eastern">
+				<long>
+					<generic>Tími í Austur-Indónesíu</generic>
+				</long>
+			</metazone>
+			<metazone type="Indonesia_Western">
+				<long>
+					<generic>Tími í Vestur-Indónesíu</generic>
+				</long>
+			</metazone>
+			<metazone type="Irkutsk">
+				<long>
+					<generic>Tími í Irkutsk</generic>
+					<standard>Tími í Irkutsk</standard>
+					<daylight>Sumartími í Irkutsk</daylight>
+				</long>
+			</metazone>
+			<metazone type="Kamchatka">
+				<long>
+					<generic>Tími í Kamchatka</generic>
+					<standard>Tími í Petropavlovsk-Kamchatski</standard>
+					<daylight>Sumartími í Petropavlovsk-Kamchatski</daylight>
+				</long>
+			</metazone>
+			<metazone type="Kazakhstan_Eastern">
+				<long>
+					<generic>Tími í Austur-Kasakstan</generic>
+					<standard>Staðaltími í Austur-Kasakstan</standard>
+					<daylight>Sumartími í Austur-Kasakstan</daylight>
+				</long>
+			</metazone>
+			<metazone type="Kazakhstan_Western">
+				<long>
+					<generic>Tími í Vestur-Kasakstan</generic>
+					<standard>Staðaltími í Vestur-Kasakstan</standard>
+					<daylight>Sumartími í Vestur-Kasakstan</daylight>
+				</long>
+			</metazone>
+			<metazone type="Krasnoyarsk">
+				<long>
+					<generic>Tími í Krasnoyarsk</generic>
+					<standard>Tími í Krasnoyarsk</standard>
+					<daylight>Sumartími í Krasnoyarsk</daylight>
+				</long>
+			</metazone>
+			<metazone type="Lord_Howe">
+				<long>
+					<generic>Tími á Lord Howe-eyju</generic>
+					<standard>Staðaltími á Lord Howe-eyju</standard>
+					<daylight>Sumartími á Lord Howe-eyju</daylight>
+				</long>
+			</metazone>
+			<metazone type="Macquarie">
+				<long>
+					<generic>Tími í Macquarie</generic>
+				</long>
+			</metazone>
+			<metazone type="Magadan">
+				<long>
+					<generic>Tími í Magadan</generic>
+					<standard>Tími í Magadan</standard>
+					<daylight>Sumartími í Magadan</daylight>
+				</long>
+			</metazone>
+			<metazone type="Mongolia">
+				<long>
+					<generic>Tími í Mongólíu</generic>
+					<standard>Tími í Úlan Bator</standard>
+					<daylight>Sumartími í Úlan Bator</daylight>
+				</long>
+			</metazone>
+			<metazone type="Moscow">
+				<long>
+					<generic>Tími í Moskvu</generic>
+					<standard>Staðaltími í Moskvu</standard>
+					<daylight>Sumartími í Moskvu</daylight>
+				</long>
+			</metazone>
+			<metazone type="Newfoundland">
+				<long>
+					<generic>Tími á Nýfundnalandi</generic>
+					<standard>Staðaltími á Nýfundnalandi</standard>
+					<daylight>Sumartími á Nýfundnalandi</daylight>
+				</long>
+			</metazone>
+			<metazone type="Noronha">
+				<long>
+					<generic>Tími í Noronha</generic>
+					<standard>Tími í Fernando de Noronha</standard>
+					<daylight>Sumartími í Fernando de Noronha</daylight>
+				</long>
+			</metazone>
+			<metazone type="Novosibirsk">
+				<long>
+					<generic>Tími í Novosibirsk</generic>
+					<standard>Tími í Novosibirsk</standard>
+					<daylight>Sumartími í Novosibirsk</daylight>
+				</long>
+			</metazone>
+			<metazone type="Omsk">
+				<long>
+					<generic>Tími í Omsk</generic>
+					<standard>Tími í Omsk</standard>
+					<daylight>Sumartími í Omsk</daylight>
+				</long>
+			</metazone>
+			<metazone type="Sakhalin">
+				<long>
+					<generic>Tími í Sakhalin</generic>
+					<standard>Tími í Sakhalin</standard>
+					<daylight>Sumartími í Sakhalin</daylight>
+				</long>
+			</metazone>
+			<metazone type="Samara">
+				<long>
+					<generic>Tími í Samara</generic>
+					<standard>Tími í Samara</standard>
+					<daylight>Sumartími í Samara</daylight>
+				</long>
+			</metazone>
+			<metazone type="Vladivostok">
+				<long>
+					<generic>Tími í Vladivostok</generic>
+					<standard>Tími í Vladivostok</standard>
+					<daylight>Sumartími í Vladivostok</daylight>
+				</long>
+			</metazone>
+			<metazone type="Volgograd">
+				<long>
+					<generic>Tími í Volgograd</generic>
+					<standard>Tími í Volgograd</standard>
+					<daylight>Sumartími í Volgograd</daylight>
+				</long>
+			</metazone>
+			<metazone type="Yakutsk">
+				<long>
+					<generic>Tími í Yakutsk</generic>
+					<standard>Tími í Yakutsk</standard>
+					<daylight>Sumartími í Yakutsk</daylight>
+				</long>
+			</metazone>
+			<metazone type="Yekaterinburg">
+				<long>
+					<generic>Tími í Yekaterinburg</generic>
+					<standard>Tími í Yekaterinburg</standard>
+					<daylight>Sumartími í Yekaterinburg</daylight>
+				</long>
 			</metazone>
 		</timeZoneNames>
 	</dates>
 	<numbers>
-		<symbols>
+		<symbols numberSystem="latn">
 			<decimal>,</decimal>
 			<group>.</group>
-			<list>;</list>
-			<percentSign>%</percentSign>
-			<nativeZeroDigit>0</nativeZeroDigit>
-			<patternDigit>#</patternDigit>
-			<plusSign>+</plusSign>
-			<minusSign>−</minusSign>
-			<exponential>×10^</exponential>
-			<perMille>‰</perMille>
-			<infinity>∞</infinity>
-			<nan>EiTa</nan>
+			<list draft="contributed">;</list>
+			<percentSign draft="contributed">%</percentSign>
+			<plusSign draft="contributed">+</plusSign>
+			<minusSign draft="contributed">−</minusSign>
+			<exponential draft="contributed">×10^</exponential>
+			<perMille draft="contributed">‰</perMille>
+			<infinity draft="contributed">∞</infinity>
+			<nan draft="contributed">EiTa</nan>
 		</symbols>
 		<decimalFormats>
 			<decimalFormatLength>
 				<decimalFormat>
-					<pattern>#,##0.###</pattern>
+					<pattern draft="contributed">#,##0.###</pattern>
+				</decimalFormat>
+			</decimalFormatLength>
+			<decimalFormatLength type="short">
+				<decimalFormat>
+					<pattern type="1000000000">0.0B</pattern>
+					<pattern type="10000000000">00B</pattern>
+					<pattern type="100000000000">000B</pattern>
 				</decimalFormat>
 			</decimalFormatLength>
 		</decimalFormats>
 		<scientificFormats>
 			<scientificFormatLength>
 				<scientificFormat>
-					<pattern>#E0</pattern>
+					<pattern draft="contributed">#E0</pattern>
 				</scientificFormat>
 			</scientificFormatLength>
 		</scientificFormats>
 		<percentFormats>
 			<percentFormatLength>
 				<percentFormat>
-					<pattern>#,##0%</pattern>
+					<pattern draft="contributed">#,##0%</pattern>
 				</percentFormat>
 			</percentFormatLength>
 		</percentFormats>
@@ -1686,8 +2038,8 @@
 					<pattern>#,##0.00 ¤</pattern>
 				</currencyFormat>
 			</currencyFormatLength>
-			<unitPattern count="one">{0} {1}</unitPattern>
-			<unitPattern count="other">{0} {1}</unitPattern>
+			<unitPattern count="one" draft="unconfirmed">{0} {1}</unitPattern>
+			<unitPattern count="other" draft="unconfirmed">{0} {1}</unitPattern>
 		</currencyFormats>
 		<currencies>
 			<currency type="ADP">
@@ -1695,6 +2047,9 @@
 			</currency>
 			<currency type="AED">
 				<displayName>Arabískt dírham</displayName>
+			</currency>
+			<currency type="AFN">
+				<displayName>Afganskur afghani</displayName>
 			</currency>
 			<currency type="ALL">
 				<displayName>Lek</displayName>
@@ -1704,6 +2059,9 @@
 			</currency>
 			<currency type="ANG">
 				<displayName>Hollenskt Antillugyllini</displayName>
+			</currency>
+			<currency type="AOA">
+				<displayName>Kwanza í Angóla</displayName>
 			</currency>
 			<currency type="ARA">
 				<displayName>Argentine Austral</displayName>
@@ -1720,8 +2078,20 @@
 			<currency type="AUD">
 				<displayName>Ástralskur dalur</displayName>
 			</currency>
+			<currency type="AWG">
+				<displayName>Arúbönsk flórína</displayName>
+			</currency>
+			<currency type="AZN">
+				<displayName>Manat í Aserbaídsjan</displayName>
+			</currency>
+			<currency type="BAM">
+				<displayName>Skiptanlegt mark í Bosníu-Hersegóvínu</displayName>
+			</currency>
 			<currency type="BBD">
 				<displayName>Barbadoskur dalur</displayName>
+			</currency>
+			<currency type="BDT">
+				<displayName>Taka í Bangladesh</displayName>
 			</currency>
 			<currency type="BEF">
 				<displayName>Belgískur franki</displayName>
@@ -1732,6 +2102,12 @@
 			<currency type="BGN">
 				<displayName>Lef, nýtt</displayName>
 			</currency>
+			<currency type="BHD">
+				<displayName>Dínar í Bahrain</displayName>
+			</currency>
+			<currency type="BIF">
+				<displayName>Búrúndískur franki</displayName>
+			</currency>
 			<currency type="BMD">
 				<displayName>Bermúdeyskur dalur</displayName>
 			</currency>
@@ -1739,7 +2115,7 @@
 				<displayName>Brúneiskur dalur</displayName>
 			</currency>
 			<currency type="BOB">
-				<displayName>bólivískt bólívíanó</displayName>
+				<displayName>Boliviano í Bólivíu</displayName>
 			</currency>
 			<currency type="BOP">
 				<displayName>Bólivískur pesi</displayName>
@@ -1753,14 +2129,26 @@
 			<currency type="BSD">
 				<displayName>Bahameyskur dalur</displayName>
 			</currency>
+			<currency type="BTN">
+				<displayName>Bútanskt ngultrum</displayName>
+			</currency>
 			<currency type="BUK">
 				<displayName>Búrmverskt kjat</displayName>
+			</currency>
+			<currency type="BWP">
+				<displayName>Pula í Botsvana</displayName>
+			</currency>
+			<currency type="BYR">
+				<displayName>Hvítrússnesk rúbla</displayName>
 			</currency>
 			<currency type="BZD">
 				<displayName>Belískur dalur</displayName>
 			</currency>
 			<currency type="CAD">
 				<displayName>Kanadískur dalur</displayName>
+			</currency>
+			<currency type="CDF">
+				<displayName>Franki í Kongó</displayName>
 			</currency>
 			<currency type="CHF">
 				<displayName>Svissneskur franki</displayName>
@@ -1777,8 +2165,14 @@
 			<currency type="COP">
 				<displayName>Kólumbískur pesi</displayName>
 			</currency>
+			<currency type="CRC">
+				<displayName>Colón á Kosta ríka</displayName>
+			</currency>
 			<currency type="CSK">
 				<displayName>Tékknesk króna, eldri</displayName>
+			</currency>
+			<currency type="CUC">
+				<displayName>Kúbanskur skiptanlegur pesó</displayName>
 			</currency>
 			<currency type="CUP">
 				<displayName>Kúbverskur pesi</displayName>
@@ -1791,8 +2185,8 @@
 			</currency>
 			<currency type="CZK">
 				<displayName>Tékknesk króna</displayName>
-				<displayName count="one">tékknesk króna</displayName>
-				<displayName count="other">tékknesku krónur</displayName>
+				<displayName count="one" draft="unconfirmed">tékknesk króna</displayName>
+				<displayName count="other" draft="unconfirmed">tékknesku krónur</displayName>
 			</currency>
 			<currency type="DDM">
 				<displayName>Austurþýskt mark</displayName>
@@ -1805,30 +2199,39 @@
 			</currency>
 			<currency type="DKK">
 				<displayName>Dönsk króna</displayName>
-				<displayName count="one">dönsk króna</displayName>
-				<displayName count="other">dönsku krónur</displayName>
+				<displayName count="one" draft="unconfirmed">dönsk króna</displayName>
+				<displayName count="other" draft="unconfirmed">dönsku krónur</displayName>
 			</currency>
 			<currency type="DOP">
 				<displayName>Dóminískur pesi</displayName>
+			</currency>
+			<currency type="DZD">
+				<displayName>Alsírskur dínar</displayName>
 			</currency>
 			<currency type="ECS">
 				<displayName>Ecuador Sucre</displayName>
 			</currency>
 			<currency type="EEK">
 				<displayName>Eistnesk króna</displayName>
-				<displayName count="one">eistnesk króna</displayName>
-				<displayName count="other">eistnesku krónur</displayName>
+				<displayName count="one" draft="unconfirmed">eistnesk króna</displayName>
+				<displayName count="other" draft="unconfirmed">eistnesku krónur</displayName>
 			</currency>
 			<currency type="EGP">
 				<displayName>Egypskt pund</displayName>
 			</currency>
+			<currency type="ERN">
+				<displayName>Eritrean Nakfa</displayName>
+			</currency>
 			<currency type="ESP">
 				<displayName>Spænskur peseti</displayName>
 			</currency>
+			<currency type="ETB">
+				<displayName>Eþíópískt birr</displayName>
+			</currency>
 			<currency type="EUR">
 				<displayName>Euro</displayName>
-				<displayName count="one">euro</displayName>
-				<displayName count="other">euro</displayName>
+				<displayName count="one" draft="unconfirmed">euro</displayName>
+				<displayName count="other" draft="unconfirmed">euro</displayName>
 			</currency>
 			<currency type="FIM">
 				<displayName>Finnskt mark</displayName>
@@ -1845,8 +2248,17 @@
 			<currency type="GBP">
 				<displayName>Sterlingspund</displayName>
 			</currency>
+			<currency type="GEL">
+				<displayName>Georgískt lari</displayName>
+			</currency>
+			<currency type="GHS">
+				<displayName>Cedi í Gana</displayName>
+			</currency>
 			<currency type="GIP">
 				<displayName>Gíbraltarspund</displayName>
+			</currency>
+			<currency type="GMD">
+				<displayName>Gambískur dalasi</displayName>
 			</currency>
 			<currency type="GNF">
 				<displayName>Gíneufranki</displayName>
@@ -1871,6 +2283,9 @@
 			</currency>
 			<currency type="HRK">
 				<displayName>Kúna</displayName>
+			</currency>
+			<currency type="HTG">
+				<displayName>Gourde á Haítí</displayName>
 			</currency>
 			<currency type="HUF">
 				<displayName>Fórinta</displayName>
@@ -1898,8 +2313,8 @@
 			</currency>
 			<currency type="ISK">
 				<displayName>Íslensk króna</displayName>
-				<displayName count="one">íslensk króna</displayName>
-				<displayName count="other">íslensku krónur</displayName>
+				<displayName count="one" draft="unconfirmed">íslensk króna</displayName>
+				<displayName count="other" draft="unconfirmed">íslensku krónur</displayName>
 				<symbol>kr</symbol>
 			</currency>
 			<currency type="ITL">
@@ -1908,11 +2323,20 @@
 			<currency type="JMD">
 				<displayName>Jamaískur dalur</displayName>
 			</currency>
+			<currency type="JOD">
+				<displayName>Jórdanskur dínar</displayName>
+			</currency>
 			<currency type="JPY">
 				<displayName>Jen</displayName>
 			</currency>
 			<currency type="KES">
-				<displayName>kenískur skildingur</displayName>
+				<displayName>Kenískur skildingur</displayName>
+			</currency>
+			<currency type="KGS">
+				<displayName>Som í Kyrgystan</displayName>
+			</currency>
+			<currency type="KHR">
+				<displayName>Kambódískt riel</displayName>
 			</currency>
 			<currency type="KMF">
 				<displayName>Kómoreyskur franki</displayName>
@@ -1931,6 +2355,9 @@
 			</currency>
 			<currency type="KZT">
 				<displayName>Kazakhstan Tenge</displayName>
+			</currency>
+			<currency type="LAK">
+				<displayName>Kip í Laos</displayName>
 			</currency>
 			<currency type="LBP">
 				<displayName>Líbanskt pund</displayName>
@@ -1968,6 +2395,9 @@
 			<currency type="MAF">
 				<displayName>Marokkóskur franki</displayName>
 			</currency>
+			<currency type="MDL">
+				<displayName>Moldavískt leu</displayName>
+			</currency>
 			<currency type="MGA">
 				<displayName>Madagascar Ariary</displayName>
 			</currency>
@@ -1998,6 +2428,15 @@
 			<currency type="MTP">
 				<displayName>Maltneskt pund</displayName>
 			</currency>
+			<currency type="MUR">
+				<displayName>Máritísk rúpía</displayName>
+			</currency>
+			<currency type="MVR">
+				<displayName>Rufiyaa á Maldíveyjum</displayName>
+			</currency>
+			<currency type="MWK">
+				<displayName>Kwacha í Malavíu</displayName>
+			</currency>
 			<currency type="MXN">
 				<displayName>Mexíkóskur pesi</displayName>
 			</currency>
@@ -2019,13 +2458,19 @@
 			<currency type="NGN">
 				<displayName>Nigerian Naira</displayName>
 			</currency>
+			<currency type="NIO">
+				<displayName>Córdoba í Níkaragúa</displayName>
+			</currency>
 			<currency type="NLG">
 				<displayName>Hollenskt gyllini</displayName>
 			</currency>
 			<currency type="NOK">
 				<displayName>Norsk króna</displayName>
-				<displayName count="one">norsk króna</displayName>
-				<displayName count="other">norsku krónur</displayName>
+				<displayName count="one" draft="unconfirmed">norsk króna</displayName>
+				<displayName count="other" draft="unconfirmed">norsku krónur</displayName>
+			</currency>
+			<currency type="NPR">
+				<displayName>Nepölsk rúpía</displayName>
 			</currency>
 			<currency type="NZD">
 				<displayName>Nýsjálenskur dalur</displayName>
@@ -2037,16 +2482,19 @@
 				<displayName>Balbói</displayName>
 			</currency>
 			<currency type="PEN">
-				<displayName>perúskar sol nuevo</displayName>
+				<displayName>Perúskt nuevo sol</displayName>
+			</currency>
+			<currency type="PGK">
+				<displayName>Kina í Papúa Nýju Gíneu</displayName>
 			</currency>
 			<currency type="PHP">
-				<displayName>filippeyskir pesóar</displayName>
+				<displayName>Filippínskur pesó</displayName>
 			</currency>
 			<currency type="PKR">
 				<displayName>Pakistönsk rúpía</displayName>
 			</currency>
 			<currency type="PLN">
-				<displayName>pólskt zlotý</displayName>
+				<displayName>Pólskt zloty</displayName>
 			</currency>
 			<currency type="PLZ">
 				<displayName>Slot</displayName>
@@ -2054,17 +2502,23 @@
 			<currency type="PTE">
 				<displayName>Portúgalskur skúti</displayName>
 			</currency>
+			<currency type="PYG">
+				<displayName>Paragvæskt gvaraní</displayName>
+			</currency>
+			<currency type="QAR">
+				<displayName>Rial í Katar</displayName>
+			</currency>
 			<currency type="ROL">
 				<displayName>Rúmenskt lei</displayName>
 			</currency>
 			<currency type="RON">
-				<displayName>rúmensk leu</displayName>
+				<displayName draft="unconfirmed">Rúmensk leu</displayName>
 			</currency>
 			<currency type="RSD">
-				<displayName>serbneskur dínar</displayName>
+				<displayName>Serbneskur dínar</displayName>
 			</currency>
 			<currency type="RUB">
-				<displayName>rússnesk rúbla</displayName>
+				<displayName>Rússnesk rúbla</displayName>
 			</currency>
 			<currency type="RUR">
 				<displayName>Rússnesk rúbla (1991-1998)</displayName>
@@ -2084,13 +2538,16 @@
 			<currency type="SDD">
 				<displayName>Súdanskur denari</displayName>
 			</currency>
-			<currency type="SDP">
+			<currency type="SDG">
 				<displayName>Súdanskt pund</displayName>
+			</currency>
+			<currency type="SDP">
+				<displayName>Súdanskt pund (1957-1998)</displayName>
 			</currency>
 			<currency type="SEK">
 				<displayName>Sænsk króna</displayName>
-				<displayName count="one">sænsk króna</displayName>
-				<displayName count="other">sænsku krónur</displayName>
+				<displayName count="one" draft="unconfirmed">sænsk króna</displayName>
+				<displayName count="other" draft="unconfirmed">sænsku krónur</displayName>
 			</currency>
 			<currency type="SGD">
 				<displayName>Singapúrskur dalur</displayName>
@@ -2103,6 +2560,15 @@
 			</currency>
 			<currency type="SKK">
 				<displayName>Slóvakísk króna</displayName>
+			</currency>
+			<currency type="SLL">
+				<displayName>Leone í Síerra Leóne</displayName>
+			</currency>
+			<currency type="SOS">
+				<displayName>Sómalískur skildingur</displayName>
+			</currency>
+			<currency type="SRD">
+				<displayName>Súrinamískur dollar</displayName>
 			</currency>
 			<currency type="SRG">
 				<displayName>Suriname Guilder</displayName>
@@ -2119,10 +2585,13 @@
 			<currency type="SYP">
 				<displayName>Sýrlenskt pund</displayName>
 			</currency>
+			<currency type="SZL">
+				<displayName>Svasílenskur lílangeni</displayName>
+			</currency>
 			<currency type="THB">
 				<displayName>Bat</displayName>
-				<displayName count="one">taílensk bat</displayName>
-				<displayName count="other">taílensku bat</displayName>
+				<displayName count="one" draft="unconfirmed">taílensk bat</displayName>
+				<displayName count="other" draft="unconfirmed">taílensku bat</displayName>
 			</currency>
 			<currency type="TJR">
 				<displayName>Tadsjiksk rúbla</displayName>
@@ -2133,6 +2602,15 @@
 			<currency type="TMM">
 				<displayName>Túrkmenskt manat</displayName>
 			</currency>
+			<currency type="TMT">
+				<displayName>Manat í Túrkmenistan</displayName>
+			</currency>
+			<currency type="TND">
+				<displayName>Túnískur dínar</displayName>
+			</currency>
+			<currency type="TOP">
+				<displayName>Tongan Paʻanga</displayName>
+			</currency>
 			<currency type="TPE">
 				<displayName>Tímorskur skúti</displayName>
 			</currency>
@@ -2140,7 +2618,7 @@
 				<displayName>Tyrknesk líra</displayName>
 			</currency>
 			<currency type="TRY">
-				<displayName>Ný tyrknesk líra</displayName>
+				<displayName draft="contributed">Ný tyrknesk líra</displayName>
 			</currency>
 			<currency type="TTD">
 				<displayName>Trínidad og Tóbagó-dalur</displayName>
@@ -2157,6 +2635,9 @@
 			<currency type="UAK">
 				<displayName>Ukrainian Karbovanetz</displayName>
 			</currency>
+			<currency type="UGX">
+				<displayName>Úgandskur skildingur</displayName>
+			</currency>
 			<currency type="USD">
 				<displayName>Bandaríkjadalur</displayName>
 			</currency>
@@ -2166,39 +2647,39 @@
 			<currency type="USS">
 				<displayName>Bandaríkjadalur (sama dag)</displayName>
 			</currency>
+			<currency type="UYU">
+				<displayName>Úrúgvæskur pesó</displayName>
+			</currency>
+			<currency type="UZS">
+				<displayName>Som í Úsbekistan</displayName>
+			</currency>
 			<currency type="VEB">
 				<displayName>Venezuelan Bolivar</displayName>
 			</currency>
+			<currency type="VEF">
+				<displayName>Bolívar í Venesúela</displayName>
+			</currency>
 			<currency type="VND">
-				<displayName>víetnamskt dong</displayName>
+				<displayName>Víetnamískt dong</displayName>
 			</currency>
 			<currency type="VUV">
 				<displayName>Vanuatu Vatu</displayName>
+			</currency>
+			<currency type="WST">
+				<displayName>Tala á Samóaeyjum</displayName>
 			</currency>
 			<currency type="XAF">
 				<displayName>Miðafrískur franki, BEAC</displayName>
 			</currency>
 			<currency type="XAG">
-				<displayName>unse silfur</displayName>
-				<displayName count="one">unse silfur</displayName>
-				<displayName count="other">unse silfur</displayName>
+				<displayName draft="unconfirmed">unse silfur</displayName>
+				<displayName count="one" draft="unconfirmed">unse silfur</displayName>
+				<displayName count="other" draft="unconfirmed">unse silfur</displayName>
 			</currency>
 			<currency type="XAU">
-				<displayName>unse gull</displayName>
-				<displayName count="one">unse gull</displayName>
-				<displayName count="other">unse gull</displayName>
-			</currency>
-			<currency type="XBA">
-				<displayName>XBA</displayName>
-			</currency>
-			<currency type="XBB">
-				<displayName>XBB</displayName>
-			</currency>
-			<currency type="XBC">
-				<displayName>XBC</displayName>
-			</currency>
-			<currency type="XBD">
-				<displayName>XBD</displayName>
+				<displayName draft="unconfirmed">unse gull</displayName>
+				<displayName count="one" draft="unconfirmed">unse gull</displayName>
+				<displayName count="other" draft="unconfirmed">unse gull</displayName>
 			</currency>
 			<currency type="XCD">
 				<displayName>Austur-Karíbahafsdalur</displayName>
@@ -2216,25 +2697,22 @@
 				<displayName>Miðafrískur franki, BCEAO</displayName>
 			</currency>
 			<currency type="XPD">
-				<displayName>unse palladín</displayName>
-				<displayName count="one">unse palladín</displayName>
-				<displayName count="other">unse palladín</displayName>
+				<displayName draft="unconfirmed">unse palladín</displayName>
+				<displayName count="one" draft="unconfirmed">unse palladín</displayName>
+				<displayName count="other" draft="unconfirmed">unse palladín</displayName>
 			</currency>
 			<currency type="XPF">
 				<displayName>Pólinesískur franki</displayName>
 			</currency>
 			<currency type="XPT">
-				<displayName>unse platína</displayName>
-				<displayName count="one">unse platína</displayName>
-				<displayName count="other">unse platína</displayName>
-			</currency>
-			<currency type="XTS">
-				<displayName>XTS</displayName>
+				<displayName draft="unconfirmed">unse platína</displayName>
+				<displayName count="one" draft="unconfirmed">unse platína</displayName>
+				<displayName count="other" draft="unconfirmed">unse platína</displayName>
 			</currency>
 			<currency type="XXX">
-				<displayName>Óþekktur eða ógildur gjaldeyrir</displayName>
-				<displayName count="one">óþekktur eða ógildur gjaldeyrir</displayName>
-				<displayName count="other">óþekktur eða ógildur gjaldeyrir</displayName>
+				<displayName draft="contributed">Óþekktur eða ógildur gjaldeyrir</displayName>
+				<displayName count="one" draft="contributed">óþekktur eða ógildur gjaldeyrir</displayName>
+				<displayName count="other" draft="contributed">óþekktur eða ógildur gjaldeyrir</displayName>
 			</currency>
 			<currency type="YDD">
 				<displayName>Jemenskur denari</displayName>
@@ -2249,7 +2727,7 @@
 				<displayName>Rand (viðskipta)</displayName>
 			</currency>
 			<currency type="ZAR">
-				<displayName>suðurafríkskt rand</displayName>
+				<displayName>Suðurafrískt rand</displayName>
 			</currency>
 			<currency type="ZMK">
 				<displayName>Zambian Kwacha</displayName>
@@ -2261,44 +2739,135 @@
 	</numbers>
 	<units>
 		<unit type="day">
+			<unitPattern count="0" alt="short">0 dagar</unitPattern>
+			<unitPattern count="1" alt="short">Einn dagur</unitPattern>
 			<unitPattern count="one">{0} dagur</unitPattern>
-			<unitPattern count="other">{0} dagar</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} dagar</unitPattern>
+			<unitPattern count="other" alt="short">{0} dagar</unitPattern>
+		</unit>
+		<unit type="day-future">
+			<unitPattern count="0">Eftir 0 daga</unitPattern>
+			<unitPattern count="1">Eftir einn dag</unitPattern>
+			<unitPattern count="other">Eftir {0} daga</unitPattern>
+		</unit>
+		<unit type="day-past">
+			<unitPattern count="0">Fyrir 0 dögum síðan</unitPattern>
+			<unitPattern count="1">Fyrir einum degi síðan</unitPattern>
+			<unitPattern count="other">Fyrir {0} dögum síðan</unitPattern>
 		</unit>
 		<unit type="hour">
+			<unitPattern count="0" alt="short">0 klst.</unitPattern>
+			<unitPattern count="1" alt="short">1 klst.</unitPattern>
 			<unitPattern count="one">{0} klukkustund</unitPattern>
-			<unitPattern count="other">{0} klukkustundir</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} klukkustundir</unitPattern>
+			<unitPattern count="other" alt="short">{0} klst.</unitPattern>
+		</unit>
+		<unit type="hour-future">
+			<unitPattern count="0">Eftir 0 klukkustundir</unitPattern>
+			<unitPattern count="1">Eftir eina klukkustund</unitPattern>
+			<unitPattern count="other">Eftir {0} klukkustundir</unitPattern>
+		</unit>
+		<unit type="hour-past">
+			<unitPattern count="0">Fyrir 0 klukkustundum síðan</unitPattern>
+			<unitPattern count="1">Fyrir einni klukkustund síðan</unitPattern>
+			<unitPattern count="other">Fyrir {0} klukkustundum síðan</unitPattern>
 		</unit>
 		<unit type="minute">
+			<unitPattern count="0" alt="short">0 mín.</unitPattern>
+			<unitPattern count="1" alt="short">1 mín.</unitPattern>
 			<unitPattern count="one">{0} mínúta</unitPattern>
-			<unitPattern count="other">{0} mínútur</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} mínútur</unitPattern>
+			<unitPattern count="other" alt="short">{0} mín.</unitPattern>
+		</unit>
+		<unit type="minute-future">
+			<unitPattern count="0">Eftir 0 mínútur</unitPattern>
+			<unitPattern count="1">Eftir eina mínútu</unitPattern>
+			<unitPattern count="other">Eftir {0} mínútur</unitPattern>
+		</unit>
+		<unit type="minute-past">
+			<unitPattern count="0">Fyrir 0 mínútum síðan</unitPattern>
+			<unitPattern count="1">Fyrir einni mínútu síðan</unitPattern>
+			<unitPattern count="other">Fyrir {0} mínútum síðan</unitPattern>
 		</unit>
 		<unit type="month">
+			<unitPattern count="0" alt="short">0 mán.</unitPattern>
+			<unitPattern count="1" alt="short">1 mán.</unitPattern>
 			<unitPattern count="one">{0} mánuður</unitPattern>
-			<unitPattern count="other">{0} mánuðir</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} mánuðir</unitPattern>
+			<unitPattern count="other" alt="short">{0} mán.</unitPattern>
+		</unit>
+		<unit type="month-future">
+			<unitPattern count="0">Eftir 0 mánuði</unitPattern>
+			<unitPattern count="1">Eftir einn mánuð</unitPattern>
+			<unitPattern count="other">Eftir {0} mánuði</unitPattern>
+		</unit>
+		<unit type="month-past">
+			<unitPattern count="0">Fyrir 0 mánuðum síðan</unitPattern>
+			<unitPattern count="1">Fyrir einum mánuði síðan</unitPattern>
+			<unitPattern count="other">Fyrir {0} mánuðum síðan</unitPattern>
 		</unit>
 		<unit type="second">
+			<unitPattern count="0" alt="short">0 sek.</unitPattern>
+			<unitPattern count="1" alt="short">1 sek.</unitPattern>
 			<unitPattern count="one">{0} sekúnda</unitPattern>
-			<unitPattern count="other">{0} sekúndur</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} sekúndur</unitPattern>
+			<unitPattern count="other" alt="short">{0} sek.</unitPattern>
+		</unit>
+		<unit type="second-future">
+			<unitPattern count="0">Eftir 0 sekúndur</unitPattern>
+			<unitPattern count="1">Eftir eina sekúndu</unitPattern>
+			<unitPattern count="other">Eftir {0} sekúndur</unitPattern>
+		</unit>
+		<unit type="second-past">
+			<unitPattern count="0">Fyrir 0 sekúndum síðan</unitPattern>
+			<unitPattern count="1">Fyrir einni sekúndu síðan</unitPattern>
+			<unitPattern count="other">Fyrir {0} sekúndum síðan</unitPattern>
 		</unit>
 		<unit type="week">
+			<unitPattern count="0" alt="short">0 vikur</unitPattern>
+			<unitPattern count="1" alt="short">1 vika</unitPattern>
 			<unitPattern count="one">{0} vika</unitPattern>
-			<unitPattern count="other">{0} vikur</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} vikur</unitPattern>
+			<unitPattern count="other" alt="short">{0} vikur</unitPattern>
+		</unit>
+		<unit type="week-future">
+			<unitPattern count="0">Eftir 0 vikur</unitPattern>
+			<unitPattern count="1">Eftir eina viku</unitPattern>
+			<unitPattern count="other">Eftir {0} vikur</unitPattern>
+		</unit>
+		<unit type="week-past">
+			<unitPattern count="0">Fyrir 0 vikum síðan</unitPattern>
+			<unitPattern count="1">Fyrir einni viku síðan</unitPattern>
+			<unitPattern count="other">Fyrir {0} vikum síðan</unitPattern>
 		</unit>
 		<unit type="year">
+			<unitPattern count="0" alt="short">0 ár</unitPattern>
+			<unitPattern count="1" alt="short">1 ár</unitPattern>
 			<unitPattern count="one">{0} ár</unitPattern>
-			<unitPattern count="other">{0} ár</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} ár</unitPattern>
+			<unitPattern count="other" alt="short">{0} ár</unitPattern>
+		</unit>
+		<unit type="year-future">
+			<unitPattern count="0">Eftir 0 ár</unitPattern>
+			<unitPattern count="1">Eftir eitt ár</unitPattern>
+			<unitPattern count="other">Eftir {0} ár</unitPattern>
+		</unit>
+		<unit type="year-past">
+			<unitPattern count="0">Fyrir 0 árum síðan</unitPattern>
+			<unitPattern count="1">Fyrir einu ári síðan</unitPattern>
+			<unitPattern count="other">Fyrir {0} árum síðan</unitPattern>
 		</unit>
 	</units>
 	<listPatterns>
 		<listPattern>
-			<listPatternPart type="2">{0} og {1}</listPatternPart>
-			<listPatternPart type="end">{0} og {1}</listPatternPart>
+			<listPatternPart type="2" draft="contributed">{0} og {1}</listPatternPart>
+			<listPatternPart type="end" draft="contributed">{0} og {1}</listPatternPart>
 		</listPattern>
 	</listPatterns>
 	<posix>
 		<messages>
-			<yesstr>já:j</yesstr>
-			<nostr>nei:n</nostr>
+			<yesstr draft="contributed">já:j</yesstr>
+			<nostr draft="contributed">nei:n</nostr>
 		</messages>
 	</posix>
 </ldml>

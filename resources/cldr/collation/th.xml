@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
-	<identity>
-		<version number="$Revision: 5005 $"/>
-		<generation date="$Date: 2010-08-05 10:23:29 -0500 (Thu, 05 Aug 2010) $"/>
-		<language type="th" /> 
-	</identity>
-	<collations validSubLocales="th_TH">
-		<collation type="standard">
-			<settings normalization="on" />
-				<rules>
-				<reset before="primary">๏</reset>
-					<p>ฯ</p>
-					<p>ๆ</p>
-				<reset>๎</reset>
-					<s>์</s>
-				<reset>ฮ</reset>
-					<p>ํ</p>
-				<reset>า</reset>
-					<t>ๅ</t>
-				<reset>ไ</reset>
-					<p>ฺ</p>
-			</rules>
-		</collation>
-	</collations>
+        <identity>
+                <version number="$Revision: 5918 $"/>
+                <generation date="$Date: 2011-06-20 16:18:46 -0500 (Mon, 20 Jun 2011) $"/>
+                <language type="th" /> 
+        </identity>
+        <collations validSubLocales="th_TH">
+                <collation type="standard">
+                        <settings normalization="on" />
+                        <rules>
+                                <reset before="primary">๚</reset>
+                                <p>ฯ</p>
+                                <reset>๛</reset>
+                                <p>ๆ</p>
+                                <reset>๎</reset>
+                                <s>์</s>
+								<reset before="primary">ะ</reset>
+								<p>ํ</p>
+                                <reset>า</reset>
+                                <t>ๅ</t>
+								<reset>าํ</reset>
+								<t>ํา</t>
+								<t>ำ</t>
+								<reset>ๅํ</reset>
+								<t>ํๅ</t>
+                                <reset>ไ</reset>
+                                <p>ฺ</p>
+                        </rules>
+                </collation>
+        </collations>
 </ldml>

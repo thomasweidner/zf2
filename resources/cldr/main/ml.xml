@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 5094 $"/>
-		<generation date="$Date: 2010-10-13 11:33:36 -0500 (Wed, 13 Oct 2010) $"/>
+		<version number="$Revision: 5963 $"/>
+		<generation date="$Date: 2011-07-05 10:29:49 -0500 (Tue, 05 Jul 2011) $"/>
 		<language type="ml"/>
 	</identity>
 	<localeDisplayNames>
@@ -27,7 +27,7 @@
 			<language type="akk">അക്കാഡിയന്‍</language>
 			<language type="ale">അലൈട്ട്</language>
 			<language type="alg">അല്‍ഗോണ്‍ക്യന്‍ ഭാഷ</language>
-			<language type="alt">സതേണ്‍ അള്‍ട്ടായി</language>
+			<language type="alt" draft="contributed">സതേണ്‍ അള്‍ട്ടായി</language>
 			<language type="am">അമാറിക്</language>
 			<language type="an">അരഗോണീസ്</language>
 			<language type="ang">പഴയ ഇംഗ്ലീഷ്</language>
@@ -47,6 +47,7 @@
 			<language type="awa">അവധി</language>
 			<language type="ay">അയ്മാറ</language>
 			<language type="az">അസര്‍ബൈജാനി</language>
+			<language type="az" alt="short" draft="contributed">അസേരി</language>
 			<language type="ba">ബഷ്ഖിര്‍</language>
 			<language type="bad">ബന്‍ഡ</language>
 			<language type="bai">ബാമിലകേ ഭാഷ</language>
@@ -100,7 +101,7 @@
 			<language type="cop">കോപ്റ്റിക്</language>
 			<language type="cpe">ഇംഗ്ലീഷ് അധിഷ്ഠിത മിശ്ര ഭാഷ</language>
 			<language type="cpf">ഫ്രഞ്ച് അധിഷ്ഠിത മിശ്രഭാഷ</language>
-			<language type="cpp">പോര്‍ച്ചുഗീസ് അധിഷ്ടിത മിശ്ര ഭാഷ</language>
+			<language type="cpp" draft="contributed">പോര്‍ച്ചുഗീസ് അധിഷ്ടിത മിശ്ര ഭാഷ</language>
 			<language type="cr">ക്രീ</language>
 			<language type="crh">ക്രിമിയന്‍ ടര്‍ക്കിഷ്</language>
 			<language type="crp">മിശ്രഭാഷ</language>
@@ -223,7 +224,7 @@
 			<language type="is">ഐസ്‌ലാന്‍ഡിക്</language>
 			<language type="it">ഇറ്റാലിയന്‍</language>
 			<language type="iu">ഇനുക്റ്റിറ്റട്ട്</language>
-			<language type="ja">ജപ്പാനീസ്</language>
+			<language type="ja" draft="contributed">ജപ്പാനീസ്</language>
 			<language type="jbo">ലോജ്ബാന്‍</language>
 			<language type="jpr">ജൂഡിയോ-പേര്‍ഷ്യന്‍</language>
 			<language type="jrb">ജൂഡിയോ-അറബിക്</language>
@@ -335,7 +336,7 @@
 			<language type="new">നേവാരി</language>
 			<language type="ng">ഡോങ്ക</language>
 			<language type="nia">നിയാസ്</language>
-			<language type="nic">നൈ‍ജര്‍-കോര്‍‍ഡോഫാനിയന്‍</language>
+			<language type="nic" draft="contributed">നൈ‍ജര്‍-കോര്‍‍ഡോഫാനിയന്‍</language>
 			<language type="niu">ന്യുവാന്‍</language>
 			<language type="nl">ഡച്ച്</language>
 			<language type="nl_BE">ഫ്ലമിഷ്</language>
@@ -378,6 +379,7 @@
 			<language type="pra">പ്രാകൃതം</language>
 			<language type="pro">പ്രൊവന്‍ഷ്ല്‍</language>
 			<language type="ps">പഷ്തു</language>
+			<language type="ps" alt="variant" draft="contributed">പുഷ്തോ</language>
 			<language type="pt">പോര്‍ച്ചുഗീസ്</language>
 			<language type="pt_BR">ബ്രസീലിയന്‍ പോര്‍ച്ചുഗീസ്</language>
 			<language type="pt_PT">ഇബേറിയന്‍ പോര്‍ച്ചുഗീസ്</language>
@@ -422,7 +424,7 @@
 			<language type="sl">സ്ലോവേനിയന്‍</language>
 			<language type="sla">സ്ലേവിക് ഭാഷ</language>
 			<language type="sm">സമോവന്‍</language>
-			<language type="sma">സതേണ്‍ സമി</language>
+			<language type="sma" draft="contributed">സതേണ്‍ സമി</language>
 			<language type="smi">സമി ഭാഷ</language>
 			<language type="smj">ലൂലീ സമി</language>
 			<language type="smn">ഇനാരി സാമി</language>
@@ -445,7 +447,7 @@
 			<language type="sux">സുമേരിയന്‍</language>
 			<language type="sv">സ്വീഡിഷ്</language>
 			<language type="sw">സ്വാഹിലി</language>
-			<language type="swb">കൊമോറിയന്‍</language>
+			<language type="swb" draft="provisional">കൊമോറിയന്‍</language>
 			<language type="syc">പുരാതന സുറിയാനിഭാഷ</language>
 			<language type="syr">സുറിയാനി</language>
 			<language type="ta">തമിഴ്</language>
@@ -482,6 +484,7 @@
 			<language type="tyv">തുവിനിയന്‍</language>
 			<language type="udm">ഉഡ്മുര്‍ട്ട്</language>
 			<language type="ug">ഉയ്ഘുര്‍</language>
+			<language type="ug" alt="variant" draft="contributed">വിഗോര്‍</language>
 			<language type="uga">ഉഗറിട്ടിക്</language>
 			<language type="uk">ഉക്രേനിയന്‍</language>
 			<language type="umb">ഉംബുന്ദു</language>
@@ -507,7 +510,7 @@
 			<language type="yi">യിദ്ദിഷ്</language>
 			<language type="yo">യൊറൂബാ</language>
 			<language type="ypk">യുപിക്</language>
-			<language type="yue">കാന്റോണീസ്</language>
+			<language type="yue" draft="provisional">കാന്റോണീസ്</language>
 			<language type="za">സ്വാംഗ്</language>
 			<language type="zap">സാപ്പോടെക്</language>
 			<language type="zbl">ബ്ലിസ്സിംബല്‍സ്</language>
@@ -523,6 +526,7 @@
 		</languages>
 		<scripts>
 			<script type="Arab">അറബി</script>
+			<script type="Arab" alt="variant" draft="contributed">പേഴ്സോ-അറബിക്</script>
 			<script type="Armi">അര്‍മി</script>
 			<script type="Armn">അര്‍മേനിയന്‍</script>
 			<script type="Avst">അവെസ്ഥന്‍</script>
@@ -562,7 +566,9 @@
 			<script type="Hani">ഹാന്‍</script>
 			<script type="Hano">ഹനുനൂ</script>
 			<script type="Hans">പരിഷ്കൃത ഹാന്‍</script>
+			<script type="Hans" alt="stand-alone" draft="contributed">ലളിതവല്‍ക്കരിച്ച ഹാന്‍</script>
 			<script type="Hant">പരമ്പരാഗത ഹാന്‍</script>
+			<script type="Hant" alt="stand-alone" draft="contributed">പരമ്പരാഗത ഹാന്‍</script>
 			<script type="Hebr">ഹീബ്രു</script>
 			<script type="Hira">ഹിരാഗാന</script>
 			<script type="Hmng">പഹ്വാ ഹമോംഗ്</script>
@@ -688,7 +694,7 @@
 			<territory type="200">ചെക്കോസ്ലോവാക്യ</territory>
 			<territory type="419">ലാറ്റിനമേരിക്കയും കരീബിയനും</territory>
 			<territory type="830">ചാനല്‍ ദ്വീപുകള്‍</territory>
-			<territory type="AC">അസന്‍ഷ്യന്‍ ദ്വീപ്</territory>
+			<territory type="AC" draft="contributed">അസന്‍ഷന്‍ ദ്വീപ്</territory>
 			<territory type="AD">അന്‍റോറ</territory>
 			<territory type="AE">സംയുക്ത അറബ് രാഷ്ട്രം</territory>
 			<territory type="AF">അഫ്ഗാനിസ്ഥാന്‍</territory>
@@ -729,19 +735,19 @@
 			<territory type="CA">കാനഡ</territory>
 			<territory type="CC">കോക്കസ്</territory>
 			<territory type="CD">കോംഗോ - കിന്‍ഷാസ</territory>
-			<territory type="CD" alt="variant">കോംഗോ [ഡിആര്‍സി]</territory>
+			<territory type="CD" alt="variant" draft="contributed">കോംഗോ [DRC]</territory>
 			<territory type="CF">സെന്‍ട്രല്‍ ആഫ്രിക്കന്‍ റിപ്പബ്ലിക്</territory>
 			<territory type="CG">കോംഗോ - ബ്രാസാവില്‍</territory>
-			<territory type="CG" alt="variant">കോംഗോ [റിപ്പബ്ലിക്]</territory>
+			<territory type="CG" alt="variant" draft="contributed">കോംഗോ [റിപ്പബ്ലിക്ക്]</territory>
 			<territory type="CH">സ്വിറ്റ്സര്‍ലാന്‍ഡ്</territory>
 			<territory type="CI">ഐവറി കോസ്റ്റ്</territory>
-			<territory type="CI" alt="variant">ഐവറി കോസ്റ്റ്</territory>
+			<territory type="CI" alt="variant" draft="contributed">ഐവറി കോസ്റ്റ്</territory>
 			<territory type="CK">കൂക്ക് ദ്വീപുകള്‍</territory>
 			<territory type="CL">ചിലി</territory>
 			<territory type="CM">കാമറൂണ്‍</territory>
 			<territory type="CN">ചൈന</territory>
 			<territory type="CO">കൊളംബിയ</territory>
-			<territory type="CP">ക്ലിപ്പേര്‍ട്ടണ്‍ ദ്വീപ്</territory>
+			<territory type="CP" draft="contributed">ക്ലിപ്പെര്‍ട്ടന്‍ ദ്വീപ്</territory>
 			<territory type="CR">കോസ്റ്ററിക്ക</territory>
 			<territory type="CS">സെര്‍ബിയയും മോണ്ടനേഗ്രോയും</territory>
 			<territory type="CU">ക്യൂബ</territory>
@@ -750,13 +756,13 @@
 			<territory type="CY">സൈപ്രസ്സ്</territory>
 			<territory type="CZ">ചെക്ക് റിപ്പബ്ലിക്</territory>
 			<territory type="DE">ജര്‍മനി</territory>
-			<territory type="DG">ദിയേഗോ ഗാഴ്സിയ</territory>
+			<territory type="DG" draft="contributed">ഡീഗോ ഗ്രാഷ്യ</territory>
 			<territory type="DJ">ജിബൂട്ടി</territory>
 			<territory type="DK">ഡെന്‍മാര്‍ക്ക്</territory>
 			<territory type="DM">ഡൊമിനിക്ക</territory>
 			<territory type="DO">ഡൊമിനിക്കന്‍ റിപ്പബ്ലിക്</territory>
 			<territory type="DZ">അള്‍ജീരിയ</territory>
-			<territory type="EA">സൊയൂട്ടാ ആന്റ് മെലില്ല</territory>
+			<territory type="EA" draft="contributed">സെയൂത്ത ആന്‍ഡ് മെലിയ</territory>
 			<territory type="EC">ഇക്വഡോര്‍</territory>
 			<territory type="EE">എസ്റ്റോണിയ‍</territory>
 			<territory type="EG">ഈജിപ്ത്</territory>
@@ -768,7 +774,7 @@
 			<territory type="FI">ഫിന്‍ലാന്‍ഡ്</territory>
 			<territory type="FJ">ഫിജി</territory>
 			<territory type="FK">ഫാക്ക്‌ലാന്റ് ഐലന്റ്</territory>
-			<territory type="FK" alt="variant">ഫാക്ക്‌ലാന്‍റ് ഐലന്റ്സ് [ഐല്‍സ് മാല്‍വിനാസ്]</territory>
+			<territory type="FK" alt="variant" draft="contributed">ഫോക്ക്‍ലന്‍ഡ് ദ്വീപുകള്‍ [മല്‍വിനാസ്]</territory>
 			<territory type="FM">മൈക്രോനേഷ്യ</territory>
 			<territory type="FO">ഫറോയി ദ്വീപുകള്‍</territory>
 			<territory type="FR">ഫ്രാന്‍സ്</territory>
@@ -798,7 +804,7 @@
 			<territory type="HR">ക്രൊയേഷ്യ</territory>
 			<territory type="HT">ഹെയ്തി</territory>
 			<territory type="HU">ഹംഗറി</territory>
-			<territory type="IC">കാനറി ദ്വീപുകള്‍</territory>
+			<territory type="IC" draft="contributed">കാനറി ദ്വീപുകള്‍</territory>
 			<territory type="ID">ഇന്‍ഡോനേഷ്യ</territory>
 			<territory type="IE">അയര്‍ലാന്‍ഡ്</territory>
 			<territory type="IL">ഇസ്രായേല്‍</territory>
@@ -843,7 +849,7 @@
 			<territory type="MG">മഡഗാസ്കര്‍</territory>
 			<territory type="MH">മാര്‍ഷല്‍‍‍ ദ്വീപുകള്‍</territory>
 			<territory type="MK">മാസിഡോണിയ</territory>
-			<territory type="MK" alt="variant">മാസിഡോണിയ [ഫൈറോം]</territory>
+			<territory type="MK" alt="variant" draft="contributed">മക്കഡോണിയ [FYROM]</territory>
 			<territory type="ML">മാലി</territory>
 			<territory type="MM">മ്യാന്‍മാര്‍</territory>
 			<territory type="MN">മംഗോളിയ</territory>
@@ -913,7 +919,7 @@
 			<territory type="SV">എല്‍ സാല്‍വദോര്‍</territory>
 			<territory type="SY">സിറിയ</territory>
 			<territory type="SZ">സ്വാസിലാന്‍റ്</territory>
-			<territory type="TA">ട്രിസ്റ്റന്‍ ഡാ കുനാ</territory>
+			<territory type="TA" draft="contributed">ട്രസ്റ്റന്‍ ഡ കൂന</territory>
 			<territory type="TC">ടര്‍ക്ക്സും കൈക്കോ ദ്വീപുകളും</territory>
 			<territory type="TD">ചാഡ്</territory>
 			<territory type="TF">ഫ്രഞ്ച് ദക്ഷിണ ഭൂപ്രദേശം</territory>
@@ -922,7 +928,7 @@
 			<territory type="TJ">താജിക്കിസ്ഥാന്‍</territory>
 			<territory type="TK">ടൊകെലാവു</territory>
 			<territory type="TL">കിഴക്കന്‍ തിമൂര്‍</territory>
-			<territory type="TL" alt="variant">കിഴക്കന്‍ തിമൂര്‍</territory>
+			<territory type="TL" alt="variant" draft="contributed">കിഴക്കന്‍ തിമോര്‍</territory>
 			<territory type="TM">തുര്‍ക്ക്മെനിസ്ഥാന്‍</territory>
 			<territory type="TN">ടുണീഷ്യ</territory>
 			<territory type="TO">ടോംഗ</territory>
@@ -962,36 +968,93 @@
 			<variant type="MONOTON">മോണോറ്റോണിക്</variant>
 			<variant type="NEDIS">നേറ്റിസോണ്‍ പ്രാദേശികരൂപം</variant>
 			<variant type="NJIVA">ഗ്നിവ/നിജിവ പ്രാദേശികരൂപം</variant>
-			<variant type="PINYIN">പിന്‍യിന്‍ റോമനൈസേഷന്‍</variant>
+			<variant type="PINYIN" draft="provisional">പിന്‍യിന്‍ റോമനൈസേഷന്‍</variant>
 			<variant type="POSIX">കമ്പ്യൂട്ടര്‍</variant>
 			<variant type="REVISED">പരിഷ്ക്കരിച്ച ലിപി</variant>
-			<variant type="WADEGILE">വേഡ്-ഗൈല്‍സ് റോമനൈസേഷന്‍</variant>
+			<variant type="WADEGILE" draft="provisional">വേഡ്-ഗൈല്‍സ് റോമനൈസേഷന്‍</variant>
 		</variants>
 		<keys>
 			<key type="calendar">കലണ്ടര്‍</key>
 			<key type="collation">അകാരാദിക്രമം</key>
 			<key type="currency">നാണയം</key>
+			<key type="numbers" draft="contributed">അക്കങ്ങള്‍‌</key>
+			<key type="x" draft="contributed">സ്വകാര്യ ഉപയോഗം</key>
 		</keys>
 		<types>
+			<type type="arab" key="numbers" draft="contributed">അറബിക്-ഇന്ത്യ അക്കങ്ങള്‍</type>
+			<type type="arabext" key="numbers" draft="contributed">വിപുലീകരിച്ച അറബി-ഭാരതീയ അക്കങ്ങള്‍</type>
+			<type type="armn" key="numbers" draft="contributed">അര്‍മേനിയന്‍ സംഖ്യകള്‍</type>
+			<type type="armnlow" key="numbers" draft="contributed">അര്‍മേനിയന്‍ ചെറിയ സംഖ്യകള്‍</type>
+			<type type="beng" key="numbers" draft="contributed">ബംഗാളി അക്കങ്ങള്‍</type>
 			<type type="big5han" key="collation">പരമ്പരാഗത ചൈനീസ് ക്രമീകരണം - ബിഗ്5</type>
 			<type type="buddhist" key="calendar">ബുദ്ധമതകലണ്ടര്‍</type>
 			<type type="chinese" key="calendar">ചൈനീസ് കലണ്ടര്‍</type>
+			<type type="coptic" key="calendar" draft="contributed">കോപ്റ്റിക് കലണ്ടര്‍</type>
+			<type type="deva" key="numbers" draft="contributed">ദേവനാഗരി അക്കങ്ങള്‍</type>
+			<type type="dictionary" key="collation" draft="contributed">നിഘണ്ടു അടുക്കല്‍ ക്രമം</type>
 			<type type="direct" key="collation">പ്രത്യക്ഷക്രമീകരണം</type>
+			<type type="ducet" key="collation" draft="contributed">സ്ഥിരസ്ഥിതി യൂണീകോഡ് അടുക്കല്‍ ക്രമം</type>
+			<type type="ethi" key="numbers" draft="contributed">എത്യോപിക് സംഖ്യകള്‍</type>
+			<type type="ethiopic" key="calendar" draft="contributed">എത്യോപിക് കലണ്ടര്‍</type>
+			<type type="ethiopic-amete-alem" key="calendar" draft="contributed">എത്യോപിക് അമെതെ അലെം കലണ്ടര്‍</type>
+			<type type="fullwide" key="numbers" draft="contributed">പൂര്‍ണ വലുപ്പമുള്ള സംഖ്യകള്‍</type>
 			<type type="gb2312han" key="collation">ലളിതമായ ചൈനീസ് ക്രമീകരണം - ജീബി2312</type>
+			<type type="geor" key="numbers" draft="contributed">ജോര്‍ജിയന്‍ സംഖ്യകള്‍</type>
 			<type type="gregorian" key="calendar">ഇംഗ്ലീഷ് കലണ്ടര്‍</type>
+			<type type="grek" key="numbers" draft="contributed">ഗ്രീക്ക് സംഖ്യകള്‍</type>
+			<type type="greklow" key="numbers" draft="contributed">ഗ്രീക്ക് ചെറിയക്ഷര സംഖ്യകള്‍</type>
+			<type type="gujr" key="numbers" draft="contributed">ഗുജറാത്തി അക്കങ്ങള്‍</type>
+			<type type="guru" key="numbers" draft="contributed">ഗുരുമുഖി അക്കങ്ങള്‍</type>
+			<type type="hanidec" key="numbers" draft="contributed">ചൈനീസ്</type>
+			<type type="hans" key="numbers" draft="contributed">ലളിതവല്‍ക്കരിച്ച ചൈനീസ് സംഖ്യകള്‍</type>
+			<type type="hansfin" key="numbers" draft="contributed">ലളിതവല്‍ക്കരിച്ച ചൈനീസ് ധനകാര്യ സംഖ്യകള്‍</type>
+			<type type="hant" key="numbers" draft="contributed">പരമ്പരാഗത ചൈനീസ് സംഖ്യകള്‍</type>
+			<type type="hantfin" key="numbers" draft="contributed">പരമ്പരാഗത ചൈനീസ് ധനകാര്യ സംഖ്യകള്‍</type>
+			<type type="hebr" key="numbers" draft="contributed">ഹീബ്രു സംഖ്യകള്‍</type>
 			<type type="hebrew" key="calendar">ഹീബ്രൂ കലണ്ടര്‍</type>
 			<type type="indian" key="calendar">ശകവര്‍ഷ കലണ്ടര്‍</type>
 			<type type="islamic" key="calendar">ഇസ്ലാം കലണ്ടര്‍</type>
 			<type type="islamic-civil" key="calendar">ഇസ്ലാം-സിവില്‍ കലണ്ടര്‍</type>
 			<type type="japanese" key="calendar">ജാപ്പനീസ് കലണ്ടര്‍</type>
+			<type type="jpan" key="numbers" draft="contributed">ജപ്പാനീസ്സ് സംഖ്യകള്‍</type>
+			<type type="jpanfin" key="numbers" draft="contributed">ജപ്പാനീസ് ധനകാര്യ സംഖ്യകള്‍</type>
+			<type type="khmr" key="numbers" draft="contributed">ഖമേര്‍ അക്കങ്ങള്‍</type>
+			<type type="knda" key="numbers" draft="contributed">കന്നഡ സംഖ്യകള്‍</type>
+			<type type="laoo" key="numbers" draft="contributed">ലാവോ അക്കങ്ങള്‍</type>
+			<type type="latn" key="numbers" draft="contributed">പടിഞ്ഞാറന്‍ അക്കങ്ങള്‍</type>
+			<type type="mlym" key="numbers" draft="contributed">മലയാളം അക്കങ്ങള്‍</type>
+			<type type="mong" key="numbers" draft="contributed">മംഗോളിയന്‍ സംഖ്യകള്‍</type>
+			<type type="mymr" key="numbers" draft="contributed">മ്യാന്മാര്‍ അക്കങ്ങള്‍</type>
+			<type type="orya" key="numbers" draft="contributed">ഒറിയ അക്കങ്ങള്‍</type>
+			<type type="persian" key="calendar" draft="contributed">പേര്‍ഷ്യന്‍ കലണ്ടര്‍</type>
 			<type type="phonebook" key="collation">ഫോണ്‍ബുക്കിലെ ക്രമീകരണം</type>
 			<type type="pinyin" key="collation">പിന്‍‌യിന്‍ ക്രമീകരണം</type>
+			<type type="reformed" key="collation" draft="contributed">നവീകരിച്ച അടുക്കല്‍ ക്രമം</type>
 			<type type="roc" key="calendar">ചൈനീസ് കലണ്ടര്‍</type>
+			<type type="roman" key="numbers" draft="contributed">റോമന്‍ സംഖ്യകള്‍</type>
+			<type type="romanlow" key="numbers" draft="contributed">റോമന്‍ ചെറിയ സംഖ്യകള്‍</type>
+			<type type="search" key="collation" draft="contributed">പൊതുലക്ഷ്യത്തിനുള്ള തിരയല്‍</type>
 			<type type="stroke" key="collation">സ്റ്റ്രോക്ക് ക്രമീകരണം</type>
+			<type type="taml" key="numbers" draft="contributed">തമിഴ് സംഖ്യകള്‍</type>
+			<type type="telu" key="numbers" draft="contributed">തെലുങ്ക് സംഖ്യകള്‍</type>
+			<type type="thai" key="numbers" draft="contributed">തായി അക്കങ്ങള്‍</type>
+			<type type="tibt" key="numbers" draft="contributed">തിബത്തന്‍ അക്കങ്ങള്‍</type>
 			<type type="traditional" key="collation">പരമ്പരാഗത ക്രമീകരണം</type>
+			<type type="unihan" key="collation" draft="contributed">റാഡിക്കല്‍-സ്ട്രോക്ക് അടുക്കല്‍ ക്രമം</type>
 		</types>
+		<transformNames>
+			<transformName type="Numeric" draft="contributed">സംഖ്യാപരമായ</transformName>
+			<transformName type="Tone" draft="contributed">ശബ്ദം</transformName>
+			<transformName type="x-Accents" draft="contributed">ആക്‍സന്‍റുകള്‍‌</transformName>
+			<transformName type="x-Fullwidth" draft="contributed">പൂര്‍ണവീതി</transformName>
+			<transformName type="x-Halfwidth" draft="contributed">ഹാഫ്‍വിഡ്ത്ത്</transformName>
+			<transformName type="x-Jamo" draft="contributed">ജാമോ</transformName>
+			<transformName type="x-Pinyin" draft="contributed">പിന്‍യിന്‍</transformName>
+			<transformName type="x-Publishing" draft="contributed">പ്രസിദ്ധീകരിക്കുന്നു</transformName>
+		</transformNames>
 		<measurementSystemNames>
 			<measurementSystemName type="metric">മെട്രിക്ക്</measurementSystemName>
+			<measurementSystemName type="UK" draft="contributed">യുകെ</measurementSystemName>
 			<measurementSystemName type="US">യുഎസ്സ്</measurementSystemName>
 		</measurementSystemNames>
 		<codePatterns>
@@ -1001,10 +1064,13 @@
 		</codePatterns>
 	</localeDisplayNames>
 	<characters>
-		<exemplarCharacters>[\u200C \u200D ഃ അ ആ ഇ ഈ ഉ ഊ ഋ ൠ ഌ ൡ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ ഢ ണ ത ഥ ദ ധ ന പ ഫ ബ ഭ മ ം യ ര ല വ ശ ഷ സ ഹ ള ഴ റ ാ ി ീ \u0D41 \u0D42 \u0D43 െ േ ൈ ൊ ോ ൗ ൌ \u0D4D]</exemplarCharacters>
-		<exemplarCharacters type="auxiliary">[a b c d e f g h i j k l m n o p q r s t u v w x y z]</exemplarCharacters>
+		<exemplarCharacters>[\u200C\u200D ഃ അ ആ ഇ ഈ ഉ ഊ ഋ ൠ ഌ ൡ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ ഢ ണ ത ഥ ദ ധ ന പ ഫ ബ ഭ മ ം യ ര ല വ ശ ഷ സ ഹ ള ഴ റ ാ ി ീ \u0D41 \u0D42 \u0D43 െ േ ൈ ൊ ോ ൗ ൌ \u0D4D]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[]</exemplarCharacters>
 		<exemplarCharacters type="currencySymbol">[a b c d e f g h i j k l m n o p q r s t u v w x y z]</exemplarCharacters>
-		<exemplarCharacters type="index">[അ ആ ഇ ഈ ഉ ഊ ഋ ൠ ഌ ൡ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ ഢ ണ ത ഥ ദ ധ ന പ ഫ ബ ഭ മ യ ര ല വ ശ ഷ സ ഹ ള ഴ റ]</exemplarCharacters>
+		<exemplarCharacters type="index" draft="contributed">[അ ആ ഇ ഈ ഉ ഊ ഋ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ ഢ ണ ത ഥ ദ ധ ന പ ഫ ബ ഭ മ യ ര ല വ ശ ഷ സ ഹ ള ഴ റ]</exemplarCharacters>
+		<stopwords>
+			<stopwordList type="collation" draft="provisional">ഒരു ഈ</stopwordList>
+		</stopwords>
 	</characters>
 	<delimiters>
 		<quotationStart>“</quotationStart>
@@ -1104,11 +1170,25 @@
 							<quarter type="3">Q3</quarter>
 							<quarter type="4">Q4</quarter>
 						</quarterWidth>
+						<quarterWidth type="narrow">
+							<quarter type="1" draft="contributed">1</quarter>
+							<quarter type="2" draft="contributed">2</quarter>
+							<quarter type="3" draft="contributed">3</quarter>
+							<quarter type="4" draft="contributed">4</quarter>
+						</quarterWidth>
 						<quarterWidth type="wide">
 							<quarter type="1">ഒന്നാം പാദം</quarter>
 							<quarter type="2">രണ്ടാം പാദം</quarter>
 							<quarter type="3">മൂന്നാം പാദം</quarter>
 							<quarter type="4">നാലാം പാദം</quarter>
+						</quarterWidth>
+					</quarterContext>
+					<quarterContext type="stand-alone">
+						<quarterWidth type="abbreviated">
+							<quarter type="1" draft="contributed">Q1</quarter>
+							<quarter type="2" draft="contributed">Q2</quarter>
+							<quarter type="3" draft="contributed">Q3</quarter>
+							<quarter type="4" draft="contributed">Q4</quarter>
 						</quarterWidth>
 					</quarterContext>
 				</quarters>
@@ -1191,8 +1271,10 @@
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">y</dateFormatItem>
 						<dateFormatItem id="yM">M-y</dateFormatItem>
+						<dateFormatItem id="yMd" draft="contributed">d/M/y</dateFormatItem>
 						<dateFormatItem id="yMEd">d-M-yyyy, EEE</dateFormatItem>
 						<dateFormatItem id="yMMM">y MMM</dateFormatItem>
+						<dateFormatItem id="yMMMd" draft="contributed">y MMM d</dateFormatItem>
 						<dateFormatItem id="yMMMEd">y MMM d, EEE</dateFormatItem>
 						<dateFormatItem id="yMMMM">y MMMM</dateFormatItem>
 						<dateFormatItem id="yQ">yyyy Q</dateFormatItem>
@@ -1292,22 +1374,29 @@
 					</field>
 					<field type="year">
 						<displayName>വര്‍ഷം</displayName>
+						<relative type="-1" draft="contributed">കഴിഞ്ഞ വര്‍ഷം</relative>
+						<relative type="0" draft="contributed">ഈ വര്‍‌ഷം</relative>
+						<relative type="1" draft="contributed">അടുത്തവര്‍ഷം</relative>
 					</field>
 					<field type="month">
 						<displayName>മാസം</displayName>
+						<relative type="-1" draft="contributed">കഴിഞ്ഞ മാസം</relative>
+						<relative type="0" draft="contributed">ഈ മാസം</relative>
+						<relative type="1" draft="contributed">അടുത്ത മാസം</relative>
 					</field>
 					<field type="week">
 						<displayName>ആഴ്ച</displayName>
+						<relative type="-1" draft="contributed">കഴിഞ്ഞ ആഴ്‌ച</relative>
+						<relative type="0" draft="contributed">ഈ ആഴ്ച</relative>
+						<relative type="1" draft="contributed">അടുത്ത ആഴ്ച</relative>
 					</field>
 					<field type="day">
 						<displayName>ദിവസം</displayName>
-						<relative type="-3">മൂന്നുദിവസം മുന്പ്</relative>
 						<relative type="-2">മിനിഞ്ഞാന്ന്</relative>
 						<relative type="-1">ഇന്നലെ</relative>
 						<relative type="0">ഇന്ന്</relative>
 						<relative type="1">നാളെ</relative>
 						<relative type="2">മറ്റന്നാള്‍</relative>
-						<relative type="3">ഇന്നേയ്ക്ക് മൂന്നാം പക്കം</relative>
 					</field>
 					<field type="weekday">
 						<displayName>ആഴ്ചയിലെ ദിവസം</displayName>
@@ -1374,40 +1463,40 @@
 				<months>
 					<monthContext type="format">
 						<monthWidth type="wide">
-							<month type="1">മുഹറം</month>
-							<month type="2">സഫര്‍</month>
-							<month type="3">റബീഹുല്‍ അവ്വല്‍</month>
-							<month type="4">റബീഹുല്‍ ആഖിര്‍</month>
-							<month type="5">ജമാദുല്‍ അവ്വല്‍</month>
-							<month type="6">ജമാദുല്‍ ആഖിര്‍</month>
-							<month type="7">റജബ്</month>
-							<month type="8">ശഹബാന്‍</month>
-							<month type="9">റമളാന്‍</month>
-							<month type="10">ശവ്വാല്‍</month>
-							<month type="11">ദുല്‍ ഖഹദ്</month>
-							<month type="12">ദുല്‍ ഹിജ്ജ</month>
+							<month type="1" draft="contributed">മുഹറം</month>
+							<month type="2" draft="contributed">സഫര്‍</month>
+							<month type="3" draft="contributed">റബീഹുല്‍ അവ്വല്‍</month>
+							<month type="4" draft="contributed">റബീഹുല്‍ ആഖിര്‍</month>
+							<month type="5" draft="contributed">ജമാദുല്‍ അവ്വല്‍</month>
+							<month type="6" draft="contributed">ജമാദുല്‍ ആഖിര്‍</month>
+							<month type="7" draft="contributed">റജബ്</month>
+							<month type="8" draft="contributed">ശഹബാന്‍</month>
+							<month type="9" draft="contributed">റമളാന്‍</month>
+							<month type="10" draft="contributed">ശവ്വാല്‍</month>
+							<month type="11" draft="contributed">ദുല്‍ ഖഹദ്</month>
+							<month type="12" draft="contributed">ദുല്‍ ഹിജ്ജ</month>
 						</monthWidth>
 					</monthContext>
 					<monthContext type="stand-alone">
 						<monthWidth type="narrow">
-							<month type="1">മു</month>
-							<month type="2">സ</month>
-							<month type="3">റ-അ</month>
-							<month type="4">റ-ആ</month>
-							<month type="5">ജ-അ</month>
-							<month type="6">ജ-ആ</month>
-							<month type="7">റ</month>
-							<month type="8">ശ</month>
-							<month type="9">റ</month>
-							<month type="10">ശ</month>
-							<month type="11">ദു</month>
-							<month type="12">ദു-ഹി</month>
+							<month type="1" draft="contributed">മു</month>
+							<month type="2" draft="contributed">സ</month>
+							<month type="3" draft="contributed">റ</month>
+							<month type="4" draft="contributed">റ</month>
+							<month type="5" draft="contributed">ജ</month>
+							<month type="6" draft="contributed">ജ</month>
+							<month type="7" draft="contributed">റ</month>
+							<month type="8" draft="contributed">ശ</month>
+							<month type="9" draft="contributed">റ</month>
+							<month type="10" draft="contributed">ശ</month>
+							<month type="11" draft="contributed">ദു</month>
+							<month type="12" draft="contributed">ദു</month>
 						</monthWidth>
 					</monthContext>
 				</months>
 				<eras>
 					<eraAbbr>
-						<era type="0">ഹിജറ</era>
+						<era type="0" draft="contributed">ഹിജറ</era>
 					</eraAbbr>
 				</eras>
 			</calendar>
@@ -1417,8 +1506,39 @@
 			<gmtFormat>GMT{0}</gmtFormat>
 			<regionFormat>{0} സമയം</regionFormat>
 			<fallbackFormat>{1} ({0})</fallbackFormat>
+			<fallbackRegionFormat draft="contributed">{1} സമയം ({0})</fallbackRegionFormat>
+			<zone type="America/North_Dakota/Beulah">
+				<exemplarCity draft="contributed">ബ്യൂല, വടക്കന്‍ ഡെക്കോട്ട</exemplarCity>
+			</zone>
 			<zone type="Etc/Unknown">
 				<exemplarCity>അറിയപ്പെടാത്ത നഗരം</exemplarCity>
+			</zone>
+			<zone type="Europe/Andorra">
+				<exemplarCity draft="contributed">അണ്ടോറ</exemplarCity>
+			</zone>
+			<zone type="Asia/Dubai">
+				<exemplarCity draft="contributed">ദുബായ്</exemplarCity>
+			</zone>
+			<zone type="Asia/Kabul">
+				<exemplarCity draft="contributed">കാബൂള്‍</exemplarCity>
+			</zone>
+			<zone type="America/Antigua">
+				<exemplarCity draft="contributed">ആന്‍റിഗ്വ</exemplarCity>
+			</zone>
+			<zone type="America/Anguilla">
+				<exemplarCity draft="contributed">ആന്‍ഗ്വില്ല</exemplarCity>
+			</zone>
+			<zone type="Europe/Tirane">
+				<exemplarCity draft="contributed">ടിരാനെ</exemplarCity>
+			</zone>
+			<zone type="Asia/Yerevan">
+				<exemplarCity draft="contributed">യേരവന്‍‌</exemplarCity>
+			</zone>
+			<zone type="America/Curacao">
+				<exemplarCity draft="contributed">കുറാക്കാവോ</exemplarCity>
+			</zone>
+			<zone type="Africa/Luanda">
+				<exemplarCity draft="contributed">ലുവാന്‍ഡ</exemplarCity>
 			</zone>
 			<zone type="Antarctica/Rothera">
 				<exemplarCity>റൊതീറ</exemplarCity>
@@ -1471,6 +1591,9 @@
 			<zone type="America/Catamarca">
 				<exemplarCity>‍ക്യാറ്റമാര്‍ക്ക</exemplarCity>
 			</zone>
+			<zone type="America/Argentina/Salta">
+				<exemplarCity draft="contributed">സാല്‍ട്ട</exemplarCity>
+			</zone>
 			<zone type="America/Jujuy">
 				<exemplarCity>ജുജുയ്</exemplarCity>
 			</zone>
@@ -1482,6 +1605,12 @@
 			</zone>
 			<zone type="America/Buenos_Aires">
 				<exemplarCity>ബ്യൂനസ് ഐറിസ്</exemplarCity>
+			</zone>
+			<zone type="Pacific/Pago_Pago">
+				<exemplarCity draft="contributed">പാഗോ പോഗോ</exemplarCity>
+			</zone>
+			<zone type="Europe/Vienna">
+				<exemplarCity draft="contributed">വിയന്ന</exemplarCity>
 			</zone>
 			<zone type="Australia/Perth">
 				<exemplarCity>പെര്‍ത്ത്</exemplarCity>
@@ -1519,6 +1648,54 @@
 			<zone type="Australia/Lord_Howe">
 				<exemplarCity>ലോഡ് ഹോവ്</exemplarCity>
 			</zone>
+			<zone type="America/Aruba">
+				<exemplarCity draft="contributed">അറൂബ</exemplarCity>
+			</zone>
+			<zone type="Europe/Mariehamn">
+				<exemplarCity draft="contributed">മരിയാഹാമന്‍</exemplarCity>
+			</zone>
+			<zone type="Asia/Baku">
+				<exemplarCity draft="contributed">ബാക്കു</exemplarCity>
+			</zone>
+			<zone type="Europe/Sarajevo">
+				<exemplarCity draft="contributed">സരയേവോ</exemplarCity>
+			</zone>
+			<zone type="America/Barbados">
+				<exemplarCity draft="contributed">ബാര്‍ബഡോസ്</exemplarCity>
+			</zone>
+			<zone type="Asia/Dhaka">
+				<exemplarCity draft="contributed">ധാക്ക</exemplarCity>
+			</zone>
+			<zone type="Europe/Brussels">
+				<exemplarCity draft="contributed">ബ്രസ്സല്‍‌സ്</exemplarCity>
+			</zone>
+			<zone type="Africa/Ouagadougou">
+				<exemplarCity draft="contributed">ഔഗാദൌഗൌ</exemplarCity>
+			</zone>
+			<zone type="Europe/Sofia">
+				<exemplarCity draft="contributed">സോഫിയ</exemplarCity>
+			</zone>
+			<zone type="Asia/Bahrain">
+				<exemplarCity draft="contributed">ബഹ്റിന്‍</exemplarCity>
+			</zone>
+			<zone type="Africa/Bujumbura">
+				<exemplarCity draft="contributed">ബുജും‌ബുര</exemplarCity>
+			</zone>
+			<zone type="Africa/Porto-Novo">
+				<exemplarCity draft="contributed">പോര്‍‌ട്ടോ-നോവോ</exemplarCity>
+			</zone>
+			<zone type="America/St_Barthelemy">
+				<exemplarCity draft="contributed">സെന്‍റ് ബര്‍ത്തലെമി</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Bermuda">
+				<exemplarCity draft="contributed">ബര്‍മുഡ</exemplarCity>
+			</zone>
+			<zone type="Asia/Brunei">
+				<exemplarCity draft="contributed">ബ്രൂണൈ</exemplarCity>
+			</zone>
+			<zone type="America/La_Paz">
+				<exemplarCity draft="contributed">ലാ പാസ്</exemplarCity>
+			</zone>
 			<zone type="America/Eirunepe">
 				<exemplarCity>യെറുനീപ്പെ</exemplarCity>
 			</zone>
@@ -1536,6 +1713,9 @@
 			</zone>
 			<zone type="America/Cuiaba">
 				<exemplarCity>കുയ്ബ</exemplarCity>
+			</zone>
+			<zone type="America/Santarem">
+				<exemplarCity draft="contributed">സാന്‍ററെം</exemplarCity>
 			</zone>
 			<zone type="America/Campo_Grande">
 				<exemplarCity>ക്യാന്പോ ഗ്രാന്‍ഡെ</exemplarCity>
@@ -1563,6 +1743,21 @@
 			</zone>
 			<zone type="America/Noronha">
 				<exemplarCity>നൊറോന</exemplarCity>
+			</zone>
+			<zone type="America/Nassau">
+				<exemplarCity draft="contributed">നസ്സാവു</exemplarCity>
+			</zone>
+			<zone type="Asia/Thimphu">
+				<exemplarCity draft="contributed">തിംഫു</exemplarCity>
+			</zone>
+			<zone type="Africa/Gaborone">
+				<exemplarCity draft="contributed">ഗാബൊറോണ്‍‌</exemplarCity>
+			</zone>
+			<zone type="Europe/Minsk">
+				<exemplarCity draft="contributed">മിന്‍‌സ്ക്</exemplarCity>
+			</zone>
+			<zone type="America/Belize">
+				<exemplarCity draft="contributed">ബെലീസ്</exemplarCity>
 			</zone>
 			<zone type="America/Dawson">
 				<exemplarCity>ഡോവ്സണ്‍</exemplarCity>
@@ -1645,14 +1840,38 @@
 			<zone type="America/St_Johns">
 				<exemplarCity>സെയ്ന്‍റ് ജോണ്‍സ്</exemplarCity>
 			</zone>
+			<zone type="Indian/Cocos">
+				<exemplarCity draft="contributed">കോക്കോസ്</exemplarCity>
+			</zone>
 			<zone type="Africa/Kinshasa">
 				<exemplarCity>കിന്‍ഷാസ</exemplarCity>
 			</zone>
 			<zone type="Africa/Lubumbashi">
 				<exemplarCity>ലൂബുംബാഷി</exemplarCity>
 			</zone>
+			<zone type="Africa/Bangui">
+				<exemplarCity draft="contributed">ബംഗുയി</exemplarCity>
+			</zone>
+			<zone type="Africa/Brazzaville">
+				<exemplarCity draft="contributed">ബ്രാസവില്‍</exemplarCity>
+			</zone>
+			<zone type="Europe/Zurich">
+				<exemplarCity draft="contributed">സൂറിച്ച്</exemplarCity>
+			</zone>
+			<zone type="Africa/Abidjan">
+				<exemplarCity draft="contributed">അബിദ്‌ജാന്‍‌</exemplarCity>
+			</zone>
+			<zone type="Pacific/Rarotonga">
+				<exemplarCity draft="contributed">റാരോടോംഗ</exemplarCity>
+			</zone>
 			<zone type="Pacific/Easter">
 				<exemplarCity>ഈസ്റ്റര്‍</exemplarCity>
+			</zone>
+			<zone type="America/Santiago">
+				<exemplarCity draft="contributed">സാന്‍റിയാഗോ</exemplarCity>
+			</zone>
+			<zone type="Africa/Douala">
+				<exemplarCity draft="contributed">ഡൌല</exemplarCity>
 			</zone>
 			<zone type="Asia/Kashgar">
 				<exemplarCity>കാഷ്ഗര്‍</exemplarCity>
@@ -1663,17 +1882,89 @@
 			<zone type="Asia/Chongqing">
 				<exemplarCity>ചോങ്ഖിങ്</exemplarCity>
 			</zone>
+			<zone type="Asia/Shanghai">
+				<exemplarCity draft="contributed">ഷംഗായി</exemplarCity>
+			</zone>
 			<zone type="Asia/Harbin">
 				<exemplarCity>ഹാര്‍ബിന്‍</exemplarCity>
 			</zone>
+			<zone type="America/Bogota">
+				<exemplarCity draft="contributed">ബൊഗോട്ട</exemplarCity>
+			</zone>
+			<zone type="America/Costa_Rica">
+				<exemplarCity draft="contributed">കോസ്റ്റ റിക്ക</exemplarCity>
+			</zone>
+			<zone type="America/Havana">
+				<exemplarCity draft="contributed">ഹവാന</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Cape_Verde">
+				<exemplarCity draft="contributed">കേപ് വെര്‍ദെ</exemplarCity>
+			</zone>
+			<zone type="Indian/Christmas">
+				<exemplarCity draft="contributed">ക്രിസ്തുമസ്</exemplarCity>
+			</zone>
+			<zone type="Asia/Nicosia">
+				<exemplarCity draft="contributed">നിക്കോഷ്യ</exemplarCity>
+			</zone>
+			<zone type="Europe/Prague">
+				<exemplarCity draft="contributed">പ്രാഗ്</exemplarCity>
+			</zone>
+			<zone type="Europe/Berlin">
+				<exemplarCity draft="contributed">ബെര്‍‌ലിന്‍‌</exemplarCity>
+			</zone>
+			<zone type="Africa/Djibouti">
+				<exemplarCity draft="contributed">ദിബൌട്ടി</exemplarCity>
+			</zone>
+			<zone type="Europe/Copenhagen">
+				<exemplarCity draft="contributed">കോപ്പന്‍‌ഹേഗന്‍‌</exemplarCity>
+			</zone>
+			<zone type="America/Dominica">
+				<exemplarCity draft="contributed">ഡൊമിനിക്ക</exemplarCity>
+			</zone>
+			<zone type="America/Santo_Domingo">
+				<exemplarCity draft="contributed">സാന്തോ ഡോമിംഗോ</exemplarCity>
+			</zone>
+			<zone type="Africa/Algiers">
+				<exemplarCity draft="contributed">അള്‍‌ജീസ്</exemplarCity>
+			</zone>
 			<zone type="Pacific/Galapagos">
 				<exemplarCity>ഗാലപ്പാഗോസ്</exemplarCity>
+			</zone>
+			<zone type="America/Guayaquil">
+				<exemplarCity draft="contributed">ഗുവായക്വില്‍</exemplarCity>
+			</zone>
+			<zone type="Europe/Tallinn">
+				<exemplarCity draft="contributed">ടാലിന്‍‌</exemplarCity>
+			</zone>
+			<zone type="Africa/Cairo">
+				<exemplarCity draft="contributed">കെയ്‌റോ</exemplarCity>
+			</zone>
+			<zone type="Africa/El_Aaiun">
+				<exemplarCity draft="contributed">എല്‍‌ ഐയുന്‍‌</exemplarCity>
+			</zone>
+			<zone type="Africa/Asmera">
+				<exemplarCity draft="contributed">അസ്‍മാര</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Canary">
 				<exemplarCity>ക്യാനറി</exemplarCity>
 			</zone>
 			<zone type="Africa/Ceuta">
 				<exemplarCity>ക്യൂട്ട</exemplarCity>
+			</zone>
+			<zone type="Europe/Madrid">
+				<exemplarCity draft="contributed">മാഡ്രിഡ്</exemplarCity>
+			</zone>
+			<zone type="Africa/Addis_Ababa">
+				<exemplarCity draft="contributed">അഡിസ് അബാബ</exemplarCity>
+			</zone>
+			<zone type="Europe/Helsinki">
+				<exemplarCity draft="contributed">ഹെല്‍‌സിങ്കി</exemplarCity>
+			</zone>
+			<zone type="Pacific/Fiji">
+				<exemplarCity draft="contributed">ഫിജി</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Stanley">
+				<exemplarCity draft="contributed">സ്റ്റാന്‍‌ലി</exemplarCity>
 			</zone>
 			<zone type="Pacific/Truk">
 				<exemplarCity>ട്രക്</exemplarCity>
@@ -1684,14 +1975,92 @@
 			<zone type="Pacific/Kosrae">
 				<exemplarCity>കൊസ്രേ</exemplarCity>
 			</zone>
+			<zone type="Atlantic/Faeroe">
+				<exemplarCity draft="contributed">ഫെറോ</exemplarCity>
+			</zone>
+			<zone type="Europe/Paris">
+				<exemplarCity draft="contributed">പാരീസ്</exemplarCity>
+			</zone>
+			<zone type="Africa/Libreville">
+				<exemplarCity draft="contributed">ലിബ്രെവില്ല</exemplarCity>
+			</zone>
+			<zone type="Europe/London">
+				<exemplarCity draft="contributed">ലണ്ടന്‍‌</exemplarCity>
+			</zone>
+			<zone type="America/Grenada">
+				<exemplarCity draft="contributed">ഗ്രനേഡ</exemplarCity>
+			</zone>
+			<zone type="Asia/Tbilisi">
+				<exemplarCity draft="contributed">തിബിലിസി</exemplarCity>
+			</zone>
+			<zone type="America/Cayenne">
+				<exemplarCity draft="contributed">കയീന്‍‌</exemplarCity>
+			</zone>
+			<zone type="Europe/Guernsey">
+				<exemplarCity draft="contributed">ഗേണ്‍സേ</exemplarCity>
+			</zone>
+			<zone type="Africa/Accra">
+				<exemplarCity draft="contributed">ആക്ര</exemplarCity>
+			</zone>
+			<zone type="Europe/Gibraltar">
+				<exemplarCity draft="contributed">ജിബ്രാള്‍ട്ടര്‍</exemplarCity>
+			</zone>
 			<zone type="America/Thule">
 				<exemplarCity>തൂളി</exemplarCity>
+			</zone>
+			<zone type="America/Godthab">
+				<exemplarCity draft="contributed">ഗോഡ്‌താബ്</exemplarCity>
 			</zone>
 			<zone type="America/Scoresbysund">
 				<exemplarCity>സ്കോര്‍സ്ബൈസണ്ട്</exemplarCity>
 			</zone>
 			<zone type="America/Danmarkshavn">
 				<exemplarCity>ഡാന്‍മാര്‍ക്ക്ഷാവ്ന്‍</exemplarCity>
+			</zone>
+			<zone type="Africa/Banjul">
+				<exemplarCity draft="contributed">ബഞ്ചുല്‍</exemplarCity>
+			</zone>
+			<zone type="Africa/Conakry">
+				<exemplarCity draft="contributed">കൊണാക്രി</exemplarCity>
+			</zone>
+			<zone type="America/Guadeloupe">
+				<exemplarCity draft="contributed">ഗ്വാഡലൂപ്പ്</exemplarCity>
+			</zone>
+			<zone type="Africa/Malabo">
+				<exemplarCity draft="contributed">മലാബോ</exemplarCity>
+			</zone>
+			<zone type="Europe/Athens">
+				<exemplarCity draft="contributed">ഏതന്‍‌സ്</exemplarCity>
+			</zone>
+			<zone type="Atlantic/South_Georgia">
+				<exemplarCity draft="contributed">ദക്ഷിണ ജോര്‍ജിയ</exemplarCity>
+			</zone>
+			<zone type="America/Guatemala">
+				<exemplarCity draft="contributed">ഗ്വോട്ടിമാല</exemplarCity>
+			</zone>
+			<zone type="Pacific/Guam">
+				<exemplarCity draft="contributed">ഗ്വാം</exemplarCity>
+			</zone>
+			<zone type="Africa/Bissau">
+				<exemplarCity draft="contributed">ബിസ്സാവു</exemplarCity>
+			</zone>
+			<zone type="America/Guyana">
+				<exemplarCity draft="contributed">ഗയാന</exemplarCity>
+			</zone>
+			<zone type="Asia/Hong_Kong">
+				<exemplarCity draft="contributed">ഹോങ്കോംഗ്</exemplarCity>
+			</zone>
+			<zone type="America/Tegucigalpa">
+				<exemplarCity draft="contributed">റ്റെഗുസി‍ഗാല്‍പ്പ</exemplarCity>
+			</zone>
+			<zone type="Europe/Zagreb">
+				<exemplarCity draft="contributed">സാക്രെബ്</exemplarCity>
+			</zone>
+			<zone type="America/Port-au-Prince">
+				<exemplarCity draft="contributed">പോര്‍ട്ട്-ഓവ്-പ്രിന്‍സ്</exemplarCity>
+			</zone>
+			<zone type="Europe/Budapest">
+				<exemplarCity draft="contributed">ബുഡാപെസ്റ്റ്</exemplarCity>
 			</zone>
 			<zone type="Asia/Jakarta">
 				<exemplarCity>ജക്കാര്‍ത്ത</exemplarCity>
@@ -1705,6 +2074,54 @@
 			<zone type="Asia/Jayapura">
 				<exemplarCity>ജയപുര</exemplarCity>
 			</zone>
+			<zone type="Europe/Dublin">
+				<exemplarCity draft="contributed">ഡബ്ലിന്‍</exemplarCity>
+			</zone>
+			<zone type="Asia/Jerusalem">
+				<exemplarCity draft="contributed">ജെറുസലേം</exemplarCity>
+			</zone>
+			<zone type="Europe/Isle_of_Man">
+				<exemplarCity draft="contributed">ഐല്‍‌ ഓഫ് മാന്‍‌</exemplarCity>
+			</zone>
+			<zone type="Asia/Calcutta">
+				<exemplarCity draft="contributed">കൊല്‍‌ക്കത്ത</exemplarCity>
+			</zone>
+			<zone type="Indian/Chagos">
+				<exemplarCity draft="contributed">ചാഗോസ്</exemplarCity>
+			</zone>
+			<zone type="Asia/Baghdad">
+				<exemplarCity draft="contributed">ബാഗ്‌ദാദ്</exemplarCity>
+			</zone>
+			<zone type="Asia/Tehran">
+				<exemplarCity draft="contributed">ടെഹ്‌റാന്‍‌</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Reykjavik">
+				<exemplarCity draft="contributed">റേയ്‌ജാവിക്</exemplarCity>
+			</zone>
+			<zone type="Europe/Rome">
+				<exemplarCity draft="contributed">റോം</exemplarCity>
+			</zone>
+			<zone type="Europe/Jersey">
+				<exemplarCity draft="contributed">ജേഴ്‌സി</exemplarCity>
+			</zone>
+			<zone type="America/Jamaica">
+				<exemplarCity draft="contributed">ജമൈക്ക</exemplarCity>
+			</zone>
+			<zone type="Asia/Amman">
+				<exemplarCity draft="contributed">അമ്മാന്‍‌</exemplarCity>
+			</zone>
+			<zone type="Asia/Tokyo">
+				<exemplarCity draft="contributed">ടോക്കിയോ</exemplarCity>
+			</zone>
+			<zone type="Africa/Nairobi">
+				<exemplarCity draft="contributed">നയ്‌റോബി</exemplarCity>
+			</zone>
+			<zone type="Asia/Bishkek">
+				<exemplarCity draft="contributed">ബിഷ്‌കേക്</exemplarCity>
+			</zone>
+			<zone type="Asia/Phnom_Penh">
+				<exemplarCity draft="contributed">ഫനോം പെഞ്ച്</exemplarCity>
+			</zone>
 			<zone type="Pacific/Enderbury">
 				<exemplarCity>എന്‍ഡബറി</exemplarCity>
 			</zone>
@@ -1713,6 +2130,24 @@
 			</zone>
 			<zone type="Pacific/Tarawa">
 				<exemplarCity>തരാവ</exemplarCity>
+			</zone>
+			<zone type="Indian/Comoro">
+				<exemplarCity draft="contributed">കൊമോറോ</exemplarCity>
+			</zone>
+			<zone type="America/St_Kitts">
+				<exemplarCity draft="contributed">സെന്‍റ് കിറ്റസ്</exemplarCity>
+			</zone>
+			<zone type="Asia/Pyongyang">
+				<exemplarCity draft="contributed">പ്യോംഗ്‌യാംഗ്</exemplarCity>
+			</zone>
+			<zone type="Asia/Seoul">
+				<exemplarCity draft="contributed">സിയോള്‍‌</exemplarCity>
+			</zone>
+			<zone type="Asia/Kuwait">
+				<exemplarCity draft="contributed">കുവൈത്ത്</exemplarCity>
+			</zone>
+			<zone type="America/Cayman">
+				<exemplarCity draft="contributed">കേമാന്‍</exemplarCity>
 			</zone>
 			<zone type="Asia/Aqtau">
 				<exemplarCity>അഖ്തൌ</exemplarCity>
@@ -1729,11 +2164,71 @@
 			<zone type="Asia/Almaty">
 				<exemplarCity>അല്‍മതി</exemplarCity>
 			</zone>
+			<zone type="Asia/Vientiane">
+				<exemplarCity draft="contributed">വിയെന്‍റൈന്‍</exemplarCity>
+			</zone>
+			<zone type="Asia/Beirut">
+				<exemplarCity draft="contributed">ബെയ്‌റൂട്ട്</exemplarCity>
+			</zone>
+			<zone type="America/St_Lucia">
+				<exemplarCity draft="contributed">സെന്‍റ് ലൂസിയ</exemplarCity>
+			</zone>
+			<zone type="Europe/Vaduz">
+				<exemplarCity draft="contributed">വാദുസ്</exemplarCity>
+			</zone>
+			<zone type="Asia/Colombo">
+				<exemplarCity draft="contributed">കൊളം‌ബോ</exemplarCity>
+			</zone>
+			<zone type="Africa/Monrovia">
+				<exemplarCity draft="contributed">മണ്‍‌റോവിയ</exemplarCity>
+			</zone>
+			<zone type="Africa/Maseru">
+				<exemplarCity draft="contributed">മസേറു</exemplarCity>
+			</zone>
+			<zone type="Europe/Vilnius">
+				<exemplarCity draft="contributed">വില്‍‌നിയസ്</exemplarCity>
+			</zone>
+			<zone type="Europe/Luxembourg">
+				<exemplarCity draft="contributed">ലക്‌സംബര്‍ഗ്</exemplarCity>
+			</zone>
+			<zone type="Europe/Riga">
+				<exemplarCity draft="contributed">റിഗ</exemplarCity>
+			</zone>
+			<zone type="Africa/Tripoli">
+				<exemplarCity draft="contributed">ട്രിപൊളി</exemplarCity>
+			</zone>
+			<zone type="Africa/Casablanca">
+				<exemplarCity draft="contributed">കാസബ്ലാങ്ക</exemplarCity>
+			</zone>
+			<zone type="Europe/Monaco">
+				<exemplarCity draft="contributed">മൊണാക്കോ</exemplarCity>
+			</zone>
+			<zone type="Europe/Chisinau">
+				<exemplarCity draft="contributed">ചിസിനാവു</exemplarCity>
+			</zone>
+			<zone type="Europe/Podgorica">
+				<exemplarCity draft="contributed">പൊഡ്‍ഗൊറിസ</exemplarCity>
+			</zone>
+			<zone type="America/Marigot">
+				<exemplarCity draft="contributed">മാരിഗോ</exemplarCity>
+			</zone>
+			<zone type="Indian/Antananarivo">
+				<exemplarCity draft="contributed">അന്‍റാനനറിവോ</exemplarCity>
+			</zone>
 			<zone type="Pacific/Kwajalein">
 				<exemplarCity>ക്വാജലെയ്ന്‍</exemplarCity>
 			</zone>
 			<zone type="Pacific/Majuro">
 				<exemplarCity>മജൂറോ</exemplarCity>
+			</zone>
+			<zone type="Europe/Skopje">
+				<exemplarCity draft="contributed">സ്കോപ്പിയെ</exemplarCity>
+			</zone>
+			<zone type="Africa/Bamako">
+				<exemplarCity draft="contributed">ബമാകോ</exemplarCity>
+			</zone>
+			<zone type="Asia/Rangoon">
+				<exemplarCity draft="contributed">റങ്കൂണ്‍‌</exemplarCity>
 			</zone>
 			<zone type="Asia/Hovd">
 				<exemplarCity>ഹൌഡ്</exemplarCity>
@@ -1743,6 +2238,33 @@
 			</zone>
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>ചൊയ്ബല്‍സന്‍</exemplarCity>
+			</zone>
+			<zone type="Asia/Macau">
+				<exemplarCity draft="contributed">മക്കാ</exemplarCity>
+			</zone>
+			<zone type="Pacific/Saipan">
+				<exemplarCity draft="contributed">സെയ്‌പ്പാന്‍‌</exemplarCity>
+			</zone>
+			<zone type="America/Martinique">
+				<exemplarCity draft="contributed">മാര്‍ട്ടിനിക്</exemplarCity>
+			</zone>
+			<zone type="Africa/Nouakchott">
+				<exemplarCity draft="contributed">നൌവാക്‍ഷോട്ട്</exemplarCity>
+			</zone>
+			<zone type="America/Montserrat">
+				<exemplarCity draft="contributed">മൊണ്ടെസരത്ത്</exemplarCity>
+			</zone>
+			<zone type="Europe/Malta">
+				<exemplarCity draft="contributed">മാള്‍ട്ട</exemplarCity>
+			</zone>
+			<zone type="Indian/Mauritius">
+				<exemplarCity draft="contributed">മൌറീഷ്യസ്</exemplarCity>
+			</zone>
+			<zone type="Indian/Maldives">
+				<exemplarCity draft="contributed">മാലിദ്വീപുകള്‍</exemplarCity>
+			</zone>
+			<zone type="Africa/Blantyre">
+				<exemplarCity draft="contributed">ബ്ലാണ്ടെയര്‍‌</exemplarCity>
 			</zone>
 			<zone type="America/Tijuana">
 				<exemplarCity>തിയുവാന</exemplarCity>
@@ -1768,11 +2290,65 @@
 			<zone type="America/Cancun">
 				<exemplarCity>കന്‍കൂന്‍</exemplarCity>
 			</zone>
+			<zone type="Asia/Kuala_Lumpur">
+				<exemplarCity draft="contributed">ക്വാലലം‌പൂര്‍‌‌</exemplarCity>
+			</zone>
 			<zone type="Asia/Kuching">
 				<exemplarCity>കുചിങ്</exemplarCity>
 			</zone>
+			<zone type="Africa/Maputo">
+				<exemplarCity draft="contributed">മാപ്യുട്ടോ</exemplarCity>
+			</zone>
+			<zone type="Africa/Windhoek">
+				<exemplarCity draft="contributed">വിന്‍ഡ്‌ഹോക്</exemplarCity>
+			</zone>
+			<zone type="Pacific/Noumea">
+				<exemplarCity draft="contributed">നോമിയ</exemplarCity>
+			</zone>
+			<zone type="Africa/Niamey">
+				<exemplarCity draft="contributed">നിയാമി</exemplarCity>
+			</zone>
+			<zone type="Pacific/Norfolk">
+				<exemplarCity draft="contributed">നോര്‍‌ഫോക്ക്</exemplarCity>
+			</zone>
+			<zone type="Africa/Lagos">
+				<exemplarCity draft="contributed">ലാഗോസ്</exemplarCity>
+			</zone>
+			<zone type="America/Managua">
+				<exemplarCity draft="contributed">മണാഗ്വ</exemplarCity>
+			</zone>
+			<zone type="Europe/Amsterdam">
+				<exemplarCity draft="contributed">ആം‌സ്റ്റര്‍‌ഡാം</exemplarCity>
+			</zone>
+			<zone type="Europe/Oslo">
+				<exemplarCity draft="contributed">ഓസ്ലോ</exemplarCity>
+			</zone>
+			<zone type="Asia/Katmandu">
+				<exemplarCity draft="contributed">കാത്‍മണ്ഡു</exemplarCity>
+			</zone>
+			<zone type="Pacific/Nauru">
+				<exemplarCity draft="contributed">നവ്‌റു</exemplarCity>
+			</zone>
+			<zone type="Pacific/Niue">
+				<exemplarCity draft="contributed">നിയു</exemplarCity>
+			</zone>
 			<zone type="Pacific/Chatham">
 				<exemplarCity>ചാത്തം</exemplarCity>
+			</zone>
+			<zone type="Pacific/Auckland">
+				<exemplarCity draft="contributed">ഓക്ക്‌‌ലാന്‍റ്</exemplarCity>
+			</zone>
+			<zone type="Asia/Muscat">
+				<exemplarCity draft="contributed">മസ്കറ്റ്</exemplarCity>
+			</zone>
+			<zone type="America/Panama">
+				<exemplarCity draft="contributed">പനാമ</exemplarCity>
+			</zone>
+			<zone type="America/Lima">
+				<exemplarCity draft="contributed">ലിമ</exemplarCity>
+			</zone>
+			<zone type="Pacific/Tahiti">
+				<exemplarCity draft="contributed">താഹിതി</exemplarCity>
 			</zone>
 			<zone type="Pacific/Marquesas">
 				<exemplarCity>മാര്‍ക്യുസാസ്</exemplarCity>
@@ -1780,11 +2356,56 @@
 			<zone type="Pacific/Gambier">
 				<exemplarCity>ഗാന്പിയര്‍</exemplarCity>
 			</zone>
+			<zone type="Pacific/Port_Moresby">
+				<exemplarCity draft="contributed">പോര്‍ട്ട് മോഴ്‌സ്ബൈ</exemplarCity>
+			</zone>
+			<zone type="Asia/Manila">
+				<exemplarCity draft="contributed">മനില</exemplarCity>
+			</zone>
+			<zone type="Asia/Karachi">
+				<exemplarCity draft="contributed">കറാച്ചി</exemplarCity>
+			</zone>
+			<zone type="Europe/Warsaw">
+				<exemplarCity draft="contributed">വാര്‍സോ</exemplarCity>
+			</zone>
+			<zone type="America/Miquelon">
+				<exemplarCity draft="contributed">മൈക്വെലന്‍‌</exemplarCity>
+			</zone>
+			<zone type="Pacific/Pitcairn">
+				<exemplarCity draft="contributed">പിറ്റ്കയിന്‍‌</exemplarCity>
+			</zone>
+			<zone type="America/Puerto_Rico">
+				<exemplarCity draft="contributed">പ്യൂര്‍ട്ടറിക്കോ</exemplarCity>
+			</zone>
+			<zone type="Asia/Gaza">
+				<exemplarCity draft="contributed">ഗാസ</exemplarCity>
+			</zone>
 			<zone type="Atlantic/Azores">
 				<exemplarCity>എയ്സോര്‍സ്</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Madeira">
 				<exemplarCity>മഡെയ്റ</exemplarCity>
+			</zone>
+			<zone type="Europe/Lisbon">
+				<exemplarCity draft="contributed">ലിസ്‌ബണ്‍‌</exemplarCity>
+			</zone>
+			<zone type="Pacific/Palau">
+				<exemplarCity draft="contributed">പലാവു</exemplarCity>
+			</zone>
+			<zone type="America/Asuncion">
+				<exemplarCity draft="contributed">അസന്‍‌ഷ്യന്‍‌</exemplarCity>
+			</zone>
+			<zone type="Asia/Qatar">
+				<exemplarCity draft="contributed">ഖത്തര്‍</exemplarCity>
+			</zone>
+			<zone type="Indian/Reunion">
+				<exemplarCity draft="contributed">പുനഃസംഘടന</exemplarCity>
+			</zone>
+			<zone type="Europe/Bucharest">
+				<exemplarCity draft="contributed">ബുച്ചാറെസ്റ്റ്</exemplarCity>
+			</zone>
+			<zone type="Europe/Belgrade">
+				<exemplarCity draft="contributed">ബെല്‍ഗ്രേഡ്</exemplarCity>
 			</zone>
 			<zone type="Europe/Kaliningrad">
 				<exemplarCity>ക്യാലിനിന്‍ഗ്രാഡ്</exemplarCity>
@@ -1831,6 +2452,114 @@
 			<zone type="Asia/Anadyr">
 				<exemplarCity>അനാഡിര്‍</exemplarCity>
 			</zone>
+			<zone type="Africa/Kigali">
+				<exemplarCity draft="contributed">കിഗാലി</exemplarCity>
+			</zone>
+			<zone type="Asia/Riyadh">
+				<exemplarCity draft="contributed">റിയാദ്</exemplarCity>
+			</zone>
+			<zone type="Pacific/Guadalcanal">
+				<exemplarCity draft="contributed">ഗ്വാദല്‍ കനാല്‍</exemplarCity>
+			</zone>
+			<zone type="Indian/Mahe">
+				<exemplarCity draft="contributed">മാഹി</exemplarCity>
+			</zone>
+			<zone type="Africa/Khartoum">
+				<exemplarCity draft="contributed">ഖാര്‍‌തൌം</exemplarCity>
+			</zone>
+			<zone type="Europe/Stockholm">
+				<exemplarCity draft="contributed">സ്റ്റോക്ക്‍ഹോം</exemplarCity>
+			</zone>
+			<zone type="Asia/Singapore">
+				<exemplarCity draft="contributed">സിംഗപ്പൂര്‍</exemplarCity>
+			</zone>
+			<zone type="Atlantic/St_Helena">
+				<exemplarCity draft="contributed">സെന്‍റ് ഹെലെന</exemplarCity>
+			</zone>
+			<zone type="Europe/Ljubljana">
+				<exemplarCity draft="contributed">ലുബ്‍ലിയാന</exemplarCity>
+			</zone>
+			<zone type="Arctic/Longyearbyen">
+				<exemplarCity draft="contributed">ലംഗ്‍യെര്‍ബിന്‍</exemplarCity>
+			</zone>
+			<zone type="Europe/Bratislava">
+				<exemplarCity draft="contributed">ബ്രാട്ടിസ്‍ലാവ</exemplarCity>
+			</zone>
+			<zone type="Africa/Freetown">
+				<exemplarCity draft="contributed">ഫ്രീടൌണ്‍‌</exemplarCity>
+			</zone>
+			<zone type="Europe/San_Marino">
+				<exemplarCity draft="contributed">സാന്‍ മാരിനോ</exemplarCity>
+			</zone>
+			<zone type="Africa/Dakar">
+				<exemplarCity draft="contributed">ഡാക്കര്‍‌</exemplarCity>
+			</zone>
+			<zone type="Africa/Mogadishu">
+				<exemplarCity draft="contributed">മൊഗാദിഷു</exemplarCity>
+			</zone>
+			<zone type="America/Paramaribo">
+				<exemplarCity draft="contributed">പരാമാരിബോ</exemplarCity>
+			</zone>
+			<zone type="Africa/Sao_Tome">
+				<exemplarCity draft="contributed">സാവോ ടോം‌</exemplarCity>
+			</zone>
+			<zone type="America/El_Salvador">
+				<exemplarCity draft="contributed">എല്‍ സാല്‍‌വദോര്‍</exemplarCity>
+			</zone>
+			<zone type="Asia/Damascus">
+				<exemplarCity draft="contributed">ദമാസ്കസ്</exemplarCity>
+			</zone>
+			<zone type="Africa/Mbabane">
+				<exemplarCity draft="contributed">മബാബെയ്‌ന്‍‌</exemplarCity>
+			</zone>
+			<zone type="America/Grand_Turk">
+				<exemplarCity draft="contributed">ഗ്രാന്‍ഡ് ടര്‍ക്ക്</exemplarCity>
+			</zone>
+			<zone type="Africa/Ndjamena">
+				<exemplarCity draft="contributed">ജമെന</exemplarCity>
+			</zone>
+			<zone type="Indian/Kerguelen">
+				<exemplarCity draft="contributed">കെര്‍ഗുലെന്‍</exemplarCity>
+			</zone>
+			<zone type="Africa/Lome">
+				<exemplarCity draft="contributed">ലോം</exemplarCity>
+			</zone>
+			<zone type="Asia/Bangkok">
+				<exemplarCity draft="contributed">ബാങ്കോംഗ്</exemplarCity>
+			</zone>
+			<zone type="Asia/Dushanbe">
+				<exemplarCity draft="contributed">ദുഷന്‍‌ബെ</exemplarCity>
+			</zone>
+			<zone type="Pacific/Fakaofo">
+				<exemplarCity draft="contributed">ഫക്കാവോഫോ</exemplarCity>
+			</zone>
+			<zone type="Asia/Dili">
+				<exemplarCity draft="contributed">ദിലി</exemplarCity>
+			</zone>
+			<zone type="Asia/Ashgabat">
+				<exemplarCity draft="contributed">ആഷ്‌ഗാബട്ട്</exemplarCity>
+			</zone>
+			<zone type="Africa/Tunis">
+				<exemplarCity draft="contributed">ട്യൂണിസ്</exemplarCity>
+			</zone>
+			<zone type="Pacific/Tongatapu">
+				<exemplarCity draft="contributed">ടോംഗാടാപു</exemplarCity>
+			</zone>
+			<zone type="Europe/Istanbul">
+				<exemplarCity draft="contributed">ഇസ്താം‌ബുള്‍‌</exemplarCity>
+			</zone>
+			<zone type="America/Port_of_Spain">
+				<exemplarCity draft="contributed">പോര്‍‌ട്ട് ഓഫ് സ്‌പെയിന്‍‌</exemplarCity>
+			</zone>
+			<zone type="Pacific/Funafuti">
+				<exemplarCity draft="contributed">ഫുണാഫുട്ടി</exemplarCity>
+			</zone>
+			<zone type="Asia/Taipei">
+				<exemplarCity draft="contributed">തായ്‌പി</exemplarCity>
+			</zone>
+			<zone type="Africa/Dar_es_Salaam">
+				<exemplarCity draft="contributed">ദാറുസ് സലാം</exemplarCity>
+			</zone>
 			<zone type="Europe/Uzhgorod">
 				<exemplarCity>ഉസ്ഗൊറോഡ്</exemplarCity>
 			</zone>
@@ -1842,6 +2571,9 @@
 			</zone>
 			<zone type="Europe/Zaporozhye">
 				<exemplarCity>സാപ്പറോസൈ</exemplarCity>
+			</zone>
+			<zone type="Africa/Kampala">
+				<exemplarCity draft="contributed">കമ്പാല</exemplarCity>
 			</zone>
 			<zone type="Pacific/Midway">
 				<exemplarCity>മിഡ്‌വേ</exemplarCity>
@@ -1933,18 +2665,62 @@
 			<zone type="America/New_York">
 				<exemplarCity>ന്യൂയോര്‍ക്ക്</exemplarCity>
 			</zone>
+			<zone type="America/Montevideo">
+				<exemplarCity draft="contributed">മൊണ്ടെ‌വീഡിയോ</exemplarCity>
+			</zone>
 			<zone type="Asia/Samarkand">
 				<exemplarCity>സമര്‍ക്കന്ദ്</exemplarCity>
+			</zone>
+			<zone type="Asia/Tashkent">
+				<exemplarCity draft="contributed">താഷ്‌ക്കന്‍റ്</exemplarCity>
+			</zone>
+			<zone type="Europe/Vatican">
+				<exemplarCity draft="contributed">വത്തിക്കാന്‍</exemplarCity>
+			</zone>
+			<zone type="America/St_Vincent">
+				<exemplarCity draft="contributed">സെന്‍റ് വിന്‍‌സെന്‍റ്</exemplarCity>
+			</zone>
+			<zone type="America/Caracas">
+				<exemplarCity draft="contributed">കരാക്കസ്</exemplarCity>
+			</zone>
+			<zone type="America/Tortola">
+				<exemplarCity draft="contributed">ടോര്‍‌ട്ടോള</exemplarCity>
+			</zone>
+			<zone type="America/St_Thomas">
+				<exemplarCity draft="contributed">സെന്‍റ്. തോമസ്</exemplarCity>
+			</zone>
+			<zone type="Asia/Saigon">
+				<exemplarCity draft="contributed">ഹോ ചി മിന്‍ സിറ്റി</exemplarCity>
+			</zone>
+			<zone type="Pacific/Efate">
+				<exemplarCity draft="contributed">ഇഫാത്</exemplarCity>
+			</zone>
+			<zone type="Pacific/Wallis">
+				<exemplarCity draft="contributed">വാല്ലിസ്</exemplarCity>
+			</zone>
+			<zone type="Pacific/Apia">
+				<exemplarCity draft="contributed">ആപിയ</exemplarCity>
+			</zone>
+			<zone type="Asia/Aden">
+				<exemplarCity draft="contributed">ഏദെന്‍</exemplarCity>
+			</zone>
+			<zone type="Indian/Mayotte">
+				<exemplarCity draft="contributed">മയോട്ടി</exemplarCity>
+			</zone>
+			<zone type="Africa/Johannesburg">
+				<exemplarCity draft="contributed">ജോഹന്നാസ്ബര്‍‌ഗ്</exemplarCity>
+			</zone>
+			<zone type="Africa/Lusaka">
+				<exemplarCity draft="contributed">ലുസാക</exemplarCity>
+			</zone>
+			<zone type="Africa/Harare">
+				<exemplarCity draft="contributed">ഹരാരെ</exemplarCity>
 			</zone>
 			<metazone type="Acre">
 				<long>
 					<standard>എയ്ക്കര്‍ സമയം</standard>
 					<daylight>എയ്ക്കര്‍ വേനല്‍ക്കാല സമയം</daylight>
 				</long>
-				<short>
-					<standard>ACT (എയ്ക്കര്‍)</standard>
-					<daylight>ACST (എയ്ക്കര്‍)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Afghanistan">
 				<long>
@@ -1966,9 +2742,6 @@
 					<generic>ദക്ഷിണാഫ്രിക്കന്‍ സമയം</generic>
 					<standard>ദക്ഷിണാഫ്രിക്കന്‍ സ്റ്റാന്‍ഡേര്‍ഡ് സമയം</standard>
 				</long>
-				<short>
-					<generic>ദക്ഷിണാഫ്രിക്ക സമയം</generic>
-				</short>
 			</metazone>
 			<metazone type="Africa_Western">
 				<long>
@@ -2004,6 +2777,7 @@
 			</metazone>
 			<metazone type="Amazon">
 				<long>
+					<generic draft="contributed">ആമസോണ്‍ സമയം</generic>
 					<standard>ആമസോണ്‍ സമയം</standard>
 					<daylight>ആമസോണ്‍ വേനല്‍ക്കാല സമയം</daylight>
 				</long>
@@ -2033,11 +2807,12 @@
 				<long>
 					<generic>പസഫിക് സമയം</generic>
 					<standard>പസഫിക് സ്റ്റാന്‍ഡേര്‍ഡ് സമയം</standard>
-					<daylight>പസഫിക് പകല്‍ സമയം</daylight>
+					<daylight draft="contributed">പസഫിക് പകല്‍ സമയം</daylight>
 				</long>
 			</metazone>
 			<metazone type="Anadyr">
 				<long>
+					<generic draft="contributed">അനാഡിയര്‍ സമയം</generic>
 					<standard>അനാഡിര്‍ സമയം</standard>
 					<daylight>അനാഡിര്‍ വേനല്‍ക്കാല സമയം</daylight>
 				</long>
@@ -2047,20 +2822,12 @@
 					<standard>അഖ്തൌ സമയം</standard>
 					<daylight>അഖ്തൌ വേനല്‍ക്കാല സമയം</daylight>
 				</long>
-				<short>
-					<standard>AQTT (അഖ്തൌ)</standard>
-					<daylight>AQTST (അഖ്തൌ)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Aqtobe">
 				<long>
 					<standard>അഖ്തോബ് സമയം</standard>
 					<daylight>അഖ്തോബ് വേനല്‍ക്കാല സമയം</daylight>
 				</long>
-				<short>
-					<standard>AQTT (അഖ്തോബ്)</standard>
-					<daylight>AQTST (അഖ്തോബ്)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Arabian">
 				<long>
@@ -2068,21 +2835,19 @@
 					<standard>അറേബ്യന്‍ സ്റ്റാന്‍ഡേര്‍ഡ് സമയം</standard>
 					<daylight>അറേബ്യന്‍ പകല്‍ സമയം</daylight>
 				</long>
-				<short>
-					<generic>AT (അറേബ്യന്‍)</generic>
-					<standard>AST (അറേബ്യന്‍)</standard>
-					<daylight>ADT (അറേബ്യന്‍)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Argentina">
 				<long>
+					<generic draft="contributed">അര്‍ജന്‍റീന സമയം</generic>
 					<standard>അര്‍ജന്‍റീന സമയം</standard>
 					<daylight>അര്‍ജന്‍റീന വേനല്‍ക്കാല സമയം</daylight>
 				</long>
 			</metazone>
 			<metazone type="Argentina_Western">
 				<long>
+					<generic draft="contributed">അര്‍ജന്‍റീന പടിഞ്ഞാറന്‍ സമയം</generic>
 					<standard>പശ്ചിമ അര്‍ജന്‍റീന സമയം</standard>
+					<daylight draft="contributed">അര്‍ജന്‍റീന പടിഞ്ഞാറന്‍ വേനല്‍ സമയം</daylight>
 				</long>
 			</metazone>
 			<metazone type="Armenia">
@@ -2090,10 +2855,6 @@
 					<standard>അര്‍മേനിയ സമയം</standard>
 					<daylight>അര്‍മേനിയ വേനല്‍ക്കാല സമയം</daylight>
 				</long>
-				<short>
-					<standard>AMT (അര്‍മേനിയ)</standard>
-					<daylight>AMST (അര്‍മേനിയ)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Ashkhabad">
 				<long>
@@ -2157,7 +2918,7 @@
 			<metazone type="Bangladesh">
 				<long>
 					<standard>ബംഗ്ലാദേശ് സമയം</standard>
-					<daylight>ബംഗ്ലാദേശ് വേനല്‍ സമയം</daylight>
+					<daylight draft="provisional">ബംഗ്ലാദേശ് വേനല്‍ സമയം</daylight>
 				</long>
 			</metazone>
 			<metazone type="Bering">
@@ -2166,11 +2927,6 @@
 					<standard>ബെറിങ് സ്റ്റാന്‍ഡേര്‍ഡ് സമയം</standard>
 					<daylight>ബെറിങ് പകല്‍ സമയം</daylight>
 				</long>
-				<short>
-					<generic>BT (ബെറിങ് )</generic>
-					<standard>BST (ബെറിങ് )</standard>
-					<daylight>BDT (ബെറിങ് )</daylight>
-				</short>
 			</metazone>
 			<metazone type="Bhutan">
 				<long>
@@ -2190,6 +2946,7 @@
 			</metazone>
 			<metazone type="Brasilia">
 				<long>
+					<generic draft="contributed">ബ്രാസിലിയ സമയം</generic>
 					<standard>ബ്രസീലിയ സമയം</standard>
 					<daylight>ബ്രസീലിയ വേനല്‍ക്കാല സമയം</daylight>
 				</long>
@@ -2234,14 +2991,10 @@
 					<standard>ചൈനാ സ്റ്റാന്‍ഡേര്‍ഡ് സമയം</standard>
 					<daylight>ചൈന പകല്‍ സമയം</daylight>
 				</long>
-				<short>
-					<generic>CT (ചൈന)</generic>
-					<standard>CST (ചൈന)</standard>
-					<daylight>CDT (ചൈന)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Choibalsan">
 				<long>
+					<generic draft="contributed">ചോയി‍ബല്‍സാന്‍ സമയം</generic>
 					<standard>ചോയ്ബല്‍സന്‍ സമയം</standard>
 					<daylight>ചോയ്ബല്‍സന്‍ വേനല്‍ക്കാല സമയം</daylight>
 				</long>
@@ -2264,7 +3017,7 @@
 			</metazone>
 			<metazone type="Cook">
 				<long>
-					<standard>കുക്ക് ദ്വീപുകള്‍ സമയം</standard>
+					<standard draft="contributed">കുക്ക് ദ്വീപുകള്‍ സമയം</standard>
 					<daylight>കുക്ക് ദ്വീപുകള്‍ അര്‍ദ്ധ വേനല്‍ക്കാല സമയം</daylight>
 				</long>
 			</metazone>
@@ -2274,11 +3027,6 @@
 					<standard>ക്യൂബ സ്റ്റാന്‍ഡേര്‍ഡ് സമയം</standard>
 					<daylight>ക്യൂബ പകല്‍ സമയം</daylight>
 				</long>
-				<short>
-					<generic>CST (ക്യൂബ )</generic>
-					<standard>CST (ക്യൂബ)</standard>
-					<daylight>CDT (ക്യൂബ )</daylight>
-				</short>
 			</metazone>
 			<metazone type="Dacca">
 				<long>
@@ -2405,9 +3153,6 @@
 				<long>
 					<standard>ഗ്വാം സ്റ്റാന്‍ഡേര്‍ഡ് സമയം</standard>
 				</long>
-				<short>
-					<standard>GST (ഗ്വാം)</standard>
-				</short>
 			</metazone>
 			<metazone type="Gulf">
 				<long>
@@ -2422,6 +3167,7 @@
 			</metazone>
 			<metazone type="Hawaii_Aleutian">
 				<long>
+					<generic draft="contributed">ഹവായി അലൂഷ്യന്‍ സമയം</generic>
 					<standard>ഹവായി-അലൂഷ്യന്‍ സ്റ്റാന്‍ഡേര്‍ഡ് സമയം</standard>
 				</long>
 			</metazone>
@@ -2433,6 +3179,7 @@
 			</metazone>
 			<metazone type="Hovd">
 				<long>
+					<generic draft="contributed">ഹോ‍വ്ഡ് സമയം</generic>
 					<standard>ഹൌഡ് സമയം</standard>
 					<daylight>ഹൌഡ് വേനല്‍ക്കാല സമയം</daylight>
 				</long>
@@ -2441,6 +3188,10 @@
 				<long>
 					<standard>ഇന്‍‌ഡ്യ സ്റ്റാന്‍ഡേര്‍ഡ് സമയം</standard>
 				</long>
+				<short>
+					<standard>IST</standard>
+				</short>
+				<commonlyUsed>true</commonlyUsed>
 			</metazone>
 			<metazone type="Indian_Ocean">
 				<long>
@@ -2454,16 +3205,19 @@
 			</metazone>
 			<metazone type="Indonesia_Central">
 				<long>
+					<generic draft="contributed">ഇന്തോനേഷ്യ കേന്ദ്ര സമയം</generic>
 					<standard>സെന്‍ട്രല്‍ ഇന്‍ഡോനേഷ്യ സമയം</standard>
 				</long>
 			</metazone>
 			<metazone type="Indonesia_Eastern">
 				<long>
+					<generic draft="contributed">ഇന്തോനേഷ്യ കിഴക്കന്‍ സമയം</generic>
 					<standard>കിഴക്കന്‍ ഇന്‍ഡോനേഷ്യ സമയം</standard>
 				</long>
 			</metazone>
 			<metazone type="Indonesia_Western">
 				<long>
+					<generic draft="contributed">ഇന്തോനേഷ്യ പടിഞ്ഞാറന്‍ സമയം</generic>
 					<standard>പശ്ചിമ ഇന്‍ഡോനേഷ്യ സമയം</standard>
 				</long>
 			</metazone>
@@ -2475,6 +3229,7 @@
 			</metazone>
 			<metazone type="Irkutsk">
 				<long>
+					<generic draft="contributed">എര്‍കുറ്റ്സ്ക്</generic>
 					<standard>ഇര്‍കസ്ക് സമയം</standard>
 					<daylight>ഇര്‍കസ്ക് വേനല്‍ക്കാല സമയം</daylight>
 				</long>
@@ -2485,9 +3240,6 @@
 					<standard>ഇസ്രായേല്‍ സ്റ്റാന്‍ഡേര്‍ഡ് സമയം</standard>
 					<daylight>ഇസ്രായേല്‍ പകല്‍ സമയം</daylight>
 				</long>
-				<short>
-					<standard>IST (ഇസ്രായേല്‍)</standard>
-				</short>
 			</metazone>
 			<metazone type="Japan">
 				<long>
@@ -2498,6 +3250,7 @@
 			</metazone>
 			<metazone type="Kamchatka">
 				<long>
+					<generic draft="contributed">കം‍ചാറ്റ്ക സമയം</generic>
 					<standard>പെട്രോപാവ്‌ലോസ്ക് കംചാസ്കി സമയം</standard>
 					<daylight>പെട്രോപാവ്‌ലോസ്ക് കംചാസ്കി വേനല്‍ക്കാല സമയം</daylight>
 				</long>
@@ -2516,12 +3269,14 @@
 				<long>
 					<generic>കിഴക്കന്‍ കസാഖ്സ്ഥാന്‍ സമയം</generic>
 					<standard>കിഴക്കന്‍ കസാഖ്സ്ഥാന്‍ സ്റ്റാന്‍ഡേര്‍ഡ് സമയം</standard>
+					<daylight draft="contributed">ഖസാക്കിസ്ഥാന്‍ കിഴക്കന്‍ വേനല്‍ സമയം</daylight>
 				</long>
 			</metazone>
 			<metazone type="Kazakhstan_Western">
 				<long>
 					<generic>പടിഞ്ഞാറന്‍ കസാഖ്സ്ഥാന്‍ സമയം</generic>
 					<standard>പടിഞ്ഞാറന്‍ കസാഖ്സ്ഥാന്‍ സ്റ്റാന്‍ഡേര്‍ഡ് സമയം</standard>
+					<daylight draft="contributed">കസാഖ്സ്ഥാന്‍ പടിഞ്ഞാറന്‍ വേനല്‍ സമയം</daylight>
 				</long>
 			</metazone>
 			<metazone type="Kizilorda">
@@ -2544,6 +3299,7 @@
 			</metazone>
 			<metazone type="Krasnoyarsk">
 				<long>
+					<generic draft="contributed">ക്രിസ്നോയാര്‍സ്കി സമയം</generic>
 					<standard>ക്രാസ്നോയാഴ്സ്ക് സമയം</standard>
 					<daylight>ക്രാസ്നോയാഴ്സ്ക് വേനല്‍ക്കാല സമയം</daylight>
 				</long>
@@ -2592,8 +3348,14 @@
 					<daylight>മകൌ വേനല്‍ക്കാല സമയം</daylight>
 				</long>
 			</metazone>
+			<metazone type="Macquarie">
+				<long>
+					<generic draft="contributed">മക്വാറെ സമയം</generic>
+				</long>
+			</metazone>
 			<metazone type="Magadan">
 				<long>
+					<generic draft="contributed">മഗഡാന്‍ സ്മയം</generic>
 					<standard>മഗാഡന്‍ സമയം</standard>
 					<daylight>മഗാഡന്‍ വേനല്‍ക്കാല സമയം</daylight>
 				</long>
@@ -2626,7 +3388,7 @@
 			<metazone type="Mauritius">
 				<long>
 					<standard>മൌറിഷ്യസ് സമയം</standard>
-					<daylight>മൌറീഷ്യസ് വേനല്‍ക്കാല സമയം</daylight>
+					<daylight draft="provisional">മൌറീഷ്യസ് വേനല്‍ക്കാല സമയം</daylight>
 				</long>
 			</metazone>
 			<metazone type="Mawson">
@@ -2636,6 +3398,7 @@
 			</metazone>
 			<metazone type="Mongolia">
 				<long>
+					<generic draft="contributed">മഗോളിയ സമയം</generic>
 					<standard>യുലാന്‍ ബാറ്റര്‍ സമയം</standard>
 					<daylight>യുലാന്‍ ബാറ്റര്‍ വേനല്‍ക്കാല സമയം</daylight>
 				</long>
@@ -2694,6 +3457,7 @@
 			</metazone>
 			<metazone type="Noronha">
 				<long>
+					<generic draft="contributed">നൊറോണിയ സമയം</generic>
 					<standard>ഫെര്‍ണാണ്ടോ ഡി നൊറോന സമയം</standard>
 					<daylight>ഫെര്‍ണാണ്ടോ ഡി നൊറോന വേനല്‍ക്കാല സമയം</daylight>
 				</long>
@@ -2705,12 +3469,14 @@
 			</metazone>
 			<metazone type="Novosibirsk">
 				<long>
+					<generic draft="contributed">നൊവേസിബിര്‍സ്ക്</generic>
 					<standard>നോവോസിബിര്‍സ്ക് സമയം</standard>
 					<daylight>നോവോസിബിര്‍സ്ക് വേനല്‍ക്കാല സമയം</daylight>
 				</long>
 			</metazone>
 			<metazone type="Omsk">
 				<long>
+					<generic draft="contributed">ഓംസ്ക്ക് സമയം</generic>
 					<standard>ഓംസ്ക് സമയം</standard>
 					<daylight>ഓംസ്ക് വേനല്‍ക്കാല സമയം</daylight>
 				</long>
@@ -2739,7 +3505,7 @@
 			</metazone>
 			<metazone type="Peru">
 				<long>
-					<standard>പെറു സമയം</standard>
+					<standard draft="contributed">പെറു സമയം</standard>
 					<daylight>പെറു വേനല്‍ക്കാല സമയം</daylight>
 				</long>
 			</metazone>
@@ -2789,12 +3555,14 @@
 			</metazone>
 			<metazone type="Sakhalin">
 				<long>
+					<generic draft="contributed">സഖലിന്‍ സമയം</generic>
 					<standard>സഖാലിന്‍ സമയം</standard>
 					<daylight>സഖാലിന്‍ വേനല്‍ക്കാല സമയം</daylight>
 				</long>
 			</metazone>
 			<metazone type="Samara">
 				<long>
+					<generic draft="contributed">സമാര സമയം</generic>
 					<standard>സമാറ സമയം</standard>
 					<daylight>സമാറ വേനല്‍ക്കാല സമയം</daylight>
 				</long>
@@ -2804,10 +3572,6 @@
 					<standard>സമര്‍കന്ദ് സമയം</standard>
 					<daylight>സമര്‍കന്ദ് വേനല്‍ക്കാല സമയം</daylight>
 				</long>
-				<short>
-					<standard>SAMT (സമര്‍കന്ദ് )</standard>
-					<daylight>SAMST (സമര്‍കന്ദ് )</daylight>
-				</short>
 			</metazone>
 			<metazone type="Samoa">
 				<long>
@@ -2839,9 +3603,6 @@
 				<long>
 					<standard>ദക്ഷിണ ജോര്‍ജ്ജിയ സമയം</standard>
 				</long>
-				<short>
-					<standard>GST (ദക്ഷിണ ജോര്‍ജ്ജിയ)</standard>
-				</short>
 			</metazone>
 			<metazone type="Suriname">
 				<long>
@@ -2866,9 +3627,9 @@
 			</metazone>
 			<metazone type="Taipei">
 				<long>
-					<generic>തായ്പേയ് സമയം</generic>
-					<standard>തായ്പേയ് അടിസ്ഥാന സമയം</standard>
-					<daylight>തായ്പേയ് പകല്‍ സമയം</daylight>
+					<generic draft="provisional">തായ്പേയ് സമയം</generic>
+					<standard draft="provisional">തായ്പേയ് അടിസ്ഥാന സമയം</standard>
+					<daylight draft="provisional">തായ്പേയ് പകല്‍ സമയം</daylight>
 				</long>
 			</metazone>
 			<metazone type="Tajikistan">
@@ -2906,7 +3667,7 @@
 			</metazone>
 			<metazone type="Turkey">
 				<long>
-					<standard>തുര്‍ക്കി സമയം</standard>
+					<standard draft="contributed">തുര്‍ക്കി സമയം</standard>
 					<daylight>തുര്‍ക്കി വേനല്‍ക്കാല സമയം</daylight>
 				</long>
 			</metazone>
@@ -2957,12 +3718,14 @@
 			</metazone>
 			<metazone type="Vladivostok">
 				<long>
+					<generic draft="contributed">വ്ലാഡവ്സ്റ്റാക്ക് സമയം</generic>
 					<standard>വ്‌ളാഡിവോസ്റ്റോക് സമയം</standard>
 					<daylight>വ്‌ളാഡിവോസ്റ്റോക് വേനല്‍ക്കാല സമയം</daylight>
 				</long>
 			</metazone>
 			<metazone type="Volgograd">
 				<long>
+					<generic draft="contributed">വൊല്‍ഗോഗാര്‍ഡ്</generic>
 					<standard>വോള്‍ഗോഗ്രാഡ് സമയം</standard>
 					<daylight>വോള്‍ഗോഗ്രാഡ് വേനല്‍ക്കാല സമയം</daylight>
 				</long>
@@ -2984,12 +3747,14 @@
 			</metazone>
 			<metazone type="Yakutsk">
 				<long>
+					<generic draft="contributed">യ‍കുറ്റ്സ്ക് സമയം</generic>
 					<standard>യാകസ്ക് സമയം</standard>
 					<daylight>യാകസ്ക് വേനല്‍ക്കാല സമയം</daylight>
 				</long>
 			</metazone>
 			<metazone type="Yekaterinburg">
 				<long>
+					<generic draft="contributed">യിക്കാരെറിന്‍ബര്‍ഗ് സമയം</generic>
 					<standard>യെക്കാറ്ററിന്‍ബര്‍ഗ് സമയം</standard>
 					<daylight>യെക്കാറ്ററിന്‍ബര്‍ഗ് വേനല്‍ക്കാല സമയം</daylight>
 				</long>
@@ -3010,13 +3775,12 @@
 		</timeZoneNames>
 	</dates>
 	<numbers>
-		<symbols>
+		<defaultNumberingSystem>mlym</defaultNumberingSystem>
+		<symbols numberSystem="latn">
 			<decimal>.</decimal>
 			<group>,</group>
 			<list>;</list>
 			<percentSign>%</percentSign>
-			<nativeZeroDigit>0</nativeZeroDigit>
-			<patternDigit>#</patternDigit>
 			<plusSign>+</plusSign>
 			<minusSign>-</minusSign>
 			<exponential>E</exponential>
@@ -3029,6 +3793,22 @@
 			<decimalFormatLength>
 				<decimalFormat>
 					<pattern>#,##,##0.###</pattern>
+				</decimalFormat>
+			</decimalFormatLength>
+			<decimalFormatLength type="short">
+				<decimalFormat>
+					<pattern type="1000" draft="contributed">0</pattern>
+					<pattern type="10000" draft="contributed">0</pattern>
+					<pattern type="100000" draft="contributed">0</pattern>
+					<pattern type="1000000" draft="contributed">0</pattern>
+					<pattern type="10000000" draft="contributed">0</pattern>
+					<pattern type="100000000" draft="contributed">0</pattern>
+					<pattern type="1000000000" draft="contributed">0</pattern>
+					<pattern type="10000000000" draft="contributed">0</pattern>
+					<pattern type="100000000000" draft="contributed">0</pattern>
+					<pattern type="1000000000000" draft="contributed">0</pattern>
+					<pattern type="10000000000000" draft="contributed">0</pattern>
+					<pattern type="100000000000000" draft="contributed">0</pattern>
 				</decimalFormat>
 			</decimalFormatLength>
 		</decimalFormats>
@@ -3361,6 +4141,9 @@
 				<displayName count="one">ചെക്കോസ്ലൊവാക്ക് ഹാര്‍ഡ് കൊരൂന</displayName>
 				<displayName count="other">ചെക്കോസ്ലൊവാക്ക് ഹാര്‍ഡ് കൊരൂനാസ്</displayName>
 			</currency>
+			<currency type="CUC">
+				<displayName draft="contributed">ക്യൂബന്‍ പരിവര്‍ത്തിത പെയ്‍സോ</displayName>
+			</currency>
 			<currency type="CUP">
 				<displayName>ക്യൂബന്‍ പെസോ</displayName>
 				<displayName count="one">ക്യൂബന്‍ പെസോ</displayName>
@@ -3610,7 +4393,6 @@
 				<displayName>ഇന്ത്യന്‍ രൂപ</displayName>
 				<displayName count="one">ഇന്ത്യന്‍ രൂപ</displayName>
 				<displayName count="other">ഇന്ത്യന്‍ രൂപ</displayName>
-				<symbol>രൂ</symbol>
 			</currency>
 			<currency type="IQD">
 				<displayName>ഇറാക്കി ദിനാര്‍</displayName>
@@ -3750,207 +4532,155 @@
 			<currency type="LVR">
 				<displayName>ലാറ്റ്വിയന്‍ റൂബിള്‍</displayName>
 				<displayName count="one">ലാറ്റ്വിയന്‍ റൂബിള്‍</displayName>
-				<displayName count="other">LVR</displayName>
 			</currency>
 			<currency type="LYD">
 				<displayName>ലിബിയന്‍ ദിനാര്‍</displayName>
-				<displayName count="one">LYD</displayName>
-				<displayName count="other">LYD</displayName>
 			</currency>
 			<currency type="MAD">
 				<displayName>മൊറോക്കന്‍ ദിര്‍ഹം</displayName>
-				<displayName count="one">MAD</displayName>
-				<displayName count="other">MAD</displayName>
 			</currency>
 			<currency type="MAF">
 				<displayName>മൊറോക്കന്‍ ഫ്രാങ്ക്</displayName>
-				<displayName count="one">MAF</displayName>
-				<displayName count="other">MAF</displayName>
 			</currency>
 			<currency type="MDL">
 				<displayName>മൊല്‍ഡോവന്‍ ലിയൂ</displayName>
-				<displayName count="one">MDL</displayName>
-				<displayName count="other">MDL</displayName>
 			</currency>
 			<currency type="MGA">
 				<displayName>മഡഗാസ്കര്‍ ഏരിയറി</displayName>
-				<displayName count="one">MGA</displayName>
-				<displayName count="other">MGA</displayName>
 			</currency>
 			<currency type="MGF">
 				<displayName>മഡഗാസ്കര്‍ ഫ്രാങ്ക്</displayName>
-				<displayName count="one">MGF</displayName>
-				<displayName count="other">MGF</displayName>
 			</currency>
 			<currency type="MKD">
 				<displayName>മാസിഡോണിയന്‍ ദിനാര്‍</displayName>
-				<displayName count="one">MKD</displayName>
-				<displayName count="other">MKD</displayName>
 			</currency>
 			<currency type="MLF">
 				<displayName>മാലി ഫ്രാങ്ക്</displayName>
-				<displayName count="one">MLF</displayName>
-				<displayName count="other">MLF</displayName>
 			</currency>
 			<currency type="MMK">
 				<displayName>മ്യാന്‍മാര്‍ ചാറ്റ്</displayName>
 				<displayName count="one">മ്യാന്‍മാര്‍ ചാറ്റ്</displayName>
-				<displayName count="other">MMK</displayName>
 			</currency>
 			<currency type="MNT">
 				<displayName>മംഗോളിയന്‍ തുഗ്രിക്</displayName>
-				<displayName count="one">MNT</displayName>
-				<displayName count="other">MNT</displayName>
 			</currency>
 			<currency type="MOP">
 				<displayName>മകൌ പതാക്ക</displayName>
-				<displayName count="one">മകൌ പതാക്ക</displayName>
-				<displayName count="other">മകൌ പതാക്കാസ്</displayName>
+				<displayName count="one" draft="contributed">മകൌ പതാക്ക</displayName>
+				<displayName count="other" draft="contributed">മകൌ പതാക്കാസ്</displayName>
 			</currency>
 			<currency type="MRO">
 				<displayName>മൌറിറ്റേനിയ ഔഗിയ</displayName>
-				<displayName count="one">MRO</displayName>
-				<displayName count="other">MRO</displayName>
 			</currency>
 			<currency type="MTL">
 				<displayName>മല്‍ത്തീസ് ലിറ</displayName>
-				<displayName count="one">MTL</displayName>
-				<displayName count="other">MTL</displayName>
 			</currency>
 			<currency type="MTP">
 				<displayName>മല്‍ത്തീസ് പൌണ്ട്</displayName>
-				<displayName count="one">MTP</displayName>
-				<displayName count="other">MTP</displayName>
 			</currency>
 			<currency type="MUR">
 				<displayName>മൌറീഷ്യസ് രൂപ</displayName>
-				<displayName count="one">MUR</displayName>
-				<displayName count="other">MUR</displayName>
 			</currency>
 			<currency type="MVR">
 				<displayName>മാലദ്വീപ് രൂപ</displayName>
-				<displayName count="one">മാലദ്വീപ് രൂപ</displayName>
-				<displayName count="other">മാലദ്വീപ് രൂപ</displayName>
+				<displayName count="one" draft="contributed">മാലദ്വീപ് രൂപ</displayName>
+				<displayName count="other" draft="contributed">മാലദ്വീപ് രൂപ</displayName>
 			</currency>
 			<currency type="MWK">
 				<displayName>മലാവി ക്വാച</displayName>
-				<displayName count="one">MWK</displayName>
-				<displayName count="other">MWK</displayName>
 			</currency>
 			<currency type="MXN">
 				<displayName>മെക്സിക്കന്‍ പെസോ</displayName>
-				<displayName count="one">MXN</displayName>
-				<displayName count="other">MXN</displayName>
 			</currency>
 			<currency type="MXP">
 				<displayName>മെക്സിക്കന്‍ സില്‍വര്‍ പെയ്സോ (1861-1992)</displayName>
-				<displayName count="one">മെക്സിക്കന്‍ സില്‍വര്‍ പെയ്സോ (MXP)</displayName>
-				<displayName count="other">മെക്സിക്കന്‍ സില്‍വര്‍ പെയ്സോസ് (MXP)</displayName>
+				<displayName count="one" draft="contributed">മെക്സിക്കന്‍ സില്‍വര്‍ പെയ്സോ (MXP)</displayName>
+				<displayName count="other" draft="contributed">മെക്സിക്കന്‍ സില്‍വര്‍ പെയ്സോസ് (MXP)</displayName>
 			</currency>
 			<currency type="MXV">
 				<displayName>മെക്സിക്കന്‍ യൂണിഡാഡ് ഡി ഇന്‍വെര്‍ഷന്‍ (UDI)</displayName>
-				<displayName count="one">മെക്സിക്കന്‍ യൂണിഡാഡ് ഡി ഇന്‍വെര്‍ഷന്‍ (UDI)</displayName>
-				<displayName count="other">മെക്സിക്കന്‍ യൂണിഡാഡ്സ് ഡി ഇന്‍വെര്‍ഷന്‍ (UDI)</displayName>
+				<displayName count="one" draft="contributed">മെക്സിക്കന്‍ യൂണിഡാഡ് ഡി ഇന്‍വെര്‍ഷന്‍ (UDI)</displayName>
+				<displayName count="other" draft="contributed">മെക്സിക്കന്‍ യൂണിഡാഡ്സ് ഡി ഇന്‍വെര്‍ഷന്‍ (UDI)</displayName>
 			</currency>
 			<currency type="MYR">
 				<displayName>മലേഷ്യന്‍ റിംഗിറ്റ്</displayName>
-				<displayName count="one">MYR</displayName>
-				<displayName count="other">MYR</displayName>
 			</currency>
 			<currency type="MZE">
 				<displayName>മൊസാന്പിക്ക് എസ്ക്യുഡോ</displayName>
-				<displayName count="one">MZE</displayName>
-				<displayName count="other">MZE</displayName>
 			</currency>
 			<currency type="MZM">
 				<displayName>ഓള്‍ഡ് മൊസാന്പിക്ക് മെറ്റിക്കല്‍</displayName>
-				<displayName count="one">MZM</displayName>
-				<displayName count="other">MZM</displayName>
 			</currency>
 			<currency type="MZN">
 				<displayName>മൊസാന്പിക്ക് മെറ്റിക്കല്‍</displayName>
-				<displayName count="one">MZN</displayName>
-				<displayName count="other">MZN</displayName>
 			</currency>
 			<currency type="NAD">
 				<displayName>നമീബിയന്‍ ഡോളര്‍</displayName>
-				<displayName count="one">NAD</displayName>
-				<displayName count="other">NAD</displayName>
 			</currency>
 			<currency type="NGN">
 				<displayName>നൈജീരിയന്‍ നൈറ</displayName>
-				<displayName count="one">NGN</displayName>
-				<displayName count="other">NGN</displayName>
 			</currency>
 			<currency type="NIC">
 				<displayName>നികരാഗ്വന്‍ കൊര്‍ഡോബ</displayName>
-				<displayName count="one">NIC</displayName>
-				<displayName count="other">NIC</displayName>
 			</currency>
 			<currency type="NIO">
 				<displayName>നികരാഗ്വന്‍ കൊര്‍ഡോബ ഒരോ</displayName>
-				<displayName count="one">NIO</displayName>
-				<displayName count="other">NIO</displayName>
 			</currency>
 			<currency type="NLG">
 				<displayName>നെതര്‍ലന്‍ഡ്സ് ഗില്‍ഡര്‍</displayName>
-				<displayName count="one">നെതര്‍ലന്‍ഡ്സ് ഗില്‍ഡര്‍</displayName>
-				<displayName count="other">നെതര്‍ലന്‍ഡ്സ് ഗില്‍ഡേഴ്സ്</displayName>
+				<displayName count="one" draft="contributed">നെതര്‍ലന്‍ഡ്സ് ഗില്‍ഡര്‍</displayName>
+				<displayName count="other" draft="contributed">നെതര്‍ലന്‍ഡ്സ് ഗില്‍ഡേഴ്സ്</displayName>
 			</currency>
 			<currency type="NOK">
 				<displayName>നോര്‍വീജിയന്‍ ക്രോണെ</displayName>
-				<displayName count="one">നോര്‍വീജിയന്‍ ക്രോണ്‍</displayName>
-				<displayName count="other">നോര്‍വീജിയന്‍ ക്രോണ്‍സ്</displayName>
+				<displayName count="one" draft="contributed">നോര്‍വീജിയന്‍ ക്രോണ്‍</displayName>
+				<displayName count="other" draft="contributed">നോര്‍വീജിയന്‍ ക്രോണ്‍സ്</displayName>
 			</currency>
 			<currency type="NPR">
 				<displayName>നേപ്പാളി രൂപ</displayName>
-				<displayName count="one">NPR</displayName>
-				<displayName count="other">NPR</displayName>
 			</currency>
 			<currency type="NZD">
 				<displayName>ന്യൂസിലാന്‍ഡ് ഡോളര്‍</displayName>
-				<displayName count="one">ന്യൂസിലന്‍ഡ് ഡോളര്‍</displayName>
-				<displayName count="other">ന്യൂസിലന്‍ഡ് ഡോളേഴ്സ്</displayName>
+				<displayName count="one" draft="contributed">ന്യൂസിലന്‍ഡ് ഡോളര്‍</displayName>
+				<displayName count="other" draft="contributed">ന്യൂസിലന്‍ഡ് ഡോളേഴ്സ്</displayName>
 			</currency>
 			<currency type="OMR">
 				<displayName>ഒമാന്‍ റിയാല്‍</displayName>
-				<displayName count="one">OMR</displayName>
-				<displayName count="other">OMR</displayName>
 			</currency>
 			<currency type="PAB">
 				<displayName>പനാമെയ്നിയന്‍ ബാല്‍ബോവ</displayName>
-				<displayName count="one">പനാമെയ്നിയന്‍ ബാല്‍ബോവ</displayName>
-				<displayName count="other">പനാമെയ്നിയന്‍ ബാല്‍ബോവാസ്</displayName>
+				<displayName count="one" draft="contributed">പനാമെയ്നിയന്‍ ബാല്‍ബോവ</displayName>
+				<displayName count="other" draft="contributed">പനാമെയ്നിയന്‍ ബാല്‍ബോവാസ്</displayName>
 			</currency>
 			<currency type="PEI">
 				<displayName>പെറൂവിയന്‍ ഇന്‍റി</displayName>
 				<displayName count="one">പെറൂവിയന്‍ ഇന്‍റി</displayName>
-				<displayName count="other">പെറൂവിയന്‍ ഇന്‍റിസ്</displayName>
+				<displayName count="other" draft="contributed">പെറൂവിയന്‍ ഇന്‍റിസ്</displayName>
 			</currency>
 			<currency type="PEN">
 				<displayName>പെറൂവിയന്‍ സോള്‍ ന്യൂവോ</displayName>
 				<displayName count="one">പെറൂവിയന്‍ സോള്‍ ന്യൂവോ</displayName>
-				<displayName count="other">പെറൂവിയന്‍ സോള്‍ ന്യൂവോസ്</displayName>
+				<displayName count="other" draft="contributed">പെറൂവിയന്‍ സോള്‍ ന്യൂവോസ്</displayName>
 			</currency>
 			<currency type="PES">
 				<displayName>പെറൂവിയന്‍ സോള്‍</displayName>
 				<displayName count="one">പെറൂവിയന്‍ സോള്‍</displayName>
-				<displayName count="other">പെറൂവിയന്‍ സോള്‍സ്</displayName>
+				<displayName count="other" draft="contributed">പെറൂവിയന്‍ സോള്‍സ്</displayName>
 			</currency>
 			<currency type="PGK">
 				<displayName>പാപുവ ന്യൂ ഗിനി കിന</displayName>
 				<displayName count="one">പാപുവ ന്യൂ ഗിനി കിന</displayName>
-				<displayName count="other">പാപുവ ന്യൂ ഗിനി കിനാസ്</displayName>
+				<displayName count="other" draft="contributed">പാപുവ ന്യൂ ഗിനി കിനാസ്</displayName>
 			</currency>
 			<currency type="PHP">
 				<displayName>ഫിലിപ്പൈന്‍ പെയ്സോ</displayName>
-				<displayName count="one">ഫിലിപ്പൈന്‍ പെയ്സോ</displayName>
-				<displayName count="other">ഫിലിപ്പൈന്‍ പെയ്സോസ്</displayName>
+				<displayName count="one" draft="contributed">ഫിലിപ്പൈന്‍ പെയ്സോ</displayName>
+				<displayName count="other" draft="contributed">ഫിലിപ്പൈന്‍ പെയ്സോസ്</displayName>
 			</currency>
 			<currency type="PKR">
 				<displayName>പാക്കിസ്ഥാനി രൂപ</displayName>
-				<displayName count="one">പാക്കിസ്ഥാനി രൂപ</displayName>
-				<displayName count="other">പാക്കിസ്ഥാനി രൂപ</displayName>
+				<displayName count="one" draft="contributed">പാക്കിസ്ഥാനി രൂപ</displayName>
+				<displayName count="other" draft="contributed">പാക്കിസ്ഥാനി രൂപ</displayName>
 			</currency>
 			<currency type="PLN">
 				<displayName>പോളിഷ് സ്ലോട്ടി</displayName>
@@ -3959,218 +4689,155 @@
 			</currency>
 			<currency type="PLZ">
 				<displayName>പോളിഷ് സ്ലോട്ടി (1950-1995)</displayName>
-				<displayName count="one">PLZ</displayName>
-				<displayName count="other">PLZ</displayName>
 			</currency>
 			<currency type="PTE">
 				<displayName>പോര്‍ച്ചുഗീസ് എസ്ക്യുഡോ</displayName>
-				<displayName count="one">PTE</displayName>
-				<displayName count="other">PTE</displayName>
 			</currency>
 			<currency type="PYG">
 				<displayName>പരാഗ്വേ ഗ്വരനീ</displayName>
-				<displayName count="one">PYG</displayName>
-				<displayName count="other">PYG</displayName>
 			</currency>
 			<currency type="QAR">
 				<displayName>ഖത്തര്‍ റിയാല്‍</displayName>
-				<displayName count="one">QAR</displayName>
-				<displayName count="other">QAR</displayName>
 			</currency>
 			<currency type="RHD">
 				<displayName>റൊഡേഷ്യന്‍ ഡോളര്‍</displayName>
-				<displayName count="one">RHD</displayName>
-				<displayName count="other">RHD</displayName>
 			</currency>
 			<currency type="ROL">
 				<displayName>പ്രാചീന റൊമേനിയന്‍ ലിയു</displayName>
-				<displayName count="one">ROL</displayName>
-				<displayName count="other">ROL</displayName>
 			</currency>
 			<currency type="RON">
 				<displayName>റൊമേനിയന്‍ ലിയു</displayName>
-				<displayName count="one">RON</displayName>
-				<displayName count="other">RON</displayName>
 			</currency>
 			<currency type="RSD">
 				<displayName>സെര്‍ബിയന്‍ ദിനാര്‍</displayName>
-				<displayName count="one">RSD</displayName>
-				<displayName count="other">RSD</displayName>
 			</currency>
 			<currency type="RUB">
 				<displayName>റഷ്യന്‍ റൂബിള്‍</displayName>
 				<displayName count="one">റഷ്യന്‍ റൂബിള്‍</displayName>
-				<displayName count="other">റഷ്യന്‍ റൂബിള്‍സ്</displayName>
+				<displayName count="other" draft="contributed">റഷ്യന്‍ റൂബിള്‍സ്</displayName>
 			</currency>
 			<currency type="RUR">
 				<displayName>റഷ്യന്‍ റൂബിള്‍ (1991-1998)</displayName>
-				<displayName count="one">RUR</displayName>
-				<displayName count="other">RUR</displayName>
 			</currency>
 			<currency type="RWF">
 				<displayName>റുവാണ്ടന്‍ ഫ്രാങ്ക്</displayName>
-				<displayName count="one">RWF</displayName>
-				<displayName count="other">RWF</displayName>
 			</currency>
 			<currency type="SAR">
 				<displayName>സൌദി റിയാല്‍</displayName>
-				<displayName count="one">SAR</displayName>
-				<displayName count="other">SAR</displayName>
 			</currency>
 			<currency type="SBD">
 				<displayName>സോളമന്‍ ദ്വീപുകളുടെ ഡോളര്‍</displayName>
-				<displayName count="one">SBD</displayName>
-				<displayName count="other">SBD</displayName>
 			</currency>
 			<currency type="SCR">
 				<displayName>സെയ്ഷെല്‍സ് രൂപ</displayName>
-				<displayName count="one">SCR</displayName>
-				<displayName count="other">SCR</displayName>
 			</currency>
 			<currency type="SDD">
 				<displayName>പ്രാചീന സുഡാനീസ് ദിനാര്‍</displayName>
-				<displayName count="one">SDD</displayName>
-				<displayName count="other">SDD</displayName>
 			</currency>
 			<currency type="SDG">
 				<displayName>സുഡാനീസ് പൌണ്ട്</displayName>
-				<displayName count="one">SDG</displayName>
-				<displayName count="other">SDG</displayName>
 			</currency>
 			<currency type="SDP">
 				<displayName>പ്രാചീന സുഡാനീസ് പൌണ്ട്</displayName>
-				<displayName count="one">SDP</displayName>
-				<displayName count="other">SDP</displayName>
 			</currency>
 			<currency type="SEK">
 				<displayName>സ്വീഡിഷ് ക്രോണ</displayName>
-				<displayName count="one">SEK</displayName>
-				<displayName count="other">SEK</displayName>
 			</currency>
 			<currency type="SGD">
 				<displayName>സിംഗപ്പൂര്‍ ഡോളര്‍</displayName>
-				<displayName count="one">SGD</displayName>
-				<displayName count="other">SGD</displayName>
 			</currency>
 			<currency type="SHP">
 				<displayName>സെയ്ന്‍റ് ഹെലെന പൌണ്ട്</displayName>
-				<displayName count="one">SHP</displayName>
-				<displayName count="other">SHP</displayName>
 			</currency>
 			<currency type="SIT">
 				<displayName>സ്ലൊവേനിയ റ്റോളര്‍</displayName>
-				<displayName count="one">SIT</displayName>
-				<displayName count="other">SIT</displayName>
 			</currency>
 			<currency type="SKK">
 				<displayName>സ്ലോവാക് കൊരൂന</displayName>
-				<displayName count="one">SKK</displayName>
-				<displayName count="other">SKK</displayName>
 			</currency>
 			<currency type="SLL">
 				<displayName>സിയറാ ലിയോണ്‍ ലിയോണ്‍</displayName>
-				<displayName count="one">SLL</displayName>
-				<displayName count="other">SLL</displayName>
 			</currency>
 			<currency type="SOS">
 				<displayName>സൊമാലി ഷില്ലിംഗ്</displayName>
-				<displayName count="one">SOS</displayName>
-				<displayName count="other">SOS</displayName>
 			</currency>
 			<currency type="SRD">
 				<displayName>സൂരിനാം ഡോളര്‍</displayName>
-				<displayName count="one">SRD</displayName>
-				<displayName count="other">SRD</displayName>
 			</currency>
 			<currency type="SRG">
 				<displayName>സൂരിനാം ഗില്‍ഡര്‍</displayName>
-				<displayName count="one">SRG</displayName>
-				<displayName count="other">SRG</displayName>
 			</currency>
 			<currency type="STD">
 				<displayName>സാവോ റ്റോമി ആന്‍ഡ് പ്രിന്‍സിപ്പി ഡോബ്ര</displayName>
-				<displayName count="one">STD</displayName>
-				<displayName count="other">STD</displayName>
 			</currency>
 			<currency type="SUR">
 				<displayName>സോവിയറ്റ് റൂബിള്‍</displayName>
-				<displayName count="one">SUR</displayName>
-				<displayName count="other">SUR</displayName>
 			</currency>
 			<currency type="SVC">
 				<displayName>എല്‍ സാല്‍വഡോര്‍ കോളന്‍</displayName>
-				<displayName count="one">SVC</displayName>
-				<displayName count="other">SVC</displayName>
 			</currency>
 			<currency type="SYP">
 				<displayName>സിറിയന്‍ പൌണ്ട്</displayName>
-				<displayName count="one">SYP</displayName>
-				<displayName count="other">സിറിയന്‍ പൌണ്ട്</displayName>
+				<displayName count="other" draft="contributed">സിറിയന്‍ പൌണ്ട്</displayName>
 			</currency>
 			<currency type="SZL">
 				<displayName>സ്വാസിലാന്‍ഡ് ലിലാംഗനി</displayName>
-				<displayName count="one">SZL</displayName>
-				<displayName count="other">SZL</displayName>
 			</currency>
 			<currency type="THB">
 				<displayName>തായ് ബട്ട്</displayName>
-				<displayName count="one">തായ് ബട്ട്</displayName>
-				<displayName count="other">തായ് ബട്ട്</displayName>
+				<displayName count="one" draft="contributed">തായ് ബട്ട്</displayName>
+				<displayName count="other" draft="contributed">തായ് ബട്ട്</displayName>
 			</currency>
 			<currency type="TJR">
 				<displayName>താജിക്കിസ്ഥാന്‍ റൂബിള്‍</displayName>
-				<displayName count="one">തജിക്സ്ഥാന്‍ റൂബിള്‍</displayName>
-				<displayName count="other">തജിക്സ്ഥാന്‍ റൂബിള്‍സ്</displayName>
+				<displayName count="one" draft="contributed">തജിക്സ്ഥാന്‍ റൂബിള്‍</displayName>
+				<displayName count="other" draft="contributed">തജിക്സ്ഥാന്‍ റൂബിള്‍സ്</displayName>
 			</currency>
 			<currency type="TJS">
 				<displayName>താജിക്കിസ്ഥാന്‍ സൊമോനി</displayName>
-				<displayName count="one">തജികിസ്ഥാന്‍ സൊമോനി</displayName>
-				<displayName count="other">തജികിസ്ഥാന്‍ സൊമോനിസ്</displayName>
+				<displayName count="one" draft="contributed">തജികിസ്ഥാന്‍ സൊമോനി</displayName>
+				<displayName count="other" draft="contributed">തജികിസ്ഥാന്‍ സൊമോനിസ്</displayName>
 			</currency>
 			<currency type="TMM">
 				<displayName>തുര്‍ക്മെനിസ്ഥാന്‍ മനത്</displayName>
-				<displayName count="one">തുര്‍ക്മെനിസ്ഥാന്‍ മനത്</displayName>
-				<displayName count="other">തുര്‍ക്മെനിസ്ഥാന്‍ മനത്‌സ്</displayName>
+				<displayName count="one" draft="contributed">തുര്‍ക്മെനിസ്ഥാന്‍ മനത്</displayName>
+				<displayName count="other" draft="contributed">തുര്‍ക്മെനിസ്ഥാന്‍ മനത്‌സ്</displayName>
+			</currency>
+			<currency type="TMT">
+				<displayName draft="contributed">തുര്‍ക്കമനിസ്ഥാനി മനാത്ത്</displayName>
 			</currency>
 			<currency type="TND">
 				<displayName>തുനീസിയന്‍ ദിനാര്‍</displayName>
-				<displayName count="one">TND</displayName>
-				<displayName count="other">TND</displayName>
 			</currency>
 			<currency type="TOP">
 				<displayName>റ്റോംഗ പാംഗ</displayName>
 				<displayName count="one">റ്റോംഗ പാംഗ</displayName>
-				<displayName count="other">റ്റോംഗ പാംഗാസ്</displayName>
+				<displayName count="other" draft="contributed">റ്റോംഗ പാംഗാസ്</displayName>
 			</currency>
 			<currency type="TPE">
 				<displayName>തിമോര്‍ എസ്ക്യൂഡോ</displayName>
-				<displayName count="one">തിമോര്‍ എസ്ക്യൂഡോ</displayName>
-				<displayName count="other">തിമോര്‍ എസ്ക്യൂഡോസ്</displayName>
+				<displayName count="one" draft="contributed">തിമോര്‍ എസ്ക്യൂഡോ</displayName>
+				<displayName count="other" draft="contributed">തിമോര്‍ എസ്ക്യൂഡോസ്</displayName>
 			</currency>
 			<currency type="TRL">
 				<displayName>പ്രാചീന തുര്‍ക്കിഷ് ലിറ</displayName>
-				<displayName count="one">TRL</displayName>
-				<displayName count="other">പ്രാചീന തുര്‍ക്കിഷ് ലിറാസ്</displayName>
+				<displayName count="other" draft="contributed">പ്രാചീന തുര്‍ക്കിഷ് ലിറാസ്</displayName>
 			</currency>
 			<currency type="TRY">
 				<displayName>തുര്‍ക്കിഷ് ലിറ</displayName>
 				<displayName count="one">തുര്‍ക്കിഷ് ലിറ</displayName>
-				<displayName count="other">തുര്‍ക്കിഷ് ലിറാസ്</displayName>
+				<displayName count="other" draft="contributed">തുര്‍ക്കിഷ് ലിറാസ്</displayName>
 			</currency>
 			<currency type="TTD">
 				<displayName>ട്രിനിഡാഡ് ആന്‍ഡ് റ്റൊബാഗോ ഡോളര്‍</displayName>
-				<displayName count="one">TTD</displayName>
-				<displayName count="other">TTD</displayName>
 			</currency>
 			<currency type="TWD">
 				<displayName>തായ്‌വാന്‍ ഡോളര്‍</displayName>
 				<displayName count="one">തായ്‌വാന്‍ ഡോളര്‍</displayName>
-				<displayName count="other">തായ്‌വാന്‍ ഡോളേഴ്സ്</displayName>
+				<displayName count="other" draft="contributed">തായ്‌വാന്‍ ഡോളേഴ്സ്</displayName>
 			</currency>
 			<currency type="TZS">
 				<displayName>ടാന്‍സാനിയന്‍ ഷില്ലിംഗ്</displayName>
-				<displayName count="one">TZS</displayName>
-				<displayName count="other">TZS</displayName>
 			</currency>
 			<currency type="UAH">
 				<displayName>യുക്രേനിയന്‍ ഹ്രിവ്നിയ</displayName>
@@ -4184,39 +4851,32 @@
 			</currency>
 			<currency type="UGS">
 				<displayName>ഉഗാണ്ടന്‍ ഷില്ലിംഗ് (1966-1987)</displayName>
-				<displayName count="one">UGS</displayName>
-				<displayName count="other">UGS</displayName>
 			</currency>
 			<currency type="UGX">
 				<displayName>ഉഗാണ്ടന്‍ ഷില്ലിംഗ്</displayName>
-				<displayName count="one">UGX</displayName>
-				<displayName count="other">UGX</displayName>
 			</currency>
 			<currency type="USD">
 				<displayName>യു.എസ്. ഡോളര്‍</displayName>
-				<displayName count="one">യു.എസ് ഡോളര്‍</displayName>
-				<displayName count="other">യു.എസ് ഡോളേഴ്സ്</displayName>
-				<symbol>$</symbol>
+				<displayName count="one" draft="contributed">യു.എസ് ഡോളര്‍</displayName>
+				<displayName count="other" draft="contributed">യു.എസ് ഡോളേഴ്സ്</displayName>
+				<symbol draft="contributed">$</symbol>
 			</currency>
 			<currency type="USN">
 				<displayName>യുഎസ് ഡോളര്‍ (അടുത്ത ദിവസം)</displayName>
-				<displayName count="one">USN</displayName>
-				<displayName count="other">USN</displayName>
 			</currency>
 			<currency type="USS">
 				<displayName>യുഎസ് ഡോളര്‍ (അതേ ദിവസം)</displayName>
-				<displayName count="one">USS</displayName>
-				<displayName count="other">യുഎസ് ഡോളേഴ്സ് (അതേ ദിവസം)</displayName>
+				<displayName count="other" draft="contributed">യുഎസ് ഡോളേഴ്സ് (അതേ ദിവസം)</displayName>
 			</currency>
 			<currency type="UYI">
 				<displayName>ഉറുഗ്വേ പെയ്സോ എന്‍ യൂണിഡാഡ്സ്</displayName>
-				<displayName count="one">ഉറുഗ്വേ പെയ്സോ എന്‍ യൂണിഡാഡ്സ് ഇന്‍ഡെക്സാഡാസ്</displayName>
-				<displayName count="other">ഉറുഗ്വേ പെയ്സോസ് എന്‍ യൂണിഡാഡ്സ് ഇന്‍ഡെക്സാഡാസ്</displayName>
+				<displayName count="one" draft="contributed">ഉറുഗ്വേ പെയ്സോ എന്‍ യൂണിഡാഡ്സ് ഇന്‍ഡെക്സാഡാസ്</displayName>
+				<displayName count="other" draft="contributed">ഉറുഗ്വേ പെയ്സോസ് എന്‍ യൂണിഡാഡ്സ് ഇന്‍ഡെക്സാഡാസ്</displayName>
 			</currency>
 			<currency type="UYP">
 				<displayName>ഉറുഗ്വേ പെയ്സോ (1975-1993)</displayName>
-				<displayName count="one">ഉറുഗ്വേ പെയ്സോ (UYP)</displayName>
-				<displayName count="other">ഉറുഗ്വേ പെയ്സോസ് (UYP)</displayName>
+				<displayName count="one" draft="contributed">ഉറുഗ്വേ പെയ്സോ (UYP)</displayName>
+				<displayName count="other" draft="contributed">ഉറുഗ്വേ പെയ്സോസ് (UYP)</displayName>
 			</currency>
 			<currency type="UYU">
 				<displayName>ഉറുഗ്വേ പെയ്സോ ഉറുഗായോ</displayName>
@@ -4226,37 +4886,35 @@
 			<currency type="UZS">
 				<displayName>ഉസ്ബക്കിസ്ഥാന്‍ സം</displayName>
 				<displayName count="one">ഉസ്ബക്കിസ്ഥാന്‍ സം</displayName>
-				<displayName count="other">ഉസ്ബക്കിസ്ഥാന്‍ സംസ്</displayName>
+				<displayName count="other" draft="contributed">ഉസ്ബക്കിസ്ഥാന്‍ സംസ്</displayName>
 			</currency>
 			<currency type="VEB">
 				<displayName>വെനസ്വേലന്‍ ബോലിവര്‍</displayName>
 				<displayName count="one">വെനസ്വേലന്‍ ബോലിവര്‍</displayName>
-				<displayName count="other">വെനസ്വേലന്‍ ബോലിവര്‍സ്</displayName>
+				<displayName count="other" draft="contributed">വെനസ്വേലന്‍ ബോലിവര്‍സ്</displayName>
 			</currency>
 			<currency type="VEF">
 				<displayName>വെനസ്വേലന്‍ ബോലിവര്‍ ഫുവെര്‍റ്റെ</displayName>
 				<displayName count="one">വെനസ്വേലന്‍ ബോലിവര്‍ ഫുവെര്‍റ്റെ</displayName>
-				<displayName count="other">വെനസ്വേലന്‍ ബോലിവര്‍ ഫുവെര്‍റ്റെസ്</displayName>
+				<displayName count="other" draft="contributed">വെനസ്വേലന്‍ ബോലിവര്‍ ഫുവെര്‍റ്റെസ്</displayName>
 			</currency>
 			<currency type="VND">
 				<displayName>വിയറ്റ്നാമീസ് ഡോങ്</displayName>
-				<displayName count="one">VND</displayName>
-				<displayName count="other">VND</displayName>
 			</currency>
 			<currency type="VUV">
 				<displayName>വനുവാതു വാതു</displayName>
-				<displayName count="one">വനുവാതു വാതു</displayName>
-				<displayName count="other">വനുവാതു വാതൂസ്</displayName>
+				<displayName count="one" draft="contributed">വനുവാതു വാതു</displayName>
+				<displayName count="other" draft="contributed">വനുവാതു വാതൂസ്</displayName>
 			</currency>
 			<currency type="WST">
 				<displayName>പശ്ചിമ സമോവ താല</displayName>
 				<displayName count="one">പശ്ചിമ സമോവ താല</displayName>
-				<displayName count="other">പശ്ചിമ സമോവ താലാസ്</displayName>
+				<displayName count="other" draft="contributed">പശ്ചിമ സമോവ താലാസ്</displayName>
 			</currency>
 			<currency type="XAF">
 				<displayName>CFA ഫ്രാങ്ക് BEAC</displayName>
 				<displayName count="one">CFA ഫ്രാങ്ക് BEAC</displayName>
-				<displayName count="other">CFA ഫ്രാങ്ക്സ് BEAC</displayName>
+				<displayName count="other" draft="contributed">CFA ഫ്രാങ്ക്സ് BEAC</displayName>
 			</currency>
 			<currency type="XAG">
 				<displayName>വെള്ളി</displayName>
@@ -4407,38 +5065,129 @@
 	</numbers>
 	<units>
 		<unit type="day">
+			<unitPattern count="0" alt="short" draft="contributed">0 ദിവസം‌</unitPattern>
+			<unitPattern count="1" alt="short" draft="contributed">1 ദിവസം</unitPattern>
 			<unitPattern count="one">{0} ദിവസം</unitPattern>
 			<unitPattern count="other">{0} ദിവസം</unitPattern>
+			<unitPattern count="other" alt="short" draft="contributed">{0} ദിവസം‌</unitPattern>
+		</unit>
+		<unit type="day-future">
+			<unitPattern count="0" draft="contributed">0 ദിവസത്തില്‍</unitPattern>
+			<unitPattern count="1" draft="contributed">1 ദിവസത്തില്‍</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} ദിവസത്തില്‍</unitPattern>
+		</unit>
+		<unit type="day-past">
+			<unitPattern count="0" draft="contributed">0 ദിവസം മുമ്പ്</unitPattern>
+			<unitPattern count="1" draft="contributed">1 ദിവസം മുമ്പ്</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} ദിവസം മുമ്പ്</unitPattern>
 		</unit>
 		<unit type="hour">
+			<unitPattern count="0" alt="short" draft="contributed">0 മണിക്കൂര്‍</unitPattern>
+			<unitPattern count="1" alt="short" draft="contributed">1 മണിക്കൂര്‍‌</unitPattern>
 			<unitPattern count="one">{0} മണിക്കൂര്‍</unitPattern>
 			<unitPattern count="other">{0} മണിക്കൂര്‍</unitPattern>
+			<unitPattern count="other" alt="short" draft="contributed">{0} മണിക്കൂര്‍</unitPattern>
+		</unit>
+		<unit type="hour-future">
+			<unitPattern count="0" draft="contributed">0 മണിക്കൂറില്‍</unitPattern>
+			<unitPattern count="1" draft="contributed">1 മണിക്കൂറില്‍</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} മണിക്കൂറില്‍</unitPattern>
+		</unit>
+		<unit type="hour-past">
+			<unitPattern count="0" draft="contributed">0 മണിക്കൂര്‍ മുമ്പ്</unitPattern>
+			<unitPattern count="1" draft="contributed">1 മണിക്കൂര്‍ മുമ്പ്</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} മണിക്കൂര്‍ മുമ്പ്</unitPattern>
 		</unit>
 		<unit type="minute">
+			<unitPattern count="0" alt="short" draft="contributed">0 മിനിറ്റ്</unitPattern>
+			<unitPattern count="1" alt="short" draft="contributed">1 മിനിറ്റ്</unitPattern>
 			<unitPattern count="one">{0} മിനിട്ട്</unitPattern>
 			<unitPattern count="other">{0} മിനിട്ട്</unitPattern>
+			<unitPattern count="other" alt="short" draft="contributed">{0} മിനിറ്റ്</unitPattern>
+		</unit>
+		<unit type="minute-future">
+			<unitPattern count="0" draft="contributed">0 മിനിറ്റില്‍</unitPattern>
+			<unitPattern count="1" draft="contributed">1 മിനിറ്റിനുള്ളില്‍</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} മിനിറ്റിനുള്ളില്‍</unitPattern>
+		</unit>
+		<unit type="minute-past">
+			<unitPattern count="0" draft="contributed">0 മിനിറ്റ് മുമ്പ്</unitPattern>
+			<unitPattern count="1" draft="contributed">1 മിനിറ്റ് മുമ്പ്</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} മിനിറ്റ് മുമ്പ്</unitPattern>
 		</unit>
 		<unit type="month">
+			<unitPattern count="0" alt="short" draft="contributed">0 മാസങ്ങള്‍</unitPattern>
+			<unitPattern count="1" alt="short" draft="contributed">1 മാസം</unitPattern>
 			<unitPattern count="one">{0} മാസം</unitPattern>
 			<unitPattern count="other">{0} മാസം</unitPattern>
+			<unitPattern count="other" alt="short" draft="contributed">{0} മാസം</unitPattern>
+		</unit>
+		<unit type="month-future">
+			<unitPattern count="0" draft="contributed">0 മാസത്തില്‍</unitPattern>
+			<unitPattern count="1" draft="contributed">1 മാസത്തില്‍</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} മാസത്തില്‍</unitPattern>
+		</unit>
+		<unit type="month-past">
+			<unitPattern count="0" draft="contributed">0 മാസം മുമ്പ്</unitPattern>
+			<unitPattern count="1" draft="contributed">1 മാസം മുമ്പ്</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} മാസം മുമ്പ്</unitPattern>
 		</unit>
 		<unit type="second">
+			<unitPattern count="0" alt="short" draft="contributed">0 സെക്കന്‍റ്</unitPattern>
+			<unitPattern count="1" alt="short" draft="contributed">1 സെക്കന്‍റ്</unitPattern>
 			<unitPattern count="one">{0} സെക്കന്റ്</unitPattern>
 			<unitPattern count="other">{0} സെക്കന്റ്</unitPattern>
+			<unitPattern count="other" alt="short" draft="contributed">{0} സെക്കന്‍റ്</unitPattern>
+		</unit>
+		<unit type="second-future">
+			<unitPattern count="0" draft="contributed">0 സെക്കന്‍ഡില്‍</unitPattern>
+			<unitPattern count="1" draft="contributed">1 സെക്കന്‍ഡില്‍</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} സെക്കന്‍ഡില്‍</unitPattern>
+		</unit>
+		<unit type="second-past">
+			<unitPattern count="0" draft="contributed">0 സെക്കന്‍റ് മുമ്പ്</unitPattern>
+			<unitPattern count="1" draft="contributed">1 സെക്കന്‍റ് മുമ്പ്</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} സെക്കന്‍റ് മുമ്പ്</unitPattern>
 		</unit>
 		<unit type="week">
+			<unitPattern count="0" alt="short" draft="contributed">0 ആഴ്‌ച</unitPattern>
+			<unitPattern count="1" alt="short" draft="contributed">1 ആഴ്‌ച</unitPattern>
 			<unitPattern count="one">{0} ആഴ്ച</unitPattern>
 			<unitPattern count="other">{0} ആഴ്ച</unitPattern>
+			<unitPattern count="other" alt="short" draft="contributed">{0} ആഴ്‌ച</unitPattern>
+		</unit>
+		<unit type="week-future">
+			<unitPattern count="0" draft="contributed">0 ആഴ്ചയില്‍</unitPattern>
+			<unitPattern count="1" draft="contributed">1 ആഴ്ചയില്‍</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} ആഴ്ചയില്‍</unitPattern>
+		</unit>
+		<unit type="week-past">
+			<unitPattern count="0" draft="contributed">0 ആഴ്ച മുമ്പ്</unitPattern>
+			<unitPattern count="1" draft="contributed">1 ആഴ്ച മുമ്പ്</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} ആഴ്ച മുമ്പ്</unitPattern>
 		</unit>
 		<unit type="year">
+			<unitPattern count="0" alt="short" draft="contributed">0 വര്‍‌ഷം</unitPattern>
+			<unitPattern count="1" alt="short" draft="contributed">1 വര്‍ഷം</unitPattern>
 			<unitPattern count="one">{0} വര്‍ഷം</unitPattern>
 			<unitPattern count="other">{0} വര്‍ഷം</unitPattern>
+			<unitPattern count="other" alt="short" draft="contributed">{0} വര്‍‌ഷം</unitPattern>
+		</unit>
+		<unit type="year-future">
+			<unitPattern count="0" draft="contributed">0 വര്‍ഷത്തില്‍</unitPattern>
+			<unitPattern count="1" draft="contributed">1 വര്‍ഷത്തില്‍</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} വര്‍ഷത്തില്‍</unitPattern>
+		</unit>
+		<unit type="year-past">
+			<unitPattern count="0" draft="contributed">0 വര്‍ഷം മുമ്പ്</unitPattern>
+			<unitPattern count="1" draft="contributed">1 വര്‍ഷം മുമ്പ്</unitPattern>
+			<unitPattern count="other" draft="contributed">{0} വര്‍ഷം മുമ്പ്</unitPattern>
 		</unit>
 	</units>
 	<listPatterns>
 		<listPattern>
-			<listPatternPart type="2">{0} കൂടാതെ {1}</listPatternPart>
-			<listPatternPart type="end">{0} കൂടാതെ {1}</listPatternPart>
+			<listPatternPart type="2" draft="contributed">{0} കൂടാതെ {1}</listPatternPart>
+			<listPatternPart type="end" draft="contributed">{0}, {1} എന്നിവ</listPatternPart>
 		</listPattern>
 	</listPatterns>
 	<posix>

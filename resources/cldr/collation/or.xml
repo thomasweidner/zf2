@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
 		<version number="$Revision: 5038 $"/>
@@ -14,10 +14,10 @@
 					<p>ଁ</p>
 					<p>ଂ</p>
 					<p>ଃ</p>
-			
+
 				<reset>ହ</reset>
 					<p>କ୍ଷ</p>        
-			
+
 				<reset>ଯ</reset>
 					<s>ୟ</s>
 			</rules>

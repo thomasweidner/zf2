@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4767 $"/>
-		<generation date="$Date: 2010-02-27 20:54:27 -0600 (Sat, 27 Feb 2010) $"/>
+		<version number="$Revision: 5798 $"/>
+		<generation date="$Date: 2011-05-02 01:05:34 -0500 (Mon, 02 May 2011) $"/>
 		<language type="kw"/>
 	</identity>
 	<localeDisplayNames>
 		<languages>
-			<language type="ar">Arabek</language>
-			<language type="cy">Kembrek</language>
-			<language type="da">Danek</language>
-			<language type="de">Almaynek</language>
-			<language type="en">Sowsnek</language>
-			<language type="es">Spaynek</language>
-			<language type="eu">Baskek</language>
-			<language type="fr">Frenkek</language>
-			<language type="ga">Wordhonek</language>
-			<language type="it">Italek</language>
-			<language type="ja">Japanek</language>
+			<language type="ar" draft="unconfirmed">Arabek</language>
+			<language type="cy" draft="unconfirmed">Kembrek</language>
+			<language type="da" draft="unconfirmed">Danek</language>
+			<language type="de" draft="unconfirmed">Almaynek</language>
+			<language type="en" draft="unconfirmed">Sowsnek</language>
+			<language type="es" draft="unconfirmed">Spaynek</language>
+			<language type="eu" draft="unconfirmed">Baskek</language>
+			<language type="fr" draft="unconfirmed">Frenkek</language>
+			<language type="ga" draft="unconfirmed">Wordhonek</language>
+			<language type="it" draft="unconfirmed">Italek</language>
+			<language type="ja" draft="unconfirmed">Japanek</language>
 			<language type="kw">kernewek</language>
-			<language type="nl">Iseldiryek</language>
-			<language type="pt">Portyngalek</language>
-			<language type="pt_BR">Portyngalek Brasil</language>
-			<language type="ru">Russek</language>
-			<language type="yue">Kantonek</language>
-			<language type="zh">Chinek</language>
-			<language type="zh_Hans">Chinek sempel</language>
-			<language type="zh_Hant">Chinek hengovek</language>
+			<language type="nl" draft="unconfirmed">Iseldiryek</language>
+			<language type="pt" draft="unconfirmed">Portyngalek</language>
+			<language type="pt_BR" draft="unconfirmed">Portyngalek Brasil</language>
+			<language type="ru" draft="unconfirmed">Russek</language>
+			<language type="yue" draft="unconfirmed">Kantonek</language>
+			<language type="zh" draft="unconfirmed">Chinek</language>
+			<language type="zh_Hans" draft="unconfirmed">Chinek sempel</language>
+			<language type="zh_Hant" draft="unconfirmed">Chinek hengovek</language>
 		</languages>
 		<scripts>
-			<script type="Arab">Arabek</script>
+			<script type="Arab" draft="unconfirmed">Arabek</script>
 		</scripts>
 		<territories>
-			<territory type="BR">Brasil</territory>
-			<territory type="CN">China</territory>
-			<territory type="DE">Almayn</territory>
-			<territory type="FR">Pow Frenk</territory>
+			<territory type="BR" draft="unconfirmed">Brasil</territory>
+			<territory type="CN" draft="unconfirmed">China</territory>
+			<territory type="DE" draft="unconfirmed">Almayn</territory>
+			<territory type="FR" draft="unconfirmed">Pow Frenk</territory>
 			<territory type="GB">Rywvaneth Unys</territory>
-			<territory type="IN">Eynda</territory>
-			<territory type="IT">Itali</territory>
-			<territory type="JP">Japan</territory>
-			<territory type="RU">Russi</territory>
-			<territory type="US">Statys Unys</territory>
+			<territory type="IN" draft="unconfirmed">Eynda</territory>
+			<territory type="IT" draft="unconfirmed">Itali</territory>
+			<territory type="JP" draft="unconfirmed">Japan</territory>
+			<territory type="RU" draft="unconfirmed">Russi</territory>
+			<territory type="US" draft="unconfirmed">Statys Unys</territory>
 		</territories>
 		<keys>
-			<key type="calendar">kalans</key>
+			<key type="calendar" draft="unconfirmed">kalans</key>
 		</keys>
 		<types>
-			<type type="gregorian" key="calendar">Kalans gregorek</type>
+			<type type="gregorian" key="calendar" draft="unconfirmed">Kalans gregorek</type>
 		</types>
 	</localeDisplayNames>
 	<characters>
 		<exemplarCharacters>[a b c d e f g h i j k l m n o p q r s t u v w x y z]</exemplarCharacters>
-		<exemplarCharacters type="index">[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]</exemplarCharacters>
+		<exemplarCharacters type="index" draft="unconfirmed">[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]</exemplarCharacters>
 	</characters>
 	<dates>
 		<calendars>
@@ -129,75 +129,75 @@
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern>EEEE d MMMM y</pattern>
+							<pattern draft="unconfirmed">EEEE d MMMM y</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
-							<pattern>d MMMM y</pattern>
+							<pattern draft="unconfirmed">d MMMM y</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>d MMM y</pattern>
+							<pattern draft="unconfirmed">d MMM y</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
-							<pattern>dd/MM/yyyy</pattern>
+							<pattern draft="unconfirmed">dd/MM/yyyy</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
 				<timeFormats>
 					<timeFormatLength type="full">
 						<timeFormat>
-							<pattern>HH:mm:ss zzzz</pattern>
+							<pattern draft="unconfirmed">HH:mm:ss zzzz</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="long">
 						<timeFormat>
-							<pattern>HH:mm:ss z</pattern>
+							<pattern draft="unconfirmed">HH:mm:ss z</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="medium">
 						<timeFormat>
-							<pattern>HH:mm:ss</pattern>
+							<pattern draft="unconfirmed">HH:mm:ss</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="short">
 						<timeFormat>
-							<pattern>HH:mm</pattern>
+							<pattern draft="unconfirmed">HH:mm</pattern>
 						</timeFormat>
 					</timeFormatLength>
 				</timeFormats>
 				<fields>
 					<field type="year">
-						<displayName>Bledhen</displayName>
+						<displayName draft="unconfirmed">Bledhen</displayName>
 					</field>
 					<field type="month">
-						<displayName>Mis</displayName>
+						<displayName draft="unconfirmed">Mis</displayName>
 					</field>
 					<field type="week">
-						<displayName>Seythun</displayName>
+						<displayName draft="unconfirmed">Seythun</displayName>
 					</field>
 					<field type="day">
-						<displayName>Dedh</displayName>
+						<displayName draft="unconfirmed">Dedh</displayName>
 					</field>
 					<field type="weekday">
-						<displayName>Dedh an seythun</displayName>
+						<displayName draft="unconfirmed">Dedh an seythun</displayName>
 					</field>
 					<field type="dayperiod">
-						<displayName>AM/PM</displayName>
+						<displayName draft="unconfirmed">AM/PM</displayName>
 					</field>
 					<field type="hour">
-						<displayName>Eur</displayName>
+						<displayName draft="unconfirmed">Eur</displayName>
 					</field>
 				</fields>
 			</calendar>
 		</calendars>
 		<timeZoneNames>
 			<zone type="Etc/Unknown">
-				<exemplarCity>Ankoth</exemplarCity>
+				<exemplarCity draft="unconfirmed">Ankoth</exemplarCity>
 			</zone>
 		</timeZoneNames>
 	</dates>
@@ -211,9 +211,8 @@
 		</currencyFormats>
 		<currencies>
 			<currency type="EUR">
-				<displayName>Euro</displayName>
+				<displayName draft="unconfirmed">Euro</displayName>
 			</currency>
 		</currencies>
 	</numbers>
 </ldml>
-

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
 		<version number="$Revision: 4582 $"/>
@@ -10,7 +10,7 @@
 	</identity>
 	<localeDisplayNames>
 		<languages>
-			<language type="sr">српски</language>
+			<language type="sr" draft="unconfirmed">српски</language>
 		</languages>
 	</localeDisplayNames>
 	<dates>
@@ -66,26 +66,26 @@
 				<dateTimeFormats>
 					<intervalFormats>
 						<intervalFormatItem id="Md">
-							<greatestDifference id="d">MM-dd - MM-dd</greatestDifference>
-							<greatestDifference id="M">MM-dd - MM-dd</greatestDifference>
+							<greatestDifference id="d" draft="unconfirmed">MM-dd - MM-dd</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">MM-dd - MM-dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MEd">
-							<greatestDifference id="d">E, MM-dd - E, MM-dd</greatestDifference>
-							<greatestDifference id="M">E, MM-dd - E, MM-dd</greatestDifference>
+							<greatestDifference id="d" draft="unconfirmed">E, MM-dd - E, MM-dd</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">E, MM-dd - E, MM-dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yM">
-							<greatestDifference id="M">yy-MM - yy-MM</greatestDifference>
-							<greatestDifference id="y">yy-MM - yy-MM</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">yy-MM - yy-MM</greatestDifference>
+							<greatestDifference id="y" draft="unconfirmed">yy-MM - yy-MM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMd">
-							<greatestDifference id="d">yy-MM-dd - yy-MM-dd</greatestDifference>
-							<greatestDifference id="M">yy-MM-dd - yy-MM-dd</greatestDifference>
-							<greatestDifference id="y">yy-MM-dd - yy-MM-dd</greatestDifference>
+							<greatestDifference id="d" draft="unconfirmed">yy-MM-dd - yy-MM-dd</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">yy-MM-dd - yy-MM-dd</greatestDifference>
+							<greatestDifference id="y" draft="unconfirmed">yy-MM-dd - yy-MM-dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMEd">
-							<greatestDifference id="d">E, yy-MM-dd - E, yy-MM-dd</greatestDifference>
-							<greatestDifference id="M">E, yy-MM-dd - E, yy-MM-dd</greatestDifference>
-							<greatestDifference id="y">E, yy-MM-dd - E, yy-MM-dd</greatestDifference>
+							<greatestDifference id="d" draft="unconfirmed">E, yy-MM-dd - E, yy-MM-dd</greatestDifference>
+							<greatestDifference id="M" draft="unconfirmed">E, yy-MM-dd - E, yy-MM-dd</greatestDifference>
+							<greatestDifference id="y" draft="unconfirmed">E, yy-MM-dd - E, yy-MM-dd</greatestDifference>
 						</intervalFormatItem>
 					</intervalFormats>
 				</dateTimeFormats>

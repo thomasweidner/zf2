@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
   <identity>
 		<version number="$Revision: 5033 $"/>
@@ -7,7 +7,7 @@
 		<language type="dz" />
   </identity>
   <collations>
-        <collation type="standard">
+        <collation type="standard" draft="unconfirmed">
 			<settings normalization="on"/>
             <rules>
 			<reset>ཀ</reset>
@@ -309,20 +309,20 @@
        			<p>འཛ</p>
        			<p>རྫ</p>
       			<p>བརྫ</p>
-			
+
 			<reset>ཞ</reset>
        			<p>གཞ</p>
        			<p>བཞ</p>
 			<reset>ཟ</reset>
       			<p>གཟ</p>
        			<p>བཟ</p>
-			
+
 			<reset>ཡ</reset>
        			<p>གཡ</p>
 			<reset>ར</reset>
 				<t>ཪ</t>
        			<p>བརླ</p>
-			
+
 			<reset>ཤ</reset>
 				<t>ཥ</t>
        			<p>གཤ</p>
@@ -358,16 +358,16 @@
        			<p>བསླ</p>
 			<reset>ཧ</reset>
        			<p>ལྷ</p>
-			
-			
+
+
 			<reset>ི</reset>
 				<t>ྀ</t>
-			
+
 			<reset>ེ</reset>
 				<t>ཻ</t>
 			<reset>ོ</reset>
 				<t>ཽ</t>
-			
+
 				<p>ྐ</p>
 				<p>ྑ</p>
 				<p>ྒ</p>
@@ -406,7 +406,7 @@
 				<p>ྶ</p>
 				<p>ྷ</p>
 				<p>ྸ</p>
-			
+
 			<reset>༹</reset>
 				<s>྄</s>
 				<s>ཱ</s>
@@ -417,12 +417,12 @@
 				<s>ྉ</s>
 				<s>ྊ</s>
 				<s>ྋ</s>
-			
+
 			<reset>ྲཱྀ</reset>
 				<i>ཷ</i>
 			<reset>ླཱྀ</reset>
 				<i>ཹ</i>
-			
+
 			<reset>དགགས</reset>
 				<t>དགཊ</t>
 				<t>དགཌ</t>
@@ -474,10 +474,10 @@
 			<reset>བསགས</reset>
 				<t>བསཊ</t>
 				<t>བསཌ</t>
-			
+
 			<reset>྿</reset>
 				<p>ༀ</p>
-			
+
 			<reset>ໆ</reset>
 				<p>་</p>
 				<t>༌</t>

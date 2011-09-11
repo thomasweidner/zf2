@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 5094 $"/>
-		<generation date="$Date: 2010-10-13 11:33:36 -0500 (Wed, 13 Oct 2010) $"/>
+		<version number="$Revision: 5968 $"/>
+		<generation date="$Date: 2011-07-05 15:52:21 -0500 (Tue, 05 Jul 2011) $"/>
 		<language type="lt"/>
 	</identity>
 	<localeDisplayNames>
+		<localeDisplayPattern>
+			<localeSeparator>,</localeSeparator>
+		</localeDisplayPattern>
 		<languages>
 			<language type="aa">afarų</language>
 			<language type="ab">abchazų</language>
@@ -43,6 +46,7 @@
 			<language type="awa">avadhi</language>
 			<language type="ay">aimarų</language>
 			<language type="az">azerbaidžaniečių</language>
+			<language type="az" alt="short">Azeri k.</language>
 			<language type="ba">baškirų</language>
 			<language type="bad">bandų</language>
 			<language type="bai">bamilekų kalba</language>
@@ -374,6 +378,7 @@
 			<language type="pra">prakrit kalba</language>
 			<language type="pro">senovės provansalų</language>
 			<language type="ps">puštūnų</language>
+			<language type="ps" alt="variant">Puštūnų k.</language>
 			<language type="pt">portugalų</language>
 			<language type="pt_BR">portugalų (Brazilijos)</language>
 			<language type="pt_PT">Iberijos portugalų</language>
@@ -478,10 +483,11 @@
 			<language type="tyv">tuvių</language>
 			<language type="udm">udmurtų</language>
 			<language type="ug">uigūrų</language>
+			<language type="ug" alt="variant">Uigūrų</language>
 			<language type="uga">ugaritic</language>
 			<language type="uk">ukrainiečių</language>
 			<language type="umb">umbundu</language>
-			<language type="und">nenustatyta kalba</language>
+			<language type="und">nežinoma kalba</language>
 			<language type="ur">urdų</language>
 			<language type="uz">uzbekų</language>
 			<language type="vai">vai</language>
@@ -509,8 +515,6 @@
 			<language type="zbl">„Bliss“ simbolių kalba</language>
 			<language type="zen">zenaga</language>
 			<language type="zh">kinų</language>
-			<language type="zh_Hans">kinų supaprastinta</language>
-			<language type="zh_Hant">kinų tradicinė</language>
 			<language type="znd">zande</language>
 			<language type="zu">zulų</language>
 			<language type="zun">zuni</language>
@@ -519,10 +523,10 @@
 		</languages>
 		<scripts>
 			<script type="Arab">arabų</script>
+			<script type="Arab" alt="variant">Persų–arabų</script>
 			<script type="Armi">imperinė aramaikų</script>
 			<script type="Armn">armėnų</script>
 			<script type="Avst">avestano</script>
-			<script type="Bali">Bali</script>
 			<script type="Batk">batak</script>
 			<script type="Beng">bengalų</script>
 			<script type="Blis">„Bliss“ simboliai</script>
@@ -557,8 +561,10 @@
 			<script type="Hang">hangul</script>
 			<script type="Hani">han</script>
 			<script type="Hano">hanuno</script>
-			<script type="Hans">supaprastinta han</script>
-			<script type="Hant">tradicinė han</script>
+			<script type="Hans">supaprastinta</script>
+			<script type="Hans" alt="stand-alone">Supaprastintas Han</script>
+			<script type="Hant">tradicinė</script>
+			<script type="Hant" alt="stand-alone">Tradicinis Han</script>
 			<script type="Hebr">hebrajų</script>
 			<script type="Hira">hiragana</script>
 			<script type="Hmng">pahav hmong</script>
@@ -647,7 +653,7 @@
 			<script type="Zsym">simbolių</script>
 			<script type="Zxxx">neparašyta</script>
 			<script type="Zyyy">bendras</script>
-			<script type="Zzzz">nežinomi arba neteisingi rašmenys</script>
+			<script type="Zzzz">nežinomi rašmenys</script>
 		</scripts>
 		<territories>
 			<territory type="001">Pasaulis</territory>
@@ -682,7 +688,7 @@
 			<territory type="155">Vakarų Europa</territory>
 			<territory type="172">Nepriklausomų Valstybių Sandrauga</territory>
 			<territory type="200">Čekoslovakija</territory>
-			<territory type="419">Lotynų Amerika ir Karibai</territory>
+			<territory type="419">Lotynų Amerika</territory>
 			<territory type="AC">Ascension sala</territory>
 			<territory type="AD">Andora</territory>
 			<territory type="AE">Jungtiniai Arabų Emyratai</territory>
@@ -947,7 +953,7 @@
 			<territory type="ZA">Pietų Afrika</territory>
 			<territory type="ZM">Zambija</territory>
 			<territory type="ZW">Zimbabvė</territory>
-			<territory type="ZZ">Nežinoma ar neteisinga sritis</territory>
+			<territory type="ZZ">nežinoma sritis</territory>
 		</territories>
 		<variants>
 			<variant type="1901">Įprasta vokiečių rašyba</variant>
@@ -988,27 +994,86 @@
 			<key type="calendar">kalendorius</key>
 			<key type="collation">lyginimas</key>
 			<key type="currency">valiuta</key>
+			<key type="numbers">Skaičiai</key>
+			<key type="x">Naudoti privačiai</key>
 		</keys>
 		<types>
+			<type type="arab" key="numbers">Arabiški–indiški skaitmenys</type>
+			<type type="arabext" key="numbers">Išplėstiniai arabiški–indiški skaitmenys</type>
+			<type type="armn" key="numbers">Armėnų k. skaitmenys</type>
+			<type type="armnlow" key="numbers">Armėnų k. skaitmenys mažosiomis raidėmis</type>
+			<type type="beng" key="numbers">Bengalų k. skaitmenys</type>
 			<type type="big5han" key="collation">Įprasta kiniška rūšiavimo tvarka - Big5</type>
 			<type type="buddhist" key="calendar">Budistų kalendorius</type>
 			<type type="chinese" key="calendar">Kinų kalendorius</type>
+			<type type="coptic" key="calendar">Koptų kalendorius</type>
+			<type type="deva" key="numbers">Devanagari k. skaitmenys</type>
+			<type type="dictionary" key="collation">Žodyno rūšiavimo tvarka</type>
 			<type type="direct" key="collation">Tiesioginė rūšiavimo tvarka</type>
+			<type type="ducet" key="collation">Numatytojo unikodo rūšiavimo tvarka</type>
+			<type type="ethi" key="numbers">Amharų k. skaitmenys</type>
+			<type type="ethiopic" key="calendar">Etiopijos kalendorius</type>
+			<type type="ethiopic-amete-alem" key="calendar">Etiopijos „Amete Alem“ kalendorius</type>
+			<type type="fullwide" key="numbers">Viso pločio skaitmenys</type>
 			<type type="gb2312han" key="collation">Supaprastinta kiniška rūšiavimo tvarka - GB2312</type>
+			<type type="geor" key="numbers">Gruzinų k. skaitmenys</type>
 			<type type="gregorian" key="calendar">Grigaliaus kalendorius</type>
+			<type type="grek" key="numbers">Graikų k. skaitmenys</type>
+			<type type="greklow" key="numbers">Graikiški skaitmenys mažosiomis raidėmis</type>
+			<type type="gujr" key="numbers">Gudžaratų k. skaitmenys</type>
+			<type type="guru" key="numbers">Gurmuki k. skaitmenys</type>
+			<type type="hanidec" key="numbers">Kinų k. dešimtainiai skaitmenys</type>
+			<type type="hans" key="numbers">Supaprastintos kinų k. skaitmenys</type>
+			<type type="hansfin" key="numbers">Supaprastintos kinų k. finans. skaitmenys</type>
+			<type type="hant" key="numbers">Tradicinės kinų k. skaitmenys</type>
+			<type type="hantfin" key="numbers">Tradicinės kinų k. finans. skaitmenys</type>
+			<type type="hebr" key="numbers">Hebrajų k. skaitmenys</type>
 			<type type="hebrew" key="calendar">Hebrajų kalendorius</type>
 			<type type="indian" key="calendar">Nacionalinis indų kalendorius</type>
 			<type type="islamic" key="calendar">Islamo kalendorius</type>
 			<type type="islamic-civil" key="calendar">Pilietinis islamo kalendorius</type>
 			<type type="japanese" key="calendar">Japonų kalendorius</type>
+			<type type="jpan" key="numbers">Japonų k. skaitmenys</type>
+			<type type="jpanfin" key="numbers">Japonų k. finans. skaitmenys</type>
+			<type type="khmr" key="numbers">Khmerų k. skaitmenys</type>
+			<type type="knda" key="numbers">Kanadų k. skaitmenys</type>
+			<type type="laoo" key="numbers">Laosiečių k. skaitmenys</type>
+			<type type="latn" key="numbers">Lotyniški skaitmenys</type>
+			<type type="mlym" key="numbers">Malajalių k. skaitmenys</type>
+			<type type="mong" key="numbers">Mongolų k. skaitmenys</type>
+			<type type="mymr" key="numbers">Mianmariečių k. skaitmenys</type>
+			<type type="orya" key="numbers">Oriya skaitmenys</type>
+			<type type="persian" key="calendar">Persų kalendorius</type>
 			<type type="phonebook" key="collation">Telefonų knygos rūšiavimo tvarka</type>
 			<type type="pinyin" key="collation">Supaprastinta kiniškų hieroglifų vertimo sistemos rūšiavimo tvarka</type>
+			<type type="reformed" key="collation">Reformuota rūšiavimo tvarka</type>
 			<type type="roc" key="calendar">Kinijos Respublikos kalendorius</type>
+			<type type="roman" key="numbers">Romėniškieji skaitmenys</type>
+			<type type="romanlow" key="numbers">Romėniškieji skaitmenys mažosiomis raidėmis</type>
+			<type type="search" key="collation">Bendro tikslo paieška</type>
 			<type type="stroke" key="collation">Įprasta kiniško požymio rūšiavimo tvarka</type>
+			<type type="taml" key="numbers">Tamilų k. skaitmenys</type>
+			<type type="telu" key="numbers">Telugų k. skaitmenys</type>
+			<type type="thai" key="numbers">Tajų k. skaitmenys</type>
+			<type type="tibt" key="numbers">Tibetiečių k. skaitmenys</type>
 			<type type="traditional" key="collation">Įprasta rūšiavimo tvarka</type>
+			<type type="unihan" key="collation">Šaknies ženklų ir brūkšnių rūšiavimo tvarka</type>
 		</types>
+		<transformNames>
+			<transformName type="BGN">BGN simboliai</transformName>
+			<transformName type="Numeric">Skaitinis</transformName>
+			<transformName type="Tone">Tonas</transformName>
+			<transformName type="UNGEGN">UNGEGN simboliai</transformName>
+			<transformName type="x-Accents">Kirčiai</transformName>
+			<transformName type="x-Fullwidth">Viso pločio</transformName>
+			<transformName type="x-Halfwidth">Vidutinio pločio</transformName>
+			<transformName type="x-Jamo">Jamo simboliai</transformName>
+			<transformName type="x-Pinyin">Pinjino simboliai</transformName>
+			<transformName type="x-Publishing">Skelbimas</transformName>
+		</transformNames>
 		<measurementSystemNames>
 			<measurementSystemName type="metric">Metrinė</measurementSystemName>
+			<measurementSystemName type="UK">Nemetrinė JK matavimo sistema</measurementSystemName>
 			<measurementSystemName type="US">JAV</measurementSystemName>
 		</measurementSystemNames>
 		<codePatterns>
@@ -1019,7 +1084,7 @@
 	</localeDisplayNames>
 	<characters>
 		<exemplarCharacters>[a ą b c č d e ę ė f g h i į y j k l m n o p r s š t u ų ū v z ž]</exemplarCharacters>
-		<exemplarCharacters type="auxiliary">[{į\u0307} {i\u0307} {i\u0307\u0301} {i\u0307\u0300} {i\u0307\u0303} {j\u0307} q w x]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[{i\u0307\u0301} {i\u0307\u0300} {i\u0307\u0303} {i\u0307} {į\u0307} {j\u0307} q w x]</exemplarCharacters>
 		<exemplarCharacters type="currencySymbol">[a ą b c č d e ę ė f g h i į y j k l m n o p r s š t u ų ū v z ž]</exemplarCharacters>
 		<exemplarCharacters type="index">[A Ą B C Č D E Ę Ė F G H I Į Y J K L M N O P R S Š T U Ų Ū V Z Ž]</exemplarCharacters>
 	</characters>
@@ -1045,21 +1110,35 @@
 				<months>
 					<monthContext type="format">
 						<monthWidth type="abbreviated">
-							<month type="1">Sau</month>
+							<month type="1">Saus.</month>
 							<month type="2">Vas</month>
-							<month type="3">Kov</month>
-							<month type="4">Bal</month>
-							<month type="5">Geg</month>
-							<month type="6">Bir</month>
-							<month type="7">Lie</month>
-							<month type="8">Rgp</month>
-							<month type="9">Rgs</month>
-							<month type="10">Spl</month>
-							<month type="11">Lap</month>
-							<month type="12">Grd</month>
+							<month type="3">Kov.</month>
+							<month type="4">Bal.</month>
+							<month type="5">Geg.</month>
+							<month type="6">Bir.</month>
+							<month type="7">Liep.</month>
+							<month type="8">Rugp.</month>
+							<month type="9">Rugs.</month>
+							<month type="10">Spal.</month>
+							<month type="11">Lapkr.</month>
+							<month type="12">Gruod.</month>
+						</monthWidth>
+						<monthWidth type="narrow">
+							<month type="1">S</month>
+							<month type="2">V</month>
+							<month type="3">K</month>
+							<month type="4">B</month>
+							<month type="5">G</month>
+							<month type="6">B</month>
+							<month type="7">L</month>
+							<month type="8">R</month>
+							<month type="9">R</month>
+							<month type="10">S</month>
+							<month type="11">L</month>
+							<month type="12">G</month>
 						</monthWidth>
 						<monthWidth type="wide">
-							<month type="1">sausis</month>
+							<month type="1">sausio</month>
 							<month type="2">vasaris</month>
 							<month type="3">kovas</month>
 							<month type="4">balandis</month>
@@ -1077,12 +1156,12 @@
 						<monthWidth type="abbreviated">
 							<month type="1">Saus.</month>
 							<month type="2">Vas.</month>
-							<month type="3">kov</month>
+							<month type="3">Kov.</month>
 							<month type="4">Bal.</month>
 							<month type="5">Geg.</month>
 							<month type="6">Bir.</month>
 							<month type="7">Liep.</month>
-							<month type="8">Rugpj.</month>
+							<month type="8">Rugp.</month>
 							<month type="9">Rugs.</month>
 							<month type="10">Spal.</month>
 							<month type="11">Lapkr.</month>
@@ -1129,6 +1208,15 @@
 							<day type="fri">Pn</day>
 							<day type="sat">Št</day>
 						</dayWidth>
+						<dayWidth type="narrow">
+							<day type="sun">S</day>
+							<day type="mon">P</day>
+							<day type="tue">A</day>
+							<day type="wed">T</day>
+							<day type="thu">K</day>
+							<day type="fri">P</day>
+							<day type="sat">Š</day>
+						</dayWidth>
 						<dayWidth type="wide">
 							<day type="sun">sekmadienis</day>
 							<day type="mon">pirmadienis</day>
@@ -1142,12 +1230,12 @@
 					<dayContext type="stand-alone">
 						<dayWidth type="abbreviated">
 							<day type="sun">Sk</day>
-							<day type="mon">Pi</day>
-							<day type="tue">A</day>
-							<day type="wed">T</day>
-							<day type="thu">K</day>
-							<day type="fri">Pe</day>
-							<day type="sat">Š</day>
+							<day type="mon">Pr</day>
+							<day type="tue">An</day>
+							<day type="wed">Tr</day>
+							<day type="thu">Kt</day>
+							<day type="fri">Pn</day>
+							<day type="sat">Št</day>
 						</dayWidth>
 						<dayWidth type="narrow">
 							<day type="sun">S</day>
@@ -1158,29 +1246,55 @@
 							<day type="fri">P</day>
 							<day type="sat">Š</day>
 						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun">sekmadienis</day>
+							<day type="mon">pirmadienis</day>
+							<day type="tue">antradienis</day>
+							<day type="wed">trečiadienis</day>
+							<day type="thu">ketvirtadienis</day>
+							<day type="fri">penktadienis</day>
+							<day type="sat">šeštadienis</day>
+						</dayWidth>
 					</dayContext>
 				</days>
 				<quarters>
 					<quarterContext type="format">
 						<quarterWidth type="abbreviated">
-							<quarter type="1">K1</quarter>
-							<quarter type="2">K2</quarter>
-							<quarter type="3">K3</quarter>
-							<quarter type="4">K4</quarter>
+							<quarter type="1">I k.</quarter>
+							<quarter type="2">II k.</quarter>
+							<quarter type="3">III k.</quarter>
+							<quarter type="4">IV ketv.</quarter>
+						</quarterWidth>
+						<quarterWidth type="narrow">
+							<quarter type="1">I</quarter>
+							<quarter type="2">II</quarter>
+							<quarter type="3">3</quarter>
+							<quarter type="4">IV</quarter>
 						</quarterWidth>
 						<quarterWidth type="wide">
-							<quarter type="1">pirmas ketvirtis</quarter>
-							<quarter type="2">antras ketvirtis</quarter>
-							<quarter type="3">trečias ketvirtis</quarter>
-							<quarter type="4">ketvirtas ketvirtis</quarter>
+							<quarter type="1">I ketvirtis</quarter>
+							<quarter type="2">II ketvirtis</quarter>
+							<quarter type="3">III ketvirtis</quarter>
+							<quarter type="4">IV ketvirtis</quarter>
 						</quarterWidth>
 					</quarterContext>
 					<quarterContext type="stand-alone">
 						<quarterWidth type="abbreviated">
-							<quarter type="1">1K</quarter>
-							<quarter type="2">2K</quarter>
-							<quarter type="3">3K</quarter>
-							<quarter type="4">4K</quarter>
+							<quarter type="1">I ketv.</quarter>
+							<quarter type="2">II ketv.</quarter>
+							<quarter type="3">III ketv.</quarter>
+							<quarter type="4">IV ketv.</quarter>
+						</quarterWidth>
+						<quarterWidth type="narrow">
+							<quarter type="1">I</quarter>
+							<quarter type="2">II</quarter>
+							<quarter type="4">IV</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">I ketvirtis</quarter>
+							<quarter type="2">II ketvirtis</quarter>
+							<quarter type="3">III ketvirtis</quarter>
+							<quarter type="4">IV ketvirtis</quarter>
 						</quarterWidth>
 					</quarterContext>
 				</quarters>
@@ -1209,7 +1323,7 @@
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern>y 'm'. MMMM d 'd'.,EEEE</pattern>
+							<pattern>y 'm'. MMMM d 'd'., EEEE</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
@@ -1219,7 +1333,7 @@
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>yyyy.MM.dd</pattern>
+							<pattern>y MMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
@@ -1257,96 +1371,107 @@
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="hms">hh:mm:ss a</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="MEd">M-d, E</dateFormatItem>
 						<dateFormatItem id="MMdd">MM.dd</dateFormatItem>
 						<dateFormatItem id="MMMdd">MMM-dd</dateFormatItem>
+						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
+						<dateFormatItem id="yMd">y-M-d</dateFormatItem>
+						<dateFormatItem id="yMEd">y-M-d EEE</dateFormatItem>
+						<dateFormatItem id="yMMMd">y MMM d</dateFormatItem>
+						<dateFormatItem id="yMMMEd">y MMM d, EEE</dateFormatItem>
 						<dateFormatItem id="yyQ">Q yy</dateFormatItem>
 						<dateFormatItem id="yyyyMM">yyyy.MM</dateFormatItem>
 					</availableFormats>
 					<intervalFormats>
-						<intervalFormatFallback>{0} - {1}</intervalFormatFallback>
+						<intervalFormatFallback>{0} – {1}</intervalFormatFallback>
 						<intervalFormatItem id="d">
-							<greatestDifference id="d">d-d</greatestDifference>
+							<greatestDifference id="d">d–d</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="h">
-							<greatestDifference id="h">h-h a</greatestDifference>
+							<greatestDifference id="a">H–H</greatestDifference>
+							<greatestDifference id="h">h–h a</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="H">
-							<greatestDifference id="H">HH-HH</greatestDifference>
+							<greatestDifference id="H">HH–HH</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hm">
-							<greatestDifference id="h">h:mm-h:mm a</greatestDifference>
-							<greatestDifference id="m">h:mm-h:mm a</greatestDifference>
+							<greatestDifference id="h">h:mm–h:mm a</greatestDifference>
+							<greatestDifference id="m">h:mm–h:mm a</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hm">
-							<greatestDifference id="H">HH:mm-HH:mm</greatestDifference>
-							<greatestDifference id="m">HH:mm-HH:mm</greatestDifference>
+							<greatestDifference id="H">HH:mm–HH:mm</greatestDifference>
+							<greatestDifference id="m">HH:mm–HH:mm</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hmv">
-							<greatestDifference id="h">h:mm-h:mm a v</greatestDifference>
-							<greatestDifference id="m">h:mm-h:mm a v</greatestDifference>
+							<greatestDifference id="h">h:mm–h:mm a v</greatestDifference>
+							<greatestDifference id="m">h:mm–h:mm a v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hmv">
-							<greatestDifference id="H">HH:mm-HH:mm v</greatestDifference>
-							<greatestDifference id="m">HH:mm-HH:mm v</greatestDifference>
+							<greatestDifference id="H">HH:mm–HH:mm v</greatestDifference>
+							<greatestDifference id="m">HH:mm–HH:mm v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hv">
-							<greatestDifference id="h">h-h a v</greatestDifference>
+							<greatestDifference id="a">H–H v</greatestDifference>
+							<greatestDifference id="h">h–h a v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hv">
-							<greatestDifference id="H">HH-HH v</greatestDifference>
+							<greatestDifference id="H">HH–HH v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="M">
-							<greatestDifference id="M">M-M</greatestDifference>
+							<greatestDifference id="M">M–M</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Md">
-							<greatestDifference id="d">MM-dd - MM-dd</greatestDifference>
-							<greatestDifference id="M">MM-dd - MM-dd</greatestDifference>
+							<greatestDifference id="d">MM-dd – MM-dd</greatestDifference>
+							<greatestDifference id="M">MM-dd – MM-dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MEd">
-							<greatestDifference id="d">MM-ddE - MM-ddE</greatestDifference>
-							<greatestDifference id="M">MM-ddE - MM-ddE</greatestDifference>
+							<greatestDifference id="d">MM-dd, E – MM-dd, E</greatestDifference>
+							<greatestDifference id="M">MM-dd, E – MM-dd, E</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMM">
-							<greatestDifference id="M">MMM-MMM</greatestDifference>
+							<greatestDifference id="M">LLL–LLL</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMMd">
-							<greatestDifference id="d">MMM d 'd'.-d 'd'.</greatestDifference>
-							<greatestDifference id="M">MMM d 'd'. - MMM d 'd'.</greatestDifference>
+							<greatestDifference id="d">MMM. d 'd'.–d 'd'</greatestDifference>
+							<greatestDifference id="M">MMM d 'd'.– MMM d 'd'.</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMMEd">
-							<greatestDifference id="d">MMM d 'd'.E - d 'd'.E</greatestDifference>
-							<greatestDifference id="M">MMM d 'd'.E - MMM d 'd'.E</greatestDifference>
+							<greatestDifference id="d">MMM d 'd'. E. – d 'd'. E.</greatestDifference>
+							<greatestDifference id="M">MMM d 'd'. E. - MMM d 'd'. E.</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="y">
-							<greatestDifference id="y">y-y</greatestDifference>
+							<greatestDifference id="y">y–y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yM">
-							<greatestDifference id="M">yyyy-MM - yyyy-MM</greatestDifference>
-							<greatestDifference id="y">yyyy-MM - yyyy-MM</greatestDifference>
+							<greatestDifference id="M">yyyy-MM – yyyy-MM</greatestDifference>
+							<greatestDifference id="y">yyyy-MM – yyyy-MM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMd">
-							<greatestDifference id="d">yyyy-MM-dd - yyyy-MM-dd</greatestDifference>
-							<greatestDifference id="M">yyyy-MM-dd - yyyy-MM-dd</greatestDifference>
-							<greatestDifference id="y">yyyy-MM-dd - yyyy-MM-dd</greatestDifference>
+							<greatestDifference id="d">yyyy-MM-dd–yyyy-MM-dd</greatestDifference>
+							<greatestDifference id="M">yyyy-MM-dd– yyyy-MM-dd</greatestDifference>
+							<greatestDifference id="y">yyyy-MM-dd – yyyy-MM-dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMEd">
-							<greatestDifference id="d">yyyy-MM-ddE - yyyy-MM-ddE</greatestDifference>
-							<greatestDifference id="M">yyyy-MM-ddE - yyyy-MM-ddE</greatestDifference>
-							<greatestDifference id="y">yyyy-MM-ddE - yyyy-MM-ddE</greatestDifference>
+							<greatestDifference id="d">yyyy-MM-dd E. – yyyy-MM-dd E.</greatestDifference>
+							<greatestDifference id="M">yyyy-MM-dd E. – yyyy-MM-dd E.</greatestDifference>
+							<greatestDifference id="y">yyyy-MM-dd E. – yyyy-MM-dd E.</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMM">
 							<greatestDifference id="M">y 'm'. MMM-MMM</greatestDifference>
-							<greatestDifference id="y">y 'm'. MMM - y 'm'. MMM</greatestDifference>
+							<greatestDifference id="y">yyyy-MM – yyyy-MM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMd">
-							<greatestDifference id="d">y 'm'. MMM d 'd'.-d 'd'.</greatestDifference>
-							<greatestDifference id="M">y 'm'. MMM d 'd'. - MMM d 'd'.</greatestDifference>
-							<greatestDifference id="y">y 'm'. MMM d 'd'. - y 'm'. MMM d 'd'.</greatestDifference>
+							<greatestDifference id="d">y 'm'. MMM d 'd'.–d 'd'.</greatestDifference>
+							<greatestDifference id="M">yyyy-MM-dd – MM-d</greatestDifference>
+							<greatestDifference id="y">yyyy-MM-dd – yyyy-MM-dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMEd">
-							<greatestDifference id="d">y 'm'. MMM d 'd'.,E - d 'd'.,E</greatestDifference>
-							<greatestDifference id="M">y 'm'. MMM d 'd'.,E - MMM d 'd'.,E</greatestDifference>
-							<greatestDifference id="y">y 'm'. MMM d 'd'.,E - y 'm'. MMM d 'd'.,E</greatestDifference>
+							<greatestDifference id="d">yyyy-MM-dd E. – yyyy-MM-dd E.</greatestDifference>
+							<greatestDifference id="M">yyyy-MM-dd E. – yyyy-MM-dd E.</greatestDifference>
+							<greatestDifference id="y">yyyy-MM-dd E. – yyyy-MM-dd E.</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMM">
+							<greatestDifference id="M">yyyy-MM– MM</greatestDifference>
 						</intervalFormatItem>
 					</intervalFormats>
 				</dateTimeFormats>
@@ -1356,22 +1481,29 @@
 					</field>
 					<field type="year">
 						<displayName>metai</displayName>
+						<relative type="-1">Praėjusiais metais</relative>
+						<relative type="0">Šiais metais</relative>
+						<relative type="1">Kitais metais</relative>
 					</field>
 					<field type="month">
 						<displayName>mėnuo</displayName>
+						<relative type="-1">Praėjusį mėnesį</relative>
+						<relative type="0">Šį mėnesį</relative>
+						<relative type="1">Kitą mėnesį</relative>
 					</field>
 					<field type="week">
 						<displayName>savaitė</displayName>
+						<relative type="-1">Praėjusią savaitę</relative>
+						<relative type="0">Šią savaitę</relative>
+						<relative type="1">Kitą savaitę</relative>
 					</field>
 					<field type="day">
 						<displayName>diena</displayName>
-						<relative type="-3">už užvakar</relative>
 						<relative type="-2">užvakar</relative>
 						<relative type="-1">vakar</relative>
 						<relative type="0">šiandien</relative>
 						<relative type="1">rytoj</relative>
 						<relative type="2">poryt</relative>
-						<relative type="3">užporyt</relative>
 					</field>
 					<field type="weekday">
 						<displayName>savaitės diena</displayName>
@@ -1389,7 +1521,7 @@
 						<displayName>sekundė</displayName>
 					</field>
 					<field type="zone">
-						<displayName>juosta</displayName>
+						<displayName>laiko juosta</displayName>
 					</field>
 				</fields>
 			</calendar>
@@ -1397,7 +1529,8 @@
 		<timeZoneNames>
 			<hourFormat>+HH:mm;−HH:mm</hourFormat>
 			<gmtFormat>GMT{0}</gmtFormat>
-			<fallbackFormat>{0} ({1})</fallbackFormat>
+			<regionFormat draft="contributed">{0} laikas</regionFormat>
+			<fallbackRegionFormat draft="contributed">{1} laikas ({0})</fallbackRegionFormat>
 			<zone type="Etc/Unknown">
 				<exemplarCity>Nežinoma</exemplarCity>
 			</zone>
@@ -1639,7 +1772,7 @@
 				<exemplarCity>Kosta Rika</exemplarCity>
 			</zone>
 			<zone type="Indian/Christmas">
-				<exemplarCity>Kalėdų sala</exemplarCity>
+				<exemplarCity>Kalėdų Sala</exemplarCity>
 			</zone>
 			<zone type="Asia/Nicosia">
 				<exemplarCity>Nikosija</exemplarCity>
@@ -1735,7 +1868,7 @@
 				<exemplarCity>Konakris</exemplarCity>
 			</zone>
 			<zone type="America/Guadeloupe">
-				<exemplarCity>Gvadelupė</exemplarCity>
+				<exemplarCity>Gvadalupė</exemplarCity>
 			</zone>
 			<zone type="Europe/Athens">
 				<exemplarCity>Atėnai</exemplarCity>
@@ -1848,6 +1981,9 @@
 			<zone type="Africa/Monrovia">
 				<exemplarCity>Monrovija</exemplarCity>
 			</zone>
+			<zone type="Europe/Vilnius">
+				<exemplarCity>Vilnius</exemplarCity>
+			</zone>
 			<zone type="Europe/Luxembourg">
 				<exemplarCity>Liuksemburgas</exemplarCity>
 			</zone>
@@ -1876,7 +2012,7 @@
 				<exemplarCity>Čoibalsanas</exemplarCity>
 			</zone>
 			<zone type="Asia/Macau">
-				<exemplarCity>Makao</exemplarCity>
+				<exemplarCity draft="contributed">Makao</exemplarCity>
 			</zone>
 			<zone type="Pacific/Saipan">
 				<exemplarCity>Saipanas</exemplarCity>
@@ -1942,7 +2078,7 @@
 				<exemplarCity>Varšuva</exemplarCity>
 			</zone>
 			<zone type="Pacific/Pitcairn">
-				<exemplarCity>Pitcairno salos</exemplarCity>
+				<exemplarCity>Pitkerno Salos</exemplarCity>
 			</zone>
 			<zone type="America/Puerto_Rico">
 				<exemplarCity>Puerto Rikas</exemplarCity>
@@ -2047,7 +2183,7 @@
 				<exemplarCity>Damaskas</exemplarCity>
 			</zone>
 			<zone type="America/Grand_Turk">
-				<exemplarCity>Grand Terkas</exemplarCity>
+				<exemplarCity draft="contributed">Grand Terkas</exemplarCity>
 			</zone>
 			<zone type="Africa/Ndjamena">
 				<exemplarCity>Ndžamena</exemplarCity>
@@ -2068,10 +2204,10 @@
 				<exemplarCity>Tunisas</exemplarCity>
 			</zone>
 			<zone type="Europe/Istanbul">
-				<exemplarCity>Stambulas</exemplarCity>
+				<exemplarCity draft="contributed">Stambulas</exemplarCity>
 			</zone>
 			<zone type="America/Port_of_Spain">
-				<exemplarCity>Port of Speinas</exemplarCity>
+				<exemplarCity draft="contributed">Port of Speinas</exemplarCity>
 			</zone>
 			<zone type="Europe/Uzhgorod">
 				<exemplarCity>Užhorodas</exemplarCity>
@@ -2086,7 +2222,7 @@
 				<exemplarCity>Zaporožė</exemplarCity>
 			</zone>
 			<zone type="Pacific/Midway">
-				<exemplarCity>Jungtinių Valstijų mažosios aplinkinės salos (Midway</exemplarCity>
+				<exemplarCity>Jungtinių Valstijų mažosios aplinkinės salos (Midway)</exemplarCity>
 			</zone>
 			<zone type="Pacific/Johnston">
 				<exemplarCity>Džonstonas</exemplarCity>
@@ -2155,7 +2291,7 @@
 				<exemplarCity>Niujorkas</exemplarCity>
 			</zone>
 			<zone type="America/Montevideo">
-				<exemplarCity>Montevidëjas</exemplarCity>
+				<exemplarCity>Montevidėjas</exemplarCity>
 			</zone>
 			<zone type="Asia/Samarkand">
 				<exemplarCity>Samarkandas</exemplarCity>
@@ -2242,6 +2378,7 @@
 			</metazone>
 			<metazone type="Amazon">
 				<long>
+					<generic>Amazonės laikas</generic>
 					<standard>Amazonės laikas</standard>
 					<daylight>Amazonės vasaros laikas</daylight>
 				</long>
@@ -2260,6 +2397,13 @@
 					<daylight>Rytų vasaros laikas</daylight>
 				</long>
 			</metazone>
+			<metazone type="America_Mountain">
+				<long>
+					<generic>Kalnų laikas</generic>
+					<standard>Kalnų standartinis laikas</standard>
+					<daylight>Kalnų dienos laikas</daylight>
+				</long>
+			</metazone>
 			<metazone type="America_Pacific">
 				<long>
 					<generic>Ramiojo vandenyno laikas</generic>
@@ -2269,6 +2413,7 @@
 			</metazone>
 			<metazone type="Anadyr">
 				<long>
+					<generic>Anadyro laikas</generic>
 					<standard>Anadyrės laikas</standard>
 					<daylight>Anadyrės vasaros laikas</daylight>
 				</long>
@@ -2278,30 +2423,25 @@
 					<standard>Aqtau laikas</standard>
 					<daylight>Aqtau vasaros laikas</daylight>
 				</long>
-				<short>
-					<standard>AQTT (Aktau)</standard>
-					<daylight>AQTST (Aktau)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Aqtobe">
 				<long>
 					<standard>Aqtobe laikas</standard>
 					<daylight>Aqtobe vasaros laikas</daylight>
 				</long>
-				<short>
-					<standard>AQTT (Aktobė)</standard>
-					<daylight>AQTST (Aktobė)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Argentina">
 				<long>
+					<generic>Argentinos laikas</generic>
 					<standard>Argentinos laikas</standard>
 					<daylight>Argentinos vasaros laikas</daylight>
 				</long>
 			</metazone>
 			<metazone type="Argentina_Western">
 				<long>
+					<generic>Argentinos vakarų laikas</generic>
 					<standard>Vakarų Argentinos laikas</standard>
+					<daylight>Argentinos vakarų vasaros laikas</daylight>
 				</long>
 			</metazone>
 			<metazone type="Armenia">
@@ -2400,6 +2540,7 @@
 			</metazone>
 			<metazone type="Brasilia">
 				<long>
+					<generic>Brazilijos laikas</generic>
 					<standard>Brazilijos laikas</standard>
 					<daylight>Brazilijos vasaros laikas</daylight>
 				</long>
@@ -2443,14 +2584,10 @@
 					<generic>Kinijos laikas</generic>
 					<daylight>Kinijos vasaros laikas</daylight>
 				</long>
-				<short>
-					<generic>CT (Kinija)</generic>
-					<standard>CST (Kinija)</standard>
-					<daylight>CDT (Kinija)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Choibalsan">
 				<long>
+					<generic>Čoibalsano laikas</generic>
 					<standard>Choibalsan laikas</standard>
 					<daylight>Choibalsan vasaros laikas</daylight>
 				</long>
@@ -2526,6 +2663,12 @@
 				<long>
 					<standard>Rytų Europos laikas</standard>
 					<daylight>Rytų Europos vasaros laikas</daylight>
+				</long>
+			</metazone>
+			<metazone type="Europe_Western">
+				<long>
+					<standard>Vakarų Europos laikas</standard>
+					<daylight>Vakarų Europos vasaros laikas</daylight>
 				</long>
 			</metazone>
 			<metazone type="Falkland">
@@ -2613,6 +2756,7 @@
 			</metazone>
 			<metazone type="Hawaii_Aleutian">
 				<long>
+					<generic>Havajų–Aleutų laikas</generic>
 					<standard>Havajų-Aleutian žiemos laikas</standard>
 				</long>
 			</metazone>
@@ -2624,6 +2768,7 @@
 			</metazone>
 			<metazone type="Hovd">
 				<long>
+					<generic>Kobdo laikas</generic>
 					<standard>Hovd laikas</standard>
 					<daylight>Hovd vasaros laikas</daylight>
 				</long>
@@ -2640,16 +2785,19 @@
 			</metazone>
 			<metazone type="Indonesia_Central">
 				<long>
+					<generic>Indonezijos centrinis laikas</generic>
 					<standard>Centrinės Indokinijos laikas</standard>
 				</long>
 			</metazone>
 			<metazone type="Indonesia_Eastern">
 				<long>
+					<generic>Indonezijos rytų laikas</generic>
 					<standard>Rytų Indonezijos laikas</standard>
 				</long>
 			</metazone>
 			<metazone type="Indonesia_Western">
 				<long>
+					<generic>Indonezijos vakarų laikas</generic>
 					<standard>Vakarų Indonezijos laikas</standard>
 				</long>
 			</metazone>
@@ -2661,6 +2809,7 @@
 			</metazone>
 			<metazone type="Irkutsk">
 				<long>
+					<generic>Irkutsko laikas</generic>
 					<standard>Irkutsko laikas</standard>
 					<daylight>Irkutsko vasaros laikas</daylight>
 				</long>
@@ -2678,6 +2827,7 @@
 			</metazone>
 			<metazone type="Kamchatka">
 				<long>
+					<generic>Kamčiatkos laikas</generic>
 					<standard>Kamčiatkos Petropavlovsko laikas</standard>
 					<daylight>Kamčiatkos Petropavlovsko vasaros laikas</daylight>
 				</long>
@@ -2696,12 +2846,14 @@
 				<long>
 					<generic>Rytų Kazachstano laikas</generic>
 					<standard>Rytų Kazachstano žiemos laikas</standard>
+					<daylight>Kazachstano rytų vasaros laikas</daylight>
 				</long>
 			</metazone>
 			<metazone type="Kazakhstan_Western">
 				<long>
 					<generic>Vakarų Kazachstano laikas</generic>
 					<standard>Vakarų Kazachstano žiemos laikas</standard>
+					<daylight>Kazachstano vakarų vasaros laikas</daylight>
 				</long>
 			</metazone>
 			<metazone type="Kizilorda">
@@ -2723,6 +2875,7 @@
 			</metazone>
 			<metazone type="Krasnoyarsk">
 				<long>
+					<generic>Krasnojarsko laikas</generic>
 					<standard>Krasnojarsko laikas</standard>
 					<daylight>Krasnojarsko vasaros laikas</daylight>
 				</long>
@@ -2771,8 +2924,14 @@
 					<daylight>Macau vasaros laikas</daylight>
 				</long>
 			</metazone>
+			<metazone type="Macquarie">
+				<long>
+					<generic>Makvario laikas</generic>
+				</long>
+			</metazone>
 			<metazone type="Magadan">
 				<long>
+					<generic>Magadano laikas</generic>
 					<standard>Magadano laikas</standard>
 					<daylight>Magadano vasaros laikas</daylight>
 				</long>
@@ -2810,6 +2969,7 @@
 			</metazone>
 			<metazone type="Mongolia">
 				<long>
+					<generic>Mongolijos laikas</generic>
 					<standard>Ulan Batoro laikas</standard>
 					<daylight>Ulan Batoro vasaros laikas</daylight>
 				</long>
@@ -2866,6 +3026,13 @@
 					<standard>Norfolko salų laikas</standard>
 				</long>
 			</metazone>
+			<metazone type="Noronha">
+				<long>
+					<generic>Noronjos laikas</generic>
+					<standard>Fernando de Noronjos laikas</standard>
+					<daylight>Fernando de Noronjos vasaros laikas</daylight>
+				</long>
+			</metazone>
 			<metazone type="North_Mariana">
 				<long>
 					<standard>Šiaurės Marianos salų laikas</standard>
@@ -2873,12 +3040,14 @@
 			</metazone>
 			<metazone type="Novosibirsk">
 				<long>
+					<generic>Novosibirsko laikas</generic>
 					<standard>Novosibirsko laikas</standard>
 					<daylight>Novosibirsko vasaros laikas</daylight>
 				</long>
 			</metazone>
 			<metazone type="Omsk">
 				<long>
+					<generic>Omsko laikas</generic>
 					<standard>Omsko laikas</standard>
 					<daylight>Omsko vasaros laikas</daylight>
 				</long>
@@ -2945,12 +3114,14 @@
 			</metazone>
 			<metazone type="Sakhalin">
 				<long>
+					<generic>Sachalino laikas</generic>
 					<standard>Sachalino laikas</standard>
 					<daylight>Sachalino vasaros laikas</daylight>
 				</long>
 			</metazone>
 			<metazone type="Samara">
 				<long>
+					<generic>Samaros laikas</generic>
 					<standard>Samaros laikas</standard>
 					<daylight>Samaros vasaros laikas</daylight>
 				</long>
@@ -2960,10 +3131,6 @@
 					<standard>Samarkando laikas</standard>
 					<daylight>Samarkando vasaros laikas</daylight>
 				</long>
-				<short>
-					<standard>SAMT (Samarkandas)</standard>
-					<daylight>SAMST (Samarkandas)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Samoa">
 				<long>
@@ -3013,11 +3180,6 @@
 					<standard>Taipėjaus žiemos laikas</standard>
 					<daylight>Taipėjaus vasaros laikas</daylight>
 				</long>
-				<short>
-					<generic>CT (Taipėjus)</generic>
-					<standard>CST (Taipėjus)</standard>
-					<daylight>CDT (Taipėjus)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Tajikistan">
 				<long>
@@ -3105,12 +3267,14 @@
 			</metazone>
 			<metazone type="Vladivostok">
 				<long>
+					<generic>Vladivostoko laikas</generic>
 					<standard>Vladivostoko laikas</standard>
 					<daylight>Vladivostoko vasaros laikas</daylight>
 				</long>
 			</metazone>
 			<metazone type="Volgograd">
 				<long>
+					<generic>Volgogrado laikas</generic>
 					<standard>Volgogrado laikas</standard>
 					<daylight>Volgogrado vasaros laikas</daylight>
 				</long>
@@ -3127,12 +3291,14 @@
 			</metazone>
 			<metazone type="Yakutsk">
 				<long>
+					<generic>Jakutsko laikas</generic>
 					<standard>Jakutsko laikas</standard>
 					<daylight>Jakutsko vasaros laikas</daylight>
 				</long>
 			</metazone>
 			<metazone type="Yekaterinburg">
 				<long>
+					<generic>Jekaterinburgo laikas</generic>
 					<standard>Jekaterinburgo laikas</standard>
 					<daylight>Jekaterinburgo vasaros laikas</daylight>
 				</long>
@@ -3146,13 +3312,12 @@
 		</timeZoneNames>
 	</dates>
 	<numbers>
-		<symbols>
-			<decimal>,</decimal>
-			<group>.</group>
+		<defaultNumberingSystem>latn</defaultNumberingSystem>
+		<symbols numberSystem="latn">
+			<decimal>.</decimal>
+			<group>,</group>
 			<list>;</list>
 			<percentSign>%</percentSign>
-			<nativeZeroDigit>0</nativeZeroDigit>
-			<patternDigit>#</patternDigit>
 			<plusSign>+</plusSign>
 			<minusSign>−</minusSign>
 			<exponential>×10^</exponential>
@@ -3166,6 +3331,22 @@
 					<pattern>#,##0.###</pattern>
 				</decimalFormat>
 			</decimalFormatLength>
+			<decimalFormatLength type="short">
+				<decimalFormat>
+					<pattern type="1000">0.0 tūkst'.'</pattern>
+					<pattern type="10000">00 tūkst'.'</pattern>
+					<pattern type="100000">000 tūkst'.'</pattern>
+					<pattern type="1000000">0.0 mln'.'</pattern>
+					<pattern type="10000000">00 mln'.'</pattern>
+					<pattern type="100000000">000 mln'.'</pattern>
+					<pattern type="1000000000">0.0 mlrd'.'</pattern>
+					<pattern type="10000000000">00 mlrd'.'</pattern>
+					<pattern type="100000000000">000 mlrd'.'</pattern>
+					<pattern type="1000000000000">0.0 trln'.'</pattern>
+					<pattern type="10000000000000">00 trln'.'</pattern>
+					<pattern type="100000000000000">000 trln'.'</pattern>
+				</decimalFormat>
+			</decimalFormatLength>
 		</decimalFormats>
 		<scientificFormats>
 			<scientificFormatLength>
@@ -3177,7 +3358,7 @@
 		<percentFormats>
 			<percentFormatLength>
 				<percentFormat>
-					<pattern>#,##0%</pattern>
+					<pattern>#,##0 %</pattern>
 				</percentFormat>
 			</percentFormatLength>
 		</percentFormats>
@@ -3583,7 +3764,7 @@
 				<displayName count="other">Kinijos &quot;People&quot; banko doleriai</displayName>
 			</currency>
 			<currency type="CNY">
-				<displayName>Ženminbi juanis</displayName>
+				<displayName>Kinijos juanis</displayName>
 				<displayName count="few">Kinijos juanis</displayName>
 				<displayName count="one">Kinijos juanis</displayName>
 				<displayName count="other">Kinijos juaniai</displayName>
@@ -3740,9 +3921,8 @@
 			</currency>
 			<currency type="EUR">
 				<displayName>Euras</displayName>
-				<displayName count="few">Eurai</displayName>
-				<displayName count="one">Euras</displayName>
-				<displayName count="other">Eurai</displayName>
+				<displayName count="few">eurai</displayName>
+				<displayName count="one">euras</displayName>
 			</currency>
 			<currency type="FIM">
 				<displayName>Suomijos markė</displayName>
@@ -3769,8 +3949,8 @@
 				<displayName count="other">Prancūzijos frankai</displayName>
 			</currency>
 			<currency type="GBP">
-				<displayName>Svaras sterlingų</displayName>
-				<displayName count="few">Britanijos svaro sterlingai</displayName>
+				<displayName>Didžiosios Britanijos svaras sterlingų</displayName>
+				<displayName count="few">Didžiosios Britanijos svaro sterlingai</displayName>
 				<displayName count="one">Didžiosios Britanijos svaras sterlingų</displayName>
 				<displayName count="other">Didžiosios Britanijos svarai sterlingų</displayName>
 			</currency>
@@ -3973,10 +4153,10 @@
 				<displayName count="other">Jordanijos dinarai</displayName>
 			</currency>
 			<currency type="JPY">
-				<displayName>Jena</displayName>
-				<displayName count="few">Japonijos jena</displayName>
+				<displayName>Japonijos jena</displayName>
+				<displayName count="few">Japonijos jenos</displayName>
 				<displayName count="one">Japonijos jena</displayName>
-				<displayName count="other">Japonijos jena</displayName>
+				<displayName count="other">Japonijos jenų</displayName>
 			</currency>
 			<currency type="KES">
 				<displayName>Kenijos šilingas</displayName>
@@ -4078,7 +4258,8 @@
 				<displayName>Litas</displayName>
 				<displayName count="few">Lietuvos litai</displayName>
 				<displayName count="one">Lietuvos litas</displayName>
-				<displayName count="other">Lietuvos litai</displayName>
+				<displayName count="other">Lietuvos litų</displayName>
+				<symbol>Lt</symbol>
 			</currency>
 			<currency type="LTT">
 				<displayName>Lietuvos talonas</displayName>
@@ -4432,7 +4613,7 @@
 				<displayName>Rusijos rublis</displayName>
 				<displayName count="few">Rusijos rubliai</displayName>
 				<displayName count="one">Rusijos rublis</displayName>
-				<displayName count="other">Rusijos rubliai</displayName>
+				<displayName count="other">Rusijos rublių</displayName>
 			</currency>
 			<currency type="RUR">
 				<displayName>Rusijos rublis (1991-1998)</displayName>
@@ -4672,7 +4853,7 @@
 				<displayName>JAV doleris</displayName>
 				<displayName count="few">JAV doleriai</displayName>
 				<displayName count="one">JAV doleris</displayName>
-				<displayName count="other">JAV doleriai</displayName>
+				<displayName count="other">JAV dolerių</displayName>
 			</currency>
 			<currency type="USN">
 				<displayName>JAV doleris (kitos dienos)</displayName>
@@ -4852,7 +5033,7 @@
 				<displayName count="other">Tikrinamas valiutos kodas</displayName>
 			</currency>
 			<currency type="XXX">
-				<displayName>Nežinoma arba neteisinga valiuta</displayName>
+				<displayName>Nežinoma valiuta</displayName>
 				<displayName count="few">Nežinoma arba neteisinga valiuta</displayName>
 				<displayName count="one">Nežinoma arba neteisinga valiuta</displayName>
 				<displayName count="other">Nežinoma arba neteisinga valiuta</displayName>
@@ -4914,7 +5095,7 @@
 			<currency type="ZRN">
 				<displayName>Zairo naujasis zairas</displayName>
 				<displayName count="few">Naujieji Zairo zairai</displayName>
-				<displayName count="one">Naujasis Zairo  zairas</displayName>
+				<displayName count="one">Naujasis Zairo zairas</displayName>
 				<displayName count="other">Naujieji Zairo zairai</displayName>
 			</currency>
 			<currency type="ZRZ">
@@ -4952,13 +5133,41 @@
 			<unitPattern count="other">{0} dienų</unitPattern>
 			<unitPattern count="other" alt="short">{0} d.</unitPattern>
 		</unit>
+		<unit type="day-future">
+			<unitPattern count="0">po 0 dienų</unitPattern>
+			<unitPattern count="1">po 1 dienos</unitPattern>
+			<unitPattern count="few">po {0} dienos</unitPattern>
+			<unitPattern count="one">po {0} dieną</unitPattern>
+			<unitPattern count="other">po {0} dienų</unitPattern>
+		</unit>
+		<unit type="day-past">
+			<unitPattern count="0">prieš 0 dienų</unitPattern>
+			<unitPattern count="1">prieš 1 dieną</unitPattern>
+			<unitPattern count="few">prieš {0} dienos</unitPattern>
+			<unitPattern count="one">prieš {0} dieną</unitPattern>
+			<unitPattern count="other">prieš {0} dienų</unitPattern>
+		</unit>
 		<unit type="hour">
 			<unitPattern count="few">{0} valandos</unitPattern>
 			<unitPattern count="few" alt="short">{0} val.</unitPattern>
-			<unitPattern count="one">{0} valanda</unitPattern>
+			<unitPattern count="one">{0} valandą</unitPattern>
 			<unitPattern count="one" alt="short">{0} val.</unitPattern>
 			<unitPattern count="other">{0} valandų</unitPattern>
 			<unitPattern count="other" alt="short">{0} val.</unitPattern>
+		</unit>
+		<unit type="hour-future">
+			<unitPattern count="0">po 0 valandų</unitPattern>
+			<unitPattern count="1">po 1 valandos</unitPattern>
+			<unitPattern count="few">po {0} valandos</unitPattern>
+			<unitPattern count="one">po {0} valandą</unitPattern>
+			<unitPattern count="other">po {0} valandų</unitPattern>
+		</unit>
+		<unit type="hour-past">
+			<unitPattern count="0">prieš 0 valandų</unitPattern>
+			<unitPattern count="1">prieš 1 valandą</unitPattern>
+			<unitPattern count="few">prieš {0} valandos</unitPattern>
+			<unitPattern count="one">prieš {0} valandą</unitPattern>
+			<unitPattern count="other">prieš {0} valandų</unitPattern>
 		</unit>
 		<unit type="minute">
 			<unitPattern count="few">{0} minutės</unitPattern>
@@ -4968,21 +5177,63 @@
 			<unitPattern count="other">{0} minučių</unitPattern>
 			<unitPattern count="other" alt="short">{0} min.</unitPattern>
 		</unit>
+		<unit type="minute-future">
+			<unitPattern count="0">po 0 minučių</unitPattern>
+			<unitPattern count="1">po 1 minutės</unitPattern>
+			<unitPattern count="few">po {0} minutės</unitPattern>
+			<unitPattern count="one">po {0} minutę</unitPattern>
+			<unitPattern count="other">po {0} minučių</unitPattern>
+		</unit>
+		<unit type="minute-past">
+			<unitPattern count="0">prieš 0 minučių</unitPattern>
+			<unitPattern count="1">prieš 1 minutę</unitPattern>
+			<unitPattern count="few">prieš {0} minutės</unitPattern>
+			<unitPattern count="one">prieš {0} minutę</unitPattern>
+			<unitPattern count="other">prieš {0} minučių</unitPattern>
+		</unit>
 		<unit type="month">
 			<unitPattern count="few">{0} mėnesiai</unitPattern>
 			<unitPattern count="few" alt="short">{0} mėn.</unitPattern>
-			<unitPattern count="one">{0} mėnuo</unitPattern>
+			<unitPattern count="one">{0} mėnesio</unitPattern>
 			<unitPattern count="one" alt="short">{0} mėn.</unitPattern>
 			<unitPattern count="other">{0} mėnesių</unitPattern>
 			<unitPattern count="other" alt="short">{0} mėn.</unitPattern>
 		</unit>
+		<unit type="month-future">
+			<unitPattern count="0">po 0 mėnesių</unitPattern>
+			<unitPattern count="1">po 1 mėnesio</unitPattern>
+			<unitPattern count="few">po {0} mėnesį</unitPattern>
+			<unitPattern count="one">po {0} mėnesio</unitPattern>
+			<unitPattern count="other">po {0} mėnesių</unitPattern>
+		</unit>
+		<unit type="month-past">
+			<unitPattern count="0">prieš 0 mėnesių</unitPattern>
+			<unitPattern count="1">prieš 1 mėnesį</unitPattern>
+			<unitPattern count="few">prieš {0} mėnesį</unitPattern>
+			<unitPattern count="one">prieš {0} mėnesio</unitPattern>
+			<unitPattern count="other">prieš {0} mėnesių</unitPattern>
+		</unit>
 		<unit type="second">
 			<unitPattern count="few">{0} sekundės</unitPattern>
 			<unitPattern count="few" alt="short">{0} sek.</unitPattern>
-			<unitPattern count="one">{0} sekundė</unitPattern>
+			<unitPattern count="one">{0} sekundę</unitPattern>
 			<unitPattern count="one" alt="short">{0} sek.</unitPattern>
 			<unitPattern count="other">{0} sekundžių</unitPattern>
 			<unitPattern count="other" alt="short">{0} sek.</unitPattern>
+		</unit>
+		<unit type="second-future">
+			<unitPattern count="0">po 0 sekundžių</unitPattern>
+			<unitPattern count="1">po 1 sekundės</unitPattern>
+			<unitPattern count="few">po {0} sekundės</unitPattern>
+			<unitPattern count="one">po {0} sekundę</unitPattern>
+			<unitPattern count="other">po {0} sekundžių</unitPattern>
+		</unit>
+		<unit type="second-past">
+			<unitPattern count="0">prieš 0 sekundžių</unitPattern>
+			<unitPattern count="1">prieš 1 sekundę</unitPattern>
+			<unitPattern count="few">prieš {0} sekundės</unitPattern>
+			<unitPattern count="one">prieš {0} sekundę</unitPattern>
+			<unitPattern count="other">prieš {0} sekundžių</unitPattern>
 		</unit>
 		<unit type="week">
 			<unitPattern count="few">{0} savaitės</unitPattern>
@@ -4992,6 +5243,20 @@
 			<unitPattern count="other">{0} savaičių</unitPattern>
 			<unitPattern count="other" alt="short">{0} sav.</unitPattern>
 		</unit>
+		<unit type="week-future">
+			<unitPattern count="0">po 0 savaičių</unitPattern>
+			<unitPattern count="1">po 1 savaitės</unitPattern>
+			<unitPattern count="few">po {0} savaitės</unitPattern>
+			<unitPattern count="one">po {0} savaitę</unitPattern>
+			<unitPattern count="other">po {0} savaičių</unitPattern>
+		</unit>
+		<unit type="week-past">
+			<unitPattern count="0">prieš 0 savaičių</unitPattern>
+			<unitPattern count="1">prieš 1 savaitę</unitPattern>
+			<unitPattern count="few">prieš {0} savaitės</unitPattern>
+			<unitPattern count="one">prieš {0} savaitę</unitPattern>
+			<unitPattern count="other">prieš {0} savaičių</unitPattern>
+		</unit>
 		<unit type="year">
 			<unitPattern count="few">{0} metai</unitPattern>
 			<unitPattern count="few" alt="short">{0} m.</unitPattern>
@@ -4999,6 +5264,20 @@
 			<unitPattern count="one" alt="short">{0} m.</unitPattern>
 			<unitPattern count="other">{0} metų</unitPattern>
 			<unitPattern count="other" alt="short">{0} m.</unitPattern>
+		</unit>
+		<unit type="year-future">
+			<unitPattern count="0">po 0 metų</unitPattern>
+			<unitPattern count="1">po 1 metų</unitPattern>
+			<unitPattern count="few">po {0} metai</unitPattern>
+			<unitPattern count="one">po {0} metus</unitPattern>
+			<unitPattern count="other">po {0} metų</unitPattern>
+		</unit>
+		<unit type="year-past">
+			<unitPattern count="0">prieš 0 metų</unitPattern>
+			<unitPattern count="1">prieš 1 metus</unitPattern>
+			<unitPattern count="few">prieš {0} metai</unitPattern>
+			<unitPattern count="one">prieš {0} metus</unitPattern>
+			<unitPattern count="other">prieš {0} metų</unitPattern>
 		</unit>
 	</units>
 	<listPatterns>

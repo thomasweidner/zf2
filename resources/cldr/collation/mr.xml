@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
 		<version number="$Revision: 4263 $"/>
@@ -10,13 +10,17 @@
 			<collation type="standard" >
 				<settings normalization="on"  />
 <rules>
+
 <reset>ॐ</reset>
 <p>ं</p>
 <s>ँ</s>
 <p>ः</p>
+
 <reset>ह</reset>
 <p>ळ</p>
+
 <p>क्ष</p>
+
 <p>ज्ञ</p>
 
 </rules>

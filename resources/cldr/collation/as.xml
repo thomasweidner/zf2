@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
 		<version number="$Revision: 4126 $"/>
@@ -10,12 +10,15 @@
 <collation type="standard">
 <settings normalization="on"/>
 <rules>
+
 <reset>ঔ</reset>
 <p>ং</p>
 <p>ঁ</p>
 <p>ঃ</p>
+
 <reset before="primary">ত</reset>
 <p>ত্‍</p>
+
 <reset>হ</reset>
 <p>ক্ষ</p>
 

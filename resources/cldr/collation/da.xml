@@ -1,129 +1,136 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 5125 $"/>
-		<generation date="$Date: 2010-10-22 15:09:18 -0500 (Fri, 22 Oct 2010) $"/>
+		<version number="$Revision: 5871 $"/>
+		<generation date="$Date: 2011-05-09 01:37:05 -0500 (Mon, 09 May 2011) $"/>
 		<language type="da" /> 
 	</identity>
 		<collations  validSubLocales="da_DK">
 			<collation type="search" >
 				<settings normalization="on"/>
-				
+
 				<suppress_contractions>[เ-ไ ເ-ໄ]</suppress_contractions>
 				<rules>
-					
+
 					<reset>ا</reset>
+							<t>ﺎ</t><t>ﺍ</t>
 						<s>آ</s>
+							<t>ﺂ</t><t>ﺁ</t>
 						<s>أ</s>
+							<t>ﺄ</t><t>ﺃ</t>
 						<s>إ</s>
+							<t>ﺈ</t><t>ﺇ</t>
 					<reset>و</reset>
+							<t>ۥ</t>
+							<t>ﻮ</t><t>ﻭ</t>
 						<s>ؤ</s>
+							<t>ﺆ</t><t>ﺅ</t>
 					<reset>ي</reset>
+							<t>ۦ</t>
+							<t>ﻳ</t><t>ﻴ</t><t>ﻲ</t><t>ﻱ</t>
 						<s>ئ</s>
+							<t>ﺋ</t><t>ﺌ</t><t>ﺊ</t><t>ﺉ</t>
 						<s>ى</s>
+							<t>ﯨ</t><t>ﯩ</t>
+							<t>ﻰ</t><t>ﻯ</t>
 					<reset>ه</reset>
+							<t>ﻫ</t><t>ﻬ</t><t>ﻪ</t><t>ﻩ</t>
 						<s>ة</s>
+							<t>ﺔ</t><t>ﺓ</t>
 					<reset><last_primary_ignorable/></reset>
 						<s>׳</s>
 						<s>״</s>
 						<s>ـ</s>
-						<s>ٌ</s>
-						<s>ٍ</s>
-						<s>َ</s>
-						<s>ُ</s>
-						<s>ِ</s>
-						<s>ّ</s>
-						<s>ْ</s>
 						<s>ฺ</s>
-					
-					
-					<reset>ᄀ</reset>	
+
+
+					<reset>ᄀ</reset>
 						<i>ᆨ</i>
-					<reset>ᄀᄀ</reset>	
+					<reset>ᄀᄀ</reset>
 						<i>ᄁ</i>
 						<i>ᆩ</i>
-					<reset>ᄀᄉ</reset>	
+					<reset>ᄀᄉ</reset>
 						<i>ᆪ</i>
-					<reset>ᄂ</reset>	
+					<reset>ᄂ</reset>
 						<i>ᆫ</i>
-					<reset>ᄂᄌ</reset>	
+					<reset>ᄂᄌ</reset>
 						<i>ᆬ</i>
-					<reset>ᄂᄒ</reset>	
+					<reset>ᄂᄒ</reset>
 						<i>ᆭ</i>
-					<reset>ᄃ</reset>	
+					<reset>ᄃ</reset>
 						<i>ᆮ</i>
-					<reset>ᄃᄃ</reset>	
+					<reset>ᄃᄃ</reset>
 						<i>ᄄ</i>
-					<reset>ᄅ</reset>	
+					<reset>ᄅ</reset>
 						<i>ᆯ</i>
-					<reset>ᄅᄀ</reset>	
+					<reset>ᄅᄀ</reset>
 						<i>ᆰ</i>
-					<reset>ᄅᄆ</reset>	
+					<reset>ᄅᄆ</reset>
 						<i>ᆱ</i>
-					<reset>ᄅᄇ</reset>	
+					<reset>ᄅᄇ</reset>
 						<i>ᆲ</i>
-					<reset>ᄅᄉ</reset>	
+					<reset>ᄅᄉ</reset>
 						<i>ᆳ</i>
-					<reset>ᄅᄐ</reset>	
+					<reset>ᄅᄐ</reset>
 						<i>ᆴ</i>
-					<reset>ᄅᄑ</reset>	
+					<reset>ᄅᄑ</reset>
 						<i>ᆵ</i>
-					<reset>ᄅᄒ</reset>	
+					<reset>ᄅᄒ</reset>
 						<i>ᆶ</i>
-					<reset>ᄆ</reset>	
+					<reset>ᄆ</reset>
 						<i>ᆷ</i>
-					<reset>ᄇ</reset>	
+					<reset>ᄇ</reset>
 						<i>ᆸ</i>
-					<reset>ᄇᄇ</reset>	
+					<reset>ᄇᄇ</reset>
 						<i>ᄈ</i>
-					<reset>ᄇᄉ</reset>	
+					<reset>ᄇᄉ</reset>
 						<i>ᆹ</i>
-					<reset>ᄉ</reset>	
+					<reset>ᄉ</reset>
 						<i>ᆺ</i>
-					<reset>ᄉᄉ</reset>	
+					<reset>ᄉᄉ</reset>
 						<i>ᄊ</i>
 						<i>ᆻ</i>
-					<reset>ᄋ</reset>	
+					<reset>ᄋ</reset>
 						<i>ᆼ</i>
-					<reset>ᄌ</reset>	
+					<reset>ᄌ</reset>
 						<i>ᆽ</i>
-					<reset>ᄌᄌ</reset>	
+					<reset>ᄌᄌ</reset>
 						<i>ᄍ</i>
-					<reset>ᄎ</reset>	
+					<reset>ᄎ</reset>
 						<i>ᆾ</i>
-					<reset>ᄏ</reset>	
+					<reset>ᄏ</reset>
 						<i>ᆿ</i>
-					<reset>ᄐ</reset>	
+					<reset>ᄐ</reset>
 						<i>ᇀ</i>
-					<reset>ᄑ</reset>	
+					<reset>ᄑ</reset>
 						<i>ᇁ</i>
-					<reset>ᄒ</reset>	
+					<reset>ᄒ</reset>
 						<i>ᇂ</i>
-					
-					<reset>ᅡᅵ</reset>	
+
+					<reset>ᅡᅵ</reset>
 						<i>ᅢ</i>
-					<reset>ᅣᅵ</reset>	
+					<reset>ᅣᅵ</reset>
 						<i>ᅤ</i>
-					<reset>ᅥᅵ</reset>	
+					<reset>ᅥᅵ</reset>
 						<i>ᅦ</i>
-					<reset>ᅧᅵ</reset>	
+					<reset>ᅧᅵ</reset>
 						<i>ᅨ</i>
-					<reset>ᅩᅡ</reset>	
+					<reset>ᅩᅡ</reset>
 						<i>ᅪ</i>
-					<reset>ᅩᅡᅵ</reset>	
+					<reset>ᅩᅡᅵ</reset>
 						<i>ᅫ</i>
-					<reset>ᅩᅵ</reset>	
+					<reset>ᅩᅵ</reset>
 						<i>ᅬ</i>
-					<reset>ᅮᅴ</reset>	
+					<reset>ᅮᅴ</reset>
 						<i>ᅯ</i>
-					<reset>ᅮᅴᅵ</reset>	
+					<reset>ᅮᅴᅵ</reset>
 						<i>ᅰ</i>
-					<reset>ᅮᅵ</reset>	
+					<reset>ᅮᅵ</reset>
 						<i>ᅱ</i>
-					
-					
-					
+
+
+
 					<reset>D</reset>
 					<s>đ</s>
 					<t>Đ</t>
@@ -198,6 +205,46 @@
 					<t>Aa</t>
 					<t>AA</t>
 				</rules>
-			</collation>
+			</collation  >
+			<collation draft="unconfirmed" alt="proposed" type="standard" >
+				<settings caseFirst="upper"  />
+				<rules>
+					<reset>D</reset>
+					<s>đ</s>
+					<t>Đ</t>
+					<s>ð</s>
+					<t>Ð</t>
+					<reset>t</reset>
+					<x><t>þ</t><extend>h</extend></x>
+					<reset>T</reset>
+					<x><t>Þ</t><extend>H</extend></x>
+					<reset>Y</reset>
+					<s>ü</s>
+					<t>Ü</t>
+					<s>ű</s>
+					<t>Ű</t>
+					<reset before="primary">ʒ</reset>
+					<p>æ</p>
+					<t>Æ</t>
+					<s>ä</s>
+					<t>Ä</t>
+					<s>ę</s>
+					<t>Ę</t>
+					<p>ø</p>
+					<t>Ø</t>
+					<s>ö</s>
+					<t>Ö</t>
+					<s>ő</s>
+					<t>Ő</t>
+					<s>œ</s>
+					<t>Œ</t>
+					<p>å</p>
+					<t>Å</t>
+					<t>aa</t>
+					<t>aA</t>
+					<t>Aa</t>
+					<t>AA</t>
+				</rules>
+			</collation  >
 		</collations>
 </ldml>

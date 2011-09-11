@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
-<ldml>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml draft="unconfirmed">
 	<identity>
 		<version number="$Revision: 5060 $"/>
 		<generation date="$Date: 2010-09-12 17:15:40 -0500 (Sun, 12 Sep 2010) $" />

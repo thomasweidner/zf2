@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4765 $"/>
-		<generation date="$Date: 2010-02-27 18:03:30 -0600 (Sat, 27 Feb 2010) $"/>
+		<version number="$Revision: 5968 $"/>
+		<generation date="$Date: 2011-07-05 15:52:21 -0500 (Tue, 05 Jul 2011) $"/>
 		<language type="to"/>
 	</identity>
 	<fallback/>
 	<localeDisplayNames>
 		<localeDisplayPattern>
-			<localePattern>{0} ({1})</localePattern>
-			<localeSeparator>, </localeSeparator>
+			<localePattern draft="unconfirmed">{0} ({1})</localePattern>
+			<localeSeparator draft="unconfirmed">, </localeSeparator>
 		</localeDisplayPattern>
 		<languages>
 			<language type="ab">lea fakaʻapakasi</language>
@@ -131,6 +131,7 @@
 			<language type="ru">lea fakalūsia</language>
 			<language type="rw">lea fakaluanita</language>
 			<language type="sa">lea sanisukuliti</language>
+			<language type="sah" draft="unconfirmed">lea saka</language>
 			<language type="sco">lea fakasikotilani</language>
 			<language type="sd">lea siniti</language>
 			<language type="se">lea sami fakatokelau</language>
@@ -257,7 +258,7 @@
 			<territory type="154">ʻIulope tokelau</territory>
 			<territory type="155">ʻIulope hihifo</territory>
 			<territory type="172">Kominiueli</territory>
-			<territory type="419">ʻAmelika fakalatina mo Kalipeane</territory>
+			<territory type="419">ʻAmelika fakalatina</territory>
 			<territory type="AC">Motu ʻAsenisini</territory>
 			<territory type="AD">ʻEnitola</territory>
 			<territory type="AE">ʻAlepea Fakatahataha</territory>
@@ -526,22 +527,27 @@
 			<key type="calendar">tohi māhina</key>
 			<key type="collation">tohi hokohoko</key>
 			<key type="currency">paʻanga</key>
+			<key type="numbers" draft="unconfirmed">fika</key>
 		</keys>
 		<types>
 			<type type="buddhist" key="calendar">fakaputa</type>
 			<type type="chinese" key="calendar">fakasiaina</type>
 			<type type="direct" key="collation">hangatonu</type>
+			<type type="ducet" key="collation" draft="unconfirmed">fakahokohoko unikoti</type>
 			<type type="gregorian" key="calendar">fakakelekolia</type>
 			<type type="hebrew" key="calendar">fakahepelū</type>
 			<type type="indian" key="calendar">fakaʻinitia</type>
 			<type type="islamic" key="calendar">fakamohameti</type>
 			<type type="islamic-civil" key="calendar">fakamohameti-sivile</type>
 			<type type="japanese" key="calendar">fakasiapani</type>
+			<type type="latn" key="numbers" draft="unconfirmed">fika fakalatina</type>
 			<type type="phonebook" key="collation">fika telefoni</type>
+			<type type="search" key="collation" draft="unconfirmed">fakakumi ʻi hono anga lahi</type>
 			<type type="traditional" key="collation">tukufakaholo</type>
 		</types>
 		<measurementSystemNames>
 			<measurementSystemName type="metric">fakamita</measurementSystemName>
+			<measurementSystemName type="UK" draft="unconfirmed">fakapilitānia</measurementSystemName>
 			<measurementSystemName type="US">fakaʻamelika</measurementSystemName>
 		</measurementSystemNames>
 		<codePatterns>
@@ -597,6 +603,9 @@
 						</monthWidth>
 					</monthContext>
 					<monthContext type="stand-alone">
+						<monthWidth type="abbreviated">
+							<month type="9" draft="unconfirmed">Sēp</month>
+						</monthWidth>
 						<monthWidth type="narrow">
 							<month type="1">S</month>
 							<month type="2">F</month>
@@ -610,6 +619,9 @@
 							<month type="10">O</month>
 							<month type="11">N</month>
 							<month type="12">T</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="9" draft="unconfirmed">Sēpitema</month>
 						</monthWidth>
 					</monthContext>
 				</months>
@@ -810,9 +822,6 @@
 							<greatestDifference id="d">E, d MMM - E, d MMM</greatestDifference>
 							<greatestDifference id="M">E, d MMM - E, d MMM</greatestDifference>
 						</intervalFormatItem>
-						<intervalFormatItem id="MMMM">
-							<greatestDifference id="M">LLLL–LLLL</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="y">
 							<greatestDifference id="y">y–y</greatestDifference>
 						</intervalFormatItem>
@@ -865,13 +874,11 @@
 					</field>
 					<field type="day">
 						<displayName>ʻaho</displayName>
-						<relative type="-3">ʻAho tolu kuoʻosi</relative>
 						<relative type="-2">ʻaneheafi</relative>
 						<relative type="-1">ʻaneafi</relative>
 						<relative type="0">ʻaho⸍ni</relative>
 						<relative type="1">ʻapongipongi</relative>
 						<relative type="2">ʻahepongipongi</relative>
-						<relative type="3">ʻAho tolu kahaʻu</relative>
 					</field>
 					<field type="weekday">
 						<displayName>ʻaho ʻo e uike</displayName>
@@ -899,20 +906,21 @@
 			<gmtFormat>GMT{0}</gmtFormat>
 			<regionFormat>Houa {0}</regionFormat>
 			<fallbackFormat>{1} ({0})</fallbackFormat>
+			<fallbackRegionFormat draft="contributed">Houa {1} ({0})</fallbackRegionFormat>
 			<zone type="Etc/Unknown">
 				<exemplarCity>Halaʻata</exemplarCity>
 			</zone>
 			<zone type="Antarctica/South_Pole">
-				<exemplarCity>pole tonga</exemplarCity>
+				<exemplarCity draft="unconfirmed">pole tonga</exemplarCity>
 			</zone>
 			<zone type="Australia/Adelaide">
 				<exemplarCity>Atelaite</exemplarCity>
 			</zone>
 			<zone type="Australia/Melbourne">
-				<exemplarCity>Melipoane</exemplarCity>
+				<exemplarCity draft="unconfirmed">Melipoane</exemplarCity>
 			</zone>
 			<zone type="Australia/Sydney">
-				<exemplarCity>Senē</exemplarCity>
+				<exemplarCity draft="unconfirmed">Senē</exemplarCity>
 			</zone>
 			<zone type="Australia/Brisbane">
 				<exemplarCity>Pelisipane</exemplarCity>
@@ -950,8 +958,14 @@
 			<zone type="America/Indianapolis">
 				<exemplarCity>Houa Puleʻanga fakataha ʻAmelika (Indianapolis)</exemplarCity>
 			</zone>
+			<zone type="America/Detroit">
+				<exemplarCity draft="unconfirmed">Houa Puleʻanga fakatahataha ʻAmelika (Detroit)</exemplarCity>
+			</zone>
 			<zone type="America/New_York">
 				<exemplarCity>Houa Puleʻanga fakataha ʻAmelika (New York)</exemplarCity>
+			</zone>
+			<zone type="Pacific/Wallis">
+				<exemplarCity draft="unconfirmed">ʻUvea</exemplarCity>
 			</zone>
 			<metazone type="Fiji">
 				<long>
@@ -1010,71 +1024,116 @@
 		</timeZoneNames>
 	</dates>
 	<numbers>
-		<symbols>
-			<decimal>.</decimal>
-			<group>,</group>
-			<list>;</list>
-			<percentSign>%</percentSign>
-			<nativeZeroDigit>0</nativeZeroDigit>
-			<patternDigit>#</patternDigit>
-			<plusSign>+</plusSign>
-			<minusSign>-</minusSign>
-			<exponential>E</exponential>
-			<perMille>‰</perMille>
-			<infinity>∞</infinity>
-			<nan>NaN</nan>
+		<symbols numberSystem="latn">
+			<decimal draft="unconfirmed">.</decimal>
+			<group draft="unconfirmed">,</group>
+			<list draft="unconfirmed">;</list>
+			<percentSign draft="unconfirmed">%</percentSign>
+			<plusSign draft="unconfirmed">+</plusSign>
+			<minusSign draft="unconfirmed">-</minusSign>
+			<exponential draft="unconfirmed">E</exponential>
+			<perMille draft="unconfirmed">‰</perMille>
+			<infinity draft="unconfirmed">∞</infinity>
+			<nan draft="unconfirmed">NaN</nan>
 		</symbols>
 		<decimalFormats>
 			<decimalFormatLength>
 				<decimalFormat>
-					<pattern>#,##0.###</pattern>
+					<pattern draft="unconfirmed">#,##0.###</pattern>
 				</decimalFormat>
 			</decimalFormatLength>
 		</decimalFormats>
 		<scientificFormats>
 			<scientificFormatLength>
 				<scientificFormat>
-					<pattern>#E0</pattern>
+					<pattern draft="unconfirmed">#E0</pattern>
 				</scientificFormat>
 			</scientificFormatLength>
 		</scientificFormats>
 		<percentFormats>
 			<percentFormatLength>
 				<percentFormat>
-					<pattern>#,##0%</pattern>
+					<pattern draft="unconfirmed">#,##0%</pattern>
 				</percentFormat>
 			</percentFormatLength>
 		</percentFormats>
 		<currencyFormats>
 			<currencyFormatLength>
 				<currencyFormat>
-					<pattern>¤ #,##0.00</pattern>
+					<pattern draft="unconfirmed">¤ #,##0.00</pattern>
 				</currencyFormat>
 			</currencyFormatLength>
-			<unitPattern count="other">{0} {1}</unitPattern>
+			<unitPattern count="other" draft="unconfirmed">{0} {1}</unitPattern>
 		</currencyFormats>
+		<currencies>
+			<currency type="TOP">
+				<symbol>T$</symbol>
+			</currency>
+		</currencies>
 	</numbers>
 	<units>
 		<unit type="day">
 			<unitPattern count="other">{0} ʻa</unitPattern>
 		</unit>
+		<unit type="day-future">
+			<unitPattern count="other" draft="unconfirmed">ʻi he ʻaho ʻe {0}</unitPattern>
+		</unit>
+		<unit type="day-past">
+			<unitPattern count="other" draft="unconfirmed">ʻosi ʻaho ʻe {0}</unitPattern>
+		</unit>
 		<unit type="hour">
 			<unitPattern count="other">{0} h</unitPattern>
+		</unit>
+		<unit type="hour-future">
+			<unitPattern count="other" draft="unconfirmed">ʻi he houa ʻe {0}</unitPattern>
+		</unit>
+		<unit type="hour-past">
+			<unitPattern count="other" draft="unconfirmed">ʻosi houa ʻe {0}</unitPattern>
 		</unit>
 		<unit type="minute">
 			<unitPattern count="other">{0} m</unitPattern>
 		</unit>
+		<unit type="minute-future">
+			<unitPattern count="other" draft="unconfirmed">ʻi he miniti ʻe {0}</unitPattern>
+		</unit>
+		<unit type="minute-past">
+			<unitPattern count="other" draft="unconfirmed">ʻosi miniti ʻe {0}</unitPattern>
+		</unit>
 		<unit type="month">
 			<unitPattern count="other">{0} m</unitPattern>
+		</unit>
+		<unit type="month-future">
+			<unitPattern count="other" draft="unconfirmed">ʻi he māhina ʻe {0}</unitPattern>
+		</unit>
+		<unit type="month-past">
+			<unitPattern count="other" draft="unconfirmed">māhina ʻe {0} kuo hili</unitPattern>
 		</unit>
 		<unit type="second">
 			<unitPattern count="other">{0} s</unitPattern>
 		</unit>
+		<unit type="second-future">
+			<unitPattern count="other" draft="unconfirmed">ʻi he sekoni ʻe {0}</unitPattern>
+		</unit>
+		<unit type="second-past">
+			<unitPattern count="other" draft="unconfirmed">ʻosi sekoni ʻe {0}</unitPattern>
+		</unit>
 		<unit type="week">
 			<unitPattern count="other">{0} u</unitPattern>
 		</unit>
+		<unit type="week-future">
+			<unitPattern count="other" draft="unconfirmed">ʻi he uike ʻe {0}</unitPattern>
+		</unit>
+		<unit type="week-past">
+			<unitPattern count="other" draft="unconfirmed">uike ʻe {0} kuo hili</unitPattern>
+		</unit>
 		<unit type="year">
 			<unitPattern count="other">{0} t</unitPattern>
+		</unit>
+		<unit type="year-future">
+			<unitPattern count="other" draft="unconfirmed">ʻi he taʻu ʻe {0}</unitPattern>
+		</unit>
+		<unit type="year-past">
+			<unitPattern count="other" draft="unconfirmed">taʻu ʻe {0} kuo hili</unitPattern>
 		</unit>
 	</units>
 	<posix>

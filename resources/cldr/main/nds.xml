@@ -1,1152 +1,1149 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 5094 $"/>
-		<generation date="$Date: 2010-10-13 11:33:36 -0500 (Wed, 13 Oct 2010) $"/>
+		<version number="$Revision: 5968 $"/>
+		<generation date="$Date: 2011-07-05 15:52:21 -0500 (Tue, 05 Jul 2011) $"/>
 		<language type="nds"/>
 	</identity>
 	<localeDisplayNames>
 		<localeDisplayPattern>
-			<localePattern>{0} ({1})</localePattern>
-			<localeSeparator>, </localeSeparator>
+			<localePattern draft="unconfirmed">{0} ({1})</localePattern>
+			<localeSeparator draft="unconfirmed">, </localeSeparator>
 		</localeDisplayPattern>
 		<languages>
-			<language type="aa">Afar</language>
-			<language type="ab">Abchaasch</language>
-			<language type="ace">Aceh</language>
-			<language type="ach">Acholi</language>
-			<language type="ada">Adangme</language>
-			<language type="ady">Adygeisch</language>
-			<language type="ae">Avestsch</language>
-			<language type="af">Afrikaansch</language>
-			<language type="afa">Afro-Asiaatsche Spraken</language>
-			<language type="afh">Afrihili</language>
-			<language type="ain">Ainu</language>
-			<language type="ak">Akan</language>
-			<language type="akk">Akkadsch</language>
-			<language type="ale">Aleutsch</language>
-			<language type="alg">Algonkin-Spraken</language>
-			<language type="alt">Süüd-Altaisch</language>
-			<language type="am">Amhaarsch</language>
-			<language type="an">Aragoneesch</language>
-			<language type="ang">Ooldengelsch</language>
-			<language type="anp">Angika</language>
-			<language type="apa">Apache</language>
-			<language type="ar">Araabsch</language>
-			<language type="arc">Aramääsch</language>
-			<language type="arn">Araukaansch</language>
-			<language type="arp">Arapaho</language>
-			<language type="art">Kunstspraken</language>
-			<language type="arw">Arawak-Spraken</language>
-			<language type="as">Assameesch</language>
-			<language type="ast">Asturiaansch</language>
-			<language type="ath">Athabasksche Spraken</language>
-			<language type="aus">Austraalsche Spraken</language>
-			<language type="av">Awaarsch</language>
-			<language type="awa">Awadhi</language>
-			<language type="ay">Aymara</language>
-			<language type="az">Aserbaidschaansch</language>
-			<language type="ba">Baschkiersch</language>
-			<language type="bad">Banda</language>
-			<language type="bai">Bamileke</language>
-			<language type="bal">Belutschisch</language>
-			<language type="ban">Balineesch</language>
-			<language type="bas">Basaa</language>
-			<language type="bat">Baltsche Spraken</language>
-			<language type="be">Wittruss’sch</language>
-			<language type="bej">Bedscha</language>
-			<language type="bem">Bemba</language>
-			<language type="ber">Berberspraken</language>
-			<language type="bg">Bulgaarsch</language>
-			<language type="bh">Bihaarsch</language>
-			<language type="bho">Bhodschpuri</language>
-			<language type="bi">Bislama</language>
-			<language type="bik">Bikol</language>
-			<language type="bin">Bini</language>
-			<language type="bla">Siksika</language>
-			<language type="bm">Bambara</language>
-			<language type="bn">Bengaalsch</language>
-			<language type="bnt">Bantuspraken</language>
-			<language type="bo">Tibeetsch</language>
-			<language type="br">Bretoonsch</language>
-			<language type="bra">Braj-Bhakha</language>
-			<language type="bs">Bosnisch</language>
-			<language type="btk">Batak</language>
-			<language type="bua">Burjaatsch</language>
-			<language type="bug">Bugineesch</language>
-			<language type="byn">Blin</language>
-			<language type="ca">Katalaansch</language>
-			<language type="cad">Caddo</language>
-			<language type="cai">Indianerspraken in Zentralamerika</language>
-			<language type="car">Kariebsche Spraken</language>
-			<language type="cau">Kaukaasche Spraken</language>
-			<language type="cch">Atsam</language>
-			<language type="ce">Tschetscheensch</language>
-			<language type="ceb">Cebuano</language>
-			<language type="cel">Keltsche Spraken</language>
-			<language type="ch">Chamorro</language>
-			<language type="chb">Chibcha-Spraken</language>
-			<language type="chg">Tschagataisch</language>
-			<language type="chk">Trukeesch</language>
-			<language type="chm">Mari</language>
-			<language type="chn">Chinook</language>
-			<language type="cho">Choctaw</language>
-			<language type="chp">Chipewyan</language>
-			<language type="chr">Cherokee</language>
-			<language type="chy">Cheyenne</language>
-			<language type="cmc">Cham-Spraken</language>
-			<language type="co">Koorsch</language>
-			<language type="cop">Koptsch</language>
-			<language type="cpe">Kreoolsch-Engelsche Spraken</language>
-			<language type="cpf">Kreoolsch-Franzöösche Spraken</language>
-			<language type="cpp">Kreoolsch-Portugeesche Spraken</language>
-			<language type="cr">Cree</language>
-			<language type="crh">Krimtataarsch</language>
-			<language type="crp">Kreoolsche Spraken</language>
-			<language type="cs">Tschech’sch</language>
-			<language type="csb">Kaschuubsch</language>
-			<language type="cu">Karkenslaavsch</language>
-			<language type="cus">Kuschietsche Spraken</language>
-			<language type="cv">Tschuwasch’sch</language>
-			<language type="cy">Waliesch</language>
-			<language type="da">Däänsch</language>
-			<language type="dak">Dakota</language>
-			<language type="dar">Dargiensch</language>
-			<language type="day">Dajak</language>
-			<language type="de">Düütsch</language>
-			<language type="de_AT">Öösterrieksch Hoochdüütsch</language>
-			<language type="de_CH">Swiezer Hoochdüütsch</language>
-			<language type="del">Delaware</language>
-			<language type="den">Slave</language>
-			<language type="dgr">Dogrib</language>
-			<language type="din">Dinka</language>
-			<language type="doi">Dogri</language>
-			<language type="dra">Drawiedsche Spraken</language>
-			<language type="dsb">Neddersorbsch</language>
-			<language type="dua">Duala</language>
-			<language type="dum">Middelnedderlandsch</language>
-			<language type="dv">Maledievsch</language>
-			<language type="dyu">Dyula</language>
-			<language type="dz">Bhutaansch</language>
-			<language type="ee">Ewe</language>
-			<language type="efi">Efik</language>
-			<language type="egy">Ägyptsch</language>
-			<language type="eka">Ekajuk</language>
-			<language type="el">Greeksch</language>
-			<language type="elx">Elaamsch</language>
-			<language type="en">Engelsch</language>
-			<language type="en_AU">Austraalsch Engelsch</language>
-			<language type="en_CA">Kanaadsch Engelsch</language>
-			<language type="en_GB">Brietsch Engelsch</language>
-			<language type="en_US">Amerikaansch Engelsch</language>
-			<language type="enm">Middelengelsch</language>
-			<language type="eo">Esperanto</language>
-			<language type="es">Spaansch</language>
-			<language type="es_419">Latienamerikaansch Spaansch</language>
-			<language type="es_ES">Ibeersch Spaansch</language>
-			<language type="et">Eestnisch</language>
-			<language type="eu">Basksch</language>
-			<language type="ewo">Ewondo</language>
-			<language type="fa">Pers’sch</language>
-			<language type="fan">Pangwe</language>
-			<language type="fat">Fanti</language>
-			<language type="ff">Ful</language>
-			<language type="fi">Finnsch</language>
-			<language type="fil">Philippiensch</language>
-			<language type="fiu">Finnougrische Spraken</language>
-			<language type="fj">Fidschiaansch</language>
-			<language type="fo">Färöösch</language>
-			<language type="fon">Fon</language>
-			<language type="fr">Franzöösch</language>
-			<language type="fr_CA">Kanaadsch Franzöösch</language>
-			<language type="fr_CH">Swiezer Franzöösch</language>
-			<language type="frm">Middelfranzöösch</language>
-			<language type="fro">Ooldfranzöösch</language>
-			<language type="frr">Noordfreesch</language>
-			<language type="frs">Saterfreesch</language>
-			<language type="fur">Friuulsch</language>
-			<language type="fy">Westfreesch</language>
-			<language type="ga">Iersch</language>
-			<language type="gaa">Ga</language>
-			<language type="gay">Gayo</language>
-			<language type="gba">Gbaya</language>
-			<language type="gd">Schottsch Gäälsch</language>
-			<language type="gem">Germaansche Spraken</language>
-			<language type="gez">Geez</language>
-			<language type="gil">Gilberteesch</language>
-			<language type="gl">Galizisch</language>
-			<language type="gmh">Middelhoochdüütsch</language>
-			<language type="gn">Guarani</language>
-			<language type="goh">Ooldhoochdüütsch</language>
-			<language type="gon">Gondi</language>
-			<language type="gor">Gorontalo</language>
-			<language type="got">Gootsch</language>
-			<language type="grb">Grebo</language>
-			<language type="grc">Ooldgreeksch</language>
-			<language type="gsw">Swiezerdüütsch</language>
-			<language type="gu">Gujarati</language>
-			<language type="gv">Manx</language>
-			<language type="gwi">Kutchin</language>
-			<language type="ha">Haussa</language>
-			<language type="hai">Haida</language>
-			<language type="haw">Hawaiiaansch</language>
-			<language type="he">Hebrääsch</language>
-			<language type="hi">Hindi</language>
-			<language type="hil">Hiligaynon</language>
-			<language type="him">Himachali</language>
-			<language type="hit">Hethitsch</language>
-			<language type="hmn">Miao-Spraken</language>
-			<language type="ho">Hiri-Motu</language>
-			<language type="hr">Kroaatsch</language>
-			<language type="hsb">Böversorbsch</language>
-			<language type="ht">Haitiaansch-Kreoolsch</language>
-			<language type="hu">Ungaarsch</language>
-			<language type="hup">Hupa</language>
-			<language type="hy">Armeensch</language>
-			<language type="hz">Herero</language>
-			<language type="ia">Interlingua</language>
-			<language type="iba">Iban</language>
-			<language type="id">Indoneesch</language>
-			<language type="ie">Interlingue</language>
-			<language type="ig">Igbo</language>
-			<language type="ii">Sichuan Yi</language>
-			<language type="ijo">Ijo</language>
-			<language type="ik">Inupiak</language>
-			<language type="ilo">Ilokano</language>
-			<language type="inc">Indoarische Spraken</language>
-			<language type="ine">Indogermaansche Spraken</language>
-			<language type="inh">Ingusch’sch</language>
-			<language type="io">Ido</language>
-			<language type="ira">Iraansche Spraken</language>
-			<language type="iro">Irokeesche Spraken</language>
-			<language type="is">Ieslandsch</language>
-			<language type="it">Italieensch</language>
-			<language type="iu">Inuktitut</language>
-			<language type="ja">Japaansch</language>
-			<language type="jbo">Lojban</language>
-			<language type="jpr">Jöödsch-Pers’sch</language>
-			<language type="jrb">Jöödsch-Araabsch</language>
-			<language type="jv">Javaansch</language>
-			<language type="ka">Georgsch</language>
-			<language type="kaa">Karakalpaksch</language>
-			<language type="kab">Kabyylsch</language>
-			<language type="kac">Kachin</language>
-			<language type="kaj">Jju</language>
-			<language type="kam">Kamba</language>
-			<language type="kar">Kareensch</language>
-			<language type="kaw">Kawi</language>
-			<language type="kbd">Kabardiensch</language>
-			<language type="kcg">Tyap</language>
-			<language type="kfo">Koro</language>
-			<language type="kg">Kongo</language>
-			<language type="kha">Khasi</language>
-			<language type="khi">Khoisan-Spraken</language>
-			<language type="kho">Saaksch</language>
-			<language type="ki">Kikuyu</language>
-			<language type="kj">Kwanyama</language>
-			<language type="kk">Kasach’sch</language>
-			<language type="kl">Gröönlandsch</language>
-			<language type="km">Kambodschaansch</language>
-			<language type="kmb">Kimbundu</language>
-			<language type="kn">Kannada</language>
-			<language type="ko">Koreaansch</language>
-			<language type="kok">Konkani</language>
-			<language type="kos">Kosraeaansch</language>
-			<language type="kpe">Kpelle</language>
-			<language type="kr">Kanuursch</language>
-			<language type="krc">Karatschaisch-Balkaarsch</language>
-			<language type="krl">Kareelsch</language>
-			<language type="kro">Kru-Spraken</language>
-			<language type="kru">Oraon</language>
-			<language type="ks">Kaschmiersch</language>
-			<language type="ku">Kurdsch</language>
-			<language type="kum">Kumücksch</language>
-			<language type="kut">Kutenai</language>
-			<language type="kv">Komi</language>
-			<language type="kw">Koornsch</language>
-			<language type="ky">Kirgiesch</language>
-			<language type="la">Latiensch</language>
-			<language type="lad">Ladiensch</language>
-			<language type="lah">Lahnda</language>
-			<language type="lam">Lamba</language>
-			<language type="lb">Luxemborgsch</language>
-			<language type="lez">Lesgisch</language>
-			<language type="lg">Ganda</language>
-			<language type="li">Limborgsch</language>
-			<language type="ln">Lingala</language>
-			<language type="lo">Laootsch</language>
-			<language type="lol">Mongo</language>
-			<language type="loz">Rotse</language>
-			<language type="lt">Litausch</language>
-			<language type="lu">Luba</language>
-			<language type="lua">Luba-Lulua</language>
-			<language type="lui">Luiseno</language>
-			<language type="lun">Lunda</language>
-			<language type="luo">Luo</language>
-			<language type="lus">Lushai</language>
-			<language type="lv">Lettsch</language>
-			<language type="mad">Madureesch</language>
-			<language type="mag">Magahi</language>
-			<language type="mai">Maithili</language>
-			<language type="mak">Makassarsch</language>
-			<language type="man">Manding</language>
-			<language type="map">Austroneesche Spraken</language>
-			<language type="mas">Massai</language>
-			<language type="mdf">Mokscha</language>
-			<language type="mdr">Mandareesch</language>
-			<language type="men">Mende</language>
-			<language type="mg">Madagassisch</language>
-			<language type="mga">Middeliersch</language>
-			<language type="mh">Marschalleesch</language>
-			<language type="mi">Maori</language>
-			<language type="mic">Micmac</language>
-			<language type="min">Minangkabau</language>
-			<language type="mis">Verschedene Spraken</language>
-			<language type="mk">Mazedoonsch</language>
-			<language type="mkh">Mon-Khmer-Spraken</language>
-			<language type="ml">Malayalam</language>
-			<language type="mn">Mongoolsch</language>
-			<language type="mnc">Mandschuursch</language>
-			<language type="mni">Manipuri</language>
-			<language type="mno">Manobo</language>
-			<language type="mo">Moldaawsch</language>
-			<language type="moh">Mohawk</language>
-			<language type="mos">Mossi</language>
-			<language type="mr">Marathi</language>
-			<language type="ms">Malaisch</language>
-			<language type="mt">Malteesch</language>
-			<language type="mul">Mehrsprakig</language>
-			<language type="mun">Munda-Spraken</language>
-			<language type="mus">Muskogee-Spraken</language>
-			<language type="mwl">Mirandeesch</language>
-			<language type="mwr">Marwari</language>
-			<language type="my">Birmaansch</language>
-			<language type="myn">Maya-Spraken</language>
-			<language type="myv">Erzya</language>
-			<language type="na">Nauruusch</language>
-			<language type="nah">Nahuatl</language>
-			<language type="nai">Indianerspraken in Noordamerika</language>
-			<language type="nap">Neapolitaansch</language>
-			<language type="nb">Norweegsch Bokmål</language>
-			<language type="nd">Noord-Ndebele</language>
-			<language type="nds">Plattdüütsch</language>
-			<language type="ne">Nepaleesch</language>
-			<language type="new">Newari</language>
-			<language type="ng">Ndonga</language>
-			<language type="nia">Nias</language>
-			<language type="nic">Nigerkordofaansche Spraken</language>
-			<language type="niu">Niue</language>
-			<language type="nl">Nedderlandsch</language>
-			<language type="nl_BE">Fläämsch</language>
-			<language type="nn">Norweegsch Nynorsk</language>
-			<language type="no">Norweegsch</language>
-			<language type="nog">Nogai</language>
-			<language type="non">Ooldnoorsch</language>
-			<language type="nqo">N’Ko</language>
-			<language type="nr">Süüd-Ndebele</language>
-			<language type="nso">Noord-Sotho</language>
-			<language type="nub">Nuubsche Spraken</language>
-			<language type="nv">Navajo</language>
-			<language type="nwc">Oold-Newari</language>
-			<language type="ny">Nyanja</language>
-			<language type="nym">Nyamwezi</language>
-			<language type="nyn">Nyankole</language>
-			<language type="nyo">Nyoro</language>
-			<language type="nzi">Nzima</language>
-			<language type="oc">Okzitaansch</language>
-			<language type="oj">Ojibwa</language>
-			<language type="om">Oromo</language>
-			<language type="or">Orija</language>
-			<language type="os">Ossetsch</language>
-			<language type="osa">Osage</language>
-			<language type="ota">Osmaansch</language>
-			<language type="oto">Otomangue-Spraken</language>
-			<language type="pa">Pandschabsch</language>
-			<language type="paa">Papuaspraken</language>
-			<language type="pag">Pangasinan</language>
-			<language type="pal">Middelpers’sch</language>
-			<language type="pam">Pampanggan</language>
-			<language type="pap">Papiamento</language>
-			<language type="pau">Palausch</language>
-			<language type="peo">Ooldpers’sch</language>
-			<language type="phi">Philippinen-Austroneesche Spraken</language>
-			<language type="phn">Phönieksch</language>
-			<language type="pi">Pali</language>
-			<language type="pl">Poolsch</language>
-			<language type="pon">Ponapeaansch</language>
-			<language type="pra">Prakrit</language>
-			<language type="pro">Ooldprovenzaalsch</language>
-			<language type="ps">Paschtu</language>
-			<language type="pt">Portugeesch</language>
-			<language type="pt_BR">Brasiliaansch Portugeesch</language>
-			<language type="pt_PT">Ibeersch Portugeesch</language>
-			<language type="qu">Quechua</language>
-			<language type="raj">Rajasthani</language>
-			<language type="rap">Oosterinsel-Spraak</language>
-			<language type="rar">Rarotongaansch</language>
-			<language type="rm">Rätoromaansch</language>
-			<language type="rn">Rundi</language>
-			<language type="ro">Rumäänsch</language>
-			<language type="roa">Romaansche Spraken</language>
-			<language type="rom">Romani</language>
-			<language type="root">Wortel</language>
-			<language type="ru">Russ’sch</language>
-			<language type="rup">Aromuunsch</language>
-			<language type="rw">Ruandsch</language>
-			<language type="sa">Sanskrit</language>
-			<language type="sad">Sandawe</language>
-			<language type="sah">Jakuutsch</language>
-			<language type="sai">Indianerspraken in Süüdamerika</language>
-			<language type="sal">Salish</language>
-			<language type="sam">Samaritaansch</language>
-			<language type="sas">Sasak</language>
-			<language type="sat">Santali</language>
-			<language type="sc">Sardsch</language>
-			<language type="scn">Siziliaansch</language>
-			<language type="sco">Schottsch</language>
-			<language type="sd">Sindhi</language>
-			<language type="se">Noord-Saamsch</language>
-			<language type="sel">Selkupsch</language>
-			<language type="sem">Semietsche Spraken</language>
-			<language type="sg">Sango</language>
-			<language type="sga">Oold-Iersch</language>
-			<language type="sgn">Tekenspraken</language>
-			<language type="shn">Schan</language>
-			<language type="si">Singhaleesch</language>
-			<language type="sid">Sidamo</language>
-			<language type="sio">Sioux-Spraken</language>
-			<language type="sit">Sinotibeetsche Spraken</language>
-			<language type="sk">Slowaaksch</language>
-			<language type="sl">Sloweensch</language>
-			<language type="sla">Slaavsche Spraken</language>
-			<language type="sm">Samoaansch</language>
-			<language type="sma">Süüd-Lappsch</language>
-			<language type="smi">Lappsch</language>
-			<language type="smj">Lule-Lappsch</language>
-			<language type="smn">Inari-Lappsch</language>
-			<language type="sms">Skolt-Lappsch</language>
-			<language type="sn">Schona</language>
-			<language type="snk">Soninke</language>
-			<language type="so">Somaalsch</language>
-			<language type="sog">Sogdisch</language>
-			<language type="son">Songhai</language>
-			<language type="sq">Albaansch</language>
-			<language type="sr">Serbsch</language>
-			<language type="srn">Surinaamsch</language>
-			<language type="srr">Serer</language>
-			<language type="ss">Swazi</language>
-			<language type="ssa">Nilosaharaansche Spraken</language>
-			<language type="st">Süüd-Sotho</language>
-			<language type="su">Sundaneesch</language>
-			<language type="suk">Sukuma</language>
-			<language type="sus">Susu</language>
-			<language type="sux">Sumersch</language>
-			<language type="sv">Sweedsch</language>
-			<language type="sw">Suaheli</language>
-			<language type="syc">Oold-Syyrsch</language>
-			<language type="syr">Syyrsch</language>
-			<language type="ta">Tamilsch</language>
-			<language type="tai">Thaispraken</language>
-			<language type="te">Telugu</language>
-			<language type="tem">Temne</language>
-			<language type="ter">Tereno</language>
-			<language type="tet">Tetum</language>
-			<language type="tg">Tadschiksch</language>
-			<language type="th">Thai</language>
-			<language type="ti">Tigrinja</language>
-			<language type="tig">Tigre</language>
-			<language type="tiv">Tiv</language>
-			<language type="tk">Turkmeensch</language>
-			<language type="tkl">Tokelausch</language>
-			<language type="tl">Tagalog</language>
-			<language type="tlh">Klingoonsch</language>
-			<language type="tli">Tlingit</language>
-			<language type="tmh">Tamaschek</language>
-			<language type="tn">Tswana</language>
-			<language type="to">Tongaasch</language>
-			<language type="tog">Tonga (Nyasa)</language>
-			<language type="tpi">Tok Pisin</language>
-			<language type="tr">Törksch</language>
-			<language type="ts">Tsonga</language>
-			<language type="tsi">Tsimshian</language>
-			<language type="tt">Tataarsch</language>
-			<language type="tum">Tumbuka</language>
-			<language type="tup">Tupi-Spraken</language>
-			<language type="tut">Altaische Spraken</language>
-			<language type="tvl">Elliceaansch</language>
-			<language type="tw">Twi</language>
-			<language type="ty">Tahitsch</language>
-			<language type="tyv">Tuwinsch</language>
-			<language type="udm">Udmurtsch</language>
-			<language type="ug">Uiguursch</language>
-			<language type="uga">Ugaritsch</language>
-			<language type="uk">Ukrainsch</language>
-			<language type="umb">Mbundu</language>
-			<language type="und">Unbestimmte Spraak</language>
-			<language type="ur">Urdu</language>
-			<language type="uz">Usbeeksch</language>
-			<language type="vai">Vai</language>
-			<language type="ve">Venda</language>
-			<language type="vi">Vietnameesch</language>
-			<language type="vo">Volapük</language>
-			<language type="vot">Wootsch</language>
-			<language type="wa">Walloonsch</language>
-			<language type="wak">Wakashaansch</language>
-			<language type="wal">Walamo</language>
-			<language type="war">Waray</language>
-			<language type="was">Washo</language>
-			<language type="wen">Sorbsch</language>
-			<language type="wo">Wolof</language>
-			<language type="xal">Kalmücksch</language>
-			<language type="xh">Xhosa</language>
-			<language type="yao">Yao</language>
-			<language type="yap">Yapeesch</language>
-			<language type="yi">Jiddisch</language>
-			<language type="yo">Yoruba</language>
-			<language type="ypk">Yupik</language>
-			<language type="za">Zhuang</language>
-			<language type="zap">Zapoteeksch</language>
-			<language type="zbl">Bliss-Symbolen</language>
-			<language type="zen">Zenaga</language>
-			<language type="zh">Chineesch</language>
-			<language type="zh_Hans">Vereenfacht Chineesch</language>
-			<language type="zh_Hant">Traditschonell Chineesch</language>
-			<language type="znd">Zande</language>
-			<language type="zu">Zulu</language>
-			<language type="zun">Zuni</language>
-			<language type="zxx">Keen Spraakinhold</language>
-			<language type="zza">Zaza</language>
+			<language type="aa" draft="unconfirmed">Afar</language>
+			<language type="ab" draft="unconfirmed">Abchaasch</language>
+			<language type="ace" draft="unconfirmed">Aceh</language>
+			<language type="ach" draft="unconfirmed">Acholi</language>
+			<language type="ada" draft="unconfirmed">Adangme</language>
+			<language type="ady" draft="unconfirmed">Adygeisch</language>
+			<language type="ae" draft="unconfirmed">Avestsch</language>
+			<language type="af" draft="unconfirmed">Afrikaansch</language>
+			<language type="afa" draft="unconfirmed">Afro-Asiaatsche Spraken</language>
+			<language type="afh" draft="unconfirmed">Afrihili</language>
+			<language type="ain" draft="unconfirmed">Ainu</language>
+			<language type="ak" draft="unconfirmed">Akan</language>
+			<language type="akk" draft="unconfirmed">Akkadsch</language>
+			<language type="ale" draft="unconfirmed">Aleutsch</language>
+			<language type="alg" draft="unconfirmed">Algonkin-Spraken</language>
+			<language type="alt" draft="unconfirmed">Süüd-Altaisch</language>
+			<language type="am" draft="unconfirmed">Amhaarsch</language>
+			<language type="an" draft="unconfirmed">Aragoneesch</language>
+			<language type="ang" draft="unconfirmed">Ooldengelsch</language>
+			<language type="anp" draft="unconfirmed">Angika</language>
+			<language type="apa" draft="unconfirmed">Apache</language>
+			<language type="ar" draft="unconfirmed">Araabsch</language>
+			<language type="arc" draft="unconfirmed">Aramääsch</language>
+			<language type="arn" draft="unconfirmed">Araukaansch</language>
+			<language type="arp" draft="unconfirmed">Arapaho</language>
+			<language type="art" draft="unconfirmed">Kunstspraken</language>
+			<language type="arw" draft="unconfirmed">Arawak-Spraken</language>
+			<language type="as" draft="unconfirmed">Assameesch</language>
+			<language type="ast" draft="unconfirmed">Asturiaansch</language>
+			<language type="ath" draft="unconfirmed">Athabasksche Spraken</language>
+			<language type="aus" draft="unconfirmed">Austraalsche Spraken</language>
+			<language type="av" draft="unconfirmed">Awaarsch</language>
+			<language type="awa" draft="unconfirmed">Awadhi</language>
+			<language type="ay" draft="unconfirmed">Aymara</language>
+			<language type="az" draft="unconfirmed">Aserbaidschaansch</language>
+			<language type="ba" draft="unconfirmed">Baschkiersch</language>
+			<language type="bad" draft="unconfirmed">Banda</language>
+			<language type="bai" draft="unconfirmed">Bamileke</language>
+			<language type="bal" draft="unconfirmed">Belutschisch</language>
+			<language type="ban" draft="unconfirmed">Balineesch</language>
+			<language type="bas" draft="unconfirmed">Basaa</language>
+			<language type="bat" draft="unconfirmed">Baltsche Spraken</language>
+			<language type="be" draft="unconfirmed">Wittruss’sch</language>
+			<language type="bej" draft="unconfirmed">Bedscha</language>
+			<language type="bem" draft="unconfirmed">Bemba</language>
+			<language type="ber" draft="unconfirmed">Berberspraken</language>
+			<language type="bg" draft="unconfirmed">Bulgaarsch</language>
+			<language type="bh" draft="unconfirmed">Bihaarsch</language>
+			<language type="bho" draft="unconfirmed">Bhodschpuri</language>
+			<language type="bi" draft="unconfirmed">Bislama</language>
+			<language type="bik" draft="unconfirmed">Bikol</language>
+			<language type="bin" draft="unconfirmed">Bini</language>
+			<language type="bla" draft="unconfirmed">Siksika</language>
+			<language type="bm" draft="unconfirmed">Bambara</language>
+			<language type="bn" draft="unconfirmed">Bengaalsch</language>
+			<language type="bnt" draft="unconfirmed">Bantuspraken</language>
+			<language type="bo" draft="unconfirmed">Tibeetsch</language>
+			<language type="br" draft="unconfirmed">Bretoonsch</language>
+			<language type="bra" draft="unconfirmed">Braj-Bhakha</language>
+			<language type="bs" draft="unconfirmed">Bosnisch</language>
+			<language type="btk" draft="unconfirmed">Batak</language>
+			<language type="bua" draft="unconfirmed">Burjaatsch</language>
+			<language type="bug" draft="unconfirmed">Bugineesch</language>
+			<language type="byn" draft="unconfirmed">Blin</language>
+			<language type="ca" draft="unconfirmed">Katalaansch</language>
+			<language type="cad" draft="unconfirmed">Caddo</language>
+			<language type="cai" draft="unconfirmed">Indianerspraken in Zentralamerika</language>
+			<language type="car" draft="unconfirmed">Kariebsche Spraken</language>
+			<language type="cau" draft="unconfirmed">Kaukaasche Spraken</language>
+			<language type="cch" draft="unconfirmed">Atsam</language>
+			<language type="ce" draft="unconfirmed">Tschetscheensch</language>
+			<language type="ceb" draft="unconfirmed">Cebuano</language>
+			<language type="cel" draft="unconfirmed">Keltsche Spraken</language>
+			<language type="ch" draft="unconfirmed">Chamorro</language>
+			<language type="chb" draft="unconfirmed">Chibcha-Spraken</language>
+			<language type="chg" draft="unconfirmed">Tschagataisch</language>
+			<language type="chk" draft="unconfirmed">Trukeesch</language>
+			<language type="chm" draft="unconfirmed">Mari</language>
+			<language type="chn" draft="unconfirmed">Chinook</language>
+			<language type="cho" draft="unconfirmed">Choctaw</language>
+			<language type="chp" draft="unconfirmed">Chipewyan</language>
+			<language type="chr" draft="unconfirmed">Cherokee</language>
+			<language type="chy" draft="unconfirmed">Cheyenne</language>
+			<language type="cmc" draft="unconfirmed">Cham-Spraken</language>
+			<language type="co" draft="unconfirmed">Koorsch</language>
+			<language type="cop" draft="unconfirmed">Koptsch</language>
+			<language type="cpe" draft="unconfirmed">Kreoolsch-Engelsche Spraken</language>
+			<language type="cpf" draft="unconfirmed">Kreoolsch-Franzöösche Spraken</language>
+			<language type="cpp" draft="unconfirmed">Kreoolsch-Portugeesche Spraken</language>
+			<language type="cr" draft="unconfirmed">Cree</language>
+			<language type="crh" draft="unconfirmed">Krimtataarsch</language>
+			<language type="crp" draft="unconfirmed">Kreoolsche Spraken</language>
+			<language type="cs" draft="unconfirmed">Tschech’sch</language>
+			<language type="csb" draft="unconfirmed">Kaschuubsch</language>
+			<language type="cu" draft="unconfirmed">Karkenslaavsch</language>
+			<language type="cus" draft="unconfirmed">Kuschietsche Spraken</language>
+			<language type="cv" draft="unconfirmed">Tschuwasch’sch</language>
+			<language type="cy" draft="unconfirmed">Waliesch</language>
+			<language type="da" draft="unconfirmed">Däänsch</language>
+			<language type="dak" draft="unconfirmed">Dakota</language>
+			<language type="dar" draft="unconfirmed">Dargiensch</language>
+			<language type="day" draft="unconfirmed">Dajak</language>
+			<language type="de" draft="unconfirmed">Düütsch</language>
+			<language type="de_AT" draft="unconfirmed">Öösterrieksch Hoochdüütsch</language>
+			<language type="de_CH" draft="unconfirmed">Swiezer Hoochdüütsch</language>
+			<language type="del" draft="unconfirmed">Delaware</language>
+			<language type="den" draft="unconfirmed">Slave</language>
+			<language type="dgr" draft="unconfirmed">Dogrib</language>
+			<language type="din" draft="unconfirmed">Dinka</language>
+			<language type="doi" draft="unconfirmed">Dogri</language>
+			<language type="dra" draft="unconfirmed">Drawiedsche Spraken</language>
+			<language type="dsb" draft="unconfirmed">Neddersorbsch</language>
+			<language type="dua" draft="unconfirmed">Duala</language>
+			<language type="dum" draft="unconfirmed">Middelnedderlandsch</language>
+			<language type="dv" draft="unconfirmed">Maledievsch</language>
+			<language type="dyu" draft="unconfirmed">Dyula</language>
+			<language type="dz" draft="unconfirmed">Bhutaansch</language>
+			<language type="ee" draft="unconfirmed">Ewe</language>
+			<language type="efi" draft="unconfirmed">Efik</language>
+			<language type="egy" draft="unconfirmed">Ägyptsch</language>
+			<language type="eka" draft="unconfirmed">Ekajuk</language>
+			<language type="el" draft="unconfirmed">Greeksch</language>
+			<language type="elx" draft="unconfirmed">Elaamsch</language>
+			<language type="en" draft="unconfirmed">Engelsch</language>
+			<language type="en_AU" draft="unconfirmed">Austraalsch Engelsch</language>
+			<language type="en_CA" draft="unconfirmed">Kanaadsch Engelsch</language>
+			<language type="en_GB" draft="unconfirmed">Brietsch Engelsch</language>
+			<language type="en_US" draft="unconfirmed">Amerikaansch Engelsch</language>
+			<language type="enm" draft="unconfirmed">Middelengelsch</language>
+			<language type="eo" draft="unconfirmed">Esperanto</language>
+			<language type="es" draft="unconfirmed">Spaansch</language>
+			<language type="es_419" draft="unconfirmed">Latienamerikaansch Spaansch</language>
+			<language type="es_ES" draft="unconfirmed">Ibeersch Spaansch</language>
+			<language type="et" draft="unconfirmed">Eestnisch</language>
+			<language type="eu" draft="unconfirmed">Basksch</language>
+			<language type="ewo" draft="unconfirmed">Ewondo</language>
+			<language type="fa" draft="unconfirmed">Pers’sch</language>
+			<language type="fan" draft="unconfirmed">Pangwe</language>
+			<language type="fat" draft="unconfirmed">Fanti</language>
+			<language type="ff" draft="unconfirmed">Ful</language>
+			<language type="fi" draft="unconfirmed">Finnsch</language>
+			<language type="fil" draft="unconfirmed">Philippiensch</language>
+			<language type="fiu" draft="unconfirmed">Finnougrische Spraken</language>
+			<language type="fj" draft="unconfirmed">Fidschiaansch</language>
+			<language type="fo" draft="unconfirmed">Färöösch</language>
+			<language type="fon" draft="unconfirmed">Fon</language>
+			<language type="fr" draft="unconfirmed">Franzöösch</language>
+			<language type="fr_CA" draft="unconfirmed">Kanaadsch Franzöösch</language>
+			<language type="fr_CH" draft="unconfirmed">Swiezer Franzöösch</language>
+			<language type="frm" draft="unconfirmed">Middelfranzöösch</language>
+			<language type="fro" draft="unconfirmed">Ooldfranzöösch</language>
+			<language type="frr" draft="unconfirmed">Noordfreesch</language>
+			<language type="frs" draft="unconfirmed">Saterfreesch</language>
+			<language type="fur" draft="unconfirmed">Friuulsch</language>
+			<language type="fy" draft="unconfirmed">Westfreesch</language>
+			<language type="ga" draft="unconfirmed">Iersch</language>
+			<language type="gaa" draft="unconfirmed">Ga</language>
+			<language type="gay" draft="unconfirmed">Gayo</language>
+			<language type="gba" draft="unconfirmed">Gbaya</language>
+			<language type="gd" draft="unconfirmed">Schottsch Gäälsch</language>
+			<language type="gem" draft="unconfirmed">Germaansche Spraken</language>
+			<language type="gez" draft="unconfirmed">Geez</language>
+			<language type="gil" draft="unconfirmed">Gilberteesch</language>
+			<language type="gl" draft="unconfirmed">Galizisch</language>
+			<language type="gmh" draft="unconfirmed">Middelhoochdüütsch</language>
+			<language type="gn" draft="unconfirmed">Guarani</language>
+			<language type="goh" draft="unconfirmed">Ooldhoochdüütsch</language>
+			<language type="gon" draft="unconfirmed">Gondi</language>
+			<language type="gor" draft="unconfirmed">Gorontalo</language>
+			<language type="got" draft="unconfirmed">Gootsch</language>
+			<language type="grb" draft="unconfirmed">Grebo</language>
+			<language type="grc" draft="unconfirmed">Ooldgreeksch</language>
+			<language type="gsw" draft="unconfirmed">Swiezerdüütsch</language>
+			<language type="gu" draft="unconfirmed">Gujarati</language>
+			<language type="gv" draft="unconfirmed">Manx</language>
+			<language type="gwi" draft="unconfirmed">Kutchin</language>
+			<language type="ha" draft="unconfirmed">Haussa</language>
+			<language type="hai" draft="unconfirmed">Haida</language>
+			<language type="haw" draft="unconfirmed">Hawaiiaansch</language>
+			<language type="he" draft="unconfirmed">Hebrääsch</language>
+			<language type="hi" draft="unconfirmed">Hindi</language>
+			<language type="hil" draft="unconfirmed">Hiligaynon</language>
+			<language type="him" draft="unconfirmed">Himachali</language>
+			<language type="hit" draft="unconfirmed">Hethitsch</language>
+			<language type="hmn" draft="unconfirmed">Miao-Spraken</language>
+			<language type="ho" draft="unconfirmed">Hiri-Motu</language>
+			<language type="hr" draft="unconfirmed">Kroaatsch</language>
+			<language type="hsb" draft="unconfirmed">Böversorbsch</language>
+			<language type="ht" draft="unconfirmed">Haitiaansch-Kreoolsch</language>
+			<language type="hu" draft="unconfirmed">Ungaarsch</language>
+			<language type="hup" draft="unconfirmed">Hupa</language>
+			<language type="hy" draft="unconfirmed">Armeensch</language>
+			<language type="hz" draft="unconfirmed">Herero</language>
+			<language type="ia" draft="unconfirmed">Interlingua</language>
+			<language type="iba" draft="unconfirmed">Iban</language>
+			<language type="id" draft="unconfirmed">Indoneesch</language>
+			<language type="ie" draft="unconfirmed">Interlingue</language>
+			<language type="ig" draft="unconfirmed">Igbo</language>
+			<language type="ii" draft="unconfirmed">Sichuan Yi</language>
+			<language type="ijo" draft="unconfirmed">Ijo</language>
+			<language type="ik" draft="unconfirmed">Inupiak</language>
+			<language type="ilo" draft="unconfirmed">Ilokano</language>
+			<language type="inc" draft="unconfirmed">Indoarische Spraken</language>
+			<language type="ine" draft="unconfirmed">Indogermaansche Spraken</language>
+			<language type="inh" draft="unconfirmed">Ingusch’sch</language>
+			<language type="io" draft="unconfirmed">Ido</language>
+			<language type="ira" draft="unconfirmed">Iraansche Spraken</language>
+			<language type="iro" draft="unconfirmed">Irokeesche Spraken</language>
+			<language type="is" draft="unconfirmed">Ieslandsch</language>
+			<language type="it" draft="unconfirmed">Italieensch</language>
+			<language type="iu" draft="unconfirmed">Inuktitut</language>
+			<language type="ja" draft="unconfirmed">Japaansch</language>
+			<language type="jbo" draft="unconfirmed">Lojban</language>
+			<language type="jpr" draft="unconfirmed">Jöödsch-Pers’sch</language>
+			<language type="jrb" draft="unconfirmed">Jöödsch-Araabsch</language>
+			<language type="jv" draft="unconfirmed">Javaansch</language>
+			<language type="ka" draft="unconfirmed">Georgsch</language>
+			<language type="kaa" draft="unconfirmed">Karakalpaksch</language>
+			<language type="kab" draft="unconfirmed">Kabyylsch</language>
+			<language type="kac" draft="unconfirmed">Kachin</language>
+			<language type="kaj" draft="unconfirmed">Jju</language>
+			<language type="kam" draft="unconfirmed">Kamba</language>
+			<language type="kar" draft="unconfirmed">Kareensch</language>
+			<language type="kaw" draft="unconfirmed">Kawi</language>
+			<language type="kbd" draft="unconfirmed">Kabardiensch</language>
+			<language type="kcg" draft="unconfirmed">Tyap</language>
+			<language type="kfo" draft="unconfirmed">Koro</language>
+			<language type="kg" draft="unconfirmed">Kongo</language>
+			<language type="kha" draft="unconfirmed">Khasi</language>
+			<language type="khi" draft="unconfirmed">Khoisan-Spraken</language>
+			<language type="kho" draft="unconfirmed">Saaksch</language>
+			<language type="ki" draft="unconfirmed">Kikuyu</language>
+			<language type="kj" draft="unconfirmed">Kwanyama</language>
+			<language type="kk" draft="unconfirmed">Kasach’sch</language>
+			<language type="kl" draft="unconfirmed">Gröönlandsch</language>
+			<language type="km" draft="unconfirmed">Kambodschaansch</language>
+			<language type="kmb" draft="unconfirmed">Kimbundu</language>
+			<language type="kn" draft="unconfirmed">Kannada</language>
+			<language type="ko" draft="unconfirmed">Koreaansch</language>
+			<language type="kok" draft="unconfirmed">Konkani</language>
+			<language type="kos" draft="unconfirmed">Kosraeaansch</language>
+			<language type="kpe" draft="unconfirmed">Kpelle</language>
+			<language type="kr" draft="unconfirmed">Kanuursch</language>
+			<language type="krc" draft="unconfirmed">Karatschaisch-Balkaarsch</language>
+			<language type="krl" draft="unconfirmed">Kareelsch</language>
+			<language type="kro" draft="unconfirmed">Kru-Spraken</language>
+			<language type="kru" draft="unconfirmed">Oraon</language>
+			<language type="ks" draft="unconfirmed">Kaschmiersch</language>
+			<language type="ku" draft="unconfirmed">Kurdsch</language>
+			<language type="kum" draft="unconfirmed">Kumücksch</language>
+			<language type="kut" draft="unconfirmed">Kutenai</language>
+			<language type="kv" draft="unconfirmed">Komi</language>
+			<language type="kw" draft="unconfirmed">Koornsch</language>
+			<language type="ky" draft="unconfirmed">Kirgiesch</language>
+			<language type="la" draft="unconfirmed">Latiensch</language>
+			<language type="lad" draft="unconfirmed">Ladiensch</language>
+			<language type="lah" draft="unconfirmed">Lahnda</language>
+			<language type="lam" draft="unconfirmed">Lamba</language>
+			<language type="lb" draft="unconfirmed">Luxemborgsch</language>
+			<language type="lez" draft="unconfirmed">Lesgisch</language>
+			<language type="lg" draft="unconfirmed">Ganda</language>
+			<language type="li" draft="unconfirmed">Limborgsch</language>
+			<language type="ln" draft="unconfirmed">Lingala</language>
+			<language type="lo" draft="unconfirmed">Laootsch</language>
+			<language type="lol" draft="unconfirmed">Mongo</language>
+			<language type="loz" draft="unconfirmed">Rotse</language>
+			<language type="lt" draft="unconfirmed">Litausch</language>
+			<language type="lu" draft="unconfirmed">Luba</language>
+			<language type="lua" draft="unconfirmed">Luba-Lulua</language>
+			<language type="lui" draft="unconfirmed">Luiseno</language>
+			<language type="lun" draft="unconfirmed">Lunda</language>
+			<language type="luo" draft="unconfirmed">Luo</language>
+			<language type="lus" draft="unconfirmed">Lushai</language>
+			<language type="lv" draft="unconfirmed">Lettsch</language>
+			<language type="mad" draft="unconfirmed">Madureesch</language>
+			<language type="mag" draft="unconfirmed">Magahi</language>
+			<language type="mai" draft="unconfirmed">Maithili</language>
+			<language type="mak" draft="unconfirmed">Makassarsch</language>
+			<language type="man" draft="unconfirmed">Manding</language>
+			<language type="map" draft="unconfirmed">Austroneesche Spraken</language>
+			<language type="mas" draft="unconfirmed">Massai</language>
+			<language type="mdf" draft="unconfirmed">Mokscha</language>
+			<language type="mdr" draft="unconfirmed">Mandareesch</language>
+			<language type="men" draft="unconfirmed">Mende</language>
+			<language type="mg" draft="unconfirmed">Madagassisch</language>
+			<language type="mga" draft="unconfirmed">Middeliersch</language>
+			<language type="mh" draft="unconfirmed">Marschalleesch</language>
+			<language type="mi" draft="unconfirmed">Maori</language>
+			<language type="mic" draft="unconfirmed">Micmac</language>
+			<language type="min" draft="unconfirmed">Minangkabau</language>
+			<language type="mis" draft="unconfirmed">Verschedene Spraken</language>
+			<language type="mk" draft="unconfirmed">Mazedoonsch</language>
+			<language type="mkh" draft="unconfirmed">Mon-Khmer-Spraken</language>
+			<language type="ml" draft="unconfirmed">Malayalam</language>
+			<language type="mn" draft="unconfirmed">Mongoolsch</language>
+			<language type="mnc" draft="unconfirmed">Mandschuursch</language>
+			<language type="mni" draft="unconfirmed">Manipuri</language>
+			<language type="mno" draft="unconfirmed">Manobo</language>
+			<language type="mo" draft="unconfirmed">Moldaawsch</language>
+			<language type="moh" draft="unconfirmed">Mohawk</language>
+			<language type="mos" draft="unconfirmed">Mossi</language>
+			<language type="mr" draft="unconfirmed">Marathi</language>
+			<language type="ms" draft="unconfirmed">Malaisch</language>
+			<language type="mt" draft="unconfirmed">Malteesch</language>
+			<language type="mul" draft="unconfirmed">Mehrsprakig</language>
+			<language type="mun" draft="unconfirmed">Munda-Spraken</language>
+			<language type="mus" draft="unconfirmed">Muskogee-Spraken</language>
+			<language type="mwl" draft="unconfirmed">Mirandeesch</language>
+			<language type="mwr" draft="unconfirmed">Marwari</language>
+			<language type="my" draft="unconfirmed">Birmaansch</language>
+			<language type="myn" draft="unconfirmed">Maya-Spraken</language>
+			<language type="myv" draft="unconfirmed">Erzya</language>
+			<language type="na" draft="unconfirmed">Nauruusch</language>
+			<language type="nah" draft="unconfirmed">Nahuatl</language>
+			<language type="nai" draft="unconfirmed">Indianerspraken in Noordamerika</language>
+			<language type="nap" draft="unconfirmed">Neapolitaansch</language>
+			<language type="nb" draft="unconfirmed">Norweegsch Bokmål</language>
+			<language type="nd" draft="unconfirmed">Noord-Ndebele</language>
+			<language type="nds" draft="unconfirmed">Plattdüütsch</language>
+			<language type="ne" draft="unconfirmed">Nepaleesch</language>
+			<language type="new" draft="unconfirmed">Newari</language>
+			<language type="ng" draft="unconfirmed">Ndonga</language>
+			<language type="nia" draft="unconfirmed">Nias</language>
+			<language type="nic" draft="unconfirmed">Nigerkordofaansche Spraken</language>
+			<language type="niu" draft="unconfirmed">Niue</language>
+			<language type="nl" draft="unconfirmed">Nedderlandsch</language>
+			<language type="nl_BE" draft="unconfirmed">Fläämsch</language>
+			<language type="nn" draft="unconfirmed">Norweegsch Nynorsk</language>
+			<language type="no" draft="unconfirmed">Norweegsch</language>
+			<language type="nog" draft="unconfirmed">Nogai</language>
+			<language type="non" draft="unconfirmed">Ooldnoorsch</language>
+			<language type="nqo" draft="unconfirmed">N’Ko</language>
+			<language type="nr" draft="unconfirmed">Süüd-Ndebele</language>
+			<language type="nso" draft="unconfirmed">Noord-Sotho</language>
+			<language type="nub" draft="unconfirmed">Nuubsche Spraken</language>
+			<language type="nv" draft="unconfirmed">Navajo</language>
+			<language type="nwc" draft="unconfirmed">Oold-Newari</language>
+			<language type="ny" draft="unconfirmed">Nyanja</language>
+			<language type="nym" draft="unconfirmed">Nyamwezi</language>
+			<language type="nyn" draft="unconfirmed">Nyankole</language>
+			<language type="nyo" draft="unconfirmed">Nyoro</language>
+			<language type="nzi" draft="unconfirmed">Nzima</language>
+			<language type="oc" draft="unconfirmed">Okzitaansch</language>
+			<language type="oj" draft="unconfirmed">Ojibwa</language>
+			<language type="om" draft="unconfirmed">Oromo</language>
+			<language type="or" draft="unconfirmed">Orija</language>
+			<language type="os" draft="unconfirmed">Ossetsch</language>
+			<language type="osa" draft="unconfirmed">Osage</language>
+			<language type="ota" draft="unconfirmed">Osmaansch</language>
+			<language type="oto" draft="unconfirmed">Otomangue-Spraken</language>
+			<language type="pa" draft="unconfirmed">Pandschabsch</language>
+			<language type="paa" draft="unconfirmed">Papuaspraken</language>
+			<language type="pag" draft="unconfirmed">Pangasinan</language>
+			<language type="pal" draft="unconfirmed">Middelpers’sch</language>
+			<language type="pam" draft="unconfirmed">Pampanggan</language>
+			<language type="pap" draft="unconfirmed">Papiamento</language>
+			<language type="pau" draft="unconfirmed">Palausch</language>
+			<language type="peo" draft="unconfirmed">Ooldpers’sch</language>
+			<language type="phi" draft="unconfirmed">Philippinen-Austroneesche Spraken</language>
+			<language type="phn" draft="unconfirmed">Phönieksch</language>
+			<language type="pi" draft="unconfirmed">Pali</language>
+			<language type="pl" draft="unconfirmed">Poolsch</language>
+			<language type="pon" draft="unconfirmed">Ponapeaansch</language>
+			<language type="pra" draft="unconfirmed">Prakrit</language>
+			<language type="pro" draft="unconfirmed">Ooldprovenzaalsch</language>
+			<language type="ps" draft="unconfirmed">Paschtu</language>
+			<language type="pt" draft="unconfirmed">Portugeesch</language>
+			<language type="pt_BR" draft="unconfirmed">Brasiliaansch Portugeesch</language>
+			<language type="pt_PT" draft="unconfirmed">Ibeersch Portugeesch</language>
+			<language type="qu" draft="unconfirmed">Quechua</language>
+			<language type="raj" draft="unconfirmed">Rajasthani</language>
+			<language type="rap" draft="unconfirmed">Oosterinsel-Spraak</language>
+			<language type="rar" draft="unconfirmed">Rarotongaansch</language>
+			<language type="rm" draft="unconfirmed">Rätoromaansch</language>
+			<language type="rn" draft="unconfirmed">Rundi</language>
+			<language type="ro" draft="unconfirmed">Rumäänsch</language>
+			<language type="roa" draft="unconfirmed">Romaansche Spraken</language>
+			<language type="rom" draft="unconfirmed">Romani</language>
+			<language type="root" draft="unconfirmed">Wortel</language>
+			<language type="ru" draft="unconfirmed">Russ’sch</language>
+			<language type="rup" draft="unconfirmed">Aromuunsch</language>
+			<language type="rw" draft="unconfirmed">Ruandsch</language>
+			<language type="sa" draft="unconfirmed">Sanskrit</language>
+			<language type="sad" draft="unconfirmed">Sandawe</language>
+			<language type="sah" draft="unconfirmed">Jakuutsch</language>
+			<language type="sai" draft="unconfirmed">Indianerspraken in Süüdamerika</language>
+			<language type="sal" draft="unconfirmed">Salish</language>
+			<language type="sam" draft="unconfirmed">Samaritaansch</language>
+			<language type="sas" draft="unconfirmed">Sasak</language>
+			<language type="sat" draft="unconfirmed">Santali</language>
+			<language type="sc" draft="unconfirmed">Sardsch</language>
+			<language type="scn" draft="unconfirmed">Siziliaansch</language>
+			<language type="sco" draft="unconfirmed">Schottsch</language>
+			<language type="sd" draft="unconfirmed">Sindhi</language>
+			<language type="se" draft="unconfirmed">Noord-Saamsch</language>
+			<language type="sel" draft="unconfirmed">Selkupsch</language>
+			<language type="sem" draft="unconfirmed">Semietsche Spraken</language>
+			<language type="sg" draft="unconfirmed">Sango</language>
+			<language type="sga" draft="unconfirmed">Oold-Iersch</language>
+			<language type="sgn" draft="unconfirmed">Tekenspraken</language>
+			<language type="shn" draft="unconfirmed">Schan</language>
+			<language type="si" draft="unconfirmed">Singhaleesch</language>
+			<language type="sid" draft="unconfirmed">Sidamo</language>
+			<language type="sio" draft="unconfirmed">Sioux-Spraken</language>
+			<language type="sit" draft="unconfirmed">Sinotibeetsche Spraken</language>
+			<language type="sk" draft="unconfirmed">Slowaaksch</language>
+			<language type="sl" draft="unconfirmed">Sloweensch</language>
+			<language type="sla" draft="unconfirmed">Slaavsche Spraken</language>
+			<language type="sm" draft="unconfirmed">Samoaansch</language>
+			<language type="sma" draft="unconfirmed">Süüd-Lappsch</language>
+			<language type="smi" draft="unconfirmed">Lappsch</language>
+			<language type="smj" draft="unconfirmed">Lule-Lappsch</language>
+			<language type="smn" draft="unconfirmed">Inari-Lappsch</language>
+			<language type="sms" draft="unconfirmed">Skolt-Lappsch</language>
+			<language type="sn" draft="unconfirmed">Schona</language>
+			<language type="snk" draft="unconfirmed">Soninke</language>
+			<language type="so" draft="unconfirmed">Somaalsch</language>
+			<language type="sog" draft="unconfirmed">Sogdisch</language>
+			<language type="son" draft="unconfirmed">Songhai</language>
+			<language type="sq" draft="unconfirmed">Albaansch</language>
+			<language type="sr" draft="unconfirmed">Serbsch</language>
+			<language type="srn" draft="unconfirmed">Surinaamsch</language>
+			<language type="srr" draft="unconfirmed">Serer</language>
+			<language type="ss" draft="unconfirmed">Swazi</language>
+			<language type="ssa" draft="unconfirmed">Nilosaharaansche Spraken</language>
+			<language type="st" draft="unconfirmed">Süüd-Sotho</language>
+			<language type="su" draft="unconfirmed">Sundaneesch</language>
+			<language type="suk" draft="unconfirmed">Sukuma</language>
+			<language type="sus" draft="unconfirmed">Susu</language>
+			<language type="sux" draft="unconfirmed">Sumersch</language>
+			<language type="sv" draft="unconfirmed">Sweedsch</language>
+			<language type="sw" draft="unconfirmed">Suaheli</language>
+			<language type="syc" draft="unconfirmed">Oold-Syyrsch</language>
+			<language type="syr" draft="unconfirmed">Syyrsch</language>
+			<language type="ta" draft="unconfirmed">Tamilsch</language>
+			<language type="tai" draft="unconfirmed">Thaispraken</language>
+			<language type="te" draft="unconfirmed">Telugu</language>
+			<language type="tem" draft="unconfirmed">Temne</language>
+			<language type="ter" draft="unconfirmed">Tereno</language>
+			<language type="tet" draft="unconfirmed">Tetum</language>
+			<language type="tg" draft="unconfirmed">Tadschiksch</language>
+			<language type="th" draft="unconfirmed">Thai</language>
+			<language type="ti" draft="unconfirmed">Tigrinja</language>
+			<language type="tig" draft="unconfirmed">Tigre</language>
+			<language type="tiv" draft="unconfirmed">Tiv</language>
+			<language type="tk" draft="unconfirmed">Turkmeensch</language>
+			<language type="tkl" draft="unconfirmed">Tokelausch</language>
+			<language type="tl" draft="unconfirmed">Tagalog</language>
+			<language type="tlh" draft="unconfirmed">Klingoonsch</language>
+			<language type="tli" draft="unconfirmed">Tlingit</language>
+			<language type="tmh" draft="unconfirmed">Tamaschek</language>
+			<language type="tn" draft="unconfirmed">Tswana</language>
+			<language type="to" draft="unconfirmed">Tongaasch</language>
+			<language type="tog" draft="unconfirmed">Tonga (Nyasa)</language>
+			<language type="tpi" draft="unconfirmed">Tok Pisin</language>
+			<language type="tr" draft="unconfirmed">Törksch</language>
+			<language type="ts" draft="unconfirmed">Tsonga</language>
+			<language type="tsi" draft="unconfirmed">Tsimshian</language>
+			<language type="tt" draft="unconfirmed">Tataarsch</language>
+			<language type="tum" draft="unconfirmed">Tumbuka</language>
+			<language type="tup" draft="unconfirmed">Tupi-Spraken</language>
+			<language type="tut" draft="unconfirmed">Altaische Spraken</language>
+			<language type="tvl" draft="unconfirmed">Elliceaansch</language>
+			<language type="tw" draft="unconfirmed">Twi</language>
+			<language type="ty" draft="unconfirmed">Tahitsch</language>
+			<language type="tyv" draft="unconfirmed">Tuwinsch</language>
+			<language type="udm" draft="unconfirmed">Udmurtsch</language>
+			<language type="ug" draft="unconfirmed">Uiguursch</language>
+			<language type="uga" draft="unconfirmed">Ugaritsch</language>
+			<language type="uk" draft="unconfirmed">Ukrainsch</language>
+			<language type="umb" draft="unconfirmed">Mbundu</language>
+			<language type="und" draft="unconfirmed">Unbestimmte Spraak</language>
+			<language type="ur" draft="unconfirmed">Urdu</language>
+			<language type="uz" draft="unconfirmed">Usbeeksch</language>
+			<language type="vai" draft="unconfirmed">Vai</language>
+			<language type="ve" draft="unconfirmed">Venda</language>
+			<language type="vi" draft="unconfirmed">Vietnameesch</language>
+			<language type="vo" draft="unconfirmed">Volapük</language>
+			<language type="vot" draft="unconfirmed">Wootsch</language>
+			<language type="wa" draft="unconfirmed">Walloonsch</language>
+			<language type="wak" draft="unconfirmed">Wakashaansch</language>
+			<language type="wal" draft="unconfirmed">Walamo</language>
+			<language type="war" draft="unconfirmed">Waray</language>
+			<language type="was" draft="unconfirmed">Washo</language>
+			<language type="wen" draft="unconfirmed">Sorbsch</language>
+			<language type="wo" draft="unconfirmed">Wolof</language>
+			<language type="xal" draft="unconfirmed">Kalmücksch</language>
+			<language type="xh" draft="unconfirmed">Xhosa</language>
+			<language type="yao" draft="unconfirmed">Yao</language>
+			<language type="yap" draft="unconfirmed">Yapeesch</language>
+			<language type="yi" draft="unconfirmed">Jiddisch</language>
+			<language type="yo" draft="unconfirmed">Yoruba</language>
+			<language type="ypk" draft="unconfirmed">Yupik</language>
+			<language type="za" draft="unconfirmed">Zhuang</language>
+			<language type="zap" draft="unconfirmed">Zapoteeksch</language>
+			<language type="zbl" draft="unconfirmed">Bliss-Symbolen</language>
+			<language type="zen" draft="unconfirmed">Zenaga</language>
+			<language type="zh" draft="unconfirmed">Chineesch</language>
+			<language type="zh_Hans" draft="unconfirmed">Vereenfacht Chineesch</language>
+			<language type="zh_Hant" draft="unconfirmed">Traditschonell Chineesch</language>
+			<language type="znd" draft="unconfirmed">Zande</language>
+			<language type="zu" draft="unconfirmed">Zulu</language>
+			<language type="zun" draft="unconfirmed">Zuni</language>
+			<language type="zxx" draft="unconfirmed">Keen Spraakinhold</language>
+			<language type="zza" draft="unconfirmed">Zaza</language>
 		</languages>
 		<scripts>
-			<script type="Arab">Araabsch</script>
-			<script type="Armi">Rieksaramääsch</script>
-			<script type="Armn">Armeensch</script>
-			<script type="Avst">Avestsch</script>
-			<script type="Bali">Balineesch</script>
-			<script type="Batk">Bataksch</script>
-			<script type="Beng">Bengaalsch</script>
-			<script type="Blis">Bliss-Symbolen</script>
-			<script type="Bopo">Bopomofo</script>
-			<script type="Brah">Brahmi</script>
-			<script type="Brai">Blinnenschrift</script>
-			<script type="Bugi">Bugineesch</script>
-			<script type="Buhd">Buhid</script>
-			<script type="Cakm">Chakma</script>
-			<script type="Cans">Vereenheidlicht Kanaadsch Sülvenschrift</script>
-			<script type="Cari">Kaarsch</script>
-			<script type="Cham">Cham</script>
-			<script type="Cher">Cherokee</script>
-			<script type="Cirt">Cirth</script>
-			<script type="Copt">Koptsch</script>
-			<script type="Cprt">Zypriootsch</script>
-			<script type="Cyrl">Kyrillsch</script>
-			<script type="Cyrs">Ooldkarkenslaavsch</script>
-			<script type="Deva">Devanagari</script>
-			<script type="Dsrt">Deseret</script>
-			<script type="Egyd">Demootsch</script>
-			<script type="Egyh">Hieraatsch</script>
-			<script type="Egyp">Ägyptsche Hieroglyphen</script>
-			<script type="Ethi">Äthioopsch</script>
-			<script type="Geok">Khutsuri</script>
-			<script type="Geor">Georgsch</script>
-			<script type="Glag">Glagolietsch</script>
-			<script type="Goth">Gootsch</script>
-			<script type="Grek">Greeksch</script>
-			<script type="Gujr">Gujarati</script>
-			<script type="Guru">Gurmukhi</script>
-			<script type="Hang">Hangul</script>
-			<script type="Hani">Chineesch</script>
-			<script type="Hano">Hanunoo</script>
-			<script type="Hans">Vereenfachte Chineesche Schrift</script>
-			<script type="Hant">Traditschonelle Chineesche Schrift</script>
-			<script type="Hebr">Hebrääsch</script>
-			<script type="Hira">Hiragana</script>
-			<script type="Hmng">Pahawh Hmong</script>
-			<script type="Hrkt">Katakana oder Hiragana</script>
-			<script type="Hung">Ooldungaarsch</script>
-			<script type="Inds">Indus</script>
-			<script type="Ital">Oolditaalsch</script>
-			<script type="Java">Javaneesch</script>
-			<script type="Jpan">Japaansch</script>
-			<script type="Kali">Kayah Li</script>
-			<script type="Kana">Katakana</script>
-			<script type="Khar">Kharoshthi</script>
-			<script type="Khmr">Khmer</script>
-			<script type="Knda">Kannada</script>
-			<script type="Kore">Koreaansch</script>
-			<script type="Kthi">Kaithi</script>
-			<script type="Lana">Lanna</script>
-			<script type="Laoo">Laootsch</script>
-			<script type="Latf">Latiensch (Fraktur)</script>
-			<script type="Latg">Latiensch (Gäälsch)</script>
-			<script type="Latn">Latiensch</script>
-			<script type="Lepc">Lepcha</script>
-			<script type="Limb">Limbu</script>
-			<script type="Lina">Linear A</script>
-			<script type="Linb">Linear B</script>
-			<script type="Lyci">Lyyksch</script>
-			<script type="Lydi">Lyydsch</script>
-			<script type="Mand">Mandääsch</script>
-			<script type="Mani">Manichääsch</script>
-			<script type="Maya">Maya-Hieroglyphen</script>
-			<script type="Mero">Meroitsch</script>
-			<script type="Mlym">Malaysch</script>
-			<script type="Mong">Mongoolsch</script>
-			<script type="Moon">Moon</script>
-			<script type="Mtei">Meitei Mayek</script>
-			<script type="Mymr">Birmaansch</script>
-			<script type="Nkoo">N’Ko</script>
-			<script type="Ogam">Ogham</script>
-			<script type="Olck">Ol Chiki</script>
-			<script type="Orkh">Orchon-Runen</script>
-			<script type="Orya">Oriya</script>
-			<script type="Osma">Osmaansch</script>
-			<script type="Perm">Ooldpermsch</script>
-			<script type="Phag">Phags-pa</script>
-			<script type="Phli">Inschriften-Pahlavi</script>
-			<script type="Phlp">Psalter-Pahlavi</script>
-			<script type="Phlv">Book-Pahlavi</script>
-			<script type="Phnx">Phönieksch</script>
-			<script type="Plrd">Pollard-Phönieksch</script>
-			<script type="Prti">Inschriften-Parthsch</script>
-			<script type="Rjng">Rejang</script>
-			<script type="Roro">Rongorongo</script>
-			<script type="Runr">Runenschrift</script>
-			<script type="Samr">Samarietsch</script>
-			<script type="Sara">Sarati</script>
-			<script type="Saur">Saurashtra</script>
-			<script type="Sgnw">SignWriting</script>
-			<script type="Shaw">Shaw-Alphabet</script>
-			<script type="Sinh">Singhaleesch</script>
-			<script type="Sund">Sundaneesch</script>
-			<script type="Sylo">Syloti Nagri</script>
-			<script type="Syrc">Syyrsch</script>
-			<script type="Syre">Estrangelo-Syyrsch</script>
-			<script type="Syrj">West-Syyrsch</script>
-			<script type="Syrn">Oost-Syyrsch</script>
-			<script type="Tagb">Tagbanwa</script>
-			<script type="Tale">Tai Le</script>
-			<script type="Talu">Tai Lue</script>
-			<script type="Taml">Tamilsch</script>
-			<script type="Tavt">Tai Viet</script>
-			<script type="Telu">Telugu</script>
-			<script type="Teng">Tengwar</script>
-			<script type="Tfng">Tifinagh</script>
-			<script type="Tglg">Tagalog</script>
-			<script type="Thaa">Thaana</script>
-			<script type="Thai">Thai</script>
-			<script type="Tibt">Tibeetsch</script>
-			<script type="Ugar">Ugarietsch</script>
-			<script type="Vaii">Vai</script>
-			<script type="Visp">Visible Speech</script>
-			<script type="Xpeo">Ooldpers’sch</script>
-			<script type="Xsux">Sumeroakkadsch Kielschrift</script>
-			<script type="Yiii">Yi</script>
-			<script type="Zinh">Arvt Schriftweert</script>
-			<script type="Zmth">Mathemaatsch Teken</script>
-			<script type="Zsym">Symbolen</script>
-			<script type="Zxxx">Schriftlose Spraken</script>
-			<script type="Zyyy">Unbestimmt</script>
-			<script type="Zzzz">Unbekannt oder Unkodeert</script>
+			<script type="Arab" draft="unconfirmed">Araabsch</script>
+			<script type="Armi" draft="unconfirmed">Rieksaramääsch</script>
+			<script type="Armn" draft="unconfirmed">Armeensch</script>
+			<script type="Avst" draft="unconfirmed">Avestsch</script>
+			<script type="Bali" draft="unconfirmed">Balineesch</script>
+			<script type="Batk" draft="unconfirmed">Bataksch</script>
+			<script type="Beng" draft="unconfirmed">Bengaalsch</script>
+			<script type="Blis" draft="unconfirmed">Bliss-Symbolen</script>
+			<script type="Bopo" draft="unconfirmed">Bopomofo</script>
+			<script type="Brah" draft="unconfirmed">Brahmi</script>
+			<script type="Brai" draft="unconfirmed">Blinnenschrift</script>
+			<script type="Bugi" draft="unconfirmed">Bugineesch</script>
+			<script type="Buhd" draft="unconfirmed">Buhid</script>
+			<script type="Cakm" draft="unconfirmed">Chakma</script>
+			<script type="Cans" draft="unconfirmed">Vereenheidlicht Kanaadsch Sülvenschrift</script>
+			<script type="Cari" draft="unconfirmed">Kaarsch</script>
+			<script type="Cham" draft="unconfirmed">Cham</script>
+			<script type="Cher" draft="unconfirmed">Cherokee</script>
+			<script type="Cirt" draft="unconfirmed">Cirth</script>
+			<script type="Copt" draft="unconfirmed">Koptsch</script>
+			<script type="Cprt" draft="unconfirmed">Zypriootsch</script>
+			<script type="Cyrl" draft="unconfirmed">Kyrillsch</script>
+			<script type="Cyrs" draft="unconfirmed">Ooldkarkenslaavsch</script>
+			<script type="Deva" draft="unconfirmed">Devanagari</script>
+			<script type="Dsrt" draft="unconfirmed">Deseret</script>
+			<script type="Egyd" draft="unconfirmed">Demootsch</script>
+			<script type="Egyh" draft="unconfirmed">Hieraatsch</script>
+			<script type="Egyp" draft="unconfirmed">Ägyptsche Hieroglyphen</script>
+			<script type="Ethi" draft="unconfirmed">Äthioopsch</script>
+			<script type="Geok" draft="unconfirmed">Khutsuri</script>
+			<script type="Geor" draft="unconfirmed">Georgsch</script>
+			<script type="Glag" draft="unconfirmed">Glagolietsch</script>
+			<script type="Goth" draft="unconfirmed">Gootsch</script>
+			<script type="Grek" draft="unconfirmed">Greeksch</script>
+			<script type="Gujr" draft="unconfirmed">Gujarati</script>
+			<script type="Guru" draft="unconfirmed">Gurmukhi</script>
+			<script type="Hang" draft="unconfirmed">Hangul</script>
+			<script type="Hani" draft="unconfirmed">Chineesch</script>
+			<script type="Hano" draft="unconfirmed">Hanunoo</script>
+			<script type="Hans" draft="unconfirmed">Vereenfachte Chineesche Schrift</script>
+			<script type="Hant" draft="unconfirmed">Traditschonelle Chineesche Schrift</script>
+			<script type="Hebr" draft="unconfirmed">Hebrääsch</script>
+			<script type="Hira" draft="unconfirmed">Hiragana</script>
+			<script type="Hmng" draft="unconfirmed">Pahawh Hmong</script>
+			<script type="Hrkt" draft="unconfirmed">Katakana oder Hiragana</script>
+			<script type="Hung" draft="unconfirmed">Ooldungaarsch</script>
+			<script type="Inds" draft="unconfirmed">Indus</script>
+			<script type="Ital" draft="unconfirmed">Oolditaalsch</script>
+			<script type="Java" draft="unconfirmed">Javaneesch</script>
+			<script type="Jpan" draft="unconfirmed">Japaansch</script>
+			<script type="Kali" draft="unconfirmed">Kayah Li</script>
+			<script type="Kana" draft="unconfirmed">Katakana</script>
+			<script type="Khar" draft="unconfirmed">Kharoshthi</script>
+			<script type="Khmr" draft="unconfirmed">Khmer</script>
+			<script type="Knda" draft="unconfirmed">Kannada</script>
+			<script type="Kore" draft="unconfirmed">Koreaansch</script>
+			<script type="Kthi" draft="unconfirmed">Kaithi</script>
+			<script type="Lana" draft="unconfirmed">Lanna</script>
+			<script type="Laoo" draft="unconfirmed">Laootsch</script>
+			<script type="Latf" draft="unconfirmed">Latiensch (Fraktur)</script>
+			<script type="Latg" draft="unconfirmed">Latiensch (Gäälsch)</script>
+			<script type="Latn" draft="unconfirmed">Latiensch</script>
+			<script type="Lepc" draft="unconfirmed">Lepcha</script>
+			<script type="Limb" draft="unconfirmed">Limbu</script>
+			<script type="Lina" draft="unconfirmed">Linear A</script>
+			<script type="Linb" draft="unconfirmed">Linear B</script>
+			<script type="Lyci" draft="unconfirmed">Lyyksch</script>
+			<script type="Lydi" draft="unconfirmed">Lyydsch</script>
+			<script type="Mand" draft="unconfirmed">Mandääsch</script>
+			<script type="Mani" draft="unconfirmed">Manichääsch</script>
+			<script type="Maya" draft="unconfirmed">Maya-Hieroglyphen</script>
+			<script type="Mero" draft="unconfirmed">Meroitsch</script>
+			<script type="Mlym" draft="unconfirmed">Malaysch</script>
+			<script type="Mong" draft="unconfirmed">Mongoolsch</script>
+			<script type="Moon" draft="unconfirmed">Moon</script>
+			<script type="Mtei" draft="unconfirmed">Meitei Mayek</script>
+			<script type="Mymr" draft="unconfirmed">Birmaansch</script>
+			<script type="Nkoo" draft="unconfirmed">N’Ko</script>
+			<script type="Ogam" draft="unconfirmed">Ogham</script>
+			<script type="Olck" draft="unconfirmed">Ol Chiki</script>
+			<script type="Orkh" draft="unconfirmed">Orchon-Runen</script>
+			<script type="Orya" draft="unconfirmed">Oriya</script>
+			<script type="Osma" draft="unconfirmed">Osmaansch</script>
+			<script type="Perm" draft="unconfirmed">Ooldpermsch</script>
+			<script type="Phag" draft="unconfirmed">Phags-pa</script>
+			<script type="Phli" draft="unconfirmed">Inschriften-Pahlavi</script>
+			<script type="Phlp" draft="unconfirmed">Psalter-Pahlavi</script>
+			<script type="Phlv" draft="unconfirmed">Book-Pahlavi</script>
+			<script type="Phnx" draft="unconfirmed">Phönieksch</script>
+			<script type="Plrd" draft="unconfirmed">Pollard-Phönieksch</script>
+			<script type="Prti" draft="unconfirmed">Inschriften-Parthsch</script>
+			<script type="Rjng" draft="unconfirmed">Rejang</script>
+			<script type="Roro" draft="unconfirmed">Rongorongo</script>
+			<script type="Runr" draft="unconfirmed">Runenschrift</script>
+			<script type="Samr" draft="unconfirmed">Samarietsch</script>
+			<script type="Sara" draft="unconfirmed">Sarati</script>
+			<script type="Saur" draft="unconfirmed">Saurashtra</script>
+			<script type="Sgnw" draft="unconfirmed">SignWriting</script>
+			<script type="Shaw" draft="unconfirmed">Shaw-Alphabet</script>
+			<script type="Sinh" draft="unconfirmed">Singhaleesch</script>
+			<script type="Sund" draft="unconfirmed">Sundaneesch</script>
+			<script type="Sylo" draft="unconfirmed">Syloti Nagri</script>
+			<script type="Syrc" draft="unconfirmed">Syyrsch</script>
+			<script type="Syre" draft="unconfirmed">Estrangelo-Syyrsch</script>
+			<script type="Syrj" draft="unconfirmed">West-Syyrsch</script>
+			<script type="Syrn" draft="unconfirmed">Oost-Syyrsch</script>
+			<script type="Tagb" draft="unconfirmed">Tagbanwa</script>
+			<script type="Tale" draft="unconfirmed">Tai Le</script>
+			<script type="Talu" draft="unconfirmed">Tai Lue</script>
+			<script type="Taml" draft="unconfirmed">Tamilsch</script>
+			<script type="Tavt" draft="unconfirmed">Tai Viet</script>
+			<script type="Telu" draft="unconfirmed">Telugu</script>
+			<script type="Teng" draft="unconfirmed">Tengwar</script>
+			<script type="Tfng" draft="unconfirmed">Tifinagh</script>
+			<script type="Tglg" draft="unconfirmed">Tagalog</script>
+			<script type="Thaa" draft="unconfirmed">Thaana</script>
+			<script type="Thai" draft="unconfirmed">Thai</script>
+			<script type="Tibt" draft="unconfirmed">Tibeetsch</script>
+			<script type="Ugar" draft="unconfirmed">Ugarietsch</script>
+			<script type="Vaii" draft="unconfirmed">Vai</script>
+			<script type="Visp" draft="unconfirmed">Visible Speech</script>
+			<script type="Xpeo" draft="unconfirmed">Ooldpers’sch</script>
+			<script type="Xsux" draft="unconfirmed">Sumeroakkadsch Kielschrift</script>
+			<script type="Yiii" draft="unconfirmed">Yi</script>
+			<script type="Zinh" draft="unconfirmed">Arvt Schriftweert</script>
+			<script type="Zmth" draft="unconfirmed">Mathemaatsch Teken</script>
+			<script type="Zsym" draft="unconfirmed">Symbolen</script>
+			<script type="Zxxx" draft="unconfirmed">Schriftlose Spraken</script>
+			<script type="Zyyy" draft="unconfirmed">Unbestimmt</script>
+			<script type="Zzzz" draft="unconfirmed">Unbekannt oder Unkodeert</script>
 		</scripts>
 		<territories>
-			<territory type="001">Welt</territory>
-			<territory type="002">Afrika</territory>
-			<territory type="003">Noordamerika</territory>
-			<territory type="005">Süüdamerika</territory>
-			<territory type="009">Ozeanien</territory>
-			<territory type="011">Westafrika</territory>
-			<territory type="013">Middelamerika</territory>
-			<territory type="014">Oostafrika</territory>
-			<territory type="015">Noordafrika</territory>
-			<territory type="017">Zentralafrika</territory>
-			<territory type="018">Süüdlich Afrika</territory>
-			<territory type="019">Amerika</territory>
-			<territory type="029">Karibik</territory>
-			<territory type="030">Oostasien</territory>
-			<territory type="034">Süüdasien</territory>
-			<territory type="035">Süüdoostasien</territory>
-			<territory type="039">Süüdeuropa</territory>
-			<territory type="053">Australien un Neeseeland</territory>
-			<territory type="054">Melanesien</territory>
-			<territory type="061">Polynesien</territory>
-			<territory type="062">Süüd-Zentralasien</territory>
-			<territory type="142">Asien</territory>
-			<territory type="143">Zentralasien</territory>
-			<territory type="145">Westasien</territory>
-			<territory type="150">Europa</territory>
-			<territory type="151">Oosteuropa</territory>
-			<territory type="154">Noordeuropa</territory>
-			<territory type="155">Westeuropa</territory>
-			<territory type="172">Gemeenschop vun Unafhängige Staten</territory>
-			<territory type="419">Latienamerika un Karibik</territory>
-			<territory type="AD">Andorra</territory>
-			<territory type="AE">Vereenigte Araabsche Emiraten</territory>
-			<territory type="AF">Afghanistan</territory>
-			<territory type="AG">Antigua un Barbuda</territory>
-			<territory type="AI">Anguilla</territory>
-			<territory type="AL">Albanien</territory>
-			<territory type="AM">Armenien</territory>
-			<territory type="AN">Nedderlandsche Antillen</territory>
-			<territory type="AO">Angola</territory>
-			<territory type="AQ">Antarktis</territory>
-			<territory type="AR">Argentinien</territory>
-			<territory type="AS">Amerikaansch-Samoa</territory>
-			<territory type="AT">Öösterriek</territory>
-			<territory type="AU">Australien</territory>
-			<territory type="AW">Aruba</territory>
-			<territory type="AX">Ålandeilannen</territory>
-			<territory type="AZ">Aserbaidschan</territory>
-			<territory type="BA">Bosnien un Herzegowina</territory>
-			<territory type="BB">Barbados</territory>
-			<territory type="BD">Bangladesch</territory>
-			<territory type="BE">Belgien</territory>
-			<territory type="BF">Burkina Faso</territory>
-			<territory type="BG">Bulgarien</territory>
-			<territory type="BH">Bahrain</territory>
-			<territory type="BI">Burundi</territory>
-			<territory type="BJ">Benin</territory>
-			<territory type="BL">Saint Barthélemy</territory>
-			<territory type="BM">Bermuda</territory>
-			<territory type="BN">Brunei Darussalam</territory>
-			<territory type="BO">Bolivien</territory>
-			<territory type="BR">Brasilien</territory>
-			<territory type="BS">Bahamas</territory>
-			<territory type="BT">Bhutan</territory>
-			<territory type="BV">Bouvet-Eiland</territory>
-			<territory type="BW">Botswana</territory>
-			<territory type="BY">Wittrussland</territory>
-			<territory type="BZ">Belize</territory>
-			<territory type="CA">Kanada</territory>
-			<territory type="CC">Kokos-Eilannen</territory>
-			<territory type="CD">Demokraatsche Republik Kongo</territory>
-			<territory type="CF">Zentralafrikaansche Republik</territory>
-			<territory type="CG">Republik Kongo</territory>
-			<territory type="CH">Swiez</territory>
-			<territory type="CI">Elfenbeenküst</territory>
-			<territory type="CK">Cook-Eilannen</territory>
-			<territory type="CL">Chile</territory>
-			<territory type="CM">Kamerun</territory>
-			<territory type="CN">China</territory>
-			<territory type="CO">Kolumbien</territory>
-			<territory type="CR">Costa Rica</territory>
-			<territory type="CU">Kuba</territory>
-			<territory type="CV">Kap Verde</territory>
-			<territory type="CX">Wiehnachtseiland</territory>
-			<territory type="CY">Zypern</territory>
-			<territory type="CZ">Tschechien</territory>
-			<territory type="DE">Düütschland</territory>
-			<territory type="DJ">Dschibuti</territory>
-			<territory type="DK">Däänmark</territory>
-			<territory type="DM">Dominica</territory>
-			<territory type="DO">Dominikaansche Republik</territory>
-			<territory type="DZ">Algerien</territory>
-			<territory type="EC">Ecuador</territory>
-			<territory type="EE">Eestland</territory>
-			<territory type="EG">Ägypten</territory>
-			<territory type="EH">Westsahara</territory>
-			<territory type="ER">Eritrea</territory>
-			<territory type="ES">Spanien</territory>
-			<territory type="ET">Äthiopien</territory>
-			<territory type="EU">Europääsche Union</territory>
-			<territory type="FI">Finnland</territory>
-			<territory type="FJ">Fidschi</territory>
-			<territory type="FK">Falkland-Eilannen</territory>
-			<territory type="FM">Mikronesien</territory>
-			<territory type="FO">Färöer</territory>
-			<territory type="FR">Frankriek</territory>
-			<territory type="GA">Gabun</territory>
-			<territory type="GB">Vereenigt Königriek</territory>
-			<territory type="GD">Grenada</territory>
-			<territory type="GE">Georgien</territory>
-			<territory type="GF">Franzöösch-Guayana</territory>
-			<territory type="GG">Guernsey</territory>
-			<territory type="GH">Ghana</territory>
-			<territory type="GI">Gibraltar</territory>
-			<territory type="GL">Gröönland</territory>
-			<territory type="GM">Gambia</territory>
-			<territory type="GN">Guinea</territory>
-			<territory type="GP">Guadeloupe</territory>
-			<territory type="GQ">Äquatorialguinea</territory>
-			<territory type="GR">Grekenland</territory>
-			<territory type="GS">Süüdgeorgien un de Südlichen Sandwich-Eilannen</territory>
-			<territory type="GT">Guatemala</territory>
-			<territory type="GU">Guam</territory>
-			<territory type="GW">Guinea-Bissau</territory>
-			<territory type="GY">Guyana</territory>
-			<territory type="HK">Sünnerverwaltensrebeed Hongkong</territory>
-			<territory type="HK" alt="short">Hongkong</territory>
-			<territory type="HM">Heard- un McDonald-Eilannen</territory>
-			<territory type="HN">Honduras</territory>
-			<territory type="HR">Kroatien</territory>
-			<territory type="HT">Haiti</territory>
-			<territory type="HU">Ungarn</territory>
-			<territory type="ID">Indonesien</territory>
-			<territory type="IE">Irland</territory>
-			<territory type="IL">Israel</territory>
-			<territory type="IM">Insel Man</territory>
-			<territory type="IN">Indien</territory>
-			<territory type="IO">Britisch Rebeed in’n Indischen Ozean</territory>
-			<territory type="IQ">Irak</territory>
-			<territory type="IR">Iran</territory>
-			<territory type="IS">Iesland</territory>
-			<territory type="IT">Italien</territory>
-			<territory type="JE">Jersey</territory>
-			<territory type="JM">Jamaika</territory>
-			<territory type="JO">Jordanien</territory>
-			<territory type="JP">Japan</territory>
-			<territory type="KE">Kenia</territory>
-			<territory type="KG">Kirgisistan</territory>
-			<territory type="KH">Kambodscha</territory>
-			<territory type="KI">Kiribati</territory>
-			<territory type="KM">Komoren</territory>
-			<territory type="KN">St. Kitts un Nevis</territory>
-			<territory type="KP">Noordkorea</territory>
-			<territory type="KR">Süüdkorea</territory>
-			<territory type="KW">Kuwait</territory>
-			<territory type="KY">Kaiman-Eilannen</territory>
-			<territory type="KZ">Kasachstan</territory>
-			<territory type="LA">Laos</territory>
-			<territory type="LB">Libanon</territory>
-			<territory type="LC">St. Lucia</territory>
-			<territory type="LI">Liechtensteen</territory>
-			<territory type="LK">Sri Lanka</territory>
-			<territory type="LR">Liberia</territory>
-			<territory type="LS">Lesotho</territory>
-			<territory type="LT">Litauen</territory>
-			<territory type="LU">Luxemborg</territory>
-			<territory type="LV">Lettland</territory>
-			<territory type="LY">Libyen</territory>
-			<territory type="MA">Marokko</territory>
-			<territory type="MC">Monaco</territory>
-			<territory type="MD">Moldawien</territory>
-			<territory type="ME">Montenegro</territory>
-			<territory type="MF">Saint Martin</territory>
-			<territory type="MG">Madagaskar</territory>
-			<territory type="MH">Marshall-Eilannen</territory>
-			<territory type="MK">Makedonien</territory>
-			<territory type="ML">Mali</territory>
-			<territory type="MM">Birma</territory>
-			<territory type="MN">Mongolei</territory>
-			<territory type="MO">Sünnerverwaltensrebeed Macao</territory>
-			<territory type="MO" alt="short">Macao</territory>
-			<territory type="MP">Nöördliche Marianen</territory>
-			<territory type="MQ">Martinique</territory>
-			<territory type="MR">Mauretanien</territory>
-			<territory type="MS">Montserrat</territory>
-			<territory type="MT">Malta</territory>
-			<territory type="MU">Mauritius</territory>
-			<territory type="MV">Malediven</territory>
-			<territory type="MW">Malawi</territory>
-			<territory type="MX">Mexiko</territory>
-			<territory type="MY">Malaysia</territory>
-			<territory type="MZ">Mosambik</territory>
-			<territory type="NA">Namibia</territory>
-			<territory type="NC">Neekaledonien</territory>
-			<territory type="NE">Niger</territory>
-			<territory type="NF">Norfolk</territory>
-			<territory type="NG">Nigeria</territory>
-			<territory type="NI">Nikaragua</territory>
-			<territory type="NL">Nedderlannen</territory>
-			<territory type="NO">Norwegen</territory>
-			<territory type="NP">Nepal</territory>
-			<territory type="NR">Nauru</territory>
-			<territory type="NU">Niue</territory>
-			<territory type="NZ">Neeseeland</territory>
-			<territory type="OM">Oman</territory>
-			<territory type="PA">Panama</territory>
-			<territory type="PE">Peru</territory>
-			<territory type="PF">Franzöösch-Polynesien</territory>
-			<territory type="PG">Papua-Neeguinea</territory>
-			<territory type="PH">Philippinen</territory>
-			<territory type="PK">Pakistan</territory>
-			<territory type="PL">Polen</territory>
-			<territory type="PM">St. Pierre un Miquelon</territory>
-			<territory type="PN">Pitcairn</territory>
-			<territory type="PR">Puerto Rico</territory>
-			<territory type="PS">Palästinensische Rebeden</territory>
-			<territory type="PT">Portugal</territory>
-			<territory type="PW">Palau</territory>
-			<territory type="PY">Paraguay</territory>
-			<territory type="QA">Katar</territory>
-			<territory type="QO">Büter Ozeanien</territory>
-			<territory type="RE">Reunion</territory>
-			<territory type="RO">Rumänien</territory>
-			<territory type="RS">Serbien</territory>
-			<territory type="RU">Russland</territory>
-			<territory type="RW">Ruanda</territory>
-			<territory type="SA">Saudi-Arabien</territory>
-			<territory type="SB">Salomonen</territory>
-			<territory type="SC">Seychellen</territory>
-			<territory type="SD">Sudan</territory>
-			<territory type="SE">Sweden</territory>
-			<territory type="SG">Singapur</territory>
-			<territory type="SH">St. Helena</territory>
-			<territory type="SI">Slowenien</territory>
-			<territory type="SJ">Svalbard un Jan Mayen</territory>
-			<territory type="SK">Slowakei</territory>
-			<territory type="SL">Sierra Leone</territory>
-			<territory type="SM">San Marino</territory>
-			<territory type="SN">Senegal</territory>
-			<territory type="SO">Somalia</territory>
-			<territory type="SR">Surinam</territory>
-			<territory type="ST">São Tomé un Príncipe</territory>
-			<territory type="SV">El Salvador</territory>
-			<territory type="SY">Syrien</territory>
-			<territory type="SZ">Swasiland</territory>
-			<territory type="TC">Turks- un Caicosinseln</territory>
-			<territory type="TD">Tschad</territory>
-			<territory type="TF">Franzöösche Süüd- un Antarktisrebeden</territory>
-			<territory type="TG">Togo</territory>
-			<territory type="TH">Thailand</territory>
-			<territory type="TJ">Tadschikistan</territory>
-			<territory type="TK">Tokelau</territory>
-			<territory type="TL">Oosttimor</territory>
-			<territory type="TM">Turkmenistan</territory>
-			<territory type="TN">Tunesien</territory>
-			<territory type="TO">Tonga</territory>
-			<territory type="TR">Törkie</territory>
-			<territory type="TT">Trinidad un Tobago</territory>
-			<territory type="TV">Tuvalu</territory>
-			<territory type="TW">Taiwan</territory>
-			<territory type="TZ">Tansania</territory>
-			<territory type="UA">Ukraine</territory>
-			<territory type="UG">Uganda</territory>
-			<territory type="UM">Amerikaansch-Ozeanien</territory>
-			<territory type="US">USA</territory>
-			<territory type="UY">Uruguay</territory>
-			<territory type="UZ">Usbekistan</territory>
-			<territory type="VA">Vatikan</territory>
-			<territory type="VC">St. Vincent un de Grenadinen</territory>
-			<territory type="VE">Venezuela</territory>
-			<territory type="VG">Brietsche Jumfern-Eilannen</territory>
-			<territory type="VI">Amerikaansche Jumfern-Eilannen</territory>
-			<territory type="VN">Vietnam</territory>
-			<territory type="VU">Vanuatu</territory>
-			<territory type="WF">Wallis un Futuna</territory>
-			<territory type="WS">Samoa</territory>
-			<territory type="YE">Jemen</territory>
-			<territory type="YT">Mayotte</territory>
-			<territory type="ZA">Süüdafrika</territory>
-			<territory type="ZM">Sambia</territory>
-			<territory type="ZW">Simbabwe</territory>
-			<territory type="ZZ">Unbekannte oder ungüllige Region</territory>
+			<territory type="001" draft="unconfirmed">Welt</territory>
+			<territory type="002" draft="unconfirmed">Afrika</territory>
+			<territory type="003" draft="unconfirmed">Noordamerika</territory>
+			<territory type="005" draft="unconfirmed">Süüdamerika</territory>
+			<territory type="009" draft="unconfirmed">Ozeanien</territory>
+			<territory type="011" draft="unconfirmed">Westafrika</territory>
+			<territory type="013" draft="unconfirmed">Middelamerika</territory>
+			<territory type="014" draft="unconfirmed">Oostafrika</territory>
+			<territory type="015" draft="unconfirmed">Noordafrika</territory>
+			<territory type="017" draft="unconfirmed">Zentralafrika</territory>
+			<territory type="018" draft="unconfirmed">Süüdlich Afrika</territory>
+			<territory type="019" draft="unconfirmed">Amerika</territory>
+			<territory type="029" draft="unconfirmed">Karibik</territory>
+			<territory type="030" draft="unconfirmed">Oostasien</territory>
+			<territory type="034" draft="unconfirmed">Süüdasien</territory>
+			<territory type="035" draft="unconfirmed">Süüdoostasien</territory>
+			<territory type="039" draft="unconfirmed">Süüdeuropa</territory>
+			<territory type="053" draft="unconfirmed">Australien un Neeseeland</territory>
+			<territory type="054" draft="unconfirmed">Melanesien</territory>
+			<territory type="061" draft="unconfirmed">Polynesien</territory>
+			<territory type="062" draft="unconfirmed">Süüd-Zentralasien</territory>
+			<territory type="142" draft="unconfirmed">Asien</territory>
+			<territory type="143" draft="unconfirmed">Zentralasien</territory>
+			<territory type="145" draft="unconfirmed">Westasien</territory>
+			<territory type="150" draft="unconfirmed">Europa</territory>
+			<territory type="151" draft="unconfirmed">Oosteuropa</territory>
+			<territory type="154" draft="unconfirmed">Noordeuropa</territory>
+			<territory type="155" draft="unconfirmed">Westeuropa</territory>
+			<territory type="172" draft="unconfirmed">Gemeenschop vun Unafhängige Staten</territory>
+			<territory type="419" draft="unconfirmed">Latienamerika</territory>
+			<territory type="AD" draft="unconfirmed">Andorra</territory>
+			<territory type="AE" draft="unconfirmed">Vereenigte Araabsche Emiraten</territory>
+			<territory type="AF" draft="unconfirmed">Afghanistan</territory>
+			<territory type="AG" draft="unconfirmed">Antigua un Barbuda</territory>
+			<territory type="AI" draft="unconfirmed">Anguilla</territory>
+			<territory type="AL" draft="unconfirmed">Albanien</territory>
+			<territory type="AM" draft="unconfirmed">Armenien</territory>
+			<territory type="AN" draft="unconfirmed">Nedderlandsche Antillen</territory>
+			<territory type="AO" draft="unconfirmed">Angola</territory>
+			<territory type="AQ" draft="unconfirmed">Antarktis</territory>
+			<territory type="AR" draft="unconfirmed">Argentinien</territory>
+			<territory type="AS" draft="unconfirmed">Amerikaansch-Samoa</territory>
+			<territory type="AT" draft="unconfirmed">Öösterriek</territory>
+			<territory type="AU" draft="unconfirmed">Australien</territory>
+			<territory type="AW" draft="unconfirmed">Aruba</territory>
+			<territory type="AX" draft="unconfirmed">Ålandeilannen</territory>
+			<territory type="AZ" draft="unconfirmed">Aserbaidschan</territory>
+			<territory type="BA" draft="unconfirmed">Bosnien un Herzegowina</territory>
+			<territory type="BB" draft="unconfirmed">Barbados</territory>
+			<territory type="BD" draft="unconfirmed">Bangladesch</territory>
+			<territory type="BE" draft="unconfirmed">Belgien</territory>
+			<territory type="BF" draft="unconfirmed">Burkina Faso</territory>
+			<territory type="BG" draft="unconfirmed">Bulgarien</territory>
+			<territory type="BH" draft="unconfirmed">Bahrain</territory>
+			<territory type="BI" draft="unconfirmed">Burundi</territory>
+			<territory type="BJ" draft="unconfirmed">Benin</territory>
+			<territory type="BL" draft="unconfirmed">Saint Barthélemy</territory>
+			<territory type="BM" draft="unconfirmed">Bermuda</territory>
+			<territory type="BN" draft="unconfirmed">Brunei Darussalam</territory>
+			<territory type="BO" draft="unconfirmed">Bolivien</territory>
+			<territory type="BR" draft="unconfirmed">Brasilien</territory>
+			<territory type="BS" draft="unconfirmed">Bahamas</territory>
+			<territory type="BT" draft="unconfirmed">Bhutan</territory>
+			<territory type="BV" draft="unconfirmed">Bouvet-Eiland</territory>
+			<territory type="BW" draft="unconfirmed">Botswana</territory>
+			<territory type="BY" draft="unconfirmed">Wittrussland</territory>
+			<territory type="BZ" draft="unconfirmed">Belize</territory>
+			<territory type="CA" draft="unconfirmed">Kanada</territory>
+			<territory type="CC" draft="unconfirmed">Kokos-Eilannen</territory>
+			<territory type="CD" draft="unconfirmed">Demokraatsche Republik Kongo</territory>
+			<territory type="CF" draft="unconfirmed">Zentralafrikaansche Republik</territory>
+			<territory type="CG" draft="unconfirmed">Republik Kongo</territory>
+			<territory type="CH" draft="unconfirmed">Swiez</territory>
+			<territory type="CI" draft="unconfirmed">Elfenbeenküst</territory>
+			<territory type="CK" draft="unconfirmed">Cook-Eilannen</territory>
+			<territory type="CL" draft="unconfirmed">Chile</territory>
+			<territory type="CM" draft="unconfirmed">Kamerun</territory>
+			<territory type="CN" draft="unconfirmed">China</territory>
+			<territory type="CO" draft="unconfirmed">Kolumbien</territory>
+			<territory type="CR" draft="unconfirmed">Costa Rica</territory>
+			<territory type="CU" draft="unconfirmed">Kuba</territory>
+			<territory type="CV" draft="unconfirmed">Kap Verde</territory>
+			<territory type="CX" draft="unconfirmed">Wiehnachtseiland</territory>
+			<territory type="CY" draft="unconfirmed">Zypern</territory>
+			<territory type="CZ" draft="unconfirmed">Tschechien</territory>
+			<territory type="DE" draft="unconfirmed">Düütschland</territory>
+			<territory type="DJ" draft="unconfirmed">Dschibuti</territory>
+			<territory type="DK" draft="unconfirmed">Däänmark</territory>
+			<territory type="DM" draft="unconfirmed">Dominica</territory>
+			<territory type="DO" draft="unconfirmed">Dominikaansche Republik</territory>
+			<territory type="DZ" draft="unconfirmed">Algerien</territory>
+			<territory type="EC" draft="unconfirmed">Ecuador</territory>
+			<territory type="EE" draft="unconfirmed">Eestland</territory>
+			<territory type="EG" draft="unconfirmed">Ägypten</territory>
+			<territory type="EH" draft="unconfirmed">Westsahara</territory>
+			<territory type="ER" draft="unconfirmed">Eritrea</territory>
+			<territory type="ES" draft="unconfirmed">Spanien</territory>
+			<territory type="ET" draft="unconfirmed">Äthiopien</territory>
+			<territory type="EU" draft="unconfirmed">Europääsche Union</territory>
+			<territory type="FI" draft="unconfirmed">Finnland</territory>
+			<territory type="FJ" draft="unconfirmed">Fidschi</territory>
+			<territory type="FK" draft="unconfirmed">Falkland-Eilannen</territory>
+			<territory type="FM" draft="unconfirmed">Mikronesien</territory>
+			<territory type="FO" draft="unconfirmed">Färöer</territory>
+			<territory type="FR" draft="unconfirmed">Frankriek</territory>
+			<territory type="GA" draft="unconfirmed">Gabun</territory>
+			<territory type="GB" draft="unconfirmed">Vereenigt Königriek</territory>
+			<territory type="GD" draft="unconfirmed">Grenada</territory>
+			<territory type="GE" draft="unconfirmed">Georgien</territory>
+			<territory type="GF" draft="unconfirmed">Franzöösch-Guayana</territory>
+			<territory type="GG" draft="unconfirmed">Guernsey</territory>
+			<territory type="GH" draft="unconfirmed">Ghana</territory>
+			<territory type="GI" draft="unconfirmed">Gibraltar</territory>
+			<territory type="GL" draft="unconfirmed">Gröönland</territory>
+			<territory type="GM" draft="unconfirmed">Gambia</territory>
+			<territory type="GN" draft="unconfirmed">Guinea</territory>
+			<territory type="GP" draft="unconfirmed">Guadeloupe</territory>
+			<territory type="GQ" draft="unconfirmed">Äquatorialguinea</territory>
+			<territory type="GR" draft="unconfirmed">Grekenland</territory>
+			<territory type="GS" draft="unconfirmed">Süüdgeorgien un de Südlichen Sandwich-Eilannen</territory>
+			<territory type="GT" draft="unconfirmed">Guatemala</territory>
+			<territory type="GU" draft="unconfirmed">Guam</territory>
+			<territory type="GW" draft="unconfirmed">Guinea-Bissau</territory>
+			<territory type="GY" draft="unconfirmed">Guyana</territory>
+			<territory type="HK" draft="unconfirmed">Sünnerverwaltensrebeed Hongkong</territory>
+			<territory type="HK" alt="short" draft="unconfirmed">Hongkong</territory>
+			<territory type="HM" draft="unconfirmed">Heard- un McDonald-Eilannen</territory>
+			<territory type="HN" draft="unconfirmed">Honduras</territory>
+			<territory type="HR" draft="unconfirmed">Kroatien</territory>
+			<territory type="HT" draft="unconfirmed">Haiti</territory>
+			<territory type="HU" draft="unconfirmed">Ungarn</territory>
+			<territory type="ID" draft="unconfirmed">Indonesien</territory>
+			<territory type="IE" draft="unconfirmed">Irland</territory>
+			<territory type="IL" draft="unconfirmed">Israel</territory>
+			<territory type="IM" draft="unconfirmed">Insel Man</territory>
+			<territory type="IN" draft="unconfirmed">Indien</territory>
+			<territory type="IO" draft="unconfirmed">Britisch Rebeed in’n Indischen Ozean</territory>
+			<territory type="IQ" draft="unconfirmed">Irak</territory>
+			<territory type="IR" draft="unconfirmed">Iran</territory>
+			<territory type="IS" draft="unconfirmed">Iesland</territory>
+			<territory type="IT" draft="unconfirmed">Italien</territory>
+			<territory type="JE" draft="unconfirmed">Jersey</territory>
+			<territory type="JM" draft="unconfirmed">Jamaika</territory>
+			<territory type="JO" draft="unconfirmed">Jordanien</territory>
+			<territory type="JP" draft="unconfirmed">Japan</territory>
+			<territory type="KE" draft="unconfirmed">Kenia</territory>
+			<territory type="KG" draft="unconfirmed">Kirgisistan</territory>
+			<territory type="KH" draft="unconfirmed">Kambodscha</territory>
+			<territory type="KI" draft="unconfirmed">Kiribati</territory>
+			<territory type="KM" draft="unconfirmed">Komoren</territory>
+			<territory type="KN" draft="unconfirmed">St. Kitts un Nevis</territory>
+			<territory type="KP" draft="unconfirmed">Noordkorea</territory>
+			<territory type="KR" draft="unconfirmed">Süüdkorea</territory>
+			<territory type="KW" draft="unconfirmed">Kuwait</territory>
+			<territory type="KY" draft="unconfirmed">Kaiman-Eilannen</territory>
+			<territory type="KZ" draft="unconfirmed">Kasachstan</territory>
+			<territory type="LA" draft="unconfirmed">Laos</territory>
+			<territory type="LB" draft="unconfirmed">Libanon</territory>
+			<territory type="LC" draft="unconfirmed">St. Lucia</territory>
+			<territory type="LI" draft="unconfirmed">Liechtensteen</territory>
+			<territory type="LK" draft="unconfirmed">Sri Lanka</territory>
+			<territory type="LR" draft="unconfirmed">Liberia</territory>
+			<territory type="LS" draft="unconfirmed">Lesotho</territory>
+			<territory type="LT" draft="unconfirmed">Litauen</territory>
+			<territory type="LU" draft="unconfirmed">Luxemborg</territory>
+			<territory type="LV" draft="unconfirmed">Lettland</territory>
+			<territory type="LY" draft="unconfirmed">Libyen</territory>
+			<territory type="MA" draft="unconfirmed">Marokko</territory>
+			<territory type="MC" draft="unconfirmed">Monaco</territory>
+			<territory type="MD" draft="unconfirmed">Moldawien</territory>
+			<territory type="ME" draft="unconfirmed">Montenegro</territory>
+			<territory type="MF" draft="unconfirmed">Saint Martin</territory>
+			<territory type="MG" draft="unconfirmed">Madagaskar</territory>
+			<territory type="MH" draft="unconfirmed">Marshall-Eilannen</territory>
+			<territory type="MK" draft="unconfirmed">Makedonien</territory>
+			<territory type="ML" draft="unconfirmed">Mali</territory>
+			<territory type="MM" draft="unconfirmed">Birma</territory>
+			<territory type="MN" draft="unconfirmed">Mongolei</territory>
+			<territory type="MO" draft="unconfirmed">Sünnerverwaltensrebeed Macao</territory>
+			<territory type="MO" alt="short" draft="unconfirmed">Macao</territory>
+			<territory type="MP" draft="unconfirmed">Nöördliche Marianen</territory>
+			<territory type="MQ" draft="unconfirmed">Martinique</territory>
+			<territory type="MR" draft="unconfirmed">Mauretanien</territory>
+			<territory type="MS" draft="unconfirmed">Montserrat</territory>
+			<territory type="MT" draft="unconfirmed">Malta</territory>
+			<territory type="MU" draft="unconfirmed">Mauritius</territory>
+			<territory type="MV" draft="unconfirmed">Malediven</territory>
+			<territory type="MW" draft="unconfirmed">Malawi</territory>
+			<territory type="MX" draft="unconfirmed">Mexiko</territory>
+			<territory type="MY" draft="unconfirmed">Malaysia</territory>
+			<territory type="MZ" draft="unconfirmed">Mosambik</territory>
+			<territory type="NA" draft="unconfirmed">Namibia</territory>
+			<territory type="NC" draft="unconfirmed">Neekaledonien</territory>
+			<territory type="NE" draft="unconfirmed">Niger</territory>
+			<territory type="NF" draft="unconfirmed">Norfolk</territory>
+			<territory type="NG" draft="unconfirmed">Nigeria</territory>
+			<territory type="NI" draft="unconfirmed">Nikaragua</territory>
+			<territory type="NL" draft="unconfirmed">Nedderlannen</territory>
+			<territory type="NO" draft="unconfirmed">Norwegen</territory>
+			<territory type="NP" draft="unconfirmed">Nepal</territory>
+			<territory type="NR" draft="unconfirmed">Nauru</territory>
+			<territory type="NU" draft="unconfirmed">Niue</territory>
+			<territory type="NZ" draft="unconfirmed">Neeseeland</territory>
+			<territory type="OM" draft="unconfirmed">Oman</territory>
+			<territory type="PA" draft="unconfirmed">Panama</territory>
+			<territory type="PE" draft="unconfirmed">Peru</territory>
+			<territory type="PF" draft="unconfirmed">Franzöösch-Polynesien</territory>
+			<territory type="PG" draft="unconfirmed">Papua-Neeguinea</territory>
+			<territory type="PH" draft="unconfirmed">Philippinen</territory>
+			<territory type="PK" draft="unconfirmed">Pakistan</territory>
+			<territory type="PL" draft="unconfirmed">Polen</territory>
+			<territory type="PM" draft="unconfirmed">St. Pierre un Miquelon</territory>
+			<territory type="PN" draft="unconfirmed">Pitcairn</territory>
+			<territory type="PR" draft="unconfirmed">Puerto Rico</territory>
+			<territory type="PS" draft="unconfirmed">Palästinensische Rebeden</territory>
+			<territory type="PT" draft="unconfirmed">Portugal</territory>
+			<territory type="PW" draft="unconfirmed">Palau</territory>
+			<territory type="PY" draft="unconfirmed">Paraguay</territory>
+			<territory type="QA" draft="unconfirmed">Katar</territory>
+			<territory type="QO" draft="unconfirmed">Büter Ozeanien</territory>
+			<territory type="RE" draft="unconfirmed">Reunion</territory>
+			<territory type="RO" draft="unconfirmed">Rumänien</territory>
+			<territory type="RS" draft="unconfirmed">Serbien</territory>
+			<territory type="RU" draft="unconfirmed">Russland</territory>
+			<territory type="RW" draft="unconfirmed">Ruanda</territory>
+			<territory type="SA" draft="unconfirmed">Saudi-Arabien</territory>
+			<territory type="SB" draft="unconfirmed">Salomonen</territory>
+			<territory type="SC" draft="unconfirmed">Seychellen</territory>
+			<territory type="SD" draft="unconfirmed">Sudan</territory>
+			<territory type="SE" draft="unconfirmed">Sweden</territory>
+			<territory type="SG" draft="unconfirmed">Singapur</territory>
+			<territory type="SH" draft="unconfirmed">St. Helena</territory>
+			<territory type="SI" draft="unconfirmed">Slowenien</territory>
+			<territory type="SJ" draft="unconfirmed">Svalbard un Jan Mayen</territory>
+			<territory type="SK" draft="unconfirmed">Slowakei</territory>
+			<territory type="SL" draft="unconfirmed">Sierra Leone</territory>
+			<territory type="SM" draft="unconfirmed">San Marino</territory>
+			<territory type="SN" draft="unconfirmed">Senegal</territory>
+			<territory type="SO" draft="unconfirmed">Somalia</territory>
+			<territory type="SR" draft="unconfirmed">Surinam</territory>
+			<territory type="ST" draft="unconfirmed">São Tomé un Príncipe</territory>
+			<territory type="SV" draft="unconfirmed">El Salvador</territory>
+			<territory type="SY" draft="unconfirmed">Syrien</territory>
+			<territory type="SZ" draft="unconfirmed">Swasiland</territory>
+			<territory type="TC" draft="unconfirmed">Turks- un Caicosinseln</territory>
+			<territory type="TD" draft="unconfirmed">Tschad</territory>
+			<territory type="TF" draft="unconfirmed">Franzöösche Süüd- un Antarktisrebeden</territory>
+			<territory type="TG" draft="unconfirmed">Togo</territory>
+			<territory type="TH" draft="unconfirmed">Thailand</territory>
+			<territory type="TJ" draft="unconfirmed">Tadschikistan</territory>
+			<territory type="TK" draft="unconfirmed">Tokelau</territory>
+			<territory type="TL" draft="unconfirmed">Oosttimor</territory>
+			<territory type="TM" draft="unconfirmed">Turkmenistan</territory>
+			<territory type="TN" draft="unconfirmed">Tunesien</territory>
+			<territory type="TO" draft="unconfirmed">Tonga</territory>
+			<territory type="TR" draft="unconfirmed">Törkie</territory>
+			<territory type="TT" draft="unconfirmed">Trinidad un Tobago</territory>
+			<territory type="TV" draft="unconfirmed">Tuvalu</territory>
+			<territory type="TW" draft="unconfirmed">Taiwan</territory>
+			<territory type="TZ" draft="unconfirmed">Tansania</territory>
+			<territory type="UA" draft="unconfirmed">Ukraine</territory>
+			<territory type="UG" draft="unconfirmed">Uganda</territory>
+			<territory type="UM" draft="unconfirmed">Amerikaansch-Ozeanien</territory>
+			<territory type="US" draft="unconfirmed">USA</territory>
+			<territory type="UY" draft="unconfirmed">Uruguay</territory>
+			<territory type="UZ" draft="unconfirmed">Usbekistan</territory>
+			<territory type="VA" draft="unconfirmed">Vatikan</territory>
+			<territory type="VC" draft="unconfirmed">St. Vincent un de Grenadinen</territory>
+			<territory type="VE" draft="unconfirmed">Venezuela</territory>
+			<territory type="VG" draft="unconfirmed">Brietsche Jumfern-Eilannen</territory>
+			<territory type="VI" draft="unconfirmed">Amerikaansche Jumfern-Eilannen</territory>
+			<territory type="VN" draft="unconfirmed">Vietnam</territory>
+			<territory type="VU" draft="unconfirmed">Vanuatu</territory>
+			<territory type="WF" draft="unconfirmed">Wallis un Futuna</territory>
+			<territory type="WS" draft="unconfirmed">Samoa</territory>
+			<territory type="YE" draft="unconfirmed">Jemen</territory>
+			<territory type="YT" draft="unconfirmed">Mayotte</territory>
+			<territory type="ZA" draft="unconfirmed">Süüdafrika</territory>
+			<territory type="ZM" draft="unconfirmed">Sambia</territory>
+			<territory type="ZW" draft="unconfirmed">Simbabwe</territory>
+			<territory type="ZZ" draft="unconfirmed">Unbekannte oder ungüllige Region</territory>
 		</territories>
 		<variants>
-			<variant type="1901">Ole düütsche Rechtschrievung</variant>
-			<variant type="1994">Standardiseert Resiaansch Rechtschrievung</variant>
-			<variant type="1996">Ne’e düütsche Rechtschrievung</variant>
-			<variant type="1606NICT">Laat Middelfranzöösch bet 1606</variant>
-			<variant type="1694ACAD">Fröh Neefranzöösch</variant>
-			<variant type="AREVELA">Oostarmeensch</variant>
-			<variant type="AREVMDA">Westarmeensch</variant>
-			<variant type="BAKU1926">Vereenheitlicht Törksch Latienalphabet</variant>
-			<variant type="BISKE">San Giorgio-/Bila-Dialekt</variant>
-			<variant type="BOONT">Boontling</variant>
-			<variant type="FONIPA">Phoneetsch (IPA)</variant>
-			<variant type="FONUPA">Phoneetsch (UPA)</variant>
-			<variant type="LIPAW">Lipovaz-Dialekt vun dat Resiaansche</variant>
-			<variant type="MONOTON">Monotoonsch</variant>
-			<variant type="NEDIS">Natisone-Dialekt</variant>
-			<variant type="NJIVA">Gniva-/Njiva-Dialekt</variant>
-			<variant type="OSOJS">Oseacco-/Osojane-Dialekt</variant>
-			<variant type="POLYTON">Polytoonsch</variant>
-			<variant type="POSIX">Computer</variant>
-			<variant type="REVISED">Överarbeidt Rechtschrievung</variant>
-			<variant type="ROZAJ">Resiaansch</variant>
-			<variant type="SAAHO">Saho</variant>
-			<variant type="SCOTLAND">Schottsch Standard-Engelsch</variant>
-			<variant type="SCOUSE">Scouse</variant>
-			<variant type="SOLBA">Stolvizza-/Solbica-Dialekt</variant>
-			<variant type="TARASK">Taraskievica-Rechtschrievung</variant>
-			<variant type="VALENCIA">Valenziaansch</variant>
+			<variant type="1901" draft="unconfirmed">Ole düütsche Rechtschrievung</variant>
+			<variant type="1994" draft="unconfirmed">Standardiseert Resiaansch Rechtschrievung</variant>
+			<variant type="1996" draft="unconfirmed">Ne’e düütsche Rechtschrievung</variant>
+			<variant type="1606NICT" draft="unconfirmed">Laat Middelfranzöösch bet 1606</variant>
+			<variant type="1694ACAD" draft="unconfirmed">Fröh Neefranzöösch</variant>
+			<variant type="AREVELA" draft="unconfirmed">Oostarmeensch</variant>
+			<variant type="AREVMDA" draft="unconfirmed">Westarmeensch</variant>
+			<variant type="BAKU1926" draft="unconfirmed">Vereenheitlicht Törksch Latienalphabet</variant>
+			<variant type="BISKE" draft="unconfirmed">San Giorgio-/Bila-Dialekt</variant>
+			<variant type="BOONT" draft="unconfirmed">Boontling</variant>
+			<variant type="FONIPA" draft="unconfirmed">Phoneetsch (IPA)</variant>
+			<variant type="FONUPA" draft="unconfirmed">Phoneetsch (UPA)</variant>
+			<variant type="LIPAW" draft="unconfirmed">Lipovaz-Dialekt vun dat Resiaansche</variant>
+			<variant type="MONOTON" draft="unconfirmed">Monotoonsch</variant>
+			<variant type="NEDIS" draft="unconfirmed">Natisone-Dialekt</variant>
+			<variant type="NJIVA" draft="unconfirmed">Gniva-/Njiva-Dialekt</variant>
+			<variant type="OSOJS" draft="unconfirmed">Oseacco-/Osojane-Dialekt</variant>
+			<variant type="POLYTON" draft="unconfirmed">Polytoonsch</variant>
+			<variant type="POSIX" draft="unconfirmed">Computer</variant>
+			<variant type="REVISED" draft="unconfirmed">Överarbeidt Rechtschrievung</variant>
+			<variant type="ROZAJ" draft="unconfirmed">Resiaansch</variant>
+			<variant type="SAAHO" draft="unconfirmed">Saho</variant>
+			<variant type="SCOTLAND" draft="unconfirmed">Schottsch Standard-Engelsch</variant>
+			<variant type="SCOUSE" draft="unconfirmed">Scouse</variant>
+			<variant type="SOLBA" draft="unconfirmed">Stolvizza-/Solbica-Dialekt</variant>
+			<variant type="TARASK" draft="unconfirmed">Taraskievica-Rechtschrievung</variant>
+			<variant type="VALENCIA" draft="unconfirmed">Valenziaansch</variant>
 		</variants>
 		<keys>
-			<key type="calendar">Klenner</key>
-			<key type="collation">Bookstaven-Folgreeg</key>
-			<key type="currency">Geldteken</key>
+			<key type="calendar" draft="unconfirmed">Klenner</key>
+			<key type="collation" draft="unconfirmed">Bookstaven-Folgreeg</key>
+			<key type="currency" draft="unconfirmed">Geldteken</key>
 		</keys>
 		<types>
-			<type type="big5han" key="collation">Traditschonell Chineesch Sorteerregeln - Big5</type>
-			<type type="buddhist" key="calendar">Buddhistisch Klenner</type>
-			<type type="chinese" key="calendar">Chineesch Klenner</type>
-			<type type="direct" key="collation">Direkte Sorteerregeln</type>
-			<type type="gb2312han" key="collation">Vereenfacht Chineesch Sorteerregeln - GB2312</type>
-			<type type="gregorian" key="calendar">Gregoriaansch Klenner</type>
-			<type type="hebrew" key="calendar">Hebrääsch Klenner</type>
-			<type type="indian" key="calendar">Indsch Nationalklenner</type>
-			<type type="islamic" key="calendar">Islaamsch Klenner</type>
-			<type type="islamic-civil" key="calendar">Islaamsch Zivilklenner</type>
-			<type type="japanese" key="calendar">Japaansch Klenner</type>
-			<type type="phonebook" key="collation">Telefonbook-Sorteerregeln</type>
-			<type type="pinyin" key="collation">Pinyin-Sorteerregeln</type>
-			<type type="roc" key="calendar">Klenner vun de Republik China</type>
-			<type type="stroke" key="collation">Streekfolg</type>
-			<type type="traditional" key="collation">Traditschonelle Sorteerregeln</type>
+			<type type="big5han" key="collation" draft="unconfirmed">Traditschonell Chineesch Sorteerregeln - Big5</type>
+			<type type="buddhist" key="calendar" draft="unconfirmed">Buddhistisch Klenner</type>
+			<type type="chinese" key="calendar" draft="unconfirmed">Chineesch Klenner</type>
+			<type type="direct" key="collation" draft="unconfirmed">Direkte Sorteerregeln</type>
+			<type type="gb2312han" key="collation" draft="unconfirmed">Vereenfacht Chineesch Sorteerregeln - GB2312</type>
+			<type type="gregorian" key="calendar" draft="unconfirmed">Gregoriaansch Klenner</type>
+			<type type="hebrew" key="calendar" draft="unconfirmed">Hebrääsch Klenner</type>
+			<type type="indian" key="calendar" draft="unconfirmed">Indsch Nationalklenner</type>
+			<type type="islamic" key="calendar" draft="unconfirmed">Islaamsch Klenner</type>
+			<type type="islamic-civil" key="calendar" draft="unconfirmed">Islaamsch Zivilklenner</type>
+			<type type="japanese" key="calendar" draft="unconfirmed">Japaansch Klenner</type>
+			<type type="phonebook" key="collation" draft="unconfirmed">Telefonbook-Sorteerregeln</type>
+			<type type="pinyin" key="collation" draft="unconfirmed">Pinyin-Sorteerregeln</type>
+			<type type="roc" key="calendar" draft="unconfirmed">Klenner vun de Republik China</type>
+			<type type="stroke" key="collation" draft="unconfirmed">Streekfolg</type>
+			<type type="traditional" key="collation" draft="unconfirmed">Traditschonelle Sorteerregeln</type>
 		</types>
 		<measurementSystemNames>
-			<measurementSystemName type="metric">Metrisch</measurementSystemName>
-			<measurementSystemName type="US">US-amerikaansch</measurementSystemName>
+			<measurementSystemName type="metric" draft="unconfirmed">Metrisch</measurementSystemName>
+			<measurementSystemName type="US" draft="unconfirmed">US-amerikaansch</measurementSystemName>
 		</measurementSystemNames>
 		<codePatterns>
-			<codePattern type="language">Spraak: {0}</codePattern>
-			<codePattern type="script">Schrift: {0}</codePattern>
-			<codePattern type="territory">Region: {0}</codePattern>
+			<codePattern type="language" draft="unconfirmed">Spraak: {0}</codePattern>
+			<codePattern type="script" draft="unconfirmed">Schrift: {0}</codePattern>
+			<codePattern type="territory" draft="unconfirmed">Region: {0}</codePattern>
 		</codePatterns>
 	</localeDisplayNames>
 	<characters>
-		<exemplarCharacters>[a å ä b c d e f g h i j k l m n o ö p q r s t u ü v w x y z]</exemplarCharacters>
-		<exemplarCharacters type="auxiliary">[á à ă â ā æ ç é è ĕ ê ë ę ē í ì ĭ î ï ī ñ ó ò ŏ ô ø ō œ ú ù ŭ û ū ÿ]</exemplarCharacters>
-		<exemplarCharacters type="index">[A B C D E F G H I J K L M N O P Q R S ẞ T U V W X Y Z]</exemplarCharacters>
+		<exemplarCharacters draft="unconfirmed">[a å ä b c d e f g h i j k l m n o ö p q r s t u ü v w x y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[á à ă â ā æ ç é è ĕ ê ë ę ē í ì ĭ î ï ī ñ ó ò ŏ ô ø ō œ ú ù ŭ û ū ÿ]</exemplarCharacters>
+		<exemplarCharacters type="index" draft="unconfirmed">[A B C D E F G H I J K L M N O P Q R S ẞ T U V W X Y Z]</exemplarCharacters>
 	</characters>
 	<delimiters>
-		<quotationStart>„</quotationStart>
-		<quotationEnd>“</quotationEnd>
-		<alternateQuotationStart>‚</alternateQuotationStart>
-		<alternateQuotationEnd>‘</alternateQuotationEnd>
+		<quotationStart draft="unconfirmed">„</quotationStart>
+		<quotationEnd draft="unconfirmed">“</quotationEnd>
+		<alternateQuotationStart draft="unconfirmed">‚</alternateQuotationStart>
+		<alternateQuotationEnd draft="unconfirmed">‘</alternateQuotationEnd>
 	</delimiters>
 	<dates>
 		<timeZoneNames>
-			<fallbackFormat>{1} ({0})</fallbackFormat>
+			<fallbackFormat draft="unconfirmed">{1} ({0})</fallbackFormat>
 			<zone type="Etc/Unknown">
-				<exemplarCity>Unbekannt</exemplarCity>
+				<exemplarCity draft="unconfirmed">Unbekannt</exemplarCity>
 			</zone>
 			<zone type="Antarctica/South_Pole">
-				<exemplarCity>Süüdpool</exemplarCity>
+				<exemplarCity draft="unconfirmed">Süüdpool</exemplarCity>
 			</zone>
 			<zone type="Antarctica/Vostok">
-				<exemplarCity>Wostok</exemplarCity>
+				<exemplarCity draft="unconfirmed">Wostok</exemplarCity>
 			</zone>
 			<zone type="Antarctica/DumontDUrville">
-				<exemplarCity>Dumont d’Urville</exemplarCity>
+				<exemplarCity draft="unconfirmed">Dumont d’Urville</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Canary">
-				<exemplarCity>Kanaren</exemplarCity>
+				<exemplarCity draft="unconfirmed">Kanaren</exemplarCity>
 			</zone>
 			<zone type="Asia/Ulaanbaatar">
-				<exemplarCity>Ulanbator</exemplarCity>
+				<exemplarCity draft="unconfirmed">Ulanbator</exemplarCity>
 			</zone>
 			<zone type="America/Mexico_City">
-				<exemplarCity>Mexiko-Stadt</exemplarCity>
+				<exemplarCity draft="unconfirmed">Mexiko-Stadt</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Azores">
-				<exemplarCity>Azoren</exemplarCity>
+				<exemplarCity draft="unconfirmed">Azoren</exemplarCity>
 			</zone>
 			<zone type="Europe/Moscow">
-				<exemplarCity>Moskau</exemplarCity>
+				<exemplarCity draft="unconfirmed">Moskau</exemplarCity>
 			</zone>
 			<zone type="Europe/Volgograd">
-				<exemplarCity>Wolgograd</exemplarCity>
+				<exemplarCity draft="unconfirmed">Wolgograd</exemplarCity>
 			</zone>
 			<zone type="Asia/Yekaterinburg">
-				<exemplarCity>Jekaterinborg</exemplarCity>
+				<exemplarCity draft="unconfirmed">Jekaterinborg</exemplarCity>
 			</zone>
 			<zone type="Asia/Novosibirsk">
-				<exemplarCity>Nowosibirsk</exemplarCity>
+				<exemplarCity draft="unconfirmed">Nowosibirsk</exemplarCity>
 			</zone>
 			<zone type="Asia/Krasnoyarsk">
-				<exemplarCity>Krasnojarsk</exemplarCity>
+				<exemplarCity draft="unconfirmed">Krasnojarsk</exemplarCity>
 			</zone>
 			<zone type="Asia/Yakutsk">
-				<exemplarCity>Jakutsk</exemplarCity>
+				<exemplarCity draft="unconfirmed">Jakutsk</exemplarCity>
 			</zone>
 			<zone type="Asia/Vladivostok">
-				<exemplarCity>Wladiwostok</exemplarCity>
+				<exemplarCity draft="unconfirmed">Wladiwostok</exemplarCity>
 			</zone>
 			<zone type="Asia/Sakhalin">
-				<exemplarCity>Sachalin</exemplarCity>
+				<exemplarCity draft="unconfirmed">Sachalin</exemplarCity>
 			</zone>
 			<zone type="Asia/Kamchatka">
-				<exemplarCity>Kamschatka</exemplarCity>
+				<exemplarCity draft="unconfirmed">Kamschatka</exemplarCity>
 			</zone>
 			<zone type="Europe/Uzhgorod">
-				<exemplarCity>Uschgorod</exemplarCity>
+				<exemplarCity draft="unconfirmed">Uschgorod</exemplarCity>
 			</zone>
 			<zone type="Europe/Zaporozhye">
-				<exemplarCity>Saporoschje</exemplarCity>
+				<exemplarCity draft="unconfirmed">Saporoschje</exemplarCity>
 			</zone>
 			<zone type="America/North_Dakota/New_Salem">
-				<exemplarCity>New Salem, Noord-Dakota</exemplarCity>
+				<exemplarCity draft="unconfirmed">New Salem, Noord-Dakota</exemplarCity>
 			</zone>
 			<zone type="America/North_Dakota/Center">
-				<exemplarCity>Center, Noord-Dakota</exemplarCity>
+				<exemplarCity draft="unconfirmed">Center, Noord-Dakota</exemplarCity>
 			</zone>
 		</timeZoneNames>
 	</dates>
 	<numbers>
-		<symbols>
-			<decimal>,</decimal>
-			<group>.</group>
-			<list>;</list>
-			<percentSign>%</percentSign>
-			<nativeZeroDigit>0</nativeZeroDigit>
-			<patternDigit>#</patternDigit>
-			<plusSign>+</plusSign>
-			<minusSign>-</minusSign>
-			<exponential>E</exponential>
-			<perMille>‰</perMille>
-			<infinity>∞</infinity>
-			<nan>NaN</nan>
+		<symbols numberSystem="latn">
+			<decimal draft="unconfirmed">,</decimal>
+			<group draft="unconfirmed">.</group>
+			<list draft="unconfirmed">;</list>
+			<percentSign draft="unconfirmed">%</percentSign>
+			<plusSign draft="unconfirmed">+</plusSign>
+			<minusSign draft="unconfirmed">-</minusSign>
+			<exponential draft="unconfirmed">E</exponential>
+			<perMille draft="unconfirmed">‰</perMille>
+			<infinity draft="unconfirmed">∞</infinity>
+			<nan draft="unconfirmed">NaN</nan>
 		</symbols>
 		<decimalFormats>
 			<decimalFormatLength>
 				<decimalFormat>
-					<pattern>#,##0.###</pattern>
+					<pattern draft="unconfirmed">#,##0.###</pattern>
 				</decimalFormat>
 			</decimalFormatLength>
 		</decimalFormats>
 		<scientificFormats>
 			<scientificFormatLength>
 				<scientificFormat>
-					<pattern>#E0</pattern>
+					<pattern draft="unconfirmed">#E0</pattern>
 				</scientificFormat>
 			</scientificFormatLength>
 		</scientificFormats>
 		<percentFormats>
 			<percentFormatLength>
 				<percentFormat>
-					<pattern>#,##0 %</pattern>
+					<pattern draft="unconfirmed">#,##0 %</pattern>
 				</percentFormat>
 			</percentFormatLength>
 		</percentFormats>
 		<currencyFormats>
 			<currencyFormatLength>
 				<currencyFormat>
-					<pattern>#,##0.00 ¤</pattern>
+					<pattern draft="unconfirmed">#,##0.00 ¤</pattern>
 				</currencyFormat>
 			</currencyFormatLength>
-			<unitPattern count="other">{0} {1}</unitPattern>
+			<unitPattern count="other" draft="unconfirmed">{0} {1}</unitPattern>
 		</currencyFormats>
 	</numbers>
 	<units>
 		<unit type="day">
-			<unitPattern count="other">{0} Daag</unitPattern>
+			<unitPattern count="other" draft="unconfirmed">{0} Daag</unitPattern>
 		</unit>
 		<unit type="hour">
-			<unitPattern count="other">{0} Stünnen</unitPattern>
+			<unitPattern count="other" draft="unconfirmed">{0} Stünnen</unitPattern>
 		</unit>
 		<unit type="minute">
-			<unitPattern count="other">{0} Minuten</unitPattern>
+			<unitPattern count="other" draft="unconfirmed">{0} Minuten</unitPattern>
 		</unit>
 		<unit type="month">
-			<unitPattern count="other">{0} Maanden</unitPattern>
+			<unitPattern count="other" draft="unconfirmed">{0} Maanden</unitPattern>
 		</unit>
 		<unit type="second">
-			<unitPattern count="other">{0} Sekunnen</unitPattern>
+			<unitPattern count="other" draft="unconfirmed">{0} Sekunnen</unitPattern>
 		</unit>
 		<unit type="week">
-			<unitPattern count="other">{0} Weken</unitPattern>
+			<unitPattern count="other" draft="unconfirmed">{0} Weken</unitPattern>
 		</unit>
 		<unit type="year">
-			<unitPattern count="other">{0} Johren</unitPattern>
+			<unitPattern count="other" draft="unconfirmed">{0} Johren</unitPattern>
 		</unit>
 	</units>
 	<posix>
 		<messages>
-			<yesstr>jo:j</yesstr>
-			<nostr>nee:n</nostr>
+			<yesstr draft="unconfirmed">jo:j</yesstr>
+			<nostr draft="unconfirmed">nee:n</nostr>
 		</messages>
 	</posix>
 </ldml>
-

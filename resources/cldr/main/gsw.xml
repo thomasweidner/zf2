@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 5094 $"/>
-		<generation date="$Date: 2010-10-13 11:33:36 -0500 (Wed, 13 Oct 2010) $"/>
+		<version number="$Revision: 5968 $"/>
+		<generation date="$Date: 2011-07-05 15:52:21 -0500 (Tue, 05 Jul 2011) $"/>
 		<language type="gsw"/>
 	</identity>
 	<fallback>de_CH</fallback>
@@ -41,7 +41,7 @@
 			<language type="art">Künschtlichi Schpraach</language>
 			<language type="arw">Arawak</language>
 			<language type="as">Assamesisch</language>
-			<language type="asa">Asu (Tanzania)</language>
+			<language type="asa" draft="unconfirmed">Asu (Tanzania)</language>
 			<language type="ast">Aschturianisch</language>
 			<language type="ath">Athapaskischi Schpraach</language>
 			<language type="aus">Auschtralischi Schpraach</language>
@@ -60,7 +60,7 @@
 			<language type="bej">Bedauye</language>
 			<language type="bem">Bemba</language>
 			<language type="ber">Bärberisch</language>
-			<language type="bez">Bena (Tanzania)</language>
+			<language type="bez" draft="unconfirmed">Bena (Tanzania)</language>
 			<language type="bg">Bulgaarisch</language>
 			<language type="bh">Bihaarisch</language>
 			<language type="bho">Bhodschpuri</language>
@@ -241,7 +241,7 @@
 			<language type="kaw">Kawi</language>
 			<language type="kbd">Kabardinisch</language>
 			<language type="kcg">Tyap</language>
-			<language type="kea">Kabuverdianu</language>
+			<language type="kea" draft="unconfirmed">Kabuverdianu</language>
 			<language type="kfo">Koro</language>
 			<language type="kg">Kongolesisch</language>
 			<language type="kha">Khasisch</language>
@@ -289,7 +289,7 @@
 			<language type="lun">Lunda-Schpraach</language>
 			<language type="luo">Luo-Schpraach</language>
 			<language type="lus">Lushai-Schpraach</language>
-			<language type="luy">Olulujia</language>
+			<language type="luy" draft="unconfirmed">Olulujia</language>
 			<language type="lv">Lettisch</language>
 			<language type="mad">Maduresisch</language>
 			<language type="mag">Khotta</language>
@@ -450,7 +450,7 @@
 			<language type="sux">Sumerisch</language>
 			<language type="sv">Schwedisch</language>
 			<language type="sw">Suaheli</language>
-			<language type="swb">Shimaorisch</language>
+			<language type="swb" draft="unconfirmed">Shimaorisch</language>
 			<language type="syc">Altsyrisch</language>
 			<language type="syr">Syrisch</language>
 			<language type="ta">Tamilisch</language>
@@ -512,7 +512,7 @@
 			<language type="yi">Jiddisch</language>
 			<language type="yo">Yoruba</language>
 			<language type="ypk">Yupik-Schpraach</language>
-			<language type="yue">Kantonesisch</language>
+			<language type="yue" draft="unconfirmed">Kantonesisch</language>
 			<language type="za">Zhuang</language>
 			<language type="zap">Zapotekisch</language>
 			<language type="zbl">Bliss-Symbool</language>
@@ -540,7 +540,6 @@
 			<script type="Brai">Blindäschrift</script>
 			<script type="Bugi">Buginesisch</script>
 			<script type="Buhd">Buhid</script>
-			<script type="Cakm">Cakm</script>
 			<script type="Cans">UCAS</script>
 			<script type="Cari">Karisch</script>
 			<script type="Cham">Cham</script>
@@ -583,7 +582,6 @@
 			<script type="Khmr">Khmer</script>
 			<script type="Knda">Kannada</script>
 			<script type="Kore">Koreanisch</script>
-			<script type="Kthi">Kthi</script>
 			<script type="Lana">Lanna</script>
 			<script type="Laoo">Laotisch</script>
 			<script type="Latf">Latiinisch - Fraktur-Variante</script>
@@ -612,12 +610,9 @@
 			<script type="Osma">Osmanisch</script>
 			<script type="Perm">Altpermisch</script>
 			<script type="Phag">Phags-pa</script>
-			<script type="Phli">Phli</script>
-			<script type="Phlp">Phlp</script>
 			<script type="Phlv">Pahlavi</script>
 			<script type="Phnx">Phönizisch</script>
 			<script type="Plrd">Pollard Phonetisch</script>
-			<script type="Prti">Prti</script>
 			<script type="Rjng">Rejang</script>
 			<script type="Roro">Rongorongo</script>
 			<script type="Runr">Runäschrift</script>
@@ -637,7 +632,6 @@
 			<script type="Tale">Tai Le</script>
 			<script type="Talu">Tai Lue</script>
 			<script type="Taml">Tamilisch</script>
-			<script type="Tavt">Tavt</script>
 			<script type="Telu">Telugu</script>
 			<script type="Teng">Tengwar</script>
 			<script type="Tfng">Tifinagh</script>
@@ -652,8 +646,6 @@
 			<script type="Xsux">Sumerisch-akkadischi Keilschrift</script>
 			<script type="Yiii">Yi</script>
 			<script type="Zinh">G’eerbtä Schriftwärt</script>
-			<script type="Zmth">Zmth</script>
-			<script type="Zsym">Zsym</script>
 			<script type="Zxxx">Schriftlosi Schpraach</script>
 			<script type="Zyyy">Unbeschtimmt</script>
 			<script type="Zzzz">Uncodiirti Schrift</script>
@@ -690,9 +682,9 @@
 			<territory type="154">Nordeuroopa</territory>
 			<territory type="155">Weschteuroopa</territory>
 			<territory type="172">Gmäinschaft vo Unabhängige Schtaate</territory>
-			<territory type="419">Latiinameerika und Karibik</territory>
+			<territory type="419">Latiinameerika</territory>
 			<territory type="830">Kanaalinsle</territory>
-			<territory type="AC">Ascension</territory>
+			<territory type="AC" draft="unconfirmed">Ascension</territory>
 			<territory type="AD">Andorra</territory>
 			<territory type="AE">Veräinigti Arabischi Emiräät</territory>
 			<territory type="AF">Afganischtan</territory>
@@ -733,19 +725,19 @@
 			<territory type="CA">Kanada</territory>
 			<territory type="CC">Kokos-Insle</territory>
 			<territory type="CD">Temokraatischi Republik Kongo</territory>
-			<territory type="CD" alt="variant">Kongo-Kinshasa</territory>
+			<territory type="CD" alt="variant" draft="unconfirmed">Kongo-Kinshasa</territory>
 			<territory type="CF">Zentraalafrikaanischi Republik</territory>
 			<territory type="CG">Kongo</territory>
-			<territory type="CG" alt="variant">Kongo-Brazzaville</territory>
+			<territory type="CG" alt="variant" draft="unconfirmed">Kongo-Brazzaville</territory>
 			<territory type="CH">Schwiiz</territory>
 			<territory type="CI">Elfebäiküschte</territory>
-			<territory type="CI" alt="variant">Elfebäiküschte</territory>
+			<territory type="CI" alt="variant" draft="unconfirmed">Elfebäiküschte</territory>
 			<territory type="CK">Cook-Insle</territory>
 			<territory type="CL">Tschile</territory>
 			<territory type="CM">Kamerun</territory>
 			<territory type="CN">Chiina</territory>
 			<territory type="CO">Kolumbie</territory>
-			<territory type="CP">Clipperton</territory>
+			<territory type="CP" draft="unconfirmed">Clipperton</territory>
 			<territory type="CR">Coschta Rica</territory>
 			<territory type="CS">Särbie und Monteneegro</territory>
 			<territory type="CU">Kuba</territory>
@@ -754,13 +746,13 @@
 			<territory type="CY">Tsüpere</territory>
 			<territory type="CZ">Tschechischi Republik</territory>
 			<territory type="DE">Tüütschland</territory>
-			<territory type="DG">Diego Garcia</territory>
+			<territory type="DG" draft="unconfirmed">Diego Garcia</territory>
 			<territory type="DJ">Tschibuuti</territory>
 			<territory type="DK">Tänemark</territory>
 			<territory type="DM">Tominica</territory>
 			<territory type="DO">Tominikaanischi Republik</territory>
 			<territory type="DZ">Algeerie</territory>
-			<territory type="EA">Ceuta und Melilla</territory>
+			<territory type="EA" draft="unconfirmed">Ceuta und Melilla</territory>
 			<territory type="EC">Ecuador</territory>
 			<territory type="EE">Eestland</territory>
 			<territory type="EG">Ägüpte</territory>
@@ -772,7 +764,7 @@
 			<territory type="FI">Finnland</territory>
 			<territory type="FJ">Fitschi</territory>
 			<territory type="FK">Falkland-Insle</territory>
-			<territory type="FK" alt="variant">Falkland-Insle</territory>
+			<territory type="FK" alt="variant" draft="unconfirmed">Falkland-Insle</territory>
 			<territory type="FM">Mikroneesie</territory>
 			<territory type="FO">Färöer</territory>
 			<territory type="FR">Frankriich</territory>
@@ -802,7 +794,7 @@
 			<territory type="HR">Kroaazie</territory>
 			<territory type="HT">Haiti</territory>
 			<territory type="HU">Ungarn</territory>
-			<territory type="IC">Canarische Eilanden</territory>
+			<territory type="IC" draft="unconfirmed">Canarische Eilanden</territory>
 			<territory type="ID">Indoneesie</territory>
 			<territory type="IE">Irland</territory>
 			<territory type="IL">Israel</territory>
@@ -847,7 +839,7 @@
 			<territory type="MG">Madagaschkar</territory>
 			<territory type="MH">Marshallinsle</territory>
 			<territory type="MK">Mazedoonie</territory>
-			<territory type="MK" alt="variant">Mazedoonie</territory>
+			<territory type="MK" alt="variant" draft="unconfirmed">Mazedoonie</territory>
 			<territory type="ML">Maali</territory>
 			<territory type="MM">Müanmar</territory>
 			<territory type="MN">Mongolei</territory>
@@ -917,7 +909,7 @@
 			<territory type="SV">El Salvador</territory>
 			<territory type="SY">Süürie</territory>
 			<territory type="SZ">Swasiland</territory>
-			<territory type="TA">Tristan da Cunha</territory>
+			<territory type="TA" draft="unconfirmed">Tristan da Cunha</territory>
 			<territory type="TC">Törks- und Gaiggos-Insle</territory>
 			<territory type="TD">Tschad</territory>
 			<territory type="TF">Französischi Süüd- und Antarktisgebiet</territory>
@@ -926,7 +918,7 @@
 			<territory type="TJ">Tadschikischtan</territory>
 			<territory type="TK">Tokelau</territory>
 			<territory type="TL">Oschttimor</territory>
-			<territory type="TL" alt="variant">Oschttimor</territory>
+			<territory type="TL" alt="variant" draft="unconfirmed">Oschttimor</territory>
 			<territory type="TM">Turkmeenischtan</territory>
 			<territory type="TN">Tuneesie</territory>
 			<territory type="TO">Tonga</territory>
@@ -974,7 +966,7 @@
 			<variant type="NEDIS">Natisone-Mundart</variant>
 			<variant type="NJIVA">Njiva-Mundart</variant>
 			<variant type="OSOJS">Osojane-Mundart</variant>
-			<variant type="PINYIN">Pinyin</variant>
+			<variant type="PINYIN" draft="unconfirmed">Pinyin</variant>
 			<variant type="POLYTON">Politonisch</variant>
 			<variant type="POSIX">Posix</variant>
 			<variant type="REVISED">Nööi Rächtschriibig</variant>
@@ -984,7 +976,7 @@
 			<variant type="SCOUSE">Scouse-Mundart</variant>
 			<variant type="SOLBA">Solbica-Mundart</variant>
 			<variant type="TARASK">Taraskievica-Rächtschriibig</variant>
-			<variant type="WADEGILE">Wade-Giles</variant>
+			<variant type="WADEGILE" draft="unconfirmed">Wade-Giles</variant>
 		</variants>
 		<keys>
 			<key type="calendar">Kaländer</key>
@@ -1023,7 +1015,7 @@
 		<exemplarCharacters>[a ä b c d e f g h i j k l m n o ö p q r s t u ü v w x y z]</exemplarCharacters>
 		<exemplarCharacters type="auxiliary">[á à ă â å ā æ ç é è ĕ ê ë ē í ì ĭ î ï ī ñ ó ò ŏ ô ø ō œ ú ù ŭ û ū ÿ]</exemplarCharacters>
 		<exemplarCharacters type="currencySymbol">[a b c d e f g h i j k l m n o p q r s t u v w x y z]</exemplarCharacters>
-		<exemplarCharacters type="index">[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]</exemplarCharacters>
+		<exemplarCharacters type="index" draft="unconfirmed">[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]</exemplarCharacters>
 	</characters>
 	<delimiters>
 		<quotationStart>«</quotationStart>
@@ -1158,8 +1150,8 @@
 				<dayPeriods>
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="abbreviated">
-							<dayPeriod type="am">v.m.</dayPeriod>
-							<dayPeriod type="pm">n.m.</dayPeriod>
+							<dayPeriod type="am" draft="unconfirmed">v.m.</dayPeriod>
+							<dayPeriod type="pm" draft="unconfirmed">n.m.</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">vorm.</dayPeriod>
@@ -1168,8 +1160,8 @@
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="wide">
-							<dayPeriod type="am">Vormittag</dayPeriod>
-							<dayPeriod type="pm">Namittag</dayPeriod>
+							<dayPeriod type="am" draft="unconfirmed">Vormittag</dayPeriod>
+							<dayPeriod type="pm" draft="unconfirmed">Namittag</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 				</dayPeriods>
@@ -1382,13 +1374,11 @@
 					</field>
 					<field type="day">
 						<displayName>Tag</displayName>
-						<relative type="-3">vor drü Tääg</relative>
 						<relative type="-2">vorgeschter</relative>
 						<relative type="-1">geschter</relative>
 						<relative type="0">hüt</relative>
 						<relative type="1">moorn</relative>
 						<relative type="2">übermoorn</relative>
-						<relative type="3">i drü Tääg</relative>
 					</field>
 					<field type="weekday">
 						<displayName>Wuchetag</displayName>
@@ -1720,7 +1710,6 @@
 					<generic>Alaska-Ziit</generic>
 					<standard>Alaska-Schtandardziit</standard>
 				</long>
-				<commonlyUsed>true</commonlyUsed>
 			</metazone>
 			<metazone type="Alaska_Hawaii">
 				<long>
@@ -1759,6 +1748,7 @@
 					<standard>OEZ</standard>
 					<daylight>OESZ</daylight>
 				</short>
+				<commonlyUsed>true</commonlyUsed>
 			</metazone>
 			<metazone type="Europe_Western">
 				<long>
@@ -1769,6 +1759,7 @@
 					<standard>WEZ</standard>
 					<daylight>WESZ</daylight>
 				</short>
+				<commonlyUsed>true</commonlyUsed>
 			</metazone>
 			<metazone type="Moscow">
 				<long>
@@ -1779,13 +1770,11 @@
 		</timeZoneNames>
 	</dates>
 	<numbers>
-		<symbols>
+		<symbols numberSystem="latn">
 			<decimal>.</decimal>
 			<group>’</group>
 			<list>;</list>
 			<percentSign>%</percentSign>
-			<nativeZeroDigit>0</nativeZeroDigit>
-			<patternDigit>#</patternDigit>
 			<plusSign>+</plusSign>
 			<minusSign>−</minusSign>
 			<exponential>E</exponential>
@@ -2924,8 +2913,8 @@
 	</units>
 	<listPatterns>
 		<listPattern>
-			<listPatternPart type="2">{0} und {1}</listPatternPart>
-			<listPatternPart type="end">{0} und {1}</listPatternPart>
+			<listPatternPart type="2" draft="contributed">{0} und {1}</listPatternPart>
+			<listPatternPart type="end" draft="contributed">{0} und {1}</listPatternPart>
 		</listPattern>
 	</listPatterns>
 	<posix>

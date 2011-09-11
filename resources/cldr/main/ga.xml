@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 4767 $"/>
-		<generation date="$Date: 2010-02-27 20:54:27 -0600 (Sat, 27 Feb 2010) $"/>
+		<version number="$Revision: 5932 $"/>
+		<generation date="$Date: 2011-06-23 20:34:48 -0500 (Thu, 23 Jun 2011) $"/>
 		<language type="ga"/>
 	</identity>
-	<fallback>en_IE</fallback>
 	<localeDisplayNames>
 		<languages>
 			<language type="aa">aa</language>
@@ -43,7 +42,6 @@
 			<language type="eu">Bascais</language>
 			<language type="fa">Peirsis</language>
 			<language type="fi">Fionlainnis</language>
-			<language type="fil">fil</language>
 			<language type="fj">Fidsis</language>
 			<language type="fo">Faróis</language>
 			<language type="fr">Fraincis</language>
@@ -156,41 +154,41 @@
 			<language type="zu">Súlúis</language>
 		</languages>
 		<scripts>
-			<script type="Arab">Arabach</script>
-			<script type="Armn">Airméanach</script>
-			<script type="Beng">Beangálach</script>
-			<script type="Brai">Braille</script>
-			<script type="Cyrl">Coireallach</script>
-			<script type="Deva">Déiveanágrach</script>
-			<script type="Ethi">Aetópach</script>
-			<script type="Goth">Gotach</script>
-			<script type="Grek">Gréagach</script>
-			<script type="Gujr">Gúisearátach</script>
-			<script type="Guru">Gurmúcach</script>
-			<script type="Hang">Hangalach</script>
-			<script type="Hani">Han</script>
-			<script type="Hans">Han Símplithe</script>
-			<script type="Hant">Han Traidisiúnta</script>
-			<script type="Hebr">Eabhrach</script>
-			<script type="Hira">Híreagánach</script>
-			<script type="Hrkt">Catacánach nó Híreagánach</script>
-			<script type="Jpan">Seapánach</script>
-			<script type="Kana">Catacánach</script>
-			<script type="Knda">Cannadach</script>
-			<script type="Kore">Cóiréach</script>
-			<script type="Latg">Cló Gaelach</script>
-			<script type="Latn">Laidineach</script>
-			<script type="Mlym">Mailéalamach</script>
-			<script type="Mong">Mongólach</script>
-			<script type="Ogam">Ogham</script>
-			<script type="Orya">Oiríseach</script>
-			<script type="Runr">Rúnach</script>
-			<script type="Taml">Tamalach</script>
-			<script type="Telu">Teileagúch</script>
-			<script type="Thai">Téallanach</script>
-			<script type="Tibt">Tibéadach</script>
-			<script type="Zxxx">Gan Scríobh</script>
-			<script type="Zzzz">Script Anaithnid nó Neamhbhailí</script>
+			<script type="Arab" draft="unconfirmed">Arabach</script>
+			<script type="Armn" draft="unconfirmed">Airméanach</script>
+			<script type="Beng" draft="unconfirmed">Beangálach</script>
+			<script type="Brai" draft="unconfirmed">Braille</script>
+			<script type="Cyrl" draft="unconfirmed">Coireallach</script>
+			<script type="Deva" draft="unconfirmed">Déiveanágrach</script>
+			<script type="Ethi" draft="unconfirmed">Aetópach</script>
+			<script type="Goth" draft="unconfirmed">Gotach</script>
+			<script type="Grek" draft="unconfirmed">Gréagach</script>
+			<script type="Gujr" draft="unconfirmed">Gúisearátach</script>
+			<script type="Guru" draft="unconfirmed">Gurmúcach</script>
+			<script type="Hang" draft="unconfirmed">Hangalach</script>
+			<script type="Hani" draft="unconfirmed">Han</script>
+			<script type="Hans" draft="unconfirmed">Han Símplithe</script>
+			<script type="Hant" draft="unconfirmed">Han Traidisiúnta</script>
+			<script type="Hebr" draft="unconfirmed">Eabhrach</script>
+			<script type="Hira" draft="unconfirmed">Híreagánach</script>
+			<script type="Hrkt" draft="unconfirmed">Catacánach nó Híreagánach</script>
+			<script type="Jpan" draft="unconfirmed">Seapánach</script>
+			<script type="Kana" draft="unconfirmed">Catacánach</script>
+			<script type="Knda" draft="unconfirmed">Cannadach</script>
+			<script type="Kore" draft="unconfirmed">Cóiréach</script>
+			<script type="Latg" draft="unconfirmed">Cló Gaelach</script>
+			<script type="Latn" draft="unconfirmed">Laidineach</script>
+			<script type="Mlym" draft="unconfirmed">Mailéalamach</script>
+			<script type="Mong" draft="unconfirmed">Mongólach</script>
+			<script type="Ogam" draft="unconfirmed">Ogham</script>
+			<script type="Orya" draft="unconfirmed">Oiríseach</script>
+			<script type="Runr" draft="unconfirmed">Rúnach</script>
+			<script type="Taml" draft="unconfirmed">Tamalach</script>
+			<script type="Telu" draft="unconfirmed">Teileagúch</script>
+			<script type="Thai" draft="unconfirmed">Téallanach</script>
+			<script type="Tibt" draft="unconfirmed">Tibéadach</script>
+			<script type="Zxxx" draft="unconfirmed">Gan Scríobh</script>
+			<script type="Zzzz" draft="unconfirmed">Script Anaithnid nó Neamhbhailí</script>
 		</scripts>
 		<territories>
 			<territory type="001">An Domhan</territory>
@@ -460,47 +458,38 @@
 			<territory type="ZZ">Réigiún Anaithnid nó Neamhbhailí</territory>
 		</territories>
 		<keys>
-			<key type="calendar">Féilire</key>
-			<key type="collation">Comhordú</key>
-			<key type="currency">Airgeadra</key>
+			<key type="calendar" draft="unconfirmed">Féilire</key>
+			<key type="collation" draft="unconfirmed">Comhordú</key>
+			<key type="currency" draft="unconfirmed">Airgeadra</key>
 		</keys>
 		<types>
-			<type type="big5han" key="collation">Ord sórtála Síneach traidisiúnta - Big5</type>
-			<type type="buddhist" key="calendar">Féilire Búdaíoch</type>
-			<type type="chinese" key="calendar">Féilire Síneach</type>
-			<type type="direct" key="collation">Ord sórtála díreach</type>
-			<type type="gb2312han" key="collation">Ord sórtála Síneach simplithe - GB 2312</type>
-			<type type="gregorian" key="calendar">Féilire Greagórach</type>
-			<type type="hebrew" key="calendar">Féilire Eabhrach</type>
-			<type type="islamic" key="calendar">Féilire Ioslamach</type>
-			<type type="islamic-civil" key="calendar">Féilire Ioslamach Sibhialta</type>
-			<type type="japanese" key="calendar">Féilire Seapánach</type>
-			<type type="phonebook" key="collation">Ord sórtála an eolaire teileafóin</type>
-			<type type="pinyin" key="collation">Ord sórtála pinyin</type>
-			<type type="stroke" key="collation">Ord sórtála stríce</type>
-			<type type="traditional" key="collation">Ord sórtála traidisiúnta</type>
+			<type type="big5han" key="collation" draft="unconfirmed">Ord sórtála Síneach traidisiúnta - Big5</type>
+			<type type="buddhist" key="calendar" draft="unconfirmed">Féilire Búdaíoch</type>
+			<type type="chinese" key="calendar" draft="unconfirmed">Féilire Síneach</type>
+			<type type="direct" key="collation" draft="unconfirmed">Ord sórtála díreach</type>
+			<type type="gb2312han" key="collation" draft="unconfirmed">Ord sórtála Síneach simplithe - GB 2312</type>
+			<type type="gregorian" key="calendar" draft="unconfirmed">Féilire Greagórach</type>
+			<type type="hebrew" key="calendar" draft="unconfirmed">Féilire Eabhrach</type>
+			<type type="islamic" key="calendar" draft="unconfirmed">Féilire Ioslamach</type>
+			<type type="islamic-civil" key="calendar" draft="unconfirmed">Féilire Ioslamach Sibhialta</type>
+			<type type="japanese" key="calendar" draft="unconfirmed">Féilire Seapánach</type>
+			<type type="phonebook" key="collation" draft="unconfirmed">Ord sórtála an eolaire teileafóin</type>
+			<type type="pinyin" key="collation" draft="unconfirmed">Ord sórtála pinyin</type>
+			<type type="stroke" key="collation" draft="unconfirmed">Ord sórtála stríce</type>
+			<type type="traditional" key="collation" draft="unconfirmed">Ord sórtála traidisiúnta</type>
 		</types>
 		<measurementSystemNames>
-			<measurementSystemName type="metric">Méadrach</measurementSystemName>
-			<measurementSystemName type="US">Meiriceánach</measurementSystemName>
+			<measurementSystemName type="metric" draft="unconfirmed">Méadrach</measurementSystemName>
+			<measurementSystemName type="US" draft="unconfirmed">Meiriceánach</measurementSystemName>
 		</measurementSystemNames>
 	</localeDisplayNames>
 	<characters>
-		<exemplarCharacters>[a á b c d e é f g h i í j k l m n o ó p q r s t u ú v w x y z]</exemplarCharacters>
-		<exemplarCharacters type="auxiliary">[ḃ ċ ḋ ḟ ġ ṁ ṗ ṡ ṫ]</exemplarCharacters>
-		<exemplarCharacters type="index">[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]</exemplarCharacters>
+		<exemplarCharacters>[a á b c d e é f g h i í l m n o ó p r s t u ú]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[ḃ ċ ḋ ḟ ġ j k ṁ ṗ q ṡ ṫ v w x y z]</exemplarCharacters>
+		<exemplarCharacters type="index" draft="unconfirmed">[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]</exemplarCharacters>
 	</characters>
 	<dates>
 		<calendars>
-			<calendar type="buddhist">
-				<dateFormats>
-					<dateFormatLength type="full">
-						<dateFormat>
-							<pattern>EEEE d MMMM y G</pattern>
-						</dateFormat>
-					</dateFormatLength>
-				</dateFormats>
-			</calendar>
 			<calendar type="gregorian">
 				<months>
 					<monthContext type="format">
@@ -573,13 +562,13 @@
 					</dayContext>
 					<dayContext type="stand-alone">
 						<dayWidth type="narrow">
-							<day type="sun">D</day>
-							<day type="mon">L</day>
-							<day type="tue">M</day>
-							<day type="wed">C</day>
-							<day type="thu">D</day>
-							<day type="fri">A</day>
-							<day type="sat">S</day>
+							<day type="sun" draft="unconfirmed">D</day>
+							<day type="mon" draft="unconfirmed">L</day>
+							<day type="tue" draft="unconfirmed">M</day>
+							<day type="wed" draft="unconfirmed">C</day>
+							<day type="thu" draft="unconfirmed">D</day>
+							<day type="fri" draft="unconfirmed">A</day>
+							<day type="sat" draft="unconfirmed">S</day>
 						</dayWidth>
 					</dayContext>
 				</days>
@@ -609,8 +598,8 @@
 				</dayPeriods>
 				<eras>
 					<eraNames>
-						<era type="0">Roimh Chríost</era>
-						<era type="1">Anno Domini</era>
+						<era type="0" draft="unconfirmed">Roimh Chríost</era>
+						<era type="1" draft="unconfirmed">Anno Domini</era>
 					</eraNames>
 					<eraAbbr>
 						<era type="0">RC</era>
@@ -642,73 +631,73 @@
 				<timeFormats>
 					<timeFormatLength type="full">
 						<timeFormat>
-							<pattern>HH:mm:ss zzzz</pattern>
+							<pattern draft="unconfirmed">HH:mm:ss zzzz</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="long">
 						<timeFormat>
-							<pattern>HH:mm:ss z</pattern>
+							<pattern draft="unconfirmed">HH:mm:ss z</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="medium">
 						<timeFormat>
-							<pattern>HH:mm:ss</pattern>
+							<pattern draft="unconfirmed">HH:mm:ss</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="short">
 						<timeFormat>
-							<pattern>HH:mm</pattern>
+							<pattern draft="unconfirmed">HH:mm</pattern>
 						</timeFormat>
 					</timeFormatLength>
 				</timeFormats>
 				<fields>
 					<field type="era">
-						<displayName>Ré</displayName>
+						<displayName draft="unconfirmed">Ré</displayName>
 					</field>
 					<field type="year">
-						<displayName>Bliain</displayName>
+						<displayName draft="unconfirmed">Bliain</displayName>
 					</field>
 					<field type="month">
-						<displayName>Mí</displayName>
+						<displayName draft="unconfirmed">Mí</displayName>
 					</field>
 					<field type="week">
-						<displayName>Seachtain</displayName>
+						<displayName draft="unconfirmed">Seachtain</displayName>
 					</field>
 					<field type="day">
-						<displayName>Lá</displayName>
-						<relative type="-2">Arú inné</relative>
-						<relative type="-1">Inné</relative>
-						<relative type="0">Inniu</relative>
-						<relative type="1">Amárach</relative>
-						<relative type="2">Arú amárach</relative>
+						<displayName draft="unconfirmed">Lá</displayName>
+						<relative type="-2" draft="unconfirmed">Arú inné</relative>
+						<relative type="-1" draft="unconfirmed">Inné</relative>
+						<relative type="0" draft="unconfirmed">Inniu</relative>
+						<relative type="1" draft="unconfirmed">Amárach</relative>
+						<relative type="2" draft="unconfirmed">Arú amárach</relative>
 					</field>
 					<field type="weekday">
-						<displayName>Lá na seachtaine</displayName>
+						<displayName draft="unconfirmed">Lá na seachtaine</displayName>
 					</field>
 					<field type="dayperiod">
-						<displayName>a.m./p.m.</displayName>
+						<displayName draft="unconfirmed">a.m./p.m.</displayName>
 					</field>
 					<field type="hour">
-						<displayName>Uair</displayName>
+						<displayName draft="unconfirmed">Uair</displayName>
 					</field>
 					<field type="minute">
-						<displayName>Nóiméad</displayName>
+						<displayName draft="unconfirmed">Nóiméad</displayName>
 					</field>
 					<field type="second">
-						<displayName>Soicind</displayName>
+						<displayName draft="unconfirmed">Soicind</displayName>
 					</field>
 					<field type="zone">
-						<displayName>Crios</displayName>
+						<displayName draft="unconfirmed">Crios</displayName>
 					</field>
 				</fields>
 			</calendar>
 		</calendars>
 		<timeZoneNames>
-			<hourFormat>+HH:mm;-HH:mm</hourFormat>
-			<gmtFormat>MAG{0}</gmtFormat>
-			<regionFormat>{0}</regionFormat>
+			<hourFormat draft="unconfirmed">+HH:mm;-HH:mm</hourFormat>
+			<gmtFormat draft="unconfirmed">MAG{0}</gmtFormat>
+			<regionFormat draft="unconfirmed">{0}</regionFormat>
 			<zone type="Etc/Unknown">
-				<exemplarCity>Anaithnid</exemplarCity>
+				<exemplarCity draft="unconfirmed">Anaithnid</exemplarCity>
 			</zone>
 			<zone type="Europe/London">
 				<long>
@@ -739,9 +728,9 @@
 		</timeZoneNames>
 	</dates>
 	<numbers>
-		<symbols>
-			<decimal>.</decimal>
-			<group>,</group>
+		<symbols numberSystem="latn">
+			<decimal draft="unconfirmed">.</decimal>
+			<group draft="unconfirmed">,</group>
 		</symbols>
 		<currencyFormats>
 			<currencyFormatLength>
@@ -1449,7 +1438,7 @@
 				<displayName>CFP Franc</displayName>
 			</currency>
 			<currency type="XXX">
-				<displayName>Airgeadra Anaithnid nó Neamhbhailí</displayName>
+				<displayName draft="unconfirmed">Airgeadra Anaithnid nó Neamhbhailí</displayName>
 			</currency>
 			<currency type="YDD">
 				<displayName>Dínear Éimin</displayName>
@@ -1488,8 +1477,8 @@
 	</numbers>
 	<posix>
 		<messages>
-			<yesstr>tá:t</yesstr>
-			<nostr>níl:n</nostr>
+			<yesstr draft="unconfirmed">tá:t</yesstr>
+			<nostr draft="unconfirmed">níl:n</nostr>
 		</messages>
 	</posix>
 </ldml>

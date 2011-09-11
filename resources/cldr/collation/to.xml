@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
 		<version number="$Revision: 5060 $"/>
@@ -7,17 +7,20 @@
 		<language type="to" /> 
 	</identity>
 	<collations validSubLocales="to_TO">
-        <collation type="standard">
+        <collation type="standard" draft="unconfirmed" alt="proposed">
             <rules>
+
                 <reset>n</reset>
                     <p>ng</p>
                     <t>Ng</t>
                     <t>NG</t>
                     <t>ŋ</t>
                     <t>Ŋ</t>
+
                 <reset>z</reset>
                     <p>ʻ</p>
                     <t>ʽ</t>
+
                 <reset>a</reset>
                     <s>ā</s>
                     <t>á</t>

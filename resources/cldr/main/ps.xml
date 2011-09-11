@@ -1,124 +1,124 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 5030 $"/>
-		<generation date="$Date: 2010-08-26 13:08:30 -0500 (Thu, 26 Aug 2010) $"/>
+		<version number="$Revision: 5859 $"/>
+		<generation date="$Date: 2011-05-07 04:18:01 -0500 (Sat, 07 May 2011) $"/>
 		<language type="ps"/>
 	</identity>
 	<fallback>fa_AF</fallback>
 	<localeDisplayNames>
 		<languages>
-			<language type="af">افريکاني</language>
-			<language type="am">امهاري</language>
+			<language type="af" draft="unconfirmed">افريکاني</language>
+			<language type="am" draft="unconfirmed">امهاري</language>
 			<language type="ar">عربي</language>
-			<language type="as">اسمائى ژبه</language>
-			<language type="az">أذربائجاني</language>
+			<language type="as" draft="unconfirmed">اسمائى ژبه</language>
+			<language type="az" draft="unconfirmed">أذربائجاني</language>
 			<language type="bal">بلوڅي</language>
-			<language type="be">بېلاروسي</language>
-			<language type="bg">بلغاري</language>
-			<language type="bh">بيهاري</language>
-			<language type="bn">بنګالي</language>
-			<language type="br">برېتون</language>
-			<language type="bs">بوسني</language>
-			<language type="ca">کټلاني</language>
-			<language type="cs">چېک</language>
-			<language type="cy">ويلشي</language>
-			<language type="da">ډېنش</language>
+			<language type="be" draft="unconfirmed">بېلاروسي</language>
+			<language type="bg" draft="unconfirmed">بلغاري</language>
+			<language type="bh" draft="unconfirmed">بيهاري</language>
+			<language type="bn" draft="unconfirmed">بنګالي</language>
+			<language type="br" draft="unconfirmed">برېتون</language>
+			<language type="bs" draft="unconfirmed">بوسني</language>
+			<language type="ca" draft="unconfirmed">کټلاني</language>
+			<language type="cs" draft="unconfirmed">چېک</language>
+			<language type="cy" draft="unconfirmed">ويلشي</language>
+			<language type="da" draft="unconfirmed">ډېنش</language>
 			<language type="de">الماني</language>
 			<language type="el">یوناني</language>
 			<language type="en">انګلیسي</language>
-			<language type="eo">اسپرانتو</language>
-			<language type="es">هسپانوي</language>
+			<language type="eo" draft="unconfirmed">اسپرانتو</language>
+			<language type="es" draft="unconfirmed">هسپانوي</language>
 			<language type="et">حبشي</language>
-			<language type="eu">باسکي</language>
+			<language type="eu" draft="unconfirmed">باسکي</language>
 			<language type="fa">فارسي</language>
 			<language type="fi">فینلنډي</language>
-			<language type="fil">تګالوګ</language>
-			<language type="fo">فاروئې</language>
+			<language type="fil" draft="unconfirmed">تګالوګ</language>
+			<language type="fo" draft="unconfirmed">فاروئې</language>
 			<language type="fr">فرانسوي</language>
-			<language type="fy">فريزي</language>
-			<language type="ga">ائيرلېنډي</language>
-			<language type="gd">سکاټلېنډي ګېلک</language>
-			<language type="gl">ګلېشيايي</language>
-			<language type="gn">ګوراني</language>
-			<language type="gu">ګجراتي</language>
+			<language type="fy" draft="unconfirmed">فريزي</language>
+			<language type="ga" draft="unconfirmed">ائيرلېنډي</language>
+			<language type="gd" draft="unconfirmed">سکاټلېنډي ګېلک</language>
+			<language type="gl" draft="unconfirmed">ګلېشيايي</language>
+			<language type="gn" draft="unconfirmed">ګوراني</language>
+			<language type="gu" draft="unconfirmed">ګجراتي</language>
 			<language type="he">عبري</language>
 			<language type="hi">هندي</language>
-			<language type="hr">کروواتي</language>
-			<language type="hu">هنګري</language>
+			<language type="hr" draft="unconfirmed">کروواتي</language>
+			<language type="hu" draft="unconfirmed">هنګري</language>
 			<language type="hy">ارمني</language>
-			<language type="ia">انټرلنګوا</language>
-			<language type="id">انډونېشيايي</language>
-			<language type="ie">آسا نا جبة</language>
+			<language type="ia" draft="unconfirmed">انټرلنګوا</language>
+			<language type="id" draft="unconfirmed">انډونېشيايي</language>
+			<language type="ie" draft="unconfirmed">آسا نا جبة</language>
 			<language type="ine">هند و اروپایي</language>
-			<language type="is">أيسلېنډي</language>
+			<language type="is" draft="unconfirmed">أيسلېنډي</language>
 			<language type="it">ایټالوي</language>
 			<language type="ja">جاپانی</language>
-			<language type="jv">جاوايې</language>
-			<language type="ka">جورجيائي</language>
-			<language type="km">کمبوډيايې يا د کمبوډيا</language>
-			<language type="kn">کنأډه</language>
-			<language type="ko">کوريائي</language>
+			<language type="jv" draft="unconfirmed">جاوايې</language>
+			<language type="ka" draft="unconfirmed">جورجيائي</language>
+			<language type="km" draft="unconfirmed">کمبوډيايې يا د کمبوډيا</language>
+			<language type="kn" draft="unconfirmed">کنأډه</language>
+			<language type="ko" draft="unconfirmed">کوريائي</language>
 			<language type="ku">کردي</language>
-			<language type="ky">کرګيز</language>
+			<language type="ky" draft="unconfirmed">کرګيز</language>
 			<language type="la">لاتیني</language>
-			<language type="lo">لويتين</language>
-			<language type="lt">ليتواني</language>
-			<language type="lv">لېټواني</language>
+			<language type="lo" draft="unconfirmed">لويتين</language>
+			<language type="lt" draft="unconfirmed">ليتواني</language>
+			<language type="lv" draft="unconfirmed">لېټواني</language>
 			<language type="mg">ملغاسي</language>
 			<language type="mk">مقدوني</language>
-			<language type="ml">مالايالم</language>
+			<language type="ml" draft="unconfirmed">مالايالم</language>
 			<language type="mn">مغولي</language>
-			<language type="mr">مراټهي</language>
+			<language type="mr" draft="unconfirmed">مراټهي</language>
 			<language type="ms">ملایا</language>
-			<language type="mt">مالټايي</language>
-			<language type="ne">نېپالي</language>
-			<language type="nl">هالېنډي</language>
-			<language type="nn">ناروېئي (نائنورسک)</language>
-			<language type="no">ناروېئې</language>
-			<language type="oc">اوکسيټاني</language>
-			<language type="or">اوريا</language>
-			<language type="pa">پنجابي</language>
+			<language type="mt" draft="unconfirmed">مالټايي</language>
+			<language type="ne" draft="unconfirmed">نېپالي</language>
+			<language type="nl" draft="unconfirmed">هالېنډي</language>
+			<language type="nn" draft="unconfirmed">ناروېئي (نائنورسک)</language>
+			<language type="no" draft="unconfirmed">ناروېئې</language>
+			<language type="oc" draft="unconfirmed">اوکسيټاني</language>
+			<language type="or" draft="unconfirmed">اوريا</language>
+			<language type="pa" draft="unconfirmed">پنجابي</language>
 			<language type="pl">پولنډي</language>
 			<language type="ps">پښتو</language>
 			<language type="pt">پورتګالي</language>
-			<language type="pt_BR">پرتگال (برازيل)</language>
-			<language type="pt_PT">پرتګالي (پرتګال)</language>
-			<language type="ro">روماني</language>
+			<language type="pt_BR" draft="unconfirmed">پرتگال (برازيل)</language>
+			<language type="pt_PT" draft="unconfirmed">پرتګالي (پرتګال)</language>
+			<language type="ro" draft="unconfirmed">روماني</language>
 			<language type="ru">روسي</language>
 			<language type="sa">سنسکریټ</language>
-			<language type="sd">سندهي</language>
-			<language type="sh">سرب-کروشيايي</language>
-			<language type="si">سينهالي</language>
-			<language type="sk">سلوواکي</language>
-			<language type="sl">سلوواني</language>
-			<language type="so">سومالي</language>
-			<language type="sq">الباني</language>
-			<language type="sr">سربيائي</language>
-			<language type="st">سيسوتو</language>
-			<language type="su">سوډاني</language>
+			<language type="sd" draft="unconfirmed">سندهي</language>
+			<language type="sh" draft="unconfirmed">سرب-کروشيايي</language>
+			<language type="si" draft="unconfirmed">سينهالي</language>
+			<language type="sk" draft="unconfirmed">سلوواکي</language>
+			<language type="sl" draft="unconfirmed">سلوواني</language>
+			<language type="so" draft="unconfirmed">سومالي</language>
+			<language type="sq" draft="unconfirmed">الباني</language>
+			<language type="sr" draft="unconfirmed">سربيائي</language>
+			<language type="st" draft="unconfirmed">سيسوتو</language>
+			<language type="su" draft="unconfirmed">سوډاني</language>
 			<language type="sv">سویډنی</language>
-			<language type="sw">سواهېلي</language>
-			<language type="ta">تامل</language>
-			<language type="te">تېليګو</language>
+			<language type="sw" draft="unconfirmed">سواهېلي</language>
+			<language type="ta" draft="unconfirmed">تامل</language>
+			<language type="te" draft="unconfirmed">تېليګو</language>
 			<language type="tg">تاجک</language>
-			<language type="th">تايلېنډي</language>
-			<language type="ti">تيګريني</language>
+			<language type="th" draft="unconfirmed">تايلېنډي</language>
+			<language type="ti" draft="unconfirmed">تيګريني</language>
 			<language type="tk">ترکمني</language>
-			<language type="tlh">کلينګاني</language>
-			<language type="tr">ترکي</language>
+			<language type="tlh" draft="unconfirmed">کلينګاني</language>
+			<language type="tr" draft="unconfirmed">ترکي</language>
 			<language type="tt">تاتار</language>
-			<language type="tw">توی</language>
-			<language type="ug">اويگور</language>
-			<language type="uk">اوکرانايي</language>
-			<language type="ur">اردو</language>
+			<language type="tw" draft="unconfirmed">توی</language>
+			<language type="ug" draft="unconfirmed">اويگور</language>
+			<language type="uk" draft="unconfirmed">اوکرانايي</language>
+			<language type="ur" draft="unconfirmed">اردو</language>
 			<language type="uz">ازبکي</language>
-			<language type="vi">وېتنامي</language>
-			<language type="xh">خوسا</language>
-			<language type="yi">يديش</language>
+			<language type="vi" draft="unconfirmed">وېتنامي</language>
+			<language type="xh" draft="unconfirmed">خوسا</language>
+			<language type="yi" draft="unconfirmed">يديش</language>
 			<language type="zh">چیني</language>
-			<language type="zu">زولو</language>
+			<language type="zu" draft="unconfirmed">زولو</language>
 		</languages>
 		<scripts>
 			<script type="Arab">عربي</script>
@@ -195,7 +195,7 @@
 	<characters>
 		<exemplarCharacters>[\u064E \u0650 \u064F \u064B \u064D \u064C \u0651 \u0652 \u0654 \u0670 آ ا أ ء ب پ ت ټ ث ج ځ چ څ ح خ د ډ ذ ر ړ ز ژ ږ س ش ښ ص ض ط ظ ع غ ف ق ک ګ ل م ن ڼ ه ة و ؤ ی ي ې ۍ ئ]</exemplarCharacters>
 		<exemplarCharacters type="auxiliary">[\u200C \u200D]</exemplarCharacters>
-		<exemplarCharacters type="index">[آ ا ء ب پ ت ټ ث ج ځ چ څ ح خ د ډ ذ ر ړ ز ژ ږ س ش ښ ص ض ط ظ ع غ ف ق ک ګ ل م ن ڼ ه و ی]</exemplarCharacters>
+		<exemplarCharacters type="index" draft="unconfirmed">[آ ا ء ب پ ت ټ ث ج ځ چ څ ح خ د ډ ذ ر ړ ز ژ ږ س ش ښ ص ض ط ظ ع غ ف ق ک ګ ل م ن ڼ ه و ی]</exemplarCharacters>
 	</characters>
 	<dates>
 		<calendars>
@@ -294,10 +294,10 @@
 						<dateFormatItem id="H">H</dateFormatItem>
 						<dateFormatItem id="Hm">H:mm</dateFormatItem>
 						<dateFormatItem id="Hms">H:mm:ss</dateFormatItem>
-						<dateFormatItem id="Md">M/d</dateFormatItem>
-						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
-						<dateFormatItem id="yyyyM">yyyy/M</dateFormatItem>
-						<dateFormatItem id="yyyyMMMM">د y د MMMM</dateFormatItem>
+						<dateFormatItem id="Md" draft="unconfirmed">M/d</dateFormatItem>
+						<dateFormatItem id="MMMMd" draft="unconfirmed">d MMMM</dateFormatItem>
+						<dateFormatItem id="yyyyM" draft="unconfirmed">yyyy/M</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM" draft="unconfirmed">د y د MMMM</dateFormatItem>
 					</availableFormats>
 				</dateTimeFormats>
 			</calendar>
@@ -324,6 +324,7 @@
 		</calendars>
 		<timeZoneNames>
 			<regionFormat>د {0} په وخت</regionFormat>
+			<fallbackRegionFormat draft="contributed">د {1} ({0}) په وخت</fallbackRegionFormat>
 			<zone type="Asia/Kabul">
 				<exemplarCity>کابل</exemplarCity>
 			</zone>
@@ -331,18 +332,18 @@
 	</dates>
 	<numbers>
 		<defaultNumberingSystem>arabext</defaultNumberingSystem>
-		<symbols>
-			<decimal>,</decimal>
-			<group>.</group>
-			<percentSign>%</percentSign>
-			<minusSign>−</minusSign>
-			<exponential>E</exponential>
-		</symbols>
 		<symbols numberSystem="arabext">
 			<decimal>٫</decimal>
 			<group>٬</group>
 			<percentSign>٪</percentSign>
 			<exponential>×۱۰^</exponential>
+		</symbols>
+		<symbols numberSystem="latn">
+			<decimal>,</decimal>
+			<group>.</group>
+			<percentSign>%</percentSign>
+			<minusSign>−</minusSign>
+			<exponential>E</exponential>
 		</symbols>
 		<currencyFormats>
 			<currencyFormatLength>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
 		<version number="$Revision: 5123 $"/>
@@ -944,8 +945,8 @@
 
 
 
-<reset>ောက်ကျ</reset><i>ောက်ျ</i> 
-<reset>န်နုပ်</reset><i>န်ုပ်</i> 
+<reset>ောက်ကျ</reset><i>ောက်ျ</i>
+<reset>န်နုပ်</reset><i>န်ုပ်</i>
 
 <reset>ေသ္သ</reset><i>ေဿ</i>
 <reset>ိသ္သ</reset><i>ိဿ</i>
@@ -961,10 +962,10 @@
 <reset>အိ</reset><s>၏</s>
 
 
-<reset>လက်ယာ</reset><i>လက်ျာ</i> 
-<reset>သမီ</reset><i>သ္မီ</i> 
-<reset>ထမင်း</reset><i>ထ္မင်း</i> 
-<reset>လက်ဘက်</reset><i>လ္ဘက်</i> 
+<reset>လက်ယာ</reset><i>လက်ျာ</i>
+<reset>သမီ</reset><i>သ္မီ</i>
+<reset>ထမင်း</reset><i>ထ္မင်း</i>
+<reset>လက်ဘက်</reset><i>လ္ဘက်</i>
 				</rules>
 			</collation>
 		</collations>

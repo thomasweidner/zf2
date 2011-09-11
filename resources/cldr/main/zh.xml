@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <ldml>
 	<identity>
-		<version number="$Revision: 5096 $"/>
-		<generation date="$Date: 2010-10-13 19:10:15 -0500 (Wed, 13 Oct 2010) $"/>
+		<version number="$Revision: 5934 $"/>
+		<generation date="$Date: 2011-06-24 16:39:18 -0500 (Fri, 24 Jun 2011) $"/>
 		<language type="zh"/>
 	</identity>
 	<localeDisplayNames>
@@ -47,6 +47,7 @@
 			<language type="awa">阿瓦乔文</language>
 			<language type="ay">艾马拉文</language>
 			<language type="az">阿塞拜疆文</language>
+			<language type="az" alt="short">阿塞拜疆文</language>
 			<language type="ba">巴什客尔文</language>
 			<language type="bad">班达文</language>
 			<language type="bai">巴米累克语系</language>
@@ -81,7 +82,6 @@
 			<language type="cai">其他中美印第安语系</language>
 			<language type="car">巴勒比文</language>
 			<language type="cau">其他高加索语系</language>
-			<language type="cch">cch</language>
 			<language type="ce">车臣文</language>
 			<language type="ceb">宿务文</language>
 			<language type="cel">其他凯尔特语系</language>
@@ -116,7 +116,7 @@
 			<language type="day">达雅克文</language>
 			<language type="de">德文</language>
 			<language type="de_AT">奥地利德语</language>
-			<language type="de_CH">高地德文 (瑞士)</language>
+			<language type="de_CH">瑞士高地德文</language>
 			<language type="del">特拉华文</language>
 			<language type="den">司雷夫文</language>
 			<language type="dgr">多格里布文</language>
@@ -166,7 +166,7 @@
 			<language type="frr">北弗里西亚语</language>
 			<language type="frs">东弗里西亚文</language>
 			<language type="fur">弗留利文</language>
-			<language type="fy">弗里斯兰文</language>
+			<language type="fy">西弗里西亚文</language>
 			<language type="ga">爱尔兰文</language>
 			<language type="gaa">加文</language>
 			<language type="gay">迦约文</language>
@@ -208,9 +208,9 @@
 			<language type="ia">国际语</language>
 			<language type="iba">伊班文</language>
 			<language type="id">印度尼西亚文</language>
-			<language type="ie">国际语E</language>
+			<language type="ie">国际语（E）</language>
 			<language type="ig">伊格博文</language>
-			<language type="ii">四川话</language>
+			<language type="ii">四川彝文</language>
 			<language type="ijo">伊乔文</language>
 			<language type="ik">依奴皮维克文</language>
 			<language type="ilo">伊洛干诺文</language>
@@ -232,12 +232,10 @@
 			<language type="kaa">卡拉卡尔帕克文</language>
 			<language type="kab">卡比尔文</language>
 			<language type="kac">卡琴文</language>
-			<language type="kaj">kaj</language>
 			<language type="kam">卡姆巴文</language>
 			<language type="kar">喀伦文</language>
 			<language type="kaw">卡威文</language>
 			<language type="kbd">卡巴尔达文</language>
-			<language type="kcg">kcg</language>
 			<language type="kfo">科罗语</language>
 			<language type="kg">刚果文</language>
 			<language type="kha">卡西文</language>
@@ -343,13 +341,13 @@
 			<language type="no">挪威文</language>
 			<language type="nog">诺盖文</language>
 			<language type="non">古诺尔斯文</language>
-			<language type="nqo">西非书面语言</language>
-			<language type="nr">南部恩德贝勒文</language>
+			<language type="nqo" draft="contributed">西非书面语言</language>
+			<language type="nr">南恩德贝勒文</language>
 			<language type="nso">北索托文</language>
 			<language type="nub">努比亚语系</language>
 			<language type="nv">纳瓦霍文</language>
-			<language type="nwc">尼瓦尔文 Classical Newari</language>
-			<language type="ny">尼扬贾文；齐切瓦文；切瓦文</language>
+			<language type="nwc">尼瓦尔文（Classical Newari）</language>
+			<language type="ny">尼扬扎文</language>
 			<language type="nym">尼亚姆韦齐文</language>
 			<language type="nyn">尼昂科勒文</language>
 			<language type="nyo">尼约罗文</language>
@@ -378,6 +376,7 @@
 			<language type="pra">普拉克里特诸语言</language>
 			<language type="pro">普罗文斯文</language>
 			<language type="ps">普什图文</language>
+			<language type="ps" alt="variant">普什图文</language>
 			<language type="pt">葡萄牙文</language>
 			<language type="pt_BR">葡萄牙语（巴西）</language>
 			<language type="pt_PT">依伯利亚葡萄牙文</language>
@@ -385,7 +384,7 @@
 			<language type="raj">拉贾斯坦文</language>
 			<language type="rap">拉帕努伊文</language>
 			<language type="rar">拉罗汤加文</language>
-			<language type="rm">列托－罗曼文</language>
+			<language type="rm">罗曼什文</language>
 			<language type="rn">基隆迪文</language>
 			<language type="ro">罗马尼亚文</language>
 			<language type="roa">其他拉丁语系</language>
@@ -434,11 +433,11 @@
 			<language type="son">桑海文</language>
 			<language type="sq">阿尔巴尼亚文</language>
 			<language type="sr">塞尔维亚文</language>
-			<language type="srn">Sranan Tongo（源于克里奥尔语）</language>
+			<language type="srn">苏里南汤加语</language>
 			<language type="srr">谢列尔文</language>
 			<language type="ss">斯瓦特文</language>
 			<language type="ssa">非洲撒哈拉沙漠边缘地带语言</language>
-			<language type="st">塞索托文</language>
+			<language type="st">南索托文</language>
 			<language type="su">巽他语</language>
 			<language type="suk">苏库马文</language>
 			<language type="sus">苏苏文</language>
@@ -481,10 +480,11 @@
 			<language type="tyv">图瓦文</language>
 			<language type="udm">乌德穆尔特文</language>
 			<language type="ug">维吾尔文</language>
+			<language type="ug" alt="variant">维吾尔文</language>
 			<language type="uga">乌加里特文</language>
 			<language type="uk">乌克兰文</language>
 			<language type="umb">翁本杜文</language>
-			<language type="und">未定语种</language>
+			<language type="und">未知语言</language>
 			<language type="ur">乌尔都文</language>
 			<language type="uz">乌兹别克文</language>
 			<language type="vai">瓦伊文</language>
@@ -516,11 +516,12 @@
 			<language type="znd">赞德文</language>
 			<language type="zu">祖鲁文</language>
 			<language type="zun">祖尼语</language>
-			<language type="zxx">无语言内容</language>
-			<language type="zza">扎扎文</language>
+			<language type="zxx" draft="contributed">无语言内容</language>
+			<language type="zza" draft="contributed">扎扎文</language>
 		</languages>
 		<scripts>
 			<script type="Arab">阿拉伯语</script>
+			<script type="Arab" alt="variant">波斯阿拉伯文</script>
 			<script type="Armn">亚美尼亚语</script>
 			<script type="Bali">巴厘语</script>
 			<script type="Batk">巴塔克语</script>
@@ -531,7 +532,7 @@
 			<script type="Brai">布莱叶盲文</script>
 			<script type="Bugi">布吉语</script>
 			<script type="Buhd">布希德语</script>
-			<script type="Cans">加拿大土著统一符号语</script>
+			<script type="Cans">加拿大土著统一音节</script>
 			<script type="Cari">卡里亚语</script>
 			<script type="Cham">占语</script>
 			<script type="Cher">切罗基语</script>
@@ -546,7 +547,7 @@
 			<script type="Egyh">古埃及僧侣书写体</script>
 			<script type="Egyp">古埃及象形文</script>
 			<script type="Ethi">埃塞俄比亚语</script>
-			<script type="Geok">格鲁吉亚语文字 (Asomtavruli and Nuskhuri)</script>
+			<script type="Geok">格鲁吉亚语（教堂体）</script>
 			<script type="Geor">格鲁吉亚语</script>
 			<script type="Glag">格拉哥里语</script>
 			<script type="Goth">哥特语</script>
@@ -557,7 +558,9 @@
 			<script type="Hani">汉语</script>
 			<script type="Hano">汉奴罗语</script>
 			<script type="Hans">简体中文</script>
+			<script type="Hans" alt="stand-alone">简体中文</script>
 			<script type="Hant">繁体中文</script>
+			<script type="Hant" alt="stand-alone">繁体中文</script>
 			<script type="Hebr">希伯来语</script>
 			<script type="Hira">平假名</script>
 			<script type="Hmng">杨松录苗文</script>
@@ -580,8 +583,8 @@
 			<script type="Latn">拉丁语</script>
 			<script type="Lepc">雷布查语</script>
 			<script type="Limb">林布语</script>
-			<script type="Lina">线形文字 A</script>
-			<script type="Linb">线形文字 B</script>
+			<script type="Lina">线形文字（A）</script>
+			<script type="Linb">线形文字（B）</script>
 			<script type="Lyci">利西亚语</script>
 			<script type="Lydi">吕底亚语</script>
 			<script type="Mand">阿拉米语</script>
@@ -589,10 +592,10 @@
 			<script type="Mero">麦若提克文</script>
 			<script type="Mlym">马拉亚拉姆语</script>
 			<script type="Mong">蒙古语</script>
-			<script type="Moon">韩文语系</script>
+			<script type="Moon" draft="contributed">韩文语系</script>
 			<script type="Mtei">曼尼普尔语</script>
 			<script type="Mymr">缅甸</script>
-			<script type="Nkoo">N’Ko（西非书面语言）</script>
+			<script type="Nkoo">西非书面语言（N’Ko）</script>
 			<script type="Ogam">欧甘语</script>
 			<script type="Olck">桑塔利语</script>
 			<script type="Orkh">鄂尔浑文</script>
@@ -611,7 +614,6 @@
 			<script type="Shaw">萧伯纳式语</script>
 			<script type="Sinh">辛哈拉语</script>
 			<script type="Sund">巽他文</script>
-			<script type="Sylo">Syloti Nagri 书写体</script>
 			<script type="Syrc">叙利亚语</script>
 			<script type="Syre">福音体叙利亚文</script>
 			<script type="Syrj">西叙利亚语</script>
@@ -632,7 +634,7 @@
 			<script type="Visp">可见语言</script>
 			<script type="Xpeo">古波斯语</script>
 			<script type="Xsux">苏美尔-阿卡德楔形文字</script>
-			<script type="Yiii">彝语</script>
+			<script type="Yiii">彝文</script>
 			<script type="Zinh">遗传学术语</script>
 			<script type="Zsym">符号</script>
 			<script type="Zxxx">撤销写入</script>
@@ -671,7 +673,7 @@
 			<territory type="154">北欧</territory>
 			<territory type="155">西欧</territory>
 			<territory type="172">独联体</territory>
-			<territory type="419">拉丁美洲和加勒比海</territory>
+			<territory type="419">拉丁美洲</territory>
 			<territory type="830">海峡群岛</territory>
 			<territory type="AC">阿森松岛</territory>
 			<territory type="AD">安道尔</territory>
@@ -700,7 +702,7 @@
 			<territory type="BH">巴林</territory>
 			<territory type="BI">布隆迪</territory>
 			<territory type="BJ">贝宁</territory>
-			<territory type="BL">圣巴泰勒米</territory>
+			<territory type="BL" draft="contributed">圣巴泰勒米</territory>
 			<territory type="BM">百慕大</territory>
 			<territory type="BN">文莱</territory>
 			<territory type="BO">玻利维亚</territory>
@@ -714,11 +716,12 @@
 			<territory type="CA">加拿大</territory>
 			<territory type="CC">科科斯群岛</territory>
 			<territory type="CD">刚果（金）</territory>
+			<territory type="CD" alt="variant">刚果民主共和国</territory>
 			<territory type="CF">中非共和国</territory>
 			<territory type="CG">刚果（布）</territory>
 			<territory type="CG" alt="variant">刚果共和国</territory>
 			<territory type="CH">瑞士</territory>
-			<territory type="CI">象牙海岸</territory>
+			<territory type="CI">科特迪瓦</territory>
 			<territory type="CI" alt="variant">象牙海岸</territory>
 			<territory type="CK">库克群岛</territory>
 			<territory type="CL">智利</territory>
@@ -823,7 +826,7 @@
 			<territory type="MC">摩纳哥</territory>
 			<territory type="MD">摩尔多瓦</territory>
 			<territory type="ME">黑山共和国</territory>
-			<territory type="MF">圣马丁</territory>
+			<territory type="MF" draft="contributed">圣马丁</territory>
 			<territory type="MG">马达加斯加</territory>
 			<territory type="MH">马绍尔群岛</territory>
 			<territory type="MK">马其顿</territory>
@@ -865,7 +868,7 @@
 			<territory type="PK">巴基斯坦</territory>
 			<territory type="PL">波兰</territory>
 			<territory type="PM">圣皮埃尔和密克隆</territory>
-			<territory type="PN">皮特凯恩</territory>
+			<territory type="PN">皮特凯恩群岛</territory>
 			<territory type="PR">波多黎各</territory>
 			<territory type="PS">巴勒斯坦领土</territory>
 			<territory type="PT">葡萄牙</territory>
@@ -935,68 +938,132 @@
 			<territory type="ZA">南非</territory>
 			<territory type="ZM">赞比亚</territory>
 			<territory type="ZW">津巴布韦</territory>
-			<territory type="ZZ">未知或无效地区</territory>
+			<territory type="ZZ">未知地区</territory>
 		</territories>
 		<variants>
 			<variant type="1901">传统德语拼字学</variant>
-			<variant type="1994">标准雷西亚拼音</variant>
+			<variant type="1994" draft="contributed">标准雷西亚拼字</variant>
 			<variant type="1996">1996 年的德语拼字学</variant>
-			<variant type="1606NICT">1606 年前中后期法文</variant>
-			<variant type="1694ACAD">早期现代法文</variant>
-			<variant type="1959ACAD">学术</variant>
+			<variant type="1606NICT" draft="contributed">1606 年前中后期法文</variant>
+			<variant type="1694ACAD" draft="contributed">早期现代法文</variant>
+			<variant type="1959ACAD" draft="contributed">学术</variant>
+			<variant type="ALALC97" draft="contributed">1997 版 ALA-LC 罗马字</variant>
+			<variant type="ALUKU" draft="contributed">阿鲁库方言</variant>
 			<variant type="AREVELA">东亚美尼亚语</variant>
 			<variant type="AREVMDA">西亚美尼亚语</variant>
-			<variant type="BAKU1926">统一土耳其拉丁字母</variant>
-			<variant type="BISKE">圣乔治/比拉方言</variant>
-			<variant type="BOONT">布恩特林方言</variant>
+			<variant type="BAKU1926" draft="contributed">统一土耳其拉丁字母</variant>
+			<variant type="BISKE" draft="contributed">圣乔治/比拉方言</variant>
+			<variant type="BOONT" draft="contributed">布恩特林方言</variant>
 			<variant type="FONIPA">国际音标</variant>
-			<variant type="FONUPA">UPA 音节</variant>
-			<variant type="KKCOR">常用拼音</variant>
-			<variant type="LIPAW">雷西亚 Lipovaz 方言</variant>
-			<variant type="MONOTON">单音字母</variant>
-			<variant type="NEDIS">Natisone 方言</variant>
-			<variant type="NJIVA">Gniva/Njiva 方言</variant>
-			<variant type="OSOJS">Oseacco/Osojane 方言</variant>
+			<variant type="FONUPA" draft="contributed">UPA 音标</variant>
+			<variant type="HEPBURN" draft="contributed">赫伯恩罗马字</variant>
+			<variant type="KKCOR" draft="contributed">常用拼字</variant>
+			<variant type="LIPAW" draft="contributed">雷西亚 Lipovaz 方言</variant>
+			<variant type="MONOTON" draft="contributed">单音字母</variant>
+			<variant type="NDYUKA" draft="contributed">Ndyuka 方言</variant>
+			<variant type="NEDIS" draft="contributed">Natisone 方言</variant>
+			<variant type="NJIVA" draft="contributed">Gniva/Njiva 方言</variant>
+			<variant type="OSOJS" draft="contributed">Oseacco/Osojane 方言</variant>
+			<variant type="PAMAKA" draft="contributed">Pamaka 方言</variant>
 			<variant type="PINYIN">拼音</variant>
 			<variant type="POLYTON">多音</variant>
 			<variant type="POSIX">电脑</variant>
 			<variant type="REVISED">已修订的拼字学</variant>
-			<variant type="ROZAJ">雷西亚文</variant>
+			<variant type="ROZAJ" draft="contributed">雷西亚文</variant>
 			<variant type="SAAHO">萨霍</variant>
-			<variant type="SCOTLAND">苏格兰标准英文</variant>
-			<variant type="SCOUSE">利物浦方言</variant>
-			<variant type="SOLBA">Stolvizza/Solbica 方言</variant>
-			<variant type="TARASK">Taraskievica 拼音</variant>
-			<variant type="UCCOR">统一拼音</variant>
-			<variant type="UCRCOR">统一修订拼音</variant>
-			<variant type="VALENCIA">瓦伦西亚文</variant>
+			<variant type="SCOTLAND" draft="contributed">苏格兰标准英文</variant>
+			<variant type="SCOUSE" draft="contributed">利物浦方言</variant>
+			<variant type="SOLBA" draft="contributed">Stolvizza/Solbica 方言</variant>
+			<variant type="TARASK" draft="contributed">Taraskievica 拼字</variant>
+			<variant type="UCCOR" draft="contributed">统一的拼字</variant>
+			<variant type="UCRCOR" draft="contributed">统一和修订的拼字</variant>
+			<variant type="VALENCIA" draft="contributed">瓦伦西亚文</variant>
 			<variant type="WADEGILE">WG 威氏拼音法</variant>
 		</variants>
 		<keys>
 			<key type="calendar">日历</key>
 			<key type="collation">对照</key>
 			<key type="currency">货币</key>
+			<key type="numbers">数字</key>
+			<key type="x">专用</key>
 		</keys>
 		<types>
+			<type type="arab" key="numbers">阿拉伯印度文数字</type>
+			<type type="arabext" key="numbers">扩展阿拉伯印度文数字</type>
+			<type type="armn" key="numbers">亚美尼亚文数字</type>
+			<type type="armnlow" key="numbers">亚美尼亚文小写数字</type>
+			<type type="beng" key="numbers">孟加拉文数字</type>
 			<type type="big5han" key="collation">繁体中文(Big5)</type>
 			<type type="buddhist" key="calendar">佛教日历</type>
 			<type type="chinese" key="calendar">农历</type>
-			<type type="direct" key="collation">顺序</type>
+			<type type="coptic" key="calendar">科普特日历</type>
+			<type type="deva" key="numbers">梵文数字</type>
+			<type type="dictionary" key="collation">字典排序顺序</type>
+			<type type="direct" key="collation">直接排序顺序</type>
+			<type type="ducet" key="collation">默认 Unicode 排序顺序</type>
+			<type type="ethi" key="numbers">埃塞俄比亚文数字</type>
+			<type type="ethiopic" key="calendar">埃塞俄比亚日历</type>
+			<type type="ethiopic-amete-alem" key="calendar">埃塞俄比亚阿米特阿莱姆日历</type>
+			<type type="fullwide" key="numbers">全角数字</type>
 			<type type="gb2312han" key="collation">简体中文(GB2312)</type>
+			<type type="geor" key="numbers">格鲁吉亚文数字</type>
 			<type type="gregorian" key="calendar">公历</type>
+			<type type="grek" key="numbers">希腊文数字</type>
+			<type type="greklow" key="numbers">希腊文小写数字</type>
+			<type type="gujr" key="numbers">古吉拉特文数字</type>
+			<type type="guru" key="numbers">果鲁穆奇文数字</type>
+			<type type="hanidec" key="numbers">中文十进制数字</type>
+			<type type="hans" key="numbers">简体中文数字</type>
+			<type type="hansfin" key="numbers">简体中文大写数字</type>
+			<type type="hant" key="numbers">繁体中文数字</type>
+			<type type="hantfin" key="numbers">繁体中文大写数字</type>
+			<type type="hebr" key="numbers">希伯来文数字</type>
 			<type type="hebrew" key="calendar">希伯来日历</type>
 			<type type="indian" key="calendar">印度国家日历</type>
 			<type type="islamic" key="calendar">伊斯兰日历</type>
 			<type type="islamic-civil" key="calendar">伊斯兰希吉来历</type>
 			<type type="japanese" key="calendar">日本日历</type>
+			<type type="jpan" key="numbers">日文数字</type>
+			<type type="jpanfin" key="numbers">日文大写数字</type>
+			<type type="khmr" key="numbers">高棉文数字</type>
+			<type type="knda" key="numbers">卡纳达文数字</type>
+			<type type="laoo" key="numbers">老挝文数字</type>
+			<type type="latn" key="numbers">西方数字</type>
+			<type type="mlym" key="numbers">马拉雅拉姆文数字</type>
+			<type type="mong" key="numbers">蒙古文数字</type>
+			<type type="mymr" key="numbers">缅甸文数字</type>
+			<type type="orya" key="numbers">奥里亚文数字</type>
+			<type type="persian" key="calendar">波斯日历</type>
 			<type type="phonebook" key="collation">电话簿顺序</type>
 			<type type="pinyin" key="collation">拼音顺序</type>
+			<type type="reformed" key="collation">改良排序顺序</type>
 			<type type="roc" key="calendar">民国日历</type>
+			<type type="roman" key="numbers">罗马数字</type>
+			<type type="romanlow" key="numbers">罗马小写数字</type>
+			<type type="search" key="collation">常规搜索</type>
 			<type type="stroke" key="collation">笔划顺序</type>
+			<type type="taml" key="numbers">泰米尔文数字</type>
+			<type type="telu" key="numbers">泰卢固文数字</type>
+			<type type="thai" key="numbers">泰文数字</type>
+			<type type="tibt" key="numbers">藏文数字</type>
 			<type type="traditional" key="collation">传统历法</type>
+			<type type="unihan" key="collation">部首笔画排序</type>
 		</types>
+		<transformNames>
+			<transformName type="BGN" draft="contributed">美国地名委员会 (BGN)</transformName>
+			<transformName type="Numeric" draft="contributed">数字</transformName>
+			<transformName type="Tone" draft="contributed">音调</transformName>
+			<transformName type="UNGEGN" draft="contributed">联合国地名专家组 (UNGEGN)</transformName>
+			<transformName type="x-Accents" draft="contributed">重音符号</transformName>
+			<transformName type="x-Fullwidth" draft="contributed">全角</transformName>
+			<transformName type="x-Halfwidth" draft="contributed">半角</transformName>
+			<transformName type="x-Jamo" draft="contributed">韩文字母</transformName>
+			<transformName type="x-Pinyin" draft="contributed">拼音</transformName>
+			<transformName type="x-Publishing" draft="contributed">印刷体</transformName>
+		</transformNames>
 		<measurementSystemNames>
 			<measurementSystemName type="metric">公制</measurementSystemName>
+			<measurementSystemName type="UK">英制</measurementSystemName>
 			<measurementSystemName type="US">美制</measurementSystemName>
 		</measurementSystemNames>
 		<codePatterns>
@@ -1006,10 +1073,15 @@
 		</codePatterns>
 	</localeDisplayNames>
 	<characters>
-		<exemplarCharacters>[一 丁 七 丈-与 专 且 世 丘-业 东 丝 丢 两 严 丧 个 中 丰 串 临 丸-主 丽 举 乃 久 么 义 之-乐 乔 乖 乘 乙 九 也-乡 书 买 乱 乾 了 予 争 事 二 于 亏 云 互 五 井 亚 些 亡 交 亦 亨 享 京 亮 亲 人 亿-仁 仅 仇 今 介 仍 从 仔 他 付 仙 代-以 仪 们 仰 仲 件 任 份 仿 企 伊 伍 伏-休 众 伙 会 伟 传 伤 伦 伯 估 伴 伸 似 伽 但 位-佑 体 何 余 佛 作 你 佤 佩 佳 使 例 供 依 侠 侦-侨 侬 侯 侵 便 促 俄 俊 俗 保 信 俩 修 俱 俾 倍 倒 候 倚 借 倦 值 倾 假 偌 偏 做 停 健 偶 偷 储 催 傲 傻 像 僧 儒 允 元-充 先 光 克 免 兑 兔 入 全 八-兮 兰 共 关-兹 养-兽 内 冈 再 冒 写 军 农 冠 冬 冰 冲 冷 准 凌 凝 几 凡 凤 凭 凯 凰 出 击 函 刀 分 切 刊 刑 划 列-创 初 判 利 别 到 制-券 刺 刻 剂 前 剑 剧 剩 剪 副 割 力 劝-务 劣 动-劫 励-劳 势 勇 勉 勋 勒 勤 勾 勿 包 匆 匈 化 北 匙 匹-医 十 千 升 午 半 华 协 卒 卓 单-南 博 占-卢 卫 印 危 即 卷 厄-历 厉 压-厍 厚 原 去 县 参 又-反 发 叔 取-叙 口-另 叫-叭 可 台 史 右 叶-叹 吃 各 合-吊 同-后 吐 向 吓 吗 君 吝 吟 否 吧 含 吵 吸 吹 吻 吾 呀 呆 呈 告 呐 员 呜 呢 呦 周 味 呵 呼 命 和 咖 咦 咧 咪 咬 咯 咱 哀 品 哇-哉 响 哎 哟 哥 哦 哩 哪 哭 哲 唉 唐 唤 唬 售 唯 唱 唷 商 啊 啡 啥 啦 啪 喀 喂 善 喇 喊 喏 喔 喜 喝 喵 喷 喻 嗒 嗨 嗯 嘉 嘛 嘴 嘻 嘿 器 四 回 因 团 园 困 围 固 国 图 圆 圈 土 圣 在 圭 地 场 圾 址 均 坎 坐 坑 块 坚-坜 坡 坤 坦 坪 垂 垃 型 垒 埃 埋 城 埔 域 培 基 堂 堆 堕 堡 堪 塑 塔 塞 填 境 增 墨 壁 士 壮 声 处 备 复 夏 夕 外 多 夜 夥 大 天-夫 央 失 头 夷-夺 奇-奉 奋 奏 契 奔 套 奥 女 奴 奶 她 好 如 妇 妈 妖 妙 妥 妨 妮 妹 妻 姆 姊 始 姐 姑 姓 委 姿 威 娃 娄 娘 娜 娟 婆 婚 媒 嫁 嫌 嫩 子 孔 孕 字-孙 孜 孝 孟 季 孤 学 孩 宁 它 宇-安 宋 完 宏 宗-实 审-室 宪 害 家 容 宽-宿 寂 寄 密 寇 富 寒 寝-察 寡 寨 寸 对 寻 导 寿 封 射 将 尊 小 少 尔 尖 尘 尚 尝 尤 就 尺 尼-尾 局-层 居 屋 屏 展 属 屠 山 岁 岂 岗 岘 岚 岛 岳 岸 峡 峰 崇 崩 川 州 巡 工-巨 巫 差 己 已 巴 巷 币-布 帅 师 希 帐 帕 帝 带 席 帮 常 帽 幅 幕 干-年 幸 幻-幽 广 庆 床 序 库-底 店 庙 府 庞 废 度 座 庭 康 庸 廉 廖 延 廷 建 开 弃 弄 弊 式 引 弗 弘 弟 张 弥 弦 弯 弱 弹 归 当 彝 形 彩 彬 彭 彰 影 彷 役 彻 彼 往 征 径 待 很 律 後 徐 徒 得 循 微 徵 德 心 必 忆 忌 忍 志-忙 忠 忧 快 念 忽 怀 态 怎 怒 怕 怖 思 怡 急 性 怨 怪 总 恋 恐 恢 恨 恩 恭 息 恰 恶 恼 悄 悉 悔 悟 悠 患 您 悲 情 惑 惜 惠 惧 惨 惯 想 惹 愁 愈 愉 意 愚 感 愧 慈 慎 慕 慢 慧 慰 憾 懂 懒 戈 戏-戒 或 战 截 戴 房-扁 扇 手 才 扎 扑 打 托 扣 执 扩 扫-扯 批 找-技 抄 把 抑 抓 投 抗 折 抢 护 报 披 抬 抱 抵 抹 抽 担 拆 拉 拍 拒 拔 拖 拘 招 拜 拟 拥 拦 拨 择 括 拳 拷 拼 拾 拿 持 指 按 挑 挖 挝 挡 挤 挥 挪 振 挺 捉 捐 捕 损 捡 换 捷 授 掉 掌 排 探 接 控-措 掸 描 提 插 握 援 搜 搞 搬 搭 摄 摆 摊 摔 摘 摩 摸 撒 撞 播 操 擎 擦 支 收 改 攻 放 政 故 效 敌 敏 救 教 敝 敢 散 敦 敬 数 敲 整 文 斋 斐 斗 料 斜 斥 断 斯 新 方 於 施 旁 旅 旋 族 旗 无 既 日-早 旭 时 旺 昂 昆 昌 明 昏 易 星 映 春 昨 昭 是 显 晃 晋 晒 晓 晚 晨 普 景 晴 晶 智 暂 暑 暖 暗 暮 暴 曰 曲 更 曹 曼 曾-最 月 有 朋 服 朗 望 朝 期 木 未-札 术 朱 朵 杀 杂 权 杉 李 材 村 杜 束 条 来 杨 杯 杰 松 板 极 析 林 果 枝 枢 枪 枫 架 柏 某 染 柔 查 柬 柯 柳 柴 标 栋 栏 树 校 样-根 格 桃 框 案 桌 桑 档 桥 梁 梅 梦 梯 械 梵 检 棉 棋 棒 棚 森 椅 植 椰 楚 楼 概 榜 模 樱 檀 欠-欣 欧 欲 欺 款 歉 歌 止-武 歪 死 殊 残 段 毅 母 每 毒 比 毕 毛 毫 氏 民 氛 水 永 求 汉 汗 汝 江-污 汤 汪 汶 汽 沃 沈 沉 沙 沟 沧 河 油 治 沿 泉 泊 法 泛 泡-泣 泥 注 泰 泳 泽 洋 洗 洛 洞 津 洪 洲 活 洽 派 流 浅 测 济 浑 浓 浦 浩 浪 浮 浴 海 涅 消 涉 涛 涨 涯 液 涵 淋 淑 淘 淡 深 混 添 清 渐 渡 渣 温 港 渴 游 湖 湾 源 溜 溪 滋 滑 满 滥 滨 滴 漂 漏 演 漠 漫 潘 潜 潮 澎 澳 激 灌 火 灭 灯 灰 灵 灿 炉 炎 炮 炸 点 烂 烈 烤 烦 烧 热 焦 然 煌 煞 照 煮 熊 熟 燃 燕 爆 爪 爬 爱 爵-爸 爽 片 版 牌 牙 牛 牡 牢 牧 物 牲 牵 特 牺 犯 状 犹 狂 狐 狗 狠 独 狮 狱 狼 猛 猜 献 玄 率 玉 王 玛 玩 玫 环 现 玲 玻 珊 珍 珠 班 球 理 琊 琪 琳 琴 瑙 瑜 瑞 瑟 瑰 瑶 璃 瓜 瓦 瓶 甘 甚 甜 生 用 田-申 电 男 甸 画 畅 界 留 略 番 疆 疏 疑 疗 疯 疲 疼 疾 病 痕 痛 痴 登 白 百 的 皆 皇 皮 盈 益 监 盒 盖 盘 盛 盟 目 直 相 盼 盾 省 眉 看 真 眠 眼 睛 睡 督 瞧 矛 矣 知 短 石 矶 码 砂 砍 研 破 础 硕 硬 碍 碎 碗 碟 碧 碰 磁 磅 磨 示 礼 社 祖 祝 神 祥 票 祸 禁 禅 福 秀 私 秋 种 科 秒 秘 租 秤 秦 秩 积 称 移 稀 程 稍 稣 稳 稿 穆 究 穷 穹 空 穿 突 窗 窝 立 站 竞-章 童 端 竹 笑 笔 笛 符 笨 第 等 筋 答 策 筹 签 简 算 管 箭 箱 篇 篮 簿 籍 米 类 粉 粒 粗 粹 精 糊 糕 糖 糟 系 素 索 紧 紫 累 繁 红 约 级 纪 纯 纲 纳 纵 纷 纸 纽 练 组 细-终 绍 经 结 绕 绘 给 络 统 继 绩 绪 续 维 绵 综 缅 缓 编 缘 缠 缩 缴 缶 缸 缺 罐 罕 罗 罚 罢 罪 置 署 羊 美 羞 群 羯 羽 翁 翅 翔 翘 翠 翰 翻 翼 耀 老 考 者 而 耍 耐 耗 耳 耶 聊 职 联 聚 聪 肉 肚 股 肤 肥 肩 肯 育 胁 胆 背 胎 胖 胞 胡 胶 胸 能 脆 脑 脱 脸 腊 腐 腓 腰 腹 腾 腿 臂 臣 自 臭 至 致 舌 舍 舒 舞 舟 航 般 舰 船 良 色 艺 艾 节 芒 芝 芦 芬 芭 花 芳 苍 苏 苗 若 苦 英 茂 茨 茫 茶 草 荒 荣 药 荷 莉 莎 莪 莫 莱 莲 获 菜 菩 菲 萄 萍 萤 营 萧 萨 落 著 葛 葡 蒂 蒋 蒙 蓉 蓝 蓬 蔑 蔡 薄 薪 藉 藏 藤 虎 虑 虫 虹 虽 虾 蚁 蛇 蛋 蛙 蛮 蜂 蜜 蝶 融 蟹 蠢 血 行 街 衡 衣 补 表 袋 被 袭 裁 裂 装 裕 裤 西 要 覆 见 观 规 视 览 觉 角 解 言 誉 誓 警 计 订 认 讨 让 训-记 讲 许 论 设 访 证 评 识 诉 词 译 试 诗 诚 话 诞 询 该 详 语 误 说 请 诸 诺 读 课 谁 调 谅 谈 谊 谋 谓 谜 谢 谨 谱 谷 豆 象 豪 貌 贝-负 贡-败 货-贪 购 贯 贱 贴 贵 费 贺 贼 贾 资 赋 赌 赏 赐 赔 赖 赚 赛 赞 赠 赢 赤 赫 走 赵 起 趁 超 越 趋 趣 足 跃 跌 跑 距 跟 路 跳 踏 踢 踩 身 躲 车 轨 轩 转 轮-轰 轻 载 较 辅 辆 辈 辉 辑 输 辛 辞 辨 辩 辱 边 达 迁 迅 过 迈 迎 运 近 返 还 这 进-迟 迦 迪 迫 述 迷 追 退 送 逃 逆 选 逊 透 逐 递 途 通 逛 逝 速 造 逢 逸 逻 逼 遇 遍 道 遗 遭 遮 遵 避 邀 邓 那 邦 邪 邮 邱 邻 郎 郑 部 郭 都 鄂 酋 配 酒 酷 酸 醉 醒 采 释 里-量 金 针 钓 钟 钢 钦 钱 钻 铁 铃 铢 铭 银 销 锁 锅 锋 错 锡 锦 键 锺 镇 镜 镭 长 门 闪 闭 问 间 闷 闹 闻 阁 阐 阔 队 阮 防-阶 阻 阿 陀 附-陆 陈 降 限 院 除 险 陪 陵-陷 隆 随 隐 隔 障 难 雄-集 雨 雪 雯 雳 零 雷 雾 需 震 霍 霖 露 霸 霹 青 靖 静 非 靠 面 革 靼 鞋 鞑 韦 韩 音 页 顶 项-须 顽-顿 预 领 颇 频 颗 题 额 风 飘 飙 飞 食 餐 饭 饮 饰 饱 饼 馆 首 香 馨 马 驱 驶 驻 驾 验 骑 骗 骚 骤 骨 高 鬼 魂 魅 魔 鱼 鲁 鲜 鸟 鸣 鸭 鸿 鹅 鹤 鹰 鹿 麦 麻 黄 黎 黑 默 鼓 鼠 鼻 齐 齿 龄 龙 龟]</exemplarCharacters>
+		<exemplarCharacters>[一 丁 七 万-与 专 且 世 丘-业 东 丝 丢 两 严 丧 个 中 丰 串 临 丸-主 丽 举 乃 久 么 义 之-乐 乔 乖 乘 乙 九 也-乡 书 买 乱 乾 了 予 争 事 二 于 亏 云 互 五 井 亚 些 亡 交 亦 亨 享 京 亮 亲 人 亿-仁 仅 仇 今 介 仍 从 仔 他 付 仙 代-以 仪 们 仰 仲 件 任 份 仿 企 伊 伍 伏-休 众 伙 会 伟 传 伤 伦 伯 估 伴 伸 似 伽 但 位-佑 体 何 余 佛 作 你 佤 佩 佳 使 例 供 依 侠 侦-侨 侬 侯 侵 便 促 俄 俊 俗 保 信 俩 修 俱 俾 倍 倒 候 倚 借 倦 值 倾 假 偌 偏 做 停 健 偶 偷 储 催 傲 傻 像 僧 儒 允 元-充 先 光 克 免 兑 兔 入 全 八-兮 兰 共 关-兹 养-兽 内 冈 再 冒 写 军 农 冠 冬 冰 冲 冷 准 凌 凝 几 凡 凤 凭 凯 凰 出 击 函 刀 分 切 刊 刑 划 列-创 初 判 利 别 到 制-券 刺 刻 剂 前 剑 剧 剩 剪 副 割 力 劝-务 劣 动-劫 励-劳 势 勇 勉 勋 勒 勤 勾 勿 包 匆 匈 化 北 匙 匹-医 十 千 升 午 半 华 协 卒 卓 单-南 博 占-卢 卫 印 危 即 卷 厄-历 厉 压-厍 厚 原 去 县 参 又-反 发 叔 取-叙 口-另 叫-叭 可 台 史 右 叶-叹 吃 各 合-吊 同-后 吐 向 吓 吗 君 吝 吟 否 吧 含 吵 吸 吹 吻 吾 呀 呆 呈 告 呐 员 呜 呢 呦 周 味 呵 呼 命 和 咖 咦 咧 咪 咬 咯 咱 哀 品 哇-哉 响 哎 哟 哥 哦 哩 哪 哭 哲 唉 唐 唤 唬 售 唯 唱 唷 商 啊 啡 啥 啦 啪 喀 喂 善 喇 喊 喏 喔 喜 喝 喵 喷 喻 嗒 嗨 嗯 嘉 嘛 嘴 嘻 嘿 器 四 回 因 团 园 困 围 固 国 图 圆 圈 土 圣 在 圭 地 场 圾 址 均 坎 坐 坑 块 坚-坜 坡 坤 坦 坪 垂 垃 型 垒 埃 埋 城 埔 域 培 基 堂 堆 堕 堡 堪 塑 塔 塞 填 境 增 墨 壁 壤 士 壮 声 处 备 复 夏 夕 外 多 夜 夥 大 天-夫 央 失 头 夷-夺 奇-奉 奋 奏 契 奔 套 奥 女 奴 奶 她 好 如 妇 妈 妖 妙 妥 妨 妮 妹 妻 姆 姊 始 姐 姑 姓 委 姿 威 娃 娄 娘 娜 娟 婆 婚 媒 嫁 嫌 嫩 子 孔 孕 字-孙 孜 孝 孟 季 孤 学 孩 宁 它 宇-安 宋 完 宏 宗-实 审-室 宪 害 宴 家 容 宽-宿 寂 寄 密 寇 富 寒 寝-察 寡 寨 寸 对 寻 导 寿 封 射 将 尊 小 少 尔 尖 尘 尚 尝 尤 就 尺 尼-尾 局-层 居 屋 屏 展 属 屠 山 岁 岂 岗 岘 岚 岛 岳 岸 峡 峰 崇 崩 崴 川 州 巡 工-巨 巫 差 己 已 巴 巷 币-布 帅 师 希 帐 帕 帝 带 席 帮 常 帽 幅 幕 干-年 幸 幻-幽 广 庆 床 序 库-底 店 庙 府 庞 废 度 座 庭 康 庸 廉 廖 延 廷 建 开 弃 弄 弊 式 引 弗 弘 弟 张 弥 弦 弯 弱 弹 归 当 彝 形 彩 彬 彭 彰 影 彷 役 彻 彼 往 征 径 待 很 律 後 徐 徒 得 循 微 徵 德 心 必 忆 忌 忍 志-忙 忠 忧 快 念 忽 怀 态 怎 怒 怕 怖 思 怡 急 性 怨 怪 总 恋 恐 恢 恨 恩 恭 息 恰 恶 恼 悄 悉 悔 悟 悠 患 您 悲 情 惑 惜 惠 惧 惨 惯 想 惹 愁 愈 愉 意 愚 感 愧 慈 慎 慕 慢 慧 慰 憾 懂 懒 戈 戏-戒 或 战 截 戴 房-扁 扇 手 才 扎 扑 打 托 扣 执 扩 扫-扯 批 找-技 抄 把 抑 抓 投 抗 折 抢 护 报 披 抬 抱 抵 抹 抽 担 拆 拉 拍 拒 拔 拖 拘 招 拜 拟 拥 拦 拨 择 括 拳 拷 拼 拾 拿 持 指 按 挑 挖 挝 挡 挤 挥 挪 振 挺 捉 捐 捕 损 捡 换 捷 授 掉 掌 排 探 接 控-措 掸 描 提 插 握 援 搜 搞 搬 搭 摄 摆 摊 摔 摘 摩 摸 撒 撞 播 操 擎 擦 支 收 改 攻 放 政 故 效 敌 敏 救 教 敝 敢 散 敦 敬 数 敲 整 文 斋 斐 斗 料 斜 斥 断 斯 新 方 於 施 旁 旅 旋 族 旗 无 既 日-早 旭 时 旺 昂 昆 昌 明 昏 易 星 映 春 昨 昭 是 显 晃 晋 晒 晓 晚 晨 普 景 晴 晶 智 暂 暑 暖 暗 暮 暴 曰 曲 更 曹 曼 曾-最 月 有 朋 服 朗 望 朝 期 木 未-札 术 朱 朵 杀 杂 权 杉 李 材 村 杜 束 条 来 杨 杯 杰 松 板 极 析 林 果 枝 枢 枪 枫 架 柏 某 染 柔 查 柬 柯 柳 柴 标 栋 栏 树 校 样-根 格 桃 框 案 桌 桑 档 桥 梁 梅 梦 梯 械 梵 检 棉 棋 棒 棚 森 椅 植 椰 楚 楼 概 榜 模 樱 檀 欠-欣 欧 欲 欺 款 歉 歌 止-武 歪 死 殊 残 段 毅 母 每 毒 比 毕 毛 毫 氏 民 氛 水 永 求 汉 汗 汝 江-污 汤 汪 汶 汽 沃 沈 沉 沙 沟 沧 河 油 治 沿 泉 泊 法 泛 泡-泣 泥 注 泰 泳 泽 洋 洗 洛 洞 津 洪 洲 活 洽 派 流 浅 测 济 浑 浓 浦 浩 浪 浮 浴 海 涅 消 涉 涛 涨 涯 液 涵 淋 淑 淘 淡 深 混 添 清 渐 渡 渣 温 港 渴 游 湖 湾 源 溜 溪 滋 滑 满 滥 滨 滴 漂 漏 演 漠 漫 潘 潜 潮 澎 澳 激 灌 火 灭 灯 灰 灵 灿 炉 炎 炮 炸 点 烂 烈 烤 烦 烧 热 焦 然 煌 煞 照 煮 熊 熟 燃 燕 爆 爪 爬 爱 爵-爸 爽 片 版 牌 牙 牛 牡 牢 牧 物 牲 牵 特 牺 犯 状 犹 狂 狐 狗 狠 独 狮 狱 狼 猛 猜 献 玄 率 玉 王 玛 玩 玫 环 现 玲 玻 珀 珊 珍 珠 班 球 理 琊 琪 琳 琴 琼 瑙 瑜 瑞 瑟 瑰 瑶 璃 瓜 瓦 瓶 甘 甚 甜 生 用 田-申 电 男 甸 画 畅 界 留 略 番 疆 疏 疑 疗 疯 疲 疼 疾 病 痕 痛 痴 登 白 百 的 皆 皇 皮 盈 益 监 盒 盖 盘 盛 盟 目 直 相 盼 盾 省 眉 看 真 眠 眼 睛 睡 督 瞧 矛 矣 知 短 石 矶 码 砂 砍 研 破 础 硕 硬 碍 碎 碗 碟 碧 碰 磁 磅 磨 示 礼 社 祖 祝 神 祥 票 祸 禁 禅 福 秀 私 秋 种 科 秒 秘 租 秤 秦 秩 积 称 移 稀 程 稍 稣 稳 稿 穆 究 穷 穹 空 穿 突 窗 窝 立 站 竞-章 童 端 竹 笑 笔 笛 符 笨 第 等 筋 答 策 筹 签 简 算 管 箭 箱 篇 篮 簿 籍 米 类 粉 粒 粗 粤 粹 精 糊 糕 糖 糟 系 素 索 紧 紫 累 繁 红 约 级 纪 纯 纲 纳 纵 纷 纸 纽 练 组 细-终 绍 经 结 绕 绘 给 络 统 继 绩 绪 续 维 绵 综 缅 缓 编 缘 缠 缩 缴 缶 缸 缺 罐 罕 罗 罚 罢 罪 置 署 羊 美 羞 群 羯 羽 翁 翅 翔 翘 翠 翰 翻 翼 耀 老 考 者 而 耍 耐 耗 耳 耶 聊 职 联 聚 聪 肉 肖 肚 股 肤 肥 肩 肯 育 胁 胆 背 胎 胖 胞 胡 胶 胸 能 脆 脑 脱 脸 腊 腐 腓 腰 腹 腾 腿 臂 臣 自 臭 至 致 舌 舍 舒 舞 舟 航 般 舰 船 良 色 艺 艾 节 芒 芝 芦 芬 芭 花 芳 苍 苏 苗 若 苦 英 茂 茨 茫 茶 草 荒 荣 药 荷 莉 莎 莪 莫 莱 莲 获 菜 菩 菲 萄 萍 萤 营 萧 萨 落 著 葛 葡 蒂 蒋 蒙 蓉 蓝 蓬 蔑 蔡 薄 薪 藉 藏 藤 虎 虑 虫 虹 虽 虾 蚁 蛇 蛋 蛙 蛮 蜂 蜜 蝶 融 蟹 蠢 血 行 街 衡 衣 补 表 袋 被 袭 裁 裂 装 裕 裤 西 要 覆 见 观 规 视 览 觉 角 解 言 誉 誓 警 计 订 认 讨 让 训-记 讲 讷 许 论 设 访 证 评 识 诉 词 译 试 诗 诚 话 诞 询 该 详 语 误 说 请 诸 诺 读 课 谁 调 谅 谈 谊 谋 谓 谜 谢 谨 谱 谷 豆 象 豪 貌 贝-负 贡-败 货-贪 购 贯 贱 贴 贵 费 贺 贼 贾 资 赋 赌 赏 赐 赔 赖 赚 赛 赞 赠 赢 赤 赫 走 赵 起 趁 超 越 趋 趣 足 跃 跌 跑 距 跟 路 跳 踏 踢 踩 身 躲 车 轨 轩 转 轮-轰 轻 载 较 辅 辆 辈 辉 辑 输 辛 辞 辨 辩 辱 边 达 迁 迅 过 迈 迎 运 近 返 还 这 进-迟 迦 迪 迫 述 迷 追 退 送 逃 逆 选 逊 透 逐 递 途 通 逛 逝 速 造 逢 逸 逻 逼 遇 遍 道 遗 遭 遮 遵 避 邀 邓 那 邦 邪 邮 邱 邻 郎 郑 部 郭 都 鄂 酋 配 酒 酷 酸 醉 醒 采 释 里-量 金 针 钓 钟 钢 钦 钱 钻 铁 铃 铢 铭 银 销 锁 锅 锋 错 锡 锦 键 锺 镇 镜 镭 长 门 闪 闭 问 间 闷 闹 闻 阁 阐 阔 队 阮 防-阶 阻 阿 陀 附-陆 陈 降 限 院 除 险 陪 陵-陷 隆 随 隐 隔 障 难 雄-集 雨 雪 雯 雳 零 雷 雾 需 震 霍 霖 露 霸 霹 青 靖 静 非 靠 面 革 靼 鞋 鞑 韦 韩 音 页 顶 项-须 顽-顿 预 领 颇 频 颗 题 额 风 飘 飙 飞 食 餐 饭 饮 饰 饱 饼 馆 首 香 馨 马 驱 驶 驻 驾 验 骑 骗 骚 骤 骨 高 鬼 魂 魅 魔 鱼 鲁 鲜 鸟 鸣 鸭 鸿 鹅 鹤 鹰 鹿 麦 麻 黄 黎 黑 默 鼓 鼠 鼻 齐 齿 龄 龙 龟]</exemplarCharacters>
 		<exemplarCharacters type="auxiliary">[侣 傣 卑 厘 吕 堤 奎 巽 录 户 撤 楔 楠 滕 瑚 甫 盲 禄 粟 线 脚 钯 铂 锑 镑 魁]</exemplarCharacters>
-		<exemplarCharacters type="currencySymbol">[a b c d e f g h i j k l m n o p q r s t u v w x y z]</exemplarCharacters>
+		<exemplarCharacters type="currencySymbol" draft="contributed">[a b c d e f g h i j k l m n o p q r s t u v w x y z]</exemplarCharacters>
 		<exemplarCharacters type="index">[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]</exemplarCharacters>
+		<exemplarCharacters type="punctuation" draft="contributed">[＿ ﹏ \- — ， 、 ； ： ！ ？ … 。 · ‘ ’ “ ” （ ） ［ ］ 〈 〉 《 》 ﹁ ﹂ ﹃ ﹄ 【 】 〔 〕 ～]</exemplarCharacters>
+		<moreInformation>？</moreInformation>
+		<stopwords>
+			<stopwordList type="collation" draft="provisional">的 了</stopwordList>
+		</stopwords>
 	</characters>
 	<delimiters>
 		<quotationStart>“</quotationStart>
@@ -1020,12 +1092,14 @@
 	<dates>
 		<calendars>
 			<calendar type="buddhist">
-				<eras> 
+				<eras>
+
 					<eraAbbr>
 						<era type="0">佛历</era>
 					</eraAbbr>
 				</eras>
-				<dateFormats> 
+				<dateFormats>
+
 					<dateFormatLength type="full">
 						<dateFormat>
 							<pattern>Gy年M月d日EEEE</pattern>
@@ -1048,20 +1122,27 @@
 					</dateFormatLength>
 				</dateFormats>
 				<dateTimeFormats>
-					<availableFormats> 
+					<availableFormats>
+
 						<dateFormatItem id="d">d日</dateFormatItem>
 						<dateFormatItem id="EEEd">d日EEE</dateFormatItem>
+						<dateFormatItem id="Gy">Gy年</dateFormatItem>
 						<dateFormatItem id="h">ah时</dateFormatItem>
 						<dateFormatItem id="H">H时</dateFormatItem>
 						<dateFormatItem id="hm">ah:mm</dateFormatItem>
 						<dateFormatItem id="hms">ah:mm:ss</dateFormatItem>
 						<dateFormatItem id="M">M月</dateFormatItem>
+						<dateFormatItem id="Md" draft="contributed">M/d</dateFormatItem>
 						<dateFormatItem id="MEd">M-dE</dateFormatItem>
 						<dateFormatItem id="MMMd">M月d日</dateFormatItem>
 						<dateFormatItem id="MMMEd">M月d日E</dateFormatItem>
-						<dateFormatItem id="MMMMd">M月d日</dateFormatItem>
-						<dateFormatItem id="MMMMEd">M月d日E</dateFormatItem>
 						<dateFormatItem id="y">Gy年</dateFormatItem>
+						<dateFormatItem id="yM" draft="contributed">Gy年M月</dateFormatItem>
+						<dateFormatItem id="yMEd" draft="contributed">Gy/M/dEEE</dateFormatItem>
+						<dateFormatItem id="yMMM" draft="contributed">Gy年M月</dateFormatItem>
+						<dateFormatItem id="yMMMEd" draft="contributed">Gy年M月d日EEE</dateFormatItem>
+						<dateFormatItem id="yQ" draft="contributed">Gy年第Q季度</dateFormatItem>
+						<dateFormatItem id="yQQQ" draft="contributed">Gy年第Q季度</dateFormatItem>
 						<dateFormatItem id="yyyy">Gy年</dateFormatItem>
 						<dateFormatItem id="yyyyM">Gy-M</dateFormatItem>
 						<dateFormatItem id="yyyyMd">Gy-M-d</dateFormatItem>
@@ -1069,13 +1150,74 @@
 						<dateFormatItem id="yyyyMMM">Gy年M月</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">Gy年M月d日</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">Gy年M月d日EEE</dateFormatItem>
-						<dateFormatItem id="yyyyMMMM">Gy年M月</dateFormatItem>
 						<dateFormatItem id="yyyyQ">Gy年QQQ</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">Gy年QQQQ</dateFormatItem>
 					</availableFormats>
 				</dateTimeFormats>
 			</calendar>
 			<calendar type="chinese">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1" draft="contributed">1</month>
+							<month type="2" draft="contributed">2</month>
+							<month type="3" draft="contributed">3</month>
+							<month type="4" draft="contributed">4</month>
+							<month type="5" draft="contributed">5</month>
+							<month type="6" draft="contributed">6</month>
+							<month type="7" draft="contributed">7</month>
+							<month type="8" draft="contributed">8</month>
+							<month type="9" draft="contributed">9</month>
+							<month type="10" draft="contributed">10</month>
+							<month type="11" draft="contributed">11</month>
+							<month type="12" draft="contributed">12</month>
+						</monthWidth>
+						<monthWidth type="narrow">
+							<month type="1" draft="contributed">1</month>
+							<month type="2" draft="contributed">2</month>
+							<month type="3" draft="contributed">3</month>
+							<month type="4" draft="contributed">4</month>
+							<month type="5" draft="contributed">5</month>
+							<month type="6" draft="contributed">6</month>
+							<month type="7" draft="contributed">7</month>
+							<month type="8" draft="contributed">8</month>
+							<month type="9" draft="contributed">9</month>
+							<month type="10" draft="contributed">10</month>
+							<month type="11" draft="contributed">11</month>
+							<month type="12" draft="contributed">12</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="abbreviated">
+							<month type="1" draft="contributed">1</month>
+							<month type="2" draft="contributed">2</month>
+							<month type="3" draft="contributed">3</month>
+							<month type="4" draft="contributed">4</month>
+							<month type="5" draft="contributed">5</month>
+							<month type="6" draft="contributed">6</month>
+							<month type="7" draft="contributed">7</month>
+							<month type="8" draft="contributed">8</month>
+							<month type="9" draft="contributed">9</month>
+							<month type="10" draft="contributed">10</month>
+							<month type="11" draft="contributed">11</month>
+							<month type="12" draft="contributed">12</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1" draft="contributed">1</month>
+							<month type="2" draft="contributed">2</month>
+							<month type="3" draft="contributed">3</month>
+							<month type="4" draft="contributed">4</month>
+							<month type="5" draft="contributed">5</month>
+							<month type="6" draft="contributed">6</month>
+							<month type="7" draft="contributed">7</month>
+							<month type="8" draft="contributed">8</month>
+							<month type="9" draft="contributed">9</month>
+							<month type="10" draft="contributed">10</month>
+							<month type="11" draft="contributed">11</month>
+							<month type="12" draft="contributed">12</month>
+						</monthWidth>
+					</monthContext>
+				</months>
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
@@ -1083,6 +1225,142 @@
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
+			</calendar>
+			<calendar type="coptic">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1" draft="contributed">Tout</month>
+							<month type="2" draft="contributed">Baba</month>
+							<month type="3" draft="contributed">Hator</month>
+							<month type="4" draft="contributed">Kiahk</month>
+							<month type="5" draft="contributed">Toba</month>
+							<month type="6" draft="contributed">Amshir</month>
+							<month type="7" draft="contributed">Baramhat</month>
+							<month type="8" draft="contributed">Baramouda</month>
+							<month type="9" draft="contributed">Bashans</month>
+							<month type="10" draft="contributed">Paona</month>
+							<month type="11" draft="contributed">Epep</month>
+							<month type="12" draft="contributed">Mesra</month>
+							<month type="13" draft="contributed">Nasie</month>
+						</monthWidth>
+						<monthWidth type="narrow">
+							<month type="1" draft="contributed">1</month>
+							<month type="2" draft="contributed">2</month>
+							<month type="3" draft="contributed">3</month>
+							<month type="4" draft="contributed">4</month>
+							<month type="5" draft="contributed">5</month>
+							<month type="6" draft="contributed">6</month>
+							<month type="7" draft="contributed">7</month>
+							<month type="8" draft="contributed">8</month>
+							<month type="9" draft="contributed">9</month>
+							<month type="10" draft="contributed">10</month>
+							<month type="11" draft="contributed">11</month>
+							<month type="12" draft="contributed">12</month>
+							<month type="13" draft="contributed">13</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="abbreviated">
+							<month type="1" draft="contributed">Tout</month>
+							<month type="2" draft="contributed">Baba</month>
+							<month type="3" draft="contributed">Hator</month>
+							<month type="4" draft="contributed">Kiahk</month>
+							<month type="5" draft="contributed">Toba</month>
+							<month type="6" draft="contributed">Amshir</month>
+							<month type="7" draft="contributed">Baramhat</month>
+							<month type="8" draft="contributed">Baramouda</month>
+							<month type="9" draft="contributed">Bashans</month>
+							<month type="10" draft="contributed">Paona</month>
+							<month type="11" draft="contributed">Epep</month>
+							<month type="12" draft="contributed">Mesra</month>
+							<month type="13" draft="contributed">Nasie</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1" draft="contributed">Tout</month>
+							<month type="2" draft="contributed">Baba</month>
+							<month type="3" draft="contributed">Hator</month>
+							<month type="4" draft="contributed">Kiahk</month>
+							<month type="5" draft="contributed">Toba</month>
+							<month type="6" draft="contributed">Amshir</month>
+							<month type="7" draft="contributed">Baramhat</month>
+							<month type="8" draft="contributed">Baramouda</month>
+							<month type="9" draft="contributed">Bashans</month>
+							<month type="10" draft="contributed">Paona</month>
+							<month type="11" draft="contributed">Epep</month>
+							<month type="12" draft="contributed">Mesra</month>
+							<month type="13" draft="contributed">Nasie</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+			</calendar>
+			<calendar type="ethiopic">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1" draft="contributed">Meskerem</month>
+							<month type="2" draft="contributed">Tekemt</month>
+							<month type="3" draft="contributed">Hedar</month>
+							<month type="4" draft="contributed">Tahsas</month>
+							<month type="5" draft="contributed">Ter</month>
+							<month type="6" draft="contributed">Yekatit</month>
+							<month type="7" draft="contributed">Megabit</month>
+							<month type="8" draft="contributed">Miazia</month>
+							<month type="9" draft="contributed">Genbot</month>
+							<month type="10" draft="contributed">Sene</month>
+							<month type="11" draft="contributed">Hamle</month>
+							<month type="12" draft="contributed">Nehasse</month>
+							<month type="13" draft="contributed">Pagumen</month>
+						</monthWidth>
+						<monthWidth type="narrow">
+							<month type="1" draft="contributed">1</month>
+							<month type="2" draft="contributed">2</month>
+							<month type="3" draft="contributed">3</month>
+							<month type="4" draft="contributed">4</month>
+							<month type="5" draft="contributed">5</month>
+							<month type="6" draft="contributed">6</month>
+							<month type="7" draft="contributed">7</month>
+							<month type="8" draft="contributed">8</month>
+							<month type="9" draft="contributed">9</month>
+							<month type="10" draft="contributed">10</month>
+							<month type="11" draft="contributed">11</month>
+							<month type="12" draft="contributed">12</month>
+							<month type="13" draft="contributed">13</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="abbreviated">
+							<month type="1" draft="contributed">Meskerem</month>
+							<month type="2" draft="contributed">Tekemt</month>
+							<month type="3" draft="contributed">Hedar</month>
+							<month type="4" draft="contributed">Tahsas</month>
+							<month type="5" draft="contributed">Ter</month>
+							<month type="6" draft="contributed">Yekatit</month>
+							<month type="7" draft="contributed">Megabit</month>
+							<month type="8" draft="contributed">Miazia</month>
+							<month type="9" draft="contributed">Genbot</month>
+							<month type="10" draft="contributed">Sene</month>
+							<month type="11" draft="contributed">Hamle</month>
+							<month type="12" draft="contributed">Nehasse</month>
+							<month type="13" draft="contributed">Pagumen</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1" draft="contributed">Meskerem</month>
+							<month type="2" draft="contributed">Tekemt</month>
+							<month type="3" draft="contributed">Hedar</month>
+							<month type="4" draft="contributed">Tahsas</month>
+							<month type="5" draft="contributed">Ter</month>
+							<month type="6" draft="contributed">Yekatit</month>
+							<month type="7" draft="contributed">Megabit</month>
+							<month type="8" draft="contributed">Miazia</month>
+							<month type="9" draft="contributed">Genbot</month>
+							<month type="10" draft="contributed">Sene</month>
+							<month type="11" draft="contributed">Hamle</month>
+							<month type="12" draft="contributed">Nehasse</month>
+							<month type="13" draft="contributed">Pagumen</month>
+						</monthWidth>
+					</monthContext>
+				</months>
 			</calendar>
 			<calendar type="gregorian">
 				<months>
@@ -1100,6 +1378,20 @@
 							<month type="10">10月</month>
 							<month type="11">11月</month>
 							<month type="12">12月</month>
+						</monthWidth>
+						<monthWidth type="narrow">
+							<month type="1">1</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<month type="1">1月</month>
@@ -1172,6 +1464,15 @@
 							<day type="fri">周五</day>
 							<day type="sat">周六</day>
 						</dayWidth>
+						<dayWidth type="narrow">
+							<day type="sun" draft="contributed">日</day>
+							<day type="mon" draft="contributed">一</day>
+							<day type="tue" draft="contributed">二</day>
+							<day type="wed" draft="contributed">三</day>
+							<day type="thu" draft="contributed">四</day>
+							<day type="fri" draft="contributed">五</day>
+							<day type="sat" draft="contributed">六</day>
+						</dayWidth>
 						<dayWidth type="wide">
 							<day type="sun">星期日</day>
 							<day type="mon">星期一</day>
@@ -1183,6 +1484,15 @@
 						</dayWidth>
 					</dayContext>
 					<dayContext type="stand-alone">
+						<dayWidth type="abbreviated">
+							<day type="sun" draft="contributed">周日</day>
+							<day type="mon" draft="contributed">周一</day>
+							<day type="tue" draft="contributed">周二</day>
+							<day type="wed" draft="contributed">周三</day>
+							<day type="thu" draft="contributed">周四</day>
+							<day type="fri" draft="contributed">周五</day>
+							<day type="sat" draft="contributed">周六</day>
+						</dayWidth>
 						<dayWidth type="narrow">
 							<day type="sun">日</day>
 							<day type="mon">一</day>
@@ -1191,6 +1501,15 @@
 							<day type="thu">四</day>
 							<day type="fri">五</day>
 							<day type="sat">六</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="sun" draft="contributed">星期日</day>
+							<day type="mon" draft="contributed">星期一</day>
+							<day type="tue" draft="contributed">星期二</day>
+							<day type="wed" draft="contributed">星期三</day>
+							<day type="thu" draft="contributed">星期四</day>
+							<day type="fri" draft="contributed">星期五</day>
+							<day type="sat" draft="contributed">星期六</day>
 						</dayWidth>
 					</dayContext>
 				</days>
@@ -1202,11 +1521,31 @@
 							<quarter type="3">3季</quarter>
 							<quarter type="4">4季</quarter>
 						</quarterWidth>
+						<quarterWidth type="narrow">
+							<quarter type="1">1</quarter>
+							<quarter type="2">2</quarter>
+							<quarter type="3">3</quarter>
+							<quarter type="4">4</quarter>
+						</quarterWidth>
 						<quarterWidth type="wide">
 							<quarter type="1">第1季度</quarter>
 							<quarter type="2">第2季度</quarter>
 							<quarter type="3">第3季度</quarter>
 							<quarter type="4">第4季度</quarter>
+						</quarterWidth>
+					</quarterContext>
+					<quarterContext type="stand-alone">
+						<quarterWidth type="abbreviated">
+							<quarter type="1">一季度</quarter>
+							<quarter type="2">二季度</quarter>
+							<quarter type="3">三季度</quarter>
+							<quarter type="4">四季度</quarter>
+						</quarterWidth>
+						<quarterWidth type="wide">
+							<quarter type="1">第一季度</quarter>
+							<quarter type="2">第二季度</quarter>
+							<quarter type="3">第三季度</quarter>
+							<quarter type="4">第四季度</quarter>
 						</quarterWidth>
 					</quarterContext>
 				</quarters>
@@ -1219,6 +1558,7 @@
 							<dayPeriod type="midDay">中午</dayPeriod>
 							<dayPeriod type="morning">上午</dayPeriod>
 							<dayPeriod type="night">晚上</dayPeriod>
+							<dayPeriod type="noon">中午</dayPeriod>
 							<dayPeriod type="pm">下午</dayPeriod>
 							<dayPeriod type="weeHours">凌晨</dayPeriod>
 						</dayPeriodWidth>
@@ -1298,7 +1638,7 @@
 					<availableFormats>
 						<dateFormatItem id="d">d日</dateFormatItem>
 						<dateFormatItem id="Ed">d日E</dateFormatItem>
-						<dateFormatItem id="EEEd">d日E</dateFormatItem>
+						<dateFormatItem id="EEEd">d日EEE</dateFormatItem>
 						<dateFormatItem id="h">ah时</dateFormatItem>
 						<dateFormatItem id="H">H时</dateFormatItem>
 						<dateFormatItem id="hm">ah:mm</dateFormatItem>
@@ -1310,27 +1650,28 @@
 						<dateFormatItem id="MEd">M-dE</dateFormatItem>
 						<dateFormatItem id="MMdd">MM-dd</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
-						<dateFormatItem id="MMMd">MMMd日</dateFormatItem>
-						<dateFormatItem id="MMMEd">MMMd日E</dateFormatItem>
-						<dateFormatItem id="MMMMdd">MMMMdd日</dateFormatItem>
+						<dateFormatItem id="MMMd">M月d日</dateFormatItem>
+						<dateFormatItem id="MMMEd">M月d日E</dateFormatItem>
+						<dateFormatItem id="MMMMdd">M月dd日</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">y年</dateFormatItem>
 						<dateFormatItem id="yM">yyyy-M</dateFormatItem>
+						<dateFormatItem id="yMd">y年M月d日</dateFormatItem>
 						<dateFormatItem id="yMEd">y年M月d日，E</dateFormatItem>
-						<dateFormatItem id="yMMM">y年MMM</dateFormatItem>
-						<dateFormatItem id="yMMMd">y年MMMd日</dateFormatItem>
-						<dateFormatItem id="yMMMEd">y年MMMd日EEE</dateFormatItem>
+						<dateFormatItem id="yMMM">y年M月</dateFormatItem>
+						<dateFormatItem id="yMMMd">y年M月d日</dateFormatItem>
+						<dateFormatItem id="yMMMEd">y年M月d日EEE</dateFormatItem>
 						<dateFormatItem id="yQ">y年QQQ</dateFormatItem>
 						<dateFormatItem id="yQQQ">y年QQQ</dateFormatItem>
-						<dateFormatItem id="yyMM">yy-MM</dateFormatItem>
-						<dateFormatItem id="yyMMM">yy年MMM</dateFormatItem>
+						<dateFormatItem id="yyMM" draft="contributed">yy-MM</dateFormatItem>
+						<dateFormatItem id="yyMMM">yy年M月</dateFormatItem>
 						<dateFormatItem id="yyQ">yy年第Q季度</dateFormatItem>
 						<dateFormatItem id="yyyy">y年</dateFormatItem>
 						<dateFormatItem id="yyyyM">y年M月</dateFormatItem>
-						<dateFormatItem id="yyyyMMMM">y年MMMM</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">y年M月</dateFormatItem>
 					</availableFormats>
 					<intervalFormats>
-						<intervalFormatFallback>{0}–{1}</intervalFormatFallback>
+						<intervalFormatFallback draft="contributed">{0}–{1}</intervalFormatFallback>
 						<intervalFormatItem id="d">
 							<greatestDifference id="d">d日至d日</greatestDifference>
 						</intervalFormatItem>
@@ -1353,8 +1694,8 @@
 							<greatestDifference id="h">vah至h时</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hv">
-							<greatestDifference id="a">vH时-H时</greatestDifference>
-							<greatestDifference id="H">vH时-H时</greatestDifference>
+							<greatestDifference id="a">HH–HH v</greatestDifference>
+							<greatestDifference id="H">HH–HH v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="M">
 							<greatestDifference id="M">L至L</greatestDifference>
@@ -1368,7 +1709,7 @@
 							<greatestDifference id="M">M-dE至M-dE</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMM">
-							<greatestDifference id="M">LLLL至LLLL</greatestDifference>
+							<greatestDifference id="M">LLL至LLL</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMMd">
 							<greatestDifference id="d">M月d日至d日</greatestDifference>
@@ -1421,12 +1762,21 @@
 					</field>
 					<field type="year">
 						<displayName>年</displayName>
+						<relative type="-1">去年</relative>
+						<relative type="0">今年</relative>
+						<relative type="1">明年</relative>
 					</field>
 					<field type="month">
 						<displayName>月</displayName>
+						<relative type="-1">上个月</relative>
+						<relative type="0">本月</relative>
+						<relative type="1">下个月</relative>
 					</field>
 					<field type="week">
 						<displayName>周</displayName>
+						<relative type="-1">上周</relative>
+						<relative type="0">本周</relative>
+						<relative type="1">下周</relative>
 					</field>
 					<field type="day">
 						<displayName>日</displayName>
@@ -1456,8 +1806,198 @@
 					</field>
 				</fields>
 			</calendar>
+			<calendar type="hebrew">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1" draft="contributed">Tishri</month>
+							<month type="2" draft="contributed">Heshvan</month>
+							<month type="3" draft="contributed">Kislev</month>
+							<month type="4" draft="contributed">Tevet</month>
+							<month type="5" draft="contributed">Shevat</month>
+							<month type="6" draft="contributed">Adar I</month>
+							<month type="7" draft="contributed">Adar</month>
+							<month type="7" draft="contributed" yeartype="leap">Adar II</month>
+							<month type="8" draft="contributed">Nisan</month>
+							<month type="9" draft="contributed">Iyar</month>
+							<month type="10" draft="contributed">Sivan</month>
+							<month type="11" draft="contributed">Tamuz</month>
+							<month type="12" draft="contributed">Av</month>
+							<month type="13" draft="contributed">Elul</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1" draft="contributed">Tishri</month>
+							<month type="2" draft="contributed">Heshvan</month>
+							<month type="3" draft="contributed">Kislev</month>
+							<month type="4" draft="contributed">Tevet</month>
+							<month type="5" draft="contributed">Shevat</month>
+							<month type="6" draft="contributed">Adar I</month>
+							<month type="7" draft="contributed">Adar</month>
+							<month type="7" draft="contributed" yeartype="leap">Adar II</month>
+							<month type="8" draft="contributed">Nisan</month>
+							<month type="9" draft="contributed">Iyar</month>
+							<month type="10" draft="contributed">Sivan</month>
+							<month type="11" draft="contributed">Tamuz</month>
+							<month type="12" draft="contributed">Av</month>
+							<month type="13" draft="contributed">Elul</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="abbreviated">
+							<month type="1" draft="contributed">Tishri</month>
+							<month type="2" draft="contributed">Heshvan</month>
+							<month type="3" draft="contributed">Kislev</month>
+							<month type="4" draft="contributed">Tevet</month>
+							<month type="5" draft="contributed">Shevat</month>
+							<month type="6" draft="contributed">Adar I</month>
+							<month type="7" draft="contributed">Adar</month>
+							<month type="7" draft="contributed" yeartype="leap">Adar II</month>
+							<month type="8" draft="contributed">Nisan</month>
+							<month type="9" draft="contributed">Iyar</month>
+							<month type="10" draft="contributed">Sivan</month>
+							<month type="11" draft="contributed">Tamuz</month>
+							<month type="12" draft="contributed">Av</month>
+							<month type="13" draft="contributed">Elul</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1" draft="contributed">Tishri</month>
+							<month type="2" draft="contributed">Heshvan</month>
+							<month type="3" draft="contributed">Kislev</month>
+							<month type="4" draft="contributed">Tevet</month>
+							<month type="5" draft="contributed">Shevat</month>
+							<month type="6" draft="contributed">Adar I</month>
+							<month type="7" draft="contributed">Adar</month>
+							<month type="7" draft="contributed" yeartype="leap">Adar II</month>
+							<month type="8" draft="contributed">Nisan</month>
+							<month type="9" draft="contributed">Iyar</month>
+							<month type="10" draft="contributed">Sivan</month>
+							<month type="11" draft="contributed">Tamuz</month>
+							<month type="12" draft="contributed">Av</month>
+							<month type="13" draft="contributed">Elul</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+			</calendar>
+			<calendar type="indian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1" draft="contributed">Chaitra</month>
+							<month type="2" draft="contributed">Vaisakha</month>
+							<month type="3" draft="contributed">Jyaistha</month>
+							<month type="4" draft="contributed">Asadha</month>
+							<month type="5" draft="contributed">Sravana</month>
+							<month type="6" draft="contributed">Bhadra</month>
+							<month type="7" draft="contributed">Asvina</month>
+							<month type="8" draft="contributed">Kartika</month>
+							<month type="9" draft="contributed">Agrahayana</month>
+							<month type="10" draft="contributed">Pausa</month>
+							<month type="11" draft="contributed">Magha</month>
+							<month type="12" draft="contributed">Phalguna</month>
+						</monthWidth>
+						<monthWidth type="narrow">
+							<month type="1" draft="contributed">1</month>
+							<month type="2" draft="contributed">2</month>
+							<month type="3" draft="contributed">3</month>
+							<month type="4" draft="contributed">4</month>
+							<month type="5" draft="contributed">5</month>
+							<month type="6" draft="contributed">6</month>
+							<month type="7" draft="contributed">7</month>
+							<month type="8" draft="contributed">8</month>
+							<month type="9" draft="contributed">9</month>
+							<month type="10" draft="contributed">10</month>
+							<month type="11" draft="contributed">11</month>
+							<month type="12" draft="contributed">12</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="abbreviated">
+							<month type="1" draft="contributed">Chaitra</month>
+							<month type="2" draft="contributed">Vaisakha</month>
+							<month type="3" draft="contributed">Jyaistha</month>
+							<month type="4" draft="contributed">Asadha</month>
+							<month type="5" draft="contributed">Sravana</month>
+							<month type="6" draft="contributed">Bhadra</month>
+							<month type="7" draft="contributed">Asvina</month>
+							<month type="8" draft="contributed">Kartika</month>
+							<month type="9" draft="contributed">Agrahayana</month>
+							<month type="10" draft="contributed">Pausa</month>
+							<month type="11" draft="contributed">Magha</month>
+							<month type="12" draft="contributed">Phalguna</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1" draft="contributed">Chaitra</month>
+							<month type="2" draft="contributed">Vaisakha</month>
+							<month type="3" draft="contributed">Jyaistha</month>
+							<month type="4" draft="contributed">Asadha</month>
+							<month type="5" draft="contributed">Sravana</month>
+							<month type="6" draft="contributed">Bhadra</month>
+							<month type="7" draft="contributed">Asvina</month>
+							<month type="8" draft="contributed">Kartika</month>
+							<month type="9" draft="contributed">Agrahayana</month>
+							<month type="10" draft="contributed">Pausa</month>
+							<month type="11" draft="contributed">Magha</month>
+							<month type="12" draft="contributed">Phalguna</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+			</calendar>
 			<calendar type="islamic">
-				<dateFormats> 
+				<months>
+					<monthContext type="format">
+						<monthWidth type="narrow">
+							<month type="1" draft="contributed">1</month>
+							<month type="2" draft="contributed">2</month>
+							<month type="3" draft="contributed">3</month>
+							<month type="4" draft="contributed">4</month>
+							<month type="5" draft="contributed">5</month>
+							<month type="6" draft="contributed">6</month>
+							<month type="7" draft="contributed">7</month>
+							<month type="8" draft="contributed">8</month>
+							<month type="9" draft="contributed">9</month>
+							<month type="10" draft="contributed">10</month>
+							<month type="11" draft="contributed">11</month>
+							<month type="12" draft="contributed">12</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="abbreviated">
+							<month type="1" draft="contributed">Muh.</month>
+							<month type="2" draft="contributed">Saf.</month>
+							<month type="3" draft="contributed">Rab. I</month>
+							<month type="4" draft="contributed">Rab. II</month>
+							<month type="5" draft="contributed">Jum. I</month>
+							<month type="6" draft="contributed">Jum. II</month>
+							<month type="7" draft="contributed">Raj.</month>
+							<month type="8" draft="contributed">Sha.</month>
+							<month type="9" draft="contributed">Ram.</month>
+							<month type="10" draft="contributed">Shaw.</month>
+							<month type="11" draft="contributed">Dhuʻl-Q.</month>
+							<month type="12" draft="contributed">Dhuʻl-H.</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1" draft="contributed">Muharram</month>
+							<month type="2" draft="contributed">Safar</month>
+							<month type="3" draft="contributed">Rabiʻ I</month>
+							<month type="4" draft="contributed">Rabiʻ II</month>
+							<month type="5" draft="contributed">Jumada I</month>
+							<month type="6" draft="contributed">Jumada II</month>
+							<month type="7" draft="contributed">Rajab</month>
+							<month type="8" draft="contributed">Shaʻban</month>
+							<month type="9" draft="contributed">Ramadan</month>
+							<month type="10" draft="contributed">Shawwal</month>
+							<month type="11" draft="contributed">Dhuʻl-Qiʻdah</month>
+							<month type="12" draft="contributed">Dhuʻl-Hijjah</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+				<eras>
+					<eraAbbr>
+						<era type="0" draft="contributed">回历</era>
+					</eraAbbr>
+				</eras>
+				<dateFormats>
+
 					<dateFormatLength type="full">
 						<dateFormat>
 							<pattern>Gy年M月d日EEEE</pattern>
@@ -1470,7 +2010,7 @@
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>Gyy-MM-dd</pattern>
+							<pattern>Gy年M月d日</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
@@ -1479,10 +2019,12 @@
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
-				<dateTimeFormats> 
+				<dateTimeFormats>
+
 					<availableFormats>
 						<dateFormatItem id="d">d日</dateFormatItem>
 						<dateFormatItem id="Ed">d日E</dateFormatItem>
+						<dateFormatItem id="EEEd" draft="contributed">d日EEE</dateFormatItem>
 						<dateFormatItem id="h">ah时</dateFormatItem>
 						<dateFormatItem id="H">H时</dateFormatItem>
 						<dateFormatItem id="hm">ah:mm</dateFormatItem>
@@ -1494,21 +2036,29 @@
 						<dateFormatItem id="MEd">M-dE</dateFormatItem>
 						<dateFormatItem id="MMdd">MM-dd</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
-						<dateFormatItem id="MMMd">MMMd日</dateFormatItem>
-						<dateFormatItem id="MMMEd">MMMd日E</dateFormatItem>
-						<dateFormatItem id="MMMMdd">MMMMdd日</dateFormatItem>
+						<dateFormatItem id="MMMd">M月d日</dateFormatItem>
+						<dateFormatItem id="MMMEd">M月d日E</dateFormatItem>
+						<dateFormatItem id="MMMMdd">M月dd日</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
+						<dateFormatItem id="y" draft="contributed">y年</dateFormatItem>
+						<dateFormatItem id="yM" draft="contributed">y年M月</dateFormatItem>
+						<dateFormatItem id="yMEd" draft="contributed">y/M/dEEE</dateFormatItem>
+						<dateFormatItem id="yMMM" draft="contributed">y年M月</dateFormatItem>
+						<dateFormatItem id="yMMMEd" draft="contributed">y年M月d日EEE</dateFormatItem>
+						<dateFormatItem id="yQ" draft="contributed">y年第Q季度</dateFormatItem>
+						<dateFormatItem id="yQQQ" draft="contributed">y年第Q季度</dateFormatItem>
 						<dateFormatItem id="yyyy">GGGyy年</dateFormatItem>
 						<dateFormatItem id="yyyyM">GGGGGyy-MM</dateFormatItem>
 						<dateFormatItem id="yyyyMd">GGGGGyy-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyyMMM">GGGGGyy年MMM</dateFormatItem>
-						<dateFormatItem id="yyyyMMMd">GGGGGyy年MMMd日</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">GGGGGyy年M月</dateFormatItem>
+						<dateFormatItem id="yyyyMMMd">GGGGGyy年M月d日</dateFormatItem>
 						<dateFormatItem id="yyyyQ">Gy年QQQ</dateFormatItem>
 					</availableFormats>
 				</dateTimeFormats>
 			</calendar>
 			<calendar type="japanese">
-				<eras> 
+				<eras>
+
 					<eraAbbr>
 						<era type="0">大化</era>
 						<era type="1">白雉</era>
@@ -1748,7 +2298,8 @@
 						<era type="235">平成</era>
 					</eraAbbr>
 				</eras>
-				<dateFormats> 
+				<dateFormats>
+
 					<dateFormatLength type="full">
 						<dateFormat>
 							<pattern>Gy年M月d日EEEE</pattern>
@@ -1761,7 +2312,7 @@
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>Gyy-MM-dd</pattern>
+							<pattern>Gy年M月d日</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
@@ -1771,9 +2322,12 @@
 					</dateFormatLength>
 				</dateFormats>
 				<dateTimeFormats>
-					<availableFormats> 
+					<availableFormats>
+
 						<dateFormatItem id="d">d日</dateFormatItem>
 						<dateFormatItem id="Ed">d日E</dateFormatItem>
+						<dateFormatItem id="EEEd" draft="contributed">d日EEE</dateFormatItem>
+						<dateFormatItem id="Gy">Gy年</dateFormatItem>
 						<dateFormatItem id="h">ah时</dateFormatItem>
 						<dateFormatItem id="H">H时</dateFormatItem>
 						<dateFormatItem id="hm">ah:mm</dateFormatItem>
@@ -1784,17 +2338,81 @@
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMd">M月d日</dateFormatItem>
 						<dateFormatItem id="MMMEd">M月d日E</dateFormatItem>
-						<dateFormatItem id="MMMMd">M月d日</dateFormatItem>
+						<dateFormatItem id="y">Gy年</dateFormatItem>
 						<dateFormatItem id="yyyy">Gy年</dateFormatItem>
 						<dateFormatItem id="yyyyM">Gy-MM</dateFormatItem>
 						<dateFormatItem id="yyyyMd">Gy-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyyMEd">Gy-M-d（EEE）</dateFormatItem>
-						<dateFormatItem id="yyyyMMM">Gy年MMM</dateFormatItem>
-						<dateFormatItem id="yyyyMMMd">Gy年MMMd日</dateFormatItem>
-						<dateFormatItem id="yyyyMMMEd">Gy年MMMd日E</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">Gy年M月</dateFormatItem>
+						<dateFormatItem id="yyyyMMMd">Gy年M月d日</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">Gy年M月d日E</dateFormatItem>
 						<dateFormatItem id="yyyyQ">Gy年QQQ</dateFormatItem>
 					</availableFormats>
 				</dateTimeFormats>
+			</calendar>
+			<calendar type="persian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1" draft="contributed">Farvardin</month>
+							<month type="2" draft="contributed">Ordibehesht</month>
+							<month type="3" draft="contributed">Khordad</month>
+							<month type="4" draft="contributed">Tir</month>
+							<month type="5" draft="contributed">Mordad</month>
+							<month type="6" draft="contributed">Shahrivar</month>
+							<month type="7" draft="contributed">Mehr</month>
+							<month type="8" draft="contributed">Aban</month>
+							<month type="9" draft="contributed">Azar</month>
+							<month type="10" draft="contributed">Dey</month>
+							<month type="11" draft="contributed">Bahman</month>
+							<month type="12" draft="contributed">Esfand</month>
+						</monthWidth>
+						<monthWidth type="narrow">
+							<month type="1" draft="contributed">1</month>
+							<month type="2" draft="contributed">2</month>
+							<month type="3" draft="contributed">3</month>
+							<month type="4" draft="contributed">4</month>
+							<month type="5" draft="contributed">5</month>
+							<month type="6" draft="contributed">6</month>
+							<month type="7" draft="contributed">7</month>
+							<month type="8" draft="contributed">8</month>
+							<month type="9" draft="contributed">9</month>
+							<month type="10" draft="contributed">10</month>
+							<month type="11" draft="contributed">11</month>
+							<month type="12" draft="contributed">12</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="abbreviated">
+							<month type="1" draft="contributed">Farvardin</month>
+							<month type="2" draft="contributed">Ordibehesht</month>
+							<month type="3" draft="contributed">Khordad</month>
+							<month type="4" draft="contributed">Tir</month>
+							<month type="5" draft="contributed">Mordad</month>
+							<month type="6" draft="contributed">Shahrivar</month>
+							<month type="7" draft="contributed">Mehr</month>
+							<month type="8" draft="contributed">Aban</month>
+							<month type="9" draft="contributed">Azar</month>
+							<month type="10" draft="contributed">Dey</month>
+							<month type="11" draft="contributed">Bahman</month>
+							<month type="12" draft="contributed">Esfand</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1" draft="contributed">Farvardin</month>
+							<month type="2" draft="contributed">Ordibehesht</month>
+							<month type="3" draft="contributed">Khordad</month>
+							<month type="4" draft="contributed">Tir</month>
+							<month type="5" draft="contributed">Mordad</month>
+							<month type="6" draft="contributed">Shahrivar</month>
+							<month type="7" draft="contributed">Mehr</month>
+							<month type="8" draft="contributed">Aban</month>
+							<month type="9" draft="contributed">Azar</month>
+							<month type="10" draft="contributed">Dey</month>
+							<month type="11" draft="contributed">Bahman</month>
+							<month type="12" draft="contributed">Esfand</month>
+						</monthWidth>
+					</monthContext>
+				</months>
 			</calendar>
 			<calendar type="roc">
 				<eras>
@@ -1826,9 +2444,12 @@
 					</dateFormatLength>
 				</dateFormats>
 				<dateTimeFormats>
-					<availableFormats> 
+					<availableFormats>
+
 						<dateFormatItem id="d">d日</dateFormatItem>
 						<dateFormatItem id="Ed">d日E</dateFormatItem>
+						<dateFormatItem id="EEEd" draft="contributed">d日EEE</dateFormatItem>
+						<dateFormatItem id="Gy">Gy年</dateFormatItem>
 						<dateFormatItem id="h">ah时</dateFormatItem>
 						<dateFormatItem id="H">H时</dateFormatItem>
 						<dateFormatItem id="hm">ah:mm</dateFormatItem>
@@ -1837,17 +2458,19 @@
 						<dateFormatItem id="Md">M-d</dateFormatItem>
 						<dateFormatItem id="MEd">M-dE</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
+						<dateFormatItem id="MMMd">M月d日</dateFormatItem>
 						<dateFormatItem id="MMMEd">M月d日E</dateFormatItem>
+						<dateFormatItem id="y">Gy年</dateFormatItem>
 						<dateFormatItem id="yyyy">Gy年</dateFormatItem>
 						<dateFormatItem id="yyyyM">Gy-M</dateFormatItem>
 						<dateFormatItem id="yyyyMd">Gy-M-d</dateFormatItem>
 						<dateFormatItem id="yyyyMEd">Gy-M-d（EEE）</dateFormatItem>
 						<dateFormatItem id="yyyyMM">Gy-MM</dateFormatItem>
-						<dateFormatItem id="yyyyMMM">Gy年MMM</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">Gy年M月</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">Gy年M月d日</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">Gy年M月d日EEE</dateFormatItem>
 						<dateFormatItem id="yyyyQ">Gy年第Q季度</dateFormatItem>
-						<dateFormatItem id="yyyyQQQ">Gy年QQQQ</dateFormatItem>
+						<dateFormatItem id="yyyyQQQ" draft="provisional">Gy年QQQQ</dateFormatItem>
 					</availableFormats>
 				</dateTimeFormats>
 			</calendar>
@@ -1857,8 +2480,13 @@
 			<gmtFormat>格林尼治标准时间{0}</gmtFormat>
 			<gmtZeroFormat>格林尼治标准时间</gmtZeroFormat>
 			<regionFormat>{0}时间</regionFormat>
+			<fallbackFormat>{1}（{0}）</fallbackFormat>
+			<fallbackRegionFormat>{1}时间（{0}）</fallbackRegionFormat>
+			<zone type="America/North_Dakota/Beulah">
+				<exemplarCity>北达科他州比尤拉</exemplarCity>
+			</zone>
 			<zone type="Etc/Unknown">
-				<exemplarCity>未知</exemplarCity>
+				<exemplarCity>未知城市</exemplarCity>
 			</zone>
 			<zone type="Europe/Andorra">
 				<exemplarCity>安道尔</exemplarCity>
@@ -1891,13 +2519,13 @@
 				<exemplarCity>罗瑟拉</exemplarCity>
 			</zone>
 			<zone type="Antarctica/Palmer">
-				<exemplarCity>帕默尔</exemplarCity>
+				<exemplarCity draft="contributed">帕默尔</exemplarCity>
 			</zone>
 			<zone type="Antarctica/South_Pole">
 				<exemplarCity>南极</exemplarCity>
 			</zone>
 			<zone type="Antarctica/Syowa">
-				<exemplarCity>斯尤瓦</exemplarCity>
+				<exemplarCity draft="contributed">斯尤瓦</exemplarCity>
 			</zone>
 			<zone type="Antarctica/Mawson">
 				<exemplarCity>莫森</exemplarCity>
@@ -2031,6 +2659,9 @@
 			<zone type="Africa/Porto-Novo">
 				<exemplarCity>波多诺伏</exemplarCity>
 			</zone>
+			<zone type="America/St_Barthelemy">
+				<exemplarCity>圣巴泰勒米岛</exemplarCity>
+			</zone>
 			<zone type="Atlantic/Bermuda">
 				<exemplarCity>百慕大</exemplarCity>
 			</zone>
@@ -2128,7 +2759,7 @@
 				<exemplarCity>斯威夫特卡伦特</exemplarCity>
 			</zone>
 			<zone type="America/Cambridge_Bay">
-				<exemplarCity>坎布里季贝</exemplarCity>
+				<exemplarCity draft="contributed">坎布里季贝</exemplarCity>
 			</zone>
 			<zone type="America/Regina">
 				<exemplarCity>里贾纳</exemplarCity>
@@ -2179,7 +2810,7 @@
 				<exemplarCity>格莱斯贝</exemplarCity>
 			</zone>
 			<zone type="America/Blanc-Sablon">
-				<exemplarCity>布朗萨布隆</exemplarCity>
+				<exemplarCity>布兰克萨布隆</exemplarCity>
 			</zone>
 			<zone type="America/St_Johns">
 				<exemplarCity>圣约翰</exemplarCity>
@@ -2308,7 +2939,7 @@
 				<exemplarCity>斐济</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Stanley">
-				<exemplarCity>史丹利</exemplarCity>
+				<exemplarCity>斯坦利</exemplarCity>
 			</zone>
 			<zone type="Pacific/Truk">
 				<exemplarCity>特鲁克群岛</exemplarCity>
@@ -2329,9 +2960,6 @@
 				<exemplarCity>利伯维尔</exemplarCity>
 			</zone>
 			<zone type="Europe/London">
-				<short>
-					<daylight>BST</daylight>
-				</short>
 				<exemplarCity>伦敦</exemplarCity>
 			</zone>
 			<zone type="America/Grenada">
@@ -2344,7 +2972,7 @@
 				<exemplarCity>卡宴</exemplarCity>
 			</zone>
 			<zone type="Europe/Guernsey">
-				<exemplarCity>根西岛</exemplarCity>
+				<exemplarCity>格恩西岛</exemplarCity>
 			</zone>
 			<zone type="Africa/Accra">
 				<exemplarCity>阿克拉</exemplarCity>
@@ -2362,7 +2990,7 @@
 				<exemplarCity>斯科列斯比桑德</exemplarCity>
 			</zone>
 			<zone type="America/Danmarkshavn">
-				<exemplarCity>Danmarkshavn（格陵兰东北城市）</exemplarCity>
+				<exemplarCity>丹马沙文</exemplarCity>
 			</zone>
 			<zone type="Africa/Banjul">
 				<exemplarCity>班珠尔</exemplarCity>
@@ -2500,7 +3128,7 @@
 				<exemplarCity>阿克图</exemplarCity>
 			</zone>
 			<zone type="Asia/Oral">
-				<exemplarCity>乌拉尔</exemplarCity>
+				<exemplarCity draft="contributed">乌拉尔</exemplarCity>
 			</zone>
 			<zone type="Asia/Aqtobe">
 				<exemplarCity>阿克托别</exemplarCity>
@@ -2555,6 +3183,9 @@
 			</zone>
 			<zone type="Europe/Podgorica">
 				<exemplarCity>波德戈里察</exemplarCity>
+			</zone>
+			<zone type="America/Marigot">
+				<exemplarCity>马里戈特</exemplarCity>
 			</zone>
 			<zone type="Indian/Antananarivo">
 				<exemplarCity>安塔那利佛</exemplarCity>
@@ -2758,7 +3389,7 @@
 				<exemplarCity>莫斯科</exemplarCity>
 			</zone>
 			<zone type="Europe/Volgograd">
-				<exemplarCity>伏尔加格勒</exemplarCity>
+				<exemplarCity draft="contributed">伏尔加格勒</exemplarCity>
 			</zone>
 			<zone type="Europe/Samara">
 				<exemplarCity>萨马拉</exemplarCity>
@@ -2806,10 +3437,10 @@
 				<exemplarCity>瓜达尔卡纳尔</exemplarCity>
 			</zone>
 			<zone type="Indian/Mahe">
-				<exemplarCity>马埃</exemplarCity>
+				<exemplarCity>马埃岛</exemplarCity>
 			</zone>
 			<zone type="Africa/Khartoum">
-				<exemplarCity>哈土穆</exemplarCity>
+				<exemplarCity>喀土穆</exemplarCity>
 			</zone>
 			<zone type="Europe/Stockholm">
 				<exemplarCity>斯德哥尔摩</exemplarCity>
@@ -2821,7 +3452,7 @@
 				<exemplarCity>圣赫勒拿</exemplarCity>
 			</zone>
 			<zone type="Europe/Ljubljana">
-				<exemplarCity>卢布尔维</exemplarCity>
+				<exemplarCity>卢布尔雅那</exemplarCity>
 			</zone>
 			<zone type="Arctic/Longyearbyen">
 				<exemplarCity>朗伊尔城</exemplarCity>
@@ -2971,7 +3602,7 @@
 				<exemplarCity>芝加哥</exemplarCity>
 			</zone>
 			<zone type="America/Menominee">
-				<exemplarCity>密诺米尼</exemplarCity>
+				<exemplarCity draft="contributed">密诺米尼</exemplarCity>
 			</zone>
 			<zone type="America/Indiana/Vincennes">
 				<exemplarCity>温森斯</exemplarCity>
@@ -3086,9 +3717,6 @@
 					<generic>非洲南部时间</generic>
 					<standard>南部非洲标准时间</standard>
 				</long>
-				<short>
-					<generic>SAT</generic>
-				</short>
 			</metazone>
 			<metazone type="Africa_Western">
 				<long>
@@ -3108,9 +3736,6 @@
 					<standard>阿拉斯加标准时间</standard>
 					<daylight>阿拉斯加夏令时间</daylight>
 				</long>
-				<short>
-					<generic>AKT</generic>
-				</short>
 			</metazone>
 			<metazone type="Alaska_Hawaii">
 				<long>
@@ -3118,9 +3743,6 @@
 					<standard>阿拉斯加－夏威夷标准时间</standard>
 					<daylight>阿拉斯加－夏威夷夏令时间</daylight>
 				</long>
-				<short>
-					<generic>AHT</generic>
-				</short>
 			</metazone>
 			<metazone type="Almaty">
 				<long>
@@ -3130,6 +3752,7 @@
 			</metazone>
 			<metazone type="Amazon">
 				<long>
+					<generic>亚马逊时间</generic>
 					<standard>亚马逊标准时间</standard>
 					<daylight>亚马逊夏令时间</daylight>
 				</long>
@@ -3140,9 +3763,6 @@
 					<standard>中部标准时间</standard>
 					<daylight>中部夏令时间</daylight>
 				</long>
-				<short>
-					<generic>CT</generic>
-				</short>
 			</metazone>
 			<metazone type="America_Eastern">
 				<long>
@@ -3150,9 +3770,6 @@
 					<standard>东部标准时间</standard>
 					<daylight>东部夏令时间</daylight>
 				</long>
-				<short>
-					<generic>ET</generic>
-				</short>
 			</metazone>
 			<metazone type="America_Mountain">
 				<long>
@@ -3160,9 +3777,6 @@
 					<standard>山区标准时间</standard>
 					<daylight>山区夏令时间</daylight>
 				</long>
-				<short>
-					<generic>MT</generic>
-				</short>
 			</metazone>
 			<metazone type="America_Pacific">
 				<long>
@@ -3170,12 +3784,10 @@
 					<standard>太平洋标准时间</standard>
 					<daylight>太平洋夏令时间</daylight>
 				</long>
-				<short>
-					<generic>PT</generic>
-				</short>
 			</metazone>
 			<metazone type="Anadyr">
 				<long>
+					<generic draft="contributed">阿纳德尔时间</generic>
 					<standard>阿纳德尔标准时间</standard>
 					<daylight>阿纳德尔夏令时间</daylight>
 				</long>
@@ -3185,59 +3797,44 @@
 					<standard>阿克图标准时间</standard>
 					<daylight>阿克图夏令时间</daylight>
 				</long>
-				<short>
-					<standard>AQTT（阿克套）</standard>
-					<daylight>AQTST（阿克套）</daylight>
-				</short>
 			</metazone>
 			<metazone type="Aqtobe">
 				<long>
-					<standard>阿克托别标准时间</standard>
-					<daylight>阿克托别夏令时间</daylight>
+					<standard draft="contributed">阿克托别标准时间</standard>
+					<daylight draft="contributed">阿克托别夏令时间</daylight>
 				</long>
-				<short>
-					<standard>AQTT（阿克托别）</standard>
-					<daylight>AQTST（阿克托别）</daylight>
-				</short>
 			</metazone>
 			<metazone type="Arabian">
 				<long>
-					<generic>阿拉伯时间</generic>
-					<standard>阿拉伯标准时间</standard>
-					<daylight>阿拉伯夏令时间</daylight>
+					<generic draft="contributed">阿拉伯时间</generic>
+					<standard draft="contributed">阿拉伯标准时间</standard>
+					<daylight draft="contributed">阿拉伯夏令时间</daylight>
 				</long>
-				<short>
-					<generic>AT（阿拉伯）</generic>
-					<standard>AST（阿拉伯）</standard>
-					<daylight>ADT（阿拉伯）</daylight>
-				</short>
 			</metazone>
 			<metazone type="Argentina">
 				<long>
-					<standard>阿根廷标准时间</standard>
-					<daylight>阿根廷夏令时间</daylight>
+					<generic>阿根廷时间</generic>
+					<standard draft="contributed">阿根廷标准时间</standard>
+					<daylight draft="contributed">阿根廷夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Argentina_Western">
 				<long>
-					<standard>阿根廷西部标准时间</standard>
-					<daylight>阿根廷西部夏令时间</daylight>
+					<generic>阿根廷西部时间</generic>
+					<standard draft="contributed">阿根廷西部标准时间</standard>
+					<daylight draft="contributed">阿根廷西部夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Armenia">
 				<long>
-					<standard>亚美尼亚标准时间</standard>
-					<daylight>亚美尼亚夏令时间</daylight>
+					<standard draft="contributed">亚美尼亚标准时间</standard>
+					<daylight draft="contributed">亚美尼亚夏令时间</daylight>
 				</long>
-				<short>
-					<standard>AMT (亚美尼亚)</standard>
-					<daylight>AMST (亚美尼亚)</daylight>
-				</short>
 			</metazone>
 			<metazone type="Ashkhabad">
 				<long>
-					<standard>阿什哈巴德标准时间</standard>
-					<daylight>阿什哈巴德夏令时间</daylight>
+					<standard draft="contributed">阿什哈巴德标准时间</standard>
+					<daylight draft="contributed">阿什哈巴德夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Atlantic">
@@ -3249,71 +3846,66 @@
 			</metazone>
 			<metazone type="Australia_Central">
 				<long>
-					<generic>澳大利亚中部时间</generic>
-					<standard>澳大利亚中部标准时间</standard>
-					<daylight>澳大利亚中部夏令时间</daylight>
+					<generic draft="contributed">澳大利亚中部时间</generic>
+					<standard draft="contributed">澳大利亚中部标准时间</standard>
+					<daylight draft="contributed">澳大利亚中部夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Australia_CentralWestern">
 				<long>
 					<generic>澳大利亚中西部时间</generic>
-					<standard>澳大利亚中西部标准时间</standard>
-					<daylight>澳大利亚中西部夏令时间</daylight>
+					<standard draft="contributed">澳大利亚中西部标准时间</standard>
+					<daylight draft="contributed">澳大利亚中西部夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Australia_Eastern">
 				<long>
-					<generic>澳大利亚东部时间</generic>
-					<standard>澳大利亚东部标准时间</standard>
+					<generic draft="contributed">澳大利亚东部时间</generic>
+					<standard draft="contributed">澳大利亚东部标准时间</standard>
 					<daylight>澳大利亚东部夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Australia_Western">
 				<long>
-					<generic>澳大利亚西部时间</generic>
-					<standard>澳大利亚西部标准时间</standard>
+					<generic draft="contributed">澳大利亚西部时间</generic>
+					<standard draft="contributed">澳大利亚西部标准时间</standard>
 					<daylight>澳大利亚西部夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Azerbaijan">
 				<long>
-					<standard>阿塞拜疆标准时间</standard>
-					<daylight>阿塞拜疆夏令时间</daylight>
+					<standard draft="contributed">阿塞拜疆标准时间</standard>
+					<daylight draft="contributed">阿塞拜疆夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Azores">
 				<long>
-					<standard>亚述尔群岛时间</standard>
-					<daylight>亚述尔群岛夏令时间</daylight>
+					<standard draft="contributed">亚述尔群岛时间</standard>
+					<daylight draft="contributed">亚述尔群岛夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Baku">
 				<long>
-					<standard>巴库标准时间</standard>
-					<daylight>巴库夏令时间</daylight>
+					<standard draft="contributed">巴库标准时间</standard>
+					<daylight draft="contributed">巴库夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Bangladesh">
 				<long>
-					<standard>孟加拉标准时间</standard>
-					<daylight>孟加拉夏令时间</daylight>
+					<standard draft="contributed">孟加拉标准时间</standard>
+					<daylight draft="contributed">孟加拉夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Bering">
 				<long>
-					<generic>白令时间</generic>
-					<standard>白令标准时间</standard>
-					<daylight>白令夏令时间</daylight>
+					<generic draft="contributed">白令时间</generic>
+					<standard draft="contributed">白令标准时间</standard>
+					<daylight draft="contributed">白令夏令时间</daylight>
 				</long>
-				<short>
-					<generic>BT（白令）</generic>
-					<standard>BST（白令）</standard>
-					<daylight>BDT（白令）</daylight>
-				</short>
 			</metazone>
 			<metazone type="Bhutan">
 				<long>
-					<standard>不丹标准时间</standard>
+					<standard draft="contributed">不丹标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Bolivia">
@@ -3323,19 +3915,20 @@
 			</metazone>
 			<metazone type="Borneo">
 				<long>
-					<standard>婆罗洲标准时间</standard>
-					<daylight>婆罗洲夏令时间</daylight>
+					<standard draft="contributed">婆罗洲标准时间</standard>
+					<daylight draft="contributed">婆罗洲夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Brasilia">
 				<long>
-					<standard>巴西利亚标准时间</standard>
-					<daylight>巴西利亚夏令时间</daylight>
+					<generic>巴西利亚时间</generic>
+					<standard draft="contributed">巴西利亚标准时间</standard>
+					<daylight draft="contributed">巴西利亚夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Brunei">
 				<long>
-					<standard>汶萊時間</standard>
+					<standard>文莱达鲁萨兰时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Cape_Verde">
@@ -3347,12 +3940,12 @@
 			<metazone type="Chamorro">
 				<long>
 					<generic>查莫罗时间</generic>
-					<standard>查莫罗标准时区</standard>
+					<standard draft="contributed">查莫罗标准时区</standard>
 				</long>
 			</metazone>
 			<metazone type="Changbai">
 				<long>
-					<standard>长白山时间</standard>
+					<standard draft="contributed">长白山时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Chatham">
@@ -3363,26 +3956,22 @@
 			</metazone>
 			<metazone type="Chile">
 				<long>
-					<standard>智利标准时间</standard>
-					<daylight>智利夏令时间</daylight>
+					<standard draft="contributed">智利标准时间</standard>
+					<daylight draft="contributed">智利夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="China">
 				<long>
-					<generic>中国时间</generic>
+					<generic draft="contributed">中国时间</generic>
 					<standard>中国标准时间</standard>
 					<daylight>中国夏令时间</daylight>
 				</long>
-				<short>
-					<generic>CT（中国）</generic>
-					<standard>CST（中国）</standard>
-					<daylight>CDT（中国）</daylight>
-				</short>
 			</metazone>
 			<metazone type="Choibalsan">
 				<long>
-					<standard>乔巴山标准时间</standard>
-					<daylight>乔巴山夏令时间</daylight>
+					<generic>乔巴山时间</generic>
+					<standard draft="contributed">乔巴山标准时间</standard>
+					<daylight draft="contributed">乔巴山夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Christmas">
@@ -3413,15 +4002,10 @@
 					<standard>古巴标准时间</standard>
 					<daylight>古巴夏令时间</daylight>
 				</long>
-				<short>
-					<generic>CT（古巴）</generic>
-					<standard>CST（古巴）</standard>
-					<daylight>CDT（古巴）</daylight>
-				</short>
 			</metazone>
 			<metazone type="Dacca">
 				<long>
-					<standard>达卡标准时间</standard>
+					<standard draft="contributed">达卡标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Davis">
@@ -3436,18 +4020,18 @@
 			</metazone>
 			<metazone type="Dushanbe">
 				<long>
-					<standard>杜尚别标准时间</standard>
-					<daylight>杜尚别夏令时间</daylight>
+					<standard draft="contributed">杜尚别标准时间</standard>
+					<daylight draft="contributed">杜尚别夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Dutch_Guiana">
 				<long>
-					<standard>荷属圭亚那标准时间</standard>
+					<standard draft="contributed">荷属圭亚那标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="East_Timor">
 				<long>
-					<standard>东帝汶标准时间</standard>
+					<standard draft="contributed">东帝汶标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Easter">
@@ -3458,7 +4042,7 @@
 			</metazone>
 			<metazone type="Ecuador">
 				<long>
-					<standard>厄瓜多尔标准时间</standard>
+					<standard draft="contributed">厄瓜多尔标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Europe_Central">
@@ -3475,8 +4059,8 @@
 			</metazone>
 			<metazone type="Europe_Western">
 				<long>
-					<standard>欧洲西部时间</standard>
-					<daylight>欧洲西部夏令时间</daylight>
+					<standard draft="contributed">欧洲西部时间</standard>
+					<daylight draft="contributed">欧洲西部夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Falkland">
@@ -3503,13 +4087,13 @@
 			</metazone>
 			<metazone type="Frunze">
 				<long>
-					<standard>伏龙芝标准时间</standard>
-					<daylight>伏龙芝夏令时间</daylight>
+					<standard draft="contributed">伏龙芝标准时间</standard>
+					<daylight draft="contributed">伏龙芝夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Galapagos">
 				<long>
-					<standard>加拉帕戈斯时间</standard>
+					<standard draft="contributed">加拉帕戈斯时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Gambier">
@@ -3519,8 +4103,8 @@
 			</metazone>
 			<metazone type="Georgia">
 				<long>
-					<standard>格鲁吉亚标准时间</standard>
-					<daylight>格鲁吉亚夏令时间</daylight>
+					<standard draft="contributed">格鲁吉亚标准时间</standard>
+					<daylight draft="contributed">格鲁吉亚夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Gilbert_Islands">
@@ -3532,37 +4116,36 @@
 				<long>
 					<standard>格林尼治标准时间</standard>
 				</long>
-				<commonlyUsed>true</commonlyUsed>
+				<short>
+					<standard>格林尼治标准时间</standard>
+				</short>
 			</metazone>
 			<metazone type="Greenland_Central">
 				<long>
-					<standard>格林兰中部标准时间</standard>
-					<daylight>格林兰中部夏令时间</daylight>
+					<standard draft="contributed">格林兰中部标准时间</standard>
+					<daylight draft="contributed">格林兰中部夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Greenland_Eastern">
 				<long>
-					<standard>格林兰东部标准时间</standard>
-					<daylight>格林兰东部夏令时间</daylight>
+					<standard draft="contributed">格林兰东部标准时间</standard>
+					<daylight draft="contributed">格林兰东部夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Greenland_Western">
 				<long>
-					<standard>格林兰西部标准时间</standard>
-					<daylight>格林兰西部夏令时间</daylight>
+					<standard draft="contributed">格林兰西部标准时间</standard>
+					<daylight draft="contributed">格林兰西部夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Guam">
 				<long>
-					<standard>关岛标准时间</standard>
+					<standard draft="contributed">关岛标准时间</standard>
 				</long>
-				<short>
-					<standard>GST（关岛）</standard>
-				</short>
 			</metazone>
 			<metazone type="Gulf">
 				<long>
-					<standard>海湾标准时间</standard>
+					<standard draft="contributed">海湾标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Guyana">
@@ -3572,7 +4155,8 @@
 			</metazone>
 			<metazone type="Hawaii_Aleutian">
 				<long>
-					<standard>夏威夷—阿留申标准时间</standard>
+					<generic>夏威夷阿留申时间</generic>
+					<standard draft="contributed">夏威夷—阿留申标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Hong_Kong">
@@ -3583,13 +4167,14 @@
 			</metazone>
 			<metazone type="Hovd">
 				<long>
+					<generic>科布多时间</generic>
 					<standard>科布多时间</standard>
 					<daylight>科布多夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="India">
 				<long>
-					<standard>印度标准时间</standard>
+					<standard draft="contributed">印度标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Indian_Ocean">
@@ -3604,17 +4189,20 @@
 			</metazone>
 			<metazone type="Indonesia_Central">
 				<long>
-					<standard>印度尼西亚中部标准时间</standard>
+					<generic>印度尼西亚中部时间</generic>
+					<standard draft="contributed">印度尼西亚中部标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Indonesia_Eastern">
 				<long>
-					<standard>印度尼西亚东部标准时间</standard>
+					<generic>印度尼西亚东部时间</generic>
+					<standard draft="contributed">印度尼西亚东部标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Indonesia_Western">
 				<long>
-					<standard>印度尼西亚西部标准时间</standard>
+					<generic>印度尼西亚西部时间</generic>
+					<standard draft="contributed">印度尼西亚西部标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Iran">
@@ -3625,6 +4213,7 @@
 			</metazone>
 			<metazone type="Irkutsk">
 				<long>
+					<generic>伊尔库茨克时间</generic>
 					<standard>伊尔库茨克时间</standard>
 					<daylight>伊尔库茨克夏令时间</daylight>
 				</long>
@@ -3635,9 +4224,6 @@
 					<standard>以色列标准时间</standard>
 					<daylight>以色列夏令时间</daylight>
 				</long>
-				<short>
-					<standard>IST (以色列)</standard>
-				</short>
 			</metazone>
 			<metazone type="Japan">
 				<long>
@@ -3648,43 +4234,46 @@
 			</metazone>
 			<metazone type="Kamchatka">
 				<long>
-					<standard>彼得罗巴甫洛夫斯克时间</standard>
-					<daylight>彼得罗巴甫洛夫斯克夏令时间</daylight>
+					<generic draft="contributed">堪察加时间</generic>
+					<standard draft="contributed">彼得罗巴甫洛夫斯克-堪察加时间</standard>
+					<daylight draft="contributed">彼得罗巴甫洛夫斯克-堪察加夏令时</daylight>
 				</long>
 			</metazone>
 			<metazone type="Karachi">
 				<long>
-					<standard>卡拉奇标准时间</standard>
+					<standard draft="contributed">卡拉奇标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Kashgar">
 				<long>
-					<standard>喀什标准时间</standard>
+					<standard draft="contributed">喀什标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Kazakhstan_Eastern">
 				<long>
-					<generic>哈萨克斯坦东部时间</generic>
-					<standard>哈萨克斯坦东部标准时间</standard>
+					<generic draft="contributed">哈萨克斯坦东部时间</generic>
+					<standard draft="contributed">哈萨克斯坦东部标准时间</standard>
+					<daylight>哈萨克斯坦东部夏令时</daylight>
 				</long>
 			</metazone>
 			<metazone type="Kazakhstan_Western">
 				<long>
-					<generic>哈萨克斯坦西部时间</generic>
-					<standard>哈萨克斯坦西部标准时间</standard>
+					<generic draft="contributed">哈萨克斯坦西部时间</generic>
+					<standard draft="contributed">哈萨克斯坦西部标准时间</standard>
+					<daylight>哈萨克斯坦西部夏令时</daylight>
 				</long>
 			</metazone>
 			<metazone type="Kizilorda">
 				<long>
-					<standard>克孜勒奥尔达标准时间</standard>
-					<daylight>克孜勒奥尔达夏令时间</daylight>
+					<standard draft="contributed">克孜勒奥尔达标准时间</standard>
+					<daylight draft="contributed">克孜勒奥尔达夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Korea">
 				<long>
-					<generic>韩国时间</generic>
-					<standard>韩国标准时间</standard>
-					<daylight>韩国夏令时间</daylight>
+					<generic draft="contributed">韩国时间</generic>
+					<standard draft="contributed">韩国标准时间</standard>
+					<daylight draft="contributed">韩国夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Kosrae">
@@ -3694,68 +4283,70 @@
 			</metazone>
 			<metazone type="Krasnoyarsk">
 				<long>
+					<generic>克拉斯诺亚尔斯克时间</generic>
 					<standard>克拉斯诺亚尔斯克时间</standard>
 					<daylight>克拉斯诺亚尔斯克夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Kuybyshev">
 				<long>
-					<standard>古比雪夫时间</standard>
-					<daylight>古比雪夫夏令时间</daylight>
+					<standard draft="contributed">古比雪夫时间</standard>
+					<daylight draft="contributed">古比雪夫夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Kwajalein">
 				<long>
-					<standard>夸贾林时间</standard>
+					<standard draft="contributed">夸贾林时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Kyrgystan">
 				<long>
-					<standard>吉尔吉斯斯坦标准时间</standard>
+					<standard draft="contributed">吉尔吉斯斯坦标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Lanka">
 				<long>
-					<standard>斯里兰卡标准时间</standard>
+					<standard draft="contributed">斯里兰卡标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Line_Islands">
 				<long>
-					<standard>莱恩群岛时间</standard>
-				</long>
-			</metazone>
-			<metazone type="Long_Shu">
-				<long>
-					<standard>Long-Shu 时间</standard>
+					<standard draft="contributed">莱恩群岛时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Lord_Howe">
 				<long>
-					<generic>罗德毫岛时间</generic>
-					<standard>罗德毫岛标准时间</standard>
-					<daylight>罗德毫岛夏令时间</daylight>
+					<generic draft="contributed">罗德毫岛时间</generic>
+					<standard draft="contributed">罗德毫岛标准时间</standard>
+					<daylight draft="contributed">罗德毫岛夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Macau">
 				<long>
-					<standard>澳门标准时间</standard>
-					<daylight>澳门夏令时间</daylight>
+					<standard draft="contributed">澳门标准时间</standard>
+					<daylight draft="contributed">澳门夏令时间</daylight>
+				</long>
+			</metazone>
+			<metazone type="Macquarie">
+				<long>
+					<generic>麦加利时间</generic>
 				</long>
 			</metazone>
 			<metazone type="Magadan">
 				<long>
+					<generic>马加丹时间</generic>
 					<standard>马加丹时间</standard>
 					<daylight>马加丹夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Malaya">
 				<long>
-					<standard>马来亚标准时间</standard>
+					<standard draft="contributed">马来亚标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Malaysia">
 				<long>
-					<standard>马来西亚标准时间</standard>
+					<standard draft="contributed">马来西亚标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Maldives">
@@ -3765,12 +4356,12 @@
 			</metazone>
 			<metazone type="Marquesas">
 				<long>
-					<standard>马克萨斯群岛时间</standard>
+					<standard draft="contributed">马克萨斯群岛时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Marshall_Islands">
 				<long>
-					<standard>马绍尔群岛时间</standard>
+					<standard draft="contributed">马绍尔群岛时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Mauritius">
@@ -3786,15 +4377,16 @@
 			</metazone>
 			<metazone type="Mongolia">
 				<long>
-					<standard>乌兰巴托标准时间</standard>
-					<daylight>乌兰巴托夏令时间</daylight>
+					<generic>蒙古时间</generic>
+					<standard draft="contributed">乌兰巴托标准时间</standard>
+					<daylight draft="contributed">乌兰巴托夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Moscow">
 				<long>
-					<generic>莫斯科时间</generic>
-					<standard>莫斯科标准时间</standard>
-					<daylight>莫斯科夏令时间</daylight>
+					<generic draft="contributed">莫斯科时间</generic>
+					<standard draft="contributed">莫斯科标准时间</standard>
+					<daylight draft="contributed">莫斯科夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Myanmar">
@@ -3804,7 +4396,7 @@
 			</metazone>
 			<metazone type="Nauru">
 				<long>
-					<standard>瑙鲁时间</standard>
+					<standard draft="contributed">瑙鲁时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Nepal">
@@ -3814,15 +4406,15 @@
 			</metazone>
 			<metazone type="New_Caledonia">
 				<long>
-					<standard>新喀里多尼亚时间</standard>
-					<daylight>新喀里多尼亚夏令时间</daylight>
+					<standard draft="contributed">新喀里多尼亚时间</standard>
+					<daylight draft="contributed">新喀里多尼亚夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="New_Zealand">
 				<long>
-					<generic>新西兰时间</generic>
-					<standard>新西兰标准时间</standard>
-					<daylight>新西兰夏令时间</daylight>
+					<generic draft="contributed">新西兰时间</generic>
+					<standard draft="contributed">新西兰标准时间</standard>
+					<daylight draft="contributed">新西兰夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Newfoundland">
@@ -3834,51 +4426,54 @@
 			</metazone>
 			<metazone type="Niue">
 				<long>
-					<standard>纽埃时间</standard>
+					<standard draft="contributed">纽埃时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Norfolk">
 				<long>
-					<standard>诺福克岛时间</standard>
+					<standard draft="contributed">诺福克岛时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Noronha">
 				<long>
+					<generic>诺罗尼亚时间</generic>
 					<standard>费尔南多-迪诺罗尼亚岛时间</standard>
 					<daylight>费尔南多-迪诺罗尼亚岛夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="North_Mariana">
 				<long>
-					<standard>北马里亚纳群岛时间</standard>
+					<standard draft="contributed">北马里亚纳群岛时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Novosibirsk">
 				<long>
+					<generic>新西伯利亚时间</generic>
 					<standard>新西伯利亚时间</standard>
 					<daylight>新西伯利亚夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Omsk">
 				<long>
+					<generic>鄂木斯克时间</generic>
 					<standard>鄂木斯克时间</standard>
 					<daylight>鄂木斯克夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Pakistan">
 				<long>
-					<standard>巴基斯坦标准时间</standard>
-					<daylight>巴基斯坦夏令时间</daylight>
+					<standard draft="contributed">巴基斯坦标准时间</standard>
+					<daylight draft="contributed">巴基斯坦夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Palau">
 				<long>
-					<standard>帕劳时间</standard>
+					<standard draft="contributed">帕劳时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Papua_New_Guinea">
 				<long>
-					<standard>巴布亚新几内亚时间</standard>
+					<standard draft="contributed">巴布亚新几内亚时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Paraguay">
@@ -3901,30 +4496,30 @@
 			</metazone>
 			<metazone type="Phoenix_Islands">
 				<long>
-					<standard>凤凰岛时间</standard>
+					<standard draft="contributed">凤凰岛时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Pierre_Miquelon">
 				<long>
-					<generic>彼得岛和米克隆岛时间</generic>
-					<standard>彼得岛和米克隆岛标准时间</standard>
-					<daylight>彼得岛和米克隆岛夏令时间</daylight>
+					<generic draft="contributed">彼得岛和米克隆岛时间</generic>
+					<standard draft="contributed">彼得岛和米克隆岛标准时间</standard>
+					<daylight draft="contributed">彼得岛和米克隆岛夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Pitcairn">
 				<long>
-					<standard>皮特凯恩时间</standard>
+					<standard draft="contributed">皮特凯恩时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Ponape">
 				<long>
-					<standard>波纳佩时间</standard>
+					<standard draft="contributed">波纳佩时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Qyzylorda">
 				<long>
-					<standard>克孜勒奥尔达标准时间</standard>
-					<daylight>克孜勒奥尔达夏令时间</daylight>
+					<standard draft="contributed">克孜勒奥尔达标准时间</standard>
+					<daylight draft="contributed">克孜勒奥尔达夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Reunion">
@@ -3939,29 +4534,27 @@
 			</metazone>
 			<metazone type="Sakhalin">
 				<long>
+					<generic>库页岛时间</generic>
 					<standard>库页岛时间</standard>
 					<daylight>库页岛夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Samara">
 				<long>
-					<standard>萨马拉时间</standard>
-					<daylight>萨马拉夏令时间</daylight>
+					<generic draft="contributed">萨马拉时间</generic>
+					<standard draft="contributed">萨马拉时间</standard>
+					<daylight draft="contributed">萨马拉夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Samarkand">
 				<long>
-					<standard>撒马尔罕标准时间</standard>
-					<daylight>撒马尔罕夏令时间</daylight>
+					<standard draft="contributed">撒马尔罕标准时间</standard>
+					<daylight draft="contributed">撒马尔罕夏令时间</daylight>
 				</long>
-				<short>
-					<standard>SAMT（撒马尔罕）</standard>
-					<daylight>SAMST（撒马尔罕）</daylight>
-				</short>
 			</metazone>
 			<metazone type="Samoa">
 				<long>
-					<standard>萨摩亚标准时间</standard>
+					<standard draft="contributed">萨摩亚标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Seychelles">
@@ -3971,8 +4564,8 @@
 			</metazone>
 			<metazone type="Shevchenko">
 				<long>
-					<standard>舍甫琴科时间</standard>
-					<daylight>舍甫琴科夏令时间</daylight>
+					<standard draft="contributed">舍甫琴科时间</standard>
+					<daylight draft="contributed">舍甫琴科夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Singapore">
@@ -3982,7 +4575,7 @@
 			</metazone>
 			<metazone type="Solomon">
 				<long>
-					<standard>所罗门群岛时间</standard>
+					<standard draft="contributed">所罗门群岛时间</standard>
 				</long>
 			</metazone>
 			<metazone type="South_Georgia">
@@ -3992,13 +4585,13 @@
 			</metazone>
 			<metazone type="Suriname">
 				<long>
-					<standard>苏里南标准时间</standard>
+					<standard draft="contributed">苏里南标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Sverdlovsk">
 				<long>
-					<standard>斯维尔德洛夫斯克标准时间</standard>
-					<daylight>斯维尔德洛夫斯克夏令时间</daylight>
+					<standard draft="contributed">斯维尔德洛夫斯克标准时间</standard>
+					<daylight draft="contributed">斯维尔德洛夫斯克夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Syowa">
@@ -4008,7 +4601,7 @@
 			</metazone>
 			<metazone type="Tahiti">
 				<long>
-					<standard>大溪地时间</standard>
+					<standard draft="contributed">大溪地时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Taipei">
@@ -4017,38 +4610,33 @@
 					<standard>台北标准时间</standard>
 					<daylight>台北夏令时间</daylight>
 				</long>
-				<short>
-					<generic>CT（台北）</generic>
-					<standard>CST（台北）</standard>
-					<daylight>CDT（台北）</daylight>
-				</short>
 			</metazone>
 			<metazone type="Tajikistan">
 				<long>
-					<standard>塔吉克斯坦标准时间</standard>
+					<standard draft="contributed">塔吉克斯坦标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Tashkent">
 				<long>
-					<standard>塔什干标准时间</standard>
-					<daylight>塔什干夏令时间</daylight>
+					<standard draft="contributed">塔什干标准时间</standard>
+					<daylight draft="contributed">塔什干夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Tbilisi">
 				<long>
-					<standard>第比利斯标准时间</standard>
-					<daylight>第比利斯夏令时间</daylight>
+					<standard draft="contributed">第比利斯标准时间</standard>
+					<daylight draft="contributed">第比利斯夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Tokelau">
 				<long>
-					<standard>托克劳时间</standard>
+					<standard draft="contributed">托克劳时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Tonga">
 				<long>
-					<standard>汤加时间</standard>
-					<daylight>汤加夏令时间</daylight>
+					<standard draft="contributed">汤加时间</standard>
+					<daylight draft="contributed">汤加夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Truk">
@@ -4058,25 +4646,25 @@
 			</metazone>
 			<metazone type="Turkey">
 				<long>
-					<standard>土耳其时间</standard>
-					<daylight>土耳其夏令时间</daylight>
+					<standard draft="contributed">土耳其时间</standard>
+					<daylight draft="contributed">土耳其夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Turkmenistan">
 				<long>
-					<standard>土库曼斯坦标准时间</standard>
-					<daylight>土库曼斯坦夏令时间</daylight>
+					<standard draft="contributed">土库曼斯坦标准时间</standard>
+					<daylight draft="contributed">土库曼斯坦夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Tuvalu">
 				<long>
-					<standard>吐瓦鲁时间</standard>
+					<standard draft="contributed">吐瓦鲁时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Uralsk">
 				<long>
-					<standard>乌拉尔斯克标准时间</standard>
-					<daylight>乌拉尔斯克夏令时间</daylight>
+					<standard draft="contributed">乌拉尔斯克标准时间</standard>
+					<daylight draft="contributed">乌拉尔斯克夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Uruguay">
@@ -4087,19 +4675,19 @@
 			</metazone>
 			<metazone type="Urumqi">
 				<long>
-					<standard>乌鲁木齐标准时间</standard>
+					<standard draft="contributed">乌鲁木齐标准时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Uzbekistan">
 				<long>
-					<standard>乌兹别克斯坦标准时间</standard>
-					<daylight>乌兹别克斯坦夏令时间</daylight>
+					<standard draft="contributed">乌兹别克斯坦标准时间</standard>
+					<daylight draft="contributed">乌兹别克斯坦夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Vanuatu">
 				<long>
-					<standard>瓦努阿图时间</standard>
-					<daylight>瓦努阿图夏令时间</daylight>
+					<standard draft="contributed">瓦努阿图时间</standard>
+					<daylight draft="contributed">瓦努阿图夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Venezuela">
@@ -4109,12 +4697,14 @@
 			</metazone>
 			<metazone type="Vladivostok">
 				<long>
+					<generic>海参崴时间</generic>
 					<standard>海参崴时间</standard>
 					<daylight>海参崴夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Volgograd">
 				<long>
+					<generic>伏尔加格勒时间</generic>
 					<standard>伏尔加格勒时间</standard>
 					<daylight>伏尔加格勒夏令时间</daylight>
 				</long>
@@ -4126,43 +4716,45 @@
 			</metazone>
 			<metazone type="Wake">
 				<long>
-					<standard>威克岛时间</standard>
+					<standard draft="contributed">威克岛时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Wallis">
 				<long>
-					<standard>瓦利斯-富图纳时间</standard>
+					<standard>瓦利斯富图纳时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Yakutsk">
 				<long>
+					<generic>雅库茨克时间</generic>
 					<standard>雅库茨克时间</standard>
 					<daylight>雅库茨克夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Yekaterinburg">
 				<long>
-					<standard>叶卡捷琳堡标准时间</standard>
-					<daylight>叶卡捷琳堡夏令时间</daylight>
+					<generic>叶卡捷琳堡时间</generic>
+					<standard draft="contributed">叶卡捷琳堡标准时间</standard>
+					<daylight draft="contributed">叶卡捷琳堡夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Yerevan">
 				<long>
-					<standard>埃里温标准时间</standard>
-					<daylight>埃里温夏令时间</daylight>
+					<standard draft="contributed">埃里温标准时间</standard>
+					<daylight draft="contributed">埃里温夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Yukon">
 				<long>
-					<generic>育空时间</generic>
-					<standard>育空标准时间</standard>
-					<daylight>育空夏令时间</daylight>
+					<generic draft="contributed">育空时间</generic>
+					<standard draft="contributed">育空标准时间</standard>
+					<daylight draft="contributed">育空夏令时间</daylight>
 				</long>
 			</metazone>
 		</timeZoneNames>
 	</dates>
 	<numbers>
-		<symbols>
+		<symbols numberSystem="latn">
 			<decimal>.</decimal>
 			<group>,</group>
 		</symbols>
@@ -4170,6 +4762,13 @@
 			<decimalFormatLength>
 				<decimalFormat>
 					<pattern>#,##0.###</pattern>
+				</decimalFormat>
+			</decimalFormatLength>
+			<decimalFormatLength type="short">
+				<decimalFormat>
+					<pattern type="1000000000">0.0B</pattern>
+					<pattern type="10000000000">00B</pattern>
+					<pattern type="100000000000">000B</pattern>
 				</decimalFormat>
 			</decimalFormatLength>
 		</decimalFormats>
@@ -4214,7 +4813,7 @@
 				<displayName>亚美尼亚德拉姆</displayName>
 			</currency>
 			<currency type="ANG">
-				<displayName>荷兰安替兰盾</displayName>
+				<displayName>荷兰安的列斯盾</displayName>
 			</currency>
 			<currency type="AOA">
 				<displayName>安哥拉宽扎</displayName>
@@ -4224,9 +4823,6 @@
 			</currency>
 			<currency type="AON">
 				<displayName>安哥拉新宽扎 (1990-2000)</displayName>
-			</currency>
-			<currency type="AOR">
-				<displayName>安哥拉宽扎 Reajustado (1995-1999)</displayName>
 			</currency>
 			<currency type="ARA">
 				<displayName>阿根廷奥斯特</displayName>
@@ -4301,7 +4897,7 @@
 				<displayName>玻利维亚 Mvdol（资金）</displayName>
 			</currency>
 			<currency type="BRB">
-				<displayName>巴西克鲁赛罗 Novo (1967-1986)</displayName>
+				<displayName>巴西新克鲁赛罗 (1967-1986)</displayName>
 			</currency>
 			<currency type="BRC">
 				<displayName>巴西克鲁扎多</displayName>
@@ -4313,7 +4909,7 @@
 				<displayName>巴西雷亚尔</displayName>
 			</currency>
 			<currency type="BRN">
-				<displayName>巴西克鲁扎多 Novo</displayName>
+				<displayName>巴西新克鲁扎多 (1989-1990)</displayName>
 			</currency>
 			<currency type="BRR">
 				<displayName>巴西克鲁塞罗</displayName>
@@ -4349,7 +4945,7 @@
 				<displayName>瑞士法郎</displayName>
 			</currency>
 			<currency type="CLF">
-				<displayName>智利 Unidades de Fomento（资金）</displayName>
+				<displayName>智利（资金）</displayName>
 			</currency>
 			<currency type="CLP">
 				<displayName>智利比索</displayName>
@@ -4407,7 +5003,7 @@
 				<displayName>厄瓜多尔苏克雷</displayName>
 			</currency>
 			<currency type="ECV">
-				<displayName>厄瓜多尔 Unidad de Valor Constante (UVC)</displayName>
+				<displayName>厄瓜多尔 (UVC)</displayName>
 			</currency>
 			<currency type="EEK">
 				<displayName>爱沙尼亚克朗</displayName>
@@ -4654,7 +5250,7 @@
 				<displayName>毛里求斯卢比</displayName>
 			</currency>
 			<currency type="MVR">
-				<displayName>马尔代夫拉菲亚</displayName>
+				<displayName>马尔代夫卢菲亚</displayName>
 			</currency>
 			<currency type="MWK">
 				<displayName>马拉维克瓦查</displayName>
@@ -4666,7 +5262,7 @@
 				<displayName>墨西哥银比索 (1861-1992)</displayName>
 			</currency>
 			<currency type="MXV">
-				<displayName>墨西哥 Unidad de Inversion (UDI)（资金）</displayName>
+				<displayName>墨西哥（资金）</displayName>
 			</currency>
 			<currency type="MYR">
 				<displayName>马来西亚林吉特</displayName>
@@ -4687,7 +5283,7 @@
 				<displayName>尼日利亚奈拉</displayName>
 			</currency>
 			<currency type="NIC">
-				<displayName>尼加拉瓜科多巴</displayName>
+				<displayName>尼加拉瓜科多巴 (1988-1991)</displayName>
 			</currency>
 			<currency type="NIO">
 				<displayName>尼加拉瓜金科多巴</displayName>
@@ -4777,7 +5373,7 @@
 				<displayName>苏丹第纳尔</displayName>
 			</currency>
 			<currency type="SDG">
-				<displayName>苏丹镑</displayName>
+				<displayName draft="contributed">苏丹镑</displayName>
 			</currency>
 			<currency type="SDP">
 				<displayName>旧苏丹镑</displayName>
@@ -4834,10 +5430,10 @@
 				<displayName>塔吉克斯坦索莫尼</displayName>
 			</currency>
 			<currency type="TMM">
-				<displayName>土库曼斯坦马纳特</displayName>
+				<displayName>土库曼斯坦马纳特 (1993-2009)</displayName>
 			</currency>
 			<currency type="TMT">
-				<displayName>土库曼斯坦新马纳特</displayName>
+				<displayName>土库曼斯坦马纳特</displayName>
 			</currency>
 			<currency type="TND">
 				<displayName>突尼斯第纳尔</displayName>
@@ -4849,10 +5445,10 @@
 				<displayName>帝汶埃斯库多</displayName>
 			</currency>
 			<currency type="TRL">
-				<displayName>土耳其里拉</displayName>
+				<displayName>土耳其里拉(1922-2005)</displayName>
 			</currency>
 			<currency type="TRY">
-				<displayName>新土耳其里拉</displayName>
+				<displayName>土耳其里拉</displayName>
 			</currency>
 			<currency type="TTD">
 				<displayName>特立尼达和多巴哥元</displayName>
@@ -4891,13 +5487,13 @@
 				<displayName>乌拉圭比索</displayName>
 			</currency>
 			<currency type="UZS">
-				<displayName>乌兹别克斯苏姆</displayName>
+				<displayName>乌兹别克斯坦苏姆</displayName>
 			</currency>
 			<currency type="VEB">
 				<displayName>委内瑞拉博利瓦</displayName>
 			</currency>
 			<currency type="VEF">
-				<displayName>委内瑞拉强势玻利瓦</displayName>
+				<displayName>委内瑞拉玻利瓦尔</displayName>
 			</currency>
 			<currency type="VND">
 				<displayName>越南盾</displayName>
@@ -4942,7 +5538,7 @@
 				<displayName>法国金法郎</displayName>
 			</currency>
 			<currency type="XFU">
-				<displayName>法国 UIC 法郎</displayName>
+				<displayName>法国法郎 (UIC)</displayName>
 			</currency>
 			<currency type="XOF">
 				<displayName>非洲金融共同体法郎</displayName>
@@ -4963,7 +5559,7 @@
 				<displayName>为测试保留的代码</displayName>
 			</currency>
 			<currency type="XXX">
-				<displayName>货币未知或无效</displayName>
+				<displayName>未知货币</displayName>
 			</currency>
 			<currency type="YDD">
 				<displayName>也门第纳尔</displayName>
@@ -5008,29 +5604,99 @@
 			<unitPattern count="other">{0}日</unitPattern>
 			<unitPattern count="other" alt="short">{0}日</unitPattern>
 		</unit>
+		<unit type="day-future">
+			<unitPattern count="0" draft="contributed">0天后</unitPattern>
+			<unitPattern count="1" draft="contributed">1天后</unitPattern>
+			<unitPattern count="other">{0}天后</unitPattern>
+		</unit>
+		<unit type="day-past">
+			<unitPattern count="0" draft="contributed">0天前</unitPattern>
+			<unitPattern count="1" draft="contributed">1天前</unitPattern>
+			<unitPattern count="other">{0}天前</unitPattern>
+		</unit>
 		<unit type="hour">
 			<unitPattern count="other">{0}小时</unitPattern>
 			<unitPattern count="other" alt="short">{0}小时</unitPattern>
+		</unit>
+		<unit type="hour-future">
+			<unitPattern count="0" draft="contributed">0小时后</unitPattern>
+			<unitPattern count="1" draft="contributed">1小时后</unitPattern>
+			<unitPattern count="other">{0}小时后</unitPattern>
+		</unit>
+		<unit type="hour-past">
+			<unitPattern count="0" draft="contributed">0小时前</unitPattern>
+			<unitPattern count="1" draft="contributed">1小时前</unitPattern>
+			<unitPattern count="other">{0}小时前</unitPattern>
 		</unit>
 		<unit type="minute">
 			<unitPattern count="other">{0}分</unitPattern>
 			<unitPattern count="other" alt="short">{0}分</unitPattern>
 		</unit>
+		<unit type="minute-future">
+			<unitPattern count="0" draft="contributed">0分钟后</unitPattern>
+			<unitPattern count="1" draft="contributed">1分钟后</unitPattern>
+			<unitPattern count="other">{0}分钟后</unitPattern>
+		</unit>
+		<unit type="minute-past">
+			<unitPattern count="0" draft="contributed">0分钟前</unitPattern>
+			<unitPattern count="1" draft="contributed">1分钟前</unitPattern>
+			<unitPattern count="other">{0}分钟前</unitPattern>
+		</unit>
 		<unit type="month">
 			<unitPattern count="other">{0}月</unitPattern>
 			<unitPattern count="other" alt="short">{0}月</unitPattern>
+		</unit>
+		<unit type="month-future">
+			<unitPattern count="0" draft="contributed">0个月后</unitPattern>
+			<unitPattern count="1" draft="contributed">1个月后</unitPattern>
+			<unitPattern count="other">{0}个月后</unitPattern>
+		</unit>
+		<unit type="month-past">
+			<unitPattern count="0" draft="contributed">0个月前</unitPattern>
+			<unitPattern count="1" draft="contributed">1个月前</unitPattern>
+			<unitPattern count="other">{0}个月前</unitPattern>
 		</unit>
 		<unit type="second">
 			<unitPattern count="other">{0}秒</unitPattern>
 			<unitPattern count="other" alt="short">{0}秒</unitPattern>
 		</unit>
+		<unit type="second-future">
+			<unitPattern count="0" draft="contributed">0秒钟后</unitPattern>
+			<unitPattern count="1" draft="contributed">1秒钟后</unitPattern>
+			<unitPattern count="other">{0}秒钟后</unitPattern>
+		</unit>
+		<unit type="second-past">
+			<unitPattern count="0" draft="contributed">0秒钟前</unitPattern>
+			<unitPattern count="1" draft="contributed">1秒钟前</unitPattern>
+			<unitPattern count="other">{0}秒钟前</unitPattern>
+		</unit>
 		<unit type="week">
 			<unitPattern count="other">{0}周</unitPattern>
 			<unitPattern count="other" alt="short">{0}周</unitPattern>
 		</unit>
+		<unit type="week-future">
+			<unitPattern count="0" draft="contributed">0周后</unitPattern>
+			<unitPattern count="1" draft="contributed">1周后</unitPattern>
+			<unitPattern count="other">{0}周后</unitPattern>
+		</unit>
+		<unit type="week-past">
+			<unitPattern count="0" draft="contributed">0周前</unitPattern>
+			<unitPattern count="1" draft="contributed">1周前</unitPattern>
+			<unitPattern count="other">{0}周前</unitPattern>
+		</unit>
 		<unit type="year">
 			<unitPattern count="other">{0}年</unitPattern>
 			<unitPattern count="other" alt="short">{0}年</unitPattern>
+		</unit>
+		<unit type="year-future">
+			<unitPattern count="0" draft="contributed">0年后</unitPattern>
+			<unitPattern count="1" draft="contributed">1年后</unitPattern>
+			<unitPattern count="other">{0}年后</unitPattern>
+		</unit>
+		<unit type="year-past">
+			<unitPattern count="0" draft="contributed">0年前</unitPattern>
+			<unitPattern count="1" draft="contributed">1年前</unitPattern>
+			<unitPattern count="other">{0}年前</unitPattern>
 		</unit>
 	</units>
 	<listPatterns>
