@@ -68,8 +68,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test for object creation
-     * expected object instance
+     * Test for object creation
      */
     public function testObjectCreation()
     {
@@ -100,8 +99,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test for serialization
-     * expected string
+     * Test for serialization
      */
     public function testSerialize()
     {
@@ -114,8 +112,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test toString
-     * expected string
+     * Test toString
      */
     public function testToString()
     {
@@ -125,8 +122,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test getEnvironment
-     * expected true
+     * Test getEnvironment
      */
     public function testLocaleDetail()
     {
@@ -144,8 +140,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test getEnvironment
-     * expected true
+     * Test getEnvironment
      */
     public function testEnvironment()
     {
@@ -155,8 +150,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test getBrowser
-     * expected true
+     * Test getBrowser
      */
     public function testBrowser()
     {
@@ -166,8 +160,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test clone
-     * expected true
+     * Test clone
      */
     public function testCloning()
     {
@@ -177,8 +170,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test setLocale
-     * expected true
+     * Test setLocale
      */
     public function testsetLocale()
     {
@@ -213,123 +205,87 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test getTranslationList('language')
-     * expected true
+     * Test getDisplayLanguage
      */
-    public function testgetLanguageTranslationList()
+    public function testgetDisplayLanguage()
     {
         set_error_handler(array($this, 'errorHandlerIgnore'));
-        $list = LocaleTestHelper::getTranslationList('language');
+        $list = LocaleTestHelper::getDisplayLanguage();
         $this->assertTrue(is_array($list));
-        $list = LocaleTestHelper::getTranslationList('language', 'de');
-        $this->assertTrue(is_array($list));
+        $list = LocaleTestHelper::getDisplayLanguage(null, 'de');
+
+        $this->assertEquals('Deutsch', LocaleTestHelper::getDisplayLanguage('de', 'de_AT'));
+        $this->assertEquals('German',  LocaleTestHelper::getDisplayLanguage('de', 'en'));
+
+        try {
+            $result = LocaleTestHelper::getDisplayLanguage('xyz');
+            $this->fail();
+        } catch(\Exception $e) {
+            $this->assertContains('is no known locale', $e->getMessage());
+        }
+
+        $this->assertTrue(is_string(LocaleTestHelper::getDisplayLanguage('de', 'auto')));
         restore_error_handler();
     }
 
     /**
-     * test getTranslation('language')
-     * expected true
+     * Test getDisplayScript
      */
-    public function testgetLanguageTranslation()
+    public function testgetDisplayScript()
     {
         set_error_handler(array($this, 'errorHandlerIgnore'));
-        $this->assertEquals('Deutsch', LocaleTestHelper::getTranslation('de', 'language', 'de_AT'));
-        $this->assertEquals('German',  LocaleTestHelper::getTranslation('de', 'language', 'en'));
-        $this->assertFalse(LocaleTestHelper::getTranslation('xyz', 'language'));
-        $this->assertTrue(is_string(LocaleTestHelper::getTranslation('de', 'language', 'auto')));
+        $list = LocaleTestHelper::getDisplayScript();
+        $this->assertTrue(is_array($list));
+
+        $list = LocaleTestHelper::getDisplayScript('script', 'de');
+        $this->assertTrue(is_array($list));
+
+        $this->assertEquals('Arabisch', LocaleTestHelper::getDisplayScript('Arab', 'de_AT'));
+        $this->assertEquals('Arabic', LocaleTestHelper::getDisplayScript('Arab', 'en'));
+
+        try {
+            $this->assertFalse(LocaleTestHelper::getDisplayScript('xyz'));
+            $this->fail();
+        } catch (\Exception $e) {
+            $this->assertContains('is no known locale', $e->getMessage());
+        }
+
+        $this->assertTrue(is_string(LocaleTestHelper::getDisplayScript('Arab', 'auto')));
         restore_error_handler();
     }
 
     /**
-     * test getTranslationList('script')
-     * expected true
+     * Test getDisplayTerritory
      */
-    public function testgetScriptTranslationList()
+    public function testgetDisplayTerritory()
     {
         set_error_handler(array($this, 'errorHandlerIgnore'));
-        $list = LocaleTestHelper::getTranslationList('script');
+        $list = LocaleTestHelper::getDisplayTerritory();
         $this->assertTrue(is_array($list));
 
-        $list = LocaleTestHelper::getTranslationList('script', 'de');
-        $this->assertTrue(is_array($list));
-        restore_error_handler();
-    }
-
-    /**
-     * test getTranslation('script')
-     * expected true
-     */
-    public function testgetScriptTranslation()
-    {
-        set_error_handler(array($this, 'errorHandlerIgnore'));
-        $this->assertEquals('Arabisch', LocaleTestHelper::getTranslation('Arab', 'script', 'de_AT'));
-        $this->assertEquals('Arabic', LocaleTestHelper::getTranslation('Arab', 'script', 'en'));
-        $this->assertFalse(LocaleTestHelper::getTranslation('xyz', 'script'));
-        restore_error_handler();
-    }
-
-    /**
-     * test getTranslationList('country')
-     * expected true
-     */
-    public function testgetCountryTranslationList()
-    {
-        set_error_handler(array($this, 'errorHandlerIgnore'));
-        $list = LocaleTestHelper::getTranslationList('territory');
-        $this->assertTrue(is_array($list));
-
-        $list = LocaleTestHelper::getTranslationList('territory', 'de');
+        $list = LocaleTestHelper::getDisplayTerritory(null, 'de');
         $this->assertEquals("Vereinigte Staaten", $list['US']);
+        $this->assertEquals('Deutschland', LocaleTestHelper::getDisplayTerritory('DE', 'de_DE'));
+        $this->assertEquals('Germany', LocaleTestHelper::getDisplayTerritory('DE', 'en'));
+        $this->assertEquals('Afrika', LocaleTestHelper::getDisplayTerritory('002', 'de_AT'));
+        $this->assertEquals('Africa', LocaleTestHelper::getDisplayTerritory('002', 'en'));
+
+        try {
+            $result = LocaleTestHelper::getDisplayTerritory(null, 'xyz');
+            $this->fail();
+        } catch (\Exception $e) {
+            $this->assertContains('is no known locale', $e->getMessage());
+        }
+
+        $this->assertTrue(is_string(LocaleTestHelper::getDisplayTerritory('DE', 'auto')));
+        $this->assertTrue(is_string(LocaleTestHelper::getDisplayTerritory('002', 'auto')));
         restore_error_handler();
     }
 
     /**
-     * test getTranslation('country')
-     * expected true
+     * Test getTranslation
      */
-    public function testgetCountryTranslation()
-    {
-        set_error_handler(array($this, 'errorHandlerIgnore'));
-        $this->assertEquals('Deutschland', LocaleTestHelper::getTranslation('DE', 'country', 'de_DE'));
-        $this->assertEquals('Germany', LocaleTestHelper::getTranslation('DE', 'country', 'en'));
-        $this->assertFalse(LocaleTestHelper::getTranslation('xyz', 'country'));
-        restore_error_handler();
-    }
-
-    /**
-     * test getTranslationList('territory')
-     * expected true
-     */
-    public function testgetTerritoryTranslationList()
-    {
-        set_error_handler(array($this, 'errorHandlerIgnore'));
-        $list = LocaleTestHelper::getTranslationList('territory');
-        $this->assertTrue(is_array($list));
-
-        $list = LocaleTestHelper::getTranslationList('territory', 'de');
-        $this->assertTrue(is_array($list));
-        restore_error_handler();
-    }
-
-    /**
-     * test getTranslation('territory')
-     * expected true
-     */
-    public function testgetTerritoryTranslation()
-    {
-        set_error_handler(array($this, 'errorHandlerIgnore'));
-        $this->assertEquals('Afrika', LocaleTestHelper::getTranslation('002', 'territory', 'de_AT'));
-        $this->assertEquals('Africa', LocaleTestHelper::getTranslation('002', 'territory', 'en'));
-        $this->assertFalse(LocaleTestHelper::getTranslation('xyz', 'territory'));
-        $this->assertTrue(is_string(LocaleTestHelper::getTranslation('002', 'territory', 'auto')));
-        restore_error_handler();
-    }
-
-    /**
-     * test getTranslation
-     * expected true
-     */
-    public function testgetTranslation()
+    public function _OLD_testgetTranslation()
     {
         try {
             $temp = LocaleTestHelper::getTranslation('xx');
@@ -337,22 +293,6 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
         } catch (InvalidArgumentException $e) {
             $this->assertContains('Unknown detail (', $e->getMessage());
         }
-
-        $this->assertEquals('Deutsch', LocaleTestHelper::getTranslation('de', 'language', 'de_DE'));
-        $this->assertEquals('German', LocaleTestHelper::getTranslation('de', 'language', 'en'));
-        $this->assertFalse(LocaleTestHelper::getTranslation('xx', 'language'));
-
-        $this->assertEquals('Lateinisch', LocaleTestHelper::getTranslation('Latn', 'script', 'de_DE'));
-        $this->assertEquals('Latin', LocaleTestHelper::getTranslation('Latn', 'script', 'en'));
-        $this->assertFalse(LocaleTestHelper::getTranslation('xyxy', 'script'));
-
-        $this->assertEquals('Österreich', LocaleTestHelper::getTranslation('AT', 'country', 'de_DE'));
-        $this->assertEquals('Austria', LocaleTestHelper::getTranslation('AT', 'country', 'en'));
-        $this->assertFalse(LocaleTestHelper::getTranslation('xx', 'country'));
-
-        $this->assertEquals('Afrika', LocaleTestHelper::getTranslation('002', 'territory', 'de_DE'));
-        $this->assertEquals('Africa', LocaleTestHelper::getTranslation('002', 'territory', 'en'));
-        $this->assertFalse(LocaleTestHelper::getTranslation('xxx', 'territory'));
 
         $this->assertEquals('Januar', LocaleTestHelper::getTranslation('1', 'month', 'de_DE'));
         $this->assertEquals('January', LocaleTestHelper::getTranslation('1', 'month', 'en'));
@@ -416,10 +356,9 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test getTranslationList
-     * expected true
+     * Test getTranslationList
      */
-    public function testgetTranslationList()
+    public function _OLD_testgetTranslationList()
     {
         try {
             $temp = LocaleTestHelper::getTranslationList();
@@ -427,15 +366,6 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
         } catch (InvalidArgumentException $e) {
             $this->assertContains('Unknown list (', $e->getMessage());
         }
-
-        $this->assertTrue(in_array('Deutsch', LocaleTestHelper::getTranslationList('language', 'de_DE')));
-        $this->assertTrue(in_array('German', LocaleTestHelper::getTranslationList('language', 'en')));
-
-        $this->assertTrue(in_array('Lateinisch', LocaleTestHelper::getTranslationList('script', 'de_DE')));
-        $this->assertTrue(in_array('Latin', LocaleTestHelper::getTranslationList('script', 'en')));
-
-        $this->assertTrue(in_array('Afrika', LocaleTestHelper::getTranslationList('territory', 'de_DE')));
-        $this->assertTrue(in_array('Africa', LocaleTestHelper::getTranslationList('territory', 'en')));
 
         $this->assertTrue(in_array('Chinesischer Kalender', LocaleTestHelper::getTranslationList('type', 'de_DE', 'calendar')));
         $this->assertTrue(in_array('Chinese Calendar', LocaleTestHelper::getTranslationList('type', 'en', 'calendar')));
@@ -497,8 +427,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test for equality
-     * expected string
+     * Test for equality
      */
     public function testEquals()
     {
@@ -510,10 +439,9 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test getQuestion
-     * expected true
+     * Test getQuestion
      */
-    public function testgetQuestion()
+    public function _OLD_testgetQuestion()
     {
         $list = LocaleTestHelper::getQuestion();
         $this->assertTrue(isset($list['yes']));
@@ -537,8 +465,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test getBrowser
-     * expected true
+     * Test getBrowser
      */
     public function testgetBrowser()
     {
@@ -561,8 +488,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test getHttpCharset
-     * expected true
+     * Test getHttpCharset
      */
     public function testgetHttpCharset()
     {
@@ -580,8 +506,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test isLocale
-     * expected boolean
+     * Test isLocale
      */
     public function testIsLocale()
     {
@@ -602,8 +527,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test isLocale
-     * expected boolean
+     * Test getLocaleList
      */
     public function testGetLocaleList()
     {
@@ -611,8 +535,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test setFallback
-     * expected true
+     * Test setFallback
      */
     public function testsetFallback()
     {
@@ -708,8 +631,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test isLocale
-     * expected boolean
+     * @group ZF-3617
      */
     public function testZF3617()
     {
@@ -718,7 +640,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @group ZF4963
+     * @group ZF-4963
      */
     public function testZF4963()
     {
@@ -736,8 +658,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test MultiPartLocales
-     * expected boolean
+     * Test MultiPartLocales
      */
     public function testLongLocale()
     {
@@ -752,8 +673,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * test SunLocales
-     * expected boolean
+     * Test SunLocales
      */
     public function testSunLocale()
     {
@@ -766,7 +686,7 @@ class LocaleTest extends \PHPUnit_Framework_TestCase
      */
     public function testFailedLocaleOnPreTranslations()
     {
-        $this->assertEquals('Andorra', LocaleTestHelper::getTranslation('AD', 'country', 'gl_GL'));
+        $this->assertEquals('Andorra', LocaleTestHelper::getDisplayTerritory('AD', 'gl_GL'));
     }
 
     /**

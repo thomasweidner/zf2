@@ -301,60 +301,6 @@ class Cldr extends AbstractLocale
 
         $temp = array();
         switch(strtolower($path)) {
-            case 'variant':
-                $temp = self::_getFile('main/' . $locale, '/ldml/localeDisplayNames/variants/variant', 'type');
-                break;
-
-            case 'key':
-                $temp = self::_getFile('main/' . $locale, '/ldml/localeDisplayNames/keys/key', 'type');
-                break;
-
-            case 'type':
-                if (empty($type)) {
-                    $temp = self::_getFile('main/' . $locale, '/ldml/localeDisplayNames/types/type', 'type');
-                } else {
-                    if (($value == 'calendar') or
-                        ($value == 'collation') or
-                        ($value == 'currency')) {
-                        $temp = self::_getFile('main/' . $locale, '/ldml/localeDisplayNames/types/type[@key=\'' . $value . '\']', 'type');
-                    } else {
-                        $temp = self::_getFile('main/' . $locale, '/ldml/localeDisplayNames/types/type[@type=\'' . $value . '\']', 'type');
-                    }
-                }
-                break;
-
-            case 'layout':
-                $temp  = self::_getFile('main/' . $locale, '/ldml/layout/orientation',                 'lines',      'lines');
-                $temp += self::_getFile('main/' . $locale, '/ldml/layout/orientation',                 'characters', 'characters');
-                $temp += self::_getFile('main/' . $locale, '/ldml/layout/inList',                      '',           'inList');
-                $temp += self::_getFile('main/' . $locale, '/ldml/layout/inText[@type=\'currency\']',  '',           'currency');
-                $temp += self::_getFile('main/' . $locale, '/ldml/layout/inText[@type=\'dayWidth\']',  '',           'dayWidth');
-                $temp += self::_getFile('main/' . $locale, '/ldml/layout/inText[@type=\'fields\']',    '',           'fields');
-                $temp += self::_getFile('main/' . $locale, '/ldml/layout/inText[@type=\'keys\']',      '',           'keys');
-                $temp += self::_getFile('main/' . $locale, '/ldml/layout/inText[@type=\'languages\']', '',           'languages');
-                $temp += self::_getFile('main/' . $locale, '/ldml/layout/inText[@type=\'long\']',      '',           'long');
-                $temp += self::_getFile('main/' . $locale, '/ldml/layout/inText[@type=\'measurementSystemNames\']', '', 'measurementSystemNames');
-                $temp += self::_getFile('main/' . $locale, '/ldml/layout/inText[@type=\'monthWidth\']',   '',        'monthWidth');
-                $temp += self::_getFile('main/' . $locale, '/ldml/layout/inText[@type=\'quarterWidth\']', '',        'quarterWidth');
-                $temp += self::_getFile('main/' . $locale, '/ldml/layout/inText[@type=\'scripts\']',   '',           'scripts');
-                $temp += self::_getFile('main/' . $locale, '/ldml/layout/inText[@type=\'territories\']',  '',        'territories');
-                $temp += self::_getFile('main/' . $locale, '/ldml/layout/inText[@type=\'types\']',     '',           'types');
-                $temp += self::_getFile('main/' . $locale, '/ldml/layout/inText[@type=\'variants\']',  '',           'variants');
-                break;
-
-            case 'characters':
-                $temp  = self::_getFile('main/' . $locale, '/ldml/characters/exemplarCharacters',                           '', 'characters');
-                $temp += self::_getFile('main/' . $locale, '/ldml/characters/exemplarCharacters[@type=\'auxiliary\']',      '', 'auxiliary');
-                $temp += self::_getFile('main/' . $locale, '/ldml/characters/exemplarCharacters[@type=\'currencySymbol\']', '', 'currencySymbol');
-                break;
-
-            case 'delimiters':
-                $temp  = self::_getFile('main/' . $locale, '/ldml/delimiters/quotationStart',          '', 'quoteStart');
-                $temp += self::_getFile('main/' . $locale, '/ldml/delimiters/quotationEnd',            '', 'quoteEnd');
-                $temp += self::_getFile('main/' . $locale, '/ldml/delimiters/alternateQuotationStart', '', 'quoteStartAlt');
-                $temp += self::_getFile('main/' . $locale, '/ldml/delimiters/alternateQuotationEnd',   '', 'quoteEndAlt');
-                break;
-
             case 'measurement':
                 $temp  = self::_getFile('supplemental/supplementalData', '/supplementalData/measurementData/measurementSystem[@type=\'metric\']', 'territories', 'metric');
                 $temp += self::_getFile('supplemental/supplementalData', '/supplementalData/measurementData/measurementSystem[@type=\'US\']',     'territories', 'US');
@@ -900,14 +846,6 @@ class Cldr extends AbstractLocale
         }
 
         switch(strtolower($path)) {
-            case 'variant':
-                $temp = self::_getFile('main/' . $locale, '/ldml/localeDisplayNames/variants/variant[@type=\'' . $value . '\']', 'type');
-                break;
-
-            case 'key':
-                $temp = self::_getFile('main/' . $locale, '/ldml/localeDisplayNames/keys/key[@type=\'' . $value . '\']', 'type');
-                break;
-
             case 'defaultcalendar':
                 $temp = self::_getFile('main/' . $locale, '/ldml/dates/calendars/default', 'choice', 'default');
                 break;
@@ -1530,12 +1468,20 @@ class Cldr extends AbstractLocale
                 }
             }
 
-            $result = $file->xpath($valuePath);
-            foreach($result as $element) {
-                if ($valueAttrib === null) {
-                    $values[] = (string) $element;
-                } else {
-                    $values[] = (string) $element[$valueAttrib];
+            if ($valuePath !== null) {
+                $result = $file->xpath($valuePath);
+                foreach($result as $element) {
+                    if ($valueAttrib === null) {
+                        $values[] = (string) $element;
+                    } else {
+                        $values[] = (string) $element[$valueAttrib];
+                    }
+                }
+            } else {
+                $values = $keys;
+                $keys   = array();
+                for ($i = 0; $i < count($values); ++$i) {
+                    $keys[] = (string) $i;
                 }
             }
 
@@ -1575,7 +1521,22 @@ class Cldr extends AbstractLocale
      */
     protected static function readCldrFile($filePath, $locale, $keyPath, $keyAttrib, $valuePath, $valueAttrib)
     {
-        self::readCldrDetail($filePath, $locale, $keyPath, $keyAttrib, $valuePath, $valueAttrib);
+        if (($valuePath === null) && ($keyAttrib !== null)) {
+            // Special case numeric key without value
+            $temps = self::$_result;
+            self::$_result = array();
+            self::readCldrDetail($filePath, $locale, $keyPath, $keyAttrib, $valuePath, $valueAttrib);
+            foreach($temps as $temp) {
+                $place = array_search($temp, self::$_result);
+                if ($place) {
+                    self::$_result[$place] = $temp;
+                } else {
+                    self::$_result[] = $temp;
+                }
+            }
+        } else {
+            self::readCldrDetail($filePath, $locale, $keyPath, $keyAttrib, $valuePath, $valueAttrib);
+        }
 
         if ($locale !== 'root') {
             $locale = substr($locale, 0, -strlen(strrchr($locale, '_')));
@@ -1612,14 +1573,19 @@ class Cldr extends AbstractLocale
             throw new UnexpectedValueException('The given path needs to be a directory');
         }
 
+        $cacheId .= $locale;
         if (self::getCache() !== null && !self::isCacheDisabled()) {
             if ($result = self::getCache()->load($cacheId)) {
+                $result = unserialize($result);
                 if ($detail !== null) {
-                    $result = unserialize($result);
-                    return $result[$detail];
+                    if (array_key_exists($detail, $result)) {
+                        return $result[$detail];
+                    }
+
+                    return false;
                 }
 
-                return unserialize($result);
+                return $result;
             }
         }
 
@@ -1634,7 +1600,11 @@ class Cldr extends AbstractLocale
         }
 
         if ($detail !== null) {
-            return self::$_result[$detail];
+            if (array_key_exists($detail, $result)) {
+                return self::$_result[$detail];
+            }
+
+            return false;
         }
 
         return self::$_result;
@@ -1644,23 +1614,24 @@ class Cldr extends AbstractLocale
      * Returns detailed informations from the language table
      * If no detail is given a complete table is returned
      *
+     * @param string  $detail Detail to return information for
      * @param string  $locale Normalized locale
      * @param boolean $invert Invert output of the data
-     * @param string|array $detail Detail to return information for
-     * @return array
+     * @return string|array
      */
-    public static function getDisplayLanguage($locale, $invert = false, $detail = null)
+    public static function getDisplayLanguage($detail = null, $locale = null, $invert = false)
     {
+        $locale = (string) Locale::findLocale($locale);
         if (!$invert) {
             return self::readCldr(
-                self::getPath() . '/main', (string) $locale, 'CldrLanguage0',
+                self::getPath() . '/main', $locale, 'CldrLanguage0',
                 '//ldml/localeDisplayNames/languages/language', 'type',
                 '//ldml/localeDisplayNames/languages/language', null,
                 $detail
             );
         } else {
             return self::readCldr(
-                self::getPath() . '/main',(string) $locale, 'CldrLanguage1',
+                self::getPath() . '/main', $locale, 'CldrLanguage1',
                 '//ldml/localeDisplayNames/languages/language', null,
                 '//ldml/localeDisplayNames/languages/language', 'type',
                 $detail
@@ -1672,23 +1643,24 @@ class Cldr extends AbstractLocale
      * Returns detailed informations from the script table
      * If no detail is given a complete table is returned
      *
+     * @param string  $detail Detail to return information for
      * @param string  $locale Normalized locale
      * @param boolean $invert Invert output of the data
-     * @param string|array $detail Detail to return information for
-     * @return array
+     * @return string|array
      */
-    public static function getDisplayScript($locale, $invert = false, $detail = null)
+    public static function getDisplayScript($detail = null, $locale = null, $invert = false)
     {
+        $locale = (string) Locale::findLocale($locale);
         if (!$invert) {
             return self::readCldr(
-                self::getPath() . '/main', (string) $locale, 'CldrScript0',
+                self::getPath() . '/main', $locale, 'CldrScript0',
                 '//ldml/localeDisplayNames/scripts/script', 'type',
                 '//ldml/localeDisplayNames/scripts/script', null,
                 $detail
             );
         } else {
             return self::readCldr(
-                self::getPath() . '/main',(string) $locale, 'CldrScript1',
+                self::getPath() . '/main', $locale, 'CldrScript1',
                 '//ldml/localeDisplayNames/scripts/script', null,
                 '//ldml/localeDisplayNames/scripts/script', 'type',
                 $detail
@@ -1700,23 +1672,24 @@ class Cldr extends AbstractLocale
      * Returns detailed informations from the territory table
      * If no detail is given a complete table is returned
      *
+     * @param string  $detail Detail to return information for
      * @param string  $locale Normalized locale
      * @param boolean $invert Invert output of the data
-     * @param string|array $detail Detail to return information for
-     * @return array
+     * @return string|array
      */
-    public static function getDisplayTerritory($locale, $invert = false, $detail = null)
+    public static function getDisplayTerritory($detail = null, $locale = null, $invert = false)
     {
+        $locale = (string) Locale::findLocale($locale);
         if (!$invert) {
             return self::readCldr(
-                self::getPath() . '/main', (string) $locale, 'CldrTerritory0',
+                self::getPath() . '/main', $locale, 'CldrTerritory0',
                 '//ldml/localeDisplayNames/territories/territory', 'type',
                 '//ldml/localeDisplayNames/territories/territory', null,
                 $detail
             );
         } else {
             return self::readCldr(
-                self::getPath() . '/main',(string) $locale, 'CldrTerritory1',
+                self::getPath() . '/main', $locale, 'CldrTerritory1',
                 '//ldml/localeDisplayNames/territories/territory', null,
                 '//ldml/localeDisplayNames/territories/territory', 'type',
                 $detail
@@ -1728,23 +1701,24 @@ class Cldr extends AbstractLocale
      * Returns detailed informations from the variant table
      * If no detail is given a complete table is returned
      *
+     * @param string  $detail Detail to return information for
      * @param string  $locale Normalized locale
      * @param boolean $invert Invert output of the data
-     * @param string|array $detail Detail to return information for
-     * @return array
+     * @return string|array
      */
-    public static function getDisplayVariant($locale, $invert = false, $detail = null)
+    public static function getDisplayVariant($detail = null, $locale = null, $invert = false)
     {
+        $locale = (string) Locale::findLocale($locale);
         if (!$invert) {
             return self::readCldr(
-                self::getPath() . '/main', (string) $locale, 'CldrVariant0',
+                self::getPath() . '/main', $locale, 'CldrVariant0',
                 '//ldml/localeDisplayNames/variants/variant', 'type',
                 '//ldml/localeDisplayNames/variants/variant', null,
                 $detail
             );
         } else {
             return self::readCldr(
-                self::getPath() . '/main',(string) $locale, 'CldrVariant1',
+                self::getPath() . '/main', $locale, 'CldrVariant1',
                 '//ldml/localeDisplayNames/variants/variant', null,
                 '//ldml/localeDisplayNames/variants/variant', 'type',
                 $detail
@@ -1752,21 +1726,404 @@ class Cldr extends AbstractLocale
         }
     }
 
+    /**
+     * Returns detailed informations from the key table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getDisplayKey($detail = null, $locale = null, $invert = false)
+    {
+        $locale = (string) Locale::findLocale($locale);
+        if (!$invert) {
+            return self::readCldr(
+                self::getPath() . '/main', $locale, 'CldrKey0',
+                '//ldml/localeDisplayNames/keys/key', 'type',
+                '//ldml/localeDisplayNames/keys/key', null,
+                $detail
+            );
+        } else {
+            return self::readCldr(
+                self::getPath() . '/main', $locale, 'CldrKey1',
+                '//ldml/localeDisplayNames/keys/key', null,
+                '//ldml/localeDisplayNames/keys/key', 'type',
+                $detail
+            );
+        }
+    }
+
+    /**
+     * Returns detailed informations from the type table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     * @TODO  return key and type detail values independently... see testcase
+     */
+    public static function getDisplayType($detail = null, $locale = null, $invert = false)
+    {
+        $locale = (string) Locale::findLocale($locale);
+        $result = self::readCldr(
+            self::getPath() . '/main', $locale, 'CldrType0',
+            '//ldml/localeDisplayNames/types/type', 'type',
+            '//ldml/localeDisplayNames/types/type', 'key', null
+        );
+
+        $result2 = self::readCldr(
+            self::getPath() . '/main', $locale, 'CldrType1',
+            '//ldml/localeDisplayNames/types/type', 'type',
+            '//ldml/localeDisplayNames/types/type', null, null
+        );
+
+        $final = array();
+        foreach ($result as $type => $key) {
+            if (!$invert) {
+                if (($detail !== null) &&  ($detail === $type)) {
+                return $result2[$type];
+            }
+
+                $final[$key][$type] = $result2[$type];
+            } else {
+                if (($detail !== null) &&  ($detail === $result2[$type])) {
+                return $type;
+            }
+
+                $final[$key][$result2[$type]] = $type;
+            }
+        }
+
+        if ($detail !== null) {
+            if (array_key_exists($detail, $final)) {
+                return $final[$detail];
+            }
+
+            return false;
+        }
+
+        return $final;
+    }
+
+    /**
+     * Returns detailed informations from the measurement table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getDisplayMeasurement($detail = null, $locale = null, $invert = false)
+    {
+        $locale = (string) Locale::findLocale($locale);
+        if (!$invert) {
+            return self::readCldr(
+                self::getPath() . '/main', $locale, 'CldrMeasure0',
+                '//ldml/localeDisplayNames/measurementSystemNames/measurementSystemName', 'type',
+                '//ldml/localeDisplayNames/measurementSystemNames/measurementSystemName', null,
+                $detail
+            );
+        } else {
+            return self::readCldr(
+                self::getPath() . '/main', $locale, 'CldrMeasure1',
+                '//ldml/localeDisplayNames/measurementSystemNames/measurementSystemName', null,
+                '//ldml/localeDisplayNames/measurementSystemNames/measurementSystemName', 'type',
+                $detail
+            );
+        }
+    }
+
+    /**
+     * Returns detailed informations from the pattern table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getDisplayPattern($detail = null, $locale = null, $invert = false)
+    {
+        $locale = (string) Locale::findLocale($locale);
+        if (!$invert) {
+            return self::readCldr(
+                self::getPath() . '/main', $locale, 'CldrCodePattern0',
+                '//ldml/localeDisplayNames/codePatterns/codePattern', 'type',
+                '//ldml/localeDisplayNames/codePatterns/codePattern', null,
+                $detail
+            );
+        } else {
+            return self::readCldr(
+                self::getPath() . '/main', $locale, 'CldrCodePattern1',
+                '//ldml/localeDisplayNames/codePatterns/codePattern', null,
+                '//ldml/localeDisplayNames/codePatterns/codePattern', 'type',
+                $detail
+            );
+        }
+    }
+
+    /**
+     * Returns detailed informations from the layout table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getLayout($detail = null, $locale = null, $invert = false)
+    {
+        $locale      = (string) Locale::findLocale($locale);
+        $orientation = current(self::readCldr(
+            self::getPath() . '/main', $locale, 'CldrLayout0',
+            '//ldml/layout/orientation', null, null, null, null
+        ));
+
+        $inList = self::readCldr(
+            self::getPath() . '/main', $locale, 'CldrLayout1',
+            '//ldml/layout/inList', null, null, null, null
+        );
+
+        if (!$invert) {
+            if ($detail == 'orientation') {
+                return $orientation;
+            } else if ($detail == 'inList') {
+                return $inList;
+            }
+
+            $result  = array('orientation' => $orientation, 'inList' => $inList);
+            $result2 = self::readCldr(
+                self::getPath() . '/main', $locale, 'CldrLayout2',
+                '//ldml/layout/inText', 'type',
+                '//ldml/layout/inText', null,
+                $detail
+            );
+        } else {
+            if (($detail !== null) && ($detail == $orientation)) {
+                return 'orientation';
+            } else if (($detail !== null) && ($detail == $inList)) {
+                return 'inList';
+            }
+
+            $result  = array($orientation => 'orientation', $inList => 'inList');
+            $result2 = self::readCldr(
+                self::getPath() . '/main', $locale, 'CldrLayout3',
+                '//ldml/layout/inText', null,
+                '//ldml/layout/inText', 'type',
+                $detail
+            );
+        }
+
+        if (is_string($result2)) {
+            return $result2;
+        } else if (!$result2) {
+            return false;
+        }
+
+        return array_merge($result, $result2);
+    }
+
+    /**
+     * Returns detailed informations from the character table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getCharacter($detail = null, $locale = null, $invert = false)
+    {
+        $locale   = (string) Locale::findLocale($locale);
+        $exemplar = current(self::readCldr(
+            self::getPath() . '/main', $locale, 'CldrCharacter0',
+            '//ldml/characters/exemplarCharacters', null, null, null, null
+        ));
+
+        $more = current(self::readCldr(
+            self::getPath() . '/main', $locale, 'CldrCharacter1',
+            '//ldml/characters/moreInformation', null, null, null, null
+        ));
+
+        if (!$invert) {
+            if ($detail == 'exemplar') {
+                return $exemplar;
+            } else if ($detail == 'more') {
+                return $more;
+            }
+
+            $result  = array('exemplar' => $exemplar, 'more' => $more);
+            $result2 = self::readCldr(
+                self::getPath() . '/main', $locale, 'CldrCharacter2',
+                '//ldml/characters/exemplarCharacters', 'type',
+                '//ldml/characters/exemplarCharacters', null,
+                $detail
+            );
+            $result3 = self::readCldr(
+                self::getPath() . '/main', $locale, 'CldrCharacter3',
+                '//ldml/characters/ellipsis', 'type',
+                '//ldml/characters/ellipsis', null,
+                $detail
+            );
+        } else {
+            if (($detail !== null) && ($detail == $exemplar)) {
+                return 'exemplar';
+            } else if (($detail !== null) && ($detail == $more)) {
+                return 'more';
+            }
+
+            $result  = array($exemplar => 'exemplar', $more => 'more');
+            $result2 = self::readCldr(
+                self::getPath() . '/main', $locale, 'CldrCharacter4',
+                '//ldml/characters/exemplarCharacters', null,
+                '//ldml/characters/exemplarCharacters', 'type',
+                $detail
+            );
+            $result3 = self::readCldr(
+                self::getPath() . '/main', $locale, 'CldrCharacter5',
+                '//ldml/characters/ellipsis', null,
+                '//ldml/characters/ellipsis', 'type',
+                $detail
+            );
+        }
+
+        if (is_string($result2)) {
+            return $result2;
+        } else if (is_string($result3)) {
+            return $result3;
+        } else if ((!$result2) || (!$result3)) {
+            return false;
+        }
+
+        return array_merge($result, $result2, $result3);
+    }
+
+    /**
+     * Returns detailed informations from the delimiter table
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getDelimiter($detail = null, $locale = null, $invert = false)
+    {
+        $locale = (string) Locale::findLocale($locale);
+        $start  = current(self::readCldr(
+            self::getPath() . '/main', $locale, 'CldrDelimiter0',
+            '//ldml/delimiters/quotationStart', null, null, null, null
+        ));
+
+        $end = current(self::readCldr(
+            self::getPath() . '/main', $locale, 'CldrDelimiter1',
+            '//ldml/delimiters/quotationEnd', null, null, null, null
+        ));
+
+        $altStart  = current(self::readCldr(
+            self::getPath() . '/main', $locale, 'CldrDelimiter2',
+            '//ldml/delimiters/alternateQuotationStart', null, null, null, null
+        ));
+
+        $altEnd = current(self::readCldr(
+            self::getPath() . '/main', $locale, 'CldrDelimiter3',
+            '//ldml/delimiters/alternateQuotationEnd', null, null, null, null
+        ));
+
+        if (!$invert) {
+            if ($detail == 'start') {
+                return $start;
+            } else if ($detail == 'end') {
+                return $end;
+            } else if ($detail == 'alternateStart') {
+                return $altStart;
+            } else if ($detail == 'alternateEnd') {
+                return $altEnd;
+            } else if ($detail === null) {
+                return array(
+                    'start' => $start, 'end' => $end,
+                    'alternateStart' => $altStart, 'alternateEnd' => $altEnd,
+                );
+            }
+        } else {
+            if ($detail !== null) {
+                if ($detail == $start) {
+                    return 'start';
+                } else if ($detail == $end) {
+                    return 'end';
+                } else if ($detail == $altStart) {
+                    return 'alternateStart';
+                } else if ($detail == $altEnd) {
+                    return 'alternateEnd';
+                }
+            } else {
+                return array(
+                    $start => 'start', $end => 'end',
+                    $altStart => 'alternateStart', $altEnd => 'alternateEnd',
+                );
+            }
+        }
+
+        return false;
+    }
+
+    /**
+     * Returns detailed informations from the calendar defaults
+     * If no detail is given a complete table is returned
+     *
+     * @param string  $detail Detail to return information for
+     * @param string  $locale Normalized locale
+     * @param boolean $invert Invert output of the data
+     * @return string|array
+     */
+    public static function getCalendarDefault($detail = null, $locale = null, $invert = false)
+    {
+        $locale  = (string) Locale::findLocale($locale);
+        $default = current(self::readCldr(
+            self::getPath() . '/main', $locale, 'CldrCalendarDefault0',
+            '//ldml/dates/calendars/default', 'choice', null, null, null
+        ));
+
+        $calendars = self::readCldr(
+            self::getPath() . '/main', $locale, 'CldrCalendarDefault1',
+            '//ldml/dates/calendars/calendar', 'type', null, null, null
+        );
+
+        $dateFormat = self::readCldr(
+            self::getPath() . '/main', $locale, 'CldrCalendarDefault2',
+            '//ldml/dates/calendars/calendar', 'type', '//ldml/dates/calendars/calendar/dateFormats/default', 'choice', null
+        );
+
+//        $calendars = array('buddhist', 'chinese', 'coptic', 'ethiopic', 'ethiopic-amete-alem', 'gregorian', 'hebrew'
+//        'indian', 'islamic', 'islamic-civil', 'japanese', 'persian', 'roc');
+
+//['default']
+//['gregorian']['dateFormat']
+//['gregorian']['month']
+//['gregorian']['monthContext']
+//['gregorian']['day']
+//['gregorian']['dayContext']
+//['gregorian']['timeFormat']
+//['gregorian']['dateTimeFormat']
+
+//ldml/dates/calendars/default
+//ldml/dates/calendars/calendar[xxx]/dateFormats/default
+//ldml/dates/calendars/calendar[xxx]/months/default
+//ldml/dates/calendars/calendar[xxx]/months/monthContext/default
+//ldml/dates/calendars/calendar[xxx]/days/default
+//ldml/dates/calendars/calendar[xxx]/days/dayContext/default
+//ldml/dates/calendars/calendar[xxx]/timeFormats/default
+//ldml/dates/calendars/calendar[xxx]/dateTimeFormats/default
+
+// Month-Context
+// DateFormat-Defaults
+    }
+
 // Formatierungen in Klassen integrieren
 // Mathklassen überarbeiten
 // Get SHORT types
-
-// getLocaleDisplayPattern
-// getKey
-// getType (Key)
-// getTransformName
-// getMeasurementSystemName
-// getCodePattern
-// getExemplarCharacter
-// getDelimiter
-// getDateFormat (calendar)
-// getDateTimeFormat (calendar) - length
-// getMonth (calendar, context, width) -
-// getDay (calendar, context, width)
-//
 }

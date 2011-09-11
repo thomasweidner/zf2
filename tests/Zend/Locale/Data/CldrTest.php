@@ -21,10 +21,10 @@
 
 namespace ZendTest\Locale;
 
-use Zend\Locale\Data\Cldr,
-    Zend\Locale\Exception\InvalidArgumentException,
-    Zend\Locale\Locale,
-    Zend\Cache\Cache;
+use \Zend\Locale\Data\Cldr,
+    \Zend\Locale\Exception\InvalidArgumentException,
+    \Zend\Locale\Locale,
+    \Zend\Cache\Cache;
 
 /**
  * @category   Zend
@@ -36,201 +36,343 @@ use Zend\Locale\Data\Cldr,
  */
 class CldrTest extends \PHPUnit_Framework_TestCase
 {
-
     private $_cache = null;
 
     public function setUp()
     {
-        $this->_cache =Cache::factory('Core', 'File',
+        $this->_cache = Cache::factory('Core', 'File',
                  array('lifetime' => 1, 'automatic_serialization' => true),
-                 array('cache_dir' => __DIR__ . '/../_files/'));
+                 array('cache_dir' => __DIR__ . '/../../_files/'));
         Cldr::setCache($this->_cache);
     }
 
 
     public function tearDown()
     {
-        $this->_cache->clean(Cache::CLEANING_MODE_ALL);
+        if ($this->_cache !== null) {
+            $this->_cache->clean(Cache::CLEANING_MODE_ALL);
+        }
     }
 
     /**
-     * test for reading with standard locale
-     * expected array
+     * Test reading with standard locale
      */
     public function testNoLocale()
     {
-        $this->assertTrue(is_array(Cldr::getList(null, 'language')));
+        $this->assertTrue(is_array(Cldr::getDisplayLanguage()));
 
         try {
-            $value = Cldr::getList('nolocale','language');
+            $value = Cldr::getDisplayLanguage(null, 'nolocale');
             $this->fail('locale should throw exception');
         } catch (InvalidArgumentException $e) {
             // success
         }
 
         $locale = new Locale('de');
-        $this->assertTrue(is_array(Cldr::getList($locale, 'language')));
+        $this->assertTrue(is_array(Cldr::getDisplayLanguage(null, $locale)));
     }
 
-
     /**
-     * test for reading without type
-     * expected empty array
+     * Test getDisplayLanguage
      */
-    public function testNoType()
+    public function testGetDisplayLanguage()
     {
-        try {
-            $value = Cldr::getContent('de','');
-            $this->fail('content should throw an exception');
-        } catch (InvalidArgumentException $e) {
-            // success
-        }
-
-        try {
-            $value = Cldr::getContent('de','xxxxxxx');
-            $this->fail('content should throw an exception');
-        } catch (InvalidArgumentException $e) {
-            // success
-        }
-    }
-
-
-    /**
-     * test for reading the languagelist from locale
-     * expected array
-     */
-    public function testLanguage()
-    {
-        $data = Cldr::getList('de','language');
+        $data = Cldr::getDisplayLanguage(null, 'de');
         $this->assertEquals('Deutsch',  $data['de']);
         $this->assertEquals('Englisch', $data['en']);
 
-        $value = Cldr::getContent('de', 'language', 'de');
+        $value = Cldr::getDisplayLanguage('de', 'de');
         $this->assertEquals('Deutsch', $value);
+
+        $data = Cldr::getDisplayLanguage('invalid content', 'de');
+        $this->assertFalse($data);
+
+        $data = Cldr::getDisplayLanguage(null, 'de', true);
+        $this->assertEquals('de', $data['Deutsch']);
+        $this->assertEquals('en', $data['Englisch']);
+
+        $data = Cldr::getDisplayLanguage('Deutsch', 'de', true);
+        $this->assertEquals('de', $data);
+
+        $data = Cldr::getDisplayLanguage('invalid content', 'de', true);
+        $this->assertFalse($data);
     }
 
     /**
-     * test for reading the scriptlist from locale
-     * expected array
+     * Test getDisplayScript
      */
-    public function testScript()
+    public function testGetDisplayScript()
     {
-        $data = Cldr::getList('de_AT', 'script');
+        $data = Cldr::getDisplayScript(null, 'de_AT');
         $this->assertEquals('Arabisch',   $data['Arab']);
         $this->assertEquals('Lateinisch', $data['Latn']);
 
-        $value = Cldr::getContent('de_AT', 'script', 'Arab');
-        $this->assertEquals('Arabisch', $value);
+        $data = Cldr::getDisplayScript('Arab', 'de_AT');
+        $this->assertEquals('Arabisch', $data);
+
+        $data = Cldr::getDisplayScript('invalid content', 'de_AT');
+        $this->assertFalse($data);
+
+        $data = Cldr::getDisplayScript(null, 'de_AT', true);
+        $this->assertEquals('Arab', $data['Arabisch']);
+        $this->assertEquals('Latn', $data['Lateinisch']);
+
+        $data = Cldr::getDisplayScript('Arabisch', 'de_AT', true);
+        $this->assertEquals('Arab', $data);
+
+        $data = Cldr::getDisplayScript('invalid content', 'de_AT', true);
+        $this->assertFalse($data);
     }
 
     /**
-     * test for reading the territorylist from locale
-     * expected array
+     * Test getDisplayTerritory
      */
-    public function testTerritory()
+    public function testGetDisplayTerritory()
     {
-        $data = Cldr::getList('de_AT', 'territory');
-        $this->assertEquals('Österreich', $data['AT']);
-        $this->assertEquals('Martinique', $data['MQ']);
+        $data = Cldr::getDisplayTerritory(null, 'de_AT');
+        $this->assertEquals('Deutschland', $data['DE']);
+        $this->assertEquals('Martinique',  $data['MQ']);
 
-        $value = Cldr::getContent('de_AT', 'territory', 'AT');
-        $this->assertEquals('Österreich', $value);
+        $data = Cldr::getDisplayTerritory('DE', 'de_AT');
+        $this->assertEquals('Deutschland', $data);
+
+        $data = Cldr::getDisplayTerritory('invalid content', 'de_AT');
+        $this->assertFalse($data);
+
+        $data = Cldr::getDisplayTerritory(null, 'de_AT', true);
+        $this->assertEquals('DE', $data['Deutschland']);
+        $this->assertEquals('MQ', $data['Martinique']);
+
+        $data = Cldr::getDisplayTerritory('Deutschland', 'de_AT', true);
+        $this->assertEquals('DE', $data);
+
+        $data = Cldr::getDisplayTerritory('invalid content', 'de_AT', true);
+        $this->assertFalse($data);
     }
 
     /**
-     * test for reading the variantlist from locale
-     * expected array
+     * Test getDisplayVariant
      */
-    public function testVariant()
+    public function testGetDisplayVariant()
     {
-        $data = Cldr::getList('de_AT', 'variant');
+        $data = Cldr::getDisplayVariant();
         $this->assertEquals('Boontling', $data['BOONT']);
         $this->assertEquals('Saho',      $data['SAAHO']);
 
-        $value = Cldr::getContent('de_AT', 'variant', 'POSIX');
-        $this->assertEquals('Posix', $value);
+        $data = Cldr::getDisplayVariant('POSIX', 'de_AT');
+        $this->assertEquals('Posix', $data);
+
+        $data = Cldr::getDisplayVariant('invalid content', 'de_AT');
+        $this->assertFalse($data);
+
+        $data = Cldr::getDisplayVariant(null, 'de_AT', true);
+        $this->assertEquals('BOONT', $data['Boontling']);
+        $this->assertEquals('SAAHO', $data['Saho']);
+
+        $data = Cldr::getDisplayVariant('Posix', 'de_AT', true);
+        $this->assertEquals('POSIX', $data);
+
+        $data = Cldr::getDisplayVariant('invalid content', 'de_AT', true);
+        $this->assertFalse($data);
     }
 
     /**
-     * test for reading the keylist from locale
-     * expected array
+     * Test getDisplayKey
      */
-    public function testKey()
+    public function testGetDisplayKey()
     {
-        $data = Cldr::getList('de_AT', 'key');
+        $data = Cldr::getDisplayKey(null, 'de_AT');
         $this->assertEquals('Kalender',   $data['calendar']);
         $this->assertEquals('Sortierung', $data['collation']);
 
-        $value = Cldr::getContent('de_AT', 'key', 'collation');
-        $this->assertEquals('Sortierung', $value);
+        $data = Cldr::getDisplayKey('collation', 'de_AT');
+        $this->assertEquals('Sortierung', $data);
+
+        $data = Cldr::getDisplayKey('invalid content', 'de_AT');
+        $this->assertFalse($data);
+
+        $data = Cldr::getDisplayKey(null, 'de_AT', true);
+        $this->assertEquals('calendar',  $data['Kalender']);
+        $this->assertEquals('collation', $data['Sortierung']);
+
+        $data = Cldr::getDisplayKey('Sortierung', 'de_AT', true);
+        $this->assertEquals('collation', $data);
+
+        $data = Cldr::getDisplayKey('invalid content', 'de_AT', true);
+        $this->assertFalse($data);
     }
 
     /**
-     * test for reading the typelist from locale
-     * expected array
+     * Test getDisplayType
      */
-    public function testType()
+    public function testGetDisplayType()
     {
-        $data = Cldr::getList('de_AT', 'type');
-        $this->assertEquals('Chinesischer Kalender', $data['chinese']);
-        $this->assertEquals('Strichfolge',           $data['stroke']);
+        $data = Cldr::getDisplayType(null, 'de_AT');
+        $this->assertEquals('Chinesischer Kalender', $data['calendar']['chinese']);
+        $this->assertEquals('Strichfolge',           $data['collation']['stroke']);
 
-        $data = Cldr::getList('de_AT', 'type', 'calendar');
+        $data = Cldr::getDisplayType('calendar', 'de_AT');
         $this->assertEquals('Chinesischer Kalender', $data['chinese']);
         $this->assertEquals('Japanischer Kalender',  $data['japanese']);
 
-        $value = Cldr::getList('de_AT', 'type', 'chinese');
-        $this->assertEquals('Chinesischer Kalender', $value['chinese']);
+        $data = Cldr::getDisplayType('chinese', 'de_AT');
+        $this->assertEquals('Chinesischer Kalender', $data);
+
+        $data = Cldr::getDisplayType('invalid content', 'de_AT');
+        $this->assertFalse($data);
+
+        $data = Cldr::getDisplayType(null, 'de_AT', true);
+        $this->assertEquals('chinese', $data['calendar']['Chinesischer Kalender']);
+        $this->assertEquals('stroke',  $data['collation']['Strichfolge']);
+
+        $data = Cldr::getDisplayType('calendar', 'de_AT', true);
+        $this->assertEquals('chinese',  $data['Chinesischer Kalender']);
+        $this->assertEquals('japanese', $data['Japanischer Kalender']);
+
+        $data = Cldr::getDisplayType('Chinesischer Kalender', 'de_AT', true);
+        $this->assertEquals('chinese', $data);
+
+        $data = Cldr::getDisplayType('invalid content', 'de_AT', true);
+        $this->assertFalse($data);
     }
 
     /**
-     * test for reading layout from locale
-     * expected array
+     * Test getDisplayMeasurement
      */
-    public function testLayout()
+    public function testGetDisplayMeasurement()
     {
-        $layout = Cldr::getList('es', 'layout');
-        $this->assertEquals("", $layout['lines']);
-        $this->assertEquals("", $layout['characters']);
-        $this->assertEquals("titlecase-firstword", $layout['inList']);
-        $this->assertEquals("lowercase-words",     $layout['currency']);
-        $this->assertEquals("mixed",               $layout['dayWidth']);
-        $this->assertEquals("lowercase-words",     $layout['fields']);
-        $this->assertEquals("lowercase-words",     $layout['keys']);
-        $this->assertEquals("lowercase-words",     $layout['languages']);
-        $this->assertEquals("lowercase-words",     $layout['long']);
-        $this->assertEquals("lowercase-words",     $layout['measurementSystemNames']);
-        $this->assertEquals("mixed",               $layout['monthWidth']);
-        $this->assertEquals("lowercase-words",     $layout['quarterWidth']);
-        $this->assertEquals("lowercase-words",     $layout['scripts']);
-        $this->assertEquals("mixed",               $layout['territories']);
-        $this->assertEquals("lowercase-words",     $layout['types']);
-        $this->assertEquals("mixed",               $layout['variants']);
+        $data = Cldr::getDisplayMeasurement(null, 'de_AT');
+        $this->assertEquals('Metrisch',          $data['metric']);
+        $this->assertEquals('Angloamerikanisch', $data['US']);
+
+        $data = Cldr::getDisplayMeasurement('metric', 'de_AT');
+        $this->assertEquals('Metrisch', $data);
+
+        $data = Cldr::getDisplayMeasurement('invalid content', 'de_AT');
+        $this->assertFalse($data);
+
+        $data = Cldr::getDisplayMeasurement(null, 'de_AT', true);
+        $this->assertEquals('metric', $data['Metrisch']);
+        $this->assertEquals('US',     $data['Angloamerikanisch']);
+
+        $data = Cldr::getDisplayMeasurement('Metrisch', 'de_AT', true);
+        $this->assertEquals('metric', $data);
+
+        $data = Cldr::getDisplayMeasurement('invalid content', 'de_AT', true);
+        $this->assertFalse($data);
     }
 
     /**
-     * test for reading characters from locale
-     * expected array
+     * Test getDisplayPattern
      */
-    public function testCharacters()
+    public function testGetDisplayPattern()
     {
-        $char = Cldr::getList('de', 'characters');
-        $this->assertEquals("[a ä b c d e f g h i j k l m n o ö p q r s t u ü v w x y z ß]", $char['characters']);
-        $this->assertEquals("[á à ă â å ā æ ç é è ĕ ê ë ē í ì ĭ î ï ī ñ ó ò ŏ ô ø ō œ ú ù ŭ û ū ÿ]", $char['auxiliary']);
-        $this->assertEquals("[a b c d e f g h i j k l m n o p q r s t u v w x y z]", $char['currencySymbol']);
+        $data = Cldr::getDisplayPattern(null, 'de_AT');
+        $this->assertEquals('Sprache: {0}', $data['language']);
+        $this->assertEquals('Schrift: {0}', $data['script']);
+
+        $data = Cldr::getDisplayPattern('language', 'de_AT');
+        $this->assertEquals('Sprache: {0}', $data);
+
+        $data = Cldr::getDisplayPattern('invalid content', 'de_AT');
+        $this->assertFalse($data);
+
+        $data = Cldr::getDisplayPattern(null, 'de_AT', true);
+        $this->assertEquals('language', $data['Sprache: {0}']);
+        $this->assertEquals('script',   $data['Schrift: {0}']);
+
+        $data = Cldr::getDisplayPattern('Sprache: {0}', 'de_AT', true);
+        $this->assertEquals('language', $data);
+
+        $data = Cldr::getDisplayPattern('invalid content', 'de_AT', true);
+        $this->assertFalse($data);
     }
 
     /**
-     * test for reading delimiters from locale
-     * expected array
+     * Test getLayout
      */
-    public function testDelimiters()
+    public function testGetLayout()
     {
-        $quote = Cldr::getList('de', 'delimiters');
-        $this->assertEquals("„", $quote['quoteStart']);
-        $this->assertEquals("“", $quote['quoteEnd']);
-        $this->assertEquals("‚", $quote['quoteStartAlt']);
-        $this->assertEquals("‘", $quote['quoteEndAlt']);
+        $data = Cldr::getLayout(null, 'de_AT');
+        $this->assertEquals('mixed', $data['currency']);
+        $this->assertEquals('', $data['orientation']);
+
+        $data = Cldr::getLayout('currency', 'de_AT');
+        $this->assertEquals('mixed', $data);
+
+        $data = Cldr::getLayout('invalid content', 'de_AT');
+        $this->assertFalse($data);
+
+        $data = Cldr::getLayout(null, 'de_AT', true);
+        $this->assertEquals('orientation', $data['']);
+        $this->assertEquals('currency',   $data['mixed']);
+
+        $data = Cldr::getLayout('mixed', 'de_AT', true);
+        $this->assertEquals('inList', $data);
+
+        $data = Cldr::getLayout('invalid content', 'de_AT', true);
+        $this->assertFalse($data);
+    }
+
+    /**
+     * Test getCharacter
+     */
+    public function testGetCharacters()
+    {
+        $data = Cldr::getCharacter(null, 'de_AT');
+        $this->assertEquals('[a b c d e f g h i j k l m n o p q r s t u v w x y z]', $data['currencySymbol']);
+        $this->assertEquals('{0}…{1}', $data['medial']);
+        $this->assertEquals('?', $data['more']);
+
+        $data = Cldr::getCharacter('currencySymbol', 'de_AT');
+        $this->assertEquals('[a b c d e f g h i j k l m n o p q r s t u v w x y z]', $data);
+
+        $data = Cldr::getCharacter('invalid content', 'de_AT');
+        $this->assertFalse($data);
+
+        $data = Cldr::getCharacter(null, 'de_AT', true);
+        $this->assertEquals('index', $data['[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]']);
+        $this->assertEquals('final',   $data['{0}…']);
+
+        $data = Cldr::getCharacter('[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]', 'de_AT', true);
+        $this->assertEquals('index', $data);
+
+        $data = Cldr::getCharacter('invalid content', 'de_AT', true);
+        $this->assertFalse($data);
+    }
+
+    /**
+     * Test getDelimiters
+     */
+    public function testGetDelimiters()
+    {
+        $data = Cldr::getDelimiter(null, 'de_AT');
+        $this->assertEquals("„", $data['start']);
+        $this->assertEquals("‚", $data['alternateStart']);
+
+        $data = Cldr::getDelimiter('start', 'de_AT');
+        $this->assertEquals("„", $data);
+
+        $data = Cldr::getDelimiter('invalid content', 'de_AT');
+        $this->assertFalse($data);
+
+        $data = Cldr::getDelimiter(null, 'de_AT', true);
+        $this->assertEquals('start', $data["„"]);
+
+        $data = Cldr::getDelimiter("„", 'de_AT', true);
+        $this->assertEquals('start', $data);
+
+        $data = Cldr::getDelimiter('invalid content', 'de_AT', true);
+        $this->assertFalse($data);
+    }
+
+    /**
+     * Test getCalendarDefault
+     */
+    public function testGetCalendarDefault()
+    {
+        $date = Cldr::getCalendarDefault(null, 'de_AT');
+        $this->assertEquals("gregorian", $date);
     }
 
     /**
@@ -244,16 +386,6 @@ class CldrTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals("LR MM US",  $measure['US']);
         $this->assertEquals("001", $measure['A4']);
         $this->assertEquals("BZ CA CL CO CR GT MX NI PA PH PR SV US VE",  $measure['US-Letter']);
-    }
-
-    /**
-     * test for reading defaultcalendar from locale
-     * expected array
-     */
-    public function testDefaultCalendar()
-    {
-        $date = Cldr::getContent('de_AT', 'defaultcalendar');
-        $this->assertEquals("gregorian", $date);
     }
 
     /**

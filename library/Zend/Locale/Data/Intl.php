@@ -48,13 +48,14 @@ class Intl extends AbstractLocale
      * Returns detailed informations from the language table
      * If no detail is given a complete table is returned
      *
+     * @param string $detail Detail to return information for
      * @param string  $locale Normalized locale
      * @param boolean $invert Invert output of the data
-     * @param string|array $detail Detail to return information for
-     * @return array
+     * @return string|array
      */
-    public static function getDisplayLanguage($locale, $invert = false, $detail = null)
+    public static function getDisplayLanguage($detail = null, $locale = null, $invert = false)
     {
+        $locale = Locale::findLocale($locale);
         if ($detail !== null) {
             return Locale::getDisplayLanguage($locale);
         } else {
@@ -75,13 +76,14 @@ class Intl extends AbstractLocale
      * Returns detailed informations from the script table
      * If no detail is given a complete table is returned
      *
+     * @param string  $detail Detail to return information for
      * @param string  $locale Normalized locale
      * @param boolean $invert Invert output of the data
-     * @param string|array $detail Detail to return information for
-     * @return array
+     * @return string|array
      */
-    public static function getDisplayScript($locale, $invert = false, $detail = null)
+    public static function getDisplayScript($detail = null, $locale = null, $invert = false)
     {
+        $locale = Locale::findLocale($locale);
         if ($detail !== null) {
             return Locale::getDisplayScript($locale);
         } else {
@@ -102,13 +104,14 @@ class Intl extends AbstractLocale
      * Returns detailed informations from the territory table
      * If no detail is given a complete table is returned
      *
+     * @param string  $detail Detail to return information for
      * @param string  $locale Normalized locale
      * @param boolean $invert Invert output of the data
-     * @param string|array $detail Detail to return information for
-     * @return array
+     * @return string|array
      */
-    public static function getDisplayTerritory($locale, $invert = false, $detail = null)
+    public static function getDisplayTerritory($detail = null, $locale = null, $invert = false)
     {
+        $locale = Locale::findLocale($locale);
         if ($detail !== null) {
             return Locale::getDisplayRegion($locale);
         } else {
@@ -129,13 +132,14 @@ class Intl extends AbstractLocale
      * Returns detailed informations from the variant table
      * If no detail is given a complete table is returned
      *
+     * @param string  $detail Detail to return information for
      * @param string  $locale Normalized locale
      * @param boolean $invert Invert output of the data
-     * @param string|array $detail Detail to return information for
-     * @return array
+     * @return string|array
      */
-    public static function getDisplayVariant($locale, $invert = false, $detail = null)
+    public static function getDisplayVariant($detail = null, $locale = null, $invert = false)
     {
+        $locale = Locale::findLocale($locale);
         if ($detail !== null) {
             return Locale::getDisplayVariant($locale);
         } else {
