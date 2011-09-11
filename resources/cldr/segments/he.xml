@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 5851 $"/>
+		<generation date="$Date: 2011-05-06 01:09:30 -0500 (Fri, 06 May 2011) $"/>
+		<language type="he"/>
+	</identity>
+	<segmentations>
+
+		<segmentation type="LineBreak">
+			<variables>
+
+				<variable id="$AL">[[$AL] - [[:Hebrew:] &amp; [:Letter:]]</variable>
+				<variable id="$HL">[[:Hebrew:] &amp; [:Letter:]]</variable>
+
+				<variable id="$BA">[[$BA] - [\u2010]]</variable>
+				<variable id="$HH">[\u2010]</variable>
+
+
+				<variable id="$HL">($HL $X)</variable>
+				<variable id="$HH">($HH $X)</variable>
+			</variables>
+
+			<segmentRules>
+
+
+
+				<rule id="21.01"> × ($BA | $HH) </rule>
+
+
+				<rule id="22.01"> ($AL | $HL) × $IN </rule>
+
+
+				<rule id="23.02"> ($AL | $HL) × $NU </rule>
+				<rule id="23.03"> $NU × ($AL | $HL) </rule>
+
+
+				<rule id="24.02"> $PR × ($AL | $HL) </rule>
+				<rule id="24.03"> $PO × ($AL | $HL) </rule>
+
+
+				<rule id="28"> ($AL | $HL) × ($AL | $HL) </rule>
+
+
+				<rule id="29"> $IS × ($AL | $HL) </rule>
+
+
+				<rule id="30.01"> ($AL | $HL | $NU) × $OP </rule>
+				<rule id="30.02"> $CP × ($AL | $HL | $NU) </rule>
+
+				<rule id="31"> $HL ($HY | $HH) × ($AL | $HL) </rule>
+			</segmentRules>
+		</segmentation>
+
+	</segmentations>
+</ldml>
