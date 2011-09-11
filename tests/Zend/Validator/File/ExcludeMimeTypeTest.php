@@ -51,7 +51,7 @@ class ExcludeMimeTypeTest extends \PHPUnit_Framework_TestCase
             array('image/gif, image/jpeg', false),
             array(array('image/vasa', 'image/gif'), false),
             array(array('image/jpeg', 'gif'), false),
-            array(array('image/jpeg', 'jpeg'), true),
+            array(array('image/jpeg', 'jpeg', 'application/octet-stream'), true),
         );
 
         $files = array(

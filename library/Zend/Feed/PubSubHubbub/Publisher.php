@@ -384,7 +384,7 @@ class Publisher
     protected function _getHttpClient()
     {
         $client = PubSubHubbub::getHttpClient();
-        $client->setMethod(\Zend\Http\Client::POST);
+        $client->setMethod(\Zend\Http\Request::METHOD_POST);
         $client->setConfig(array(
             'useragent' => 'Zend_Feed_Pubsubhubbub_Publisher/' . \Zend\Version::VERSION,
         ));

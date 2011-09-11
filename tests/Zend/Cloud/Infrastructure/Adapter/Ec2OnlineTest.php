@@ -51,14 +51,14 @@ class Ec2OnlineTest extends TestCase
      * @var Zend\Http\Client\Adapter\Socket
      */
     protected static $httpClientAdapterSocket;
-    
+
     /**
      * Image ID of the instance
-     * 
+     *
      * @var string
      */
     protected static $instanceId;
-    
+
     /**
      * Sets up this test case
      *
@@ -67,18 +67,21 @@ class Ec2OnlineTest extends TestCase
     public static function setUpBeforeClass()
     {
         if (!constant('TESTS_ZEND_SERVICE_AMAZON_ONLINE_ENABLED')) {
-            self::markTestSkipped('Zend\Cloud\Infrastructure\Adapter\Ec2 online tests are not enabled');
-        }
-        if(!defined('TESTS_ZEND_SERVICE_AMAZON_ONLINE_ACCESSKEYID') || !defined('TESTS_ZEND_SERVICE_AMAZON_ONLINE_SECRETKEY')) {
-            self::markTestSkipped('Constants AccessKeyId and SecretKey have to be set.');
+            return;
+            // self::markTestSkipped('Zend\Cloud\Infrastructure\Adapter\Ec2 online tests are not enabled');
         }
 
-        self::$infrastructure = Factory::getAdapter(array( 
-            Factory::INFRASTRUCTURE_ADAPTER_KEY => 'Zend\Cloud\Infrastructure\Adapter\Ec2', 
-            Ec2::AWS_ACCESS_KEY => constant('TESTS_ZEND_SERVICE_AMAZON_ONLINE_ACCESSKEYID'), 
-            Ec2::AWS_SECRET_KEY => constant('TESTS_ZEND_SERVICE_AMAZON_ONLINE_SECRETKEY'), 
-            Ec2::AWS_REGION     => constant('TESTS_ZEND_SERVICE_AMAZON_EC2_ZONE')   
-        )); 
+        if(!defined('TESTS_ZEND_SERVICE_AMAZON_ONLINE_ACCESSKEYID') || !defined('TESTS_ZEND_SERVICE_AMAZON_ONLINE_SECRETKEY')) {
+            return;
+            // self::markTestSkipped('Constants AccessKeyId and SecretKey have to be set.');
+        }
+
+        self::$infrastructure = Factory::getAdapter(array(
+            Factory::INFRASTRUCTURE_ADAPTER_KEY => 'Zend\Cloud\Infrastructure\Adapter\Ec2',
+            Ec2::AWS_ACCESS_KEY => constant('TESTS_ZEND_SERVICE_AMAZON_ONLINE_ACCESSKEYID'),
+            Ec2::AWS_SECRET_KEY => constant('TESTS_ZEND_SERVICE_AMAZON_ONLINE_SECRETKEY'),
+            Ec2::AWS_REGION     => constant('TESTS_ZEND_SERVICE_AMAZON_EC2_ZONE')
+        ));
 
         self::$httpClientAdapterSocket = new Socket();
 
@@ -94,10 +97,18 @@ class Ec2OnlineTest extends TestCase
      */
     public function setUp()
     {
+        if (!constant('TESTS_ZEND_SERVICE_AMAZON_ONLINE_ENABLED')) {
+            $this->markTestSkipped('Zend\Cloud\Infrastructure\Adapter\Ec2 online tests are not enabled');
+        }
+
+        if(!defined('TESTS_ZEND_SERVICE_AMAZON_ONLINE_ACCESSKEYID') || !defined('TESTS_ZEND_SERVICE_AMAZON_ONLINE_SECRETKEY')) {
+            $this->markTestSkipped('Constants AccessKeyId and SecretKey have to be set.');
+        }
+
         // terms of use compliance: no more than two queries per second
         sleep(2);
     }
-    
+
     /**
      * Test all the constants of the class
      */
@@ -111,7 +122,7 @@ class Ec2OnlineTest extends TestCase
     /**
      * Test construct with missing params
      */
-    public function testConstructExceptionMissingParams() 
+    public function testConstructExceptionMissingParams()
     {
         $this->setExpectedException(
             'Zend\Cloud\Infrastructure\Adapter\Exception\InvalidArgumentException',
@@ -238,7 +249,7 @@ class Ec2OnlineTest extends TestCase
      */
     public function testStartInstance()
     {
-        $this->markTestSkipped('Test start instance skipped');   
+        $this->markTestSkipped('Test start instance skipped');
     }
 
     /**
@@ -250,7 +261,7 @@ class Ec2OnlineTest extends TestCase
             $this->assertTrue(self::$infrastructure->rebootInstance(self::$instanceId));
         } else {
              $this->markTestSkipped('I cannot reboot the instance because is not in the running state');
-        }    
+        }
     }
 
     /**
@@ -261,27 +272,3 @@ class Ec2OnlineTest extends TestCase
         $this->assertTrue(self::$infrastructure->destroyInstance(self::$instanceId));
     }
 }
-
-
-/**
- * @category   Zend
- * @package    Zend\Cloud\Infrastructure\Adapter\Ec2
- * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @group      Zend\Cloud\Infrastructure
- * @group      Zend\Cloud\Infrastructure\Adapter\Ec2
- */
-class Skip extends TestCase
-{
-    public function setUp()
-    {
-        $this->markTestSkipped('Zend\Cloud\Infrastructure\Adapter\Ec2 online tests not enabled with an access key ID in '
-                             . 'TestConfiguration.php');
-    }
-
-    public function testNothing()
-    {
-    }
-}
-

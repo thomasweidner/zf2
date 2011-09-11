@@ -48,14 +48,14 @@ class RackspaceOnlineTest extends \PHPUnit_Framework_TestCase
      * @var Zend\Http\Client\Adapter\Socket
      */
     protected static $httpClientAdapterSocket;
-    
+
     /**
      * Image ID of the instance
-     * 
+     *
      * @var string
      */
     protected static $instanceId;
-    
+
     /**
      * Sets up this test case
      *
@@ -64,18 +64,20 @@ class RackspaceOnlineTest extends \PHPUnit_Framework_TestCase
     public static function setUpBeforeClass()
     {
         if (!constant('TESTS_ZEND_SERVICE_RACKSPACE_ONLINE_ENABLED')) {
-            self::markTestSkipped('Zend\Cloud\Infrastructure\Adapter\Rackspace online tests are not enabled');
+            return;
+            // self::markTestSkipped('Zend\Cloud\Infrastructure\Adapter\Rackspace online tests are not enabled');
         }
         if(!defined('TESTS_ZEND_SERVICE_RACKSPACE_ONLINE_USER') || !defined('TESTS_ZEND_SERVICE_RACKSPACE_ONLINE_KEY')) {
-            self::markTestSkipped('Constants User and Key have to be set.');
+            return;
+            // self::markTestSkipped('Constants User and Key have to be set.');
         }
 
-        self::$infrastructure = \Zend\Cloud\Infrastructure\Factory::getAdapter(array( 
-            \Zend\Cloud\Infrastructure\Factory::INFRASTRUCTURE_ADAPTER_KEY => 'Zend\Cloud\Infrastructure\Adapter\Rackspace', 
-            \Zend\Cloud\Infrastructure\Adapter\Rackspace::RACKSPACE_USER   => constant('TESTS_ZEND_SERVICE_RACKSPACE_ONLINE_USER'), 
-            \Zend\Cloud\Infrastructure\Adapter\Rackspace::RACKSPACE_KEY    => constant('TESTS_ZEND_SERVICE_RACKSPACE_ONLINE_KEY'), 
-            \Zend\Cloud\Infrastructure\Adapter\Rackspace::RACKSPACE_REGION => constant('TESTS_ZEND_SERVICE_RACKSPACE_ONLINE_REGION')   
-        )); 
+        self::$infrastructure = \Zend\Cloud\Infrastructure\Factory::getAdapter(array(
+            \Zend\Cloud\Infrastructure\Factory::INFRASTRUCTURE_ADAPTER_KEY => 'Zend\Cloud\Infrastructure\Adapter\Rackspace',
+            \Zend\Cloud\Infrastructure\Adapter\Rackspace::RACKSPACE_USER   => constant('TESTS_ZEND_SERVICE_RACKSPACE_ONLINE_USER'),
+            \Zend\Cloud\Infrastructure\Adapter\Rackspace::RACKSPACE_KEY    => constant('TESTS_ZEND_SERVICE_RACKSPACE_ONLINE_KEY'),
+            \Zend\Cloud\Infrastructure\Adapter\Rackspace::RACKSPACE_REGION => constant('TESTS_ZEND_SERVICE_RACKSPACE_ONLINE_REGION')
+        ));
 
         self::$httpClientAdapterSocket = new \Zend\Http\Client\Adapter\Socket();
 
@@ -90,10 +92,18 @@ class RackspaceOnlineTest extends \PHPUnit_Framework_TestCase
      */
     public function setUp()
     {
+        if (!constant('TESTS_ZEND_SERVICE_RACKSPACE_ONLINE_ENABLED')) {
+            $this->markTestSkipped('Zend\Cloud\Infrastructure\Adapter\Rackspace online tests are not enabled');
+        }
+
+        if(!defined('TESTS_ZEND_SERVICE_RACKSPACE_ONLINE_USER') || !defined('TESTS_ZEND_SERVICE_RACKSPACE_ONLINE_KEY')) {
+            $this->markTestSkipped('Constants User and Key have to be set.');
+        }
+
         // terms of use compliance: no more than two queries per second
         sleep(2);
     }
-    
+
     /**
      * Test all the constants of the class
      */
@@ -109,7 +119,7 @@ class RackspaceOnlineTest extends \PHPUnit_Framework_TestCase
     /**
      * Test construct with missing params
      */
-    public function testConstructExceptionMissingParams() 
+    public function testConstructExceptionMissingParams()
     {
         $this->setExpectedException(
             'Zend\Cloud\Infrastructure\Adapter\Exception\InvalidArgumentException',
@@ -214,7 +224,7 @@ class RackspaceOnlineTest extends \PHPUnit_Framework_TestCase
      */
     public function testStartInstance()
     {
-        $this->markTestSkipped('Test start instance skipped');   
+        $this->markTestSkipped('Test start instance skipped');
     }
     /**
      * Test reboot and instance
@@ -225,7 +235,7 @@ class RackspaceOnlineTest extends \PHPUnit_Framework_TestCase
             $this->assertTrue(self::$infrastructure->rebootInstance(self::$instanceId));
         } else {
              $this->markTestSkipped('I cannot reboot the instance because is not in the running state');
-        }    
+        }
     }
     /**
      * Test destroy instance
@@ -236,27 +246,3 @@ class RackspaceOnlineTest extends \PHPUnit_Framework_TestCase
         $this->assertTrue(self::$infrastructure->destroyInstance(self::$instanceId));
     }
 }
-
-
-/**
- * @category   Zend
- * @package    Zend\Cloud\Infrastructure\Adapter\Rackspace
- * @subpackage UnitTests
- * @copyright  Copyright (c) 2005-2011 Zend Technologies USA Inc. (http://www.zend.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @group      Zend\Cloud\Infrastructure
- * @group      Zend\Cloud\Infrastructure\Adapter\Rackspace
- */
-class Skip extends \PHPUnit_Framework_TestCase
-{
-    public function setUp()
-    {
-        $this->markTestSkipped('Zend\Cloud\Infrastructure\Adapter\Rackspace online tests not enabled in '
-                             . 'TestConfiguration.php');
-    }
-
-    public function testNothing()
-    {
-    }
-}
-

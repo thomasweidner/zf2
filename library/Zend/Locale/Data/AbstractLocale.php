@@ -119,6 +119,10 @@ abstract class AbstractLocale
      */
     public static function clearCache($tag = null)
     {
+        if (!self::hasCache()) {
+            return;
+        }
+
         if (self::$_cacheTags) {
             if ($tag == null) {
                 $tag = 'Zend_Locale';
