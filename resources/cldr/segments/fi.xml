@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<ldml>
+	<identity>
+		<version number="$Revision: 5851 $"/>
+		<generation date="$Date: 2011-05-06 01:09:30 -0500 (Fri, 06 May 2011) $"/>
+		<language type="fi"/>
+	</identity>
+	<segmentations>
+
+		<segmentation type="LineBreak">
+			<variables>
+
+				<variable id="$BA">[[$BA] - [\u2010]]</variable>
+				<variable id="$HH">[\u2010]</variable>
+
+
+				<variable id="$HH">($HH $X)</variable>
+			</variables>
+
+			<segmentRules>
+
+				<rule id="20.09"> $SP ÷ ($HY | $HH) $AL </rule>
+
+				<rule id="21.01"> × ($BA | $HH) </rule>
+			</segmentRules>
+		</segmentation>
+
+	</segmentations>
+</ldml>
