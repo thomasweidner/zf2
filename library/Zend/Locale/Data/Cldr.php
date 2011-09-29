@@ -1909,6 +1909,18 @@ class Cldr extends AbstractLocale
                 return 'inList';
             }
 
+            if ($orientation == '') {
+                $orientation = 0;
+            } else if (is_array($orientation)) {
+                $orientation = current($orientation);
+            }
+
+            if ($inList == '') {
+                $inList = 1;
+            } else if (is_array($inList)) {
+                $inList = current($inList);
+            }
+
             $result  = array($orientation => 'orientation', $inList => 'inList');
             $result2 = self::readCldr(
                 self::getPath() . '/main', $locale, 'CldrLayout3',

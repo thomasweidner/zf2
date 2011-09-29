@@ -304,11 +304,11 @@ class CldrTest extends \PHPUnit_Framework_TestCase
         $this->assertFalse($data);
 
         $data = Cldr::getLayout(null, 'de_AT', true);
-        $this->assertEquals('orientation', $data['']);
+        $this->assertEquals('orientation', $data[0]);
         $this->assertEquals('currency',   $data['mixed']);
 
         $data = Cldr::getLayout('mixed', 'de_AT', true);
-        $this->assertEquals('inList', $data);
+        $this->assertEquals('currency', $data);
 
         $data = Cldr::getLayout('invalid content', 'de_AT', true);
         $this->assertFalse($data);
@@ -321,7 +321,7 @@ class CldrTest extends \PHPUnit_Framework_TestCase
     {
         $data = Cldr::getCharacter(null, 'de_AT');
         $this->assertEquals('[a b c d e f g h i j k l m n o p q r s t u v w x y z]', $data['currencySymbol']);
-        $this->assertEquals('{0}…{1}', $data['medial']);
+        $this->assertEquals('{0} … {1}', $data['medial']);
         $this->assertEquals('?', $data['more']);
 
         $data = Cldr::getCharacter('currencySymbol', 'de_AT');
