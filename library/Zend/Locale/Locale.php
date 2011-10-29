@@ -378,8 +378,8 @@ class Locale
      *
      * @var string
      */
-    protected static $_library = 'Cldr';
-    
+    protected static $library = 'Intl';
+
     /**
      * Generates a locale object
      * If no locale is given a automatic search is done
@@ -760,74 +760,8 @@ class Locale
      */
     public static function __callStatic($name, array $arguments)
     {
-    	$callback = array(__NAMESPACE__ . '\\Data\\' . self::$_library, $name);
+        $callback = array(__NAMESPACE__ . '\\Data\\' . self::$library, $name);
         return call_user_func_array($callback, $arguments);
-    }
-
-    /**
-     * Returns an array with translated yes strings
-     *
-     * @param  string|\Zend\Locale\Locale $locale (Optional) Locale for language translation
-     * @return array
-     */
-    public static function _OLD_getQuestion($locale = null)
-    {
-        $locale            = self::findLocale($locale);
-        $quest             = Data\Cldr::getList($locale, 'question');
-        $yes               = explode(':', $quest['yes']);
-        $no                = explode(':', $quest['no']);
-        $quest['yes']      = $yes[0];
-        $quest['yesarray'] = $yes;
-        $quest['no']       = $no[0];
-        $quest['noarray']  = $no;
-        $quest['yesexpr']  = self::_prepareQuestionString($yes);
-        $quest['noexpr']   = self::_prepareQuestionString($no);
-
-        return $quest;
-    }
-
-    /**
-     * Internal function for preparing the returned question regex string
-     *
-     * @param  string $input Regex to parse
-     * @return string
-     */
-    private static function _OLD__prepareQuestionString($input)
-    {
-        $regex = '';
-        if (is_array($input) === true) {
-            $regex = '^';
-            $start = true;
-            foreach ($input as $row) {
-                if ($start === false) {
-                    $regex .= '|';
-                }
-
-                $start  = false;
-                $regex .= '(';
-                $one    = null;
-                if (strlen($row) > 2) {
-                    $one = true;
-                }
-
-                foreach (str_split($row, 1) as $char) {
-                    $regex .= '[' . $char;
-                    $regex .= strtoupper($char) . ']';
-                    if ($one === true) {
-                        $one    = false;
-                        $regex .= '(';
-                    }
-                }
-
-                if ($one === false) {
-                    $regex .= ')';
-                }
-
-                $regex .= '?)';
-            }
-        }
-
-        return $regex;
     }
 
     /**
@@ -936,6 +870,26 @@ class Locale
         $list = self::$_localeData;
         unset($list['root']);
         return $list;
+    }
+
+    /**
+     * Sets if CLDR should be used which decreases performance
+     * When no parameter is given, the actual set value is returned
+     *
+     * @param bool $use
+     * @return bool
+     */
+    public static function useCldr($use = null)
+    {
+        if ($use === null) {
+            return self::$library;
+        }
+
+        if ($use) {
+            self::$library = 'Cldr';
+        } else {
+            self::$library = 'Intl';
+        }
     }
 
     /**

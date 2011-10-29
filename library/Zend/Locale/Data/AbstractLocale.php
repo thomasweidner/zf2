@@ -26,7 +26,7 @@ namespace Zend\Locale\Data;
 
 use Zend\Cache\Cache,
     Zend\Cache\Frontend as CacheFrontend,
-    Zend\Locale\Locale,
+    Zend\Locale\Locale as ZFLocale,
     Zend\Locale\Exception\InvalidArgumentException,
     Zend\Locale\Exception\UnsupportedMethodException;
 
@@ -159,6 +159,36 @@ abstract class AbstractLocale
     public static function hasCacheTagSupport()
     {
       return self::$_cacheTags;
+    }
+
+    /**
+     * Prepares the complete cache when not set
+     *
+     * @return boolean  Returns true when the cache has been prepared and false when there were errors
+     */
+    public static function prepareCache()
+    {
+        if (!self::hasCache()) {
+            throw new UnexpectedValueException('Please set a cache to be prepared');
+        }
+
+        $locales = ZFLocale::getLocaleList();
+        foreach ($locales as $locale => $value) {
+            self::getDisplayLanguage(null, $locale, false);
+            self::getDisplayLanguage(null, $locale, true);
+            self::getDisplayScript(null, $locale, false);
+            self::getDisplayScript(null, $locale, true);
+            self::getDisplayTerritory(null, $locale, false);
+            self::getDisplayTerritory(null, $locale, true);
+            self::getDisplayVariant(null, $locale, false);
+            self::getDisplayVariant(null, $locale, true);
+            self::getDisplayKey(null, $locale, false);
+            self::getDisplayKey(null, $locale, true);
+            self::getDisplayType(null, $locale, false);
+            self::getDisplayType(null, $locale, true);
+            self::getDisplayMeasurement(null, $locale, false);
+            self::getDisplayMeasurement(null, $locale, true);
+        }
     }
 
     /**

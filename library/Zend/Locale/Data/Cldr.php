@@ -26,7 +26,7 @@ namespace Zend\Locale\Data;
 
 use Zend\Cache\Cache,
     Zend\Cache\Frontend as CacheFrontend,
-    Zend\Locale\Locale,
+    Zend\Locale\Locale as ZFLocale,
     Zend\Locale\Exception\InvalidArgumentException,
     Zend\Locale\Exception\UnexpectedValueException;
 

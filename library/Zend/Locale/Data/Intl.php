@@ -28,7 +28,8 @@ use Zend\Cache\Cache,
     Zend\Cache\Frontend as CacheFrontend,
     Zend\Locale\Locale as ZFLocale,
     Zend\Locale\Exception\InvalidArgumentException,
-    Zend\Locale\Exception\UnexpectedValueException;
+    Zend\Locale\Exception\UnexpectedValueException,
+    Zend\Locale\Exception\UnsupportedMethodException;
 
 /**
  * Locale data provider, handles INTL
@@ -45,6 +46,21 @@ use Zend\Cache\Cache,
 class Intl extends AbstractLocale
 {
     /**
+     * Checks if Intl is available at all as it could be disabled even on PHP5.3
+     *
+     * @throws UnsupportedMethodExtension When Intl is missing
+     * @return bool
+     */
+    protected static function isCldrAvailable()
+    {
+        if (!extension_loaded('intl')) {
+            throw new UnsupportedMethodException('Missing intl extension');
+        }
+
+        return true;
+    }
+
+    /**
      * Returns detailed informations from the language table
      * If no detail is given a complete table is returned
      *
@@ -55,13 +71,14 @@ class Intl extends AbstractLocale
      */
     public static function getDisplayLanguage($detail = null, $locale = null, $invert = false)
     {
-        $locale = Locale::findLocale($locale);
+        self::isCldrAvailable();
+        $locale = ZFLocale::findLocale($locale);
         if ($detail !== null) {
-            return Locale::getDisplayLanguage($locale);
+            return locale_get_display_language($locale);
         } else {
             $list = ZFLocale::getLocaleList();
             foreach($list as $key => $value) {
-                $list[$key] = Locale::getDisplayLanguage($key);
+                $list[$key] = locale_get_display_language($key);
             }
 
             if ($invert) {
@@ -83,13 +100,14 @@ class Intl extends AbstractLocale
      */
     public static function getDisplayScript($detail = null, $locale = null, $invert = false)
     {
-        $locale = Locale::findLocale($locale);
+        self::isCldrAvailable();
+        $locale = ZFLocale::findLocale($locale);
         if ($detail !== null) {
-            return Locale::getDisplayScript($locale);
+            return locale_get_display_script($locale);
         } else {
             $list = ZFLocale::getLocaleList();
             foreach($list as $key => $value) {
-                $list[$key] = Locale::getDisplayScript($key);
+                $list[$key] = locale_get_display_script($key);
             }
 
             if ($invert) {
@@ -111,13 +129,14 @@ class Intl extends AbstractLocale
      */
     public static function getDisplayTerritory($detail = null, $locale = null, $invert = false)
     {
-        $locale = Locale::findLocale($locale);
+        self::isCldrAvailable();
+        $locale = ZFLocale::findLocale($locale);
         if ($detail !== null) {
-            return Locale::getDisplayRegion($locale);
+            return locale_get_display_region($locale);
         } else {
             $list = ZFLocale::getLocaleList();
             foreach($list as $key => $value) {
-                $list[$key] = Locale::getDisplayRegion($key);
+                $list[$key] = locale_get_display_region($key);
             }
 
             if ($invert) {
@@ -139,13 +158,14 @@ class Intl extends AbstractLocale
      */
     public static function getDisplayVariant($detail = null, $locale = null, $invert = false)
     {
-        $locale = Locale::findLocale($locale);
+        self::isCldrAvailable();
+        $locale = ZFLocale::findLocale($locale);
         if ($detail !== null) {
-            return Locale::getDisplayVariant($locale);
+            return locale_get_display_variant($locale);
         } else {
             $list = ZFLocale::getLocaleList();
             foreach($list as $key => $value) {
-                $list[$key] = Locale::getDisplayVariant($key);
+                $list[$key] = locale_get_display_variant($key);
             }
 
             if ($invert) {
